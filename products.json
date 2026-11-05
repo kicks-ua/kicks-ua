@@ -1,1 +1,936 @@
-[]
+[
+  {
+    "id": "crm-oolf76",
+    "createdAt": "2026-11-05T19:25:00.705Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "212866",
+    "name": "ASICS Gel-Kahana 8 Beige Navy 36",
+    "brand": "Asics",
+    "category": "Asics",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {
+      "Розмір": "36"
+    },
+    "variants": [
+      {
+        "size": "36",
+        "price": 2100,
+        "stock": 5,
+        "sku": "В5063-1474568"
+      },
+      {
+        "size": "37",
+        "price": 2100,
+        "stock": 4,
+        "sku": "В5063-1474569"
+      },
+      {
+        "size": "38",
+        "price": 2100,
+        "stock": 6,
+        "sku": "В5063-1474570"
+      },
+      {
+        "size": "39",
+        "price": 2100,
+        "stock": 9,
+        "sku": "В5063-1474571"
+      },
+      {
+        "size": "40",
+        "price": 2100,
+        "stock": 3,
+        "sku": "В5063-1474572"
+      },
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 5,
+        "sku": "В5063-1474573"
+      }
+    ],
+    "price": 2100,
+    "stock": 32,
+    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "images": []
+  },
+  {
+    "id": "crm-pik8a3",
+    "createdAt": "2026-11-05T19:25:00.705Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "212869",
+    "name": "ASICS Gel-Kahana 8 Beige White Navy 36",
+    "brand": "Asics",
+    "category": "Asics",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {
+      "Розмір": "36"
+    },
+    "variants": [
+      {
+        "size": "36",
+        "price": 2100,
+        "stock": 2,
+        "sku": "В5066-1474602"
+      },
+      {
+        "size": "37",
+        "price": 2100,
+        "stock": 2,
+        "sku": "В5066-1474603"
+      },
+      {
+        "size": "38",
+        "price": 2100,
+        "stock": 2,
+        "sku": "В5066-1474604"
+      },
+      {
+        "size": "39",
+        "price": 2100,
+        "stock": 4,
+        "sku": "В5066-1474605"
+      },
+      {
+        "size": "40",
+        "price": 2100,
+        "stock": 2,
+        "sku": "В5066-1474606"
+      },
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 2,
+        "sku": "В5066-1474607"
+      }
+    ],
+    "price": 2100,
+    "stock": 14,
+    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "images": []
+  },
+  {
+    "id": "crm-eisptk",
+    "createdAt": "2026-11-05T19:25:00.706Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "226571",
+    "name": "ASICS Gel-Flux 4 Beige Navy 36",
+    "brand": "Asics",
+    "category": "Asics",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {
+      "Розмір": "36"
+    },
+    "variants": [
+      {
+        "size": "36",
+        "price": 1900,
+        "stock": 3,
+        "sku": "В5546-1582197"
+      },
+      {
+        "size": "37",
+        "price": 1900,
+        "stock": 2,
+        "sku": "В5546-1582198"
+      },
+      {
+        "size": "38",
+        "price": 1900,
+        "stock": 8,
+        "sku": "В5546-1582199"
+      },
+      {
+        "size": "39",
+        "price": 1900,
+        "stock": 8,
+        "sku": "В5546-1582200"
+      },
+      {
+        "size": "40",
+        "price": 1900,
+        "stock": 2,
+        "sku": "В5546-1582201"
+      },
+      {
+        "size": "41",
+        "price": 1900,
+        "stock": 1,
+        "sku": "В5546-1582202"
+      }
+    ],
+    "price": 1900,
+    "stock": 24,
+    "description": "Матеріал : шкіра , наскрізна сіткаВиробник : В'єтнам",
+    "images": []
+  },
+  {
+    "id": "crm-cavw9s",
+    "createdAt": "2026-11-05T19:25:00.706Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "226579",
+    "name": "ASICS Gel-Flux 4 White Silver Beige 36",
+    "brand": "Asics",
+    "category": "Asics",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {
+      "Розмір": "36"
+    },
+    "variants": [
+      {
+        "size": "36",
+        "price": 1900,
+        "stock": 3,
+        "sku": "В5551-1582285"
+      },
+      {
+        "size": "37",
+        "price": 1900,
+        "stock": 4,
+        "sku": "В5551-1582286"
+      },
+      {
+        "size": "38",
+        "price": 1900,
+        "stock": 6,
+        "sku": "В5551-1582287"
+      },
+      {
+        "size": "39",
+        "price": 1900,
+        "stock": 9,
+        "sku": "В5551-1582288"
+      },
+      {
+        "size": "40",
+        "price": 1900,
+        "stock": 2,
+        "sku": "В5551-1582289"
+      },
+      {
+        "size": "41",
+        "price": 1900,
+        "stock": 2,
+        "sku": "В5551-1582290"
+      }
+    ],
+    "price": 1900,
+    "stock": 26,
+    "description": "Матеріал : шкіра , наскрізна сіткаВиробник : В'єтнам",
+    "images": []
+  },
+  {
+    "id": "crm-1xhnxic",
+    "createdAt": "2026-11-05T19:25:00.706Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "220528",
+    "name": "ASICS GEL-NYC Black Metallic 36",
+    "brand": "Asics",
+    "category": "Asics",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {
+      "Розмір": "36"
+    },
+    "variants": [
+      {
+        "size": "36",
+        "price": 2200,
+        "stock": 3,
+        "sku": "B5370-1532471"
+      },
+      {
+        "size": "37",
+        "price": 2200,
+        "stock": 3,
+        "sku": "B5370-1532472"
+      },
+      {
+        "size": "38",
+        "price": 2200,
+        "stock": 6,
+        "sku": "B5370-1532473"
+      },
+      {
+        "size": "39",
+        "price": 2200,
+        "stock": 3,
+        "sku": "B5370-1532474"
+      },
+      {
+        "size": "40",
+        "price": 2200,
+        "stock": 3,
+        "sku": "B5370-1532475"
+      },
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 2,
+        "sku": "B5370-1532476"
+      }
+    ],
+    "price": 2200,
+    "stock": 20,
+    "description": "Матеріал : натуральна замша , шкіра , сіткаВиробник : В'єтнам",
+    "images": []
+  },
+  {
+    "id": "crm-18eof6g",
+    "createdAt": "2026-11-05T19:25:00.706Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "222841",
+    "name": "ASICS Gel-Venture 6 Navy Beige 36",
+    "brand": "Asics",
+    "category": "Asics",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {
+      "Розмір": "36"
+    },
+    "variants": [
+      {
+        "size": "36",
+        "price": 2100,
+        "stock": 2,
+        "sku": "B5457-1553846"
+      },
+      {
+        "size": "37",
+        "price": 2100,
+        "stock": 2,
+        "sku": "B5457-1553847"
+      },
+      {
+        "size": "38",
+        "price": 2100,
+        "stock": 4,
+        "sku": "B5457-1553848"
+      },
+      {
+        "size": "39",
+        "price": 2100,
+        "stock": 4,
+        "sku": "B5457-1553849"
+      },
+      {
+        "size": "40",
+        "price": 2100,
+        "stock": 1,
+        "sku": "B5457-1553850"
+      },
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 2,
+        "sku": "B5457-1553851"
+      }
+    ],
+    "price": 2100,
+    "stock": 15,
+    "description": "Матеріал : натуральна замша , шкіра , сіткаВиробник : Вʼєтнам",
+    "images": []
+  },
+  {
+    "id": "crm-19smfnb",
+    "createdAt": "2026-11-05T19:25:00.707Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "222844",
+    "name": "ASICS Gel-Venture 6 Beige Metallic 36",
+    "brand": "Asics",
+    "category": "Asics",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {
+      "Розмір": "36"
+    },
+    "variants": [
+      {
+        "size": "36",
+        "price": 2100,
+        "stock": 2,
+        "sku": "B5460-1553879"
+      },
+      {
+        "size": "37",
+        "price": 2100,
+        "stock": 2,
+        "sku": "B5460-1553880"
+      },
+      {
+        "size": "38",
+        "price": 2100,
+        "stock": 4,
+        "sku": "B5460-1553881"
+      },
+      {
+        "size": "39",
+        "price": 2100,
+        "stock": 3,
+        "sku": "B5460-1553882"
+      },
+      {
+        "size": "40",
+        "price": 2100,
+        "stock": 2,
+        "sku": "B5460-1553883"
+      },
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 2,
+        "sku": "B5460-1553884"
+      }
+    ],
+    "price": 2100,
+    "stock": 15,
+    "description": "Матеріал : шкіра , сіткаВиробник : Вʼєтнам",
+    "images": []
+  },
+  {
+    "id": "crm-fkppig",
+    "createdAt": "2026-11-05T19:25:00.707Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "208904",
+    "name": "ASICS GEL-NYC Black White 41",
+    "brand": "Asics",
+    "category": "Asics",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {
+      "Розмір": "41"
+    },
+    "variants": [
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 2,
+        "sku": "A4969-1442381"
+      },
+      {
+        "size": "42",
+        "price": 2200,
+        "stock": 3,
+        "sku": "A4969-1442382"
+      },
+      {
+        "size": "43",
+        "price": 2200,
+        "stock": 5,
+        "sku": "A4969-1442383"
+      },
+      {
+        "size": "44",
+        "price": 2200,
+        "stock": 7,
+        "sku": "A4969-1442384"
+      },
+      {
+        "size": "45",
+        "price": 2200,
+        "stock": 3,
+        "sku": "A4969-1442385"
+      }
+    ],
+    "price": 2200,
+    "stock": 20,
+    "description": "Матеріал : натуральна замша , шкіра , сіткаВиробник : В'єтнам",
+    "images": []
+  },
+  {
+    "id": "crm-hrxyr8",
+    "createdAt": "2026-11-05T19:25:00.707Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "156357",
+    "name": "ASICS Gel-Kahana TR V4 Beige Black 41",
+    "brand": "Asics",
+    "category": "Asics",
+    "sizes": [
+      "41",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {
+      "Розмір": "41"
+    },
+    "variants": [
+      {
+        "size": "41",
+        "price": 2000,
+        "stock": 3,
+        "sku": "A3855-1071929"
+      },
+      {
+        "size": "43",
+        "price": 2000,
+        "stock": 4,
+        "sku": "A3855-1071931"
+      },
+      {
+        "size": "44",
+        "price": 2000,
+        "stock": 8,
+        "sku": "A3855-1071932"
+      },
+      {
+        "size": "45",
+        "price": 2000,
+        "stock": 3,
+        "sku": "A3855-1071933"
+      },
+      {
+        "size": "46",
+        "price": 2000,
+        "stock": 2,
+        "sku": "A3855-1071934"
+      }
+    ],
+    "price": 2000,
+    "stock": 20,
+    "description": "Матеріал : натуральна замша , текстильВиробник : Вьетнам",
+    "images": []
+  },
+  {
+    "id": "crm-1d4956r",
+    "createdAt": "2026-11-05T19:25:00.707Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "176224",
+    "name": "ASICS Gel-Kahana 8 S Beige Blue Yellow 36",
+    "brand": "Asics",
+    "category": "Asics",
+    "sizes": [
+      "36",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {
+      "Розмір": "36"
+    },
+    "variants": [
+      {
+        "size": "36",
+        "price": 2100,
+        "stock": 4,
+        "sku": "B4248-1204110"
+      },
+      {
+        "size": "38",
+        "price": 2100,
+        "stock": 4,
+        "sku": "B4248-1204112"
+      },
+      {
+        "size": "39",
+        "price": 2100,
+        "stock": 2,
+        "sku": "B4248-1204113"
+      },
+      {
+        "size": "40",
+        "price": 2100,
+        "stock": 1,
+        "sku": "B4248-1204114"
+      },
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 3,
+        "sku": "B4248-1204115"
+      }
+    ],
+    "price": 2100,
+    "stock": 14,
+    "description": "Матеріал : шкіра , текстильВиробник : Вʼєтнам",
+    "images": []
+  },
+  {
+    "id": "crm-8yji4c",
+    "createdAt": "2026-11-05T19:25:00.707Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "193831",
+    "name": "ASICS Gel-NYC Black Grey Beige 37",
+    "brand": "Asics",
+    "category": "Asics",
+    "sizes": [
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {
+      "Розмір": "37"
+    },
+    "variants": [
+      {
+        "size": "37",
+        "price": 2200,
+        "stock": 2,
+        "sku": "B4785-1325965"
+      },
+      {
+        "size": "38",
+        "price": 2200,
+        "stock": 8,
+        "sku": "B4785-1325966"
+      },
+      {
+        "size": "39",
+        "price": 2200,
+        "stock": 5,
+        "sku": "B4785-1325967"
+      },
+      {
+        "size": "40",
+        "price": 2200,
+        "stock": 4,
+        "sku": "B4785-1325968"
+      },
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 2,
+        "sku": "B4785-1325969"
+      }
+    ],
+    "price": 2200,
+    "stock": 21,
+    "description": "Матеріал : натуральна замша , шкіра , сіткаВиробник : В'єтнам",
+    "images": []
+  },
+  {
+    "id": "crm-eqqwfj",
+    "createdAt": "2026-11-05T19:25:00.707Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "208909",
+    "name": "ASICS GEL-NYC Grey Metallic Black 41",
+    "brand": "Asics",
+    "category": "Asics",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {
+      "Розмір": "41"
+    },
+    "variants": [
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 4,
+        "sku": "A4974-1442437"
+      },
+      {
+        "size": "42",
+        "price": 2200,
+        "stock": 5,
+        "sku": "A4974-1442438"
+      },
+      {
+        "size": "43",
+        "price": 2200,
+        "stock": 4,
+        "sku": "A4974-1442439"
+      },
+      {
+        "size": "44",
+        "price": 2200,
+        "stock": 11,
+        "sku": "A4974-1442440"
+      },
+      {
+        "size": "45",
+        "price": 2200,
+        "stock": 2,
+        "sku": "A4974-1442441"
+      }
+    ],
+    "price": 2200,
+    "stock": 26,
+    "description": "Матеріал : натуральна замша , шкіра , сіткаВиробник : В'єтнам",
+    "images": []
+  },
+  {
+    "id": "crm-hiq2v8",
+    "createdAt": "2026-11-05T19:25:00.708Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "208913",
+    "name": "ASICS GEL-NYC Black Grey 41",
+    "brand": "Asics",
+    "category": "Asics",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {
+      "Розмір": "41"
+    },
+    "variants": [
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 5,
+        "sku": "A4978-1442481"
+      },
+      {
+        "size": "42",
+        "price": 2200,
+        "stock": 16,
+        "sku": "A4978-1442482"
+      },
+      {
+        "size": "43",
+        "price": 2200,
+        "stock": 4,
+        "sku": "A4978-1442483"
+      },
+      {
+        "size": "44",
+        "price": 2200,
+        "stock": 11,
+        "sku": "A4978-1442484"
+      },
+      {
+        "size": "45",
+        "price": 2200,
+        "stock": 1,
+        "sku": "A4978-1442485"
+      }
+    ],
+    "price": 2200,
+    "stock": 37,
+    "description": "Матеріал : натуральна замша , шкіра , сіткаВиробник : В'єтнам",
+    "images": []
+  },
+  {
+    "id": "crm-oyl0w5",
+    "createdAt": "2026-11-05T19:25:00.708Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "212867",
+    "name": "ASICS Gel-Kahana 8 Grey White Khaki 36",
+    "brand": "Asics",
+    "category": "Asics",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "41"
+    ],
+    "specs": {
+      "Розмір": "36"
+    },
+    "variants": [
+      {
+        "size": "36",
+        "price": 2100,
+        "stock": 5,
+        "sku": "В5064-1474580"
+      },
+      {
+        "size": "37",
+        "price": 2100,
+        "stock": 4,
+        "sku": "В5064-1474581"
+      },
+      {
+        "size": "38",
+        "price": 2100,
+        "stock": 7,
+        "sku": "В5064-1474582"
+      },
+      {
+        "size": "39",
+        "price": 2100,
+        "stock": 3,
+        "sku": "В5064-1474583"
+      },
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 2,
+        "sku": "В5064-1474585"
+      }
+    ],
+    "price": 2100,
+    "stock": 21,
+    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "images": []
+  },
+  {
+    "id": "crm-p8kml4",
+    "createdAt": "2026-11-05T19:25:00.708Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "212868",
+    "name": "ASICS Gel-Kahana 8 Light Grey Beige 36",
+    "brand": "Asics",
+    "category": "Asics",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "41"
+    ],
+    "specs": {
+      "Розмір": "36"
+    },
+    "variants": [
+      {
+        "size": "36",
+        "price": 2100,
+        "stock": 5,
+        "sku": "В5065-1474591"
+      },
+      {
+        "size": "37",
+        "price": 2100,
+        "stock": 3,
+        "sku": "В5065-1474592"
+      },
+      {
+        "size": "38",
+        "price": 2100,
+        "stock": 10,
+        "sku": "В5065-1474593"
+      },
+      {
+        "size": "39",
+        "price": 2100,
+        "stock": 7,
+        "sku": "В5065-1474594"
+      },
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 4,
+        "sku": "В5065-1474596"
+      }
+    ],
+    "price": 2100,
+    "stock": 29,
+    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "images": []
+  }
+]
