@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Імпорт товарів — KICKS.UA</title>
+<style>
+  :root {
+    --canvas:#EDE9E1; --asphalt:#232320; --sole:#8A8578;
+    --cone:#FF4B12; --chalk:#FAF8F3; --stitch:#C9C2B2;
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--canvas); color:var(--asphalt); font-family:Arial,sans-serif; }
+  nav {
+    display:flex; justify-content:space-between; align-items:center;
+    padding:18px 6%; background:var(--asphalt); color:var(--chalk);
+  }
+  nav a { color:inherit; }
+  .logo { font-weight:900; text-decoration:none; font-size:20px; }
+  .logo span { color:var(--cone); }
+  main { max-width:900px; margin:34px auto; padding:0 20px 70px; }
+  h1 { margin-bottom:6px; }
+  .sub { color:var(--sole); margin:0 0 22px; }
+  .panel { background:var(--chalk); border:2px solid var(--asphalt); padding:22px; margin:16px 0; }
+  label { display:block; font-weight:700; margin:13px 0 6px; }
+  input[type="url"], input[type="number"], input[type="file"], select {
+    width:100%; padding:10px; border:1px solid var(--asphalt); background:white;
+  }
+  input[type="checkbox"] { margin-right:7px; }
+  .check { font-weight:400; margin:8px 0; }
+  .grid { display:grid; grid-template-columns:1fr 1fr; gap:0 18px; }
+  .categories { min-height:130px; }
+  .actions { display:flex; flex-wrap:wrap; gap:10px; margin-top:20px; }
+  button, .button {
+    border:2px solid var(--asphalt); padding:11px 16px; background:var(--chalk);
+    color:var(--asphalt); cursor:pointer; font-weight:700; text-decoration:none;
+  }
+  button.primary { background:var(--cone); color:white; }
+  button:disabled { opacity:.55; cursor:wait; }
+  .message { display:none; padding:14px; margin:14px 0; white-space:pre-wrap; overflow-wrap:anywhere; }
+  .message.visible { display:block; }
+  .message.error { background:#F4D9D3; color:#7A2A20; border:1px solid #B23A2E; }
+  .message.success { background:#DCEEDC; color:#1F6B3B; border:1px solid #1F6B3B; }
+  .message.info { background:#fff; border:1px solid var(--stitch); }
+  .log { max-height:320px; overflow:auto; line-height:1.55; }
+  small, .hint { color:var(--sole); line-height:1.5; }
+  @media(max-width:600px) { .grid { grid-template-columns:1fr; } }
+</style>
+</head>
+<body>
+<nav>
+  <a class="logo" href="index.html">KICKS<span>.UA</span> · ІМПОРТ</a>
+  <a href="admin.html">← До адмінки</a>
+</nav>
+
+<main>
+  <h1>Імпорт товарів із CRM (XML)</h1>
+  <p class="sub">Імпорт створює або оновлює товари у products.json. Автоматичного імпорту за розкладом немає.</p>
+
+  <div id="authMessage" class="message error"></div>
+  <div id="statusMessage" class="message"></div>
+
+  <section class="panel">
+    <h2>1. Джерело XML</h2>
+    <label for="xmlUrl">Посилання на XML-файл (необов’язково)</label>
+    <input id="xmlUrl" type="url" placeholder="https://example.com/catalog.xml">
+    <p class="hint">Якщо браузер не може завантажити посилання через CORS, завантажте XML-файл нижче.</p>
+    <label for="xmlFile">Або виберіть XML-файл із комп’ютера</label>
+    <input id="xmlFile" type="file" accept=".xml,text/xml,application/xml">
+    <div class="actions">
+      <button type="button" id="loadCategoriesBtn">Завантажити категорії</button>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>2. Налаштування імпорту</h2>
+    <div class="grid">
+      <div>
+        <label for="limit">Максимум моделей за один запуск</label>
+        <input id="limit" type="number" min="1" value="100">
+      </div>
+      <div>
+        <label for="modelThreshold">Мінімальний сумарний залишок моделі</label>
+        <input id="modelThreshold" type="number" min="0" value="1">
+      </div>
+      <div>
+        <label for="variationThreshold">Мінімальний залишок варіації</label>
+        <input id="variationThreshold" type="number" min="0" value="1">
+      </div>
+    </div>
+
+    <label for="categories">Категорії / бренди (можна вибрати кілька)</label>
+    <select id="categories" class="categories" multiple>
+      <option value="">Спочатку завантажте XML</option>
+    </select>
+    <p class="hint">Якщо нічого не вибрано, будуть використані всі категорії.</p>
+
+    <h3>Оновлювати в уже імпортованих товарах</h3>
+    <label class="check"><input type="checkbox" name="updateField" value="name" checked>Назву</label>
+    <label class="check"><input type="checkbox" name="updateField" value="description" checked>Опис</label>
+    <label class="check"><input type="checkbox" name="updateField" value="image" checked>Фото</label>
+    <label class="check"><input type="checkbox" name="updateField" value="category" checked>Категорію / бренд</label>
+    <label class="check"><input type="checkbox" name="updateField" value="attributes" checked>Розміри й характеристики</label>
+    <label class="check"><input type="checkbox" name="updateField" value="price" checked>Ціни варіацій</label>
+    <label class="check"><input type="checkbox" name="updateField" value="stock" checked>Залишки варіацій</label>
+
+    <label class="check" style="margin-top:18px">
+      <input type="checkbox" id="hideAbsent">
+      Деактивувати товари цього імпорту, яких немає у вибраному XML
+    </label>
+    <p class="hint">Ця опція стосується лише товарів, раніше позначених цією сторінкою як імпортовані з CRM.</p>
+
+    <div class="actions">
+      <button type="button" id="previewBtn">Порахувати відповідні моделі</button>
+      <button type="button" class="primary" id="importBtn">Імпортувати</button>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Результат</h2>
+    <div id="result" class="log">Спочатку виберіть XML.</div>
+  </section>
+</main>
+
+<script>
+(() => {
+  'use strict';
+
+  const STORAGE_KEY = 'kicksAdminAuth';
+  const $ = id => document.getElementById(id);
+  let xmlDocument = null;
+  let categoriesById = {};
+
+  function showMessage(text, type = 'info') {
+    const box = $('statusMessage');
+    box.className = 'message visible ' + type;
+    box.textContent = text;
+  }
+
+  function showAuthError(text) {
+    const box = $('authMessage');
+    box.textContent = text;
+    box.classList.add('visible');
+  }
+
+  function getSession() {
+    try {
+      const session = JSON.parse(sessionStorage.getItem(STORAGE_KEY) || 'null');
+      if (session && session.owner && session.repo && session.token) return session;
+    } catch (e) {}
+    return null;
+  }
+
+  const session = getSession();
+  if (!session) {
+    showAuthError('Немає активної сесії адмінки. Відкрийте admin.html, увійдіть у систему й перейдіть сюди кнопкою «Імпорт XML».');
+    $('importBtn').disabled = true;
+    $('previewBtn').disabled = true;
+  }
+
+  async function githubFile(path, options = {}) {
+    const url = `https://api.github.com/repos/${encodeURIComponent(session.owner)}/${encodeURIComponent(session.repo)}/contents/${path}`;
+    const response = await fetch(url, {
+      ...options,
+      headers: {
+        Authorization: `Bearer ${session.token}`,
+        Accept: 'application/vnd.github+json',
+        ...(options.headers || {})
+      }
+    });
+    const data = await response.json().catch(() => ({}));
+    if (!response.ok) throw new Error(data.message || `GitHub API: ${response.status}`);
+    return data;
+  }
+
+  function decodeBase64(value) {
+    const binary = atob(value.replace(/\s/g, ''));
+    const bytes = Uint8Array.from(binary, ch => ch.charCodeAt(0));
+    return new TextDecoder().decode(bytes);
+  }
+
+  function encodeBase64(value) {
+    const bytes = new TextEncoder().encode(value);
+    let binary = '';
+    bytes.forEach(byte => binary += String.fromCharCode(byte));
+    return btoa(binary);
+  }
+
+  function childText(node, name) {
+    const child = node.getElementsByTagName(name)[0];
+    return child ? child.textContent.trim() : '';
+  }
+
+  function getGroupId(item) {
+    return item.getAttribute('group_id') || childText(item, 'group_id') || '';
+  }
+
+  function getCategoryId(item) {
+    return childText(item, 'categoryId');
+  }
+
+  function getSize(item) {
+    const params = Array.from(item.getElementsByTagName('param'));
+    const param = params.find(p => {
+      const name = (p.getAttribute('name') || '').toLocaleLowerCase();
+      return name.includes('розмір') || name.includes('размер') || name === 'size';
+    });
+    return param ? param.textContent.trim() : '';
+  }
+
+  function getNumericPrice(item) {
+    const raw = childText(item, 'priceuah') || childText(item, 'price');
+    const value = Number(String(raw).replace(',', '.').replace(/[^\d.-]/g, ''));
+    return Number.isFinite(value) && value >= 0 ? value : 0;
+  }
+
+  function getQuantity(item) {
+    const value = parseInt(childText(item, 'quantity_in_stock'), 10);
+    return Number.isFinite(value) && value > 0 ? value : 0;
+  }
+
+  function parseXml(text) {
+    const doc = new DOMParser().parseFromString(text, 'application/xml');
+    if (doc.querySelector('parsererror')) throw new Error('Не вдалося розібрати XML. Перевірте файл і його кодування.');
+    const items = Array.from(doc.getElementsByTagName('item'));
+    if (!items.length) throw new Error('У XML не знайдено елементів <item>.');
+    xmlDocument = doc;
+    categoriesById = {};
+
+    Array.from(doc.getElementsByTagName('category')).forEach(category => {
+      const id = category.getAttribute('id') || '';
+      if (id) categoriesById[id] = category.textContent.trim();
+    });
+
+    const select = $('categories');
+    select.replaceChildren();
+    Object.entries(categoriesById).forEach(([id, name]) => {
+      const option = document.createElement('option');
+      option.value = id;
+      option.textContent = name || id;
+      select.appendChild(option);
+    });
+    showMessage(`XML завантажено: знайдено ${items.length} позицій і ${Object.keys(categoriesById).length} категорій.`, 'success');
+  }
+
+  async function loadXml() {
+    const file = $('xmlFile').files[0];
+    if (file) {
+      parseXml(await file.text());
+      return;
+    }
+    const url = $('xmlUrl').value.trim();
+    if (!url) throw new Error('Виберіть XML-файл або введіть посилання.');
+    if (!/^https:\/\//i.test(url)) throw new Error('Для завантаження за посиланням використовуйте HTTPS.');
+    const response = await fetch(url);
+    if (!response.ok) throw new Error(`Не вдалося завантажити XML: HTTP ${response.status}.`);
+    parseXml(await response.text());
+  }
+
+  $('loadCategoriesBtn').addEventListener('click', async () => {
+    try {
+      showMessage('Завантажуємо XML…');
+      await loadXml();
+    } catch (error) {
+      showMessage(error.message, 'error');
+    }
+  });
+
+  $('xmlFile').addEventListener('change', async () => {
+    if (!$('xmlFile').files[0]) return;
+    try {
+      showMessage('Читаємо XML-файл…');
+      await loadXml();
+    } catch (error) {
+      showMessage(error.message, 'error');
+    }
+  });
+
+  function selectedCategoryIds() {
+    return Array.from($('categories').selectedOptions).map(option => option.value);
+  }
+
+  function makeGroups() {
+    if (!xmlDocument) throw new Error('Спочатку завантажте XML.');
+    const selected = selectedCategoryIds();
+    const modelThreshold = Math.max(0, parseInt($('modelThreshold').value, 10) || 0);
+    const variationThreshold = Math.max(0, parseInt($('variationThreshold').value, 10) || 0);
+    const groups = new Map();
+
+    Array.from(xmlDocument.getElementsByTagName('item')).forEach(item => {
+      const groupId = getGroupId(item);
+      if (!groupId) return;
+
+      const categoryId = getCategoryId(item);
+      if (selected.length && !selected.includes(categoryId)) return;
+
+      if (!groups.has(groupId)) groups.set(groupId, []);
+      groups.get(groupId).push(item);
+    });
+
+    const eligible = [];
+    groups.forEach((items, groupId) => {
+      const totalStock = items.reduce((sum, item) => sum + getQuantity(item), 0);
+      if (totalStock < modelThreshold) return;
+
+      const variantsBySize = new Map();
+      items.forEach(item => {
+        const size = getSize(item);
+        const stock = getQuantity(item);
+        if (!size || stock < variationThreshold) return;
+
+        const variant = {
+          size,
+          price: getNumericPrice(item),
+          stock,
+          sku: childText(item, 'vendorCode') || childText(item, 'barcode') || ''
+        };
+        // Если XML содержит повтор одной вариации, оставляем запись с большим остатком.
+        const current = variantsBySize.get(size);
+        if (!current || variant.stock > current.stock) variantsBySize.set(size, variant);
+      });
+
+      const variants = Array.from(variantsBySize.values());
+      if (!variants.length || !variants.some(variant => variant.stock > 0)) return;
+
+      const source = items[0];
+      eligible.push({
+        groupId,
+        items,
+        source,
+        variants,
+        categoryId: getCategoryId(source),
+        categoryName: categoriesById[getCategoryId(source)] || ''
+      });
+    });
+
+    const limit = Math.max(1, parseInt($('limit').value, 10) || 100);
+    return eligible.slice(0, limit);
+  }
+
+  $('previewBtn').addEventListener('click', () => {
+    try {
+      const groups = makeGroups();
+      showMessage(`За заданими умовами буде оброблено моделей: ${groups.length}.`, 'success');
+    } catch (error) {
+      showMessage(error.message, 'error');
+    }
+  });
+
+  function getCheckedFields() {
+    return new Set(Array.from(document.querySelectorAll('input[name="updateField"]:checked')).map(input => input.value));
+  }
+
+  function stableId(groupId) {
+    let hash = 2166136261;
+    for (let i = 0; i < groupId.length; i++) {
+      hash ^= groupId.charCodeAt(i);
+      hash = Math.imul(hash, 16777619);
+    }
+    return 'crm-' + (hash >>> 0).toString(36);
+  }
+
+  function cleanDescription(value) {
+    const node = document.createElement('div');
+    node.innerHTML = value || '';
+    return node.textContent.trim();
+  }
+
+  function extractSpecs(item) {
+    const specs = {};
+    Array.from(item.getElementsByTagName('param')).forEach(param => {
+      const name = (param.getAttribute('name') || '').trim();
+      const value = param.textContent.trim();
+      if (name && value) specs[name] = value;
+    });
+    return specs;
+  }
+
+  function imageUrls(item) {
+    return Array.from(item.getElementsByTagName('picture'))
+      .map(node => node.textContent.trim())
+      .filter(value => /^https?:\/\//i.test(value));
+  }
+
+  function mapProduct(group, oldProduct, fields) {
+    const item = group.source;
+    const name = childText(item, 'name') || childText(item, 'model') || group.categoryName || 'Товар';
+    const brand = group.categoryName || childText(item, 'vendor') || 'Інше';
+    const variants = group.variants;
+    const prices = variants.map(variant => variant.price).filter(price => price > 0);
+    const images = imageUrls(item);
+    const totalStock = variants.reduce((sum, variant) => sum + variant.stock, 0);
+
+    const product = oldProduct ? { ...oldProduct } : {
+      id: stableId(group.groupId),
+      createdAt: new Date().toISOString(),
+      active: true,
+      oldPrice: null,
+      badge: null,
+      sizeChart: '',
+      placeholderColor: undefined
+    };
+
+    product.id = oldProduct?.id || stableId(group.groupId);
+    product.source = 'crm-xml';
+    product.sourceGroupId = group.groupId;
+
+    if (!oldProduct || fields.has('name')) product.name = name;
+    if (!oldProduct || fields.has('category')) {
+      product.brand = brand;
+      product.category = group.categoryName || brand;
+    }
+    if (!oldProduct || fields.has('attributes')) {
+      product.sizes = variants.map(variant => variant.size);
+      product.specs = extractSpecs(item);
+    }
+    if (!oldProduct || fields.has('price')) {
+      product.variants = variants.map(variant => ({ ...variant }));
+      product.price = prices.length ? Math.min(...prices) : 0;
+    } else if (!oldProduct) {
+      product.variants = variants.map(variant => ({ ...variant }));
+      product.price = prices.length ? Math.min(...prices) : 0;
+    }
+    if (!oldProduct || fields.has('stock')) {
+      if (!product.variants) product.variants = variants.map(variant => ({ ...variant }));
+      else {
+        const incoming = new Map(variants.map(variant => [variant.size, variant]));
+        product.variants = product.variants.map(variant => {
+          const latest = incoming.get(variant.size);
+          return latest ? { ...variant, stock: latest.stock } : { ...variant, stock: 0 };
+        });
+        variants.forEach(variant => {
+          if (!product.variants.some(existing => existing.size === variant.size)) product.variants.push({ ...variant });
+        });
+      }
+      product.stock = totalStock;
+    }
+    if (!oldProduct) product.stock = totalStock;
+    if (!oldProduct || fields.has('description')) product.description = cleanDescription(childText(item, 'description'));
+    if (!oldProduct || fields.has('image')) product.images = images;
+    if (!oldProduct) product.active = true;
+
+    return product;
+  }
+
+  function escapeHtml(value) {
+    return String(value).replace(/[&<>"']/g, char => ({
+      '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'
+    }[char]));
+  }
+
+  $('importBtn').addEventListener('click', async () => {
+    const button = $('importBtn');
+    button.disabled = true;
+    try {
+      if (!xmlDocument) await loadXml();
+      const groups = makeGroups();
+      if (!groups.length) {
+        $('result').textContent = 'За вибраними категоріями та порогами немає моделей для імпорту.';
+        showMessage('Нічого не імпортовано.', 'info');
+        return;
+      }
+
+      showMessage('Завантажуємо products.json з GitHub…');
+      const file = await githubFile('products.json');
+      const products = JSON.parse(decodeBase64(file.content));
+      if (!Array.isArray(products)) throw new Error('products.json має містити масив товарів.');
+
+      const fields = getCheckedFields();
+      const importedIds = new Set();
+      const added = [];
+      const updated = [];
+      const skipped = [];
+
+      groups.forEach(group => {
+        const oldIndex = products.findIndex(product =>
+          product.sourceGroupId === group.groupId ||
+          (product.source === 'crm-xml' && product.id === stableId(group.groupId))
+        );
+        const oldProduct = oldIndex >= 0 ? products[oldIndex] : null;
+        const product = mapProduct(group, oldProduct, fields);
+
+        if (oldProduct) {
+          products[oldIndex] = product;
+          updated.push(product.name);
+        } else {
+          products.push(product);
+          added.push(product.name);
+        }
+        importedIds.add(product.sourceGroupId);
+      });
+
+      let hidden = 0;
+      if ($('hideAbsent').checked) {
+        products.forEach(product => {
+          if (product.source === 'crm-xml' && product.sourceGroupId && !importedIds.has(product.sourceGroupId) && product.active !== false) {
+            product.active = false;
+            hidden++;
+          }
+        });
+      }
+
+      showMessage('Зберігаємо зміни в products.json…');
+      const content = JSON.stringify(products, null, 2);
+      await githubFile('products.json', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          message: `Import CRM XML: ${added.length} added, ${updated.length} updated`,
+          content: encodeBase64(content),
+          sha: file.sha
+        })
+      });
+
+      const lines = [
+        `Додано: ${added.length}`,
+        `Оновлено: ${updated.length}`,
+        `Деактивовано відсутніх: ${hidden}`,
+        '',
+        ...added.map(name => '+ ' + name),
+        ...updated.map(name => '↻ ' + name)
+      ];
+      $('result').textContent = lines.join('\n');
+      showMessage('Імпорт завершено. products.json оновлено в GitHub.', 'success');
+    } catch (error) {
+      showMessage(error.message || 'Помилка імпорту.', 'error');
+    } finally {
+      button.disabled = false;
+    }
+  });
+})();
+</script>
+</body>
+</html>
