@@ -1,0 +1,210 @@
+[
+  {
+    "id": "nike-acg-terra-antarktik",
+    "brand": "Nike ACG",
+    "name": "Terra Antarktik Low GTX Grey Black",
+    "price": 2400,
+    "oldPrice": null,
+    "badge": "НОВИНКА",
+    "description": "Водонепроникні трекінгові кросівки з мембраною Gore-Tex — тримають ногу сухою в дощ і сльоту. Термоізольовані, підходять для холодного сезону.",
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "Водонепроникний текстиль, мембрана Gore-Tex, термо",
+      "Колір": "Сірий",
+      "Підошва": "Піна, гумовий протектор",
+      "Сезон": "Весна / осінь / єврозима",
+      "Комплектація": "Коробка Nike, фірмовий папір"
+    },
+    "sizeChart": "41 = 26 см · 42 = 27 см · 43 = 27.5 см · 44 = 28 см · 45 = 29 см",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "images": [
+      "images/nike-acg/1.jpg",
+      "images/nike-acg/2.jpg",
+      "images/nike-acg/3.jpg",
+      "images/nike-acg/4.jpg",
+      "images/nike-acg/5.jpg",
+      "images/nike-acg/6.jpg",
+      "images/nike-acg/7.jpg",
+      "images/nike-acg/8.jpg",
+      "images/nike-acg/9.jpg"
+    ],
+    "active": true,
+    "createdAt": "2026-08-01T12:00:00Z",
+    "stock": null,
+    "category": ""
+  },
+  {
+    "id": "nike-air-max-90",
+    "brand": "Nike",
+    "name": "Air Max 90",
+    "price": 2690,
+    "oldPrice": 3200,
+    "badge": "−16%",
+    "description": "Класика 1990 року — видима амортизуюча подушка Air, шкіряний верх із текстильними вставками. Підходить на щодень і для міста.",
+    "specs": {},
+    "sizeChart": "",
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "images": [],
+    "placeholderColor": {
+      "body": "#FAF8F3",
+      "accent": "#FF4B12"
+    },
+    "active": true,
+    "createdAt": "2026-08-04T12:00:00Z",
+    "stock": null,
+    "category": ""
+  },
+  {
+    "id": "adidas-samba-og",
+    "brand": "Adidas",
+    "name": "Samba OG",
+    "price": 2450,
+    "oldPrice": null,
+    "badge": null,
+    "description": "Легендарна модель для футбольних залів, що стала вуличною класикою. Замшеві вставки, гумова підошва з хорошим зчепленням.",
+    "specs": {},
+    "sizeChart": "",
+    "sizes": [
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "images": [],
+    "placeholderColor": {
+      "body": "#E9E4D2",
+      "accent": "#1F6B3B"
+    },
+    "active": true,
+    "createdAt": "2026-08-07T12:00:00Z",
+    "stock": null,
+    "category": ""
+  },
+  {
+    "id": "new-balance-550",
+    "brand": "New Balance",
+    "name": "550",
+    "price": 3190,
+    "oldPrice": 3800,
+    "badge": "−16%",
+    "description": "Ретро-баскетбольний силует 80-х, що повернувся в тренди. Шкіряний верх, впізнавана форма підошви, поєднується з повсякденним одягом.",
+    "specs": {},
+    "sizeChart": "",
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "images": [],
+    "placeholderColor": {
+      "body": "#F2F0EA",
+      "accent": "#4A483F"
+    },
+    "active": true,
+    "createdAt": "2026-08-10T12:00:00Z",
+    "stock": null,
+    "category": ""
+  },
+  {
+    "id": "nike-dunk-low",
+    "brand": "Nike",
+    "name": "Dunk Low",
+    "price": 2990,
+    "oldPrice": null,
+    "badge": "ХІТ",
+    "description": "Культова модель родом із баскетболу 80-х, що стала однією з найвпізнаваніших стритвір-моделей у світі. Щільна шкіра тримає форму довго.",
+    "specs": {},
+    "sizeChart": "",
+    "sizes": [
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "images": [],
+    "placeholderColor": {
+      "body": "#FDFDFD",
+      "accent": "#2E5EFF"
+    },
+    "active": true,
+    "createdAt": "2026-08-13T12:00:00Z",
+    "stock": null,
+    "category": ""
+  },
+  {
+    "id": "adidas-gazelle",
+    "brand": "Adidas",
+    "name": "Gazelle",
+    "price": 2350,
+    "oldPrice": 2700,
+    "badge": "−13%",
+    "description": "Компактний силует із замшевим верхом — універсальна модель, яка однаково добре виглядає і з джинсами, і зі спортивним костюмом.",
+    "specs": {},
+    "sizeChart": "",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "images": [],
+    "placeholderColor": {
+      "body": "#EFE3DD",
+      "accent": "#B23A2E"
+    },
+    "active": true,
+    "createdAt": "2026-08-16T12:00:00Z",
+    "stock": null,
+    "category": ""
+  },
+  {
+    "id": "new-balance-9060",
+    "brand": "New Balance",
+    "name": "9060",
+    "price": 3990,
+    "oldPrice": 4500,
+    "badge": "ХІТ",
+    "description": "Технологічний силует із багатошаровою підошвою в дусі Y2K-естетики. Один із найобговорюваніших релізів останніх сезонів.",
+    "specs": {},
+    "sizeChart": "",
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "images": [],
+    "placeholderColor": {
+      "body": "#EDEAE3",
+      "accent": "#8A8578"
+    },
+    "active": true,
+    "createdAt": "2026-08-19T12:00:00Z",
+    "stock": null,
+    "category": ""
+  }
+]

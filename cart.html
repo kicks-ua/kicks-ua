@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Кошик — KICKS.UA</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap');
+  :root{
+    --canvas:#EDE9E1;--asphalt:#232320;--sole:#8A8578;--cone:#FF4B12;--chalk:#FAF8F3;--stitch:#C9C2B2;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{background:var(--canvas);color:var(--asphalt);font-family:'Archivo',sans-serif;}
+  a{color:inherit;}
+  .label{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:0.12em;text-transform:uppercase;color:var(--sole);}
+  nav{
+    display:flex;justify-content:space-between;align-items:center;padding:20px 6%;
+    position:sticky;top:0;background:var(--canvas);z-index:50;border-bottom:2px solid var(--asphalt);
+  }
+  .logo{font-family:'Archivo Black',sans-serif;font-size:21px;text-decoration:none;color:var(--asphalt);}
+  .logo span{color:var(--cone);}
+  .nav-links{display:flex;gap:20px;align-items:center;}
+  .nav-links a{font-family:'JetBrains Mono',monospace;font-size:13px;text-decoration:none;color:var(--asphalt);}
+  .nav-cta{
+    background:var(--cone);color:var(--chalk);padding:11px 20px;font-weight:700;
+    display:inline-flex;align-items:center;gap:6px;border:2px solid var(--asphalt);
+    box-shadow:3px 3px 0 var(--asphalt);transition:transform 0.15s, box-shadow 0.15s;
+  }
+  .nav-cta:hover{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--asphalt);background:var(--asphalt);}
+  .cart-link{display:inline-flex;align-items:center;gap:6px;}
+  .cart-badge{
+    display:none;align-items:center;justify-content:center;
+    background:var(--cone);color:var(--chalk);border-radius:50%;
+    width:18px;height:18px;font-size:10.5px;font-weight:700;
+  }
+
+  .cart-page{padding:50px 6% 80px;max-width:760px;}
+  .cart-page h1{
+    font-family:'Archivo Black',sans-serif;font-size:clamp(30px,4.4vw,48px);
+    letter-spacing:-0.02em;margin-bottom:30px;line-height:1.02;
+  }
+  .cart-item{
+    display:grid;grid-template-columns:90px 1fr auto;gap:18px;align-items:center;
+    background:var(--chalk);border:2px solid var(--asphalt);padding:16px;margin-bottom:12px;
+  }
+  .cart-item .thumb{width:90px;height:90px;background:var(--canvas);border:1.5px solid var(--stitch);padding:8px;}
+  .cart-item .thumb img, .cart-item .thumb svg{width:100%;height:100%;object-fit:cover;}
+  .cart-item .info h3{font-size:16px;font-weight:700;margin-bottom:4px;}
+  .cart-item .info .meta{font-family:'JetBrains Mono',monospace;font-size:12.5px;color:var(--sole);}
+  .cart-item .price-remove{text-align:right;}
+  .cart-item .price{font-family:'JetBrains Mono',monospace;font-size:16px;color:var(--cone);font-weight:700;margin-bottom:6px;}
+  .cart-item .remove-btn{
+    font-family:'JetBrains Mono',monospace;font-size:11.5px;color:var(--sole);background:none;border:none;
+    text-decoration:underline;cursor:pointer;padding:0;
+  }
+  .remove-btn:hover{color:var(--cone);}
+
+  .cart-total{
+    display:flex;justify-content:space-between;align-items:center;
+    padding:20px 0;border-top:2px solid var(--asphalt);margin-top:20px;
+  }
+  .cart-total .label-total{font-family:'Archivo Black',sans-serif;font-size:18px;}
+  .cart-total .sum{font-family:'Archivo Black',sans-serif;font-size:28px;color:var(--cone);}
+
+  .empty-cart{
+    background:var(--chalk);border:2px dashed var(--stitch);padding:50px 30px;text-align:center;
+  }
+  .empty-cart p{color:var(--sole);margin-bottom:20px;font-size:15px;}
+
+  .btn-primary{
+    display:flex;align-items:center;justify-content:center;gap:10px;
+    font-family:'JetBrains Mono',monospace;font-size:16px;font-weight:700;letter-spacing:0.03em;
+    background:var(--cone);color:var(--chalk);padding:20px 32px;text-decoration:none;
+    border:3px solid var(--asphalt);box-shadow:6px 6px 0 var(--asphalt);
+    transition:transform 0.15s, box-shadow 0.15s;cursor:pointer;width:100%;text-align:center;
+  }
+  .btn-primary:hover{transform:translate(3px,3px);box-shadow:3px 3px 0 var(--asphalt);}
+  .btn-outline{
+    display:inline-block;font-family:'JetBrains Mono',monospace;font-size:13.5px;
+    background:transparent;color:var(--asphalt);padding:14px 24px;text-decoration:none;
+    border:2px solid var(--asphalt);margin-top:14px;text-align:center;
+  }
+  .btn-outline:hover{background:var(--asphalt);color:var(--chalk);}
+
+  @media (max-width:600px){
+    .cart-item{grid-template-columns:70px 1fr;}
+    .price-remove{grid-column:1 / -1;display:flex;justify-content:space-between;align-items:center;}
+  }
+  .banner-carousel{position:relative;margin:0 6% 24px;overflow:hidden;border:2px solid var(--asphalt);}
+  .banner-track{display:flex;transition:transform 0.5s ease;}
+  .banner-slide{min-width:100%;aspect-ratio:16/5;position:relative;text-decoration:none;display:block;}
+  .banner-slide img{width:100%;height:100%;object-fit:cover;display:block;}
+  .banner-slide .banner-title{
+    position:absolute;bottom:0;left:0;right:0;padding:16px 20px;
+    background:linear-gradient(transparent, rgba(35,35,32,0.85));
+    color:var(--chalk);font-family:'Archivo Black',sans-serif;font-size:clamp(16px,2.4vw,24px);
+  }
+  .banner-dots{position:absolute;bottom:10px;right:16px;display:flex;gap:6px;}
+  .banner-dots button{
+    width:8px;height:8px;border-radius:50%;border:1.5px solid var(--chalk);background:transparent;
+    cursor:pointer;padding:0;
+  }
+  .banner-dots button.active{background:var(--chalk);}
+  @media (max-width:600px){.banner-slide{aspect-ratio:16/9;}}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="logo">KICKS<span>.UA</span></a>
+  <div class="nav-links">
+    <a href="index.html">Каталог</a>
+    <a href="favorites.html" class="cart-link">♥ Обране <span class="cart-badge" id="favBadge">0</span></a>
+    <a href="cart.html" class="cart-link">Кошик <span class="cart-badge" id="cartBadge">0</span></a>
+    <a href="delivery.html">Доставка</a>
+    <a href="#" id="managerCtaLink" class="nav-cta" target="_blank">💬 Написати нам</a>
+  </div>
+</nav>
+<div class="banner-carousel" id="bannerCarousel" style="display:none;">
+  <div class="banner-track" id="bannerTrack"></div>
+  <div class="banner-dots" id="bannerDots"></div>
+</div>
+
+<section class="cart-page">
+  <h1>Кошик</h1>
+  <div id="cartContent"><div class="label">Завантаження...</div></div>
+</section>
+
+<script>
+  function shoeSvgHTML(body, accent) {
+    const stroke = "#232320";
+    return `<svg viewBox="0 0 500 320" xmlns="http://www.w3.org/2000/svg">
+      <ellipse cx="250" cy="290" rx="200" ry="16" fill="${stroke}" opacity="0.08"/>
+      <path d="M40 230 Q30 180 90 165 Q110 120 170 110 Q230 95 280 115 L440 150 Q470 158 468 190 Q465 225 420 232 L70 245 Q45 245 40 230 Z" fill="${body}" stroke="${stroke}" stroke-width="4"/>
+      <path d="M40 230 Q60 250 100 248 L440 232 Q470 225 468 190" fill="#8A8578" stroke="${stroke}" stroke-width="4"/>
+      <path d="M170 110 Q230 95 280 115 L320 150 L150 155 Z" fill="${accent}" stroke="${stroke}" stroke-width="4"/>
+      <line x1="185" y1="130" x2="150" y2="160" stroke="${stroke}" stroke-width="3"/>
+      <line x1="210" y1="120" x2="175" y2="158" stroke="${stroke}" stroke-width="3"/>
+      <line x1="235" y1="114" x2="205" y2="158" stroke="${stroke}" stroke-width="3"/>
+      <line x1="260" y1="115" x2="238" y2="158" stroke="${stroke}" stroke-width="3"/>
+      <circle cx="150" cy="160" r="4" fill="${stroke}"/>
+      <circle cx="175" cy="158" r="4" fill="${stroke}"/>
+      <circle cx="205" cy="158" r="4" fill="${stroke}"/>
+      <circle cx="238" cy="158" r="4" fill="${stroke}"/>
+      <circle cx="185" cy="130" r="4" fill="${stroke}"/>
+      <circle cx="210" cy="120" r="4" fill="${stroke}"/>
+      <circle cx="235" cy="114" r="4" fill="${stroke}"/>
+      <circle cx="260" cy="115" r="4" fill="${stroke}"/>
+    </svg>`;
+  }
+  function productThumbHTML(product) {
+    if (product.images && product.images.length > 0) {
+      return `<img src="${product.images[0]}" alt="${product.name}">`;
+    }
+    const c = product.placeholderColor || { body: "#EDE9E1", accent: "#8A8578" };
+    return shoeSvgHTML(c.body, c.accent);
+  }
+
+  function getCart() {
+    try { return JSON.parse(localStorage.getItem('kicksCart') || '[]'); } catch(e) { return []; }
+  }
+  function saveCart(cart) { localStorage.setItem('kicksCart', JSON.stringify(cart)); }
+
+  let allProducts = [];
+
+  async function render() {
+    const cart = getCart();
+    const container = document.getElementById('cartContent');
+
+    try {
+      const res = await fetch('products.json?_=' + Date.now());
+      allProducts = await res.json();
+    } catch (e) {
+      container.innerHTML = '<div class="label">Не вдалося завантажити дані товарів.</div>';
+      return;
+    }
+
+    const badge = document.getElementById('cartBadge');
+    if (cart.length > 0) { badge.textContent = cart.length; badge.style.display = 'inline-flex'; }
+
+    if (cart.length === 0) {
+      container.innerHTML = `
+        <div class="empty-cart">
+          <p>Кошик поки порожній — додай товари з каталогу.</p>
+          <a href="index.html" class="btn-outline">← До каталогу</a>
+        </div>`;
+      return;
+    }
+
+    let total = 0;
+    let itemsHtml = '';
+    let validCart = [];
+
+    cart.forEach(item => {
+      const product = allProducts.find(p => p.id === item.productId);
+      if (!product) return; // товар видалено адміном — просто пропускаємо
+      validCart.push(item);
+      total += product.price;
+      itemsHtml += `
+        <div class="cart-item">
+          <div class="thumb">${productThumbHTML(product)}</div>
+          <div class="info">
+            <h3>${product.brand} ${product.name}</h3>
+            <div class="meta">Розмір ${item.size}</div>
+          </div>
+          <div class="price-remove">
+            <div class="price">${product.price} ₴</div>
+            <button class="remove-btn" onclick="removeItem(${item.cartItemId})">Видалити</button>
+          </div>
+        </div>`;
+    });
+
+    if (validCart.length !== cart.length) saveCart(validCart);
+
+    if (validCart.length === 0) {
+      container.innerHTML = `
+        <div class="empty-cart">
+          <p>Товари з кошика більше не доступні.</p>
+          <a href="index.html" class="btn-outline">← До каталогу</a>
+        </div>`;
+      return;
+    }
+
+    container.innerHTML = `
+      ${itemsHtml}
+      <div class="cart-total">
+        <span class="label-total">Разом:</span>
+        <span class="sum">${total} ₴</span>
+      </div>
+      <a href="order.html" class="btn-primary">ОФОРМИТИ ЗАМОВЛЕННЯ →</a>
+      <a href="index.html" class="btn-outline" style="display:block;text-align:center;">← Продовжити покупки</a>
+    `;
+  }
+
+  function removeItem(cartItemId) {
+    const cart = getCart().filter(item => item.cartItemId !== cartItemId);
+    saveCart(cart);
+    render();
+  }
+
+  render();
+
+  // ===== Банери (якщо адмін додав для цієї сторінки) =====
+  let bannerIndex_cart = 0;
+  async function loadBanners_cart() {
+    try {
+      const res = await fetch('site-content.json?_=' + Date.now());
+      const data = await res.json();
+      const banners = (data.banners || []).filter(b => b.enabled !== false && b.pages && b.pages.includes('cart'));
+      if (banners.length === 0) return;
+
+      const carousel = document.getElementById('bannerCarousel');
+      const track = document.getElementById('bannerTrack');
+      const dots = document.getElementById('bannerDots');
+      if (!carousel) return;
+
+      track.innerHTML = banners.map(b => {
+        const inner = `<img src="${b.imageUrl}" alt="${b.title || ''}">${b.title ? `<div class="banner-title">${b.title}</div>` : ''}`;
+        return b.link ? `<a href="${b.link}" class="banner-slide">${inner}</a>` : `<div class="banner-slide">${inner}</div>`;
+      }).join('');
+
+      if (banners.length > 1) {
+        dots.innerHTML = banners.map((_, i) => `<button data-i="${i}" class="${i === 0 ? 'active' : ''}"></button>`).join('');
+        dots.querySelectorAll('button').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const idx = parseInt(btn.dataset.i);
+            bannerIndex_cart = idx;
+            track.style.transform = `translateX(-${idx * 100}%)`;
+            dots.querySelectorAll('button').forEach((b, i) => b.classList.toggle('active', i === idx));
+          });
+        });
+        setInterval(() => {
+          bannerIndex_cart = (bannerIndex_cart + 1) % banners.length;
+          track.style.transform = `translateX(-${bannerIndex_cart * 100}%)`;
+          dots.querySelectorAll('button').forEach((b, i) => b.classList.toggle('active', i === bannerIndex_cart));
+        }, 5000);
+      }
+
+      carousel.style.display = 'block';
+    } catch (err) {
+      console.warn('Банери не завантажено:', err);
+    }
+  }
+  loadBanners_cart();
+
+
+  // Підставляємо реальне посилання на Telegram-менеджера з site-content.json
+  (async function() {
+    try {
+      const res = await fetch('site-content.json?_=' + Date.now());
+      const data = await res.json();
+      if (data.contacts && data.contacts.telegramHandle) {
+        const tgUrl = 'https://t.me/' + data.contacts.telegramHandle;
+        const managerBtn = document.getElementById('managerCtaLink');
+        const footerLink = document.getElementById('footerTelegramLink');
+        if (managerBtn) managerBtn.href = tgUrl;
+        if (footerLink) footerLink.href = tgUrl;
+      }
+    } catch (err) {
+      console.warn('Не вдалося завантажити Telegram-посилання:', err);
+    }
+  })();
+
+</script>
+
+</body>
+</html>

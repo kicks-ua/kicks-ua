@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Доставка і оплата — KICKS.UA</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap');
+  :root{--canvas:#EDE9E1;--asphalt:#232320;--sole:#8A8578;--cone:#FF4B12;--chalk:#FAF8F3;--stitch:#C9C2B2;}
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{background:var(--canvas);color:var(--asphalt);font-family:'Archivo',sans-serif;}
+  a{color:inherit;}
+  .label{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:0.12em;text-transform:uppercase;color:var(--sole);}
+  nav{
+    display:flex;justify-content:space-between;align-items:center;padding:20px 6%;
+    position:sticky;top:0;background:var(--canvas);z-index:50;border-bottom:2px solid var(--asphalt);
+  }
+  .logo{font-family:'Archivo Black',sans-serif;font-size:21px;text-decoration:none;color:var(--asphalt);}
+  .logo span{color:var(--cone);}
+  .nav-links{display:flex;gap:16px;align-items:center;}
+  .nav-links a{font-family:'JetBrains Mono',monospace;font-size:13px;text-decoration:none;color:var(--asphalt);}
+  .nav-cta{
+    background:var(--cone);color:var(--chalk);padding:11px 20px;font-weight:700;
+    display:inline-flex;align-items:center;gap:6px;border:2px solid var(--asphalt);
+    box-shadow:3px 3px 0 var(--asphalt);transition:transform 0.15s, box-shadow 0.15s;
+  }
+  .nav-cta:hover{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--asphalt);background:var(--asphalt);}
+  .cart-link{display:inline-flex;align-items:center;gap:6px;}
+  .cart-badge{
+    display:none;align-items:center;justify-content:center;
+    background:var(--cone);color:var(--chalk);border-radius:50%;
+    width:18px;height:18px;font-size:10.5px;font-weight:700;
+  }
+  .head{padding:56px 6% 36px;}
+  .head h1{font-family:'Archivo Black',sans-serif;font-size:clamp(32px,5vw,54px);line-height:0.95;letter-spacing:-0.02em;}
+
+  .methods{
+    display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:2px;background:var(--stitch);
+    border-top:2px solid var(--asphalt);border-bottom:2px solid var(--asphalt);
+    margin:0 6% 60px;
+  }
+  .method{background:var(--chalk);padding:26px 22px;}
+  .method .tag{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--cone);margin-bottom:10px;display:block;}
+  .method h3{font-size:17px;font-weight:700;margin-bottom:8px;}
+  .method p{font-size:13.5px;color:#5a584e;line-height:1.5;}
+
+  .block{padding:0 6% 40px;max-width:680px;}
+  .block h3{font-family:'Archivo Black',sans-serif;font-size:20px;margin-bottom:10px;}
+  .block p{color:#4a483f;line-height:1.6;white-space:pre-line;}
+  .block.warn{background:var(--asphalt);color:var(--chalk);padding:26px 6%;max-width:none;margin-bottom:40px;}
+  .block.warn h3{color:var(--cone);margin-left:0;}
+  .block.warn p{color:var(--chalk);}
+  .block.warn .inner{max-width:680px;}
+  .loading-msg{padding:0 6% 40px;font-family:'JetBrains Mono',monospace;color:var(--sole);}
+  .hours-badge{
+    margin:0 6% 30px;padding:12px 20px;background:var(--chalk);border:1.5px solid var(--asphalt);
+    display:inline-block;font-family:'JetBrains Mono',monospace;font-size:13px;
+  }
+
+  footer{padding:32px 6%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;border-top:2px solid var(--asphalt);}
+  footer .foot-links{display:flex;gap:20px;font-family:'JetBrains Mono',monospace;font-size:12px;}
+  footer .foot-links a{color:var(--asphalt);text-decoration:none;border-bottom:1px solid var(--stitch);}
+  .banner-carousel{position:relative;margin:0 6% 24px;overflow:hidden;border:2px solid var(--asphalt);}
+  .banner-track{display:flex;transition:transform 0.5s ease;}
+  .banner-slide{min-width:100%;aspect-ratio:16/5;position:relative;text-decoration:none;display:block;}
+  .banner-slide img{width:100%;height:100%;object-fit:cover;display:block;}
+  .banner-slide .banner-title{
+    position:absolute;bottom:0;left:0;right:0;padding:16px 20px;
+    background:linear-gradient(transparent, rgba(35,35,32,0.85));
+    color:var(--chalk);font-family:'Archivo Black',sans-serif;font-size:clamp(16px,2.4vw,24px);
+  }
+  .banner-dots{position:absolute;bottom:10px;right:16px;display:flex;gap:6px;}
+  .banner-dots button{
+    width:8px;height:8px;border-radius:50%;border:1.5px solid var(--chalk);background:transparent;
+    cursor:pointer;padding:0;
+  }
+  .banner-dots button.active{background:var(--chalk);}
+  @media (max-width:600px){.banner-slide{aspect-ratio:16/9;}}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="logo">KICKS<span>.UA</span></a>
+  <div class="nav-links">
+    <a href="index.html">Каталог</a>
+    <a href="favorites.html" class="cart-link">♥ Обране <span class="cart-badge" id="favBadge">0</span></a>
+    <a href="cart.html" class="cart-link">Кошик <span class="cart-badge" id="cartBadge">0</span></a>
+    <a href="#" id="managerCtaLink" class="nav-cta" target="_blank">💬 Написати нам</a>
+  </div>
+</nav>
+<div class="banner-carousel" id="bannerCarousel" style="display:none;">
+  <div class="banner-track" id="bannerTrack"></div>
+  <div class="banner-dots" id="bannerDots"></div>
+</div>
+
+<section class="head">
+  <span class="label">Умови</span>
+  <h1>Доставка<br>і оплата</h1>
+</section>
+
+<div id="contentArea">
+  <div class="loading-msg">Завантаження...</div>
+</div>
+
+<footer>
+  <div class="logo">KICKS<span>.UA</span></div>
+  <div class="foot-links">
+    <a href="index.html">Каталог</a>
+  </div>
+</footer>
+
+<script>
+  (function(){
+    try {
+      var cart = JSON.parse(localStorage.getItem('kicksCart') || '[]');
+      var badge = document.getElementById('cartBadge');
+      if (cart.length > 0) { badge.textContent = cart.length; badge.style.display = 'inline-flex'; }
+    } catch(e) {}
+    try {
+      var favs = JSON.parse(localStorage.getItem('kicksFavorites') || '[]');
+      var favBadge = document.getElementById('favBadge');
+      if (favs.length > 0) { favBadge.textContent = favs.length; favBadge.style.display = 'inline-flex'; }
+    } catch(e) {}
+  })();
+
+  async function renderContent() {
+    const area = document.getElementById('contentArea');
+    try {
+      const res = await fetch('site-content.json?_=' + Date.now());
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      const data = await res.json();
+
+      const methodsHtml = (data.deliveryMethods || []).map((m, i) => `
+        <div class="method">
+          <span class="tag">0${i + 1}</span>
+          <h3>${m.title}</h3>
+          <p>${m.text}</p>
+        </div>`).join('');
+
+      const hoursHtml = (data.workingHours && data.workingHours.enabled)
+        ? `<div class="hours-badge">🕐 ${data.workingHours.text}</div>`
+        : '';
+
+      const blocksHtml = (data.infoBlocks || [])
+        .filter(b => b.enabled !== false)
+        .map(b => `
+          <div class="block ${b.style === 'warn' ? 'warn' : ''}">
+            <div class="inner">
+              <h3>${b.title}</h3>
+              <p>${b.text}</p>
+            </div>
+          </div>`).join('');
+
+      area.innerHTML = `
+        ${hoursHtml}
+        <div class="methods">${methodsHtml}</div>
+        ${blocksHtml}
+      `;
+    } catch (err) {
+      console.error('Помилка завантаження контенту:', err);
+      area.innerHTML = '<div class="loading-msg">Не вдалося завантажити інформацію (' + err.message + '). Перевір, що файл site-content.json є в репозиторії.</div>';
+    }
+  }
+
+  renderContent();
+
+  // ===== Банери (якщо адмін додав для цієї сторінки) =====
+  let bannerIndex_delivery = 0;
+  async function loadBanners_delivery() {
+    try {
+      const res = await fetch('site-content.json?_=' + Date.now());
+      const data = await res.json();
+      const banners = (data.banners || []).filter(b => b.enabled !== false && b.pages && b.pages.includes('delivery'));
+      if (banners.length === 0) return;
+
+      const carousel = document.getElementById('bannerCarousel');
+      const track = document.getElementById('bannerTrack');
+      const dots = document.getElementById('bannerDots');
+      if (!carousel) return;
+
+      track.innerHTML = banners.map(b => {
+        const inner = `<img src="${b.imageUrl}" alt="${b.title || ''}">${b.title ? `<div class="banner-title">${b.title}</div>` : ''}`;
+        return b.link ? `<a href="${b.link}" class="banner-slide">${inner}</a>` : `<div class="banner-slide">${inner}</div>`;
+      }).join('');
+
+      if (banners.length > 1) {
+        dots.innerHTML = banners.map((_, i) => `<button data-i="${i}" class="${i === 0 ? 'active' : ''}"></button>`).join('');
+        dots.querySelectorAll('button').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const idx = parseInt(btn.dataset.i);
+            bannerIndex_delivery = idx;
+            track.style.transform = `translateX(-${idx * 100}%)`;
+            dots.querySelectorAll('button').forEach((b, i) => b.classList.toggle('active', i === idx));
+          });
+        });
+        setInterval(() => {
+          bannerIndex_delivery = (bannerIndex_delivery + 1) % banners.length;
+          track.style.transform = `translateX(-${bannerIndex_delivery * 100}%)`;
+          dots.querySelectorAll('button').forEach((b, i) => b.classList.toggle('active', i === bannerIndex_delivery));
+        }, 5000);
+      }
+
+      carousel.style.display = 'block';
+    } catch (err) {
+      console.warn('Банери не завантажено:', err);
+    }
+  }
+  loadBanners_delivery();
+
+
+  // Підставляємо реальне посилання на Telegram-менеджера з site-content.json
+  (async function() {
+    try {
+      const res = await fetch('site-content.json?_=' + Date.now());
+      const data = await res.json();
+      if (data.contacts && data.contacts.telegramHandle) {
+        const tgUrl = 'https://t.me/' + data.contacts.telegramHandle;
+        const managerBtn = document.getElementById('managerCtaLink');
+        const footerLink = document.getElementById('footerTelegramLink');
+        if (managerBtn) managerBtn.href = tgUrl;
+        if (footerLink) footerLink.href = tgUrl;
+      }
+    } catch (err) {
+      console.warn('Не вдалося завантажити Telegram-посилання:', err);
+    }
+  })();
+
+</script>
+
+</body>
+</html>
