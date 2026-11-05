@@ -20,7 +20,7 @@
   .logo span { color:var(--cone); }
   main { max-width:900px; margin:34px auto; padding:0 20px 70px; }
   h1 { margin-bottom:6px; }
-  .sub { color:var(--sole); margin:0 0 22px; }
+  .sub { color:var(--sole); margin:0 0 22px; line-height:1.5; }
   .panel { background:var(--chalk); border:2px solid var(--asphalt); padding:22px; margin:16px 0; }
   label { display:block; font-weight:700; margin:13px 0 6px; }
   input[type="url"], input[type="number"], input[type="file"], select {
@@ -42,8 +42,10 @@
   .message.error { background:#F4D9D3; color:#7A2A20; border:1px solid #B23A2E; }
   .message.success { background:#DCEEDC; color:#1F6B3B; border:1px solid #1F6B3B; }
   .message.info { background:#fff; border:1px solid var(--stitch); }
-  .log { max-height:320px; overflow:auto; line-height:1.55; }
-  small, .hint { color:var(--sole); line-height:1.5; }
+  .log { max-height:380px; overflow:auto; line-height:1.55; white-space:pre-wrap; overflow-wrap:anywhere; }
+  .hint { color:var(--sole); line-height:1.5; }
+  .progress { height:10px; background:#fff; border:1px solid var(--stitch); margin-top:12px; }
+  .progress div { height:100%; width:0; background:var(--cone); transition:width .2s; }
   @media(max-width:600px) { .grid { grid-template-columns:1fr; } }
 </style>
 </head>
@@ -55,7 +57,10 @@
 
 <main>
   <h1>Імпорт товарів із CRM (XML)</h1>
-  <p class="sub">Імпорт створює або оновлює товари у products.json. Автоматичного імпорту за розкладом немає.</p>
+  <p class="sub">
+    Імпорт створює або оновлює товари у products.json. Варіації зберігаються у полі
+    <code>variants</code>. Автоматичного імпорту за розкладом немає.
+  </p>
 
   <div id="authMessage" class="message error"></div>
   <div id="statusMessage" class="message"></div>
@@ -63,12 +68,15 @@
   <section class="panel">
     <h2>1. Джерело XML</h2>
     <label for="xmlUrl">Посилання на XML-файл (необов’язково)</label>
-    <input id="xmlUrl" type="url" placeholder="https://example.com/catalog.xml">
-    <p class="hint">Якщо браузер не може завантажити посилання через CORS, завантажте XML-файл нижче.</p>
+    <input id="xmlUrl" type="url" placeholder="https://crm.example.com/export.xml">
+    <p class="hint">
+      Якщо CRM блокує запити з браузера через CORS, завантажте XML на комп’ютер і виберіть його нижче.
+      Те саме обмеження може стосуватися завантаження зображень із CRM.
+    </p>
     <label for="xmlFile">Або виберіть XML-файл із комп’ютера</label>
     <input id="xmlFile" type="file" accept=".xml,text/xml,application/xml">
     <div class="actions">
-      <button type="button" id="loadCategoriesBtn">Завантажити категорії</button>
+      <button type="button" id="loadCategoriesBtn">Завантажити XML і категорії</button>
     </div>
   </section>
 
@@ -93,7 +101,7 @@
     <select id="categories" class="categories" multiple>
       <option value="">Спочатку завантажте XML</option>
     </select>
-    <p class="hint">Якщо нічого не вибрано, будуть використані всі категорії.</p>
+    <p class="hint">Якщо нічого не вибрано, буде використано всі категорії.</p>
 
     <h3>Оновлювати в уже імпортованих товарах</h3>
     <label class="check"><input type="checkbox" name="updateField" value="name" checked>Назву</label>
@@ -106,19 +114,20 @@
 
     <label class="check" style="margin-top:18px">
       <input type="checkbox" id="hideAbsent">
-      Деактивувати товари цього імпорту, яких немає у вибраному XML
+      Деактивувати CRM-товари, яких немає у вибраному XML
     </label>
-    <p class="hint">Ця опція стосується лише товарів, раніше позначених цією сторінкою як імпортовані з CRM.</p>
+    <p class="hint">Опція застосовується лише до товарів, які раніше були позначені цим імпортом.</p>
 
     <div class="actions">
       <button type="button" id="previewBtn">Порахувати відповідні моделі</button>
       <button type="button" class="primary" id="importBtn">Імпортувати</button>
     </div>
+    <div class="progress"><div id="progressBar"></div></div>
   </section>
 
   <section class="panel">
     <h2>Результат</h2>
-    <div id="result" class="log">Спочатку виберіть XML.</div>
+    <div id="result" class="log">Спочатку завантажте XML.</div>
   </section>
 </main>
 
@@ -130,6 +139,7 @@
   const $ = id => document.getElementById(id);
   let xmlDocument = null;
   let categoriesById = {};
+  let activeSession = null;
 
   function showMessage(text, type = 'info') {
     const box = $('statusMessage');
@@ -143,33 +153,35 @@
     box.classList.add('visible');
   }
 
-  function getSession() {
-    try {
-      const session = JSON.parse(sessionStorage.getItem(STORAGE_KEY) || 'null');
-      if (session && session.owner && session.repo && session.token) return session;
-    } catch (e) {}
-    return null;
-  }
+  try {
+    const saved = JSON.parse(sessionStorage.getItem(STORAGE_KEY) || 'null');
+    if (saved && saved.owner && saved.repo && saved.token) activeSession = saved;
+  } catch (e) {}
 
-  const session = getSession();
-  if (!session) {
-    showAuthError('Немає активної сесії адмінки. Відкрийте admin.html, увійдіть у систему й перейдіть сюди кнопкою «Імпорт XML».');
+  if (!activeSession) {
+    showAuthError('Немає активної сесії адмінки. Відкрийте admin.html, увійдіть і перейдіть сюди кнопкою імпорту в цій самій вкладці.');
     $('importBtn').disabled = true;
     $('previewBtn').disabled = true;
   }
 
-  async function githubFile(path, options = {}) {
-    const url = `https://api.github.com/repos/${encodeURIComponent(session.owner)}/${encodeURIComponent(session.repo)}/contents/${path}`;
+  async function githubRequest(path, options = {}) {
+    if (!activeSession) throw new Error('Немає сесії GitHub. Перейдіть до адмінки та увійдіть знову.');
+    const encodedPath = path.split('/').map(encodeURIComponent).join('/');
+    const url = `https://api.github.com/repos/${encodeURIComponent(activeSession.owner)}/${encodeURIComponent(activeSession.repo)}/contents/${encodedPath}`;
     const response = await fetch(url, {
       ...options,
       headers: {
-        Authorization: `Bearer ${session.token}`,
+        Authorization: `Bearer ${activeSession.token}`,
         Accept: 'application/vnd.github+json',
         ...(options.headers || {})
       }
     });
     const data = await response.json().catch(() => ({}));
-    if (!response.ok) throw new Error(data.message || `GitHub API: ${response.status}`);
+    if (!response.ok) {
+      const error = new Error(data.message || `GitHub API: ${response.status}`);
+      error.status = response.status;
+      throw error;
+    }
     return data;
   }
 
@@ -179,58 +191,92 @@
     return new TextDecoder().decode(bytes);
   }
 
-  function encodeBase64(value) {
-    const bytes = new TextEncoder().encode(value);
+  function encodeBase64Bytes(bytes) {
     let binary = '';
-    bytes.forEach(byte => binary += String.fromCharCode(byte));
+    const chunkSize = 0x8000;
+    for (let i = 0; i < bytes.length; i += chunkSize) {
+      binary += String.fromCharCode(...bytes.subarray(i, i + chunkSize));
+    }
     return btoa(binary);
   }
 
-  function childText(node, name) {
-    const child = node.getElementsByTagName(name)[0];
+  function encodeBase64Text(value) {
+    return encodeBase64Bytes(new TextEncoder().encode(value));
+  }
+
+  function directChild(node, tagName) {
+    return Array.from(node.children || []).find(child =>
+      child.localName.toLowerCase() === tagName.toLowerCase()
+    ) || null;
+  }
+
+  function childText(node, tagName) {
+    const child = directChild(node, tagName);
     return child ? child.textContent.trim() : '';
   }
 
+  function directChildren(node, tagName) {
+    return Array.from(node.children || []).filter(child =>
+      child.localName.toLowerCase() === tagName.toLowerCase()
+    );
+  }
+
   function getGroupId(item) {
-    return item.getAttribute('group_id') || childText(item, 'group_id') || '';
+    return item.getAttribute('group_id') ||
+      childText(item, 'group_id') ||
+      item.getAttribute('groupId') || '';
   }
 
   function getCategoryId(item) {
-    return childText(item, 'categoryId');
+    return childText(item, 'categoryId') ||
+      item.getAttribute('categoryId') || '';
   }
 
   function getSize(item) {
-    const params = Array.from(item.getElementsByTagName('param'));
-    const param = params.find(p => {
-      const name = (p.getAttribute('name') || '').toLocaleLowerCase();
-      return name.includes('розмір') || name.includes('размер') || name === 'size';
+    const params = directChildren(item, 'param');
+    const sizeParam = params.find(param => {
+      const name = (param.getAttribute('name') || '').trim().toLocaleLowerCase();
+      return name === 'розмір' || name === 'размер' || name === 'size' ||
+        name.includes('розмір') || name.includes('размер');
     });
-    return param ? param.textContent.trim() : '';
-  }
-
-  function getNumericPrice(item) {
-    const raw = childText(item, 'priceuah') || childText(item, 'price');
-    const value = Number(String(raw).replace(',', '.').replace(/[^\d.-]/g, ''));
-    return Number.isFinite(value) && value >= 0 ? value : 0;
+    return sizeParam ? sizeParam.textContent.trim() : '';
   }
 
   function getQuantity(item) {
-    const value = parseInt(childText(item, 'quantity_in_stock'), 10);
-    return Number.isFinite(value) && value > 0 ? value : 0;
+    const raw = childText(item, 'quantity_in_stock') || childText(item, 'quantity');
+    const parsed = parseInt(raw, 10);
+    return Number.isFinite(parsed) && parsed > 0 ? parsed : 0;
+  }
+
+  function getPrice(item) {
+    const raw = childText(item, 'priceuah') || childText(item, 'price');
+    const parsed = Number(String(raw).replace(',', '.').replace(/[^\d.-]/g, ''));
+    return Number.isFinite(parsed) && parsed >= 0 ? parsed : 0;
   }
 
   function parseXml(text) {
     const doc = new DOMParser().parseFromString(text, 'application/xml');
-    if (doc.querySelector('parsererror')) throw new Error('Не вдалося розібрати XML. Перевірте файл і його кодування.');
-    const items = Array.from(doc.getElementsByTagName('item'));
-    if (!items.length) throw new Error('У XML не знайдено елементів <item>.');
+    if (doc.querySelector('parsererror')) {
+      throw new Error('Не вдалося розібрати XML. Переконайтеся, що CRM віддає XML, а не CSV, HTML чи звичайний текст.');
+    }
+
+    const itemsContainer = Array.from(doc.getElementsByTagName('*'))
+      .find(node => node.localName.toLowerCase() === 'items');
+    if (!itemsContainer) {
+      throw new Error('У файлі не знайдено контейнер <items>. Очікується XML-структура, сумісна з плагіном.');
+    }
+
+    const items = directChildren(itemsContainer, 'item');
+    if (!items.length) throw new Error('У контейнері <items> немає записів <item>.');
+
     xmlDocument = doc;
     categoriesById = {};
 
-    Array.from(doc.getElementsByTagName('category')).forEach(category => {
-      const id = category.getAttribute('id') || '';
-      if (id) categoriesById[id] = category.textContent.trim();
-    });
+    Array.from(doc.getElementsByTagName('*'))
+      .filter(node => node.localName.toLowerCase() === 'category' && node.hasAttribute('id'))
+      .forEach(category => {
+        categoriesById[category.getAttribute('id')] = category.textContent.trim();
+      });
 
     const select = $('categories');
     select.replaceChildren();
@@ -240,7 +286,9 @@
       option.textContent = name || id;
       select.appendChild(option);
     });
-    showMessage(`XML завантажено: знайдено ${items.length} позицій і ${Object.keys(categoriesById).length} категорій.`, 'success');
+
+    $('result').textContent = `XML завантажено: позицій — ${items.length}; категорій — ${Object.keys(categoriesById).length}.`;
+    showMessage('XML завантажено. Можна перевірити кількість моделей або запустити імпорт.', 'success');
   }
 
   async function loadXml() {
@@ -249,9 +297,11 @@
       parseXml(await file.text());
       return;
     }
+
     const url = $('xmlUrl').value.trim();
     if (!url) throw new Error('Виберіть XML-файл або введіть посилання.');
-    if (!/^https:\/\//i.test(url)) throw new Error('Для завантаження за посиланням використовуйте HTTPS.');
+    if (!/^https:\/\//i.test(url)) throw new Error('Посилання для завантаження має починатися з https://');
+
     const response = await fetch(url);
     if (!response.ok) throw new Error(`Не вдалося завантажити XML: HTTP ${response.status}.`);
     parseXml(await response.text());
@@ -280,14 +330,17 @@
     return Array.from($('categories').selectedOptions).map(option => option.value);
   }
 
-  function makeGroups() {
+  function buildGroups() {
     if (!xmlDocument) throw new Error('Спочатку завантажте XML.');
+
     const selected = selectedCategoryIds();
     const modelThreshold = Math.max(0, parseInt($('modelThreshold').value, 10) || 0);
     const variationThreshold = Math.max(0, parseInt($('variationThreshold').value, 10) || 0);
+    const itemsContainer = Array.from(xmlDocument.getElementsByTagName('*'))
+      .find(node => node.localName.toLowerCase() === 'items');
     const groups = new Map();
 
-    Array.from(xmlDocument.getElementsByTagName('item')).forEach(item => {
+    directChildren(itemsContainer, 'item').forEach(item => {
       const groupId = getGroupId(item);
       if (!groupId) return;
 
@@ -303,7 +356,7 @@
       const totalStock = items.reduce((sum, item) => sum + getQuantity(item), 0);
       if (totalStock < modelThreshold) return;
 
-      const variantsBySize = new Map();
+      const bySize = new Map();
       items.forEach(item => {
         const size = getSize(item);
         const stock = getQuantity(item);
@@ -311,26 +364,24 @@
 
         const variant = {
           size,
-          price: getNumericPrice(item),
+          price: getPrice(item),
           stock,
-          sku: childText(item, 'vendorCode') || childText(item, 'barcode') || ''
+          sku: childText(item, 'barcode') || childText(item, 'vendorCode') || ''
         };
-        // Если XML содержит повтор одной вариации, оставляем запись с большим остатком.
-        const current = variantsBySize.get(size);
-        if (!current || variant.stock > current.stock) variantsBySize.set(size, variant);
+        const current = bySize.get(size);
+        if (!current || variant.stock > current.stock) bySize.set(size, variant);
       });
 
-      const variants = Array.from(variantsBySize.values());
+      const variants = Array.from(bySize.values());
       if (!variants.length || !variants.some(variant => variant.stock > 0)) return;
 
-      const source = items[0];
       eligible.push({
         groupId,
         items,
-        source,
+        source: items[0],
         variants,
-        categoryId: getCategoryId(source),
-        categoryName: categoriesById[getCategoryId(source)] || ''
+        categoryId: getCategoryId(items[0]),
+        categoryName: categoriesById[getCategoryId(items[0])] || ''
       });
     });
 
@@ -340,68 +391,117 @@
 
   $('previewBtn').addEventListener('click', () => {
     try {
-      const groups = makeGroups();
+      const groups = buildGroups();
       showMessage(`За заданими умовами буде оброблено моделей: ${groups.length}.`, 'success');
     } catch (error) {
       showMessage(error.message, 'error');
     }
   });
 
-  function getCheckedFields() {
-    return new Set(Array.from(document.querySelectorAll('input[name="updateField"]:checked')).map(input => input.value));
-  }
-
-  function stableId(groupId) {
+  function hashString(value) {
     let hash = 2166136261;
-    for (let i = 0; i < groupId.length; i++) {
-      hash ^= groupId.charCodeAt(i);
+    for (let i = 0; i < value.length; i++) {
+      hash ^= value.charCodeAt(i);
       hash = Math.imul(hash, 16777619);
     }
-    return 'crm-' + (hash >>> 0).toString(36);
+    return (hash >>> 0).toString(36);
+  }
+
+  function stableProductId(groupId) {
+    return 'crm-' + hashString(groupId);
+  }
+
+  function sourceImages(group) {
+    const urls = [];
+    group.items.forEach(item => {
+      ['image', 'picture'].forEach(tag => {
+        directChildren(item, tag).forEach(node => {
+          const value = node.textContent.trim();
+          if (/^https?:\/\//i.test(value) && !urls.includes(value)) urls.push(value);
+        });
+      });
+    });
+    return urls;
+  }
+
+  function safeFileName(value) {
+    const cleaned = value.split('/').pop().split('?')[0].replace(/[^a-zA-Z0-9._-]/g, '_');
+    return cleaned || 'image.jpg';
+  }
+
+  async function uploadImageToGitHub(imageUrl, productId, imageIndex) {
+    const parsed = new URL(imageUrl);
+    if (parsed.protocol !== 'https:' && parsed.protocol !== 'http:') {
+      throw new Error('Непідтримуваний протокол зображення.');
+    }
+
+    const response = await fetch(imageUrl);
+    if (!response.ok) throw new Error(`Зображення повернуло HTTP ${response.status}`);
+    const blob = await response.blob();
+    if (!blob.size) throw new Error('Отримано порожній файл зображення.');
+    if (blob.size > 8 * 1024 * 1024) throw new Error('Зображення більше 8 МБ; пропущено для безпечного завантаження.');
+
+    const bytes = new Uint8Array(await blob.arrayBuffer());
+    const filename = `${String(imageIndex + 1).padStart(2, '0')}-${hashString(imageUrl)}-${safeFileName(parsed.pathname)}`;
+    const path = `images/crm/${productId}/${filename}`;
+    let existingSha = null;
+
+    try {
+      const existing = await githubRequest(path);
+      existingSha = existing.sha;
+    } catch (error) {
+      if (error.status !== 404) throw error;
+    }
+
+    const body = {
+      message: `Import CRM image for ${productId}`,
+      content: encodeBase64Bytes(bytes)
+    };
+    if (existingSha) body.sha = existingSha;
+
+    await githubRequest(path, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(body)
+    });
+
+    return path;
   }
 
   function cleanDescription(value) {
-    const node = document.createElement('div');
-    node.innerHTML = value || '';
-    return node.textContent.trim();
+    const wrapper = document.createElement('div');
+    wrapper.innerHTML = value || '';
+    return wrapper.textContent.trim();
   }
 
   function extractSpecs(item) {
     const specs = {};
-    Array.from(item.getElementsByTagName('param')).forEach(param => {
+    directChildren(item, 'param').forEach(param => {
       const name = (param.getAttribute('name') || '').trim();
       const value = param.textContent.trim();
-      if (name && value) specs[name] = value;
+      if (name && value && !/^(розмір|размер|size)$/i.test(name)) specs[name] = value;
     });
     return specs;
   }
 
-  function imageUrls(item) {
-    return Array.from(item.getElementsByTagName('picture'))
-      .map(node => node.textContent.trim())
-      .filter(value => /^https?:\/\//i.test(value));
-  }
-
-  function mapProduct(group, oldProduct, fields) {
-    const item = group.source;
-    const name = childText(item, 'name') || childText(item, 'model') || group.categoryName || 'Товар';
-    const brand = group.categoryName || childText(item, 'vendor') || 'Інше';
+  async function mapProduct(group, oldProduct, fields, warnings) {
+    const source = group.source;
+    const name = childText(source, 'name') || childText(source, 'model') || group.categoryName || 'Товар';
+    const brand = group.categoryName || childText(source, 'vendor') || 'Інше';
     const variants = group.variants;
-    const prices = variants.map(variant => variant.price).filter(price => price > 0);
-    const images = imageUrls(item);
+    const availablePrices = variants.map(variant => variant.price).filter(price => price > 0);
     const totalStock = variants.reduce((sum, variant) => sum + variant.stock, 0);
 
     const product = oldProduct ? { ...oldProduct } : {
-      id: stableId(group.groupId),
+      id: stableProductId(group.groupId),
       createdAt: new Date().toISOString(),
       active: true,
       oldPrice: null,
       badge: null,
-      sizeChart: '',
-      placeholderColor: undefined
+      sizeChart: ''
     };
 
-    product.id = oldProduct?.id || stableId(group.groupId);
+    product.id = oldProduct?.id || stableProductId(group.groupId);
     product.source = 'crm-xml';
     product.sourceGroupId = group.groupId;
 
@@ -412,49 +512,68 @@
     }
     if (!oldProduct || fields.has('attributes')) {
       product.sizes = variants.map(variant => variant.size);
-      product.specs = extractSpecs(item);
+      product.specs = extractSpecs(source);
     }
-    if (!oldProduct || fields.has('price')) {
-      product.variants = variants.map(variant => ({ ...variant }));
-      product.price = prices.length ? Math.min(...prices) : 0;
-    } else if (!oldProduct) {
-      product.variants = variants.map(variant => ({ ...variant }));
-      product.price = prices.length ? Math.min(...prices) : 0;
-    }
-    if (!oldProduct || fields.has('stock')) {
-      if (!product.variants) product.variants = variants.map(variant => ({ ...variant }));
-      else {
-        const incoming = new Map(variants.map(variant => [variant.size, variant]));
-        product.variants = product.variants.map(variant => {
-          const latest = incoming.get(variant.size);
-          return latest ? { ...variant, stock: latest.stock } : { ...variant, stock: 0 };
-        });
-        variants.forEach(variant => {
-          if (!product.variants.some(existing => existing.size === variant.size)) product.variants.push({ ...variant });
-        });
+
+    if (!oldProduct || fields.has('price') || fields.has('stock')) {
+      const previous = Array.isArray(product.variants) ? product.variants : [];
+      const previousBySize = new Map(previous.map(variant => [String(variant.size), variant]));
+      const incomingBySize = new Map(variants.map(variant => [String(variant.size), variant]));
+      const sizeSet = new Set([...previousBySize.keys(), ...incomingBySize.keys()]);
+
+      product.variants = Array.from(sizeSet).map(size => {
+        const oldVariant = previousBySize.get(size);
+        const newVariant = incomingBySize.get(size);
+
+        if (!newVariant) return { ...oldVariant, stock: 0 };
+
+        return {
+          ...(oldVariant || {}),
+          size,
+          ...(!oldProduct || fields.has('price') ? { price: newVariant.price } : {}),
+          ...(!oldProduct || fields.has('stock') ? { stock: newVariant.stock } : {}),
+          sku: newVariant.sku || oldVariant?.sku || ''
+        };
+      });
+
+      if (!oldProduct || fields.has('price')) {
+        product.price = availablePrices.length ? Math.min(...availablePrices) : 0;
       }
-      product.stock = totalStock;
+      if (!oldProduct || fields.has('stock')) product.stock = totalStock;
     }
-    if (!oldProduct) product.stock = totalStock;
-    if (!oldProduct || fields.has('description')) product.description = cleanDescription(childText(item, 'description'));
-    if (!oldProduct || fields.has('image')) product.images = images;
+
+    if (!oldProduct || fields.has('description')) {
+      product.description = cleanDescription(childText(source, 'description'));
+    }
+
+    if (!oldProduct || fields.has('image')) {
+      const urls = sourceImages(group);
+      const localPaths = [];
+      for (let index = 0; index < urls.length; index++) {
+        try {
+          showMessage(`Завантажуємо фото ${index + 1}/${urls.length}: ${name}`);
+          localPaths.push(await uploadImageToGitHub(urls[index], product.id, index));
+        } catch (error) {
+          warnings.push(`${name}: фото ${index + 1} не завантажено (${error.message}); залишено зовнішнє посилання.`);
+          localPaths.push(urls[index]);
+        }
+      }
+      product.images = localPaths;
+    }
+
     if (!oldProduct) product.active = true;
-
     return product;
-  }
-
-  function escapeHtml(value) {
-    return String(value).replace(/[&<>"']/g, char => ({
-      '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'
-    }[char]));
   }
 
   $('importBtn').addEventListener('click', async () => {
     const button = $('importBtn');
     button.disabled = true;
+    $('progressBar').style.width = '0%';
+
     try {
       if (!xmlDocument) await loadXml();
-      const groups = makeGroups();
+
+      const groups = buildGroups();
       if (!groups.length) {
         $('result').textContent = 'За вибраними категоріями та порогами немає моделей для імпорту.';
         showMessage('Нічого не імпортовано.', 'info');
@@ -462,23 +581,27 @@
       }
 
       showMessage('Завантажуємо products.json з GitHub…');
-      const file = await githubFile('products.json');
+      const file = await githubRequest('products.json');
       const products = JSON.parse(decodeBase64(file.content));
       if (!Array.isArray(products)) throw new Error('products.json має містити масив товарів.');
 
-      const fields = getCheckedFields();
-      const importedIds = new Set();
+      const fields = new Set(
+        Array.from(document.querySelectorAll('input[name="updateField"]:checked'))
+          .map(input => input.value)
+      );
+      const importedGroupIds = new Set();
       const added = [];
       const updated = [];
-      const skipped = [];
+      const warnings = [];
 
-      groups.forEach(group => {
+      for (let index = 0; index < groups.length; index++) {
+        const group = groups[index];
         const oldIndex = products.findIndex(product =>
           product.sourceGroupId === group.groupId ||
-          (product.source === 'crm-xml' && product.id === stableId(group.groupId))
+          (product.source === 'crm-xml' && product.id === stableProductId(group.groupId))
         );
         const oldProduct = oldIndex >= 0 ? products[oldIndex] : null;
-        const product = mapProduct(group, oldProduct, fields);
+        const product = await mapProduct(group, oldProduct, fields, warnings);
 
         if (oldProduct) {
           products[oldIndex] = product;
@@ -487,43 +610,59 @@
           products.push(product);
           added.push(product.name);
         }
-        importedIds.add(product.sourceGroupId);
-      });
+
+        importedGroupIds.add(group.groupId);
+        $('progressBar').style.width = `${Math.round(((index + 1) / groups.length) * 90)}%`;
+      }
 
       let hidden = 0;
       if ($('hideAbsent').checked) {
         products.forEach(product => {
-          if (product.source === 'crm-xml' && product.sourceGroupId && !importedIds.has(product.sourceGroupId) && product.active !== false) {
+          if (
+            product.source === 'crm-xml' &&
+            product.sourceGroupId &&
+            !importedGroupIds.has(product.sourceGroupId) &&
+            product.active !== false
+          ) {
             product.active = false;
             hidden++;
           }
         });
       }
 
-      showMessage('Зберігаємо зміни в products.json…');
-      const content = JSON.stringify(products, null, 2);
-      await githubFile('products.json', {
+      showMessage('Записуємо products.json у GitHub…');
+      await githubRequest('products.json', {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           message: `Import CRM XML: ${added.length} added, ${updated.length} updated`,
-          content: encodeBase64(content),
+          content: encodeBase64Text(JSON.stringify(products, null, 2)),
           sha: file.sha
         })
       });
 
+      $('progressBar').style.width = '100%';
       const lines = [
         `Додано: ${added.length}`,
         `Оновлено: ${updated.length}`,
         `Деактивовано відсутніх: ${hidden}`,
+        `Попереджень щодо фото: ${warnings.length}`,
         '',
         ...added.map(name => '+ ' + name),
         ...updated.map(name => '↻ ' + name)
       ];
+      if (warnings.length) lines.push('', 'Проблеми із зображеннями:', ...warnings.map(text => '⚠ ' + text));
+
       $('result').textContent = lines.join('\n');
-      showMessage('Імпорт завершено. products.json оновлено в GitHub.', 'success');
+      showMessage(
+        warnings.length
+          ? 'Імпорт завершено, але частину зображень не вдалося скопіювати. Перевірте список попереджень.'
+          : 'Імпорт завершено. Товари та фото збережено в GitHub.',
+        warnings.length ? 'info' : 'success'
+      );
     } catch (error) {
       showMessage(error.message || 'Помилка імпорту.', 'error');
+      $('result').textContent = error.message || 'Помилка імпорту.';
     } finally {
       button.disabled = false;
     }
