@@ -637,5 +637,1985 @@
     "images": [
       "https://easydrop.one/media/uploads/images/base/a5c6eb18-27eb-4893-ba34-3ea6abc6a82b.jpg"
     ]
+  },
+  {
+    "id": "crm-p5h8n7",
+    "createdAt": "2026-11-05T19:59:34.821Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "210221",
+    "name": "New Balance 9060 Light Grey 36",
+    "brand": "New Balance",
+    "category": "New Balance",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2200,
+        "stock": 3,
+        "sku": "B4998-1452483"
+      },
+      {
+        "size": "37",
+        "price": 2200,
+        "stock": 2,
+        "sku": "B4998-1452484"
+      },
+      {
+        "size": "38",
+        "price": 2200,
+        "stock": 5,
+        "sku": "B4998-1452485"
+      },
+      {
+        "size": "39",
+        "price": 2200,
+        "stock": 5,
+        "sku": "B4998-1452486"
+      },
+      {
+        "size": "40",
+        "price": 2200,
+        "stock": 2,
+        "sku": "B4998-1452487"
+      },
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 1,
+        "sku": "B4998-1452488"
+      }
+    ],
+    "price": 2200,
+    "stock": 18,
+    "description": "Матеріал : натуральна замша , шкіра , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/5ed13d74-1e86-480d-93f8-2f3a8c65d5d3.jpg"
+    ]
+  },
+  {
+    "id": "crm-2l5e4b",
+    "createdAt": "2026-11-05T19:59:35.005Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "230968",
+    "name": "New Balance 9060 Grey White 36",
+    "brand": "New Balance",
+    "category": "New Balance",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2200,
+        "stock": 3,
+        "sku": "В5574-1615442"
+      },
+      {
+        "size": "37",
+        "price": 2200,
+        "stock": 2,
+        "sku": "В5574-1615443"
+      },
+      {
+        "size": "38",
+        "price": 2200,
+        "stock": 3,
+        "sku": "В5574-1615444"
+      },
+      {
+        "size": "39",
+        "price": 2200,
+        "stock": 6,
+        "sku": "В5574-1615445"
+      },
+      {
+        "size": "40",
+        "price": 2200,
+        "stock": 1,
+        "sku": "В5574-1615446"
+      },
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 2,
+        "sku": "В5574-1615447"
+      }
+    ],
+    "price": 2200,
+    "stock": 17,
+    "description": "Матеріал : натуральна замша , нубук , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/5636e88a-1600-4469-b0ec-1ead1985cd96.jpg"
+    ]
+  },
+  {
+    "id": "crm-1ue35f6",
+    "createdAt": "2026-11-05T19:59:35.228Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "219522",
+    "name": "New Balance 204L Grey Green Beige 36",
+    "brand": "New Balance",
+    "category": "New Balance",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2300,
+        "stock": 4,
+        "sku": "В5315-1525500"
+      },
+      {
+        "size": "37",
+        "price": 2300,
+        "stock": 4,
+        "sku": "В5315-1525501"
+      },
+      {
+        "size": "38",
+        "price": 2300,
+        "stock": 8,
+        "sku": "В5315-1525502"
+      },
+      {
+        "size": "39",
+        "price": 2300,
+        "stock": 8,
+        "sku": "В5315-1525503"
+      },
+      {
+        "size": "40",
+        "price": 2300,
+        "stock": 4,
+        "sku": "В5315-1525504"
+      },
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 4,
+        "sku": "В5315-1525505"
+      }
+    ],
+    "price": 2300,
+    "stock": 32,
+    "description": "Матеріал : натуральна замша , шкіра , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/b5e84018-031f-4073-995c-1c17c3bfc747.jpg"
+    ]
+  },
+  {
+    "id": "crm-62wzz9",
+    "createdAt": "2026-11-05T19:59:35.682Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "219743",
+    "name": "New Balance 9060 Grey White 36",
+    "brand": "New Balance",
+    "category": "New Balance",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2250,
+        "stock": 5,
+        "sku": "B5333-1526974"
+      },
+      {
+        "size": "37",
+        "price": 2250,
+        "stock": 5,
+        "sku": "B5333-1526975"
+      },
+      {
+        "size": "38",
+        "price": 2250,
+        "stock": 10,
+        "sku": "B5333-1526976"
+      },
+      {
+        "size": "39",
+        "price": 2250,
+        "stock": 9,
+        "sku": "B5333-1526977"
+      },
+      {
+        "size": "40",
+        "price": 2250,
+        "stock": 4,
+        "sku": "B5333-1526978"
+      },
+      {
+        "size": "41",
+        "price": 2250,
+        "stock": 5,
+        "sku": "B5333-1526979"
+      }
+    ],
+    "price": 2250,
+    "stock": 38,
+    "description": "Матеріал : натуральна замша , шкіра , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/5f72434d-900f-4623-bdea-0581abef23e7.jpg"
+    ]
+  },
+  {
+    "id": "crm-1lah05f",
+    "createdAt": "2026-11-05T19:59:36.035Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "178309",
+    "name": "New Balance 991v2 Black White 41",
+    "brand": "New Balance",
+    "category": "New Balance",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 1950,
+        "stock": 5,
+        "sku": "А4410-1218548"
+      },
+      {
+        "size": "42",
+        "price": 1950,
+        "stock": 3,
+        "sku": "А4410-1218549"
+      },
+      {
+        "size": "43",
+        "price": 1950,
+        "stock": 9,
+        "sku": "А4410-1218550"
+      },
+      {
+        "size": "44",
+        "price": 1950,
+        "stock": 8,
+        "sku": "А4410-1218551"
+      },
+      {
+        "size": "45",
+        "price": 1950,
+        "stock": 1,
+        "sku": "А4410-1218552"
+      },
+      {
+        "size": "46",
+        "price": 1950,
+        "stock": 2,
+        "sku": "А4410-1218553"
+      }
+    ],
+    "price": 1950,
+    "stock": 28,
+    "description": "Матеріал : натуральна замша , текстиль CorduraВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/72191133-64c6-4a49-b9c1-5b9a8b986223.jpg"
+    ]
+  },
+  {
+    "id": "crm-4oyzie",
+    "createdAt": "2026-11-05T19:59:36.315Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "219746",
+    "name": "New Balance 9060 Taupewood 36",
+    "brand": "New Balance",
+    "category": "New Balance",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2250,
+        "stock": 3,
+        "sku": "B5336-1527007"
+      },
+      {
+        "size": "37",
+        "price": 2250,
+        "stock": 3,
+        "sku": "B5336-1527008"
+      },
+      {
+        "size": "38",
+        "price": 2250,
+        "stock": 6,
+        "sku": "B5336-1527009"
+      },
+      {
+        "size": "39",
+        "price": 2250,
+        "stock": 5,
+        "sku": "B5336-1527010"
+      },
+      {
+        "size": "40",
+        "price": 2250,
+        "stock": 3,
+        "sku": "B5336-1527011"
+      },
+      {
+        "size": "41",
+        "price": 2250,
+        "stock": 3,
+        "sku": "B5336-1527012"
+      }
+    ],
+    "price": 2250,
+    "stock": 23,
+    "description": "Матеріал : нубук , шкіра , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/2fa8a5d4-e0a4-4aa9-9b52-a18fcb00211d.jpg"
+    ]
+  },
+  {
+    "id": "crm-1i9de1x",
+    "createdAt": "2026-11-05T19:59:36.513Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "217297",
+    "name": "New Balance ABZORB 2000 White 36",
+    "brand": "New Balance",
+    "category": "New Balance",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2000,
+        "stock": 3,
+        "sku": "В5172-1509013"
+      },
+      {
+        "size": "37",
+        "price": 2000,
+        "stock": 4,
+        "sku": "В5172-1509014"
+      },
+      {
+        "size": "38",
+        "price": 2000,
+        "stock": 3,
+        "sku": "В5172-1509015"
+      },
+      {
+        "size": "39",
+        "price": 2000,
+        "stock": 3,
+        "sku": "В5172-1509016"
+      },
+      {
+        "size": "40",
+        "price": 2000,
+        "stock": 3,
+        "sku": "В5172-1509017"
+      },
+      {
+        "size": "41",
+        "price": 2000,
+        "stock": 3,
+        "sku": "В5172-1509018"
+      }
+    ],
+    "price": 2000,
+    "stock": 19,
+    "description": "Матеріал : сітка , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/9d1d4a72-2424-460a-a645-dfaf4d781783.jpg"
+    ]
+  },
+  {
+    "id": "crm-1hpe6nz",
+    "createdAt": "2026-11-05T19:59:36.817Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "217295",
+    "name": "New Balance ABZORB 2000 Black Grey 36",
+    "brand": "New Balance",
+    "category": "New Balance",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2000,
+        "stock": 4,
+        "sku": "В5171-1509001"
+      },
+      {
+        "size": "37",
+        "price": 2000,
+        "stock": 2,
+        "sku": "В5171-1509002"
+      },
+      {
+        "size": "38",
+        "price": 2000,
+        "stock": 7,
+        "sku": "В5171-1509003"
+      },
+      {
+        "size": "39",
+        "price": 2000,
+        "stock": 10,
+        "sku": "В5171-1509004"
+      },
+      {
+        "size": "40",
+        "price": 2000,
+        "stock": 3,
+        "sku": "В5171-1509005"
+      },
+      {
+        "size": "41",
+        "price": 2000,
+        "stock": 2,
+        "sku": "В5171-1509006"
+      }
+    ],
+    "price": 2000,
+    "stock": 28,
+    "description": "Матеріал : сітка , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/27bcae4b-8e87-4e6e-9d0e-e0665fae2054.jpg"
+    ]
+  },
+  {
+    "id": "crm-1cm3l0j",
+    "createdAt": "2026-11-05T19:59:37.023Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "204484",
+    "name": "New Balance 9060 Light Grey 36",
+    "brand": "New Balance",
+    "category": "New Balance",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2350,
+        "stock": 2,
+        "sku": "B4906-1407497"
+      },
+      {
+        "size": "37",
+        "price": 2350,
+        "stock": 2,
+        "sku": "B4906-1407498"
+      },
+      {
+        "size": "38",
+        "price": 2350,
+        "stock": 4,
+        "sku": "B4906-1407499"
+      },
+      {
+        "size": "39",
+        "price": 2350,
+        "stock": 5,
+        "sku": "B4906-1407500"
+      },
+      {
+        "size": "40",
+        "price": 2350,
+        "stock": 2,
+        "sku": "B4906-1407501"
+      },
+      {
+        "size": "41",
+        "price": 2350,
+        "stock": 2,
+        "sku": "B4906-1407502"
+      }
+    ],
+    "price": 2350,
+    "stock": 17,
+    "description": "Матеріал : натуральна замша , шкіра , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/8eeeb0d1-ad03-4fae-99e8-cc0649ce10cc.jpg"
+    ]
+  },
+  {
+    "id": "crm-pzg1q4",
+    "createdAt": "2026-11-05T19:59:37.208Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "210224",
+    "name": "New Balance 9060 Grey Navy 36",
+    "brand": "New Balance",
+    "category": "New Balance",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2200,
+        "stock": 3,
+        "sku": "B5001-1452516"
+      },
+      {
+        "size": "37",
+        "price": 2200,
+        "stock": 3,
+        "sku": "B5001-1452517"
+      },
+      {
+        "size": "38",
+        "price": 2200,
+        "stock": 6,
+        "sku": "B5001-1452518"
+      },
+      {
+        "size": "39",
+        "price": 2200,
+        "stock": 6,
+        "sku": "B5001-1452519"
+      },
+      {
+        "size": "40",
+        "price": 2200,
+        "stock": 3,
+        "sku": "B5001-1452520"
+      },
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 1,
+        "sku": "B5001-1452521"
+      }
+    ],
+    "price": 2200,
+    "stock": 22,
+    "description": "Матеріал : натуральна замша , шкіра , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/b550853d-a9a7-42d7-9cfc-b1a51138b2f5.jpg"
+    ]
+  },
+  {
+    "id": "crm-mcn6wk",
+    "createdAt": "2026-11-05T19:59:37.401Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "210570",
+    "name": "New Balance 9060 Beige Grey Navy 36",
+    "brand": "New Balance",
+    "category": "New Balance",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2200,
+        "stock": 2,
+        "sku": "B5004-1455702"
+      },
+      {
+        "size": "37",
+        "price": 2200,
+        "stock": 3,
+        "sku": "B5004-1455703"
+      },
+      {
+        "size": "38",
+        "price": 2200,
+        "stock": 5,
+        "sku": "B5004-1455704"
+      },
+      {
+        "size": "39",
+        "price": 2200,
+        "stock": 5,
+        "sku": "B5004-1455705"
+      },
+      {
+        "size": "40",
+        "price": 2200,
+        "stock": 1,
+        "sku": "B5004-1455706"
+      },
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 1,
+        "sku": "B5004-1455707"
+      }
+    ],
+    "price": 2200,
+    "stock": 17,
+    "description": "Матеріал : натуральна замша , шкіра , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/520f914e-0d75-4015-8f96-781f291d2e14.jpg"
+    ]
+  },
+  {
+    "id": "crm-lirjbm",
+    "createdAt": "2026-11-05T19:59:37.585Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "210569",
+    "name": "New Balance 9060 Sky Grey 36",
+    "brand": "New Balance",
+    "category": "New Balance",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2200,
+        "stock": 4,
+        "sku": "B5003-1455691"
+      },
+      {
+        "size": "37",
+        "price": 2200,
+        "stock": 1,
+        "sku": "B5003-1455692"
+      },
+      {
+        "size": "38",
+        "price": 2200,
+        "stock": 3,
+        "sku": "B5003-1455693"
+      },
+      {
+        "size": "39",
+        "price": 2200,
+        "stock": 3,
+        "sku": "B5003-1455694"
+      },
+      {
+        "size": "40",
+        "price": 2200,
+        "stock": 2,
+        "sku": "B5003-1455695"
+      },
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 3,
+        "sku": "B5003-1455696"
+      }
+    ],
+    "price": 2200,
+    "stock": 16,
+    "description": "Матеріал : натуральна замша , шкіра , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/178908d3-4db7-4e22-ba9e-3ce330a8a4f7.jpg"
+    ]
+  },
+  {
+    "id": "crm-1u43jq7",
+    "createdAt": "2026-11-05T19:59:37.771Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "219521",
+    "name": "New Balance 204L Grey Beige 36",
+    "brand": "New Balance",
+    "category": "New Balance",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2300,
+        "stock": 4,
+        "sku": "В5314-1525489"
+      },
+      {
+        "size": "37",
+        "price": 2300,
+        "stock": 4,
+        "sku": "В5314-1525490"
+      },
+      {
+        "size": "38",
+        "price": 2300,
+        "stock": 7,
+        "sku": "В5314-1525491"
+      },
+      {
+        "size": "39",
+        "price": 2300,
+        "stock": 8,
+        "sku": "В5314-1525492"
+      },
+      {
+        "size": "40",
+        "price": 2300,
+        "stock": 1,
+        "sku": "В5314-1525493"
+      },
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 3,
+        "sku": "В5314-1525494"
+      }
+    ],
+    "price": 2300,
+    "stock": 27,
+    "description": "Матеріал : натуральна замшаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/98896c25-7548-4c95-8cc4-df29e945d6f4.jpg"
+    ]
+  },
+  {
+    "id": "crm-1h01poa",
+    "createdAt": "2026-11-05T19:59:37.955Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "223578",
+    "name": "New Balance 1906R Grey Black 41",
+    "brand": "New Balance",
+    "category": "New Balance",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2400,
+        "stock": 6,
+        "sku": "A5492-1560542"
+      },
+      {
+        "size": "42",
+        "price": 2400,
+        "stock": 4,
+        "sku": "A5492-1560543"
+      },
+      {
+        "size": "43",
+        "price": 2400,
+        "stock": 7,
+        "sku": "A5492-1560544"
+      },
+      {
+        "size": "44",
+        "price": 2400,
+        "stock": 8,
+        "sku": "A5492-1560545"
+      },
+      {
+        "size": "45",
+        "price": 2400,
+        "stock": 4,
+        "sku": "A5492-1560546"
+      },
+      {
+        "size": "46",
+        "price": 2400,
+        "stock": 4,
+        "sku": "A5492-1560547"
+      }
+    ],
+    "price": 2400,
+    "stock": 33,
+    "description": "Матеріал : шкіра , сітка , рефлективні вставкиВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/8a32fcdf-9b74-4d94-b99f-c269f834bfeb.jpg"
+    ]
+  },
+  {
+    "id": "crm-1glfrw3",
+    "createdAt": "2026-11-05T19:59:38.183Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "217291",
+    "name": "New Balance ABZORB 2000 Grey Black 36",
+    "brand": "New Balance",
+    "category": "New Balance",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2000,
+        "stock": 4,
+        "sku": "В5168-1508957"
+      },
+      {
+        "size": "37",
+        "price": 2000,
+        "stock": 5,
+        "sku": "В5168-1508958"
+      },
+      {
+        "size": "38",
+        "price": 2000,
+        "stock": 8,
+        "sku": "В5168-1508959"
+      },
+      {
+        "size": "39",
+        "price": 2000,
+        "stock": 9,
+        "sku": "В5168-1508960"
+      },
+      {
+        "size": "40",
+        "price": 2000,
+        "stock": 3,
+        "sku": "В5168-1508961"
+      },
+      {
+        "size": "41",
+        "price": 2000,
+        "stock": 2,
+        "sku": "В5168-1508962"
+      }
+    ],
+    "price": 2000,
+    "stock": 31,
+    "description": "Матеріал : сітка , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/845f5090-cf2b-4307-b1f0-b8f8ea077a46.jpg"
+    ]
+  },
+  {
+    "id": "crm-1tu3y18",
+    "createdAt": "2026-11-05T19:59:38.410Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "219520",
+    "name": "New Balance 204L Black Beige 36",
+    "brand": "New Balance",
+    "category": "New Balance",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2300,
+        "stock": 3,
+        "sku": "В5313-1525478"
+      },
+      {
+        "size": "37",
+        "price": 2300,
+        "stock": 3,
+        "sku": "В5313-1525479"
+      },
+      {
+        "size": "38",
+        "price": 2300,
+        "stock": 6,
+        "sku": "В5313-1525480"
+      },
+      {
+        "size": "39",
+        "price": 2300,
+        "stock": 6,
+        "sku": "В5313-1525481"
+      },
+      {
+        "size": "40",
+        "price": 2300,
+        "stock": 3,
+        "sku": "В5313-1525482"
+      },
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 2,
+        "sku": "В5313-1525483"
+      }
+    ],
+    "price": 2300,
+    "stock": 23,
+    "description": "Матеріал : натуральна замшаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/dfbb2a81-8951-4442-8f7c-7b927ddbfc56.jpg"
+    ]
+  },
+  {
+    "id": "crm-q9fnf3",
+    "createdAt": "2026-11-05T19:59:38.632Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "210225",
+    "name": "New Balance 9060 Grey Beige 36",
+    "brand": "New Balance",
+    "category": "New Balance",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2200,
+        "stock": 3,
+        "sku": "B5002-1452527"
+      },
+      {
+        "size": "37",
+        "price": 2200,
+        "stock": 4,
+        "sku": "B5002-1452528"
+      },
+      {
+        "size": "38",
+        "price": 2200,
+        "stock": 6,
+        "sku": "B5002-1452529"
+      },
+      {
+        "size": "39",
+        "price": 2200,
+        "stock": 1,
+        "sku": "B5002-1452530"
+      },
+      {
+        "size": "40",
+        "price": 2200,
+        "stock": 3,
+        "sku": "B5002-1452531"
+      },
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 2,
+        "sku": "B5002-1452532"
+      }
+    ],
+    "price": 2200,
+    "stock": 19,
+    "description": "Матеріал : натуральна замша , шкіра , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/2f3c3304-8068-4f01-918b-45c186aed809.jpg"
+    ]
+  },
+  {
+    "id": "crm-7qum53",
+    "createdAt": "2026-11-05T19:59:38.823Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "219749",
+    "name": "New Balance 9060 Light Grey Beige 36",
+    "brand": "New Balance",
+    "category": "New Balance",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2250,
+        "stock": 3,
+        "sku": "B5339-1527041"
+      },
+      {
+        "size": "37",
+        "price": 2250,
+        "stock": 3,
+        "sku": "B5339-1527042"
+      },
+      {
+        "size": "38",
+        "price": 2250,
+        "stock": 6,
+        "sku": "B5339-1527043"
+      },
+      {
+        "size": "39",
+        "price": 2250,
+        "stock": 5,
+        "sku": "B5339-1527044"
+      },
+      {
+        "size": "40",
+        "price": 2250,
+        "stock": 2,
+        "sku": "B5339-1527045"
+      },
+      {
+        "size": "41",
+        "price": 2250,
+        "stock": 2,
+        "sku": "B5339-1527046"
+      }
+    ],
+    "price": 2250,
+    "stock": 21,
+    "description": "Матеріал : натуральна замша , шкіра , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/abf397b9-5cc6-4e2d-a326-9807d0d80be5.jpg"
+    ]
+  },
+  {
+    "id": "crm-4ezdtf",
+    "createdAt": "2026-11-05T19:59:39.390Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "219745",
+    "name": "New Balance 9060 Grey Brown Beige 36",
+    "brand": "New Balance",
+    "category": "New Balance",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2250,
+        "stock": 3,
+        "sku": "B5335-1526996"
+      },
+      {
+        "size": "37",
+        "price": 2250,
+        "stock": 2,
+        "sku": "B5335-1526997"
+      },
+      {
+        "size": "38",
+        "price": 2250,
+        "stock": 6,
+        "sku": "B5335-1526998"
+      },
+      {
+        "size": "39",
+        "price": 2250,
+        "stock": 6,
+        "sku": "B5335-1526999"
+      },
+      {
+        "size": "40",
+        "price": 2250,
+        "stock": 3,
+        "sku": "B5335-1527000"
+      },
+      {
+        "size": "41",
+        "price": 2250,
+        "stock": 3,
+        "sku": "B5335-1527001"
+      }
+    ],
+    "price": 2250,
+    "stock": 23,
+    "description": "Матеріал : натуральна замша , шкіра , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/d9b10cf9-d6e5-41fc-8ef5-590ac04c89bc.jpg"
+    ]
+  },
+  {
+    "id": "crm-5sxeaa",
+    "createdAt": "2026-11-05T19:59:39.749Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "219742",
+    "name": "New Balance 9060 Light Grey Mint 36",
+    "brand": "New Balance",
+    "category": "New Balance",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2250,
+        "stock": 3,
+        "sku": "B5332-1526963"
+      },
+      {
+        "size": "37",
+        "price": 2250,
+        "stock": 2,
+        "sku": "B5332-1526964"
+      },
+      {
+        "size": "38",
+        "price": 2250,
+        "stock": 5,
+        "sku": "B5332-1526965"
+      },
+      {
+        "size": "39",
+        "price": 2250,
+        "stock": 5,
+        "sku": "B5332-1526966"
+      },
+      {
+        "size": "40",
+        "price": 2250,
+        "stock": 3,
+        "sku": "B5332-1526967"
+      },
+      {
+        "size": "41",
+        "price": 2250,
+        "stock": 2,
+        "sku": "B5332-1526968"
+      }
+    ],
+    "price": 2250,
+    "stock": 20,
+    "description": "Матеріал : натуральна замша , шкіра , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/08ad9a5d-6f24-41e2-8907-ffec2f6a11c9.jpg"
+    ]
+  },
+  {
+    "id": "crm-1h5eza1",
+    "createdAt": "2026-11-05T19:59:40.099Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "217293",
+    "name": "New Balance ABZORB 2000 Grey Sky Beige 36",
+    "brand": "New Balance",
+    "category": "New Balance",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2000,
+        "stock": 4,
+        "sku": "В5169-1508979"
+      },
+      {
+        "size": "37",
+        "price": 2000,
+        "stock": 5,
+        "sku": "В5169-1508980"
+      },
+      {
+        "size": "38",
+        "price": 2000,
+        "stock": 10,
+        "sku": "В5169-1508981"
+      },
+      {
+        "size": "39",
+        "price": 2000,
+        "stock": 10,
+        "sku": "В5169-1508982"
+      },
+      {
+        "size": "40",
+        "price": 2000,
+        "stock": 2,
+        "sku": "В5169-1508983"
+      },
+      {
+        "size": "41",
+        "price": 2000,
+        "stock": 5,
+        "sku": "В5169-1508984"
+      }
+    ],
+    "price": 2000,
+    "stock": 36,
+    "description": "Матеріал : сітка , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/fab953a3-36d6-45ec-9a84-04f6f1e86d45.jpg"
+    ]
+  },
+  {
+    "id": "crm-1hfekz0",
+    "createdAt": "2026-11-05T19:59:40.289Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "217294",
+    "name": "New Balance ABZORB 2000 Black 36",
+    "brand": "New Balance",
+    "category": "New Balance",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2000,
+        "stock": 5,
+        "sku": "В5170-1508990"
+      },
+      {
+        "size": "37",
+        "price": 2000,
+        "stock": 1,
+        "sku": "В5170-1508991"
+      },
+      {
+        "size": "38",
+        "price": 2000,
+        "stock": 9,
+        "sku": "В5170-1508992"
+      },
+      {
+        "size": "39",
+        "price": 2000,
+        "stock": 8,
+        "sku": "В5170-1508993"
+      },
+      {
+        "size": "40",
+        "price": 2000,
+        "stock": 4,
+        "sku": "В5170-1508994"
+      },
+      {
+        "size": "41",
+        "price": 2000,
+        "stock": 2,
+        "sku": "В5170-1508995"
+      }
+    ],
+    "price": 2000,
+    "stock": 29,
+    "description": "Матеріал : сітка , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/b267b3e2-46c6-492d-a956-9f42a54f35fd.jpg"
+    ]
+  },
+  {
+    "id": "crm-yhoir2",
+    "createdAt": "2026-11-05T19:59:40.483Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "219517",
+    "name": "New Balance 204L Grey White Metallic 36",
+    "brand": "New Balance",
+    "category": "New Balance",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2300,
+        "stock": 3,
+        "sku": "В5310-1525444"
+      },
+      {
+        "size": "37",
+        "price": 2300,
+        "stock": 3,
+        "sku": "В5310-1525445"
+      },
+      {
+        "size": "38",
+        "price": 2300,
+        "stock": 6,
+        "sku": "В5310-1525446"
+      },
+      {
+        "size": "39",
+        "price": 2300,
+        "stock": 6,
+        "sku": "В5310-1525447"
+      },
+      {
+        "size": "40",
+        "price": 2300,
+        "stock": 3,
+        "sku": "В5310-1525448"
+      },
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 3,
+        "sku": "В5310-1525449"
+      }
+    ],
+    "price": 2300,
+    "stock": 24,
+    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/eebf2c2d-6c0c-4762-8906-500dd8592291.jpg"
+    ]
+  },
+  {
+    "id": "crm-13ddvz6",
+    "createdAt": "2026-11-05T19:59:40.701Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "218716",
+    "name": "New Balance 1906R Grey 36",
+    "brand": "New Balance",
+    "category": "New Balance",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2200,
+        "stock": 3,
+        "sku": "B5249-1519647"
+      },
+      {
+        "size": "37",
+        "price": 2200,
+        "stock": 3,
+        "sku": "B5249-1519648"
+      },
+      {
+        "size": "38",
+        "price": 2200,
+        "stock": 6,
+        "sku": "B5249-1519649"
+      },
+      {
+        "size": "39",
+        "price": 2200,
+        "stock": 6,
+        "sku": "B5249-1519650"
+      },
+      {
+        "size": "40",
+        "price": 2200,
+        "stock": 1,
+        "sku": "B5249-1519651"
+      },
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 3,
+        "sku": "B5249-1519652"
+      }
+    ],
+    "price": 2200,
+    "stock": 22,
+    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/ece64b02-7264-4fb3-882c-26647d25e310.jpg"
+    ]
+  },
+  {
+    "id": "crm-133eaa7",
+    "createdAt": "2026-11-05T19:59:40.871Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "218715",
+    "name": "New Balance 1906R Light Grey Metallic 36",
+    "brand": "New Balance",
+    "category": "New Balance",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2200,
+        "stock": 4,
+        "sku": "B5248-1519636"
+      },
+      {
+        "size": "37",
+        "price": 2200,
+        "stock": 4,
+        "sku": "B5248-1519637"
+      },
+      {
+        "size": "38",
+        "price": 2200,
+        "stock": 8,
+        "sku": "B5248-1519638"
+      },
+      {
+        "size": "39",
+        "price": 2200,
+        "stock": 7,
+        "sku": "B5248-1519639"
+      },
+      {
+        "size": "40",
+        "price": 2200,
+        "stock": 3,
+        "sku": "B5248-1519640"
+      },
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 2,
+        "sku": "B5248-1519641"
+      }
+    ],
+    "price": 2200,
+    "stock": 28,
+    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/46488c22-4ace-4cac-961e-12826ec3942d.jpg"
+    ]
+  },
+  {
+    "id": "crm-15be9by",
+    "createdAt": "2026-11-05T19:59:41.082Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "218709",
+    "name": "New Balance 1906R White Black Metallic 36",
+    "brand": "New Balance",
+    "category": "New Balance",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2200,
+        "stock": 2,
+        "sku": "B5244-1519570"
+      },
+      {
+        "size": "37",
+        "price": 2200,
+        "stock": 3,
+        "sku": "B5244-1519571"
+      },
+      {
+        "size": "38",
+        "price": 2200,
+        "stock": 6,
+        "sku": "B5244-1519572"
+      },
+      {
+        "size": "39",
+        "price": 2200,
+        "stock": 5,
+        "sku": "B5244-1519573"
+      },
+      {
+        "size": "40",
+        "price": 2200,
+        "stock": 3,
+        "sku": "B5244-1519574"
+      },
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 3,
+        "sku": "B5244-1519575"
+      }
+    ],
+    "price": 2200,
+    "stock": 22,
+    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/c1f941cd-5765-47bf-b804-deb9ec88bcc5.jpg"
+    ]
+  },
+  {
+    "id": "crm-15ldv0x",
+    "createdAt": "2026-11-05T19:59:41.249Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "218708",
+    "name": "New Balance 1906R Grey Metallic 36",
+    "brand": "New Balance",
+    "category": "New Balance",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2200,
+        "stock": 3,
+        "sku": "B5243-1519559"
+      },
+      {
+        "size": "37",
+        "price": 2200,
+        "stock": 3,
+        "sku": "B5243-1519560"
+      },
+      {
+        "size": "38",
+        "price": 2200,
+        "stock": 5,
+        "sku": "B5243-1519561"
+      },
+      {
+        "size": "39",
+        "price": 2200,
+        "stock": 6,
+        "sku": "B5243-1519562"
+      },
+      {
+        "size": "40",
+        "price": 2200,
+        "stock": 3,
+        "sku": "B5243-1519563"
+      },
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 2,
+        "sku": "B5243-1519564"
+      }
+    ],
+    "price": 2200,
+    "stock": 22,
+    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/490cabc5-e539-4fda-93f8-2afa93cd42ae.jpg"
+    ]
+  },
+  {
+    "id": "crm-129fh7a",
+    "createdAt": "2026-11-05T19:59:41.401Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "218712",
+    "name": "New Balance 1906R Black White 36",
+    "brand": "New Balance",
+    "category": "New Balance",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2200,
+        "stock": 3,
+        "sku": "B5245-1519603"
+      },
+      {
+        "size": "37",
+        "price": 2200,
+        "stock": 3,
+        "sku": "B5245-1519604"
+      },
+      {
+        "size": "38",
+        "price": 2200,
+        "stock": 6,
+        "sku": "B5245-1519605"
+      },
+      {
+        "size": "39",
+        "price": 2200,
+        "stock": 5,
+        "sku": "B5245-1519606"
+      },
+      {
+        "size": "40",
+        "price": 2200,
+        "stock": 3,
+        "sku": "B5245-1519607"
+      },
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 2,
+        "sku": "B5245-1519608"
+      }
+    ],
+    "price": 2200,
+    "stock": 22,
+    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/52f477fe-3f14-4ef6-bcb7-3f44e0d72e6e.jpg"
+    ]
+  },
+  {
+    "id": "crm-13ngn64",
+    "createdAt": "2026-11-05T19:59:41.603Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "218707",
+    "name": "New Balance 1906R All Black 36",
+    "brand": "New Balance",
+    "category": "New Balance",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2200,
+        "stock": 5,
+        "sku": "B5242-1519548"
+      },
+      {
+        "size": "37",
+        "price": 2200,
+        "stock": 5,
+        "sku": "B5242-1519549"
+      },
+      {
+        "size": "38",
+        "price": 2200,
+        "stock": 6,
+        "sku": "B5242-1519550"
+      },
+      {
+        "size": "39",
+        "price": 2200,
+        "stock": 10,
+        "sku": "B5242-1519551"
+      },
+      {
+        "size": "40",
+        "price": 2200,
+        "stock": 3,
+        "sku": "B5242-1519552"
+      },
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 4,
+        "sku": "B5242-1519553"
+      }
+    ],
+    "price": 2200,
+    "stock": 33,
+    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/5666da43-edc7-44fa-b6c9-36f6d578d5ab.jpg"
+    ]
+  },
+  {
+    "id": "crm-yro4g1",
+    "createdAt": "2026-11-05T19:59:41.796Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "219516",
+    "name": "New Balance 204L Grey Metallic Beige 36",
+    "brand": "New Balance",
+    "category": "New Balance",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2300,
+        "stock": 3,
+        "sku": "В5309-1525433"
+      },
+      {
+        "size": "37",
+        "price": 2300,
+        "stock": 3,
+        "sku": "В5309-1525434"
+      },
+      {
+        "size": "38",
+        "price": 2300,
+        "stock": 5,
+        "sku": "В5309-1525435"
+      },
+      {
+        "size": "39",
+        "price": 2300,
+        "stock": 6,
+        "sku": "В5309-1525436"
+      },
+      {
+        "size": "40",
+        "price": 2300,
+        "stock": 3,
+        "sku": "В5309-1525437"
+      },
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 3,
+        "sku": "В5309-1525438"
+      }
+    ],
+    "price": 2300,
+    "stock": 23,
+    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/472363fa-e1a5-43fc-ba25-218a144741af.jpg"
+    ]
   }
 ]
