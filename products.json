@@ -3151,7 +3151,15 @@
       "40",
       "41"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "шкіра , сітка",
+      "Колір": "чорний",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "36-41",
+      "Сезон": "весна / літо / осінь",
+      "https": "//easydrop.one/supplier-catalog/19100792694610/0/"
+    },
     "variants": [
       {
         "size": "36",
@@ -3192,10 +3200,19 @@
     ],
     "price": 2200,
     "stock": 33,
-    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "description": "👕 Жіночі кросівки New Balance 1906R All Black \n\n🔝 Топ якість AAA+\n\n🔘Артикул B5242\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : шкіра , сітка\n▪️Колір : чорний \n▪️Підошва : піна , гумовий протектор\n▪️Розміри:  36-41\n▪️Сезон :  весна / літо / осінь  \n📦Коробка New Balance , фірмовий папір  \n🔢Розмірна сітка :\n▫️36 = 23 см ; \n▫️37 = 23,5 см ;\n▫️38 = 24 см ;\n▫️39 = 25 см ;\n▫️40 = 25,5 см ;\n▫️41 = 26 см .\n\n🔸Відправлення день в день (за умови оформлення до 17.00 );\n\n💻Google таблиця наявності :  \n\n\nНаявність наших моделей у CRM 👇",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/5666da43-edc7-44fa-b6c9-36f6d578d5ab.jpg"
-    ]
+      "images/telegram/crm-13ngn64/1793998862914-01-reply_262553_262496-jpg.jpg",
+      "images/telegram/crm-13ngn64/1793998867971-02-reply_262553_262497-jpg.jpg",
+      "images/telegram/crm-13ngn64/1793998873742-03-reply_262553_262498-jpg.jpg",
+      "images/telegram/crm-13ngn64/1793998878802-04-reply_262553_262499-jpg.jpg",
+      "images/telegram/crm-13ngn64/1793998883561-05-reply_262553_262500-jpg.jpg",
+      "images/telegram/crm-13ngn64/1793998888307-06-reply_262553_262501-jpg.jpg",
+      "images/telegram/crm-13ngn64/1793998893449-07-reply_262553_262502-jpg.jpg",
+      "images/telegram/crm-13ngn64/1793998898432-08-reply_262553_262503-jpg.jpg",
+      "images/telegram/crm-13ngn64/1793998903365-09-reply_262553_262504-jpg.jpg"
+    ],
+    "telegram_article": "B5242"
   },
   {
     "id": "crm-yro4g1",
