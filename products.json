@@ -2570,7 +2570,15 @@
       "40",
       "41"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "сітка , текстиль",
+      "Колір": "чорний",
+      "Підошва": "піна , гумовий протектор , технологія ABZORB",
+      "Розміри": "36-41",
+      "Сезон": "весна / літо / осінь",
+      "https": "//easydrop.one/supplier-catalog/19100792694610/0/"
+    },
     "variants": [
       {
         "size": "36",
@@ -2611,10 +2619,19 @@
     ],
     "price": 2000,
     "stock": 29,
-    "description": "Матеріал : сітка , текстильВиробник : В'єтнам",
+    "description": "👕 Жіночі кросівки New Balance ABZORB 2000 Black\n\n🔝 Топ якість AAA+\n\n🔘Артикул B5170\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : сітка , текстиль \n▪️Колір : чорний\n▪️Підошва : піна , гумовий протектор , технологія ABZORB\n▪️Розміри:  36-41\n▪️Сезон :  весна / літо / осінь  \n📦Коробка New Balance , пергамент \n🔢Розмірна сітка :\n▫️36 = 22,5 см ;\n▫️37 = 23 см ;\n▫️38 = 24 см ;\n▫️39 = 24,5 см ;\n▫️40 = 25 см ;\n▫️41 = 26 см .\n\n🔸Відправлення день в день (за умови оформлення до 17.00 );\n\n💻Google таблиця наявності :  \n\n\nНаявність наших моделей у CRM 👇",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/b267b3e2-46c6-492d-a956-9f42a54f35fd.jpg"
-    ]
+      "images/telegram/crm-1hfekz0/1793998387762-01-reply_293259_293202-jpg.jpg",
+      "images/telegram/crm-1hfekz0/1793998392713-02-reply_293259_293203-jpg.jpg",
+      "images/telegram/crm-1hfekz0/1793998397509-03-reply_293259_293204-jpg.jpg",
+      "images/telegram/crm-1hfekz0/1793998402363-04-reply_293259_293205-jpg.jpg",
+      "images/telegram/crm-1hfekz0/1793998407258-05-reply_293259_293206-jpg.jpg",
+      "images/telegram/crm-1hfekz0/1793998412095-06-reply_293259_293207-jpg.jpg",
+      "images/telegram/crm-1hfekz0/1793998417342-07-reply_293259_293208-jpg.jpg",
+      "images/telegram/crm-1hfekz0/1793998422334-08-reply_293259_293209-jpg.jpg",
+      "images/telegram/crm-1hfekz0/1793998427444-09-reply_293259_293210-jpg.jpg"
+    ],
+    "telegram_article": "B5170"
   },
   {
     "id": "crm-yhoir2",
