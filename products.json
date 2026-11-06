@@ -2902,7 +2902,15 @@
       "40",
       "41"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "шкіра , сітка",
+      "Колір": "білий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "36-41",
+      "Сезон": "весна / літо / осінь",
+      "https": "//easydrop.one/supplier-catalog/19100792694610/0/"
+    },
     "variants": [
       {
         "size": "36",
@@ -2943,10 +2951,19 @@
     ],
     "price": 2200,
     "stock": 22,
-    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "description": "👕 Жіночі кросівки New Balance 1906R White Black Metallic\n\n🔝 Топ якість AAA+\n\n🔘Артикул B5244\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : шкіра , сітка\n▪️Колір : білий\n▪️Підошва : піна , гумовий протектор\n▪️Розміри:  36-41\n▪️Сезон :  весна / літо / осінь  \n📦Коробка New Balance , фірмовий папір  \n🔢Розмірна сітка :\n▫️36 = 23 см ; \n▫️37 = 23,5 см ;\n▫️38 = 24 см ;\n▫️39 = 25 см ;\n▫️40 = 25,5 см ;\n▫️41 = 26 см .\n\n🔸Відправлення день в день (за умови оформлення до 17.00 );\n\n💻Google таблиця наявності :  \n\n\nНаявність наших моделей у CRM 👇",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/c1f941cd-5765-47bf-b804-deb9ec88bcc5.jpg"
-    ]
+      "images/telegram/crm-15be9by/1793998659259-01-reply_262671_262614-jpg.jpg",
+      "images/telegram/crm-15be9by/1793998664842-02-reply_262671_262615-jpg.jpg",
+      "images/telegram/crm-15be9by/1793998669628-03-reply_262671_262616-jpg.jpg",
+      "images/telegram/crm-15be9by/1793998674590-04-reply_262671_262617-jpg.jpg",
+      "images/telegram/crm-15be9by/1793998679460-05-reply_262671_262618-jpg.jpg",
+      "images/telegram/crm-15be9by/1793998684490-06-reply_262671_262619-jpg.jpg",
+      "images/telegram/crm-15be9by/1793998689657-07-reply_262671_262620-jpg.jpg",
+      "images/telegram/crm-15be9by/1793998694614-08-reply_262671_262621-jpg.jpg",
+      "images/telegram/crm-15be9by/1793998699626-09-reply_262671_262622-jpg.jpg"
+    ],
+    "telegram_article": "B5244"
   },
   {
     "id": "crm-15ldv0x",
