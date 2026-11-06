@@ -2736,7 +2736,15 @@
       "40",
       "41"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "шкіра , сітка",
+      "Колір": "сірий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "36-41",
+      "Сезон": "весна / літо / осінь",
+      "https": "//easydrop.one/supplier-catalog/19100792694610/0/"
+    },
     "variants": [
       {
         "size": "36",
@@ -2777,10 +2785,19 @@
     ],
     "price": 2200,
     "stock": 22,
-    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "description": "👕 Жіночі кросівки New Balance 1906R Grey\n\n🔝 Топ якість AAA+\n\n🔘Артикул B5249\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : шкіра , сітка\n▪️Колір : сірий\n▪️Підошва : піна , гумовий протектор\n▪️Розміри:  36-41\n▪️Сезон :  весна / літо / осінь  \n📦Коробка New Balance , фірмовий папір  \n🔢Розмірна сітка :\n▫️36 = 23 см ; \n▫️37 = 23,5 см ;\n▫️38 = 24 см ;\n▫️39 = 25 см ;\n▫️40 = 25,5 см ;\n▫️41 = 26 см .\n\n🔸Відправлення день в день (за умови оформлення до 17.00 );\n\n💻Google таблиця наявності :  \n\n\nНаявність наших моделей у CRM 👇",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/ece64b02-7264-4fb3-882c-26647d25e310.jpg"
-    ]
+      "images/telegram/crm-13ddvz6/1793998523013-01-reply_262966_262909-jpg.jpg",
+      "images/telegram/crm-13ddvz6/1793998527885-02-reply_262966_262910-jpg.jpg",
+      "images/telegram/crm-13ddvz6/1793998532895-03-reply_262966_262911-jpg.jpg",
+      "images/telegram/crm-13ddvz6/1793998537804-04-reply_262966_262912-jpg.jpg",
+      "images/telegram/crm-13ddvz6/1793998542757-05-reply_262966_262913-jpg.jpg",
+      "images/telegram/crm-13ddvz6/1793998547876-06-reply_262966_262914-jpg.jpg",
+      "images/telegram/crm-13ddvz6/1793998553228-07-reply_262966_262915-jpg.jpg",
+      "images/telegram/crm-13ddvz6/1793998558207-08-reply_262966_262916-jpg.jpg",
+      "images/telegram/crm-13ddvz6/1793998563115-09-reply_262966_262917-jpg.jpg"
+    ],
+    "telegram_article": "B5249"
   },
   {
     "id": "crm-133eaa7",
