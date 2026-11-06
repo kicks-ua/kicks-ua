@@ -2985,7 +2985,15 @@
       "40",
       "41"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "шкіра , сітка",
+      "Колір": "сірий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "36-41",
+      "Сезон": "весна / літо / осінь",
+      "https": "//easydrop.one/supplier-catalog/19100792694610/0/"
+    },
     "variants": [
       {
         "size": "36",
@@ -3026,10 +3034,19 @@
     ],
     "price": 2200,
     "stock": 22,
-    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "description": "👕 Жіночі кросівки New Balance 1906R Grey Metallic\n\n🔝 Топ якість AAA+\n\n🔘Артикул B5243\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : шкіра , сітка\n▪️Колір : сірий \n▪️Підошва : піна , гумовий протектор\n▪️Розміри:  36-41\n▪️Сезон :  весна / літо / осінь  \n📦Коробка New Balance , фірмовий папір  \n🔢Розмірна сітка :\n▫️36 = 23 см ; \n▫️37 = 23,5 см ;\n▫️38 = 24 см ;\n▫️39 = 25 см ;\n▫️40 = 25,5 см ;\n▫️41 = 26 см .\n\n🔸Відправлення день в день (за умови оформлення до 17.00 );\n\n💻Google таблиця наявності :  \n\n\nНаявність наших моделей у CRM 👇",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/490cabc5-e539-4fda-93f8-2afa93cd42ae.jpg"
-    ]
+      "images/telegram/crm-15ldv0x/1793998727933-01-reply_262612_262555-jpg.jpg",
+      "images/telegram/crm-15ldv0x/1793998732854-02-reply_262612_262556-jpg.jpg",
+      "images/telegram/crm-15ldv0x/1793998737612-03-reply_262612_262557-jpg.jpg",
+      "images/telegram/crm-15ldv0x/1793998742633-04-reply_262612_262558-jpg.jpg",
+      "images/telegram/crm-15ldv0x/1793998747422-05-reply_262612_262559-jpg.jpg",
+      "images/telegram/crm-15ldv0x/1793998752365-06-reply_262612_262560-jpg.jpg",
+      "images/telegram/crm-15ldv0x/1793998757630-07-reply_262612_262561-jpg.jpg",
+      "images/telegram/crm-15ldv0x/1793998762547-08-reply_262612_262562-jpg.jpg",
+      "images/telegram/crm-15ldv0x/1793998767552-09-reply_262612_262563-jpg.jpg"
+    ],
+    "telegram_article": "B5243"
   },
   {
     "id": "crm-129fh7a",
