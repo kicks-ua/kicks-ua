@@ -5668,7 +5668,15 @@
       "42",
       "44"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "сітка , текстиль",
+      "Колір": "чорний",
+      "Підошва": "піна , гумовий протектор , технологія ABZORB",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь",
+      "https": "//easydrop.one/supplier-catalog/19100792694610/0/"
+    },
     "variants": [
       {
         "size": "42",
@@ -5685,10 +5693,19 @@
     ],
     "price": 2000,
     "stock": 12,
-    "description": "Матеріал : сітка , текстильВиробник : В'єтнам",
+    "description": "👕 Чоловічі кросівки New Balance ABZORB 2000 Black Grey\n\n🔝 Топ якість AAA+\n\n🔘Артикул A5166\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : сітка , текстиль \n▪️Колір : чорний\n▪️Підошва : піна , гумовий протектор , технологія ABZORB\n▪️Розміри:  41-45\n▪️Сезон :  весна / літо / осінь  \n📦Коробка New Balance , пергамент \n🔢Розмірна сітка :\n▫️41 = 26 см ;\n▫️42 = 26,5 см ;\n▫️43 = 27 см ;\n▫️44 = 28 см ;\n▫️45 = 28,5 см .\n\n🔸Відправлення день в день (за умови оформлення до 17.00 );\n\n💻Google таблиця наявності :  \n\n\nНаявність наших моделей у CRM 👇",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/d7fea7ff-e743-4a5d-a9b8-0a6a1f0116d1.jpg"
-    ]
+      "images/telegram/crm-1hphc5y/1794082503377-01-reply_293001_292936-jpg.jpg",
+      "images/telegram/crm-1hphc5y/1794082508071-02-reply_293001_292937-jpg.jpg",
+      "images/telegram/crm-1hphc5y/1794082513024-03-reply_293001_292938-jpg.jpg",
+      "images/telegram/crm-1hphc5y/1794082518304-04-reply_293001_292939-jpg.jpg",
+      "images/telegram/crm-1hphc5y/1794082523116-05-reply_293001_292940-jpg.jpg",
+      "images/telegram/crm-1hphc5y/1794082528366-06-reply_293001_292941-jpg.jpg",
+      "images/telegram/crm-1hphc5y/1794082533514-07-reply_293001_292942-jpg.jpg",
+      "images/telegram/crm-1hphc5y/1794082538561-08-reply_293001_292943-jpg.jpg",
+      "images/telegram/crm-1hphc5y/1794082543913-09-reply_293001_292944-jpg.jpg"
+    ],
+    "telegram_article": "A5166"
   },
   {
     "id": "crm-qjf942",
