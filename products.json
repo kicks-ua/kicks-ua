@@ -3764,7 +3764,15 @@
       "39",
       "41"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "шкіра , сітка",
+      "Колір": "сірий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "36-41",
+      "Сезон": "весна / літо / осінь",
+      "https": "//easydrop.one/supplier-catalog/19100792694610/0/"
+    },
     "variants": [
       {
         "size": "36",
@@ -3793,10 +3801,19 @@
     ],
     "price": 2100,
     "stock": 26,
-    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "description": "👕 Жіночі кросівки ASICS Gel-Kahana 8 Light Grey Beige\n\n🔝 Топ якість AAA+\n\n🔘Артикул В5065\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : шкіра , сітка\n▪️Колір : сірий\n▪️Підошва : піна , гумовий протектор \n▪️Розміри:  36-41\n▪️Сезон :  весна / літо / осінь  \n📦Коробка ASICS , фірмовий папір\n🔢Розмірна сітка :\n▫️36 = 22,5 см ;\n▫️37 = 23 см ;\n▫️38 = 24 см ;\n▫️39 = 24,5 см ;\n▫️40 = 25 см ;\n▫️41 = 26 см .\n\n🔸Відправлення день в день (за умови оформлення до 17.00 );\n\n💻Google таблиця наявності :  \n\n\nНаявність наших моделей у CRM 👇",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/48567801-6dd0-46fb-afaf-fb90c2bb4b79.jpg"
-    ]
+      "images/telegram/crm-p8kml4/1794080466490-01-reply_280940_280882-jpg.jpg",
+      "images/telegram/crm-p8kml4/1794080471582-02-reply_280940_280883-jpg.jpg",
+      "images/telegram/crm-p8kml4/1794080476645-03-reply_280940_280884-jpg.jpg",
+      "images/telegram/crm-p8kml4/1794080481393-04-reply_280940_280885-jpg.jpg",
+      "images/telegram/crm-p8kml4/1794080486447-05-reply_280940_280886-jpg.jpg",
+      "images/telegram/crm-p8kml4/1794080491349-06-reply_280940_280887-jpg.jpg",
+      "images/telegram/crm-p8kml4/1794080496768-07-reply_280940_280888-jpg.jpg",
+      "images/telegram/crm-p8kml4/1794080501951-08-reply_280940_280889-jpg.jpg",
+      "images/telegram/crm-p8kml4/1794080506951-09-reply_280940_280890-jpg.jpg"
+    ],
+    "telegram_article": "B5065"
   },
   {
     "id": "crm-9536gu",
