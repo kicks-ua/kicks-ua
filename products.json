@@ -3240,7 +3240,15 @@
       "38",
       "39"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "шкіра , сітка",
+      "Колір": "рожевий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "36-41",
+      "Сезон": "весна / літо / осінь",
+      "https": "//easydrop.one/supplier-catalog/19100792694610/0/"
+    },
     "variants": [
       {
         "size": "36",
@@ -3269,10 +3277,19 @@
     ],
     "price": 2100,
     "stock": 24,
-    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "description": "👕 Жіночі кросівки ASICS Gel-Kahana 8 Pink White\n\n🔝 Топ якість AAA+\n\n🔘Артикул В5068\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : шкіра , сітка\n▪️Колір : рожевий\n▪️Підошва : піна , гумовий протектор \n▪️Розміри:  36-41\n▪️Сезон :  весна / літо / осінь  \n📦Коробка ASICS , фірмовий папір\n🔢Розмірна сітка :\n▫️36 = 22,5 см ;\n▫️37 = 23 см ;\n▫️38 = 24 см ;\n▫️39 = 24,5 см ;\n▫️40 = 25 см ;\n▫️41 = 26 см .\n\n🔸Відправлення день в день (за умови оформлення до 17.00 );\n\n💻Google таблиця наявності :  \n\n\nНаявність наших моделей у CRM 👇",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/fc17afe1-877f-4cf5-8d89-72c5a84c68cc.jpg"
-    ]
+      "images/telegram/crm-1nnai3n/1794079924084-01-reply_281120_281062-jpg.jpg",
+      "images/telegram/crm-1nnai3n/1794079928998-02-reply_281120_281063-jpg.jpg",
+      "images/telegram/crm-1nnai3n/1794079934533-03-reply_281120_281064-jpg.jpg",
+      "images/telegram/crm-1nnai3n/1794079939509-04-reply_281120_281065-jpg.jpg",
+      "images/telegram/crm-1nnai3n/1794079944665-05-reply_281120_281066-jpg.jpg",
+      "images/telegram/crm-1nnai3n/1794079949836-06-reply_281120_281067-jpg.jpg",
+      "images/telegram/crm-1nnai3n/1794079954992-07-reply_281120_281068-jpg.jpg",
+      "images/telegram/crm-1nnai3n/1794079959992-08-reply_281120_281069-jpg.jpg",
+      "images/telegram/crm-1nnai3n/1794079965426-09-reply_281120_281070-jpg.jpg"
+    ],
+    "telegram_article": "B5068"
   },
   {
     "id": "crm-3rn3sc",
