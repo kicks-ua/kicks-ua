@@ -3701,7 +3701,15 @@
       "37",
       "38"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "шкіра , сітка",
+      "Колір": "сірий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "36-41",
+      "Сезон": "весна / літо / осінь",
+      "https": "//easydrop.one/supplier-catalog/19100792694610/0/"
+    },
     "variants": [
       {
         "size": "36",
@@ -3724,10 +3732,19 @@
     ],
     "price": 2100,
     "stock": 16,
-    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "description": "👕 Жіночі кросівки ASICS Gel-Kahana 8 Grey White Khaki \n\n🔝 Топ якість AAA+\n\n🔘Артикул В5064\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : шкіра , сітка\n▪️Колір : сірий\n▪️Підошва : піна , гумовий протектор \n▪️Розміри:  36-41\n▪️Сезон :  весна / літо / осінь  \n📦Коробка ASICS , фірмовий папір\n🔢Розмірна сітка :\n▫️36 = 22,5 см ;\n▫️37 = 23 см ;\n▫️38 = 24 см ;\n▫️39 = 24,5 см ;\n▫️40 = 25 см ;\n▫️41 = 26 см .\n\n🔸Відправлення день в день (за умови оформлення до 17.00 );\n\n💻Google таблиця наявності :  \n\n\nНаявність наших моделей у CRM 👇",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/6a9d16d8-aa34-496e-bfe3-589b63ae30cd.jpg"
-    ]
+      "images/telegram/crm-oyl0w5/1794080396425-01-reply_280880_280822-jpg.jpg",
+      "images/telegram/crm-oyl0w5/1794080401379-02-reply_280880_280823-jpg.jpg",
+      "images/telegram/crm-oyl0w5/1794080406285-03-reply_280880_280824-jpg.jpg",
+      "images/telegram/crm-oyl0w5/1794080411316-04-reply_280880_280825-jpg.jpg",
+      "images/telegram/crm-oyl0w5/1794080416095-05-reply_280880_280826-jpg.jpg",
+      "images/telegram/crm-oyl0w5/1794080421095-06-reply_280880_280827-jpg.jpg",
+      "images/telegram/crm-oyl0w5/1794080426713-07-reply_280880_280828-jpg.jpg",
+      "images/telegram/crm-oyl0w5/1794080432292-08-reply_280880_280829-jpg.jpg",
+      "images/telegram/crm-oyl0w5/1794080437448-09-reply_280880_280830-jpg.jpg"
+    ],
+    "telegram_article": "B5064"
   },
   {
     "id": "crm-p8kml4",
