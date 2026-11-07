@@ -3307,7 +3307,15 @@
       "43",
       "44"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "шкіра , наскрізна сітка",
+      "Колір": "чорний",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь",
+      "https": "//easydrop.one/supplier-catalog/19100792694610/0/"
+    },
     "variants": [
       {
         "size": "43",
@@ -3324,10 +3332,19 @@
     ],
     "price": 1900,
     "stock": 10,
-    "description": "Матеріал : шкіра , наскрізна сіткаВиробник : В'єтнам",
+    "description": "👕 Чоловічі кросівки ASICS Gel-Flux 4 Black\n\n🔝 Топ якість AAA+\n\n🔘Артикул A5553\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : шкіра , наскрізна сітка\n▪️Колір : чорний\n▪️Підошва : піна , гумовий протектор \n▪️Розміри:  41-45\n▪️Сезон :  весна / літо / осінь   \n📦Коробка ASICS , фірмовий папір \n🔢Розмірна сітка :\n▫️41 = 26 см ; \n▫️42 = 26,5 см ;\n▫️43 = 27 см ;\n▫️44 = 28 см ;\n▫️45 = 28,5 см .\n\n🔸Відправлення день в день (за умови оформлення до 17.00 );\n\n💻Google таблиця наявності :  \n\n\nНаявність наших моделей у CRM 👇",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/612cfa08-f0eb-45f6-8367-8a3cd574c9de.jpg"
-    ]
+      "images/telegram/crm-3rn3sc/1794079990776-01-reply_286714_286648-jpg.jpg",
+      "images/telegram/crm-3rn3sc/1794079995783-02-reply_286714_286649-jpg.jpg",
+      "images/telegram/crm-3rn3sc/1794080001026-03-reply_286714_286650-jpg.jpg",
+      "images/telegram/crm-3rn3sc/1794080006285-04-reply_286714_286651-jpg.jpg",
+      "images/telegram/crm-3rn3sc/1794080011470-05-reply_286714_286652-jpg.jpg",
+      "images/telegram/crm-3rn3sc/1794080016905-06-reply_286714_286653-jpg.jpg",
+      "images/telegram/crm-3rn3sc/1794080022342-07-reply_286714_286654-jpg.jpg",
+      "images/telegram/crm-3rn3sc/1794080027918-08-reply_286714_286655-jpg.jpg",
+      "images/telegram/crm-3rn3sc/1794080033133-09-reply_286714_286656-jpg.jpg"
+    ],
+    "telegram_article": "A5553"
   },
   {
     "id": "crm-1wyxgr2",
