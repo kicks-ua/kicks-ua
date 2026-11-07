@@ -260,7 +260,15 @@
       "38",
       "39"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "шкіра , наскрізна сітка",
+      "Колір": "білий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "36-41",
+      "Сезон": "весна / літо / осінь",
+      "https": "//easydrop.one/supplier-catalog/19100792694610/0/"
+    },
     "variants": [
       {
         "size": "36",
@@ -301,9 +309,17 @@
     ],
     "price": 1900,
     "stock": 19,
-    "description": "Матеріал : шкіра , наскрізна сіткаВиробник : В'єтнам",
+    "description": "👕 Жіночі кросівки ASICS Gel-Flux 4 White Silver Beige\n\n🔝 Топ якість AAA+\n\n🔘Артикул B5551\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : шкіра , наскрізна сітка\n▪️Колір : білий\n▪️Підошва : піна , гумовий протектор \n▪️Розміри:  36-41\n▪️Сезон :  весна / літо / осінь   \n📦Коробка ASICS , фірмовий папір \n🔢Розмірна сітка :\n▫️36 = 22,5 см ; \n▫️37 = 23 см ;\n▫️38 = 24 см ;\n▫️39 = 24,5 см ;\n▫️40 = 25 см ;\n▫️41 = 26 см . \n\n🔸Відправлення день в день (за умови оформлення до 17.00 );\n\n💻Google таблиця наявності :  \n\n\nНаявність наших моделей у CRM 👇",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/c42d8b65-e659-4839-8426-093bc5794262.jpg"
+      "images/telegram/crm-cavw9s/1794077290614-01-reply_286578_286521-jpg.jpg",
+      "images/telegram/crm-cavw9s/1794077295316-02-reply_286578_286522-jpg.jpg",
+      "images/telegram/crm-cavw9s/1794077300136-03-reply_286578_286523-jpg.jpg",
+      "images/telegram/crm-cavw9s/1794077304840-04-reply_286578_286524-jpg.jpg",
+      "images/telegram/crm-cavw9s/1794077309644-05-reply_286578_286525-jpg.jpg",
+      "images/telegram/crm-cavw9s/1794077314624-06-reply_286578_286526-jpg.jpg",
+      "images/telegram/crm-cavw9s/1794077319978-07-reply_286578_286527-jpg.jpg",
+      "images/telegram/crm-cavw9s/1794077325265-08-reply_286578_286528-jpg.jpg",
+      "images/telegram/crm-cavw9s/1794077330590-09-reply_286578_286529-jpg.jpg"
     ],
     "telegram_article": "B5551"
   },
