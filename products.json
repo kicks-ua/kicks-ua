@@ -3364,7 +3364,15 @@
       "43",
       "44"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "Вʼєтнам",
+      "Матеріал верху": "шкіра , текстиль , наскрізна сітка",
+      "Колір": "чорний",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь",
+      "https": "//easydrop.one/supplier-catalog/19100792694610/0/"
+    },
     "variants": [
       {
         "size": "41",
@@ -3393,10 +3401,19 @@
     ],
     "price": 2200,
     "stock": 36,
-    "description": "Матеріал : шкіра , текстиль , наскрізна сіткаВиробник : Вʼєтнам",
+    "description": "👕 Чоловічі кросівки ASICS GEL-KAYANO 20 Black\n\n🔝 Топ якість AAA+\n\n🔘Артикул A5431\n▪️Виробництво : Вʼєтнам\n▪️Матеріал верху : шкіра , текстиль , наскрізна сітка\n▪️Колір : чорний\n▪️Підошва : піна , гумовий протектор\n▪️Розміри : 41-45\n▪️Сезон : весна / літо / осінь \n📦Коробка ASICS  , фірмовий папір\n🔸Розмірна сітка :\n▫️41 = 26 см ;\n▫️42 = 26,5 см ;\n▫️43 = 27,5 см ;\n▫️44 = 28 см ;\n▫️45 = 29 см .\n\n🔸Відправлення день в день (за умови оформлення до 17.00 );\n\n💻Google таблиця наявності :  \n\n\nНаявність наших моделей у CRM 👇",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/82b7f752-931a-4bd2-aa4d-02b93599bf79.jpg"
-    ]
+      "images/telegram/crm-1wyxgr2/1794080059286-01-reply_284111_284045-jpg.jpg",
+      "images/telegram/crm-1wyxgr2/1794080064302-02-reply_284111_284046-jpg.jpg",
+      "images/telegram/crm-1wyxgr2/1794080069583-03-reply_284111_284047-jpg.jpg",
+      "images/telegram/crm-1wyxgr2/1794080074552-04-reply_284111_284048-jpg.jpg",
+      "images/telegram/crm-1wyxgr2/1794080079753-05-reply_284111_284049-jpg.jpg",
+      "images/telegram/crm-1wyxgr2/1794080085347-06-reply_284111_284050-jpg.jpg",
+      "images/telegram/crm-1wyxgr2/1794080090863-07-reply_284111_284051-jpg.jpg",
+      "images/telegram/crm-1wyxgr2/1794080096013-08-reply_284111_284052-jpg.jpg",
+      "images/telegram/crm-1wyxgr2/1794080101480-09-reply_284111_284053-jpg.jpg"
+    ],
+    "telegram_article": "A5431"
   },
   {
     "id": "crm-16r5mma",
