@@ -5097,7 +5097,15 @@
       "41",
       "44"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "Вʼєтнам",
+      "Матеріал верху": "шкіра , замша , текстиль",
+      "Колір": "сірий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь",
+      "https": "//easydrop.one/supplier-catalog/19100792694610/0/"
+    },
     "variants": [
       {
         "size": "41",
@@ -5114,10 +5122,19 @@
     ],
     "price": 1900,
     "stock": 13,
-    "description": "Матеріал : шкіра , замша , текстильВиробник : Вʼєтнам",
+    "description": "👕 Чоловічі кросівки ASICS Gel-Kahana 14 Grey Beige\n\n🔝 Топ якість AAA+\n\n🔘Артикул A3803\n▪️Виробництво : Вʼєтнам\n▪️Матеріал верху : шкіра , замша , текстиль \n▪️Колір : сірий \n▪️Підошва : піна , гумовий протектор\n▪️Розміри : 41-45\n▪️Сезон : весна / літо / осінь \n📦Коробка Asics , фірмовий папір\n🔸Розмірна сітка :\n▫️41 = 26 см ;\n▫️42 = 27 см ;\n▫️43 = 27.5 см ;  \n▫️44 = 28 см ;\n▫️45 = 28.5 см ;\n\n🔸Відправлення день в день (за умови оформлення до 17.00 );\n\n💻Google таблиця наявності :  \n\n\nНаявність наших моделей у CRM 👇",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/3910f013-6f6f-4c95-986e-ba583d1e110a.jpg"
-    ]
+      "images/telegram/crm-1fhpims/1794081873271-01-reply_278217_278189-jpg.jpg",
+      "images/telegram/crm-1fhpims/1794081877870-02-reply_278217_278190-jpg.jpg",
+      "images/telegram/crm-1fhpims/1794081882661-03-reply_278217_278191-jpg.jpg",
+      "images/telegram/crm-1fhpims/1794081887622-04-reply_278217_278192-jpg.jpg",
+      "images/telegram/crm-1fhpims/1794081892333-05-reply_278217_278193-jpg.jpg",
+      "images/telegram/crm-1fhpims/1794081897195-06-reply_278217_278194-jpg.jpg",
+      "images/telegram/crm-1fhpims/1794081902332-07-reply_278217_278195-jpg.jpg",
+      "images/telegram/crm-1fhpims/1794081907179-08-reply_278217_278196-jpg.jpg",
+      "images/telegram/crm-1fhpims/1794081912054-09-reply_278217_278197-jpg.jpg"
+    ],
+    "telegram_article": "A3803"
   },
   {
     "id": "crm-1woxv23",
