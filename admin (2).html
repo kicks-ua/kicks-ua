@@ -1,0 +1,1329 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Адмінка — KICKS.UA</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap');
+  :root{
+    --canvas:#EDE9E1;--asphalt:#232320;--sole:#8A8578;--cone:#FF4B12;--chalk:#FAF8F3;--stitch:#C9C2B2;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{background:var(--canvas);color:var(--asphalt);font-family:'Archivo',sans-serif;}
+  a{color:inherit;}
+  .label{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:var(--sole);}
+
+  nav{
+    display:flex;justify-content:space-between;align-items:center;padding:20px 6%;
+    background:var(--asphalt);color:var(--chalk);border-bottom:2px solid var(--asphalt);
+  }
+  .logo{font-family:'Archivo Black',sans-serif;font-size:20px;}
+  .logo span{color:var(--cone);}
+  .logout-btn{
+    font-family:'JetBrains Mono',monospace;font-size:12.5px;background:none;border:1.5px solid var(--chalk);
+    color:var(--chalk);padding:8px 14px;cursor:pointer;
+  }
+  .logout-btn:hover{background:var(--chalk);color:var(--asphalt);}
+
+  .wrap{max-width:960px;margin:0 auto;padding:0 6% 100px;}
+  h1{font-family:'Archivo Black',sans-serif;font-size:clamp(24px,3.6vw,34px);margin-bottom:6px;}
+  .sub{color:var(--sole);font-family:'JetBrains Mono',monospace;font-size:12.5px;margin-bottom:24px;}
+
+  /* Tabs */
+  .tabs{display:flex;gap:0;border-bottom:2px solid var(--asphalt);margin:24px 0 26px;flex-wrap:wrap;}
+  .tab-btn{
+    font-family:'JetBrains Mono',monospace;font-size:13px;padding:12px 22px;cursor:pointer;
+    background:none;border:none;color:var(--sole);border-bottom:3px solid transparent;margin-bottom:-2px;
+  }
+  .tab-btn.active{color:var(--asphalt);border-bottom-color:var(--cone);font-weight:700;}
+  .tab-content{display:none;}
+  .tab-content.active{display:block;}
+
+  /* Login screen */
+  .login-box{
+    max-width:420px;margin:80px auto;background:var(--chalk);border:2px solid var(--asphalt);padding:36px;
+  }
+  .login-box h2{font-family:'Archivo Black',sans-serif;font-size:24px;margin-bottom:8px;}
+  .login-box p.desc{color:var(--sole);font-size:13px;margin-bottom:24px;line-height:1.5;}
+  .login-box label{display:block;font-family:'JetBrains Mono',monospace;font-size:11.5px;color:var(--sole);margin-bottom:6px;text-transform:uppercase;}
+  .login-box input{
+    width:100%;padding:12px 14px;margin-bottom:16px;border:1.5px solid var(--asphalt);
+    background:var(--canvas);font-family:'JetBrains Mono',monospace;font-size:13.5px;
+  }
+  .login-box button{
+    width:100%;padding:14px;background:var(--asphalt);color:var(--chalk);border:none;
+    font-family:'JetBrains Mono',monospace;font-size:13.5px;letter-spacing:0.04em;cursor:pointer;
+  }
+  .login-box button:hover{background:var(--cone);}
+  .login-error{color:#B23A2E;font-size:12.5px;margin-bottom:12px;display:none;}
+  .login-error.visible{display:block;}
+  .token-help{
+    margin-top:20px;padding-top:16px;border-top:1px solid var(--stitch);
+    font-size:12px;color:var(--sole);line-height:1.6;
+  }
+  .token-help a{color:var(--cone);}
+
+  /* Toolbar */
+  .toolbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;flex-wrap:wrap;gap:10px;}
+  .btn{
+    font-family:'JetBrains Mono',monospace;font-size:13px;padding:10px 18px;cursor:pointer;
+    border:2px solid var(--asphalt);background:var(--chalk);color:var(--asphalt);text-decoration:none;display:inline-block;
+  }
+  .btn:hover{background:var(--asphalt);color:var(--chalk);}
+  .btn-primary{background:var(--cone);color:var(--chalk);border-color:var(--asphalt);}
+  .btn-primary:hover{background:var(--asphalt);}
+  .btn-sm{font-size:11.5px;padding:8px 12px;}
+  .btn-danger:hover{background:#B23A2E;color:var(--chalk);border-color:#B23A2E;}
+  .btn[disabled]{opacity:0.4;cursor:not-allowed;}
+
+  /* Bulk bar */
+  .bulk-bar{
+    display:none;justify-content:space-between;align-items:center;background:var(--asphalt);color:var(--chalk);
+    padding:12px 18px;margin-bottom:12px;font-family:'JetBrains Mono',monospace;font-size:12.5px;flex-wrap:wrap;gap:10px;
+  }
+  .bulk-bar.visible{display:flex;}
+  .bulk-bar .actions{display:flex;gap:8px;flex-wrap:wrap;}
+  .bulk-bar button{
+    font-family:'JetBrains Mono',monospace;font-size:11.5px;padding:7px 12px;cursor:pointer;
+    border:1.5px solid var(--chalk);background:none;color:var(--chalk);
+  }
+  .bulk-bar button:hover{background:var(--chalk);color:var(--asphalt);}
+
+  .product-row{
+    display:grid;grid-template-columns:24px 60px 1fr auto;gap:14px;align-items:center;
+    background:var(--chalk);border:1.5px solid var(--stitch);padding:12px;margin-bottom:8px;
+  }
+  .product-row input[type="checkbox"]{width:18px;height:18px;cursor:pointer;}
+  .product-row .thumb{width:60px;height:60px;background:var(--canvas);border:1px solid var(--stitch);padding:5px;}
+  .product-row .thumb img, .product-row .thumb svg{width:100%;height:100%;object-fit:cover;}
+  .product-row .info h3{font-size:14.5px;font-weight:700;}
+  .product-row .info .meta{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--sole);}
+  .product-row .inactive-tag{color:#B23A2E;font-weight:700;}
+  .product-row .actions{display:flex;gap:6px;flex-wrap:wrap;}
+  .product-row .actions button{
+    font-family:'JetBrains Mono',monospace;font-size:11px;padding:7px 10px;cursor:pointer;
+    border:1.5px solid var(--asphalt);background:var(--chalk);
+  }
+  .product-row .actions button:hover{background:var(--asphalt);color:var(--chalk);}
+
+  /* Editor */
+  .editor{background:var(--chalk);border:2px solid var(--asphalt);padding:26px;margin-bottom:26px;display:none;}
+  .editor.visible{display:block;}
+  .editor h2{font-family:'Archivo Black',sans-serif;font-size:19px;margin-bottom:20px;}
+  .editor h4{font-family:'JetBrains Mono',monospace;font-size:11.5px;text-transform:uppercase;color:var(--sole);margin:22px 0 10px;padding-top:14px;border-top:1px solid var(--stitch);}
+  .editor h4:first-of-type{border-top:none;padding-top:0;margin-top:0;}
+  .editor label{display:block;font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--sole);text-transform:uppercase;margin-bottom:6px;}
+  .editor input, .editor select, .editor textarea{
+    width:100%;padding:11px 13px;margin-bottom:14px;border:1.5px solid var(--asphalt);
+    background:var(--canvas);font-family:'Archivo',sans-serif;font-size:14px;
+  }
+  .editor textarea{resize:vertical;min-height:70px;}
+  .editor .row2{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+  .editor .row3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px;}
+  .editor .row4{display:grid;grid-template-columns:1fr 1fr auto;gap:10px;align-items:center;}
+
+  .spec-row{display:grid;grid-template-columns:1fr 1fr auto;gap:10px;align-items:center;margin-bottom:10px;}
+  .spec-row input{margin-bottom:0;}
+  .spec-row button{
+    width:32px;height:32px;border-radius:50%;background:#B23A2E;color:#fff;border:none;cursor:pointer;
+  }
+  .add-spec-btn{
+    font-family:'JetBrains Mono',monospace;font-size:12px;background:none;border:1.5px dashed var(--stitch);
+    padding:9px 14px;cursor:pointer;color:var(--sole);width:100%;margin-bottom:16px;
+  }
+  .add-spec-btn:hover{border-color:var(--cone);color:var(--cone);}
+
+  .image-list{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:16px;}
+  .image-list .img-item{position:relative;width:90px;}
+  .image-list .img-item img{width:90px;height:90px;object-fit:cover;border:1.5px solid var(--asphalt);display:block;}
+  .image-list .img-item.is-main img{border:3px solid var(--cone);}
+  .image-list .img-item .main-tag{
+    font-family:'JetBrains Mono',monospace;font-size:9px;text-align:center;background:var(--cone);color:var(--chalk);
+    padding:2px;margin-top:2px;
+  }
+  .image-list .img-item .del-btn{
+    position:absolute;top:-8px;right:-8px;width:22px;height:22px;border-radius:50%;
+    background:#B23A2E;color:#fff;border:none;cursor:pointer;font-size:12px;line-height:1;z-index:2;
+  }
+  .image-list .img-controls{display:flex;justify-content:center;gap:3px;margin-top:3px;}
+  .image-list .img-controls button{
+    font-size:10px;padding:2px 6px;border:1px solid var(--asphalt);background:var(--chalk);cursor:pointer;
+  }
+  .upload-zone{
+    border:2px dashed var(--stitch);padding:20px;text-align:center;margin-bottom:16px;
+    font-family:'JetBrains Mono',monospace;font-size:12.5px;color:var(--sole);cursor:pointer;
+  }
+  .upload-zone:hover{border-color:var(--cone);color:var(--cone);}
+  .editor-actions{display:flex;gap:10px;margin-top:20px;}
+  .status-msg{
+    padding:12px 16px;margin-bottom:16px;font-family:'JetBrains Mono',monospace;font-size:12.5px;display:none;
+  }
+  .status-msg.visible{display:block;}
+  .status-msg.success{background:#DCEEDC;border:1.5px solid #1F6B3B;color:#1F6B3B;}
+  .status-msg.error{background:#F4D9D3;border:1.5px solid #B23A2E;color:#7A2A20;}
+  .status-msg.loading{background:var(--canvas);border:1.5px solid var(--stitch);color:var(--sole);}
+
+  /* Health check */
+  .health-card{background:var(--chalk);border:1.5px solid var(--stitch);padding:18px 20px;margin-bottom:14px;}
+  .health-card h3{font-size:15px;font-weight:700;margin-bottom:10px;}
+  .health-bar-track{width:100%;height:10px;background:var(--canvas);border:1px solid var(--stitch);margin:8px 0;overflow:hidden;}
+  .health-bar-fill{height:100%;background:var(--cone);}
+  .health-check-row{display:flex;align-items:center;gap:10px;padding:6px 0;font-family:'JetBrains Mono',monospace;font-size:13px;}
+  .health-check-row .icon{width:18px;text-align:center;}
+  .health-check-row.ok .icon{color:#1F6B3B;}
+  .health-check-row.fail .icon{color:#B23A2E;}
+  .health-check-row.checking .icon{color:var(--sole);}
+
+  /* Orders */
+  .order-card{background:var(--chalk);border:1.5px solid var(--stitch);padding:18px 20px;margin-bottom:12px;}
+  .order-card .order-head{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:10px;margin-bottom:12px;}
+  .order-card .order-id{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--sole);}
+  .order-card .order-date{font-family:'JetBrains Mono',monospace;font-size:11.5px;color:var(--sole);}
+  .order-card h3{font-size:16px;font-weight:700;margin-bottom:4px;}
+  .order-card .phone{font-family:'JetBrains Mono',monospace;font-size:13px;color:var(--cone);}
+  .order-card .items-list{font-size:13px;color:#4a483f;margin:10px 0;line-height:1.6;}
+  .order-card .meta-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;font-size:12.5px;color:#4a483f;margin-bottom:10px;}
+  .order-card .meta-grid .k{color:var(--sole);font-family:'JetBrains Mono',monospace;font-size:10.5px;text-transform:uppercase;display:block;}
+  .order-card .total-row{font-family:'Archivo Black',sans-serif;font-size:17px;color:var(--cone);margin:10px 0;}
+  .order-card select.status-select{
+    font-family:'JetBrains Mono',monospace;font-size:12px;padding:8px 10px;border:1.5px solid var(--asphalt);
+    background:var(--canvas);width:auto;margin-bottom:0;
+  }
+  .status-new{color:#2E5EFF;font-weight:700;}
+  .status-processing{color:#B8860B;font-weight:700;}
+  .status-done{color:#1F6B3B;font-weight:700;}
+  .status-cancelled{color:#B23A2E;font-weight:700;}
+
+  /* Content editor */
+  .content-block{background:var(--chalk);border:1.5px solid var(--stitch);padding:20px;margin-bottom:16px;}
+  .content-block h4{font-family:'Archivo Black',sans-serif;font-size:15px;margin-bottom:12px;}
+  .method-item{border:1px solid var(--stitch);padding:14px;margin-bottom:10px;position:relative;}
+  .method-item button.remove-method{
+    position:absolute;top:8px;right:8px;width:24px;height:24px;border-radius:50%;
+    background:#B23A2E;color:#fff;border:none;cursor:pointer;
+  }
+  .reorder-controls{display:flex;gap:8px;margin-top:10px;}
+  .reorder-controls button{
+    font-family:'JetBrains Mono',monospace;font-size:11px;padding:6px 10px;cursor:pointer;
+    border:1.5px solid var(--asphalt);background:var(--canvas);
+  }
+  .reorder-controls button:hover{background:var(--asphalt);color:var(--chalk);}
+
+  @media (max-width:600px){
+    .editor .row2, .editor .row3{grid-template-columns:1fr;}
+    .product-row{grid-template-columns:24px 50px 1fr;}
+    .product-row .actions{grid-column:1 / -1;}
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">KICKS<span>.UA</span> · АДМІН</div>
+  <button class="logout-btn" id="logoutBtn" style="display:none;">Вийти</button>
+</nav>
+
+<div id="loginScreen">
+  <div class="login-box">
+    <h2>Вхід в адмінку</h2>
+    <p class="desc">Потрібен GitHub Personal Access Token з доступом до твого репозиторію. Токен зберігається тільки в цьому браузері та ніде більше.</p>
+
+    <div class="login-error" id="loginError"></div>
+
+    <label>Ім'я користувача GitHub (owner)</label>
+    <input type="text" id="ghOwner" placeholder="наприклад: awdawwdawdfef">
+
+    <label>Назва репозиторію</label>
+    <input type="text" id="ghRepo" placeholder="наприклад: kicks-ua">
+
+    <label>Personal Access Token</label>
+    <input type="password" id="ghToken" placeholder="github_pat_xxxxxxxxxxxx">
+
+    <button id="loginBtn">Увійти</button>
+
+    <div class="token-help">
+      Немає токену? Створи його тут: <a href="https://github.com/settings/personal-access-tokens/new" target="_blank">github.com/settings/personal-access-tokens/new</a><br><br>
+      При створенні: обери "Only select repositories" → свій репозиторій → у Permissions постав "Contents: Read and write".
+    </div>
+  </div>
+</div>
+
+<div class="wrap" id="adminPanel" style="display:none;">
+  <h1>Панель управління</h1>
+  <p class="sub">Зміни зберігаються прямо у файли твого репозиторію на GitHub</p>
+
+  <div class="tabs">
+    <button class="tab-btn active" data-tab="products">Товари</button>
+    <button class="tab-btn" data-tab="orders">Замовлення</button>
+    <button class="tab-btn" data-tab="content">Контент сторінок</button>
+    <button class="tab-btn" data-tab="health">Стан сайту</button>
+  </div>
+
+  <!-- ===== TAB: PRODUCTS ===== -->
+  <div class="tab-content active" id="tab-products">
+    <div class="status-msg" id="statusMsg"></div>
+
+    <div class="toolbar">
+      <button class="btn btn-primary" id="addNewBtn">+ Додати новий товар</button>
+      <button class="btn" id="refreshBtn">↻ Оновити список</button>
+      <a class="btn" href="import.html">⇧ Імпорт із CRM (XML)</a>
+    </div>
+
+    <div class="bulk-bar" id="bulkBar">
+      <span id="bulkCount">Обрано: 0</span>
+      <div class="actions">
+        <button id="bulkActivate">Увімкнути</button>
+        <button id="bulkDeactivate">Вимкнути</button>
+        <button id="bulkDelete" style="border-color:#B23A2E;">Видалити обране</button>
+        <button id="bulkClear">Скасувати вибір</button>
+      </div>
+    </div>
+
+    <div class="editor" id="editor">
+      <h2 id="editorTitle">Новий товар</h2>
+
+      <h4>Основне</h4>
+      <div class="row2">
+        <div>
+          <label>Бренд *</label>
+          <input type="text" id="f_brand" placeholder="Nike">
+        </div>
+        <div>
+          <label>Категорія (необов'язково)</label>
+          <input type="text" id="f_category" placeholder="Кросівки / Черевики / ...">
+        </div>
+      </div>
+      <label>Назва моделі *</label>
+      <input type="text" id="f_name" placeholder="Air Max 90">
+
+      <div class="row3">
+        <div>
+          <label>Ціна (₴) *</label>
+          <input type="number" id="f_price" placeholder="2690">
+        </div>
+        <div>
+          <label>Стара ціна (необов'язково)</label>
+          <input type="number" id="f_oldPrice" placeholder="3200">
+        </div>
+        <div>
+          <label>Бейдж (необов'язково)</label>
+          <input type="text" id="f_badge" placeholder="−16% або ХІТ">
+        </div>
+      </div>
+
+      <label>Опис</label>
+      <textarea id="f_description" placeholder="Короткий опис товару"></textarea>
+
+      <div class="row2">
+        <div>
+          <label>Розміри (через кому) *</label>
+          <input type="text" id="f_sizes" placeholder="40, 41, 42, 43, 44, 45">
+        </div>
+        <div>
+          <label>Кількість на складі (необов'язково)</label>
+          <input type="number" id="f_stock" placeholder="наприклад 15">
+        </div>
+      </div>
+
+      <label>Розмірна сітка (необов'язково, текст)</label>
+      <input type="text" id="f_sizeChart" placeholder="41 = 26 см · 42 = 27 см ...">
+
+      <h4>Характеристики</h4>
+      <div id="specsList"></div>
+      <button type="button" class="add-spec-btn" id="addSpecBtn">+ Додати характеристику</button>
+
+      <h4>Фото товару</h4>
+      <p class="label" style="margin-bottom:10px;">Перше фото зі списку — головне (показується в каталозі). Після зміни порядку фото ОБОВ'ЯЗКОВО натисни "Зберегти товар" внизу — інакше зміни не запишуться.</p>
+      <div class="image-list" id="imageList"></div>
+      <div class="upload-zone" id="uploadZone">Натисни, щоб обрати фото (можна кілька одразу)</div>
+      <input type="file" id="fileInput" accept="image/*" multiple style="display:none;">
+
+      <h4>Видимість</h4>
+      <label style="display:flex;align-items:center;gap:8px;text-transform:none;">
+        <input type="checkbox" id="f_active" style="width:auto;margin:0;" checked> Товар активний (видимий у каталозі)
+      </label>
+
+      <div class="editor-actions">
+        <button class="btn btn-primary" id="saveBtn">Зберегти товар</button>
+        <button class="btn" id="cancelBtn">Скасувати</button>
+      </div>
+    </div>
+
+    <div id="productsList"></div>
+  </div>
+
+  <!-- ===== TAB: CONTENT ===== -->
+  <div class="tab-content" id="tab-content">
+    <div class="status-msg" id="contentStatusMsg"></div>
+    <div id="contentEditorArea"><p class="label">Завантаження...</p></div>
+    <div class="editor-actions">
+      <button class="btn btn-primary" id="saveContentBtn">Зберегти зміни сторінок</button>
+    </div>
+  </div>
+
+
+  <!-- ===== TAB: ORDERS ===== -->
+  <div class="tab-content" id="tab-orders">
+    <div class="status-msg" id="ordersStatusMsg"></div>
+    <div class="toolbar">
+      <button class="btn" id="refreshOrdersBtn">↻ Оновити список замовлень</button>
+      <button class="btn btn-primary" id="exportCsvBtn">⬇ Експортувати в CSV</button>
+    </div>
+    <div id="ordersList"><p class="label">Натисни "Оновити список", щоб завантажити замовлення.</p></div>
+  </div>
+
+  <!-- ===== TAB: HEALTH ===== -->
+  <div class="tab-content" id="tab-health">
+    <div class="toolbar">
+      <button class="btn btn-primary" id="runHealthCheckBtn">Перевірити сайт</button>
+    </div>
+    <div id="healthResults">
+      <p class="label">Натисни "Перевірити сайт", щоб побачити стан.</p>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  const STORAGE_KEY = 'kicksAdminAuth';
+  let session = null;
+  let products = [];
+  let productsSha = null;
+  let siteContent = null;
+  let siteContentSha = null;
+  let editingId = null;
+  let pendingImages = [];
+  let currentImages = [];
+  let currentSpecs = {};
+  let selectedIds = new Set();
+
+  // ===== AUTH =====
+  function loadSession() {
+    try {
+      const raw = sessionStorage.getItem(STORAGE_KEY);
+      if (raw) session = JSON.parse(raw);
+    } catch(e) {}
+  }
+  function saveSession() { sessionStorage.setItem(STORAGE_KEY, JSON.stringify(session)); }
+  function clearSession() { sessionStorage.removeItem(STORAGE_KEY); session = null; }
+
+  async function githubRequest(path, options = {}) {
+    const url = `https://api.github.com/repos/${session.owner}/${session.repo}/contents/${path}`;
+    const res = await fetch(url, {
+      ...options,
+      headers: {
+        'Authorization': `Bearer ${session.token}`,
+        'Accept': 'application/vnd.github+json',
+        ...(options.headers || {})
+      }
+    });
+    if (!res.ok) {
+      const body = await res.json().catch(() => ({}));
+      throw new Error(body.message || `GitHub API error: ${res.status}`);
+    }
+    return res.json();
+  }
+
+  async function githubRepoInfo() {
+    const res = await fetch(`https://api.github.com/repos/${session.owner}/${session.repo}`, {
+      headers: { 'Authorization': `Bearer ${session.token}`, 'Accept': 'application/vnd.github+json' }
+    });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    return res.json();
+  }
+
+  document.getElementById('loginBtn').addEventListener('click', async function() {
+    const owner = document.getElementById('ghOwner').value.trim();
+    const repo = document.getElementById('ghRepo').value.trim();
+    const token = document.getElementById('ghToken').value.trim();
+    const errorBox = document.getElementById('loginError');
+    errorBox.classList.remove('visible');
+
+    if (!owner || !repo || !token) {
+      errorBox.textContent = 'Заповни всі поля.';
+      errorBox.classList.add('visible');
+      return;
+    }
+
+    session = { owner, repo, token };
+    this.disabled = true;
+    this.textContent = 'Перевіряємо...';
+
+    try {
+      await githubRequest('products.json');
+      saveSession();
+      showAdminPanel();
+    } catch (err) {
+      errorBox.textContent = 'Не вдалося увійти: ' + err.message + '. Перевір owner/repo/токен.';
+      errorBox.classList.add('visible');
+      session = null;
+    } finally {
+      this.disabled = false;
+      this.textContent = 'Увійти';
+    }
+  });
+
+  document.getElementById('logoutBtn').addEventListener('click', function() {
+    clearSession();
+    location.reload();
+  });
+
+  function showAdminPanel() {
+    document.getElementById('loginScreen').style.display = 'none';
+    document.getElementById('adminPanel').style.display = 'block';
+    document.getElementById('logoutBtn').style.display = 'inline-block';
+    loadProducts();
+    loadSiteContent();
+    loadOrders();
+  }
+
+  // ===== TABS =====
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', function() {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+      this.classList.add('active');
+      document.getElementById('tab-' + this.dataset.tab).classList.add('active');
+    });
+  });
+
+  // ===== STATUS =====
+  function showStatus(msg, type, elId = 'statusMsg') {
+    const box = document.getElementById(elId);
+    box.textContent = msg;
+    box.className = 'status-msg visible ' + type;
+  }
+  function hideStatus(elId = 'statusMsg') {
+    document.getElementById(elId).classList.remove('visible');
+  }
+
+  // ===== SVG HELPERS =====
+  function shoeSvgHTML(body, accent) {
+    const stroke = "#232320";
+    return `<svg viewBox="0 0 500 320" xmlns="http://www.w3.org/2000/svg">
+      <ellipse cx="250" cy="290" rx="200" ry="16" fill="${stroke}" opacity="0.08"/>
+      <path d="M40 230 Q30 180 90 165 Q110 120 170 110 Q230 95 280 115 L440 150 Q470 158 468 190 Q465 225 420 232 L70 245 Q45 245 40 230 Z" fill="${body}" stroke="${stroke}" stroke-width="4"/>
+      <path d="M40 230 Q60 250 100 248 L440 232 Q470 225 468 190" fill="#8A8578" stroke="${stroke}" stroke-width="4"/>
+      <path d="M170 110 Q230 95 280 115 L320 150 L150 155 Z" fill="${accent}" stroke="${stroke}" stroke-width="4"/>
+    </svg>`;
+  }
+  function productThumbHTML(p) {
+    if (p.images && p.images.length > 0) return `<img src="${p.images[0]}">`;
+    const c = p.placeholderColor || { body: "#EDE9E1", accent: "#8A8578" };
+    return shoeSvgHTML(c.body, c.accent);
+  }
+
+  // ===== LOAD / RENDER PRODUCTS =====
+  async function loadProducts() {
+    showStatus('Завантажуємо товари...', 'loading');
+    try {
+      const fileData = await githubRequest('products.json');
+      productsSha = fileData.sha;
+      const content = decodeURIComponent(escape(atob(fileData.content)));
+      products = JSON.parse(content);
+      selectedIds.clear();
+      renderProductsList();
+      updateBulkBar();
+      hideStatus();
+    } catch (err) {
+      showStatus('Помилка завантаження: ' + err.message, 'error');
+    }
+  }
+
+  function renderProductsList() {
+    const container = document.getElementById('productsList');
+    if (products.length === 0) {
+      container.innerHTML = '<p class="label">Товарів ще немає.</p>';
+      return;
+    }
+    container.innerHTML = products.map(p => `
+      <div class="product-row">
+        <input type="checkbox" data-id="${p.id}" ${selectedIds.has(p.id) ? 'checked' : ''} onchange="toggleSelect('${p.id}', this.checked)">
+        <div class="thumb">${productThumbHTML(p)}</div>
+        <div class="info">
+          <h3>${p.brand} ${p.name} ${p.active === false ? '<span class="inactive-tag">(вимкнено)</span>' : ''}</h3>
+          <div class="meta">${p.price} ₴ · ${(p.images || []).length} фото · ${p.stock != null ? 'на складі: ' + p.stock : ''}</div>
+        </div>
+        <div class="actions">
+          <button onclick="editProduct('${p.id}')">Редагувати</button>
+          <button onclick="toggleActive('${p.id}')">${p.active === false ? 'Увімкнути' : 'Вимкнути'}</button>
+          <button onclick="deleteProduct('${p.id}')" style="color:#B23A2E;">Видалити</button>
+        </div>
+      </div>
+    `).join('');
+  }
+
+  document.getElementById('refreshBtn').addEventListener('click', loadProducts);
+
+  // ===== BULK SELECTION =====
+  window.toggleSelect = function(id, checked) {
+    if (checked) selectedIds.add(id); else selectedIds.delete(id);
+    updateBulkBar();
+  };
+  function updateBulkBar() {
+    const bar = document.getElementById('bulkBar');
+    document.getElementById('bulkCount').textContent = `Обрано: ${selectedIds.size}`;
+    bar.classList.toggle('visible', selectedIds.size > 0);
+  }
+  document.getElementById('bulkClear').addEventListener('click', function() {
+    selectedIds.clear();
+    renderProductsList();
+    updateBulkBar();
+  });
+  document.getElementById('bulkActivate').addEventListener('click', async function() {
+    products.forEach(p => { if (selectedIds.has(p.id)) p.active = true; });
+    await saveProductsFile('Bulk activate');
+    selectedIds.clear(); updateBulkBar();
+  });
+  document.getElementById('bulkDeactivate').addEventListener('click', async function() {
+    products.forEach(p => { if (selectedIds.has(p.id)) p.active = false; });
+    await saveProductsFile('Bulk deactivate');
+    selectedIds.clear(); updateBulkBar();
+  });
+  document.getElementById('bulkDelete').addEventListener('click', async function() {
+    if (!confirm(`Видалити ${selectedIds.size} товар(ів) назавжди?`)) return;
+    products = products.filter(p => !selectedIds.has(p.id));
+    await saveProductsFile('Bulk delete');
+    selectedIds.clear(); updateBulkBar();
+  });
+
+  // ===== EDITOR: SPECS =====
+  function renderSpecsList() {
+    const container = document.getElementById('specsList');
+    const entries = Object.entries(currentSpecs);
+    container.innerHTML = entries.map(([k, v], i) => `
+      <div class="spec-row">
+        <input type="text" placeholder="Назва (напр. Матеріал)" value="${k}" onchange="updateSpecKey(${i}, this.value)">
+        <input type="text" placeholder="Значення" value="${v}" onchange="updateSpecValue(${i}, this.value)">
+        <button type="button" onclick="removeSpec(${i})">×</button>
+      </div>
+    `).join('');
+  }
+  window.updateSpecKey = function(index, newKey) {
+    const entries = Object.entries(currentSpecs);
+    const newSpecs = {};
+    entries.forEach(([k, v], i) => { newSpecs[i === index ? newKey : k] = v; });
+    currentSpecs = newSpecs;
+  };
+  window.updateSpecValue = function(index, newValue) {
+    const entries = Object.entries(currentSpecs);
+    entries[index][1] = newValue;
+    currentSpecs = Object.fromEntries(entries);
+  };
+  window.removeSpec = function(index) {
+    const entries = Object.entries(currentSpecs);
+    entries.splice(index, 1);
+    currentSpecs = Object.fromEntries(entries);
+    renderSpecsList();
+  };
+  document.getElementById('addSpecBtn').addEventListener('click', function() {
+    currentSpecs[''] = '';
+    renderSpecsList();
+  });
+
+  // ===== EDITOR: OPEN/CLOSE =====
+  function openEditor() {
+    document.getElementById('editor').classList.add('visible');
+    window.scrollTo({top: document.getElementById('editor').offsetTop - 20, behavior: 'smooth'});
+  }
+  function closeEditor() {
+    document.getElementById('editor').classList.remove('visible');
+    editingId = null;
+    pendingImages = [];
+  }
+
+  document.getElementById('addNewBtn').addEventListener('click', function() {
+    editingId = null;
+    pendingImages = [];
+    currentSpecs = {};
+    document.getElementById('editorTitle').textContent = 'Новий товар';
+    document.getElementById('f_brand').value = '';
+    document.getElementById('f_category').value = '';
+    document.getElementById('f_name').value = '';
+    document.getElementById('f_price').value = '';
+    document.getElementById('f_oldPrice').value = '';
+    document.getElementById('f_badge').value = '';
+    document.getElementById('f_description').value = '';
+    document.getElementById('f_sizes').value = '';
+    document.getElementById('f_stock').value = '';
+    document.getElementById('f_sizeChart').value = '';
+    document.getElementById('f_active').checked = true;
+    renderSpecsList();
+    renderImageList([]);
+    openEditor();
+  });
+
+  document.getElementById('cancelBtn').addEventListener('click', closeEditor);
+
+  window.editProduct = function(id) {
+    const p = products.find(x => x.id === id);
+    if (!p) return;
+    editingId = id;
+    pendingImages = [];
+    currentSpecs = { ...(p.specs || {}) };
+    document.getElementById('editorTitle').textContent = 'Редагування: ' + p.brand + ' ' + p.name;
+    document.getElementById('f_brand').value = p.brand || '';
+    document.getElementById('f_category').value = p.category || '';
+    document.getElementById('f_name').value = p.name || '';
+    document.getElementById('f_price').value = p.price || '';
+    document.getElementById('f_oldPrice').value = p.oldPrice || '';
+    document.getElementById('f_badge').value = p.badge || '';
+    document.getElementById('f_description').value = p.description || '';
+    document.getElementById('f_sizes').value = (p.sizes || []).join(', ');
+    document.getElementById('f_stock').value = p.stock != null ? p.stock : '';
+    document.getElementById('f_sizeChart').value = p.sizeChart || '';
+    document.getElementById('f_active').checked = p.active !== false;
+    renderSpecsList();
+    renderImageList(p.images || []);
+    openEditor();
+  };
+
+  window.toggleActive = async function(id) {
+    const p = products.find(x => x.id === id);
+    if (!p) return;
+    p.active = p.active === false ? true : false;
+    await saveProductsFile('Toggle active: ' + p.id);
+  };
+
+  window.deleteProduct = async function(id) {
+    if (!confirm('Точно видалити цей товар назавжди?')) return;
+    products = products.filter(x => x.id !== id);
+    await saveProductsFile('Delete product: ' + id);
+  };
+
+  // ===== IMAGES (with reorder + set main) =====
+  function renderImageList(images) {
+    currentImages = [...images];
+    const list = document.getElementById('imageList');
+    list.innerHTML = currentImages.map((img, i) => `
+      <div class="img-item ${i === 0 ? 'is-main' : ''}">
+        <button class="del-btn" onclick="removeImage(${i})">×</button>
+        <img src="${img}">
+        ${i === 0 ? '<div class="main-tag">ГОЛОВНЕ</div>' : ''}
+        <div class="img-controls">
+          ${i > 0 ? `<button onclick="moveImage(${i}, -1)">←</button>` : ''}
+          ${i > 0 ? `<button onclick="setMainImage(${i})">★</button>` : ''}
+          ${i < currentImages.length - 1 ? `<button onclick="moveImage(${i}, 1)">→</button>` : ''}
+        </div>
+      </div>
+    `).join('') + pendingImages.map((img, i) => `
+      <div class="img-item">
+        <button class="del-btn" onclick="removePendingImage(${i})">×</button>
+        <img src="${img.dataUrl}">
+        <div class="main-tag" style="background:var(--sole);">НОВЕ</div>
+      </div>
+    `).join('');
+  }
+  window.removeImage = function(index) {
+    currentImages.splice(index, 1);
+    renderImageList(currentImages);
+  };
+  window.removePendingImage = function(index) {
+    pendingImages.splice(index, 1);
+    renderImageList(currentImages);
+  };
+  window.moveImage = function(index, direction) {
+    const newIndex = index + direction;
+    if (newIndex < 0 || newIndex >= currentImages.length) return;
+    [currentImages[index], currentImages[newIndex]] = [currentImages[newIndex], currentImages[index]];
+    renderImageList(currentImages);
+  };
+  window.setMainImage = function(index) {
+    const [img] = currentImages.splice(index, 1);
+    currentImages.unshift(img);
+    renderImageList(currentImages);
+  };
+
+  document.getElementById('uploadZone').addEventListener('click', function() {
+    document.getElementById('fileInput').click();
+  });
+  document.getElementById('fileInput').addEventListener('change', function(e) {
+    const files = Array.from(e.target.files);
+    files.forEach(file => {
+      const reader = new FileReader();
+      reader.onload = function(ev) {
+        pendingImages.push({ name: file.name, dataUrl: ev.target.result, file: file });
+        renderImageList(currentImages);
+      };
+      reader.readAsDataURL(file);
+    });
+    e.target.value = '';
+  });
+
+  async function uploadPendingImages(productId) {
+    const uploadedPaths = [];
+    for (const img of pendingImages) {
+      const base64 = img.dataUrl.split(',')[1];
+      const safeName = img.name.replace(/[^a-zA-Z0-9._-]/g, '_');
+      const path = `images/${productId}/${Date.now()}-${safeName}`;
+      await githubRequest(path, {
+        method: 'PUT',
+        body: JSON.stringify({ message: `Upload image for ${productId}`, content: base64 })
+      });
+      uploadedPaths.push(path);
+    }
+    return uploadedPaths;
+  }
+
+  // ===== SAVE PRODUCT =====
+  document.getElementById('saveBtn').addEventListener('click', async function() {
+    const brand = document.getElementById('f_brand').value.trim();
+    const category = document.getElementById('f_category').value.trim();
+    const name = document.getElementById('f_name').value.trim();
+    const price = parseFloat(document.getElementById('f_price').value);
+    const oldPrice = document.getElementById('f_oldPrice').value ? parseFloat(document.getElementById('f_oldPrice').value) : null;
+    const badge = document.getElementById('f_badge').value.trim() || null;
+    const description = document.getElementById('f_description').value.trim();
+    const sizes = document.getElementById('f_sizes').value.split(',').map(s => s.trim()).filter(Boolean);
+    const stock = document.getElementById('f_stock').value ? parseInt(document.getElementById('f_stock').value) : null;
+    const sizeChart = document.getElementById('f_sizeChart').value.trim();
+    const active = document.getElementById('f_active').checked;
+
+    const cleanSpecs = {};
+    Object.entries(currentSpecs).forEach(([k, v]) => { if (k.trim()) cleanSpecs[k.trim()] = v; });
+
+    const missing = [];
+    if (!brand) missing.push('Бренд');
+    if (!name) missing.push('Назва моделі');
+    if (!price || isNaN(price)) missing.push('Ціна (перевір, що вписав число саме в поле "Ціна", а не "Стара ціна")');
+    if (sizes.length === 0) missing.push('Розміри');
+
+    if (missing.length > 0) {
+      showStatus('Не заповнено: ' + missing.join(', ') + '.', 'error');
+      return;
+    }
+
+    this.disabled = true;
+    showStatus('Зберігаємо...', 'loading');
+
+    try {
+      const id = editingId || (brand + '-' + name).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '') + '-' + Date.now().toString(36);
+
+      let newImagePaths = [];
+      if (pendingImages.length > 0) newImagePaths = await uploadPendingImages(id);
+      const finalImages = [...currentImages, ...newImagePaths];
+
+      const productData = {
+        id, brand, category, name, price, oldPrice, badge, description,
+        specs: cleanSpecs, sizeChart, sizes, stock, images: finalImages, active
+      };
+
+      if (editingId) {
+        const idx = products.findIndex(p => p.id === editingId);
+        if (products[idx].placeholderColor) productData.placeholderColor = products[idx].placeholderColor;
+        productData.createdAt = products[idx].createdAt || new Date().toISOString();
+        products[idx] = productData;
+      } else {
+        productData.createdAt = new Date().toISOString();
+        products.push(productData);
+      }
+
+      await saveProductsFile(editingId ? 'Update product: ' + id : 'Add product: ' + id);
+      closeEditor();
+      showStatus('Збережено успішно!', 'success');
+    } catch (err) {
+      showStatus('Помилка збереження: ' + err.message, 'error');
+    } finally {
+      this.disabled = false;
+    }
+  });
+
+  async function saveProductsFile(message) {
+    const content = JSON.stringify(products, null, 2);
+    const base64Content = btoa(unescape(encodeURIComponent(content)));
+    const result = await githubRequest('products.json', {
+      method: 'PUT',
+      body: JSON.stringify({ message, content: base64Content, sha: productsSha })
+    });
+    productsSha = result.content.sha;
+    renderProductsList();
+  }
+
+  // ===== ORDERS TAB =====
+  let orders = [];
+  let ordersSha = null;
+
+  document.getElementById('refreshOrdersBtn').addEventListener('click', loadOrders);
+
+  async function loadOrders() {
+    showStatus('Завантажуємо замовлення...', 'loading', 'ordersStatusMsg');
+    try {
+      const fileData = await githubRequest('orders.json');
+      ordersSha = fileData.sha;
+      const decoded = decodeURIComponent(escape(atob(fileData.content)));
+      orders = JSON.parse(decoded);
+      renderOrdersList();
+      hideStatus('ordersStatusMsg');
+    } catch (err) {
+      if (err.message && err.message.includes('Not Found')) {
+        orders = [];
+        document.getElementById('ordersList').innerHTML = '<p class="label">Замовлень ще немає. Файл orders.json зʼявиться автоматично після першого замовлення на сайті (якщо підключений proxy для замовлень).</p>';
+        hideStatus('ordersStatusMsg');
+      } else {
+        showStatus('Помилка завантаження: ' + err.message, 'error', 'ordersStatusMsg');
+      }
+    }
+  }
+
+  function statusClass(status) {
+    if (status === 'В обробці') return 'status-processing';
+    if (status === 'Виконано') return 'status-done';
+    if (status === 'Скасовано') return 'status-cancelled';
+    return 'status-new';
+  }
+
+  function renderOrdersList() {
+    const container = document.getElementById('ordersList');
+    if (orders.length === 0) {
+      container.innerHTML = '<p class="label">Замовлень ще немає.</p>';
+      return;
+    }
+    container.innerHTML = orders.map((o, i) => {
+      const itemsHtml = (o.items || []).map(it => `${it.name} (розмір ${it.size}) — ${it.price} ₴`).join('<br>');
+      const date = o.createdAt ? new Date(o.createdAt).toLocaleString('uk-UA') : '';
+      return `
+        <div class="order-card">
+          <div class="order-head">
+            <div>
+              <h3>${o.customerName || '—'}</h3>
+              <div class="phone">${o.phone || ''}</div>
+            </div>
+            <div style="text-align:right;">
+              <div class="order-date">${date}</div>
+              <div class="order-id">${o.id || ''}</div>
+            </div>
+          </div>
+          <div class="items-list">${itemsHtml}</div>
+          <div class="meta-grid">
+            <div><span class="k">Зв'язок</span>${o.contactMethod || '—'}</div>
+            <div><span class="k">Оплата</span>${o.payment || '—'}</div>
+            <div><span class="k">Доставка</span>${o.carrier || ''} · ${o.deliveryType || ''}</div>
+            <div><span class="k">Місто</span>${o.city || '—'}</div>
+            ${o.branchNumber ? `<div><span class="k">Відділення</span>${o.branchNumber}</div>` : ''}
+            ${o.address ? `<div><span class="k">Адреса</span>${o.address}</div>` : ''}
+          </div>
+          ${o.comment ? `<div class="label" style="margin-bottom:8px;">Коментар: ${o.comment}</div>` : ''}
+          <div class="total-row">${o.total || 0} ₴</div>
+          <select class="status-select ${statusClass(o.status)}" onchange="updateOrderStatus(${i}, this.value)">
+            <option value="Нове" ${o.status === 'Нове' ? 'selected' : ''}>Нове</option>
+            <option value="В обробці" ${o.status === 'В обробці' ? 'selected' : ''}>В обробці</option>
+            <option value="Виконано" ${o.status === 'Виконано' ? 'selected' : ''}>Виконано</option>
+            <option value="Скасовано" ${o.status === 'Скасовано' ? 'selected' : ''}>Скасовано</option>
+          </select>
+        </div>`;
+    }).join('');
+  }
+
+  document.getElementById('exportCsvBtn').addEventListener('click', function() {
+    if (orders.length === 0) {
+      alert('Немає замовлень для експорту.');
+      return;
+    }
+    const headers = ['Дата', 'Ім\'я', 'Телефон', 'Товари', 'Сума', 'Місто', 'Служба доставки', 'Тип отримання', 'Відділення', 'Адреса', 'Оплата', 'Статус', 'Коментар'];
+    const rows = orders.map(o => [
+      o.createdAt ? new Date(o.createdAt).toLocaleString('uk-UA') : '',
+      o.customerName || '',
+      o.phone || '',
+      (o.items || []).map(it => `${it.name} (${it.size})`).join('; '),
+      o.total || 0,
+      o.city || '',
+      o.carrier || '',
+      o.deliveryType || '',
+      o.branchNumber || '',
+      o.address || '',
+      o.payment || '',
+      o.status || '',
+      o.comment || ''
+    ]);
+
+    function csvEscape(val) {
+      const str = String(val).replace(/"/g, '""');
+      return `"${str}"`;
+    }
+
+    const csvContent = [headers, ...rows].map(row => row.map(csvEscape).join(',')).join('\r\n');
+    const blob = new Blob(['\uFEFF' + csvContent], { type: 'text/csv;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `kicks-orders-${new Date().toISOString().slice(0,10)}.csv`;
+    a.click();
+    URL.revokeObjectURL(url);
+  });
+
+  window.updateOrderStatus = async function(index, newStatus) {
+    orders[index].status = newStatus;
+    try {
+      const content = JSON.stringify(orders, null, 2);
+      const base64Content = btoa(unescape(encodeURIComponent(content)));
+      const result = await githubRequest('orders.json', {
+        method: 'PUT',
+        body: JSON.stringify({ message: 'Update order status', content: base64Content, sha: ordersSha })
+      });
+      ordersSha = result.content.sha;
+      renderOrdersList();
+    } catch (err) {
+      alert('Не вдалося зберегти статус: ' + err.message);
+    }
+  };
+
+  // ===== CONTENT TAB =====
+  async function loadSiteContent() {
+    try {
+      const fileData = await githubRequest('site-content.json');
+      siteContentSha = fileData.sha;
+      const content = decodeURIComponent(escape(atob(fileData.content)));
+      siteContent = JSON.parse(content);
+      renderContentEditor();
+    } catch (err) {
+      document.getElementById('contentEditorArea').innerHTML = `<p class="label">Не вдалося завантажити site-content.json: ${err.message}</p>`;
+    }
+  }
+
+  function renderContentEditor() {
+    const area = document.getElementById('contentEditorArea');
+    const methodsHtml = siteContent.deliveryMethods.map((m, i) => `
+      <div class="method-item">
+        <button class="remove-method" onclick="removeMethod(${i})">×</button>
+        <label>Заголовок способу доставки</label>
+        <input type="text" value="${m.title}" onchange="updateMethod(${i}, 'title', this.value)">
+        <label>Опис</label>
+        <textarea onchange="updateMethod(${i}, 'text', this.value)">${m.text}</textarea>
+      </div>
+    `).join('');
+
+    if (!siteContent.workingHours) siteContent.workingHours = { enabled: false, text: '' };
+    if (!siteContent.infoBlocks) siteContent.infoBlocks = [];
+
+    const blocksHtml = siteContent.infoBlocks.map((b, i) => `
+      <div class="method-item">
+        <button class="remove-method" onclick="removeInfoBlock(${i})" title="Видалити блок повністю">×</button>
+        <label style="display:flex;align-items:center;gap:8px;text-transform:none;margin-bottom:10px;">
+          <input type="checkbox" style="width:auto;margin:0;" ${b.enabled !== false ? 'checked' : ''} onchange="toggleInfoBlock(${i}, this.checked)">
+          Показувати цей блок на сайті
+        </label>
+        <label>Заголовок блоку</label>
+        <input type="text" value="${b.title}" onchange="updateInfoBlock(${i}, 'title', this.value)">
+        <label>Текст</label>
+        <textarea style="min-height:100px;" onchange="updateInfoBlock(${i}, 'text', this.value)">${b.text}</textarea>
+        <label>Стиль оформлення</label>
+        <select onchange="updateInfoBlock(${i}, 'style', this.value)">
+          <option value="normal" ${b.style !== 'warn' ? 'selected' : ''}>Звичайний</option>
+          <option value="warn" ${b.style === 'warn' ? 'selected' : ''}>Виділений (темний фон, як важливе попередження)</option>
+        </select>
+        <div class="reorder-controls">
+          ${i > 0 ? `<button type="button" onclick="moveInfoBlock(${i}, -1)">↑ Вище</button>` : ''}
+          ${i < siteContent.infoBlocks.length - 1 ? `<button type="button" onclick="moveInfoBlock(${i}, 1)">↓ Нижче</button>` : ''}
+        </div>
+      </div>
+    `).join('');
+
+    area.innerHTML = `
+      <div class="content-block">
+        <h4>Банери на головній сторінці</h4>
+        <p class="label" style="margin-bottom:14px;">Зображення для каруселі на головній — можна додати кілька, вони будуть змінюватись по черзі</p>
+        <div id="bannersEditorList"></div>
+        <div class="upload-zone" id="bannerUploadZone">Натисни, щоб завантажити нове зображення банера</div>
+        <input type="file" id="bannerFileInput" accept="image/*" style="display:none;">
+      </div>
+
+      <div class="content-block">
+        <h4>Способи доставки</h4>
+        ${methodsHtml}
+        <button type="button" class="add-spec-btn" onclick="addMethod()">+ Додати спосіб доставки</button>
+      </div>
+
+      <div class="content-block">
+        <h4>Контакти (сторінка «Контакти» + кнопка «Написати нам» по всьому сайту)</h4>
+        <label>Telegram нікнейм (без @, наприклад ivan_kicks)</label>
+        <input type="text" id="c_telegramHandle" value="${(siteContent.contacts && siteContent.contacts.telegramHandle) || ''}" placeholder="ivan_kicks">
+        <label>Телефон (необов'язково)</label>
+        <input type="text" id="c_phone" value="${(siteContent.contacts && siteContent.contacts.phone) || ''}" placeholder="+380 XX XXX XX XX">
+        <label>Email (необов'язково)</label>
+        <input type="text" id="c_email" value="${(siteContent.contacts && siteContent.contacts.email) || ''}" placeholder="shop@example.com">
+        <label>Адреса (необов'язково)</label>
+        <input type="text" id="c_address" value="${(siteContent.contacts && siteContent.contacts.address) || ''}" placeholder="Місто, вулиця (якщо є фізична точка)">
+      </div>
+
+      <div class="content-block">
+        <h4>Політика конфіденційності</h4>
+        <p class="label" style="margin-bottom:14px;">Ця сторінка потрібна для проходження модерації Google Ads і Meta Ads</p>
+        <label>Текст політики</label>
+        <textarea id="c_privacyText" style="min-height:280px;">${siteContent.privacyPolicyText || ''}</textarea>
+      </div>
+
+      <div class="content-block">
+        <h4>Графік роботи (необов'язковий бейдж на сторінці доставки)</h4>
+        <label style="display:flex;align-items:center;gap:8px;text-transform:none;margin-bottom:10px;">
+          <input type="checkbox" id="c_hoursEnabled" style="width:auto;margin:0;" ${siteContent.workingHours.enabled ? 'checked' : ''}>
+          Показувати графік роботи на сайті
+        </label>
+        <label>Текст графіку</label>
+        <input type="text" id="c_hoursText" value="${siteContent.workingHours.text || ''}" placeholder="Пн-Сб: 9:00 - 18:00 · Нд: вихідний">
+      </div>
+
+      <div class="content-block">
+        <h4>Інформаційні блоки сторінки "Доставка"</h4>
+        <p class="label" style="margin-bottom:14px;">Тут можна редагувати, вимикати, видаляти або додавати будь-які блоки (гарантія, умови повернення тощо)</p>
+        ${blocksHtml}
+        <button type="button" class="add-spec-btn" onclick="addInfoBlock()">+ Додати новий блок</button>
+      </div>
+    `;
+    renderBannersEditor();
+  }
+
+  const AVAILABLE_PAGES = [
+    { id: 'index', label: 'Головна (каталог)' },
+    { id: 'product', label: 'Сторінка товару' },
+    { id: 'cart', label: 'Кошик' },
+    { id: 'favorites', label: 'Обране' },
+    { id: 'delivery', label: 'Доставка' },
+    { id: 'order', label: 'Оформлення замовлення' },
+    { id: 'contacts', label: 'Контакти' },
+    { id: 'privacy', label: 'Політика конфіденційності' }
+  ];
+
+  function renderBannersEditor() {
+    if (!siteContent.banners) siteContent.banners = [];
+    const container = document.getElementById('bannersEditorList');
+    if (!container) return;
+    container.innerHTML = siteContent.banners.map((b, i) => {
+      if (!b.pages) b.pages = ['index'];
+      const pagesCheckboxes = AVAILABLE_PAGES.map(p => `
+        <label style="display:flex;align-items:center;gap:6px;text-transform:none;font-size:12.5px;margin-bottom:6px;">
+          <input type="checkbox" style="width:auto;margin:0;" ${b.pages.includes(p.id) ? 'checked' : ''} onchange="toggleBannerPage(${i}, '${p.id}', this.checked)">
+          ${p.label}
+        </label>
+      `).join('');
+
+      return `
+        <div class="method-item">
+          <button class="remove-method" onclick="removeBanner(${i})">×</button>
+          <img src="../${b.imageUrl}" style="width:100%;max-width:300px;height:auto;border:1.5px solid var(--stitch);margin-bottom:10px;display:block;">
+          <label style="display:flex;align-items:center;gap:8px;text-transform:none;margin-bottom:10px;">
+            <input type="checkbox" style="width:auto;margin:0;" ${b.enabled !== false ? 'checked' : ''} onchange="toggleBanner(${i}, this.checked)">
+            Показувати цей банер
+          </label>
+          <label>Заголовок на банері (необов'язково)</label>
+          <input type="text" value="${b.title || ''}" onchange="updateBanner(${i}, 'title', this.value)">
+          <label>Посилання при кліку (необов'язково — наприклад product.html?id=... або https://...)</label>
+          <input type="text" value="${b.link || ''}" onchange="updateBanner(${i}, 'link', this.value)">
+          <label>На яких сторінках показувати</label>
+          <div style="margin-bottom:6px;">${pagesCheckboxes}</div>
+        </div>
+      `;
+    }).join('');
+  }
+
+  window.toggleBannerPage = function(index, pageId, checked) {
+    const banner = siteContent.banners[index];
+    if (!banner.pages) banner.pages = [];
+    if (checked) {
+      if (!banner.pages.includes(pageId)) banner.pages.push(pageId);
+    } else {
+      banner.pages = banner.pages.filter(p => p !== pageId);
+    }
+  };
+
+  window.updateBanner = function(index, field, value) {
+    siteContent.banners[index][field] = value;
+  };
+  window.toggleBanner = function(index, checked) {
+    siteContent.banners[index].enabled = checked;
+  };
+  window.removeBanner = function(index) {
+    if (!confirm('Видалити цей банер?')) return;
+    siteContent.banners.splice(index, 1);
+    renderBannersEditor();
+  };
+
+  document.addEventListener('click', function(e) {
+    if (e.target && e.target.id === 'bannerUploadZone') {
+      document.getElementById('bannerFileInput').click();
+    }
+  });
+
+  document.addEventListener('change', async function(e) {
+    if (e.target && e.target.id === 'bannerFileInput' && e.target.files[0]) {
+      const file = e.target.files[0];
+      const reader = new FileReader();
+      reader.onload = async function(ev) {
+        try {
+          showStatus('Завантажуємо банер...', 'loading', 'contentStatusMsg');
+          const base64 = ev.target.result.split(',')[1];
+          const safeName = file.name.replace(/[^a-zA-Z0-9._-]/g, '_');
+          const path = `images/banners/${Date.now()}-${safeName}`;
+          await githubRequest(path, {
+            method: 'PUT',
+            body: JSON.stringify({ message: 'Upload banner image', content: base64 })
+          });
+          if (!siteContent.banners) siteContent.banners = [];
+          siteContent.banners.push({ imageUrl: path, title: '', link: '', enabled: true, pages: ['index'] });
+          renderBannersEditor();
+          hideStatus('contentStatusMsg');
+        } catch (err) {
+          showStatus('Помилка завантаження банера: ' + err.message, 'error', 'contentStatusMsg');
+        }
+      };
+      reader.readAsDataURL(file);
+      e.target.value = '';
+    }
+  });
+
+  window.updateMethod = function(index, field, value) {
+    siteContent.deliveryMethods[index][field] = value;
+  };
+  window.removeMethod = function(index) {
+    siteContent.deliveryMethods.splice(index, 1);
+    renderContentEditor();
+  };
+  window.addMethod = function() {
+    siteContent.deliveryMethods.push({ title: 'Новий спосіб', text: 'Опис...' });
+    renderContentEditor();
+  };
+
+  window.updateInfoBlock = function(index, field, value) {
+    siteContent.infoBlocks[index][field] = value;
+  };
+  window.toggleInfoBlock = function(index, checked) {
+    siteContent.infoBlocks[index].enabled = checked;
+  };
+  window.removeInfoBlock = function(index) {
+    if (!confirm('Видалити цей блок повністю? Його можна буде відновити тільки заново написавши текст.')) return;
+    siteContent.infoBlocks.splice(index, 1);
+    renderContentEditor();
+  };
+  window.addInfoBlock = function() {
+    siteContent.infoBlocks.push({
+      id: 'block-' + Date.now(),
+      title: 'Новий блок',
+      text: 'Текст блоку...',
+      style: 'normal',
+      enabled: true
+    });
+    renderContentEditor();
+  };
+  window.moveInfoBlock = function(index, direction) {
+    const newIndex = index + direction;
+    if (newIndex < 0 || newIndex >= siteContent.infoBlocks.length) return;
+    [siteContent.infoBlocks[index], siteContent.infoBlocks[newIndex]] = [siteContent.infoBlocks[newIndex], siteContent.infoBlocks[index]];
+    renderContentEditor();
+  };
+
+  document.getElementById('saveContentBtn').addEventListener('click', async function() {
+    this.disabled = true;
+    showStatus('Зберігаємо...', 'loading', 'contentStatusMsg');
+    try {
+      if (!siteContent.contacts) siteContent.contacts = {};
+      siteContent.contacts.telegramHandle = document.getElementById('c_telegramHandle').value.trim().replace(/^@/, '');
+      siteContent.contacts.phone = document.getElementById('c_phone').value.trim();
+      siteContent.contacts.email = document.getElementById('c_email').value.trim();
+      siteContent.contacts.address = document.getElementById('c_address').value.trim();
+      siteContent.privacyPolicyText = document.getElementById('c_privacyText').value;
+
+      siteContent.workingHours.enabled = document.getElementById('c_hoursEnabled').checked;
+      siteContent.workingHours.text = document.getElementById('c_hoursText').value;
+
+      const content = JSON.stringify(siteContent, null, 2);
+      const base64Content = btoa(unescape(encodeURIComponent(content)));
+      const result = await githubRequest('site-content.json', {
+        method: 'PUT',
+        body: JSON.stringify({ message: 'Update site content', content: base64Content, sha: siteContentSha })
+      });
+      siteContentSha = result.content.sha;
+      showStatus('Збережено успішно!', 'success', 'contentStatusMsg');
+    } catch (err) {
+      showStatus('Помилка: ' + err.message, 'error', 'contentStatusMsg');
+    } finally {
+      this.disabled = false;
+    }
+  });
+
+  // ===== HEALTH CHECK TAB =====
+  document.getElementById('runHealthCheckBtn').addEventListener('click', runHealthCheck);
+
+  async function runHealthCheck() {
+    const results = document.getElementById('healthResults');
+    results.innerHTML = '<p class="label">Перевіряємо...</p>';
+
+    let html = '';
+
+    // 1. Repo size
+    try {
+      const info = await githubRepoInfo();
+      const sizeMB = (info.size / 1024).toFixed(1);
+      const percentOfSoftLimit = Math.min(100, (info.size / 1024 / 1000) * 100); // умовний орієнтир 1000 МБ
+      html += `
+        <div class="health-card">
+          <h3>Розмір репозиторію</h3>
+          <p class="label" style="margin-bottom:4px;">${sizeMB} МБ використано</p>
+          <div class="health-bar-track"><div class="health-bar-fill" style="width:${percentOfSoftLimit}%;"></div></div>
+          <p style="font-size:12.5px;color:var(--sole);margin-top:8px;">
+            Орієнтовно: середнє фото товару важить 50-150 КБ. При такому розмірі можна безпечно зберігати
+            ще приблизно ${Math.max(0, Math.round((1000 * 1024 - info.size) / 100))} фотографій (це і є твій запас "місця" в межах розумного ліміту в ~1 ГБ).
+            GitHub технічно дозволяє до 5 ГБ на репозиторій, але для швидкої роботи сайту краще не перевищувати ~1 ГБ.
+          </p>
+        </div>`;
+    } catch (err) {
+      html += `<div class="health-card"><h3>Розмір репозиторію</h3><p style="color:#B23A2E;">Не вдалося перевірити: ${err.message}</p></div>`;
+    }
+
+    // 2. Key pages check
+    const pages = ['index.html', 'product.html', 'cart.html', 'order.html', 'delivery.html', 'products.json', 'site-content.json'];
+    let pagesHtml = '<div class="health-card"><h3>Основні файли сайту</h3>';
+    for (const page of pages) {
+      try {
+        const res = await fetch('../' + page, { cache: 'no-store' });
+        pagesHtml += `<div class="health-check-row ${res.ok ? 'ok' : 'fail'}"><span class="icon">${res.ok ? '✓' : '✗'}</span> ${page} ${res.ok ? '— знайдено' : '— не знайдено (HTTP ' + res.status + ')'}</div>`;
+      } catch (err) {
+        pagesHtml += `<div class="health-check-row fail"><span class="icon">✗</span> ${page} — помилка перевірки</div>`;
+      }
+    }
+    pagesHtml += '</div>';
+    html += pagesHtml;
+
+    // 3. Broken images check
+    let brokenImages = [];
+    let totalImages = 0;
+    const imageChecks = products.flatMap(p => (p.images || []).map(img => ({ product: p, img })));
+    totalImages = imageChecks.length;
+
+    await Promise.all(imageChecks.map(({ product, img }) => new Promise(resolve => {
+      const testImg = new Image();
+      testImg.onload = () => resolve();
+      testImg.onerror = () => { brokenImages.push(`${product.brand} ${product.name}: ${img}`); resolve(); };
+      testImg.src = '../' + img;
+      setTimeout(resolve, 5000); // timeout захист
+    })));
+
+    html += `
+      <div class="health-card">
+        <h3>Фото товарів</h3>
+        <p class="label">Перевірено: ${totalImages} фото</p>
+        ${brokenImages.length === 0
+          ? `<div class="health-check-row ok"><span class="icon">✓</span> Всі фото завантажуються коректно</div>`
+          : brokenImages.map(b => `<div class="health-check-row fail"><span class="icon">✗</span> ${b}</div>`).join('')
+        }
+      </div>`;
+
+    // 4. Products without images
+    const noImageProducts = products.filter(p => !p.images || p.images.length === 0);
+    if (noImageProducts.length > 0) {
+      html += `
+        <div class="health-card">
+          <h3>Товари без фото</h3>
+          ${noImageProducts.map(p => `<div class="health-check-row"><span class="icon" style="color:var(--sole);">○</span> ${p.brand} ${p.name} — показується як абстрактна іконка</div>`).join('')}
+        </div>`;
+    }
+
+    results.innerHTML = html;
+  }
+
+  // ===== INIT =====
+  loadSession();
+  if (session) showAdminPanel();
+</script>
+
+</body>
+</html>

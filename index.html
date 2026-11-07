@@ -1,1137 +1,526 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>KICKS.UA — оригінальні кросівки</title>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap');
-
-    :root{
-      --canvas:#EDE9E1;
-      --asphalt:#232320;
-      --sole:#8A8578;
-      --cone:#FF4B12;
-      --chalk:#FAF8F3;
-      --stitch:#C9C2B2;
-    }
-
-    *{box-sizing:border-box;margin:0;padding:0;}
-    html{scroll-behavior:smooth;}
-    body{
-      background:var(--canvas);
-      color:var(--asphalt);
-      font-family:'Archivo',sans-serif;
-      overflow-x:hidden;
-    }
-
-    a{color:inherit;}
-    .label{
-      font-family:'JetBrains Mono',monospace;
-      font-size:12px;
-      letter-spacing:0.12em;
-      text-transform:uppercase;
-      color:var(--sole);
-    }
-
-    .lace-divider{
-      height:24px;
-      width:100%;
-      background-image: repeating-linear-gradient(-55deg, var(--asphalt) 0px, var(--asphalt) 3px, transparent 3px, transparent 22px);
-      opacity:0.85;
-    }
-
-    nav{
-      display:flex;
-      justify-content:space-between;
-      align-items:center;
-      padding:20px 6%;
-      position:sticky;
-      top:0;
-      background:var(--canvas);
-      z-index:50;
-      border-bottom:2px solid var(--asphalt);
-    }
-
-    .logo{
-      font-family:'Archivo Black',sans-serif;
-      font-size:21px;
-      letter-spacing:-0.02em;
-      text-decoration:none;
-      color:var(--asphalt);
-    }
-
-    .logo span{color:var(--cone);}
-
-    .nav-links{
-      display:flex;
-      gap:16px;
-      align-items:center;
-      flex-wrap:wrap;
-    }
-
-    .nav-links a{
-      font-family:'JetBrains Mono',monospace;
-      font-size:13px;
-      text-decoration:none;
-      color:var(--asphalt);
-      position:relative;
-    }
-
-    .nav-cta{
-      background:var(--cone);
-      color:var(--chalk);
-      padding:11px 20px;
-      font-weight:700;
-      display:inline-flex;
-      align-items:center;
-      gap:6px;
-      border:2px solid var(--asphalt);
-      box-shadow:3px 3px 0 var(--asphalt);
-      transition:transform 0.15s, box-shadow 0.15s;
-    }
-
-    .nav-cta:hover{
-      transform:translate(2px,2px);
-      box-shadow:1px 1px 0 var(--asphalt);
-      background:var(--asphalt);
-    }
-
-    .cart-link{
-      display:inline-flex;
-      align-items:center;
-      gap:6px;
-    }
-
-    .cart-badge{
-      display:none;
-      align-items:center;
-      justify-content:center;
-      background:var(--cone);
-      color:var(--chalk);
-      border-radius:50%;
-      width:18px;
-      height:18px;
-      font-size:10.5px;
-      font-weight:700;
-    }
-
-    .promo-banner{
-      background:var(--asphalt);
-      color:var(--chalk);
-      padding:10px 6%;
-      display:flex;
-      justify-content:center;
-      gap:10px;
-      align-items:center;
-      font-family:'JetBrains Mono',monospace;
-      font-size:12.5px;
-      letter-spacing:0.04em;
-      flex-wrap:wrap;
-      text-align:center;
-    }
-
-    .promo-banner .cone-text{
-      color:var(--cone);
-      font-weight:700;
-    }
-
-    .banner-carousel{
-      position:relative;
-      margin:0 6% 24px;
-      overflow:hidden;
-      border:2px solid var(--asphalt);
-      background:var(--canvas);
-    }
-
-    .banner-track{
-      display:flex;
-      transition:transform 0.5s ease;
-    }
-
-    .banner-slide{
-      min-width:100%;
-      aspect-ratio:16/5;
-      position:relative;
-      text-decoration:none;
-      display:block;
-    }
-
-    .banner-slide img{
-      width:100%;
-      height:100%;
-      object-fit:cover;
-      display:block;
-    }
-
-    .banner-slide .banner-title{
-      position:absolute;
-      bottom:0;
-      left:0;
-      right:0;
-      padding:16px 20px;
-      background:linear-gradient(transparent, rgba(35,35,32,0.85));
-      color:var(--chalk);
-      font-family:'Archivo Black',sans-serif;
-      font-size:clamp(16px,2.4vw,24px);
-    }
-
-    .banner-dots{
-      position:absolute;
-      bottom:10px;
-      right:16px;
-      display:flex;
-      gap:6px;
-    }
-
-    .banner-dots button{
-      width:8px;
-      height:8px;
-      border-radius:50%;
-      border:1.5px solid var(--chalk);
-      background:transparent;
-      cursor:pointer;
-      padding:0;
-    }
-
-    .banner-dots button.active{
-      background:var(--chalk);
-    }
-
-    @media (max-width:600px){
-      .banner-slide{aspect-ratio:16/9;}
-    }
-
-    .catalog-head{
-      padding:56px 6% 30px;
-    }
-
-    .catalog-head .hero-eyebrow{
-      display:flex;
-      align-items:center;
-      gap:10px;
-      margin-bottom:18px;
-    }
-
-    .catalog-head .dot{
-      width:8px;
-      height:8px;
-      border-radius:50%;
-      background:var(--cone);
-      animation:pulse 1.6s infinite;
-    }
-
-    @keyframes pulse{
-      0%,100%{opacity:1;}
-      50%{opacity:0.3;}
-    }
-
-    .catalog-head h1{
-      font-family:'Archivo Black',sans-serif;
-      font-size:clamp(36px,5.6vw,64px);
-      line-height:0.95;
-      letter-spacing:-0.02em;
-      margin-bottom:18px;
-    }
-
-    .catalog-head p{
-      font-size:16.5px;
-      color:#4a483f;
-      max-width:480px;
-      line-height:1.5;
-    }
-
-    .search-sort-bar{
-      display:flex;
-      gap:12px;
-      padding:0 6% 24px;
-      flex-wrap:wrap;
-    }
-
-    .search-input{
-      flex:1;
-      min-width:220px;
-      padding:12px 16px;
-      border:1.5px solid var(--asphalt);
-      background:var(--chalk);
-      font-family:'Archivo',sans-serif;
-      font-size:14px;
-    }
-
-    .search-input:focus{
-      outline:2px solid var(--cone);
-      outline-offset:1px;
-    }
-
-    .sort-select{
-      padding:12px 14px;
-      border:1.5px solid var(--asphalt);
-      background:var(--chalk);
-      font-family:'JetBrains Mono',monospace;
-      font-size:12.5px;
-      cursor:pointer;
-    }
-
-    .filter-toggle-btn{
-      padding:12px 16px;
-      border:1.5px solid var(--asphalt);
-      background:var(--chalk);
-      font-family:'JetBrains Mono',monospace;
-      font-size:12.5px;
-      cursor:pointer;
-      display:inline-flex;
-      align-items:center;
-      gap:8px;
-      white-space:nowrap;
-    }
-
-    .filter-toggle-btn:hover{background:var(--stitch);}
-
-    .filter-count-badge{
-      background:var(--cone);
-      color:var(--chalk);
-      border-radius:50%;
-      width:18px;
-      height:18px;
-      font-size:10.5px;
-      font-weight:700;
-      display:inline-flex;
-      align-items:center;
-      justify-content:center;
-    }
-
-    .filters-panel{
-      display:none;
-      padding:20px 6% 24px;
-      background:var(--chalk);
-      border-top:1.5px solid var(--stitch);
-      border-bottom:1.5px solid var(--stitch);
-      margin-bottom:10px;
-      flex-wrap:wrap;
-      gap:26px;
-    }
-
-    .filters-panel.visible{display:flex;}
-
-    .filter-group{
-      display:flex;
-      flex-direction:column;
-      gap:8px;
-      min-width:180px;
-    }
-
-    .filter-group-checkbox{
-      justify-content:flex-end;
-    }
-
-    .filter-group-checkbox label{
-      display:flex;
-      align-items:center;
-      gap:8px;
-      font-size:13.5px;
-      cursor:pointer;
-    }
-
-    .price-inputs{
-      display:flex;
-      align-items:center;
-      gap:8px;
-    }
-
-    .price-inputs input{
-      width:90px;
-      padding:9px 10px;
-      border:1.5px solid var(--asphalt);
-      background:var(--canvas);
-      font-family:'JetBrains Mono',monospace;
-      font-size:13px;
-    }
-
-    .size-filter-grid{
-      display:flex;
-      flex-wrap:wrap;
-      gap:6px;
-      max-width:280px;
-    }
-
-    .size-filter-grid button{
-      min-width:38px;
-      padding:7px 4px;
-      border:1.5px solid var(--asphalt);
-      background:var(--canvas);
-      font-family:'JetBrains Mono',monospace;
-      font-size:12px;
-      cursor:pointer;
-    }
-
-    .size-filter-grid button.active{
-      background:var(--asphalt);
-      color:var(--chalk);
-    }
-
-    .reset-filters-btn{
-      align-self:flex-end;
-      font-family:'JetBrains Mono',monospace;
-      font-size:12px;
-      background:none;
-      border:none;
-      color:var(--sole);
-      text-decoration:underline;
-      cursor:pointer;
-      padding:9px 0;
-    }
-
-    .reset-filters-btn:hover{color:var(--cone);}
-
-    .brand-tabs{
-      display:flex;
-      gap:10px;
-      padding:0 6% 34px;
-      flex-wrap:wrap;
-    }
-
-    .brand-tabs button{
-      font-family:'JetBrains Mono',monospace;
-      font-size:12.5px;
-      border:1.5px solid var(--asphalt);
-      padding:9px 18px;
-      letter-spacing:0.03em;
-      background:var(--chalk);
-      color:var(--asphalt);
-      cursor:pointer;
-      transition:all 0.15s;
-    }
-
-    .brand-tabs button:hover{background:var(--stitch);}
-    .brand-tabs button.active{
-      background:var(--asphalt);
-      color:var(--chalk);
-    }
-
-    .trust-strip{
-      display:flex;
-      justify-content:space-between;
-      padding:18px 6%;
-      background:var(--asphalt);
-      color:var(--chalk);
-      flex-wrap:wrap;
-      gap:14px;
-    }
-
-    .trust-strip div{
-      font-family:'JetBrains Mono',monospace;
-      font-size:12.5px;
-      letter-spacing:0.02em;
-      display:flex;
-      align-items:center;
-      gap:8px;
-    }
-
-    .trust-strip div::before{
-      content:"—";
-      color:var(--cone);
-    }
-
-    .grid{
-      display:grid;
-      grid-template-columns:repeat(auto-fill, minmax(230px, 1fr));
-      gap:2px;
-      background:var(--stitch);
-      border-top:2px solid var(--asphalt);
-      border-bottom:2px solid var(--asphalt);
-      margin:40px 6% 0;
-    }
-
-    .card{
-      background:var(--chalk);
-      padding:20px 18px 22px;
-      text-decoration:none;
-      color:var(--asphalt);
-      display:flex;
-      flex-direction:column;
-      transition:background 0.15s;
-      position:relative;
-    }
-
-    .card:hover{background:#fff;}
-
-    .card .thumb{
-      width:100%;
-      aspect-ratio:1/1;
-      background:var(--canvas);
-      border:2px solid var(--asphalt);
-      margin-bottom:14px;
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      overflow:hidden;
-      padding:14px;
-    }
-
-    .card .brand-tag{
-      font-family:'JetBrains Mono',monospace;
-      font-size:10.5px;
-      color:var(--sole);
-      letter-spacing:0.05em;
-      text-transform:uppercase;
-      margin-bottom:4px;
-    }
-
-    .card h3{
-      font-size:15.5px;
-      font-weight:700;
-      margin-bottom:6px;
-    }
-
-    .card .price{
-      font-family:'JetBrains Mono',monospace;
-      font-size:15.5px;
-      color:var(--cone);
-      margin-top:auto;
-      padding-top:8px;
-      font-weight:700;
-    }
-
-    .card .price .old{
-      text-decoration:line-through;
-      color:var(--sole);
-      font-size:12px;
-      margin-right:6px;
-      font-weight:400;
-    }
-
-    .card .badge{
-      position:absolute;
-      top:12px;
-      right:12px;
-      background:var(--cone);
-      color:var(--chalk);
-      font-family:'JetBrains Mono',monospace;
-      font-size:10.5px;
-      font-weight:700;
-      padding:4px 8px;
-      transform:rotate(4deg);
-    }
-
-    .fav-btn{
-      position:absolute;
-      bottom:16px;
-      right:16px;
-      width:34px;
-      height:34px;
-      background:var(--chalk);
-      border:1.5px solid var(--asphalt);
-      border-radius:50%;
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      cursor:pointer;
-      color:var(--stitch);
-      font-size:16px;
-      z-index:2;
-      transition:all 0.15s;
-    }
-
-    .fav-btn:hover{border-color:var(--cone);}
-    .fav-btn.active{
-      background:var(--cone);
-      color:var(--chalk);
-      border-color:var(--asphalt);
-    }
-
-    .loading-msg{
-      padding:40px 6%;
-      font-family:'JetBrains Mono',monospace;
-      color:var(--sole);
-    }
-
-    .about{
-      padding:70px 6%;
-    }
-
-    .about-grid{
-      display:grid;
-      grid-template-columns:repeat(3,1fr);
-      border-top:1px solid var(--stitch);
-    }
-
-    .about-card{
-      padding:28px 24px;
-      border-right:1px solid var(--stitch);
-      border-bottom:1px solid var(--stitch);
-    }
-
-    .about-card:last-child{border-right:none;}
-
-    .about-card .num{
-      font-family:'JetBrains Mono',monospace;
-      color:var(--cone);
-      font-size:12.5px;
-      display:block;
-      margin-bottom:12px;
-    }
-
-    .about-card h3{
-      font-weight:700;
-      font-size:18px;
-      margin-bottom:8px;
-    }
-
-    .about-card p{
-      font-size:14px;
-      color:#5a584e;
-      line-height:1.5;
-    }
-
-    .section-head{
-      margin-bottom:36px;
-    }
-
-    .section-head h2{
-      font-family:'Archivo Black',sans-serif;
-      font-size:clamp(26px,3.6vw,40px);
-      letter-spacing:-0.01em;
-    }
-
-    footer{
-      padding:32px 6%;
-      display:flex;
-      justify-content:space-between;
-      align-items:center;
-      flex-wrap:wrap;
-      gap:12px;
-      border-top:2px solid var(--asphalt);
-    }
-
-    footer .foot-links{
-      display:flex;
-      gap:20px;
-      font-family:'JetBrains Mono',monospace;
-      font-size:12px;
-      flex-wrap:wrap;
-    }
-
-    footer .foot-links a{
-      color:var(--asphalt);
-      text-decoration:none;
-      border-bottom:1px solid var(--stitch);
-    }
-
-    @media (max-width:760px){
-      .trust-strip{flex-direction:column;}
-      .about-grid{grid-template-columns:1fr;}
-      .about-card{border-right:none;}
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KICKS.UA — оригінальні кросівки з доставкою по Україні</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap');
+  :root{
+    --canvas:#EDE9E1;--asphalt:#232320;--sole:#8A8578;--cone:#FF4B12;--chalk:#FAF8F3;--stitch:#C9C2B2;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--canvas);color:var(--asphalt);font-family:'Archivo',sans-serif;overflow-x:hidden;}
+  .label{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:0.12em;text-transform:uppercase;color:var(--sole);}
+  a{color:inherit;}
+
+  .lace-divider{
+    height:24px;width:100%;
+    background-image: repeating-linear-gradient(-55deg, var(--asphalt) 0px, var(--asphalt) 3px, transparent 3px, transparent 22px);
+    opacity:0.85;
+  }
+
+  nav{
+    display:flex;justify-content:space-between;align-items:center;padding:20px 6%;
+    position:sticky;top:0;background:var(--canvas);z-index:50;border-bottom:2px solid var(--asphalt);
+  }
+  .logo{font-family:'Archivo Black',sans-serif;font-size:21px;letter-spacing:-0.02em;text-decoration:none;color:var(--asphalt);}
+  .logo span{color:var(--cone);}
+  .nav-links{display:flex;gap:16px;align-items:center;}
+  .nav-links a{font-family:'JetBrains Mono',monospace;font-size:13px;text-decoration:none;color:var(--asphalt);}
+  .nav-cta{
+    background:var(--cone);color:var(--chalk);padding:11px 20px;font-weight:700;
+    display:inline-flex;align-items:center;gap:6px;border:2px solid var(--asphalt);
+    box-shadow:3px 3px 0 var(--asphalt);transition:transform 0.15s, box-shadow 0.15s;
+  }
+  .nav-cta:hover{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--asphalt);background:var(--asphalt);}
+  .cart-link{display:inline-flex;align-items:center;gap:6px;}
+  .cart-badge{
+    display:none;align-items:center;justify-content:center;
+    background:var(--cone);color:var(--chalk);border-radius:50%;
+    width:18px;height:18px;font-size:10.5px;font-weight:700;
+  }
+
+  .promo-banner{
+    background:var(--asphalt);color:var(--chalk);
+    padding:10px 6%;display:flex;justify-content:center;gap:10px;align-items:center;
+    font-family:'JetBrains Mono',monospace;font-size:12.5px;letter-spacing:0.04em;
+    flex-wrap:wrap;text-align:center;
+  }
+  .promo-banner .cone-text{color:var(--cone);font-weight:700;}
+
+  .banner-carousel{position:relative;margin:0 6% 24px;overflow:hidden;border:2px solid var(--asphalt);}
+  .banner-track{display:flex;transition:transform 0.5s ease;}
+  .banner-slide{min-width:100%;aspect-ratio:16/5;position:relative;text-decoration:none;display:block;}
+  .banner-slide img{width:100%;height:100%;object-fit:cover;display:block;}
+  .banner-slide .banner-title{
+    position:absolute;bottom:0;left:0;right:0;padding:16px 20px;
+    background:linear-gradient(transparent, rgba(35,35,32,0.85));
+    color:var(--chalk);font-family:'Archivo Black',sans-serif;font-size:clamp(16px,2.4vw,24px);
+  }
+  .banner-dots{position:absolute;bottom:10px;right:16px;display:flex;gap:6px;}
+  .banner-dots button{
+    width:8px;height:8px;border-radius:50%;border:1.5px solid var(--chalk);background:transparent;
+    cursor:pointer;padding:0;
+  }
+  .banner-dots button.active{background:var(--chalk);}
+  @media (max-width:600px){.banner-slide{aspect-ratio:16/9;}}
+  .catalog-head{padding:56px 6% 30px;}
+  .catalog-head .hero-eyebrow{display:flex;align-items:center;gap:10px;margin-bottom:18px;}
+  .catalog-head .dot{width:8px;height:8px;border-radius:50%;background:var(--cone);animation:pulse 1.6s infinite;}
+  @keyframes pulse{0%,100%{opacity:1;}50%{opacity:0.3;}}
+  .catalog-head h1{
+    font-family:'Archivo Black',sans-serif;font-size:clamp(36px,5.6vw,64px);
+    line-height:0.95;letter-spacing:-0.02em;margin-bottom:18px;
+  }
+  .catalog-head p{font-size:16.5px;color:#4a483f;max-width:480px;line-height:1.5;}
+
+  .search-sort-bar{
+    display:flex;gap:12px;padding:0 6% 24px;flex-wrap:wrap;
+  }
+  .search-input{
+    flex:1;min-width:220px;padding:12px 16px;border:1.5px solid var(--asphalt);
+    background:var(--chalk);font-family:'Archivo',sans-serif;font-size:14px;
+  }
+  .search-input:focus{outline:2px solid var(--cone);outline-offset:1px;}
+  .sort-select{
+    padding:12px 14px;border:1.5px solid var(--asphalt);background:var(--chalk);
+    font-family:'JetBrains Mono',monospace;font-size:12.5px;cursor:pointer;
+  }
+  .filter-toggle-btn{
+    padding:12px 16px;border:1.5px solid var(--asphalt);background:var(--chalk);
+    font-family:'JetBrains Mono',monospace;font-size:12.5px;cursor:pointer;
+    display:inline-flex;align-items:center;gap:8px;white-space:nowrap;
+  }
+  .filter-toggle-btn:hover{background:var(--stitch);}
+  .filter-count-badge{
+    background:var(--cone);color:var(--chalk);border-radius:50%;
+    width:18px;height:18px;font-size:10.5px;font-weight:700;
+    display:inline-flex;align-items:center;justify-content:center;
+  }
+  .filters-panel{
+    display:none;padding:20px 6% 24px;background:var(--chalk);border-top:1.5px solid var(--stitch);border-bottom:1.5px solid var(--stitch);
+    margin-bottom:10px;flex-wrap:wrap;gap:26px;
+  }
+  .filters-panel.visible{display:flex;}
+  .filter-group{display:flex;flex-direction:column;gap:8px;min-width:180px;}
+  .filter-group-checkbox{justify-content:flex-end;}
+  .filter-group-checkbox label{display:flex;align-items:center;gap:8px;font-size:13.5px;cursor:pointer;}
+  .price-inputs{display:flex;align-items:center;gap:8px;}
+  .price-inputs input{
+    width:90px;padding:9px 10px;border:1.5px solid var(--asphalt);background:var(--canvas);
+    font-family:'JetBrains Mono',monospace;font-size:13px;
+  }
+  .size-filter-grid{display:flex;flex-wrap:wrap;gap:6px;max-width:280px;}
+  .size-filter-grid button{
+    min-width:38px;padding:7px 4px;border:1.5px solid var(--asphalt);background:var(--canvas);
+    font-family:'JetBrains Mono',monospace;font-size:12px;cursor:pointer;
+  }
+  .size-filter-grid button.active{background:var(--asphalt);color:var(--chalk);}
+  .reset-filters-btn{
+    align-self:flex-end;font-family:'JetBrains Mono',monospace;font-size:12px;
+    background:none;border:none;color:var(--sole);text-decoration:underline;cursor:pointer;padding:9px 0;
+  }
+  .reset-filters-btn:hover{color:var(--cone);}
+  .brand-tabs{display:flex;gap:10px;padding:0 6% 34px;flex-wrap:wrap;}
+  .brand-tabs button{
+    font-family:'JetBrains Mono',monospace;font-size:12.5px;
+    border:1.5px solid var(--asphalt);padding:9px 18px;letter-spacing:0.03em;
+    background:var(--chalk);color:var(--asphalt);cursor:pointer;transition:all 0.15s;
+  }
+  .brand-tabs button:hover{background:var(--stitch);}
+  .brand-tabs button.active{background:var(--asphalt);color:var(--chalk);}
+
+  .trust-strip{
+    display:flex;justify-content:space-between;padding:18px 6%;
+    background:var(--asphalt);color:var(--chalk);flex-wrap:wrap;gap:14px;
+  }
+  .trust-strip div{font-family:'JetBrains Mono',monospace;font-size:12.5px;letter-spacing:0.02em;display:flex;align-items:center;gap:8px;}
+  .trust-strip div::before{content:"—";color:var(--cone);}
+
+  .grid{
+    display:grid;grid-template-columns:repeat(auto-fill, minmax(230px, 1fr));
+    gap:2px;background:var(--stitch);
+    border-top:2px solid var(--asphalt);border-bottom:2px solid var(--asphalt);
+    margin:40px 6% 0;
+  }
+  .card{
+    background:var(--chalk);padding:20px 18px 22px;text-decoration:none;color:var(--asphalt);
+    display:flex;flex-direction:column;transition:background 0.15s;position:relative;
+  }
+  .card:hover{background:#fff;}
+  .card .thumb{
+    width:100%;aspect-ratio:1/1;background:var(--canvas);
+    border:2px solid var(--asphalt);margin-bottom:14px;
+    display:flex;align-items:center;justify-content:center;overflow:hidden;padding:14px;
+  }
+  .card .brand-tag{font-family:'JetBrains Mono',monospace;font-size:10.5px;color:var(--sole);letter-spacing:0.05em;text-transform:uppercase;margin-bottom:4px;}
+  .card h3{font-size:15.5px;font-weight:700;margin-bottom:6px;}
+  .card .price{font-family:'JetBrains Mono',monospace;font-size:15.5px;color:var(--cone);margin-top:auto;padding-top:8px;font-weight:700;}
+  .card .price .old{text-decoration:line-through;color:var(--sole);font-size:12px;margin-right:6px;font-weight:400;}
+  .card .badge{
+    position:absolute;top:12px;right:12px;
+    background:var(--cone);color:var(--chalk);
+    font-family:'JetBrains Mono',monospace;font-size:10.5px;font-weight:700;
+    padding:4px 8px;transform:rotate(4deg);
+  }
+  .fav-btn{
+    position:absolute;bottom:16px;right:16px;width:34px;height:34px;
+    background:var(--chalk);border:1.5px solid var(--asphalt);border-radius:50%;
+    display:flex;align-items:center;justify-content:center;cursor:pointer;
+    color:var(--stitch);font-size:16px;z-index:2;transition:all 0.15s;
+  }
+  .fav-btn:hover{border-color:var(--cone);}
+  .fav-btn.active{background:var(--cone);color:var(--chalk);border-color:var(--asphalt);}
+  .loading-msg{padding:40px 6%;font-family:'JetBrains Mono',monospace;color:var(--sole);}
+
+  .about{padding:70px 6%;}
+  .about-grid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--stitch);}
+  .about-card{padding:28px 24px;border-right:1px solid var(--stitch);border-bottom:1px solid var(--stitch);}
+  .about-card:last-child{border-right:none;}
+  .about-card .num{font-family:'JetBrains Mono',monospace;color:var(--cone);font-size:12.5px;display:block;margin-bottom:12px;}
+  .about-card h3{font-weight:700;font-size:18px;margin-bottom:8px;}
+  .about-card p{font-size:14px;color:#5a584e;line-height:1.5;}
+  .section-head{margin-bottom:36px;}
+  .section-head h2{font-family:'Archivo Black',sans-serif;font-size:clamp(26px,3.6vw,40px);letter-spacing:-0.01em;}
+
+  footer{
+    padding:32px 6%;display:flex;justify-content:space-between;align-items:center;
+    flex-wrap:wrap;gap:12px;border-top:2px solid var(--asphalt);
+  }
+  footer .foot-links{display:flex;gap:20px;font-family:'JetBrains Mono',monospace;font-size:12px;}
+  footer .foot-links a{color:var(--asphalt);text-decoration:none;border-bottom:1px solid var(--stitch);}
+
+  @media (max-width:760px){
+    .trust-strip{flex-direction:column;}
+    .about-grid{grid-template-columns:1fr;}
+    .about-card{border-right:none;}
+  }
+</style>
 </head>
 <body>
 
-  <nav>
-    <a href="index.html" class="logo">KICKS<span>.UA</span></a>
-    <div class="nav-links" id="headerNav"></div>
-  </nav>
-
-  <div class="promo-banner">
-    <span>🔥</span>
-    <span class="cone-text">Знижка тижня</span>
-    <span>— до −16% на топ-моделі · оплата при отриманні · доставка по всій Україні</span>
+<nav>
+  <a href="index.html" class="logo">KICKS<span>.UA</span></a>
+  <div class="nav-links">
+    <a href="index.html">Каталог</a>
+    <a href="favorites.html" class="cart-link">♥ Обране <span class="cart-badge" id="favBadge">0</span></a>
+    <a href="cart.html" class="cart-link">Кошик <span class="cart-badge" id="cartBadge">0</span></a>
+    <a href="delivery.html">Доставка</a>
+    <a href="#" id="managerCtaLink" class="nav-cta" target="_blank">💬 Написати нам</a>
   </div>
+</nav>
+<div class="promo-banner">🔥 <span class="cone-text">Знижка тижня</span> — до −16% на топ-моделі · оплата при отриманні · доставка по всій Україні</div>
 
-  <div class="banner-carousel" id="bannerCarousel" style="display:none;">
-    <div class="banner-track" id="bannerTrack"></div>
-    <div class="banner-dots" id="bannerDots"></div>
+<div class="banner-carousel" id="bannerCarousel" style="display:none;">
+  <div class="banner-track" id="bannerTrack"></div>
+  <div class="banner-dots" id="bannerDots"></div>
+</div>
+
+<section class="catalog-head">
+  <div class="hero-eyebrow">
+    <span class="dot"></span>
+    <span class="label">Оригінал · Nike · Adidas · New Balance</span>
   </div>
+  <h1>Кросівки,<br>які впізнають<br>з першого погляду</h1>
+  <p>Тільки оригінальне взуття напряму від офіційного дистриб'ютора. Оплата при отриманні, обмін розміру безкоштовно, доставка в будь-яке місто України.</p>
+</section>
 
-  <section class="catalog-head">
-    <div class="hero-eyebrow">
-      <span class="dot"></span>
-      <span class="label">Оригінал · Nike · Adidas · New Balance</span>
+<div class="search-sort-bar">
+  <input type="text" id="searchInput" placeholder="🔍 Пошук за назвою або брендом..." class="search-input">
+  <select id="sortSelect" class="sort-select">
+    <option value="default">За замовчуванням</option>
+    <option value="price-asc">Ціна: спочатку дешевші</option>
+    <option value="price-desc">Ціна: спочатку дорожчі</option>
+    <option value="newest">Спочатку новинки</option>
+  </select>
+  <button type="button" class="filter-toggle-btn" id="filterToggleBtn">⚙ Фільтри <span id="filterCountBadge" class="filter-count-badge" style="display:none;">0</span></button>
+</div>
+
+<div class="filters-panel" id="filtersPanel">
+  <div class="filter-group">
+    <span class="label">Ціна, ₴</span>
+    <div class="price-inputs">
+      <input type="number" id="priceMin" placeholder="Від">
+      <span>—</span>
+      <input type="number" id="priceMax" placeholder="До">
     </div>
-    <h1>Кросівки,<br>які впізнають<br>з першого погляду</h1>
-    <p>Тільки оригінальне взуття напряму від офіційного дистриб'ютора. Оплата при отриманні, обмін розміру безкоштовно, доставка в будь-яке місто України.</p>
-  </section>
-
-  <div class="search-sort-bar">
-    <input type="text" id="searchInput" placeholder="🔍 Пошук за назвою або брендом..." class="search-input" />
-    <select id="sortSelect" class="sort-select">
-      <option value="default">За замовчуванням</option>
-      <option value="price-asc">Ціна: спочатку дешевші</option>
-      <option value="price-desc">Ціна: спочатку дорожчі</option>
-      <option value="newest">Спочатку новинки</option>
-    </select>
-    <button type="button" class="filter-toggle-btn" id="filterToggleBtn">
-      ⚙ Фільтри
-      <span id="filterCountBadge" class="filter-count-badge" style="display:none;">0</span>
-    </button>
   </div>
-
-  <div class="filters-panel" id="filtersPanel">
-    <div class="filter-group">
-      <span class="label">Ціна, ₴</span>
-      <div class="price-inputs">
-        <input type="number" id="priceMin" placeholder="Від" />
-        <span>—</span>
-        <input type="number" id="priceMax" placeholder="До" />
-      </div>
-    </div>
-
-    <div class="filter-group">
-      <span class="label">Розмір</span>
-      <div class="size-filter-grid" id="sizeFilterGrid"></div>
-    </div>
-
-    <div class="filter-group filter-group-checkbox">
-      <label>
-        <input type="checkbox" id="discountOnly" />
-        Тільки зі знижкою
-      </label>
-    </div>
-
-    <button type="button" class="reset-filters-btn" id="resetFiltersBtn">Скинути фільтри</button>
+  <div class="filter-group">
+    <span class="label">Розмір</span>
+    <div class="size-filter-grid" id="sizeFilterGrid"></div>
   </div>
-
-  <div class="brand-tabs" id="brandTabs">
-    <button class="active" data-brand="all">Всі моделі</button>
+  <div class="filter-group filter-group-checkbox">
+    <label>
+      <input type="checkbox" id="discountOnly"> Тільки зі знижкою
+    </label>
   </div>
+  <button type="button" class="reset-filters-btn" id="resetFiltersBtn">Скинути фільтри</button>
+</div>
 
-  <div class="lace-divider"></div>
+<div class="brand-tabs" id="brandTabs">
+  <button class="active" data-brand="all">Всі моделі</button>
+</div>
 
-  <div class="trust-strip">
-    <div>Оплата при отриманні</div>
-    <div>Доставка Новою поштою, Укрпоштою 1–3 дні</div>
-    <div>Обмін розміру безкоштовно</div>
-    <div>Гарантія оригінальності</div>
+<div class="lace-divider"></div>
+
+<div class="trust-strip">
+  <div>Оплата при отриманні</div>
+  <div>Доставка Новою поштою, Укрпоштою 1–3 дні</div>
+  <div>Обмін розміру безкоштовно</div>
+  <div>Гарантія оригінальності</div>
+</div>
+
+<div class="grid" id="productsGrid">
+  <div class="loading-msg">Завантажуємо каталог...</div>
+</div>
+
+<section class="about">
+  <div class="section-head">
+    <h2>Чому беруть<br>саме у нас</h2>
   </div>
-
-  <div class="grid" id="productsGrid">
-    <div class="loading-msg">Завантажуємо каталог...</div>
-  </div>
-
-  <section class="about">
-    <div class="section-head">
-      <h2>Чому беруть<br>саме у нас</h2>
+  <div class="about-grid">
+    <div class="about-card">
+      <span class="num">01</span>
+      <h3>Тільки оригінал</h3>
+      <p>Працюємо напряму з офіційним дистриб'ютором, за запитом надаємо документи на партію.</p>
     </div>
-
-    <div class="about-grid">
-      <div class="about-card">
-        <span class="num">01</span>
-        <h3>Тільки оригінал</h3>
-        <p>Працюємо напряму з офіційним дистриб'ютором, за запитом надаємо документи на партію.</p>
-      </div>
-
-      <div class="about-card">
-        <span class="num">02</span>
-        <h3>Оплата при отриманні</h3>
-        <p>Перевіряєш товар на відділенні перед оплатою — платиш, тільки якщо все влаштувало.</p>
-      </div>
-
-      <div class="about-card">
-        <span class="num">03</span>
-        <h3>Обмін розміру</h3>
-        <p>Безкоштовний обмін протягом 14 днів, якщо розмір не підійшов.</p>
-      </div>
+    <div class="about-card">
+      <span class="num">02</span>
+      <h3>Оплата при отриманні</h3>
+      <p>Перевіряєш товар на відділенні перед оплатою — платиш, тільки якщо все влаштувало.</p>
     </div>
-  </section>
+    <div class="about-card">
+      <span class="num">03</span>
+      <h3>Обмін розміру</h3>
+      <p>Безкоштовний обмін протягом 14 днів, якщо розмір не підійшов.</p>
+    </div>
+  </div>
+</section>
 
-  <footer>
-    <div class="logo">KICKS<span>.UA</span></div>
-    <div class="foot-links" id="footerNav"></div>
-  </footer>
+<footer>
+  <div class="logo">KICKS<span>.UA</span></div>
+  <div class="foot-links">
+    <a href="#" id="footerTelegramLink" target="_blank">Telegram-канал</a>
+    <a href="delivery.html">Доставка і оплата</a>
+    <a href="contacts.html">Контакти</a>
+    <a href="privacy.html">Політика конфіденційності</a>
+  </div>
+</footer>
 
-  <script>
-    function shoeSvgHTML(body, accent) {
-      const stroke = '#232320';
-      return `
-        <svg viewBox="0 0 500 320" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;">
-          <ellipse cx="250" cy="290" rx="200" ry="16" fill="${stroke}" opacity="0.08"/>
-          <path d="M40 230 Q30 180 90 165 Q110 120 170 110 Q230 95 280 115 L440 150 Q470 158 468 190 Q465 225 420 232 L70 245 Q45 245 40 230 Z" fill="${body}" stroke="${stroke}" stroke-width="4"/>
-          <path d="M40 230 Q60 250 100 248 L440 232 Q470 225 468 190" fill="#8A8578" stroke="${stroke}" stroke-width="4"/>
-          <path d="M170 110 Q230 95 280 115 L320 150 L150 155 Z" fill="${accent}" stroke="${stroke}" stroke-width="4"/>
-          <circle cx="150" cy="160" r="4" fill="${stroke}"/>
-          <circle cx="175" cy="158" r="4" fill="${stroke}"/>
-          <circle cx="205" cy="158" r="4" fill="${stroke}"/>
-          <circle cx="238" cy="158" r="4" fill="${stroke}"/>
-        </svg>
-      `;
+<script>
+  function shoeSvgHTML(body, accent) {
+    const stroke = "#232320";
+    return `<svg viewBox="0 0 500 320" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;">
+      <ellipse cx="250" cy="290" rx="200" ry="16" fill="${stroke}" opacity="0.08"/>
+      <path d="M40 230 Q30 180 90 165 Q110 120 170 110 Q230 95 280 115 L440 150 Q470 158 468 190 Q465 225 420 232 L70 245 Q45 245 40 230 Z" fill="${body}" stroke="${stroke}" stroke-width="4"/>
+      <path d="M40 230 Q60 250 100 248 L440 232 Q470 225 468 190" fill="#8A8578" stroke="${stroke}" stroke-width="4"/>
+      <path d="M170 110 Q230 95 280 115 L320 150 L150 155 Z" fill="${accent}" stroke="${stroke}" stroke-width="4"/>
+      <circle cx="150" cy="160" r="4" fill="${stroke}"/><circle cx="175" cy="158" r="4" fill="${stroke}"/>
+      <circle cx="205" cy="158" r="4" fill="${stroke}"/><circle cx="238" cy="158" r="4" fill="${stroke}"/>
+    </svg>`;
+  }
+
+  function productThumbHTML(product) {
+    if (product.images && product.images.length > 0) {
+      return `<img src="${product.images[0]}" style="width:100%;height:100%;object-fit:cover;" alt="${product.name}">`;
+    }
+    const c = product.placeholderColor || { body: "#EDE9E1", accent: "#8A8578" };
+    return shoeSvgHTML(c.body, c.accent);
+  }
+
+  (function(){
+    try {
+      var cart = JSON.parse(localStorage.getItem('kicksCart') || '[]');
+      var badge = document.getElementById('cartBadge');
+      if (cart.length > 0) { badge.textContent = cart.length; badge.style.display = 'inline-flex'; }
+    } catch(e) {}
+    try {
+      var favs = JSON.parse(localStorage.getItem('kicksFavorites') || '[]');
+      var favBadge = document.getElementById('favBadge');
+      if (favs.length > 0) { favBadge.textContent = favs.length; favBadge.style.display = 'inline-flex'; }
+    } catch(e) {}
+  })();
+
+  function getFavorites() {
+    try { return JSON.parse(localStorage.getItem('kicksFavorites') || '[]'); } catch(e) { return []; }
+  }
+  function toggleFavorite(productId) {
+    let favs = getFavorites();
+    if (favs.includes(productId)) {
+      favs = favs.filter(id => id !== productId);
+    } else {
+      favs.push(productId);
+    }
+    localStorage.setItem('kicksFavorites', JSON.stringify(favs));
+    const favBadge = document.getElementById('favBadge');
+    if (favs.length > 0) { favBadge.textContent = favs.length; favBadge.style.display = 'inline-flex'; }
+    else { favBadge.style.display = 'none'; }
+    return favs.includes(productId);
+  }
+
+  let allProducts = [];
+  let activeBrandFilter = 'all';
+  let searchQuery = '';
+  let sortMode = 'default';
+  let priceMinVal = null;
+  let priceMaxVal = null;
+  let selectedSizes = new Set();
+  let discountOnlyVal = false;
+
+  function updateFilterCount() {
+    let count = 0;
+    if (priceMinVal !== null || priceMaxVal !== null) count++;
+    if (selectedSizes.size > 0) count++;
+    if (discountOnlyVal) count++;
+    const badge = document.getElementById('filterCountBadge');
+    if (count > 0) { badge.textContent = count; badge.style.display = 'inline-flex'; }
+    else { badge.style.display = 'none'; }
+  }
+
+  function applyFiltersAndSort(products) {
+    let result = activeBrandFilter === 'all'
+      ? products
+      : products.filter(p => p.brand === activeBrandFilter);
+
+    if (searchQuery.trim()) {
+      const q = searchQuery.trim().toLowerCase();
+      result = result.filter(p =>
+        (p.name || '').toLowerCase().includes(q) ||
+        (p.brand || '').toLowerCase().includes(q)
+      );
     }
 
-    function productThumbHTML(product) {
-      if (product.images && product.images.length > 0) {
-        return `<img src="${product.images[0]}" style="width:100%;height:100%;object-fit:cover;" alt="${product.name}" />`;
-      }
-      const c = product.placeholderColor || { body: '#EDE9E1', accent: '#8A8578' };
-      return shoeSvgHTML(c.body, c.accent);
+    if (priceMinVal !== null) result = result.filter(p => p.price >= priceMinVal);
+    if (priceMaxVal !== null) result = result.filter(p => p.price <= priceMaxVal);
+
+    if (selectedSizes.size > 0) {
+      result = result.filter(p => (p.sizes || []).some(s => selectedSizes.has(s)));
     }
 
-    function getFavorites() {
-      try { return JSON.parse(localStorage.getItem('kicksFavorites') || '[]'); } catch (e) { return []; }
+    if (discountOnlyVal) {
+      result = result.filter(p => p.oldPrice != null && p.oldPrice > p.price);
     }
 
-    function getCart() {
-      try { return JSON.parse(localStorage.getItem('kicksCart') || '[]'); } catch (e) { return []; }
+    result = [...result];
+    if (sortMode === 'price-asc') {
+      result.sort((a, b) => a.price - b.price);
+    } else if (sortMode === 'price-desc') {
+      result.sort((a, b) => b.price - a.price);
+    } else if (sortMode === 'newest') {
+      result.sort((a, b) => new Date(b.createdAt || 0) - new Date(a.createdAt || 0));
     }
 
-    function toggleFavorite(productId) {
-      let favs = getFavorites();
-      if (favs.includes(productId)) {
-        favs = favs.filter(id => id !== productId);
-      } else {
-        favs.push(productId);
-      }
+    return result;
+  }
 
-      localStorage.setItem('kicksFavorites', JSON.stringify(favs));
-
-      const favBadge = document.getElementById('favBadge');
-      if (favs.length > 0) {
-        favBadge.textContent = favs.length;
-        favBadge.style.display = 'inline-flex';
-      } else {
-        favBadge.style.display = 'none';
-      }
-
-      return favs.includes(productId);
-    }
-
-    function updateBadges() {
-      const cart = getCart();
-      const favs = getFavorites();
-
-      const cartBadge = document.getElementById('cartBadge');
-      const favBadge = document.getElementById('favBadge');
-
-      if (cartBadge) {
-        if (cart.length > 0) {
-          cartBadge.textContent = cart.length;
-          cartBadge.style.display = 'inline-flex';
-        } else {
-          cartBadge.style.display = 'none';
-        }
-      }
-
-      if (favBadge) {
-        if (favs.length > 0) {
-          favBadge.textContent = favs.length;
-          favBadge.style.display = 'inline-flex';
-        } else {
-          favBadge.style.display = 'none';
-        }
-      }
-    }
-
-    let allProducts = [];
-    let activeBrandFilter = 'all';
-    let searchQuery = '';
-    let sortMode = 'default';
-    let priceMinVal = null;
-    let priceMaxVal = null;
-    let selectedSizes = new Set();
-    let discountOnlyVal = false;
-
-    function updateFilterCount() {
-      let count = 0;
-      if (priceMinVal !== null || priceMaxVal !== null) count++;
-      if (selectedSizes.size > 0) count++;
-      if (discountOnlyVal) count++;
-      const badge = document.getElementById('filterCountBadge');
-      if (count > 0) {
-        badge.textContent = count;
-        badge.style.display = 'inline-flex';
-      } else {
-        badge.style.display = 'none';
-      }
-    }
-
-    function applyFiltersAndSort(products) {
-      let result = activeBrandFilter === 'all'
-        ? products
-        : products.filter(p => p.brand === activeBrandFilter);
-
-      if (searchQuery.trim()) {
-        const q = searchQuery.trim().toLowerCase();
-        result = result.filter(p =>
-          (p.name || '').toLowerCase().includes(q) ||
-          (p.brand || '').toLowerCase().includes(q)
-        );
-      }
-
-      if (priceMinVal !== null) result = result.filter(p => p.price >= priceMinVal);
-      if (priceMaxVal !== null) result = result.filter(p => p.price <= priceMaxVal);
-
-      if (selectedSizes.size > 0) {
-        result = result.filter(p => (p.sizes || []).some(s => selectedSizes.has(s)));
-      }
-
-      if (discountOnlyVal) {
-        result = result.filter(p => p.oldPrice != null && p.oldPrice > p.price);
-      }
-
-      result = [...result];
-
-      if (sortMode === 'price-asc') {
-        result.sort((a, b) => a.price - b.price);
-      } else if (sortMode === 'price-desc') {
-        result.sort((a, b) => b.price - a.price);
-      } else if (sortMode === 'newest') {
-        result.sort((a, b) => new Date(b.createdAt || 0) - new Date(a.createdAt || 0));
-      }
-
-      return result;
-    }
-
-    function renderSizeFilterOptions(products) {
-      const allSizes = [...new Set(products.flatMap(p => p.sizes || []))]
-        .sort((a, b) => parseFloat(a) - parseFloat(b));
-
-      const container = document.getElementById('sizeFilterGrid');
-      container.innerHTML = allSizes.map(s => `<button type="button" data-size="${s}">${s}</button>`).join('');
-
-      container.querySelectorAll('button').forEach(btn => {
-        btn.addEventListener('click', function () {
-          const size = this.dataset.size;
-          if (selectedSizes.has(size)) {
-            selectedSizes.delete(size);
-            this.classList.remove('active');
-          } else {
-            selectedSizes.add(size);
-            this.classList.add('active');
-          }
-          updateFilterCount();
-          renderCards(allProducts);
-        });
-      });
-    }
-
-    function renderCards(products) {
-      const grid = document.getElementById('productsGrid');
-      const filtered = applyFiltersAndSort(products);
-
-      if (filtered.length === 0) {
-        grid.innerHTML = '<div class=\"loading-msg\">Нічого не знайдено. Спробуй інший запит або фільтр.</div>';
-        return;
-      }
-
-      grid.innerHTML = filtered.map(p => {
-        const oldHtml = p.oldPrice ? `<span class=\"old\">${p.oldPrice} ₴</span>` : '';
-        const badgeHtml = p.badge ? `<span class=\"badge\">${p.badge}</span>` : '';
-        const isFav = getFavorites().includes(p.id);
-
-        return `
-          <a href="product.html?id=${encodeURIComponent(p.id)}" class="card">
-            ${badgeHtml}
-            <button
-              type="button"
-              class="fav-btn ${isFav ? 'active' : ''}"
-              onclick="event.preventDefault(); this.classList.toggle('active', toggleFavorite('${p.id}'));"
-            >♥</button>
-            <div class="thumb">${productThumbHTML(p)}</div>
-            <div class="brand-tag">${p.brand}</div>
-            <h3>${p.name}</h3>
-            <div class="price">${oldHtml}${p.price} ₴</div>
-          </a>
-        `;
-      }).join('');
-    }
-
-    function renderBrandTabs(products) {
-      const brands = [...new Set(products.map(p => p.brand))].sort();
-      const tabsContainer = document.getElementById('brandTabs');
-
-      tabsContainer.innerHTML =
-        '<button class="active" data-brand="all">Всі моделі</button>' +
-        brands.map(b => `<button data-brand="${b}">${b}</button>`).join('');
-
-      tabsContainer.querySelectorAll('button').forEach(btn => {
-        btn.addEventListener('click', function () {
-          tabsContainer.querySelectorAll('button').forEach(b => b.classList.remove('active'));
-          this.classList.add('active');
-          activeBrandFilter = this.dataset.brand;
-          renderCards(allProducts);
-        });
-      });
-    }
-
-    async function renderCatalog() {
-      const grid = document.getElementById('productsGrid');
-
-      try {
-        const res = await fetch('products.json?_=' + Date.now());
-        if (!res.ok) throw new Error('HTTP ' + res.status);
-
-        const products = await res.json();
-        allProducts = products.filter(p => p.active !== false);
-
-        if (allProducts.length === 0) {
-          grid.innerHTML = '<div class=\"loading-msg\">Товарів поки немає.</div>';
-          return;
-        }
-
-        renderBrandTabs(allProducts);
-        renderSizeFilterOptions(allProducts);
+  function renderSizeFilterOptions(products) {
+    const allSizes = [...new Set(products.flatMap(p => p.sizes || []))]
+      .sort((a, b) => parseFloat(a) - parseFloat(b));
+    const container = document.getElementById('sizeFilterGrid');
+    container.innerHTML = allSizes.map(s => `<button type="button" data-size="${s}">${s}</button>`).join('');
+    container.querySelectorAll('button').forEach(btn => {
+      btn.addEventListener('click', function() {
+        const size = this.dataset.size;
+        if (selectedSizes.has(size)) { selectedSizes.delete(size); this.classList.remove('active'); }
+        else { selectedSizes.add(size); this.classList.add('active'); }
+        updateFilterCount();
         renderCards(allProducts);
-      } catch (err) {
-        console.error('Помилка завантаження каталогу:', err);
-        grid.innerHTML = '<div class=\"loading-msg\">Не вдалося завантажити каталог. Перевір, що файл products.json є в репозиторії.</div>';
-      }
-    }
-
-    function renderNavFromConfig(config) {
-      const target = document.getElementById('headerNav');
-      if (!target || !config || !config.navigation || !config.navigation.items) return;
-
-      const items = config.navigation.items.filter(item => item.enabled && item.locations && item.locations.includes('header'));
-      target.innerHTML = items.map(item => {
-        const klass = item.style === 'pill' ? 'cart-link' : '';
-        const text = item.id === 'favorites' ? '♥ Обране' : item.label;
-
-        if (item.id === 'managerButton') {
-          return '';
-        }
-
-        if (item.id === 'cart') {
-          return `<a href="${item.url}" class="${klass}">${text} <span class="cart-badge" id="cartBadge">0</span></a>`;
-        }
-
-        if (item.id === 'favorites') {
-          return `<a href="${item.url}" class="${klass}">${text} <span class="cart-badge" id="favBadge">0</span></a>`;
-        }
-
-        return `<a href="${item.url}">${item.label}</a>`;
-      }).join('');
-
-      const managerButton = config.navigation.managerButton;
-      if (managerButton && managerButton.enabled) {
-        const managerLink = document.createElement('a');
-        managerLink.href = managerButton.url || '#';
-        managerLink.className = 'nav-cta';
-        managerLink.target = managerButton.openInNewTab ? '_blank' : '_self';
-        managerLink.textContent = managerButton.label || '💬 Написати нам';
-        target.appendChild(managerLink);
-      }
-
-      updateBadges();
-    }
-
-    function renderFooterFromConfig(config) {
-      const target = document.getElementById('footerNav');
-      if (!target || !config || !config.navigation || !config.navigation.items) return;
-
-      const items = config.navigation.items.filter(item => item.enabled && item.locations && item.locations.includes('footer'));
-      target.innerHTML = items.map(item => {
-        if (item.id === 'telegram') {
-          return `<a href="${item.url || '#'}" target="_blank">${item.label}</a>`;
-        }
-
-        if (item.id === 'managerButton') {
-          return '';
-        }
-
-        return `<a href="${item.url}">${item.label}</a>`;
-      }).join('');
-    }
-
-    async function loadSiteConfig() {
-      try {
-        const res = await fetch('site-content.json?_=' + Date.now());
-        if (!res.ok) throw new Error('HTTP ' + res.status);
-
-        const config = await res.json();
-
-        renderNavFromConfig(config);
-        renderFooterFromConfig(config);
-
-        if (config.contacts && config.contacts.telegramHandle) {
-          const tgUrl = 'https://t.me/' + config.contacts.telegramHandle.trim().replace(/^@/, '');
-
-          const managerA = document.querySelector('.nav-cta');
-          if (managerA) managerA.href = tgUrl;
-
-          const footerTelegram = Array.from(document.querySelectorAll('#footerNav a')).find(a => /telegram/i.test(a.textContent));
-          if (footerTelegram) footerTelegram.href = tgUrl;
-
-          if (config.navigation && config.navigation.managerButton) {
-            config.navigation.managerButton.url = tgUrl;
-          }
-        }
-
-        applyTextLinks(config);
-        loadBanners(config);
-      } catch (err) {
-        console.warn('Не вдалося завантажити site-content.json:', err);
-      }
-    }
-
-    function applyTextLinks(config) {
-      if (!config || !Array.isArray(config.textLinks)) return;
-
-      config.textLinks.forEach(link => {
-        if (!link.enabled || !link.term) return;
-
-        const pattern = new RegExp(link.term, 'gi');
-
-        document.querySelectorAll('body *').forEach(node => {
-          if (node.nodeType !== 1) return;
-          if (['A', 'BUTTON', 'SCRIPT', 'STYLE', 'IMG', 'INPUT', 'TEXTAREA', 'SELECT', 'LABEL'].includes(node.tagName)) return;
-          if (node.closest('.nav-links, .foot-links, .brand-tabs, .search-input, .sort-select, .filter-toggle-btn, .btn, .card, .fav-btn, .banner-title, .logo')) return;
-
-          const textNodes = [];
-          function walk(el) {
-            for (const child of el.childNodes) {
-              if (child.nodeType === 3) {
-                textNodes.push(child);
-              } else if (child.nodeType === 1 && !['A', 'BUTTON', 'SCRIPT', 'STYLE'].includes(child.tagName)) {
-                walk(child);
-              }
-            }
-          }
-          walk(node);
-
-          textNodes.forEach(textNode => {
-            const text = textNode.textContent || '';
-            if (!pattern.test(text)) return;
-            const parent = textNode.parentNode;
-            const newHtml = text.replace(pattern, match => {
-              const url = link.url || '#';
-              const target = link.openInNewTab ? ' target=\"_blank\" rel=\"noopener noreferrer\"' : '';
-              return `<a href="${url}"${target}>${match}</a>`;
-            });
-
-            const wrapper = document.createElement('span');
-            wrapper.innerHTML = newHtml;
-            parent.replaceChild(wrapper, textNode);
-          });
-        });
       });
+    });
+  }
+
+  document.getElementById('filterToggleBtn').addEventListener('click', function() {
+    document.getElementById('filtersPanel').classList.toggle('visible');
+  });
+
+  document.getElementById('priceMin').addEventListener('input', function() {
+    priceMinVal = this.value ? parseFloat(this.value) : null;
+    updateFilterCount();
+    renderCards(allProducts);
+  });
+  document.getElementById('priceMax').addEventListener('input', function() {
+    priceMaxVal = this.value ? parseFloat(this.value) : null;
+    updateFilterCount();
+    renderCards(allProducts);
+  });
+  document.getElementById('discountOnly').addEventListener('change', function() {
+    discountOnlyVal = this.checked;
+    updateFilterCount();
+    renderCards(allProducts);
+  });
+  document.getElementById('resetFiltersBtn').addEventListener('click', function() {
+    priceMinVal = null; priceMaxVal = null; discountOnlyVal = false;
+    selectedSizes.clear();
+    document.getElementById('priceMin').value = '';
+    document.getElementById('priceMax').value = '';
+    document.getElementById('discountOnly').checked = false;
+    document.querySelectorAll('.size-filter-grid button').forEach(b => b.classList.remove('active'));
+    updateFilterCount();
+    renderCards(allProducts);
+  });
+
+  function renderCards(products) {
+    const grid = document.getElementById('productsGrid');
+    const filtered = applyFiltersAndSort(products);
+
+    if (filtered.length === 0) {
+      grid.innerHTML = '<div class="loading-msg">Нічого не знайдено. Спробуй інший запит або фільтр.</div>';
+      return;
     }
 
-    let bannerIndex = 0;
-    let bannerTimer = null;
+    grid.innerHTML = filtered.map(p => {
+      const oldHtml = p.oldPrice ? `<span class="old">${p.oldPrice} ₴</span>` : '';
+      const badgeHtml = p.badge ? `<span class="badge">${p.badge}</span>` : '';
+      const isFav = getFavorites().includes(p.id);
+      return `
+        <a href="product.html?id=${encodeURIComponent(p.id)}" class="card">
+          ${badgeHtml}
+          <button type="button" class="fav-btn ${isFav ? 'active' : ''}" onclick="event.preventDefault(); this.classList.toggle('active', toggleFavorite('${p.id}'));">♥</button>
+          <div class="thumb">${productThumbHTML(p)}</div>
+          <div class="brand-tag">${p.brand}</div>
+          <h3>${p.name}</h3>
+          <div class="price">${oldHtml}${p.price} ₴</div>
+        </a>`;
+    }).join('');
+  }
 
-    function goToBanner(index, total) {
-      bannerIndex = index;
-      const track = document.getElementById('bannerTrack');
-      const dots = document.querySelectorAll('.banner-dots button');
+  function renderBrandTabs(products) {
+    const brands = [...new Set(products.map(p => p.brand))].sort();
+    const tabsContainer = document.getElementById('brandTabs');
+    tabsContainer.innerHTML = `<button class="active" data-brand="all">Всі моделі</button>` +
+      brands.map(b => `<button data-brand="${b}">${b}</button>`).join('');
 
-      if (!track) return;
+    tabsContainer.querySelectorAll('button').forEach(btn => {
+      btn.addEventListener('click', function() {
+        tabsContainer.querySelectorAll('button').forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+        activeBrandFilter = this.dataset.brand;
+        renderCards(allProducts);
+      });
+    });
+  }
 
-      track.style.transform = `translateX(-${index * 100}%)`;
-      dots.forEach((b, i) => b.classList.toggle('active', i === index));
-    }
+  let bannerIndex = 0;
+  let bannerTimer = null;
 
-    function loadBanners(config) {
-      if (!config || !Array.isArray(config.banners)) return;
-      const banners = config.banners.filter(b => b.enabled !== false && (!b.pages || b.pages.includes('index')));
-
+  async function loadBanners() {
+    try {
+      const res = await fetch('site-content.json?_=' + Date.now());
+      const data = await res.json();
+      const banners = (data.banners || []).filter(b => b.enabled !== false && (!b.pages || b.pages.includes('index')));
       if (banners.length === 0) return;
 
       const carousel = document.getElementById('bannerCarousel');
       const track = document.getElementById('bannerTrack');
       const dots = document.getElementById('bannerDots');
 
-      if (!carousel || !track || !dots) return;
-
       track.innerHTML = banners.map(b => {
-        const inner = `<img src="${b.imageUrl}" alt="${b.title || ''}" />${b.title ? `<div class="banner-title">${b.title}</div>` : ''}`;
-        return b.link ? `<a href="${b.link}" class="banner-slide">${inner}</a>` : `<div class="banner-slide">${inner}</div>`;
+        const inner = `<img src="${b.imageUrl}" alt="${b.title || ''}">${b.title ? `<div class="banner-title">${b.title}</div>` : ''}`;
+        return b.link
+          ? `<a href="${b.link}" class="banner-slide">${inner}</a>`
+          : `<div class="banner-slide">${inner}</div>`;
       }).join('');
 
       if (banners.length > 1) {
@@ -1139,68 +528,74 @@
         dots.querySelectorAll('button').forEach(btn => {
           btn.addEventListener('click', () => goToBanner(parseInt(btn.dataset.i), banners.length));
         });
-
-        if (bannerTimer) clearInterval(bannerTimer);
-        bannerTimer = setInterval(() => {
-          const next = (bannerIndex + 1) % banners.length;
-          goToBanner(next, banners.length);
-        }, 5000);
+        bannerTimer = setInterval(() => goToBanner((bannerIndex + 1) % banners.length, banners.length), 5000);
       }
 
       carousel.style.display = 'block';
+    } catch (err) {
+      console.warn('Банери не завантажено:', err);
     }
+  }
 
-    document.getElementById('filterToggleBtn').addEventListener('click', function () {
-      document.getElementById('filtersPanel').classList.toggle('visible');
-    });
+  function goToBanner(index, total) {
+    bannerIndex = index;
+    document.getElementById('bannerTrack').style.transform = `translateX(-${index * 100}%)`;
+    document.querySelectorAll('.banner-dots button').forEach((b, i) => b.classList.toggle('active', i === index));
+  }
 
-    document.getElementById('priceMin').addEventListener('input', function () {
-      priceMinVal = this.value ? parseFloat(this.value) : null;
-      updateFilterCount();
+  async function renderCatalog() {
+    const grid = document.getElementById('productsGrid');
+    try {
+      const res = await fetch('products.json?_=' + Date.now());
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      const products = await res.json();
+      allProducts = products.filter(p => p.active !== false);
+
+      if (allProducts.length === 0) {
+        grid.innerHTML = '<div class="loading-msg">Товарів поки немає.</div>';
+        return;
+      }
+
+      renderBrandTabs(allProducts);
+      renderSizeFilterOptions(allProducts);
       renderCards(allProducts);
-    });
+    } catch (err) {
+      console.error('Помилка завантаження каталогу:', err);
+      grid.innerHTML = '<div class="loading-msg">Не вдалося завантажити каталог (' + err.message + '). Перевір, що файл products.json є в репозиторії, і онови сторінку.</div>';
+    }
+  }
 
-    document.getElementById('priceMax').addEventListener('input', function () {
-      priceMaxVal = this.value ? parseFloat(this.value) : null;
-      updateFilterCount();
-      renderCards(allProducts);
-    });
+  document.getElementById('searchInput').addEventListener('input', function() {
+    searchQuery = this.value;
+    renderCards(allProducts);
+  });
 
-    document.getElementById('discountOnly').addEventListener('change', function () {
-      discountOnlyVal = this.checked;
-      updateFilterCount();
-      renderCards(allProducts);
-    });
+  document.getElementById('sortSelect').addEventListener('change', function() {
+    sortMode = this.value;
+    renderCards(allProducts);
+  });
 
-    document.getElementById('resetFiltersBtn').addEventListener('click', function () {
-      priceMinVal = null;
-      priceMaxVal = null;
-      discountOnlyVal = false;
-      selectedSizes.clear();
+  renderCatalog();
+  loadBanners();
 
-      document.getElementById('priceMin').value = '';
-      document.getElementById('priceMax').value = '';
-      document.getElementById('discountOnly').checked = false;
+  // Підставляємо реальне посилання на Telegram-менеджера з site-content.json
+  (async function() {
+    try {
+      const res = await fetch('site-content.json?_=' + Date.now());
+      const data = await res.json();
+      if (data.contacts && data.contacts.telegramHandle) {
+        const tgUrl = 'https://t.me/' + data.contacts.telegramHandle;
+        const managerBtn = document.getElementById('managerCtaLink');
+        const footerLink = document.getElementById('footerTelegramLink');
+        if (managerBtn) managerBtn.href = tgUrl;
+        if (footerLink) footerLink.href = tgUrl;
+      }
+    } catch (err) {
+      console.warn('Не вдалося завантажити Telegram-посилання:', err);
+    }
+  })();
 
-      document.querySelectorAll('.size-filter-grid button').forEach(b => b.classList.remove('active'));
+</script>
 
-      updateFilterCount();
-      renderCards(allProducts);
-    });
-
-    document.getElementById('searchInput').addEventListener('input', function () {
-      searchQuery = this.value;
-      renderCards(allProducts);
-    });
-
-    document.getElementById('sortSelect').addEventListener('change', function () {
-      sortMode = this.value;
-      renderCards(allProducts);
-    });
-
-    loadSiteConfig();
-    renderCatalog();
-    updateBadges();
-  </script>
 </body>
 </html>

@@ -1,685 +1,263 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Обране — KICKS.UA</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Обране — KICKS.UA</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap');
+  :root{
+    --canvas:#EDE9E1;--asphalt:#232320;--sole:#8A8578;--cone:#FF4B12;--chalk:#FAF8F3;--stitch:#C9C2B2;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{background:var(--canvas);color:var(--asphalt);font-family:'Archivo',sans-serif;}
+  a{color:inherit;}
+  .label{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:0.12em;text-transform:uppercase;color:var(--sole);}
+  nav{
+    display:flex;justify-content:space-between;align-items:center;padding:20px 6%;
+    position:sticky;top:0;background:var(--canvas);z-index:50;border-bottom:2px solid var(--asphalt);
+  }
+  .logo{font-family:'Archivo Black',sans-serif;font-size:21px;text-decoration:none;color:var(--asphalt);}
+  .logo span{color:var(--cone);}
+  .nav-links{display:flex;gap:16px;align-items:center;}
+  .nav-links a{font-family:'JetBrains Mono',monospace;font-size:13px;text-decoration:none;color:var(--asphalt);}
+  .nav-cta{
+    background:var(--cone);color:var(--chalk);padding:11px 20px;font-weight:700;
+    display:inline-flex;align-items:center;gap:6px;border:2px solid var(--asphalt);
+    box-shadow:3px 3px 0 var(--asphalt);transition:transform 0.15s, box-shadow 0.15s;
+  }
+  .nav-cta:hover{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--asphalt);background:var(--asphalt);}
+  .cart-link{display:inline-flex;align-items:center;gap:6px;}
+  .cart-badge{
+    display:none;align-items:center;justify-content:center;
+    background:var(--cone);color:var(--chalk);border-radius:50%;
+    width:18px;height:18px;font-size:10.5px;font-weight:700;
+  }
 
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap');
+  .fav-page{padding:50px 6% 80px;}
+  .fav-page h1{
+    font-family:'Archivo Black',sans-serif;font-size:clamp(30px,4.4vw,48px);
+    letter-spacing:-0.02em;margin-bottom:30px;line-height:1.02;
+  }
+  .grid{
+    display:grid;grid-template-columns:repeat(auto-fill, minmax(230px, 1fr));
+    gap:2px;background:var(--stitch);
+    border-top:2px solid var(--asphalt);border-bottom:2px solid var(--asphalt);
+  }
+  .card{
+    background:var(--chalk);padding:20px 18px 22px;text-decoration:none;color:var(--asphalt);
+    display:flex;flex-direction:column;transition:background 0.15s;position:relative;
+  }
+  .card:hover{background:#fff;}
+  .card .thumb{
+    width:100%;aspect-ratio:1/1;background:var(--canvas);
+    border:2px solid var(--asphalt);margin-bottom:14px;
+    display:flex;align-items:center;justify-content:center;overflow:hidden;padding:14px;
+  }
+  .card .brand-tag{font-family:'JetBrains Mono',monospace;font-size:10.5px;color:var(--sole);letter-spacing:0.05em;text-transform:uppercase;margin-bottom:4px;}
+  .card h3{font-size:15.5px;font-weight:700;margin-bottom:6px;}
+  .card .price{font-family:'JetBrains Mono',monospace;font-size:15.5px;color:var(--cone);margin-top:auto;padding-top:8px;font-weight:700;}
+  .remove-fav{
+    position:absolute;top:12px;right:12px;width:30px;height:30px;border-radius:50%;
+    background:var(--asphalt);color:var(--chalk);border:none;cursor:pointer;font-size:14px;z-index:2;
+  }
+  .remove-fav:hover{background:#B23A2E;}
 
-    :root{
-      --canvas:#EDE9E1;
-      --asphalt:#232320;
-      --sole:#8A8578;
-      --cone:#FF4B12;
-      --chalk:#FAF8F3;
-      --stitch:#C9C2B2;
-    }
+  .empty-state{
+    background:var(--chalk);border:2px dashed var(--stitch);padding:50px 30px;text-align:center;
+  }
+  .empty-state p{color:var(--sole);margin-bottom:20px;font-size:15px;}
+  .btn-outline{
+    display:inline-block;font-family:'JetBrains Mono',monospace;font-size:13.5px;
+    background:transparent;color:var(--asphalt);padding:14px 24px;text-decoration:none;
+    border:2px solid var(--asphalt);
+  }
+  .btn-outline:hover{background:var(--asphalt);color:var(--chalk);}
 
-    *{box-sizing:border-box;margin:0;padding:0}
-
-    body{
-      background:var(--canvas);
-      color:var(--asphalt);
-      font-family:'Archivo',sans-serif;
-      overflow-x:hidden;
-    }
-
-    a{color:inherit}
-
-    .label{
-      font-family:'JetBrains Mono',monospace;
-      font-size:12px;
-      letter-spacing:.12em;
-      text-transform:uppercase;
-      color:var(--sole);
-    }
-
-    nav{
-      display:flex;
-      justify-content:space-between;
-      align-items:center;
-      gap:20px;
-      padding:20px 6%;
-      position:sticky;
-      top:0;
-      background:var(--canvas);
-      z-index:50;
-      border-bottom:2px solid var(--asphalt);
-    }
-
-    .logo{
-      flex-shrink:0;
-      font-family:'Archivo Black',sans-serif;
-      font-size:21px;
-      letter-spacing:-.02em;
-      text-decoration:none;
-      color:var(--asphalt);
-    }
-
-    .logo span{color:var(--cone)}
-
-    .nav-links{
-      display:flex;
-      align-items:center;
-      justify-content:flex-end;
-      gap:10px;
-      flex-wrap:wrap;
-    }
-
-    .nav-links a{
-      font-family:'JetBrains Mono',monospace;
-      font-size:13px;
-      color:var(--asphalt);
-      text-decoration:none;
-    }
-
-    .nav-link-text{
-      display:inline-flex;
-      align-items:center;
-      gap:6px;
-      padding:9px 10px;
-      border-bottom:1px solid transparent;
-    }
-
-    .nav-link-text:hover{border-bottom-color:var(--cone)}
-
-    .nav-link-outline,
-    .nav-link-pill{
-      display:inline-flex;
-      align-items:center;
-      justify-content:center;
-      gap:6px;
-      padding:9px 13px;
-      border:1.5px solid var(--asphalt);
-      transition:background .15s,color .15s,transform .15s;
-    }
-
-    .nav-link-outline{background:transparent}
-    .nav-link-pill{background:var(--chalk)}
-
-    .nav-link-outline:hover,
-    .nav-link-pill:hover{
-      background:var(--asphalt);
-      color:var(--chalk);
-      transform:translateY(-1px);
-    }
-
-    .nav-cta{
-      display:inline-flex;
-      align-items:center;
-      gap:6px;
-      padding:11px 18px;
-      background:var(--cone);
-      color:var(--chalk)!important;
-      border:2px solid var(--asphalt);
-      box-shadow:3px 3px 0 var(--asphalt);
-      font-weight:700;
-      transition:transform .15s,box-shadow .15s,background .15s;
-    }
-
-    .nav-cta:hover{
-      transform:translate(2px,2px);
-      box-shadow:1px 1px 0 var(--asphalt);
-      background:var(--asphalt);
-    }
-
-    .cart-badge{
-      display:none;
-      align-items:center;
-      justify-content:center;
-      width:19px;
-      height:19px;
-      border-radius:50%;
-      background:var(--cone);
-      color:var(--chalk);
-      font:700 10.5px 'Archivo',sans-serif;
-    }
-
-    .banner-carousel{
-      position:relative;
-      display:none;
-      margin:20px 6% 0;
-      overflow:hidden;
-      border:2px solid var(--asphalt);
-      background:var(--canvas);
-    }
-
-    .banner-track{
-      display:flex;
-      transition:transform .5s ease;
-    }
-
-    .banner-slide{
-      display:block;
-      position:relative;
-      min-width:100%;
-      aspect-ratio:16/5;
-      text-decoration:none;
-    }
-
-    .banner-slide img{
-      display:block;
-      width:100%;
-      height:100%;
-      object-fit:cover;
-    }
-
-    .banner-title{
-      position:absolute;
-      right:0;
-      bottom:0;
-      left:0;
-      padding:16px 20px;
-      color:var(--chalk);
-      background:linear-gradient(transparent,rgba(35,35,32,.85));
-      font:clamp(16px,2.4vw,24px) 'Archivo Black',sans-serif;
-    }
-
-    .banner-dots{
-      position:absolute;
-      right:16px;
-      bottom:10px;
-      display:flex;
-      gap:6px;
-    }
-
-    .banner-dots button{
-      width:9px;
-      height:9px;
-      padding:0;
-      border:1.5px solid var(--chalk);
-      border-radius:50%;
-      background:transparent;
-      cursor:pointer;
-    }
-
-    .banner-dots button.active{background:var(--chalk)}
-
-    .fav-page{padding:50px 6% 80px}
-
-    .fav-page h1{
-      margin-bottom:30px;
-      font:clamp(30px,4.4vw,48px)/1.02 'Archivo Black',sans-serif;
-      letter-spacing:-.02em;
-    }
-
-    .grid{
-      display:grid;
-      grid-template-columns:repeat(auto-fill,minmax(230px,1fr));
-      gap:2px;
-      background:var(--stitch);
-      border-top:2px solid var(--asphalt);
-      border-bottom:2px solid var(--asphalt);
-    }
-
-    .card{
-      position:relative;
-      display:flex;
-      flex-direction:column;
-      padding:20px 18px 22px;
-      background:var(--chalk);
-      color:var(--asphalt);
-      text-decoration:none;
-      transition:background .15s;
-    }
-
-    .card:hover{background:#fff}
-
-    .card .thumb{
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      width:100%;
-      aspect-ratio:1/1;
-      padding:14px;
-      margin-bottom:14px;
-      overflow:hidden;
-      background:var(--canvas);
-      border:2px solid var(--asphalt);
-    }
-
-    .card .thumb img,
-    .card .thumb svg{
-      width:100%;
-      height:100%;
-      object-fit:cover;
-    }
-
-    .brand-tag{
-      margin-bottom:4px;
-      color:var(--sole);
-      font:10.5px 'JetBrains Mono',monospace;
-      letter-spacing:.05em;
-      text-transform:uppercase;
-    }
-
-    .card h3{
-      margin-bottom:6px;
-      font-size:15.5px;
-      font-weight:700;
-    }
-
-    .price{
-      margin-top:auto;
-      padding-top:8px;
-      color:var(--cone);
-      font:700 15.5px 'JetBrains Mono',monospace;
-    }
-
-    .price .old{
-      margin-right:6px;
-      color:var(--sole);
-      font-size:12px;
-      font-weight:400;
-      text-decoration:line-through;
-    }
-
-    .remove-fav{
-      position:absolute;
-      top:12px;
-      right:12px;
-      z-index:2;
-      width:30px;
-      height:30px;
-      border:0;
-      border-radius:50%;
-      background:var(--asphalt);
-      color:var(--chalk);
-      font-size:16px;
-      cursor:pointer;
-    }
-
-    .remove-fav:hover{background:#B23A2E}
-
-    .empty-state{
-      padding:50px 30px;
-      background:var(--chalk);
-      border:2px dashed var(--stitch);
-      text-align:center;
-    }
-
-    .empty-state p{
-      margin-bottom:20px;
-      color:var(--sole);
-      font-size:15px;
-    }
-
-    .btn-outline{
-      display:inline-block;
-      padding:14px 24px;
-      border:2px solid var(--asphalt);
-      background:transparent;
-      color:var(--asphalt);
-      font:13.5px 'JetBrains Mono',monospace;
-      text-decoration:none;
-    }
-
-    .btn-outline:hover{
-      background:var(--asphalt);
-      color:var(--chalk);
-    }
-
-    .loading-msg{
-      padding:20px 0;
-      color:var(--sole);
-      font:13px 'JetBrains Mono',monospace;
-    }
-
-    footer{
-      display:flex;
-      justify-content:space-between;
-      align-items:center;
-      gap:12px;
-      flex-wrap:wrap;
-      padding:32px 6%;
-      border-top:2px solid var(--asphalt);
-    }
-
-    footer .foot-links{
-      display:flex;
-      gap:20px;
-      flex-wrap:wrap;
-      font:12px 'JetBrains Mono',monospace;
-    }
-
-    footer .foot-links a{
-      color:var(--asphalt);
-      text-decoration:none;
-      border-bottom:1px solid var(--stitch);
-    }
-
-    footer .foot-links a:hover{border-bottom-color:var(--cone)}
-
-    @media (max-width:600px){
-      nav{align-items:flex-start;flex-wrap:wrap}
-      .nav-links{justify-content:flex-start}
-      .banner-slide{aspect-ratio:16/9}
-    }
-  </style>
+  footer{padding:32px 6%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;border-top:2px solid var(--asphalt);}
+  footer .foot-links{display:flex;gap:20px;font-family:'JetBrains Mono',monospace;font-size:12px;}
+  footer .foot-links a{color:var(--asphalt);text-decoration:none;border-bottom:1px solid var(--stitch);}
+  .banner-carousel{position:relative;margin:0 6% 24px;overflow:hidden;border:2px solid var(--asphalt);}
+  .banner-track{display:flex;transition:transform 0.5s ease;}
+  .banner-slide{min-width:100%;aspect-ratio:16/5;position:relative;text-decoration:none;display:block;}
+  .banner-slide img{width:100%;height:100%;object-fit:cover;display:block;}
+  .banner-slide .banner-title{
+    position:absolute;bottom:0;left:0;right:0;padding:16px 20px;
+    background:linear-gradient(transparent, rgba(35,35,32,0.85));
+    color:var(--chalk);font-family:'Archivo Black',sans-serif;font-size:clamp(16px,2.4vw,24px);
+  }
+  .banner-dots{position:absolute;bottom:10px;right:16px;display:flex;gap:6px;}
+  .banner-dots button{
+    width:8px;height:8px;border-radius:50%;border:1.5px solid var(--chalk);background:transparent;
+    cursor:pointer;padding:0;
+  }
+  .banner-dots button.active{background:var(--chalk);}
+  @media (max-width:600px){.banner-slide{aspect-ratio:16/9;}}
+</style>
 </head>
 <body>
 
-  <nav>
-    <a href="index.html" class="logo">KICKS<span>.UA</span></a>
-    <div class="nav-links" id="headerNav"></div>
-  </nav>
-
-  <div class="banner-carousel" id="bannerCarousel">
-    <div class="banner-track" id="bannerTrack"></div>
-    <div class="banner-dots" id="bannerDots"></div>
+<nav>
+  <a href="index.html" class="logo">KICKS<span>.UA</span></a>
+  <div class="nav-links">
+    <a href="index.html">Каталог</a>
+    <a href="cart.html" class="cart-link">Кошик <span class="cart-badge" id="cartBadge">0</span></a>
+    <a href="#" id="managerCtaLink" class="nav-cta" target="_blank">💬 Написати нам</a>
   </div>
+</nav>
+<div class="banner-carousel" id="bannerCarousel" style="display:none;">
+  <div class="banner-track" id="bannerTrack"></div>
+  <div class="banner-dots" id="bannerDots"></div>
+</div>
 
-  <main class="fav-page">
-    <h1>♥ Обране</h1>
-    <div id="favContent"><p class="loading-msg">Завантаження...</p></div>
-  </main>
+<section class="fav-page">
+  <h1>♥ Обране</h1>
+  <div id="favContent"><p class="label">Завантаження...</p></div>
+</section>
 
-  <footer>
-    <div class="logo">KICKS<span>.UA</span></div>
-    <div class="foot-links" id="footerNav"></div>
-  </footer>
+<footer>
+  <div class="logo">KICKS<span>.UA</span></div>
+  <div class="foot-links">
+    <a href="index.html">Каталог</a>
+  </div>
+</footer>
 
-  <script>
-    const FAVORITES_KEY = 'kicksFavorites';
-    const CART_KEY = 'kicksCart';
-    let siteConfig = null;
-    let bannerTimer = null;
+<script>
+  function shoeSvgHTML(body, accent) {
+    const stroke = "#232320";
+    return `<svg viewBox="0 0 500 320" xmlns="http://www.w3.org/2000/svg">
+      <ellipse cx="250" cy="290" rx="200" ry="16" fill="${stroke}" opacity="0.08"/>
+      <path d="M40 230 Q30 180 90 165 Q110 120 170 110 Q230 95 280 115 L440 150 Q470 158 468 190 Q465 225 420 232 L70 245 Q45 245 40 230 Z" fill="${body}" stroke="${stroke}" stroke-width="4"/>
+      <path d="M40 230 Q60 250 100 248 L440 232 Q470 225 468 190" fill="#8A8578" stroke="${stroke}" stroke-width="4"/>
+      <path d="M170 110 Q230 95 280 115 L320 150 L150 155 Z" fill="${accent}" stroke="${stroke}" stroke-width="4"/>
+    </svg>`;
+  }
+  function productThumbHTML(p) {
+    if (p.images && p.images.length > 0) return `<img src="${p.images[0]}" style="width:100%;height:100%;object-fit:cover;" alt="${p.name}">`;
+    const c = p.placeholderColor || { body: "#EDE9E1", accent: "#8A8578" };
+    return shoeSvgHTML(c.body, c.accent);
+  }
 
-    function escapeHTML(value) {
-      return String(value ?? '').replace(/[&<>"']/g, char => ({
-        '&': '&amp;',
-        '<': '&lt;',
-        '>': '&gt;',
-        '"': '&quot;',
-        "'": '&#39;'
-      })[char]);
+  (function(){
+    try {
+      var cart = JSON.parse(localStorage.getItem('kicksCart') || '[]');
+      var badge = document.getElementById('cartBadge');
+      if (cart.length > 0) { badge.textContent = cart.length; badge.style.display = 'inline-flex'; }
+    } catch(e) {}
+  })();
+
+  function getFavorites() {
+    try { return JSON.parse(localStorage.getItem('kicksFavorites') || '[]'); } catch(e) { return []; }
+  }
+  function removeFavorite(id) {
+    const favs = getFavorites().filter(f => f !== id);
+    localStorage.setItem('kicksFavorites', JSON.stringify(favs));
+    render();
+  }
+
+  async function render() {
+    const container = document.getElementById('favContent');
+    const favIds = getFavorites();
+
+    if (favIds.length === 0) {
+      container.innerHTML = `
+        <div class="empty-state">
+          <p>Список обраного порожній — натисни ♥ на будь-якому товарі в каталозі.</p>
+          <a href="index.html" class="btn-outline">← До каталогу</a>
+        </div>`;
+      return;
     }
 
-    function getStoredArray(key) {
-      try {
-        const value = JSON.parse(localStorage.getItem(key) || '[]');
-        return Array.isArray(value) ? value : [];
-      } catch {
-        return [];
+    try {
+      const res = await fetch('products.json?_=' + Date.now());
+      const products = await res.json();
+      const favProducts = products.filter(p => favIds.includes(p.id));
+
+      if (favProducts.length === 0) {
+        container.innerHTML = `<div class="empty-state"><p>Товари з обраного більше не доступні.</p><a href="index.html" class="btn-outline">← До каталогу</a></div>`;
+        return;
       }
+
+      container.innerHTML = `<div class="grid">${favProducts.map(p => {
+        const oldHtml = p.oldPrice ? `<span style="text-decoration:line-through;color:var(--sole);font-size:12px;margin-right:6px;font-weight:400;">${p.oldPrice} ₴</span>` : '';
+        return `
+          <a href="product.html?id=${encodeURIComponent(p.id)}" class="card">
+            <button class="remove-fav" onclick="event.preventDefault(); removeFavorite('${p.id}');">×</button>
+            <div class="thumb">${productThumbHTML(p)}</div>
+            <div class="brand-tag">${p.brand}</div>
+            <h3>${p.name}</h3>
+            <div class="price">${oldHtml}${p.price} ₴</div>
+          </a>`;
+      }).join('')}</div>`;
+    } catch (err) {
+      container.innerHTML = '<p class="label">Помилка завантаження товарів.</p>';
     }
+  }
 
-    function getFavorites() {
-      return getStoredArray(FAVORITES_KEY);
-    }
+  render();
 
-    function updateBadges() {
-      const cart = getStoredArray(CART_KEY);
-      const favorites = getFavorites();
-
-      const cartBadge = document.getElementById('cartBadge');
-      if (cartBadge) {
-        cartBadge.textContent = cart.length;
-        cartBadge.style.display = cart.length ? 'inline-flex' : 'none';
-      }
-
-      const favoritesBadge = document.getElementById('favBadge');
-      if (favoritesBadge) {
-        favoritesBadge.textContent = favorites.length;
-        favoritesBadge.style.display = favorites.length ? 'inline-flex' : 'none';
-      }
-    }
-
-    function renderNavigation(config) {
-      const navigation = config?.navigation || {};
-      const items = Array.isArray(navigation.items) ? navigation.items : [];
-      const currentPage = 'favorites';
-
-      const visibleOnPage = item =>
-        item.enabled !== false &&
-        (!Array.isArray(item.pages) || item.pages.length === 0 || item.pages.includes(currentPage));
-
-      const header = document.getElementById('headerNav');
-      const footer = document.getElementById('footerNav');
-
-      const headerItems = items.filter(item =>
-        visibleOnPage(item) &&
-        Array.isArray(item.locations) &&
-        item.locations.includes('header')
-      );
-
-      const footerItems = items.filter(item =>
-        visibleOnPage(item) &&
-        Array.isArray(item.locations) &&
-        item.locations.includes('footer')
-      );
-
-      if (header) {
-        header.innerHTML = headerItems.map(item => {
-          const style = ['text', 'outline', 'pill'].includes(item.style)
-            ? item.style
-            : 'text';
-
-          const className = style === 'text'
-            ? 'nav-link-text'
-            : `nav-link-${style}`;
-
-          let label = escapeHTML(item.label || '');
-
-          if (item.id === 'cart' && item.showCartCount) {
-            label += ' <span class="cart-badge" id="cartBadge">0</span>';
-          } else if (item.id === 'favorites') {
-            label += ' <span class="cart-badge" id="favBadge">0</span>';
-          }
-
-          const target = item.openInNewTab
-            ? ' target="_blank" rel="noopener noreferrer"'
-            : '';
-
-          return `<a class="${className}" href="${escapeHTML(item.url || '#')}"${target}>${label}</a>`;
-        }).join('');
-
-        const manager = navigation.managerButton;
-        if (manager && manager.enabled !== false) {
-          const managerUrl = manager.url ||
-            (config.contacts?.telegramHandle
-              ? 'https://t.me/' + String(config.contacts.telegramHandle).replace(/^@/, '')
-              : '#');
-
-          const target = manager.openInNewTab === false
-            ? ''
-            : ' target="_blank" rel="noopener noreferrer"';
-
-          header.insertAdjacentHTML(
-            'beforeend',
-            `<a class="nav-cta" href="${escapeHTML(managerUrl)}"${target}>${escapeHTML(manager.label || '💬 Написати нам')}</a>`
-          );
-        }
-      }
-
-      if (footer) {
-        footer.innerHTML = footerItems.map(item => {
-          let url = item.url || '#';
-
-          if (item.id === 'telegram' && !url && config.contacts?.telegramHandle) {
-            url = 'https://t.me/' + String(config.contacts.telegramHandle).replace(/^@/, '');
-          }
-
-          const target = item.openInNewTab
-            ? ' target="_blank" rel="noopener noreferrer"'
-            : '';
-
-          return `<a href="${escapeHTML(url)}"${target}>${escapeHTML(item.label || '')}</a>`;
-        }).join('');
-      }
-
-      updateBadges();
-    }
-
-    function renderBanners(config) {
-      const banners = (config?.banners || []).filter(banner =>
-        banner.enabled !== false &&
-        Array.isArray(banner.pages) &&
-        banner.pages.includes('favorites')
-      );
+  // ===== Банери (якщо адмін додав для цієї сторінки) =====
+  let bannerIndex_favorites = 0;
+  async function loadBanners_favorites() {
+    try {
+      const res = await fetch('site-content.json?_=' + Date.now());
+      const data = await res.json();
+      const banners = (data.banners || []).filter(b => b.enabled !== false && b.pages && b.pages.includes('favorites'));
+      if (banners.length === 0) return;
 
       const carousel = document.getElementById('bannerCarousel');
       const track = document.getElementById('bannerTrack');
       const dots = document.getElementById('bannerDots');
+      if (!carousel) return;
 
-      if (!carousel || !track || !dots || banners.length === 0) return;
-
-      track.innerHTML = banners.map(banner => {
-        const image = `<img src="${escapeHTML(banner.imageUrl || '')}" alt="${escapeHTML(banner.title || '')}">`;
-        const title = banner.title
-          ? `<div class="banner-title">${escapeHTML(banner.title)}</div>`
-          : '';
-        const contents = image + title;
-
-        return banner.link
-          ? `<a class="banner-slide" href="${escapeHTML(banner.link)}">${contents}</a>`
-          : `<div class="banner-slide">${contents}</div>`;
+      track.innerHTML = banners.map(b => {
+        const inner = `<img src="${b.imageUrl}" alt="${b.title || ''}">${b.title ? `<div class="banner-title">${b.title}</div>` : ''}`;
+        return b.link ? `<a href="${b.link}" class="banner-slide">${inner}</a>` : `<div class="banner-slide">${inner}</div>`;
       }).join('');
 
       if (banners.length > 1) {
-        dots.innerHTML = banners.map((_, index) =>
-          `<button type="button" aria-label="Банер ${index + 1}" class="${index === 0 ? 'active' : ''}" data-index="${index}"></button>`
-        ).join('');
-
-        const showBanner = index => {
-          track.style.transform = `translateX(-${index * 100}%)`;
-          dots.querySelectorAll('button').forEach((button, i) => {
-            button.classList.toggle('active', i === index);
+        dots.innerHTML = banners.map((_, i) => `<button data-i="${i}" class="${i === 0 ? 'active' : ''}"></button>`).join('');
+        dots.querySelectorAll('button').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const idx = parseInt(btn.dataset.i);
+            bannerIndex_favorites = idx;
+            track.style.transform = `translateX(-${idx * 100}%)`;
+            dots.querySelectorAll('button').forEach((b, i) => b.classList.toggle('active', i === idx));
           });
-        };
-
-        dots.querySelectorAll('button').forEach(button => {
-          button.addEventListener('click', () => showBanner(Number(button.dataset.index)));
         });
-
-        let index = 0;
-        bannerTimer = window.setInterval(() => {
-          index = (index + 1) % banners.length;
-          showBanner(index);
+        setInterval(() => {
+          bannerIndex_favorites = (bannerIndex_favorites + 1) % banners.length;
+          track.style.transform = `translateX(-${bannerIndex_favorites * 100}%)`;
+          dots.querySelectorAll('button').forEach((b, i) => b.classList.toggle('active', i === bannerIndex_favorites));
         }, 5000);
       }
 
       carousel.style.display = 'block';
+    } catch (err) {
+      console.warn('Банери не завантажено:', err);
     }
+  }
+  loadBanners_favorites();
 
-    function productThumbHTML(product) {
-      const images = Array.isArray(product.images) ? product.images : [];
 
-      if (images.length > 0) {
-        return `<img src="${escapeHTML(images[0])}" alt="${escapeHTML(product.name || '')}">`;
+  // Підставляємо реальне посилання на Telegram-менеджера з site-content.json
+  (async function() {
+    try {
+      const res = await fetch('site-content.json?_=' + Date.now());
+      const data = await res.json();
+      if (data.contacts && data.contacts.telegramHandle) {
+        const tgUrl = 'https://t.me/' + data.contacts.telegramHandle;
+        const managerBtn = document.getElementById('managerCtaLink');
+        const footerLink = document.getElementById('footerTelegramLink');
+        if (managerBtn) managerBtn.href = tgUrl;
+        if (footerLink) footerLink.href = tgUrl;
       }
-
-      const body = product.placeholderColor?.body || '#EDE9E1';
-      const accent = product.placeholderColor?.accent || '#8A8578';
-
-      return `
-        <svg viewBox="0 0 500 320" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <ellipse cx="250" cy="290" rx="200" ry="16" fill="#232320" opacity="0.08"/>
-          <path d="M40 230 Q30 180 90 165 Q110 120 170 110 Q230 95 280 115 L440 150 Q470 158 468 190 Q465 225 420 232 L70 245 Q45 245 40 230 Z"
-            fill="${escapeHTML(body)}" stroke="#232320" stroke-width="4"/>
-          <path d="M40 230 Q60 250 100 248 L440 232 Q470 225 468 190"
-            fill="#8A8578" stroke="#232320" stroke-width="4"/>
-          <path d="M170 110 Q230 95 280 115 L320 150 L150 155 Z"
-            fill="${escapeHTML(accent)}" stroke="#232320" stroke-width="4"/>
-        </svg>`;
+    } catch (err) {
+      console.warn('Не вдалося завантажити Telegram-посилання:', err);
     }
+  })();
 
-    function removeFavorite(id) {
-      const next = getFavorites().filter(favoriteId => favoriteId !== id);
-      localStorage.setItem(FAVORITES_KEY, JSON.stringify(next));
-      renderFavorites();
-    }
+</script>
 
-    async function renderFavorites() {
-      const container = document.getElementById('favContent');
-      const favoriteIds = getFavorites();
-
-      if (favoriteIds.length === 0) {
-        container.innerHTML = `
-          <div class="empty-state">
-            <p>Список обраного порожній — натисни ♥ на будь-якому товарі в каталозі.</p>
-            <a href="index.html" class="btn-outline">← До каталогу</a>
-          </div>`;
-        updateBadges();
-        return;
-      }
-
-      try {
-        const response = await fetch('products.json?_=' + Date.now());
-        if (!response.ok) throw new Error('HTTP ' + response.status);
-
-        const products = await response.json();
-        const favoriteProducts = products.filter(product =>
-          favoriteIds.includes(product.id) && product.active !== false
-        );
-
-        if (favoriteProducts.length === 0) {
-          container.innerHTML = `
-            <div class="empty-state">
-              <p>Товари з обраного більше не доступні.</p>
-              <a href="index.html" class="btn-outline">← До каталогу</a>
-            </div>`;
-          updateBadges();
-          return;
-        }
-
-        container.innerHTML = `
-          <div class="grid">
-            ${favoriteProducts.map(product => `
-              <a href="product.html?id=${encodeURIComponent(product.id)}" class="card">
-                <button
-                  type="button"
-                  class="remove-fav"
-                  aria-label="Видалити з обраного"
-                  data-product-id="${escapeHTML(product.id)}"
-                >×</button>
-                <div class="thumb">${productThumbHTML(product)}</div>
-                <div class="brand-tag">${escapeHTML(product.brand || '')}</div>
-                <h3>${escapeHTML(product.name || '')}</h3>
-                <div class="price">
-                  ${product.oldPrice
-                    ? `<span class="old">${escapeHTML(product.oldPrice)} ₴</span>`
-                    : ''}
-                  ${escapeHTML(product.price)} ₴
-                </div>
-              </a>
-            `).join('')}
-          </div>
-        `;
-
-        container.querySelectorAll('.remove-fav').forEach(button => {
-          button.addEventListener('click', event => {
-            event.preventDefault();
-            event.stopPropagation();
-            removeFavorite(button.dataset.productId);
-          });
-        });
-      } catch (error) {
-        container.innerHTML = '<p class="label">Не вдалося завантажити товари з обраного.</p>';
-      }
-
-      updateBadges();
-    }
-
-    async function init() {
-      try {
-        const response = await fetch('site-content.json?_=' + Date.now());
-        if (!response.ok) throw new Error('HTTP ' + response.status);
-
-        siteConfig = await response.json();
-        renderNavigation(siteConfig);
-        renderBanners(siteConfig);
-      } catch (error) {
-        console.warn('Не вдалося завантажити site-content.json:', error);
-      }
-
-      updateBadges();
-      renderFavorites();
-    }
-
-    init();
-  </script>
 </body>
 </html>
