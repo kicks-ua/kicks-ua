@@ -5325,7 +5325,15 @@
       "42",
       "44"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "Вʼєтнам",
+      "Матеріал верху": "шкіра , замша , текстиль",
+      "Колір": "сірий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь",
+      "https": "//easydrop.one/supplier-catalog/19100792694610/0/"
+    },
     "variants": [
       {
         "size": "41",
@@ -5348,10 +5356,19 @@
     ],
     "price": 1900,
     "stock": 17,
-    "description": "Матеріал : шкіра , замша , текстильВиробник : Вʼєтнам",
+    "description": "👕 Чоловічі кросівки ASICS Gel-Kahana 14 Light Grey Black\n\n🔝 Топ якість AAA+\n\n🔘Артикул A3807\n▪️Виробництво : Вʼєтнам\n▪️Матеріал верху : шкіра , замша , текстиль \n▪️Колір : сірий \n▪️Підошва : піна , гумовий протектор\n▪️Розміри : 41-45\n▪️Сезон : весна / літо / осінь \n📦Коробка ASICS , фірмовий папір\n🔸Розмірна сітка :\n▫️41 = 26 см ;\n▫️42 = 27 см ;\n▫️43 = 27.5 см ;  \n▫️44 = 28 см ;\n▫️45 = 28.5 см ;\n\n🔸Відправлення день в день (за умови оформлення до 17.00 );\n\n💻Google таблиця наявності :  \n\n\nНаявність наших моделей у CRM 👇",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/4f358068-0e0f-43ad-90ab-36b7e6e2eb6a.jpg"
-    ]
+      "images/telegram/crm-1edr3uw/1794082123710-01-reply_278337_278309-jpg.jpg",
+      "images/telegram/crm-1edr3uw/1794082128526-02-reply_278337_278310-jpg.jpg",
+      "images/telegram/crm-1edr3uw/1794082133866-03-reply_278337_278311-jpg.jpg",
+      "images/telegram/crm-1edr3uw/1794082138702-04-reply_278337_278312-jpg.jpg",
+      "images/telegram/crm-1edr3uw/1794082143467-05-reply_278337_278313-jpg.jpg",
+      "images/telegram/crm-1edr3uw/1794082148296-06-reply_278337_278314-jpg.jpg",
+      "images/telegram/crm-1edr3uw/1794082153327-07-reply_278337_278315-jpg.jpg",
+      "images/telegram/crm-1edr3uw/1794082158171-08-reply_278337_278316-jpg.jpg",
+      "images/telegram/crm-1edr3uw/1794082163015-09-reply_278337_278317-jpg.jpg"
+    ],
+    "telegram_article": "A3807"
   },
   {
     "id": "crm-1vha60b",
