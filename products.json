@@ -5496,7 +5496,15 @@
       "38",
       "39"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "шкіра , сітка",
+      "Колір": "білий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "36-41",
+      "Сезон": "весна / літо / осінь",
+      "https": "//easydrop.one/supplier-catalog/19100792694610/0/"
+    },
     "variants": [
       {
         "size": "38",
@@ -5513,10 +5521,19 @@
     ],
     "price": 2300,
     "stock": 11,
-    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "description": "👕 Жіночі кросівки New Balance 204L White Metallic Beige \n\n🔝 Топ якість AAA+\n\n🔘Артикул B5308\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : шкіра , сітка\n▪️Колір : білий\n▪️Підошва : піна , гумовий протектор \n▪️Розміри:  36-41\n▪️Сезон :  весна / літо / осінь   \n📦Коробка New Balance , фірмовий папір \n🔢Розмірна сітка :\n▫️36 = 22 см ; \n▫️37 = 22.5 см ;\n▫️38 = 23 см ;\n▫️39 = 23.5 см ;\n▫️40 = 24.5 см ;\n▫️41 = 25 см . \n\n🔸Відправлення день в день (за умови оформлення до 17.00 );\n\n💻Google таблиця наявності :  \n\n\nНаявність наших моделей у CRM 👇",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/b877b9e8-1a1c-42f0-9262-ffa704e37e5e.jpg"
-    ]
+      "images/telegram/crm-y7ox23/1794082314271-01-reply_264209_264152-jpg.jpg",
+      "images/telegram/crm-y7ox23/1794082319372-02-reply_264209_264153-jpg.jpg",
+      "images/telegram/crm-y7ox23/1794082324137-03-reply_264209_264154-jpg.jpg",
+      "images/telegram/crm-y7ox23/1794082328871-04-reply_264209_264155-jpg.jpg",
+      "images/telegram/crm-y7ox23/1794082333491-05-reply_264209_264156-jpg.jpg",
+      "images/telegram/crm-y7ox23/1794082338272-06-reply_264209_264157-jpg.jpg",
+      "images/telegram/crm-y7ox23/1794082343271-07-reply_264209_264158-jpg.jpg",
+      "images/telegram/crm-y7ox23/1794082348081-08-reply_264209_264159-jpg.jpg",
+      "images/telegram/crm-y7ox23/1794082352922-09-reply_264209_264160-jpg.jpg"
+    ],
+    "telegram_article": "B5308"
   },
   {
     "id": "crm-pfguc6",
