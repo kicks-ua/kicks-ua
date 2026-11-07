@@ -1,527 +1,1124 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title id="pageTitle">Товар — KICKS.UA</title>
-<meta id="metaDescription" name="description" content="Оригінальне взуття з доставкою по Україні">
-<meta id="ogTitle" property="og:title" content="KICKS.UA">
-<meta id="ogDescription" property="og:description" content="Оригінальне взуття з доставкою по Україні">
-<meta id="ogImage" property="og:image" content="">
-<meta property="og:type" content="product">
-<script type="application/ld+json" id="productSchema"></script>
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap');
-  :root{
-    --canvas:#EDE9E1;--asphalt:#232320;--sole:#8A8578;--cone:#FF4B12;--chalk:#FAF8F3;--stitch:#C9C2B2;
-  }
-  *{margin:0;padding:0;box-sizing:border-box;}
-  html{scroll-behavior:smooth;}
-  body{background:var(--canvas);color:var(--asphalt);font-family:'Archivo',sans-serif;overflow-x:hidden;}
-  a{color:inherit;}
-  .label{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:0.12em;text-transform:uppercase;color:var(--sole);}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="pageTitle">Товар — KICKS.UA</title>
+  <meta id="metaDescription" name="description" content="Оригінальне взуття з доставкою по Україні">
+  <meta id="ogTitle" property="og:title" content="KICKS.UA">
+  <meta id="ogDescription" property="og:description" content="Оригінальне взуття з доставкою по Україні">
+  <meta id="ogImage" property="og:image" content="">
+  <meta property="og:type" content="product">
+  <script type="application/ld+json" id="productSchema"></script>
 
-  .lace-divider{
-    height:24px;width:100%;
-    background-image: repeating-linear-gradient(-55deg, var(--asphalt) 0px, var(--asphalt) 3px, transparent 3px, transparent 22px);
-    opacity:0.85;
-  }
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap');
 
-  nav{
-    display:flex;justify-content:space-between;align-items:center;padding:20px 6%;
-    position:sticky;top:0;background:var(--canvas);z-index:50;border-bottom:2px solid var(--asphalt);
-  }
-  .logo{font-family:'Archivo Black',sans-serif;font-size:21px;letter-spacing:-0.02em;text-decoration:none;color:var(--asphalt);}
-  .logo span{color:var(--cone);}
-  .nav-links{display:flex;gap:20px;align-items:center;}
-  .nav-links a{font-family:'JetBrains Mono',monospace;font-size:13px;text-decoration:none;color:var(--asphalt);}
-  .nav-cta{
-    background:var(--cone);color:var(--chalk);padding:11px 20px;font-weight:700;
-    display:inline-flex;align-items:center;gap:6px;border:2px solid var(--asphalt);
-    box-shadow:3px 3px 0 var(--asphalt);transition:transform 0.15s, box-shadow 0.15s;
-  }
-  .nav-cta:hover{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--asphalt);background:var(--asphalt);}
-  .cart-link{display:inline-flex;align-items:center;gap:6px;}
-  .cart-badge{
-    display:none;align-items:center;justify-content:center;
-    background:var(--cone);color:var(--chalk);border-radius:50%;
-    width:18px;height:18px;font-size:10.5px;font-weight:700;
-  }
+    :root{
+      --canvas:#EDE9E1;
+      --asphalt:#232320;
+      --sole:#8A8578;
+      --cone:#FF4B12;
+      --chalk:#FAF8F3;
+      --stitch:#C9C2B2;
+    }
 
-  .promo-banner{
-    background:var(--asphalt);color:var(--chalk);
-    padding:10px 6%;display:flex;justify-content:center;gap:10px;align-items:center;
-    font-family:'JetBrains Mono',monospace;font-size:12.5px;letter-spacing:0.04em;
-    flex-wrap:wrap;text-align:center;
-  }
-  .promo-banner .cone-text{color:var(--cone);font-weight:700;}
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{
+      background:var(--canvas);
+      color:var(--asphalt);
+      font-family:'Archivo',sans-serif;
+      overflow-x:hidden;
+    }
+    a{color:inherit}
 
-  .breadcrumb{padding:16px 6% 0;font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--sole);}
-  .breadcrumb a{text-decoration:none;color:var(--sole);border-bottom:1px solid var(--stitch);}
+    .label{
+      font-family:'JetBrains Mono',monospace;
+      font-size:12px;
+      letter-spacing:.12em;
+      text-transform:uppercase;
+      color:var(--sole);
+    }
 
-  .hero{display:grid;grid-template-columns:1fr 1.1fr;align-items:start;padding:36px 6% 46px;gap:36px;}
+    nav{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:20px;
+      padding:20px 6%;
+      position:sticky;
+      top:0;
+      background:var(--canvas);
+      z-index:50;
+      border-bottom:2px solid var(--asphalt);
+    }
 
-  .gallery-main{
-    width:100%;aspect-ratio:1/1;background:#fff;border:2px solid var(--asphalt);
-    display:flex;align-items:center;justify-content:center;overflow:hidden;margin-bottom:12px;padding:20px;
-  }
-  .gallery-main img{width:100%;height:100%;object-fit:contain;}
-  .gallery-main svg{width:100%;height:100%;}
-  .gallery-thumbs{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;}
-  .gallery-thumbs img{
-    width:100%;aspect-ratio:1/1;object-fit:cover;background:#fff;
-    border:1.5px solid var(--stitch);cursor:pointer;transition:border-color 0.15s;
-  }
-  .gallery-thumbs img:hover, .gallery-thumbs img.active{border-color:var(--cone);border-width:2px;}
+    .logo{
+      flex-shrink:0;
+      font-family:'Archivo Black',sans-serif;
+      font-size:21px;
+      letter-spacing:-.02em;
+      text-decoration:none;
+      color:var(--asphalt);
+    }
+    .logo span{color:var(--cone)}
 
-  h1.product-title{
-    font-family:'Archivo Black',sans-serif;font-size:clamp(26px,3.6vw,42px);
-    line-height:1.02;letter-spacing:-0.02em;margin:12px 0 16px;
-  }
-  .price-tag{display:inline-flex;align-items:baseline;gap:10px;margin-bottom:20px;}
-  .price-tag .old{font-family:'JetBrains Mono',monospace;text-decoration:line-through;color:var(--sole);font-size:16px;}
-  .price-tag .new{font-family:'Archivo Black',sans-serif;font-size:28px;color:var(--cone);}
-  .desc{font-size:15px;color:#4a483f;margin-bottom:20px;line-height:1.6;}
+    .nav-links{
+      display:flex;
+      align-items:center;
+      justify-content:flex-end;
+      gap:10px;
+      flex-wrap:wrap;
+    }
+    .nav-links a{
+      font-family:'JetBrains Mono',monospace;
+      font-size:13px;
+      color:var(--asphalt);
+      text-decoration:none;
+    }
 
-  .specs{background:var(--chalk);border:1.5px solid var(--stitch);padding:18px 20px;margin-bottom:20px;display:none;}
-  .specs.visible{display:block;}
-  .specs .row{display:flex;justify-content:space-between;padding:7px 0;font-size:13.5px;border-bottom:1px solid var(--stitch);gap:12px;}
-  .specs .row:last-child{border-bottom:none;}
-  .specs .row .k{color:var(--sole);font-family:'JetBrains Mono',monospace;font-size:12px;white-space:nowrap;}
-  .specs .row .v{font-weight:600;text-align:right;}
+    .nav-link-text{
+      display:inline-flex;
+      align-items:center;
+      gap:6px;
+      padding:9px 10px;
+      border-bottom:1px solid transparent;
+    }
+    .nav-link-text:hover{border-bottom-color:var(--cone)}
 
-  .size-chart{
-    background:var(--canvas);border:1.5px dashed var(--stitch);padding:14px 18px;margin-bottom:22px;
-    font-family:'JetBrains Mono',monospace;font-size:12.5px;color:#4a483f;display:none;
-  }
-  .size-chart.visible{display:block;}
+    .nav-link-outline,
+    .nav-link-pill{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:6px;
+      padding:9px 13px;
+      border:1.5px solid var(--asphalt);
+      transition:background .15s,color .15s,transform .15s;
+    }
+    .nav-link-outline{background:transparent}
+    .nav-link-pill{background:var(--chalk)}
+    .nav-link-outline:hover,
+    .nav-link-pill:hover{
+      background:var(--asphalt);
+      color:var(--chalk);
+      transform:translateY(-1px);
+    }
 
-  .size-picker{margin-bottom:24px;}
-  .size-picker .label{margin-bottom:10px;display:block;}
-  .size-grid{display:flex;flex-wrap:wrap;gap:8px;}
-  .size-grid button{
-    min-width:52px;padding:11px 8px;border:2px solid var(--asphalt);background:var(--chalk);
-    font-family:'JetBrains Mono',monospace;font-size:13.5px;cursor:pointer;
-  }
-  .size-grid button:hover, .size-grid button.active{background:var(--asphalt);color:var(--chalk);}
+    .nav-cta{
+      background:var(--cone);
+      color:var(--chalk)!important;
+      padding:11px 18px;
+      font-weight:700;
+      display:inline-flex;
+      align-items:center;
+      gap:6px;
+      border:2px solid var(--asphalt);
+      box-shadow:3px 3px 0 var(--asphalt);
+      transition:transform .15s,box-shadow .15s,background .15s;
+    }
+    .nav-cta:hover{
+      transform:translate(2px,2px);
+      box-shadow:1px 1px 0 var(--asphalt);
+      background:var(--asphalt);
+    }
 
-  .btn-primary{
-    display:flex;align-items:center;justify-content:center;gap:10px;
-    width:100%;text-align:center;font-family:'JetBrains Mono',monospace;font-size:17px;font-weight:700;letter-spacing:0.04em;
-    background:var(--cone);color:var(--chalk);padding:24px 32px;text-decoration:none;
-    border:3px solid var(--asphalt);box-shadow:7px 7px 0 var(--asphalt);
-    transition:transform 0.15s, box-shadow 0.15s;cursor:pointer;margin-bottom:12px;
-    animation: subtle-pulse 2.5s ease-in-out infinite;
-  }
-  @keyframes subtle-pulse{0%,100%{box-shadow:7px 7px 0 var(--asphalt);}50%{box-shadow:7px 7px 0 var(--asphalt), 0 0 0 4px rgba(255,75,18,0.15);}}
-  .btn-primary:hover{transform:translate(3px,3px);box-shadow:4px 4px 0 var(--asphalt);animation:none;}
-  .btn-secondary{
-    display:block;width:100%;text-align:center;font-family:'JetBrains Mono',monospace;font-size:13.5px;letter-spacing:0.03em;
-    background:transparent;color:var(--asphalt);padding:14px 28px;text-decoration:none;
-    border:2px solid var(--asphalt);cursor:pointer;
-  }
-  .btn-secondary:hover{background:var(--asphalt);color:var(--chalk);}
-  .added-toast{
-    display:none;background:var(--asphalt);color:var(--chalk);padding:12px 18px;margin-bottom:18px;
-    font-family:'JetBrains Mono',monospace;font-size:13px;
-  }
-  .added-toast.visible{display:block;}
+    .cart-badge{
+      display:none;
+      align-items:center;
+      justify-content:center;
+      background:var(--cone);
+      color:var(--chalk);
+      border-radius:50%;
+      width:19px;
+      height:19px;
+      font:700 10.5px 'Archivo',sans-serif;
+    }
 
-  .trust-strip{
-    display:flex;justify-content:space-between;padding:18px 6%;
-    background:var(--asphalt);color:var(--chalk);flex-wrap:wrap;gap:14px;
-  }
-  .trust-strip div{font-family:'JetBrains Mono',monospace;font-size:12.5px;letter-spacing:0.02em;display:flex;align-items:center;gap:8px;}
-  .trust-strip div::before{content:"—";color:var(--cone);}
+    .promo-banner{
+      background:var(--asphalt);
+      color:var(--chalk);
+      padding:10px 6%;
+      display:flex;
+      justify-content:center;
+      gap:10px;
+      align-items:center;
+      flex-wrap:wrap;
+      text-align:center;
+      font:12.5px 'JetBrains Mono',monospace;
+      letter-spacing:.04em;
+    }
+    .promo-banner .cone-text{color:var(--cone);font-weight:700}
 
-  .related{padding:16px 6% 60px;}
-  .related h2{font-family:'Archivo Black',sans-serif;font-size:22px;padding:30px 0 20px;}
-  .grid{
-    display:grid;grid-template-columns:repeat(auto-fill, minmax(230px, 1fr));
-    gap:2px;background:var(--stitch);
-    border-top:2px solid var(--asphalt);border-bottom:2px solid var(--asphalt);
-  }
-  .card{
-    background:var(--chalk);padding:20px 18px 22px;text-decoration:none;color:var(--asphalt);
-    display:flex;flex-direction:column;transition:background 0.15s;
-  }
-  .card:hover{background:#fff;}
-  .card .thumb{
-    width:100%;aspect-ratio:1/1;background:var(--canvas);
-    border:2px solid var(--asphalt);margin-bottom:14px;
-    display:flex;align-items:center;justify-content:center;overflow:hidden;padding:14px;
-  }
-  .card .brand-tag{font-family:'JetBrains Mono',monospace;font-size:10.5px;color:var(--sole);letter-spacing:0.05em;text-transform:uppercase;margin-bottom:4px;}
-  .card h3{font-size:15.5px;font-weight:700;margin-bottom:6px;}
-  .card .price{font-family:'JetBrains Mono',monospace;font-size:15.5px;color:var(--cone);margin-top:auto;padding-top:8px;font-weight:700;}
+    .banner-carousel{
+      position:relative;
+      display:none;
+      margin:20px 6% 0;
+      overflow:hidden;
+      border:2px solid var(--asphalt);
+      background:var(--canvas);
+    }
+    .banner-track{display:flex;transition:transform .5s ease}
+    .banner-slide{
+      display:block;
+      position:relative;
+      min-width:100%;
+      aspect-ratio:16/5;
+      text-decoration:none;
+    }
+    .banner-slide img{
+      display:block;
+      width:100%;
+      height:100%;
+      object-fit:cover;
+    }
+    .banner-title{
+      position:absolute;
+      right:0;
+      bottom:0;
+      left:0;
+      padding:16px 20px;
+      color:var(--chalk);
+      background:linear-gradient(transparent,rgba(35,35,32,.85));
+      font:clamp(16px,2.4vw,24px) 'Archivo Black',sans-serif;
+    }
+    .banner-dots{
+      position:absolute;
+      right:16px;
+      bottom:10px;
+      display:flex;
+      gap:6px;
+    }
+    .banner-dots button{
+      width:9px;
+      height:9px;
+      padding:0;
+      border:1.5px solid var(--chalk);
+      border-radius:50%;
+      background:transparent;
+      cursor:pointer;
+    }
+    .banner-dots button.active{background:var(--chalk)}
 
-  .not-found{padding:80px 6%;text-align:center;}
-  .not-found h2{font-family:'Archivo Black',sans-serif;font-size:28px;margin-bottom:14px;}
+    .breadcrumb{
+      padding:16px 6% 0;
+      color:var(--sole);
+      font:12px 'JetBrains Mono',monospace;
+    }
+    .breadcrumb a{
+      color:var(--sole);
+      text-decoration:none;
+      border-bottom:1px solid var(--stitch);
+    }
 
-  footer{
-    padding:32px 6%;display:flex;justify-content:space-between;align-items:center;
-    flex-wrap:wrap;gap:12px;border-top:2px solid var(--asphalt);
-  }
-  footer .foot-links{display:flex;gap:20px;font-family:'JetBrains Mono',monospace;font-size:12px;}
-  footer .foot-links a{color:var(--asphalt);text-decoration:none;border-bottom:1px solid var(--stitch);}
+    .hero{
+      display:grid;
+      grid-template-columns:1fr 1.1fr;
+      align-items:start;
+      gap:36px;
+      padding:30px 6% 46px;
+    }
 
-  @media (max-width:760px){
-    .hero{grid-template-columns:1fr;}
-    .trust-strip{flex-direction:column;}
-  }
-  .banner-carousel{position:relative;margin:0 6% 24px;overflow:hidden;border:2px solid var(--asphalt);}
-  .banner-track{display:flex;transition:transform 0.5s ease;}
-  .banner-slide{min-width:100%;aspect-ratio:16/5;position:relative;text-decoration:none;display:block;}
-  .banner-slide img{width:100%;height:100%;object-fit:cover;display:block;}
-  .banner-slide .banner-title{
-    position:absolute;bottom:0;left:0;right:0;padding:16px 20px;
-    background:linear-gradient(transparent, rgba(35,35,32,0.85));
-    color:var(--chalk);font-family:'Archivo Black',sans-serif;font-size:clamp(16px,2.4vw,24px);
-  }
-  .banner-dots{position:absolute;bottom:10px;right:16px;display:flex;gap:6px;}
-  .banner-dots button{
-    width:8px;height:8px;border-radius:50%;border:1.5px solid var(--chalk);background:transparent;
-    cursor:pointer;padding:0;
-  }
-  .banner-dots button.active{background:var(--chalk);}
-  @media (max-width:600px){.banner-slide{aspect-ratio:16/9;}}
-</style>
+    .gallery-main{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      width:100%;
+      aspect-ratio:1/1;
+      margin-bottom:12px;
+      padding:20px;
+      overflow:hidden;
+      background:#fff;
+      border:2px solid var(--asphalt);
+    }
+    .gallery-main img{width:100%;height:100%;object-fit:contain}
+    .gallery-main svg{width:100%;height:100%}
+
+    .gallery-thumbs{
+      display:grid;
+      grid-template-columns:repeat(5,minmax(0,1fr));
+      gap:8px;
+    }
+    .gallery-thumbs img{
+      width:100%;
+      aspect-ratio:1/1;
+      object-fit:cover;
+      background:#fff;
+      border:1.5px solid var(--stitch);
+      cursor:pointer;
+    }
+    .gallery-thumbs img:hover,
+    .gallery-thumbs img.active{
+      border:2px solid var(--cone);
+    }
+
+    h1.product-title{
+      margin:12px 0 16px;
+      font:clamp(26px,3.6vw,42px)/1.02 'Archivo Black',sans-serif;
+      letter-spacing:-.02em;
+    }
+    .price-tag{
+      display:inline-flex;
+      align-items:baseline;
+      gap:10px;
+      margin-bottom:18px;
+    }
+    .price-tag .old{
+      color:var(--sole);
+      font:16px 'JetBrains Mono',monospace;
+      text-decoration:line-through;
+    }
+    .price-tag .new{
+      color:var(--cone);
+      font:28px 'Archivo Black',sans-serif;
+    }
+
+    /* Сохраняет переносы из описания, чтобы текст не сливался в абзац. */
+    .desc{
+      margin-bottom:20px;
+      color:#4a483f;
+      font-size:15px;
+      line-height:1.8;
+      white-space:pre-line;
+      overflow-wrap:anywhere;
+    }
+
+    .text-link{
+      color:var(--cone);
+      font-weight:600;
+      text-decoration:underline;
+      text-underline-offset:2px;
+    }
+
+    .specs{
+      display:none;
+      padding:18px 20px;
+      margin-bottom:20px;
+      background:var(--chalk);
+      border:1.5px solid var(--stitch);
+    }
+    .specs.visible{display:block}
+    .specs .row{
+      display:flex;
+      justify-content:space-between;
+      gap:12px;
+      padding:8px 0;
+      border-bottom:1px solid var(--stitch);
+      font-size:13.5px;
+    }
+    .specs .row:last-child{border-bottom:none}
+    .specs .row .k{
+      color:var(--sole);
+      font:12px 'JetBrains Mono',monospace;
+    }
+    .specs .row .v{
+      text-align:right;
+      font-weight:600;
+      overflow-wrap:anywhere;
+    }
+
+    .size-chart{
+      display:none;
+      padding:14px 18px;
+      margin-bottom:22px;
+      background:var(--canvas);
+      border:1.5px dashed var(--stitch);
+      color:#4a483f;
+      font:12.5px 'JetBrains Mono',monospace;
+      white-space:pre-line;
+    }
+    .size-chart.visible{display:block}
+
+    .size-picker{margin-bottom:24px}
+    .size-picker .label{
+      display:block;
+      margin-bottom:10px;
+    }
+    .size-grid{display:flex;flex-wrap:wrap;gap:8px}
+    .size-grid button{
+      min-width:52px;
+      padding:11px 8px;
+      border:2px solid var(--asphalt);
+      background:var(--chalk);
+      font:13.5px 'JetBrains Mono',monospace;
+      cursor:pointer;
+    }
+    .size-grid button:hover,
+    .size-grid button.active{
+      background:var(--asphalt);
+      color:var(--chalk);
+    }
+
+    .btn-primary{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      gap:10px;
+      width:100%;
+      margin-bottom:12px;
+      padding:20px 24px;
+      border:3px solid var(--asphalt);
+      background:var(--cone);
+      box-shadow:6px 6px 0 var(--asphalt);
+      color:var(--chalk);
+      text-align:center;
+      text-decoration:none;
+      font:700 15px 'JetBrains Mono',monospace;
+      cursor:pointer;
+      transition:transform .15s,box-shadow .15s;
+    }
+    .btn-primary:hover{
+      transform:translate(3px,3px);
+      box-shadow:3px 3px 0 var(--asphalt);
+    }
+
+    .btn-secondary{
+      display:block;
+      width:100%;
+      padding:14px 24px;
+      border:2px solid var(--asphalt);
+      background:transparent;
+      color:var(--asphalt);
+      text-align:center;
+      text-decoration:none;
+      font:13.5px 'JetBrains Mono',monospace;
+    }
+    .btn-secondary:hover{
+      background:var(--asphalt);
+      color:var(--chalk);
+    }
+
+    .added-toast{
+      display:none;
+      padding:12px 18px;
+      margin-bottom:18px;
+      background:var(--asphalt);
+      color:var(--chalk);
+      font:13px 'JetBrains Mono',monospace;
+    }
+    .added-toast.visible{display:block}
+    .added-toast a{color:var(--cone)}
+
+    .trust-strip{
+      display:flex;
+      justify-content:space-between;
+      gap:14px;
+      flex-wrap:wrap;
+      padding:18px 6%;
+      background:var(--asphalt);
+      color:var(--chalk);
+    }
+    .trust-strip div{
+      display:flex;
+      align-items:center;
+      gap:8px;
+      font:12.5px 'JetBrains Mono',monospace;
+    }
+    .trust-strip div::before{content:"—";color:var(--cone)}
+
+    .lace-divider{
+      height:24px;
+      width:100%;
+      background-image:repeating-linear-gradient(-55deg,var(--asphalt) 0,var(--asphalt) 3px,transparent 3px,transparent 22px);
+      opacity:.85;
+    }
+
+    .related{padding:16px 6% 60px}
+    .related h2{
+      padding:30px 0 20px;
+      font:22px 'Archivo Black',sans-serif;
+    }
+    .related-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fill,minmax(210px,1fr));
+      gap:2px;
+      background:var(--stitch);
+      border-top:2px solid var(--asphalt);
+      border-bottom:2px solid var(--asphalt);
+    }
+    .card{
+      display:flex;
+      flex-direction:column;
+      padding:20px 18px 22px;
+      background:var(--chalk);
+      color:var(--asphalt);
+      text-decoration:none;
+    }
+    .card:hover{background:#fff}
+    .card .thumb{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      width:100%;
+      aspect-ratio:1/1;
+      padding:14px;
+      margin-bottom:14px;
+      overflow:hidden;
+      background:var(--canvas);
+      border:2px solid var(--asphalt);
+    }
+    .card .thumb img{width:100%;height:100%;object-fit:cover}
+    .card .brand-tag{
+      margin-bottom:4px;
+      color:var(--sole);
+      font:10.5px 'JetBrains Mono',monospace;
+      letter-spacing:.05em;
+      text-transform:uppercase;
+    }
+    .card h3{margin-bottom:6px;font-size:15.5px}
+    .card .price{
+      margin-top:auto;
+      padding-top:8px;
+      color:var(--cone);
+      font:700 15.5px 'JetBrains Mono',monospace;
+    }
+    .card .price .old{
+      margin-right:6px;
+      color:var(--sole);
+      font-size:12px;
+      font-weight:400;
+      text-decoration:line-through;
+    }
+
+    .not-found{padding:80px 6%;text-align:center}
+    .not-found h2{
+      margin-bottom:14px;
+      font:28px 'Archivo Black',sans-serif;
+    }
+
+    footer{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:12px;
+      flex-wrap:wrap;
+      padding:32px 6%;
+      border-top:2px solid var(--asphalt);
+    }
+    footer .foot-links{
+      display:flex;
+      gap:20px;
+      flex-wrap:wrap;
+      font:12px 'JetBrains Mono',monospace;
+    }
+    footer .foot-links a{
+      color:var(--asphalt);
+      text-decoration:none;
+      border-bottom:1px solid var(--stitch);
+    }
+
+    @media (max-width:760px){
+      .hero{grid-template-columns:1fr}
+      .trust-strip{flex-direction:column}
+      nav{align-items:flex-start;flex-wrap:wrap}
+      .nav-links{justify-content:flex-start}
+    }
+    @media (max-width:600px){
+      .banner-slide{aspect-ratio:16/9}
+      .gallery-thumbs{grid-template-columns:repeat(4,minmax(0,1fr))}
+      .specs .row{align-items:flex-start}
+    }
+  </style>
 </head>
 <body>
 
-<nav>
-  <a href="index.html" class="logo">KICKS<span>.UA</span></a>
-  <div class="nav-links">
-    <a href="index.html">Каталог</a>
-    <a href="favorites.html" class="cart-link">♥ Обране <span class="cart-badge" id="favBadge">0</span></a>
-    <a href="cart.html" class="cart-link">Кошик <span class="cart-badge" id="cartBadge">0</span></a>
-    <a href="delivery.html">Доставка</a>
-    <a href="#" id="managerCtaLink" class="nav-cta" target="_blank">💬 Написати нам</a>
+  <nav>
+    <a href="index.html" class="logo">KICKS<span>.UA</span></a>
+    <div class="nav-links" id="headerNav"></div>
+  </nav>
+
+  <div class="banner-carousel" id="bannerCarousel">
+    <div class="banner-track" id="bannerTrack"></div>
+    <div class="banner-dots" id="bannerDots"></div>
   </div>
-</nav>
-<div class="banner-carousel" id="bannerCarousel" style="display:none;">
-  <div class="banner-track" id="bannerTrack"></div>
-  <div class="banner-dots" id="bannerDots"></div>
-</div>
-<div class="promo-banner">🔥 <span class="cone-text">Знижка тижня</span> — до −16% на топ-моделі · оплата при отриманні · доставка по всій Україні</div>
 
-<div id="pageContent">
-  <div class="not-found"><h2>Завантаження...</h2></div>
-</div>
-
-<footer>
-  <div class="logo">KICKS<span>.UA</span></div>
-  <div class="foot-links">
-    <a href="#" id="footerTelegramLink" target="_blank">Telegram-канал</a>
-    <a href="delivery.html">Доставка і оплата</a>
-    <a href="contacts.html">Контакти</a>
-    <a href="privacy.html">Політика конфіденційності</a>
+  <div class="promo-banner">
+    🔥 <span class="cone-text">Знижка тижня</span>
+    <span>— до −16% на топ-моделі · оплата при отриманні · доставка по всій Україні</span>
   </div>
-</footer>
 
-<script>
-  function shoeSvgHTML(body, accent) {
-    const stroke = "#232320";
-    return `<svg viewBox="0 0 500 320" xmlns="http://www.w3.org/2000/svg">
-      <ellipse cx="250" cy="290" rx="200" ry="16" fill="${stroke}" opacity="0.08"/>
-      <path d="M40 230 Q30 180 90 165 Q110 120 170 110 Q230 95 280 115 L440 150 Q470 158 468 190 Q465 225 420 232 L70 245 Q45 245 40 230 Z" fill="${body}" stroke="${stroke}" stroke-width="4"/>
-      <path d="M40 230 Q60 250 100 248 L440 232 Q470 225 468 190" fill="#8A8578" stroke="${stroke}" stroke-width="4"/>
-      <path d="M170 110 Q230 95 280 115 L320 150 L150 155 Z" fill="${accent}" stroke="${stroke}" stroke-width="4"/>
-      <line x1="185" y1="130" x2="150" y2="160" stroke="${stroke}" stroke-width="3"/>
-      <line x1="210" y1="120" x2="175" y2="158" stroke="${stroke}" stroke-width="3"/>
-      <line x1="235" y1="114" x2="205" y2="158" stroke="${stroke}" stroke-width="3"/>
-      <line x1="260" y1="115" x2="238" y2="158" stroke="${stroke}" stroke-width="3"/>
-      <circle cx="150" cy="160" r="4" fill="${stroke}"/>
-      <circle cx="175" cy="158" r="4" fill="${stroke}"/>
-      <circle cx="205" cy="158" r="4" fill="${stroke}"/>
-      <circle cx="238" cy="158" r="4" fill="${stroke}"/>
-      <circle cx="185" cy="130" r="4" fill="${stroke}"/>
-      <circle cx="210" cy="120" r="4" fill="${stroke}"/>
-      <circle cx="235" cy="114" r="4" fill="${stroke}"/>
-      <circle cx="260" cy="115" r="4" fill="${stroke}"/>
-    </svg>`;
-  }
+  <main id="pageContent">
+    <div class="not-found"><h2>Завантаження...</h2></div>
+  </main>
 
-  function productThumbHTML(product) {
-    if (product.images && product.images.length > 0) {
-      return `<img src="${product.images[0]}" style="width:100%;height:100%;object-fit:cover;" alt="${product.name}">`;
+  <footer>
+    <div class="logo">KICKS<span>.UA</span></div>
+    <div class="foot-links" id="footerNav"></div>
+  </footer>
+
+  <script>
+    const CART_KEY = 'kicksCart';
+    const FAVORITES_KEY = 'kicksFavorites';
+    let siteConfig = null;
+    let bannerIndex = 0;
+    let bannerTimer = null;
+
+    function escapeHTML(value) {
+      return String(value ?? '').replace(/[&<>"']/g, char => ({
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        '"': '&quot;',
+        "'": '&#39;'
+      })[char]);
     }
-    const c = product.placeholderColor || { body: "#EDE9E1", accent: "#8A8578" };
-    return shoeSvgHTML(c.body, c.accent);
-  }
 
-  (function(){
-    try {
-      var cart = JSON.parse(localStorage.getItem('kicksCart') || '[]');
-      var badge = document.getElementById('cartBadge');
-      if (cart.length > 0) { badge.textContent = cart.length; badge.style.display = 'inline-flex'; }
-    } catch(e) {}
-    try {
-      var favs = JSON.parse(localStorage.getItem('kicksFavorites') || '[]');
-      var favBadge = document.getElementById('favBadge');
-      if (favs.length > 0) { favBadge.textContent = favs.length; favBadge.style.display = 'inline-flex'; }
-    } catch(e) {}
-  })();
+    function getJSONFromStorage(key) {
+      try {
+        const value = JSON.parse(localStorage.getItem(key) || '[]');
+        return Array.isArray(value) ? value : [];
+      } catch {
+        return [];
+      }
+    }
 
-  const params = new URLSearchParams(window.location.search);
-  const productId = params.get('id');
+    function updateBadges() {
+      const cartBadge = document.getElementById('cartBadge');
+      const favBadge = document.getElementById('favBadge');
+      const cart = getJSONFromStorage(CART_KEY);
+      const favorites = getJSONFromStorage(FAVORITES_KEY);
 
-  async function init() {
-    const contentDiv = document.getElementById('pageContent');
-    try {
-      const res = await fetch('products.json?_=' + Date.now());
-      const products = await res.json();
-      const product = products.find(p => p.id === productId);
+      if (cartBadge) {
+        cartBadge.textContent = cart.length;
+        cartBadge.style.display = cart.length ? 'inline-flex' : 'none';
+      }
+      if (favBadge) {
+        favBadge.textContent = favorites.length;
+        favBadge.style.display = favorites.length ? 'inline-flex' : 'none';
+      }
+    }
 
-      if (!product) {
-        contentDiv.innerHTML = `
-          <div class="not-found">
-            <h2>Товар не знайдено</h2>
-            <p style="color:var(--sole);margin-bottom:20px;">Можливо, він більше не доступний.</p>
-            <a href="index.html" class="label" style="text-decoration:underline;">← Повернутись до каталогу</a>
-          </div>`;
-        return;
+    function renderNavigation(config) {
+      const nav = config?.navigation || {};
+      const items = Array.isArray(nav.items) ? nav.items : [];
+      const currentPage = 'product';
+
+      const header = document.getElementById('headerNav');
+      const footer = document.getElementById('footerNav');
+
+      const visibleOnPage = item =>
+        item.enabled !== false &&
+        (!Array.isArray(item.pages) || item.pages.length === 0 || item.pages.includes(currentPage));
+
+      const headerItems = items.filter(item =>
+        visibleOnPage(item) &&
+        Array.isArray(item.locations) &&
+        item.locations.includes('header')
+      );
+
+      const footerItems = items.filter(item =>
+        visibleOnPage(item) &&
+        Array.isArray(item.locations) &&
+        item.locations.includes('footer')
+      );
+
+      if (header) {
+        header.innerHTML = headerItems.map(item => {
+          const style = ['text', 'outline', 'pill'].includes(item.style) ? item.style : 'text';
+          const classes = style === 'text' ? 'nav-link-text' : `nav-link-${style}`;
+          let label = escapeHTML(item.label || '');
+
+          if (item.id === 'cart' && item.showCartCount) {
+            label += ' <span class="cart-badge" id="cartBadge">0</span>';
+          } else if (item.id === 'favorites') {
+            label += ' <span class="cart-badge" id="favBadge">0</span>';
+          }
+
+          const target = item.openInNewTab ? ' target="_blank" rel="noopener noreferrer"' : '';
+          return `<a class="${classes}" href="${escapeHTML(item.url || '#')}"${target}>${label}</a>`;
+        }).join('');
+
+        const manager = nav.managerButton;
+        if (manager && manager.enabled !== false) {
+          const managerUrl = manager.url ||
+            (config.contacts?.telegramHandle
+              ? 'https://t.me/' + String(config.contacts.telegramHandle).replace(/^@/, '')
+              : '#');
+          const target = manager.openInNewTab === false ? '' : ' target="_blank" rel="noopener noreferrer"';
+
+          header.insertAdjacentHTML(
+            'beforeend',
+            `<a class="nav-cta" href="${escapeHTML(managerUrl)}"${target}>${escapeHTML(manager.label || '💬 Написати нам')}</a>`
+          );
+        }
       }
 
-      document.getElementById('pageTitle').textContent = `${product.brand} ${product.name} — KICKS.UA`;
+      if (footer) {
+        footer.innerHTML = footerItems.map(item => {
+          let url = item.url || '#';
+          if (item.id === 'telegram' && !url && config.contacts?.telegramHandle) {
+            url = 'https://t.me/' + String(config.contacts.telegramHandle).replace(/^@/, '');
+          }
 
-      // SEO: заповнюємо meta-теги та structured data для пошукових систем
-      const seoDescription = (product.description || `${product.brand} ${product.name} — оригінальне взуття з доставкою по Україні.`).slice(0, 160);
-      document.getElementById('metaDescription').setAttribute('content', seoDescription);
-      document.getElementById('ogTitle').setAttribute('content', `${product.brand} ${product.name} — KICKS.UA`);
-      document.getElementById('ogDescription').setAttribute('content', seoDescription);
-      if (product.images && product.images.length > 0) {
-        document.getElementById('ogImage').setAttribute('content', new URL(product.images[0], window.location.href).href);
+          const target = item.openInNewTab ? ' target="_blank" rel="noopener noreferrer"' : '';
+          return `<a href="${escapeHTML(url)}"${target}>${escapeHTML(item.label || '')}</a>`;
+        }).join('');
       }
+
+      updateBadges();
+    }
+
+    function productThumbHTML(product) {
+      const images = Array.isArray(product.images) ? product.images : [];
+      if (images.length) {
+        return `<img src="${escapeHTML(images[0])}" alt="${escapeHTML(product.name || '')}">`;
+      }
+
+      return `
+        <svg viewBox="0 0 500 320" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M40 230 Q30 180 90 165 Q110 120 170 110 Q230 95 280 115 L440 150 Q470 158 468 190 Q465 225 420 232 L70 245 Q45 245 40 230Z"
+            fill="#EDE9E1" stroke="#232320" stroke-width="4"/>
+          <path d="M40 230 Q60 250 100 248 L440 232 Q470 225 468 190"
+            fill="#8A8578" stroke="#232320" stroke-width="4"/>
+          <path d="M170 110 Q230 95 280 115 L320 150 L150 155Z"
+            fill="#C9C2B2" stroke="#232320" stroke-width="4"/>
+        </svg>`;
+    }
+
+    function applyTextLinksToElement(element, rules) {
+      if (!element || !Array.isArray(rules) || !rules.length) return;
+
+      const textNodes = [];
+      const walker = document.createTreeWalker(element, NodeFilter.SHOW_TEXT);
+
+      while (walker.nextNode()) {
+        const node = walker.currentNode;
+        const parent = node.parentElement;
+
+        if (!parent || parent.closest('a,button,script,style,textarea,input,select')) continue;
+        textNodes.push(node);
+      }
+
+      const enabledRules = rules
+        .filter(rule => rule.enabled !== false && rule.term && rule.url)
+        .sort((a, b) => String(b.term).length - String(a.term).length);
+
+      textNodes.forEach(node => {
+        let remaining = node.nodeValue || '';
+        if (!remaining) return;
+
+        const fragment = document.createDocumentFragment();
+
+        while (remaining) {
+          let best = null;
+
+          for (const rule of enabledRules) {
+            const term = String(rule.term);
+            const index = remaining.toLocaleLowerCase().indexOf(term.toLocaleLowerCase());
+
+            if (index >= 0 && (!best || index < best.index)) {
+              best = { rule, index, term };
+            }
+          }
+
+          if (!best) {
+            fragment.appendChild(document.createTextNode(remaining));
+            break;
+          }
+
+          if (best.index > 0) {
+            fragment.appendChild(
+              document.createTextNode(remaining.slice(0, best.index))
+            );
+          }
+
+          const matchedText = remaining.slice(best.index, best.index + best.term.length);
+          const link = document.createElement('a');
+          link.className = 'text-link';
+          link.href = best.rule.url;
+          link.textContent = matchedText;
+
+          if (best.rule.openInNewTab) {
+            link.target = '_blank';
+            link.rel = 'noopener noreferrer';
+          }
+
+          fragment.appendChild(link);
+          remaining = remaining.slice(best.index + best.term.length);
+        }
+
+        node.parentNode.replaceChild(fragment, node);
+      });
+    }
+
+    async function loadSiteConfig() {
+      try {
+        const response = await fetch('site-content.json?_=' + Date.now());
+        if (!response.ok) throw new Error('HTTP ' + response.status);
+
+        siteConfig = await response.json();
+        renderNavigation(siteConfig);
+        renderBanners(siteConfig);
+      } catch (error) {
+        console.warn('Не вдалося завантажити site-content.json:', error);
+      }
+    }
+
+    function renderBanners(config) {
+      const banners = (config?.banners || []).filter(banner =>
+        banner.enabled !== false &&
+        Array.isArray(banner.pages) &&
+        banner.pages.includes('product')
+      );
+
+      const carousel = document.getElementById('bannerCarousel');
+      const track = document.getElementById('bannerTrack');
+      const dots = document.getElementById('bannerDots');
+
+      if (!carousel || !track || !dots || !banners.length) return;
+
+      track.innerHTML = banners.map(banner => {
+        const image = `<img src="${escapeHTML(banner.imageUrl || '')}" alt="${escapeHTML(banner.title || '')}">`;
+        const title = banner.title
+          ? `<div class="banner-title">${escapeHTML(banner.title)}</div>`
+          : '';
+        const content = image + title;
+
+        return banner.link
+          ? `<a class="banner-slide" href="${escapeHTML(banner.link)}">${content}</a>`
+          : `<div class="banner-slide">${content}</div>`;
+      }).join('');
+
+      if (banners.length > 1) {
+        dots.innerHTML = banners.map((_, index) =>
+          `<button type="button" aria-label="Банер ${index + 1}" class="${index === 0 ? 'active' : ''}" data-index="${index}"></button>`
+        ).join('');
+
+        dots.querySelectorAll('button').forEach(button => {
+          button.addEventListener('click', () => {
+            showBanner(Number(button.dataset.index), banners.length);
+          });
+        });
+
+        bannerTimer = setInterval(() => {
+          showBanner((bannerIndex + 1) % banners.length, banners.length);
+        }, 5000);
+      }
+
+      carousel.style.display = 'block';
+    }
+
+    function showBanner(index, total) {
+      bannerIndex = index;
+      document.getElementById('bannerTrack').style.transform =
+        `translateX(-${index * 100}%)`;
+
+      document.querySelectorAll('#bannerDots button').forEach((button, i) => {
+        button.classList.toggle('active', i === index);
+      });
+    }
+
+    function updateProductMeta(product) {
+      const title = `${product.brand || ''} ${product.name || ''}`.trim();
+      document.getElementById('pageTitle').textContent = `${title} — KICKS.UA`;
+
+      const description = String(product.description || `${title} — оригінальне взуття з доставкою по Україні.`)
+        .replace(/\s+/g, ' ')
+        .slice(0, 160);
+
+      document.getElementById('metaDescription').content = description;
+      document.getElementById('ogTitle').content = `${title} — KICKS.UA`;
+      document.getElementById('ogDescription').content = description;
+
+      const images = Array.isArray(product.images) ? product.images : [];
+      if (images.length) {
+        document.getElementById('ogImage').content =
+          new URL(images[0], window.location.href).href;
+      }
+
       document.getElementById('productSchema').textContent = JSON.stringify({
-        "@context": "https://schema.org/",
-        "@type": "Product",
-        "name": `${product.brand} ${product.name}`,
-        "description": seoDescription,
-        "brand": { "@type": "Brand", "name": product.brand },
-        "image": (product.images || []).map(img => new URL(img, window.location.href).href),
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "UAH",
-          "price": product.price,
-          "availability": product.stock === 0 ? "https://schema.org/OutOfStock" : "https://schema.org/InStock"
+        '@context': 'https://schema.org/',
+        '@type': 'Product',
+        name: title,
+        description,
+        brand: {
+          '@type': 'Brand',
+          name: product.brand || ''
+        },
+        image: images.map(image => new URL(image, window.location.href).href),
+        offers: {
+          '@type': 'Offer',
+          priceCurrency: 'UAH',
+          price: product.price,
+          availability: Number(product.stock) === 0
+            ? 'https://schema.org/OutOfStock'
+            : 'https://schema.org/InStock'
         }
       });
+    }
 
-      const hasRealImages = product.images && product.images.length > 0;
-      const mainImageHtml = hasRealImages
-        ? `<img src="${product.images[0]}" id="mainImage" alt="${product.name}">`
-        : `<div id="mainImage" style="width:100%;height:100%;">${productThumbHTML(product)}</div>`;
+    function renderProduct(product, products) {
+      const page = document.getElementById('pageContent');
+      const images = Array.isArray(product.images) ? product.images : [];
+      const sizes = Array.isArray(product.sizes) ? product.sizes : [];
+      const specs = product.specs && typeof product.specs === 'object'
+        ? Object.entries(product.specs)
+        : [];
 
-      const thumbsHtml = hasRealImages ? `
-        <div class="gallery-thumbs" id="galleryThumbs">
-          ${product.images.map((img, i) => `<img src="${img}" class="${i === 0 ? 'active' : ''}" data-full="${img}">`).join('')}
-        </div>` : '';
+      const galleryMain = images.length
+        ? `<img id="mainImage" src="${escapeHTML(images[0])}" alt="${escapeHTML(product.name || '')}">`
+        : productThumbHTML(product);
 
-      const oldPriceHtml = product.oldPrice ? `<span class="old">${product.oldPrice} ₴</span>` : '';
+      const thumbnails = images.length > 1
+        ? `<div class="gallery-thumbs" id="galleryThumbs">
+             ${images.map((image, index) => `
+               <img
+                 src="${escapeHTML(image)}"
+                 alt="${escapeHTML((product.name || 'Фото товару') + ' ' + (index + 1))}"
+                 data-index="${index}"
+                 class="${index === 0 ? 'active' : ''}"
+               >
+             `).join('')}
+           </div>`
+        : '';
 
-      const specsEntries = product.specs ? Object.entries(product.specs) : [];
-      const specsHtml = specsEntries.length > 0 ? `
-        <div class="specs visible">
-          ${specsEntries.map(([k, v]) => `<div class="row"><span class="k">${k}</span><span class="v">${v}</span></div>`).join('')}
-        </div>` : '';
+      const oldPrice = product.oldPrice
+        ? `<span class="old">${escapeHTML(product.oldPrice)} ₴</span>`
+        : '';
 
-      const sizeChartHtml = product.sizeChart ? `<div class="size-chart visible"><span class="label" style="display:block;margin-bottom:6px;">Розмірна сітка</span>${product.sizeChart}</div>` : '';
+      const specsHTML = specs.length
+        ? `<div class="specs visible">
+             ${specs.map(([key, value]) => `
+               <div class="row">
+                 <span class="k">${escapeHTML(key)}</span>
+                 <span class="v">${escapeHTML(value)}</span>
+               </div>
+             `).join('')}
+           </div>`
+        : '';
 
-      const sizesHtml = product.sizes.map((s, i) =>
-        `<button type="button" class="size-btn${i === 0 ? ' active' : ''}" data-size="${s}">${s}</button>`
-      ).join('\n');
+      const sizeChartHTML = product.sizeChart
+        ? `<div class="size-chart visible">
+             <span class="label" style="display:block;margin-bottom:6px;">Розмірна сітка</span>
+             <span id="sizeChartText"></span>
+           </div>`
+        : '';
 
-      contentDiv.innerHTML = `
-        <div class="breadcrumb"><a href="index.html">Каталог</a> / ${product.brand} ${product.name}</div>
+      const sizesHTML = sizes.length
+        ? sizes.map((size, index) => `
+            <button type="button" class="size-btn ${index === 0 ? 'active' : ''}" data-size="${escapeHTML(size)}">
+              ${escapeHTML(size)}
+            </button>
+          `).join('')
+        : '<p class="label">Розміри уточнюйте у менеджера.</p>';
+
+      page.innerHTML = `
+        <div class="breadcrumb">
+          <a href="index.html">Каталог</a>
+          <span> / ${escapeHTML(product.brand || '')} ${escapeHTML(product.name || '')}</span>
+        </div>
+
         <section class="hero">
           <div class="gallery">
-            <div class="gallery-main">${mainImageHtml}</div>
-            ${thumbsHtml}
+            <div class="gallery-main">${galleryMain}</div>
+            ${thumbnails}
           </div>
+
           <div class="hero-copy">
-            <span class="label">${product.brand} · Оригінал</span>
-            <h1 class="product-title">${product.name}</h1>
-            <div class="price-tag">${oldPriceHtml}<span class="new">${product.price} ₴</span></div>
-            <p class="desc">${product.description || ''}</p>
-            ${specsHtml}
-            ${sizeChartHtml}
+            <span class="label">${escapeHTML(product.brand || '')} · Оригінал</span>
+            <h1 class="product-title">${escapeHTML(product.name || '')}</h1>
+
+            <div class="price-tag">
+              ${oldPrice}
+              <span class="new">${escapeHTML(product.price)} ₴</span>
+            </div>
+
+            <p class="desc" id="productDescription"></p>
+
+            ${specsHTML}
+            ${sizeChartHTML}
+
             <div class="size-picker">
               <span class="label">Розмір (EU)</span>
-              <div class="size-grid" id="sizeGrid">${sizesHtml}</div>
+              <div class="size-grid" id="sizeGrid">${sizesHTML}</div>
             </div>
-            <div class="added-toast" id="addedToast">✓ Додано в кошик — <a href="cart.html" style="color:var(--cone);text-decoration:underline;">перейти до кошика</a></div>
+
+            <div class="added-toast" id="addedToast">
+              ✓ Додано в кошик —
+              <a href="cart.html">перейти до кошика</a>
+            </div>
+
             <div style="display:flex;gap:10px;margin-bottom:12px;">
-              <button type="button" class="btn-primary" id="addToCartBtn" style="margin-bottom:0;flex:1;">🛒 ДОДАТИ В КОШИК</button>
-              <button type="button" id="favToggleBtn" title="Додати в обране" style="width:60px;flex-shrink:0;border:3px solid var(--asphalt);background:var(--chalk);cursor:pointer;font-size:20px;">♡</button>
+              <button type="button" class="btn-primary" id="addToCartBtn" style="margin-bottom:0;flex:1;">
+                🛒 ДОДАТИ В КОШИК
+              </button>
+              <button
+                type="button"
+                id="favToggleBtn"
+                aria-label="Додати в обране"
+                title="Додати в обране"
+                style="width:60px;flex-shrink:0;border:3px solid var(--asphalt);background:var(--chalk);cursor:pointer;font-size:22px;"
+              >♡</button>
             </div>
+
             <a href="cart.html" class="btn-secondary">Переглянути кошик →</a>
           </div>
         </section>
+
         <div class="lace-divider"></div>
+
         <div class="trust-strip">
           <div>Оригінал, документи від дистриб'ютора</div>
           <div>Оплата при отриманні</div>
           <div>Обмін розміру безкоштовно</div>
         </div>
+
         <section class="related">
           <h2>Схожі моделі</h2>
-          <div class="grid" id="relatedGrid"></div>
+          <div class="related-grid" id="relatedGrid"></div>
         </section>
       `;
 
-      // gallery clicks
-      if (hasRealImages) {
+      // Вставляем описание как обычный текст, сохраняем переносы и эмодзи.
+      const description = document.getElementById('productDescription');
+      description.textContent = product.description || '';
+
+      // Применяем настроенные в site-content.json ссылки к фразам описания.
+      applyTextLinksToElement(description, siteConfig?.textLinks || []);
+
+      const sizeChartText = document.getElementById('sizeChartText');
+      if (sizeChartText) sizeChartText.textContent = product.sizeChart || '';
+
+      if (images.length > 1) {
         document.querySelectorAll('#galleryThumbs img').forEach(thumb => {
-          thumb.addEventListener('click', function(){
-            document.querySelectorAll('#galleryThumbs img').forEach(t => t.classList.remove('active'));
+          thumb.addEventListener('click', function () {
+            document.querySelectorAll('#galleryThumbs img').forEach(item => {
+              item.classList.remove('active');
+            });
             this.classList.add('active');
-            document.getElementById('mainImage').src = this.dataset.full;
+            document.getElementById('mainImage').src = images[Number(this.dataset.index)];
           });
         });
       }
 
-      // size selection
-      let selectedSize = product.sizes[0];
-      document.querySelectorAll('.size-btn').forEach(btn => {
-        btn.addEventListener('click', function() {
-          document.querySelectorAll('.size-btn').forEach(b => b.classList.remove('active'));
+      let selectedSize = sizes[0] || '';
+
+      document.querySelectorAll('.size-btn').forEach(button => {
+        button.addEventListener('click', function () {
+          document.querySelectorAll('.size-btn').forEach(item => item.classList.remove('active'));
           this.classList.add('active');
           selectedSize = this.dataset.size;
         });
       });
 
-      // add to cart
-      document.getElementById('addToCartBtn').addEventListener('click', function() {
-        try {
-          let cart = [];
-          try { cart = JSON.parse(localStorage.getItem('kicksCart') || '[]'); } catch(e) { cart = []; }
-          cart.push({
-            productId: product.id,
-            size: selectedSize,
-            cartItemId: Date.now() + Math.random()
-          });
-          localStorage.setItem('kicksCart', JSON.stringify(cart));
-          const toast = document.getElementById('addedToast');
-          toast.classList.add('visible');
-          setTimeout(() => toast.classList.remove('visible'), 4000);
-          const badge = document.getElementById('cartBadge');
-          badge.textContent = cart.length;
-          badge.style.display = 'inline-flex';
-        } catch (err) {
-          console.error('Помилка додавання в кошик:', err);
-          alert('Не вдалося додати товар у кошик. Можливо, у браузері вимкнено localStorage (приватний режим?). Помилка: ' + err.message);
-        }
-      });
-
-      // favorites toggle
-      function getFavorites() {
-        try { return JSON.parse(localStorage.getItem('kicksFavorites') || '[]'); } catch(e) { return []; }
-      }
-      const favBtn = document.getElementById('favToggleBtn');
-      function refreshFavBtn() {
-        const isFav = getFavorites().includes(product.id);
-        favBtn.textContent = isFav ? '♥' : '♡';
-        favBtn.style.background = isFav ? 'var(--cone)' : 'var(--chalk)';
-        favBtn.style.color = isFav ? 'var(--chalk)' : 'var(--asphalt)';
-      }
-      refreshFavBtn();
-      favBtn.addEventListener('click', function() {
-        let favs = getFavorites();
-        if (favs.includes(product.id)) {
-          favs = favs.filter(id => id !== product.id);
-        } else {
-          favs.push(product.id);
-        }
-        localStorage.setItem('kicksFavorites', JSON.stringify(favs));
-        refreshFavBtn();
-        const favBadge = document.getElementById('favBadge');
-        if (favs.length > 0) { favBadge.textContent = favs.length; favBadge.style.display = 'inline-flex'; }
-        else { favBadge.style.display = 'none'; }
-      });
-
-      // related products
-      const related = products.filter(p => p.id !== product.id && p.active !== false).slice(0, 3);
-      document.getElementById('relatedGrid').innerHTML = related.map(p => {
-        const oldHtml = p.oldPrice ? `<span class="old">${p.oldPrice} ₴</span>` : '';
-        return `
-          <a href="product.html?id=${encodeURIComponent(p.id)}" class="card">
-            <div class="thumb">${productThumbHTML(p)}</div>
-            <div class="brand-tag">${p.brand}</div>
-            <h3>${p.name}</h3>
-            <div class="price">${oldHtml}${p.price} ₴</div>
-          </a>`;
-      }).join('');
-
-    } catch (err) {
-      contentDiv.innerHTML = `<div class="not-found"><h2>Помилка завантаження</h2><p style="color:var(--sole);">${err.message}</p></div>`;
-    }
-  }
-
-  init();
-
-  // ===== Банери (якщо адмін додав для цієї сторінки) =====
-  let bannerIndex_product = 0;
-  async function loadBanners_product() {
-    try {
-      const res = await fetch('site-content.json?_=' + Date.now());
-      const data = await res.json();
-      const banners = (data.banners || []).filter(b => b.enabled !== false && b.pages && b.pages.includes('product'));
-      if (banners.length === 0) return;
-
-      const carousel = document.getElementById('bannerCarousel');
-      const track = document.getElementById('bannerTrack');
-      const dots = document.getElementById('bannerDots');
-      if (!carousel) return;
-
-      track.innerHTML = banners.map(b => {
-        const inner = `<img src="${b.imageUrl}" alt="${b.title || ''}">${b.title ? `<div class="banner-title">${b.title}</div>` : ''}`;
-        return b.link ? `<a href="${b.link}" class="banner-slide">${inner}</a>` : `<div class="banner-slide">${inner}</div>`;
-      }).join('');
-
-      if (banners.length > 1) {
-        dots.innerHTML = banners.map((_, i) => `<button data-i="${i}" class="${i === 0 ? 'active' : ''}"></button>`).join('');
-        dots.querySelectorAll('button').forEach(btn => {
-          btn.addEventListener('click', () => {
-            const idx = parseInt(btn.dataset.i);
-            bannerIndex_product = idx;
-            track.style.transform = `translateX(-${idx * 100}%)`;
-            dots.querySelectorAll('button').forEach((b, i) => b.classList.toggle('active', i === idx));
-          });
+      document.getElementById('addToCartBtn').addEventListener('click', function () {
+        const cart = getJSONFromStorage(CART_KEY);
+        cart.push({
+          productId: product.id,
+          size: selectedSize,
+          cartItemId: Date.now() + Math.random()
         });
-        setInterval(() => {
-          bannerIndex_product = (bannerIndex_product + 1) % banners.length;
-          track.style.transform = `translateX(-${bannerIndex_product * 100}%)`;
-          dots.querySelectorAll('button').forEach((b, i) => b.classList.toggle('active', i === bannerIndex_product));
-        }, 5000);
+        localStorage.setItem(CART_KEY, JSON.stringify(cart));
+
+        const toast = document.getElementById('addedToast');
+        toast.classList.add('visible');
+        window.setTimeout(() => toast.classList.remove('visible'), 4000);
+        updateBadges();
+      });
+
+      const favoriteButton = document.getElementById('favToggleBtn');
+
+      function refreshFavoriteButton() {
+        const favorites = getJSONFromStorage(FAVORITES_KEY);
+        const active = favorites.includes(product.id);
+        favoriteButton.textContent = active ? '♥' : '♡';
+        favoriteButton.style.background = active ? 'var(--cone)' : 'var(--chalk)';
+        favoriteButton.style.color = active ? 'var(--chalk)' : 'var(--asphalt)';
+        favoriteButton.setAttribute(
+          'aria-label',
+          active ? 'Видалити з обраного' : 'Додати в обране'
+        );
       }
 
-      carousel.style.display = 'block';
-    } catch (err) {
-      console.warn('Банери не завантажено:', err);
-    }
-  }
-  loadBanners_product();
+      favoriteButton.addEventListener('click', function () {
+        let favorites = getJSONFromStorage(FAVORITES_KEY);
 
+        if (favorites.includes(product.id)) {
+          favorites = favorites.filter(id => id !== product.id);
+        } else {
+          favorites.push(product.id);
+        }
 
-  // Підставляємо реальне посилання на Telegram-менеджера з site-content.json
-  (async function() {
-    try {
-      const res = await fetch('site-content.json?_=' + Date.now());
-      const data = await res.json();
-      if (data.contacts && data.contacts.telegramHandle) {
-        const tgUrl = 'https://t.me/' + data.contacts.telegramHandle;
-        const managerBtn = document.getElementById('managerCtaLink');
-        const footerLink = document.getElementById('footerTelegramLink');
-        if (managerBtn) managerBtn.href = tgUrl;
-        if (footerLink) footerLink.href = tgUrl;
+        localStorage.setItem(FAVORITES_KEY, JSON.stringify(favorites));
+        refreshFavoriteButton();
+        updateBadges();
+      });
+
+      refreshFavoriteButton();
+
+      const related = products
+        .filter(item => item.id !== product.id && item.active !== false)
+        .slice(0, 3);
+
+      const relatedGrid = document.getElementById('relatedGrid');
+
+      if (!related.length) {
+        relatedGrid.innerHTML = '<p class="label">Схожих моделей поки немає.</p>';
+      } else {
+        relatedGrid.innerHTML = related.map(item => `
+          <a href="product.html?id=${encodeURIComponent(item.id)}" class="card">
+            <div class="thumb">${productThumbHTML(item)}</div>
+            <div class="brand-tag">${escapeHTML(item.brand || '')}</div>
+            <h3>${escapeHTML(item.name || '')}</h3>
+            <div class="price">
+              ${item.oldPrice ? `<span class="old">${escapeHTML(item.oldPrice)} ₴</span>` : ''}
+              ${escapeHTML(item.price)} ₴
+            </div>
+          </a>
+        `).join('');
       }
-    } catch (err) {
-      console.warn('Не вдалося завантажити Telegram-посилання:', err);
     }
-  })();
 
-</script>
+    async function initProductPage() {
+      const page = document.getElementById('pageContent');
+      const productId = new URLSearchParams(window.location.search).get('id');
 
+      try {
+        const [productsResponse, configResponse] = await Promise.all([
+          fetch('products.json?_=' + Date.now()),
+          fetch('site-content.json?_=' + Date.now()).catch(() => null)
+        ]);
+
+        if (!productsResponse.ok) {
+          throw new Error('Не вдалося завантажити products.json');
+        }
+
+        const products = await productsResponse.json();
+
+        if (configResponse && configResponse.ok) {
+          siteConfig = await configResponse.json();
+          renderNavigation(siteConfig);
+          renderBanners(siteConfig);
+        }
+
+        const product = products.find(item => String(item.id) === String(productId));
+
+        if (!product) {
+          page.innerHTML = `
+            <div class="not-found">
+              <h2>Товар не знайдено</h2>
+              <p style="color:var(--sole);margin-bottom:20px;">
+                Можливо, він більше не доступний.
+              </p>
+              <a href="index.html" class="label">← Повернутись до каталогу</a>
+            </div>`;
+          return;
+        }
+
+        updateProductMeta(product);
+        renderProduct(product, products);
+      } catch (error) {
+        page.innerHTML = `
+          <div class="not-found">
+            <h2>Помилка завантаження</h2>
+            <p style="color:var(--sole);">${escapeHTML(error.message)}</p>
+          </div>`;
+      }
+    }
+
+    updateBadges();
+    initProductPage();
+  </script>
 </body>
 </html>
