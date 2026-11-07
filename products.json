@@ -5607,7 +5607,15 @@
       "43",
       "44"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "шкіра , сітка",
+      "Колір": "білий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь",
+      "https": "//easydrop.one/supplier-catalog/19100792694610/0/"
+    },
     "variants": [
       {
         "size": "42",
@@ -5630,10 +5638,19 @@
     ],
     "price": 2300,
     "stock": 15,
-    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "description": "👕 Чоловічі кросівки New Balance 204L White Metallic Black\n\n🔝 Топ якість AAA+\n\n🔘Артикул A5306\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : шкіра , сітка \n▪️Колір : білий\n▪️Підошва : піна , гумовий протектор \n▪️Розміри:  41-45\n▪️Сезон :  весна / літо / осінь   \n📦Коробка New Balance , фірмовий папір \n🔢Розмірна сітка :\n▫️41 = 26 см ; \n▫️42 = 26,5 см ;\n▫️43 = 27 см ;\n▫️44 = 28 см ;\n▫️45 = 28,5 см .\n\n🔸Відправлення день в день (за умови оформлення до 17.00 );\n\n💻Google таблиця наявності :  \n\n\nНаявність наших моделей у CRM 👇",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/2e00cfee-46ed-40c9-9b90-e6d9a79c6379.jpg"
-    ]
+      "images/telegram/crm-zlmxiy/1794082439618-01-reply_264150_264084-jpg.jpg",
+      "images/telegram/crm-zlmxiy/1794082444708-02-reply_264150_264085-jpg.jpg",
+      "images/telegram/crm-zlmxiy/1794082449601-03-reply_264150_264086-jpg.jpg",
+      "images/telegram/crm-zlmxiy/1794082454379-04-reply_264150_264087-jpg.jpg",
+      "images/telegram/crm-zlmxiy/1794082459051-05-reply_264150_264088-jpg.jpg",
+      "images/telegram/crm-zlmxiy/1794082464074-06-reply_264150_264089-jpg.jpg",
+      "images/telegram/crm-zlmxiy/1794082469027-07-reply_264150_264090-jpg.jpg",
+      "images/telegram/crm-zlmxiy/1794082473806-08-reply_264150_264091-jpg.jpg",
+      "images/telegram/crm-zlmxiy/1794082478993-09-reply_264150_264092-jpg.jpg"
+    ],
+    "telegram_article": "A5306"
   },
   {
     "id": "crm-1hphc5y",
