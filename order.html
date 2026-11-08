@@ -163,15 +163,8 @@
 </head>
 <body>
 
-<nav>
-  <a href="index.html" class="logo">KICKS<span>.UA</span></a>
-  <div class="nav-links">
-    <a href="index.html">Каталог</a>
-    <a href="favorites.html" class="cart-link">♥ Обране <span class="cart-badge" id="favBadge">0</span></a>
-    <a href="cart.html" class="cart-link">Кошик <span class="cart-badge" id="cartBadge">0</span></a>
-    <a href="delivery.html">Доставка</a>
-  </div>
-</nav>
+<nav id="siteNav" class="kx-nav"></nav>
+<script src="site.js?v=1"></script>
 <div class="banner-carousel" id="bannerCarousel" style="display:none;">
   <div class="banner-track" id="bannerTrack"></div>
   <div class="banner-dots" id="bannerDots"></div>
@@ -184,7 +177,7 @@
 
   <div class="manager-cta">
     <p>Є питання перед замовленням? Просто напиши напряму.</p>
-    <a href="#" id="managerCtaLink" target="_blank">Зв'язатися з менеджером</a>
+    <a href="#" id="orderManagerLink" target="_blank" rel="noopener">Зв'язатися з менеджером</a>
   </div>
 
   <div id="cartSummarySection"><div class="label">Завантаження...</div></div>
@@ -292,6 +285,10 @@
   </div>
 </section>
 
+<div id="siteBlocks"></div>
+
+<footer id="siteFooter" class="kx-footer"></footer>
+
 <script>
   // ==== ВАЖЛИВО: встав сюди свій Formspree endpoint ====
   const FORMSPREE_ENDPOINT = "https://formspree.io/f/mwlklkyq";
@@ -371,7 +368,8 @@
     let rows = '';
     validItems.forEach(({item, product}) => {
       cartTotalValue += product.price;
-      cartText += `${product.brand} ${product.name} (розмір ${item.size}) — ${product.price} ₴\\n`;
+      validItemsSnapshot.push({ productId: product.id, name: `${product.brand} ${product.name}`, size: item.size, price: product.price });
+      cartText += `${product.brand} ${product.name} (розмір ${item.size}) — ${product.price} ₴\n`;
       rows += `
         <div class="cart-item-row">
           <div class="thumb">${productThumbHTML(product)}</div>
@@ -589,18 +587,18 @@
 
     const fd = new FormData(form);
     const summaryText =
-      "Товари:\\n" + cartText +
-      "Разом: " + cartTotalValue + " ₴\\n\\n" +
-      "Ім'я: " + fd.get('firstName') + " " + fd.get('lastName') + "\\n" +
-      "Телефон: " + fd.get('phone') + "\\n" +
-      "Зв'язок: " + fd.get('contactMethod') + (fd.get('telegramUsername') ? " (" + fd.get('telegramUsername') + ")" : "") + "\\n" +
-      "Служба доставки: " + fd.get('carrier') + "\\n" +
-      "Тип отримання: " + fd.get('deliveryType') + "\\n" +
-      "Місто: " + fd.get('city') + "\\n" +
-      (fd.get('branchNumber') ? "Відділення/поштомат: " + fd.get('branchNumber') + "\\n" : "") +
-      (fd.get('address') ? "Адреса: " + fd.get('address') + "\\n" : "") +
+      "Товари:\n" + cartText +
+      "Разом: " + cartTotalValue + " ₴\n\n" +
+      "Ім'я: " + fd.get('firstName') + " " + fd.get('lastName') + "\n" +
+      "Телефон: " + fd.get('phone') + "\n" +
+      "Зв'язок: " + fd.get('contactMethod') + (fd.get('telegramUsername') ? " (" + fd.get('telegramUsername') + ")" : "") + "\n" +
+      "Служба доставки: " + fd.get('carrier') + "\n" +
+      "Тип отримання: " + fd.get('deliveryType') + "\n" +
+      "Місто: " + fd.get('city') + "\n" +
+      (fd.get('branchNumber') ? "Відділення/поштомат: " + fd.get('branchNumber') + "\n" : "") +
+      (fd.get('address') ? "Адреса: " + fd.get('address') + "\n" : "") +
       "Оплата: " + fd.get('payment') +
-      (fd.get('comment') ? "\\nКоментар: " + fd.get('comment') : "");
+      (fd.get('comment') ? "\nКоментар: " + fd.get('comment') : "");
 
     fd.append('order_summary', summaryText);
     fd.append('_subject', 'Нове замовлення KICKS.UA');
@@ -733,23 +731,14 @@
   }
   loadBanners_order();
 
-
-  // Підставляємо реальне посилання на Telegram-менеджера з site-content.json
-  (async function() {
-    try {
-      const res = await fetch('site-content.json?_=' + Date.now());
-      const data = await res.json();
-      if (data.contacts && data.contacts.telegramHandle) {
-        const tgUrl = 'https://t.me/' + data.contacts.telegramHandle;
-        const managerBtn = document.getElementById('managerCtaLink');
-        const footerLink = document.getElementById('footerTelegramLink');
-        if (managerBtn) managerBtn.href = tgUrl;
-        if (footerLink) footerLink.href = tgUrl;
-      }
-    } catch (err) {
-      console.warn('Не вдалося завантажити Telegram-посилання:', err);
-    }
-  })();
+  // Посилання «Зв'язатися з менеджером» — береться з адмінки (кнопка «Написати нам» / Telegram)
+  KicksSite.getContent().then(function (data) {
+    var cta = (data.navigation && data.navigation.cta) || {};
+    var url = KicksSite.resolveUrl(cta.url);
+    var link = document.getElementById('orderManagerLink');
+    if (!link) return;
+    if (url) link.href = url; else link.style.display = 'none';
+  }).catch(function () {});
 
 </script>
 

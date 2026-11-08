@@ -46,15 +46,8 @@
 </head>
 <body>
 
-<nav>
-  <a href="index.html" class="logo">KICKS<span>.UA</span></a>
-  <div class="nav-links">
-    <a href="index.html">Каталог</a>
-    <a href="cart.html" class="cart-link">Кошик <span class="cart-badge" id="cartBadge">0</span></a>
-    <a href="delivery.html">Доставка</a>
-    <a href="#" id="managerCtaLink" class="nav-cta" target="_blank">💬 Написати нам</a>
-  </div>
-</nav>
+<nav id="siteNav" class="kx-nav"></nav>
+<script src="site.js?v=1"></script>
 
 <section class="head">
   <span class="label">Юридична інформація</span>
@@ -63,15 +56,9 @@
 
 <div class="policy-text" id="policyText">Завантаження...</div>
 
-<footer>
-  <div class="logo">KICKS<span>.UA</span></div>
-  <div class="foot-links">
-    <a href="#" id="footerTelegramLink" target="_blank">Telegram-канал</a>
-    <a href="delivery.html">Доставка і оплата</a>
-    <a href="contacts.html">Контакти</a>
-    <a href="privacy.html">Політика конфіденційності</a>
-  </div>
-</footer>
+<div id="siteBlocks"></div>
+
+<footer id="siteFooter" class="kx-footer"></footer>
 
 <script>
   (function(){
@@ -88,14 +75,6 @@
       const res = await fetch('site-content.json?_=' + Date.now());
       if (!res.ok) throw new Error('HTTP ' + res.status);
       const data = await res.json();
-
-      if (data.contacts && data.contacts.telegramHandle) {
-        const tgUrl = 'https://t.me/' + data.contacts.telegramHandle;
-        const managerBtn = document.getElementById('managerCtaLink');
-        const footerLink = document.getElementById('footerTelegramLink');
-        if (managerBtn) managerBtn.href = tgUrl;
-        if (footerLink) footerLink.href = tgUrl;
-      }
 
       area.textContent = data.privacyPolicyText || 'Політика конфіденційності поки не заповнена.';
     } catch (err) {

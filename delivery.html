@@ -81,15 +81,8 @@
 </head>
 <body>
 
-<nav>
-  <a href="index.html" class="logo">KICKS<span>.UA</span></a>
-  <div class="nav-links">
-    <a href="index.html">Каталог</a>
-    <a href="favorites.html" class="cart-link">♥ Обране <span class="cart-badge" id="favBadge">0</span></a>
-    <a href="cart.html" class="cart-link">Кошик <span class="cart-badge" id="cartBadge">0</span></a>
-    <a href="#" id="managerCtaLink" class="nav-cta" target="_blank">💬 Написати нам</a>
-  </div>
-</nav>
+<nav id="siteNav" class="kx-nav"></nav>
+<script src="site.js?v=1"></script>
 <div class="banner-carousel" id="bannerCarousel" style="display:none;">
   <div class="banner-track" id="bannerTrack"></div>
   <div class="banner-dots" id="bannerDots"></div>
@@ -104,12 +97,7 @@
   <div class="loading-msg">Завантаження...</div>
 </div>
 
-<footer>
-  <div class="logo">KICKS<span>.UA</span></div>
-  <div class="foot-links">
-    <a href="index.html">Каталог</a>
-  </div>
-</footer>
+<footer id="siteFooter" class="kx-footer"></footer>
 
 <script>
   (function(){
@@ -144,7 +132,7 @@
         : '';
 
       const blocksHtml = (data.infoBlocks || [])
-        .filter(b => b.enabled !== false)
+        .filter(b => b.enabled !== false && (!b.pages || b.pages.includes('delivery')))
         .map(b => `
           <div class="block ${b.style === 'warn' ? 'warn' : ''}">
             <div class="inner">
@@ -208,24 +196,6 @@
     }
   }
   loadBanners_delivery();
-
-
-  // Підставляємо реальне посилання на Telegram-менеджера з site-content.json
-  (async function() {
-    try {
-      const res = await fetch('site-content.json?_=' + Date.now());
-      const data = await res.json();
-      if (data.contacts && data.contacts.telegramHandle) {
-        const tgUrl = 'https://t.me/' + data.contacts.telegramHandle;
-        const managerBtn = document.getElementById('managerCtaLink');
-        const footerLink = document.getElementById('footerTelegramLink');
-        if (managerBtn) managerBtn.href = tgUrl;
-        if (footerLink) footerLink.href = tgUrl;
-      }
-    } catch (err) {
-      console.warn('Не вдалося завантажити Telegram-посилання:', err);
-    }
-  })();
 
 </script>
 

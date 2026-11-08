@@ -106,16 +106,8 @@
 </head>
 <body>
 
-<nav>
-  <a href="index.html" class="logo">KICKS<span>.UA</span></a>
-  <div class="nav-links">
-    <a href="index.html">Каталог</a>
-    <a href="favorites.html" class="cart-link">♥ Обране <span class="cart-badge" id="favBadge">0</span></a>
-    <a href="cart.html" class="cart-link">Кошик <span class="cart-badge" id="cartBadge">0</span></a>
-    <a href="delivery.html">Доставка</a>
-    <a href="#" id="managerCtaLink" class="nav-cta" target="_blank">💬 Написати нам</a>
-  </div>
-</nav>
+<nav id="siteNav" class="kx-nav"></nav>
+<script src="site.js?v=1"></script>
 <div class="banner-carousel" id="bannerCarousel" style="display:none;">
   <div class="banner-track" id="bannerTrack"></div>
   <div class="banner-dots" id="bannerDots"></div>
@@ -125,6 +117,10 @@
   <h1>Кошик</h1>
   <div id="cartContent"><div class="label">Завантаження...</div></div>
 </section>
+
+<div id="siteBlocks"></div>
+
+<footer id="siteFooter" class="kx-footer"></footer>
 
 <script>
   function shoeSvgHTML(body, accent) {
@@ -282,24 +278,6 @@
     }
   }
   loadBanners_cart();
-
-
-  // Підставляємо реальне посилання на Telegram-менеджера з site-content.json
-  (async function() {
-    try {
-      const res = await fetch('site-content.json?_=' + Date.now());
-      const data = await res.json();
-      if (data.contacts && data.contacts.telegramHandle) {
-        const tgUrl = 'https://t.me/' + data.contacts.telegramHandle;
-        const managerBtn = document.getElementById('managerCtaLink');
-        const footerLink = document.getElementById('footerTelegramLink');
-        if (managerBtn) managerBtn.href = tgUrl;
-        if (footerLink) footerLink.href = tgUrl;
-      }
-    } catch (err) {
-      console.warn('Не вдалося завантажити Telegram-посилання:', err);
-    }
-  })();
 
 </script>
 

@@ -192,6 +192,25 @@
   footer .foot-links{display:flex;gap:20px;font-family:'JetBrains Mono',monospace;font-size:12px;}
   footer .foot-links a{color:var(--asphalt);text-decoration:none;border-bottom:1px solid var(--stitch);}
 
+
+  .catalog-title{padding:30px 6% 20px;}
+  .catalog-title h2{font-family:'Archivo Black',sans-serif;font-size:clamp(24px,3.2vw,34px);letter-spacing:-0.01em;margin-top:6px;}
+  .showcase{margin-bottom:34px;}
+  .showcase-head{display:flex;justify-content:space-between;align-items:flex-end;gap:14px;padding:0 6% 14px;flex-wrap:wrap;}
+  .showcase-head h2{font-family:'Archivo Black',sans-serif;font-size:clamp(24px,3.2vw,34px);letter-spacing:-0.01em;margin-top:6px;}
+  .showcase-all{
+    font-family:'JetBrains Mono',monospace;font-size:12.5px;font-weight:700;background:var(--chalk);color:var(--asphalt);
+    border:2px solid var(--asphalt);padding:9px 14px;box-shadow:3px 3px 0 var(--asphalt);cursor:pointer;transition:transform .15s, box-shadow .15s;
+  }
+  .showcase-all:hover{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--asphalt);background:var(--stitch);}
+  .showcase-row{
+    display:flex;gap:2px;background:var(--stitch);margin:0 6%;overflow-x:auto;scroll-snap-type:x proximity;
+    border-top:2px solid var(--asphalt);border-bottom:2px solid var(--asphalt);
+  }
+  .showcase-row .card{flex:0 0 230px;scroll-snap-align:start;}
+  .showcase-row.grid-layout{display:grid;grid-template-columns:repeat(auto-fill, minmax(230px, 1fr));overflow:visible;}
+  .showcase-row.grid-layout .card{flex:none;}
+
   @media (max-width:760px){
     .trust-strip{flex-direction:column;}
     .about-grid{grid-template-columns:1fr;}
@@ -201,17 +220,9 @@
 </head>
 <body>
 
-<nav>
-  <a href="index.html" class="logo">KICKS<span>.UA</span></a>
-  <div class="nav-links">
-    <a href="index.html">Каталог</a>
-    <a href="favorites.html" class="cart-link">♥ Обране <span class="cart-badge" id="favBadge">0</span></a>
-    <a href="cart.html" class="cart-link">Кошик <span class="cart-badge" id="cartBadge">0</span></a>
-    <a href="delivery.html">Доставка</a>
-    <a href="#" id="managerCtaLink" class="nav-cta" target="_blank">💬 Написати нам</a>
-  </div>
-</nav>
-<div class="promo-banner">🔥 <span class="cone-text">Знижка тижня</span> — до −16% на топ-моделі · оплата при отриманні · доставка по всій Україні</div>
+<nav id="siteNav" class="kx-nav"></nav>
+<script src="site.js?v=1"></script>
+<div id="sitePromo" class="kx-promo"></div>
 
 <div class="banner-carousel" id="bannerCarousel" style="display:none;">
   <div class="banner-track" id="bannerTrack"></div>
@@ -221,11 +232,18 @@
 <section class="catalog-head">
   <div class="hero-eyebrow">
     <span class="dot"></span>
-    <span class="label">Оригінал · Nike · Adidas · New Balance</span>
+    <span class="label" id="heroEyebrow">Оригінал · Nike · Adidas · New Balance</span>
   </div>
-  <h1>Кросівки,<br>які впізнають<br>з першого погляду</h1>
-  <p>Тільки оригінальне взуття напряму від офіційного дистриб'ютора. Оплата при отриманні, обмін розміру безкоштовно, доставка в будь-яке місто України.</p>
+  <h1 id="heroTitle">Кросівки,<br>які впізнають<br>з першого погляду</h1>
+  <p id="heroText">Тільки оригінальне взуття напряму від офіційного дистриб'ютора. Оплата при отриманні, обмін розміру безкоштовно, доставка в будь-яке місто України.</p>
 </section>
+
+<div id="showcases"></div>
+
+<div class="catalog-title" id="catalog">
+  <span class="label">Підбір</span>
+  <h2>Весь каталог</h2>
+</div>
 
 <div class="search-sort-bar">
   <input type="text" id="searchInput" placeholder="🔍 Пошук за назвою або брендом..." class="search-input">
@@ -265,7 +283,7 @@
 
 <div class="lace-divider"></div>
 
-<div class="trust-strip">
+<div class="trust-strip" id="trustStrip">
   <div>Оплата при отриманні</div>
   <div>Доставка Новою поштою, Укрпоштою 1–3 дні</div>
   <div>Обмін розміру безкоштовно</div>
@@ -276,11 +294,11 @@
   <div class="loading-msg">Завантажуємо каталог...</div>
 </div>
 
-<section class="about">
+<section class="about" id="aboutSection">
   <div class="section-head">
-    <h2>Чому беруть<br>саме у нас</h2>
+    <h2 id="aboutTitle">Чому беруть<br>саме у нас</h2>
   </div>
-  <div class="about-grid">
+  <div class="about-grid" id="aboutGrid">
     <div class="about-card">
       <span class="num">01</span>
       <h3>Тільки оригінал</h3>
@@ -299,15 +317,9 @@
   </div>
 </section>
 
-<footer>
-  <div class="logo">KICKS<span>.UA</span></div>
-  <div class="foot-links">
-    <a href="#" id="footerTelegramLink" target="_blank">Telegram-канал</a>
-    <a href="delivery.html">Доставка і оплата</a>
-    <a href="contacts.html">Контакти</a>
-    <a href="privacy.html">Політика конфіденційності</a>
-  </div>
-</footer>
+<div id="siteBlocks"></div>
+
+<footer id="siteFooter" class="kx-footer"></footer>
 
 <script>
   function shoeSvgHTML(body, accent) {
@@ -461,36 +473,138 @@
     renderCards(allProducts);
   });
 
+  function cardHtml(p) {
+    const E = KicksSite.esc;
+    const oldHtml = p.oldPrice ? `<span class="old">${p.oldPrice} ₴</span>` : '';
+    const badgeHtml = p.badge ? `<span class="badge">${E(p.badge)}</span>` : '';
+    const isFav = getFavorites().includes(p.id);
+    return `
+      <a href="product.html?id=${encodeURIComponent(p.id)}" class="card">
+        ${badgeHtml}
+        <button type="button" class="fav-btn ${isFav ? 'active' : ''}" onclick="event.preventDefault(); this.classList.toggle('active', toggleFavorite(${E(JSON.stringify(p.id))}));">♥</button>
+        <div class="thumb">${productThumbHTML(p)}</div>
+        <div class="brand-tag">${E(p.brand)}</div>
+        <h3>${E(p.name)}</h3>
+        <div class="price">${oldHtml}${p.price} ₴</div>
+      </a>`;
+  }
+
+  function filtersActive() {
+    return searchQuery.trim() !== '' || activeBrandFilter !== 'all' || sortMode !== 'default' ||
+      priceMinVal !== null || priceMaxVal !== null || selectedSizes.size > 0 || discountOnlyVal;
+  }
+
   function renderCards(products) {
     const grid = document.getElementById('productsGrid');
     const filtered = applyFiltersAndSort(products);
+
+    // Коли відвідувач шукає/фільтрує — прибираємо витрини, щоб не заважали
+    const sc = document.getElementById('showcases');
+    if (sc) sc.style.display = filtersActive() ? 'none' : '';
 
     if (filtered.length === 0) {
       grid.innerHTML = '<div class="loading-msg">Нічого не знайдено. Спробуй інший запит або фільтр.</div>';
       return;
     }
+    grid.innerHTML = filtered.map(cardHtml).join('');
+  }
 
-    grid.innerHTML = filtered.map(p => {
-      const oldHtml = p.oldPrice ? `<span class="old">${p.oldPrice} ₴</span>` : '';
-      const badgeHtml = p.badge ? `<span class="badge">${p.badge}</span>` : '';
-      const isFav = getFavorites().includes(p.id);
+  // ===== Витрини (керуються з адмінки) =====
+  let siteData = null;
+  let productsReady = false;
+
+  function pickShowcaseProducts(s) {
+    const limit = parseInt(s.limit, 10) || 8;
+    let items;
+    if (s.type === 'manual') {
+      items = (s.productIds || []).map(id => allProducts.find(p => p.id === id)).filter(Boolean);
+    } else if (s.type === 'brand') {
+      items = allProducts.filter(p => p.brand === s.brand);
+    } else if (s.type === 'discount') {
+      items = allProducts.filter(p => p.oldPrice != null && p.oldPrice > p.price)
+        .sort((a, b) => (b.oldPrice - b.price) / b.oldPrice - (a.oldPrice - a.price) / a.oldPrice);
+    } else if (s.type === 'new') {
+      items = allProducts.map((p, i) => ({ p, i }))
+        .sort((a, b) => (new Date(b.p.createdAt || 0) - new Date(a.p.createdAt || 0)) || (b.i - a.i))
+        .map(x => x.p);
+    } else {
+      items = allProducts.slice();
+    }
+    return items.slice(0, limit);
+  }
+
+  function renderShowcases() {
+    const box = document.getElementById('showcases');
+    if (!box || !siteData || !productsReady) return;
+    const E = KicksSite.esc;
+    box.innerHTML = (siteData.showcases || []).filter(s => s && s.enabled !== false).map((s, idx) => {
+      const items = pickShowcaseProducts(s);
+      if (items.length === 0) return '';
+      const showAll = ['brand', 'discount', 'new'].includes(s.type)
+        ? `<button type="button" class="showcase-all" data-type="${E(s.type)}" data-brand="${E(s.brand || '')}">Дивитись усі →</button>` : '';
       return `
-        <a href="product.html?id=${encodeURIComponent(p.id)}" class="card">
-          ${badgeHtml}
-          <button type="button" class="fav-btn ${isFav ? 'active' : ''}" onclick="event.preventDefault(); this.classList.toggle('active', toggleFavorite('${p.id}'));">♥</button>
-          <div class="thumb">${productThumbHTML(p)}</div>
-          <div class="brand-tag">${p.brand}</div>
-          <h3>${p.name}</h3>
-          <div class="price">${oldHtml}${p.price} ₴</div>
-        </a>`;
+        <section class="showcase">
+          <div class="showcase-head">
+            <div>${s.subtitle ? `<span class="label">${E(s.subtitle)}</span>` : ''}<h2>${E(s.title)}</h2></div>
+            ${showAll}
+          </div>
+          <div class="showcase-row${s.layout === 'grid' ? ' grid-layout' : ''}">${items.map(cardHtml).join('')}</div>
+        </section>`;
     }).join('');
   }
+
+  document.getElementById('showcases').addEventListener('click', function (e) {
+    const btn = e.target.closest('.showcase-all');
+    if (!btn) return;
+    const type = btn.dataset.type;
+    if (type === 'brand') {
+      const tab = Array.from(document.querySelectorAll('#brandTabs button')).find(b => b.dataset.brand === btn.dataset.brand);
+      if (tab) tab.click();
+    } else if (type === 'discount') {
+      const cb = document.getElementById('discountOnly');
+      cb.checked = true; cb.dispatchEvent(new Event('change'));
+    } else if (type === 'new') {
+      const sel = document.getElementById('sortSelect');
+      sel.value = 'newest'; sel.dispatchEvent(new Event('change'));
+    }
+    document.getElementById('catalog').scrollIntoView({ behavior: 'smooth' });
+  });
+
+  // ===== Тексти головної (керуються з адмінки) =====
+  function applyHomepage() {
+    const h = (siteData && siteData.homepage) || {};
+    const E = KicksSite.esc;
+    const nl = t => E(t).replace(/\n/g, '<br>');
+    if (h.hero) {
+      if (h.hero.eyebrow) document.getElementById('heroEyebrow').textContent = h.hero.eyebrow;
+      if (h.hero.title) document.getElementById('heroTitle').innerHTML = nl(h.hero.title);
+      if (h.hero.text) document.getElementById('heroText').textContent = h.hero.text;
+    }
+    if (h.trustStrip) {
+      const el = document.getElementById('trustStrip');
+      if (h.trustStrip.enabled === false) el.style.display = 'none';
+      else if ((h.trustStrip.items || []).length) el.innerHTML = h.trustStrip.items.map(t => `<div>${E(t)}</div>`).join('');
+    }
+    if (h.about) {
+      const sec = document.getElementById('aboutSection');
+      if (h.about.enabled === false) sec.style.display = 'none';
+      else {
+        if (h.about.title) document.getElementById('aboutTitle').innerHTML = nl(h.about.title);
+        if ((h.about.cards || []).length) {
+          document.getElementById('aboutGrid').innerHTML = h.about.cards.map((c, i) => `
+            <div class="about-card"><span class="num">${String(i + 1).padStart(2, '0')}</span><h3>${E(c.title)}</h3><p>${E(c.text)}</p></div>`).join('');
+        }
+      }
+    }
+  }
+
+  KicksSite.getContent().then(data => { siteData = data; applyHomepage(); renderShowcases(); }).catch(() => {});
 
   function renderBrandTabs(products) {
     const brands = [...new Set(products.map(p => p.brand))].sort();
     const tabsContainer = document.getElementById('brandTabs');
     tabsContainer.innerHTML = `<button class="active" data-brand="all">Всі моделі</button>` +
-      brands.map(b => `<button data-brand="${b}">${b}</button>`).join('');
+      brands.map(b => `<button data-brand="${KicksSite.esc(b)}">${KicksSite.esc(b)}</button>`).join('');
 
     tabsContainer.querySelectorAll('button').forEach(btn => {
       btn.addEventListener('click', function() {
@@ -559,6 +673,8 @@
       renderBrandTabs(allProducts);
       renderSizeFilterOptions(allProducts);
       renderCards(allProducts);
+      productsReady = true;
+      renderShowcases();
     } catch (err) {
       console.error('Помилка завантаження каталогу:', err);
       grid.innerHTML = '<div class="loading-msg">Не вдалося завантажити каталог (' + err.message + '). Перевір, що файл products.json є в репозиторії, і онови сторінку.</div>';
@@ -577,23 +693,6 @@
 
   renderCatalog();
   loadBanners();
-
-  // Підставляємо реальне посилання на Telegram-менеджера з site-content.json
-  (async function() {
-    try {
-      const res = await fetch('site-content.json?_=' + Date.now());
-      const data = await res.json();
-      if (data.contacts && data.contacts.telegramHandle) {
-        const tgUrl = 'https://t.me/' + data.contacts.telegramHandle;
-        const managerBtn = document.getElementById('managerCtaLink');
-        const footerLink = document.getElementById('footerTelegramLink');
-        if (managerBtn) managerBtn.href = tgUrl;
-        if (footerLink) footerLink.href = tgUrl;
-      }
-    } catch (err) {
-      console.warn('Не вдалося завантажити Telegram-посилання:', err);
-    }
-  })();
 
 </script>
 

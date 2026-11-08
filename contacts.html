@@ -59,15 +59,8 @@
 </head>
 <body>
 
-<nav>
-  <a href="index.html" class="logo">KICKS<span>.UA</span></a>
-  <div class="nav-links">
-    <a href="index.html">Каталог</a>
-    <a href="cart.html" class="cart-link">Кошик <span class="cart-badge" id="cartBadge">0</span></a>
-    <a href="delivery.html">Доставка</a>
-    <a href="#" id="managerCtaLink" class="nav-cta" target="_blank">💬 Написати нам</a>
-  </div>
-</nav>
+<nav id="siteNav" class="kx-nav"></nav>
+<script src="site.js?v=1"></script>
 
 <section class="head">
   <span class="label">Зв'язок з нами</span>
@@ -78,15 +71,9 @@
   <div class="loading-msg">Завантаження...</div>
 </div>
 
-<footer>
-  <div class="logo">KICKS<span>.UA</span></div>
-  <div class="foot-links">
-    <a href="#" id="footerTelegramLink" target="_blank">Telegram-канал</a>
-    <a href="delivery.html">Доставка і оплата</a>
-    <a href="contacts.html">Контакти</a>
-    <a href="privacy.html">Політика конфіденційності</a>
-  </div>
-</footer>
+<div id="siteBlocks"></div>
+
+<footer id="siteFooter" class="kx-footer"></footer>
 
 <script>
   (function(){
@@ -99,42 +86,34 @@
 
   async function renderContacts() {
     const area = document.getElementById('contactsArea');
+    const E = KicksSite.esc;
     try {
       const res = await fetch('site-content.json?_=' + Date.now());
       if (!res.ok) throw new Error('HTTP ' + res.status);
       const data = await res.json();
       const c = data.contacts || {};
 
-      // Підставляємо посилання на Telegram у кнопки менеджера/футера
-      if (c.telegramHandle) {
-        const tgUrl = 'https://t.me/' + c.telegramHandle;
-        const managerBtn = document.getElementById('managerCtaLink');
-        const footerLink = document.getElementById('footerTelegramLink');
-        if (managerBtn) managerBtn.href = tgUrl;
-        if (footerLink) footerLink.href = tgUrl;
-      }
-
       const cards = [];
 
       cards.push(c.telegramHandle
-        ? `<div class="contact-card"><span class="tag">Telegram</span><h3>Написати напряму</h3><a href="https://t.me/${c.telegramHandle}" target="_blank">@${c.telegramHandle}</a></div>`
+        ? `<div class="contact-card"><span class="tag">Telegram</span><h3>Написати напряму</h3><a href="https://t.me/${E(c.telegramHandle)}" target="_blank">@${E(c.telegramHandle)}</a></div>`
         : `<div class="contact-card empty"><span class="tag">Telegram</span><h3>Написати напряму</h3><p>Скоро тут з'явиться посилання</p></div>`);
 
       cards.push(c.phone
-        ? `<div class="contact-card"><span class="tag">Телефон</span><h3>Зателефонувати</h3><a href="tel:${c.phone}">${c.phone}</a></div>`
+        ? `<div class="contact-card"><span class="tag">Телефон</span><h3>Зателефонувати</h3><a href="tel:${E(c.phone)}">${E(c.phone)}</a></div>`
         : `<div class="contact-card empty"><span class="tag">Телефон</span><h3>Зателефонувати</h3><p>Поки не вказано</p></div>`);
 
       cards.push(c.email
-        ? `<div class="contact-card"><span class="tag">Email</span><h3>Написати листа</h3><a href="mailto:${c.email}">${c.email}</a></div>`
+        ? `<div class="contact-card"><span class="tag">Email</span><h3>Написати листа</h3><a href="mailto:${E(c.email)}">${E(c.email)}</a></div>`
         : `<div class="contact-card empty"><span class="tag">Email</span><h3>Написати листа</h3><p>Поки не вказано</p></div>`);
 
       if (c.address) {
-        cards.push(`<div class="contact-card"><span class="tag">Адреса</span><h3>Наша адреса</h3><p>${c.address}</p></div>`);
+        cards.push(`<div class="contact-card"><span class="tag">Адреса</span><h3>Наша адреса</h3><p>${E(c.address)}</p></div>`);
       }
 
       let hoursHtml = '';
       if (data.workingHours && data.workingHours.enabled && data.workingHours.text) {
-        hoursHtml = `<div class="block"><h3>Графік роботи</h3><p>${data.workingHours.text}</p></div>`;
+        hoursHtml = `<div class="block"><h3>Графік роботи</h3><p>${E(data.workingHours.text)}</p></div>`;
       }
 
       area.innerHTML = `<div class="contacts-grid">${cards.join('')}</div>${hoursHtml}`;
