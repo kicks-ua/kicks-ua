@@ -3288,7 +3288,7 @@
       {
         "size": "37",
         "stock": 1,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "B6195-1815076"
       },
       {
@@ -3300,19 +3300,19 @@
       {
         "size": "39",
         "stock": 2,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "B6195-1815078"
       },
       {
         "size": "40",
         "stock": 2,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "B6195-1815079"
       },
       {
         "size": "41",
         "stock": 3,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "B6195-1815080"
       }
     ],
@@ -3387,7 +3387,7 @@
       {
         "size": "40",
         "stock": 1,
-        "price": 2100.0,
+        "price": 2100,
         "sku": "В5068-1474630"
       }
     ],
@@ -3438,13 +3438,13 @@
       {
         "size": "41",
         "stock": 1,
-        "price": 1900.0,
+        "price": 1900,
         "sku": "А5553-1583546"
       },
       {
         "size": "42",
         "stock": 3,
-        "price": 1900.0,
+        "price": 1900,
         "sku": "А5553-1583547"
       },
       {
@@ -3462,7 +3462,7 @@
       {
         "size": "45",
         "stock": 3,
-        "price": 1900.0,
+        "price": 1900,
         "sku": "А5553-1583550"
       }
     ],
@@ -3537,7 +3537,7 @@
       {
         "size": "45",
         "stock": 2,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "A5431-1553441"
       }
     ],
@@ -3612,7 +3612,7 @@
       {
         "size": "45",
         "stock": 3,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "A5435-1553499"
       }
     ],
@@ -3687,7 +3687,7 @@
       {
         "size": "45",
         "stock": 1,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "A4978-1442485"
       }
     ],
@@ -3738,7 +3738,7 @@
       {
         "size": "37",
         "stock": 2,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "B4785-1325965"
       },
       {
@@ -3762,7 +3762,7 @@
       {
         "size": "41",
         "stock": 2,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "B4785-1325969"
       }
     ],
@@ -3837,7 +3837,7 @@
       {
         "size": "45",
         "stock": 2,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "A4974-1442441"
       }
     ],
@@ -3906,13 +3906,13 @@
       {
         "size": "39",
         "stock": 3,
-        "price": 2100.0,
+        "price": 2100,
         "sku": "В5064-1474583"
       },
       {
         "size": "41",
         "stock": 2,
-        "price": 2100.0,
+        "price": 2100,
         "sku": "В5064-1474585"
       }
     ],
@@ -3969,7 +3969,7 @@
       {
         "size": "37",
         "stock": 3,
-        "price": 2100.0,
+        "price": 2100,
         "sku": "В5065-1474592"
       },
       {
@@ -4037,7 +4037,7 @@
       {
         "size": "37",
         "stock": 3,
-        "price": 2100.0,
+        "price": 2100,
         "sku": "В5255-1519950"
       },
       {
@@ -4055,13 +4055,13 @@
       {
         "size": "40",
         "stock": 1,
-        "price": 2100.0,
+        "price": 2100,
         "sku": "В5255-1519953"
       },
       {
         "size": "41",
         "stock": 3,
-        "price": 2100.0,
+        "price": 2100,
         "sku": "В5255-1519954"
       }
     ],
@@ -4112,7 +4112,7 @@
       {
         "size": "37",
         "stock": 2,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "B4784-1325954"
       },
       {
@@ -4130,13 +4130,13 @@
       {
         "size": "40",
         "stock": 3,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "B4784-1325957"
       },
       {
         "size": "41",
         "stock": 2,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "B4784-1325958"
       }
     ],
@@ -4187,13 +4187,13 @@
       {
         "size": "36",
         "stock": 3,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "B5369-1532459"
       },
       {
         "size": "37",
         "stock": 2,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "B5369-1532460"
       },
       {
@@ -4211,7 +4211,7 @@
       {
         "size": "41",
         "stock": 2,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "B5369-1532464"
       }
     ],
@@ -4262,7 +4262,7 @@
       {
         "size": "41",
         "stock": 3,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "A4973-1442426"
       },
       {
@@ -4286,7 +4286,7 @@
       {
         "size": "45",
         "stock": 3,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "A4973-1442430"
       }
     ],
@@ -4361,7 +4361,7 @@
       {
         "size": "41",
         "stock": 2,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "B4788-1326013"
       }
     ],
@@ -4412,7 +4412,7 @@
       {
         "size": "37",
         "stock": 2,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "B4789-1326031"
       },
       {
@@ -4424,7 +4424,7 @@
       {
         "size": "39",
         "stock": 3,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "B4789-1326033"
       },
       {
@@ -4436,7 +4436,7 @@
       {
         "size": "41",
         "stock": 2,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "B4789-1326035"
       }
     ],
@@ -4487,7 +4487,7 @@
       {
         "size": "37",
         "stock": 2,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "B4791-1326321"
       },
       {
@@ -4511,7 +4511,7 @@
       {
         "size": "41",
         "stock": 2,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "B4791-1326325"
       }
     ],
@@ -4586,7 +4586,7 @@
       {
         "size": "45",
         "stock": 2,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "A5433-1553475"
       }
     ],
@@ -4637,7 +4637,7 @@
       {
         "size": "41",
         "stock": 1,
-        "price": 1900.0,
+        "price": 1900,
         "sku": "А5565-1583568"
       },
       {
@@ -4661,7 +4661,7 @@
       {
         "size": "45",
         "stock": 2,
-        "price": 1900.0,
+        "price": 1900,
         "sku": "А5565-1583572"
       }
     ],
@@ -4736,7 +4736,7 @@
       {
         "size": "45",
         "stock": 3,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "A5531-1564371"
       }
     ],
@@ -4787,7 +4787,7 @@
       {
         "size": "37",
         "stock": 2,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "B6192-1814662"
       },
       {
@@ -4799,7 +4799,7 @@
       {
         "size": "39",
         "stock": 2,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "B6192-1814664"
       },
       {
@@ -4811,7 +4811,7 @@
       {
         "size": "41",
         "stock": 2,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "B6192-1814666"
       }
     ],
@@ -4862,13 +4862,13 @@
       {
         "size": "41",
         "stock": 2,
-        "price": 2300.0,
+        "price": 2300,
         "sku": "A3476-990021"
       },
       {
         "size": "42",
         "stock": 3,
-        "price": 2300.0,
+        "price": 2300,
         "sku": "A3476-990022"
       },
       {
@@ -4949,19 +4949,19 @@
       {
         "size": "43",
         "stock": 3,
-        "price": 2100.0,
+        "price": 2100,
         "sku": "A4053-1136277"
       },
       {
         "size": "44",
         "stock": 1,
-        "price": 2100.0,
+        "price": 2100,
         "sku": "A4053-1136278"
       },
       {
         "size": "45",
         "stock": 3,
-        "price": 2100.0,
+        "price": 2100,
         "sku": "A4053-1136279"
       }
     ],
@@ -5012,7 +5012,7 @@
       {
         "size": "41",
         "stock": 3,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "А5357-1531938"
       },
       {
@@ -5024,7 +5024,7 @@
       {
         "size": "43",
         "stock": 3,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "А5357-1531940"
       },
       {
@@ -5036,7 +5036,7 @@
       {
         "size": "45",
         "stock": 1,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "А5357-1531942"
       }
     ],
@@ -5086,7 +5086,7 @@
       {
         "size": "41",
         "stock": 3,
-        "price": 2000.0,
+        "price": 2000,
         "sku": "A3854-1071918"
       },
       {
@@ -5154,7 +5154,7 @@
       {
         "size": "37",
         "stock": 2,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "B6193-1815030"
       },
       {
@@ -5222,7 +5222,7 @@
       {
         "size": "41",
         "stock": 2,
-        "price": 2000.0,
+        "price": 2000,
         "sku": "A3881-1072167"
       },
       {
@@ -5308,7 +5308,7 @@
       {
         "size": "40",
         "stock": 2,
-        "price": 2100.0,
+        "price": 2100,
         "sku": "B3588-1020928"
       }
     ],
@@ -5364,7 +5364,7 @@
       {
         "size": "43",
         "stock": 3,
-        "price": 2000.0,
+        "price": 2000,
         "sku": "А3730-1052435"
       },
       {
@@ -5376,7 +5376,7 @@
       {
         "size": "45",
         "stock": 3,
-        "price": 2000.0,
+        "price": 2000,
         "sku": "А3730-1052437"
       }
     ],
@@ -5438,7 +5438,7 @@
       {
         "size": "43",
         "stock": 1,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "A5526-1564258"
       },
       {
@@ -5512,7 +5512,7 @@
       {
         "size": "45",
         "stock": 3,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "A5533-1564395"
       }
     ],
@@ -5568,13 +5568,13 @@
       {
         "size": "42",
         "stock": 2,
-        "price": 1900.0,
+        "price": 1900,
         "sku": "A3803-1063685"
       },
       {
         "size": "43",
         "stock": 3,
-        "price": 1900.0,
+        "price": 1900,
         "sku": "A3803-1063686"
       },
       {
@@ -5698,7 +5698,7 @@
       {
         "size": "41",
         "stock": 3,
-        "price": 1900.0,
+        "price": 1900,
         "sku": "A3804-1063695"
       },
       {
@@ -5710,7 +5710,7 @@
       {
         "size": "43",
         "stock": 3,
-        "price": 1900.0,
+        "price": 1900,
         "sku": "A3804-1063697"
       },
       {
@@ -5765,7 +5765,7 @@
       {
         "size": "41",
         "stock": 3,
-        "price": 2000.0,
+        "price": 2000,
         "sku": "А3728-1052411"
       },
       {
@@ -5777,7 +5777,7 @@
       {
         "size": "45",
         "stock": 3,
-        "price": 2000.0,
+        "price": 2000,
         "sku": "А3728-1052415"
       }
     ],
@@ -5944,13 +5944,13 @@
       {
         "size": "41",
         "stock": 2,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "A5585-1616354"
       },
       {
         "size": "42",
         "stock": 1,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "A5585-1616355"
       },
       {
@@ -5968,13 +5968,13 @@
       {
         "size": "45",
         "stock": 3,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "A5585-1616358"
       },
       {
         "size": "46",
         "stock": 1,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "A5585-1616359"
       }
     ],
@@ -6026,13 +6026,13 @@
       {
         "size": "36",
         "stock": 3,
-        "price": 2300.0,
+        "price": 2300,
         "sku": "В5308-1525421"
       },
       {
         "size": "37",
         "stock": 3,
-        "price": 2300.0,
+        "price": 2300,
         "sku": "В5308-1525422"
       },
       {
@@ -6050,13 +6050,13 @@
       {
         "size": "40",
         "stock": 3,
-        "price": 2300.0,
+        "price": 2300,
         "sku": "В5308-1525425"
       },
       {
         "size": "41",
         "stock": 3,
-        "price": 2300.0,
+        "price": 2300,
         "sku": "В5308-1525426"
       }
     ],
@@ -6108,13 +6108,13 @@
       {
         "size": "36",
         "stock": 3,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "B4999-1452494"
       },
       {
         "size": "37",
         "stock": 3,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "B4999-1452495"
       },
       {
@@ -6132,13 +6132,13 @@
       {
         "size": "40",
         "stock": 1,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "B4999-1452498"
       },
       {
         "size": "41",
         "stock": 3,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "B4999-1452499"
       }
     ],
@@ -6189,7 +6189,7 @@
       {
         "size": "41",
         "stock": 2,
-        "price": 2300.0,
+        "price": 2300,
         "sku": "A5306-1525415"
       },
       {
@@ -6213,7 +6213,7 @@
       {
         "size": "45",
         "stock": 1,
-        "price": 2300.0,
+        "price": 2300,
         "sku": "A5306-1525419"
       }
     ],
@@ -6264,7 +6264,7 @@
       {
         "size": "41",
         "stock": 3,
-        "price": 2000.0,
+        "price": 2000,
         "sku": "А5166-1508876"
       },
       {
@@ -6276,7 +6276,7 @@
       {
         "size": "43",
         "stock": 3,
-        "price": 2000.0,
+        "price": 2000,
         "sku": "А5166-1508878"
       },
       {
@@ -6288,7 +6288,7 @@
       {
         "size": "45",
         "stock": 2,
-        "price": 2000.0,
+        "price": 2000,
         "sku": "А5166-1508880"
       }
     ],
@@ -6339,7 +6339,7 @@
       {
         "size": "41",
         "stock": 3,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "А4993-1452543"
       },
       {
@@ -6363,7 +6363,7 @@
       {
         "size": "45",
         "stock": 2,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "А4993-1452547"
       }
     ],
@@ -6414,7 +6414,7 @@
       {
         "size": "36",
         "stock": 3,
-        "price": 2000.0,
+        "price": 2000,
         "sku": "B3931-1084998"
       },
       {
@@ -6438,7 +6438,7 @@
       {
         "size": "41",
         "stock": 2,
-        "price": 2000.0,
+        "price": 2000,
         "sku": "B3931-1085003"
       }
     ],
@@ -6563,7 +6563,7 @@
       {
         "size": "41",
         "stock": 3,
-        "price": 2250.0,
+        "price": 2250,
         "sku": "A5452-1545379"
       },
       {
@@ -6587,7 +6587,7 @@
       {
         "size": "45",
         "stock": 2,
-        "price": 2250.0,
+        "price": 2250,
         "sku": "A5452-1545383"
       }
     ],
@@ -6662,7 +6662,7 @@
       {
         "size": "45",
         "stock": 3,
-        "price": 2300.0,
+        "price": 2300,
         "sku": "A5301-1525351"
       }
     ],
@@ -6719,7 +6719,7 @@
       {
         "size": "42",
         "stock": 1,
-        "price": 2100.0,
+        "price": 2100,
         "sku": "А4407-1218505"
       },
       {
@@ -6737,7 +6737,7 @@
       {
         "size": "45",
         "stock": 3,
-        "price": 2100.0,
+        "price": 2100,
         "sku": "А4407-1218508"
       }
     ],
@@ -6788,7 +6788,7 @@
       {
         "size": "41",
         "stock": 3,
-        "price": 2250.0,
+        "price": 2250,
         "sku": "A5451-1545368"
       },
       {
@@ -6806,13 +6806,13 @@
       {
         "size": "44",
         "stock": 2,
-        "price": 2250.0,
+        "price": 2250,
         "sku": "A5451-1545371"
       },
       {
         "size": "45",
         "stock": 2,
-        "price": 2250.0,
+        "price": 2250,
         "sku": "A5451-1545372"
       }
     ],
@@ -6863,7 +6863,7 @@
       {
         "size": "41",
         "stock": 3,
-        "price": 2000.0,
+        "price": 2000,
         "sku": "А5165-1508865"
       },
       {
@@ -6875,7 +6875,7 @@
       {
         "size": "43",
         "stock": 2,
-        "price": 2000.0,
+        "price": 2000,
         "sku": "А5165-1508867"
       },
       {
@@ -6887,7 +6887,7 @@
       {
         "size": "45",
         "stock": 1,
-        "price": 2000.0,
+        "price": 2000,
         "sku": "А5165-1508869"
       }
     ],
@@ -6962,7 +6962,7 @@
       {
         "size": "45",
         "stock": 1,
-        "price": 2150.0,
+        "price": 2150,
         "sku": "A5413-1543746"
       }
     ],
@@ -7013,7 +7013,7 @@
       {
         "size": "41",
         "stock": 2,
-        "price": 2150.0,
+        "price": 2150,
         "sku": "A3624-1028237"
       },
       {
@@ -7037,7 +7037,7 @@
       {
         "size": "45",
         "stock": 1,
-        "price": 2150.0,
+        "price": 2150,
         "sku": "A3624-1028241"
       }
     ],
@@ -7088,7 +7088,7 @@
       {
         "size": "41",
         "stock": 1,
-        "price": 2300.0,
+        "price": 2300,
         "sku": "A5300-1525336"
       },
       {
@@ -7112,7 +7112,7 @@
       {
         "size": "45",
         "stock": 3,
-        "price": 2300.0,
+        "price": 2300,
         "sku": "A5300-1525340"
       }
     ],
@@ -7163,13 +7163,13 @@
       {
         "size": "41",
         "stock": 2,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "A5418-1546598"
       },
       {
         "size": "42",
         "stock": 3,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "A5418-1546599"
       },
       {
@@ -7187,7 +7187,7 @@
       {
         "size": "45",
         "stock": 2,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "A5418-1546602"
       }
     ],
@@ -7238,7 +7238,7 @@
       {
         "size": "37",
         "stock": 3,
-        "price": 2300.0,
+        "price": 2300,
         "sku": "B5270-1521119"
       },
       {
@@ -7256,13 +7256,13 @@
       {
         "size": "40",
         "stock": 1,
-        "price": 2300.0,
+        "price": 2300,
         "sku": "B5270-1521122"
       },
       {
         "size": "41",
         "stock": 3,
-        "price": 2300.0,
+        "price": 2300,
         "sku": "B5270-1521123"
       }
     ],
@@ -7313,13 +7313,13 @@
       {
         "size": "41",
         "stock": 3,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "A5006-1455729"
       },
       {
         "size": "42",
         "stock": 1,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "A5006-1455730"
       },
       {
@@ -7337,7 +7337,7 @@
       {
         "size": "45",
         "stock": 1,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "A5006-1455733"
       }
     ],
@@ -7411,7 +7411,7 @@
       {
         "size": "45",
         "stock": 2,
-        "price": 2250.0,
+        "price": 2250,
         "sku": "А5488-1560356"
       }
     ],
@@ -7462,7 +7462,7 @@
       {
         "size": "36",
         "stock": 2,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "B5247-1519625"
       },
       {
@@ -7480,13 +7480,13 @@
       {
         "size": "40",
         "stock": 1,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "B5247-1519629"
       },
       {
         "size": "41",
         "stock": 2,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "B5247-1519630"
       }
     ],
@@ -7537,13 +7537,13 @@
       {
         "size": "41",
         "stock": 2,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "А4997-1452587"
       },
       {
         "size": "42",
         "stock": 3,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "А4997-1452588"
       },
       {
@@ -7561,7 +7561,7 @@
       {
         "size": "45",
         "stock": 3,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "А4997-1452591"
       }
     ],
@@ -7612,7 +7612,7 @@
       {
         "size": "41",
         "stock": 1,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "A5007-1455740"
       },
       {
@@ -7636,7 +7636,7 @@
       {
         "size": "45",
         "stock": 2,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "A5007-1455744"
       }
     ],
@@ -7704,7 +7704,7 @@
       {
         "size": "40",
         "stock": 2,
-        "price": 2200.0,
+        "price": 2200,
         "sku": "B5491-1560519"
       },
       {
@@ -7761,7 +7761,7 @@
       {
         "size": "41",
         "stock": 3,
-        "price": 2150.0,
+        "price": 2150,
         "sku": "A3626-1028259"
       },
       {
@@ -7785,7 +7785,7 @@
       {
         "size": "45",
         "stock": 2,
-        "price": 2150.0,
+        "price": 2150,
         "sku": "A3626-1028263"
       }
     ],
@@ -7804,5 +7804,6045 @@
       "images/telegram/crm-1o24z3z/1794507709826-09-reply_257280_257260-jpg.jpg"
     ],
     "telegram_article": "A3626"
+  },
+  {
+    "id": "crm-1c8rk59",
+    "createdAt": "2026-11-12T19:59:27.035Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "211927",
+    "name": "Nike Initiator Silver White 36",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2100,
+        "stock": 1,
+        "sku": "В5061-1466658"
+      },
+      {
+        "size": "37",
+        "price": 2100,
+        "stock": 3,
+        "sku": "В5061-1466659"
+      },
+      {
+        "size": "38",
+        "price": 2100,
+        "stock": 4,
+        "sku": "В5061-1466660"
+      },
+      {
+        "size": "39",
+        "price": 2100,
+        "stock": 4,
+        "sku": "В5061-1466661"
+      },
+      {
+        "size": "40",
+        "price": 2100,
+        "stock": 1,
+        "sku": "В5061-1466662"
+      },
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 3,
+        "sku": "В5061-1466663"
+      }
+    ],
+    "price": 2100,
+    "stock": 16,
+    "description": "Матеріал : шкіра , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/3158f492-894c-4c09-90ab-e4bf8a66fc56.jpg"
+    ]
+  },
+  {
+    "id": "crm-15j39ac",
+    "createdAt": "2026-11-12T19:59:27.241Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "220641",
+    "name": "Nike Initiator Black White Pink 36",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2100,
+        "stock": 2,
+        "sku": "В5390-1533554"
+      },
+      {
+        "size": "37",
+        "price": 2100,
+        "stock": 2,
+        "sku": "В5390-1533555"
+      },
+      {
+        "size": "38",
+        "price": 2100,
+        "stock": 4,
+        "sku": "В5390-1533556"
+      },
+      {
+        "size": "39",
+        "price": 2100,
+        "stock": 4,
+        "sku": "В5390-1533557"
+      },
+      {
+        "size": "40",
+        "price": 2100,
+        "stock": 2,
+        "sku": "В5390-1533558"
+      },
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 2,
+        "sku": "В5390-1533559"
+      }
+    ],
+    "price": 2100,
+    "stock": 16,
+    "description": "Матеріал : шкіра , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/44731c96-e2a7-4161-8e86-8bd46dde313b.jpg"
+    ]
+  },
+  {
+    "id": "crm-76q1l2",
+    "createdAt": "2026-11-12T19:59:27.519Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "211913",
+    "name": "Nike Rivah Taupewood Black 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 12,
+        "sku": "A5052-1466519"
+      },
+      {
+        "size": "42",
+        "price": 2100,
+        "stock": 10,
+        "sku": "A5052-1466520"
+      },
+      {
+        "size": "43",
+        "price": 2100,
+        "stock": 24,
+        "sku": "A5052-1466521"
+      },
+      {
+        "size": "44",
+        "price": 2100,
+        "stock": 26,
+        "sku": "A5052-1466522"
+      },
+      {
+        "size": "45",
+        "price": 2100,
+        "stock": 11,
+        "sku": "A5052-1466523"
+      },
+      {
+        "size": "46",
+        "price": 2100,
+        "stock": 13,
+        "sku": "A5052-1466524"
+      }
+    ],
+    "price": 2100,
+    "stock": 96,
+    "description": "Матеріал : текстиль , натуральна замшаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/3804a9c1-94c7-4b4f-ad1c-a3a4fd753286.jpg"
+    ]
+  },
+  {
+    "id": "crm-8ko21x",
+    "createdAt": "2026-11-12T19:59:27.713Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "211916",
+    "name": "Nike Rivah Olive Black 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 14,
+        "sku": "A5054-1466552"
+      },
+      {
+        "size": "42",
+        "price": 2100,
+        "stock": 13,
+        "sku": "A5054-1466553"
+      },
+      {
+        "size": "43",
+        "price": 2100,
+        "stock": 30,
+        "sku": "A5054-1466554"
+      },
+      {
+        "size": "44",
+        "price": 2100,
+        "stock": 28,
+        "sku": "A5054-1466555"
+      },
+      {
+        "size": "45",
+        "price": 2100,
+        "stock": 13,
+        "sku": "A5054-1466556"
+      },
+      {
+        "size": "46",
+        "price": 2100,
+        "stock": 12,
+        "sku": "A5054-1466557"
+      }
+    ],
+    "price": 2100,
+    "stock": 110,
+    "description": "Матеріал : текстиль , натуральна замшаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/0666625f-1c45-4504-b373-9310b9dad0d5.jpg"
+    ]
+  },
+  {
+    "id": "crm-1kbveg",
+    "createdAt": "2026-11-12T19:59:27.896Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "220609",
+    "name": "Nike Renew Light Grey Beige 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 3,
+        "sku": "A5385-1533287"
+      },
+      {
+        "size": "42",
+        "price": 2200,
+        "stock": 4,
+        "sku": "A5385-1533288"
+      },
+      {
+        "size": "43",
+        "price": 2200,
+        "stock": 3,
+        "sku": "A5385-1533289"
+      },
+      {
+        "size": "44",
+        "price": 2200,
+        "stock": 2,
+        "sku": "A5385-1533290"
+      },
+      {
+        "size": "45",
+        "price": 2200,
+        "stock": 3,
+        "sku": "A5385-1533291"
+      },
+      {
+        "size": "46",
+        "price": 2200,
+        "stock": 1,
+        "sku": "A5385-1533292"
+      }
+    ],
+    "price": 2200,
+    "stock": 16,
+    "description": "Матеріал : сітка , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/b543d313-ec32-40a6-bde0-03aa030cfe94.jpg"
+    ]
+  },
+  {
+    "id": "crm-up50xd",
+    "createdAt": "2026-11-12T19:59:28.083Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "252049",
+    "name": "Nike Air Jordan 4 W Retro White 36",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 1700,
+        "stock": 3,
+        "sku": "B6033-1773673"
+      },
+      {
+        "size": "37",
+        "price": 1700,
+        "stock": 2,
+        "sku": "B6033-1773674"
+      },
+      {
+        "size": "38",
+        "price": 1700,
+        "stock": 6,
+        "sku": "B6033-1773675"
+      },
+      {
+        "size": "39",
+        "price": 1700,
+        "stock": 5,
+        "sku": "B6033-1773676"
+      },
+      {
+        "size": "40",
+        "price": 1700,
+        "stock": 2,
+        "sku": "B6033-1773677"
+      },
+      {
+        "size": "41",
+        "price": 1700,
+        "stock": 3,
+        "sku": "B6033-1773678"
+      }
+    ],
+    "price": 1700,
+    "stock": 21,
+    "description": "Матеріал : шкіраВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/bd63f19b-8c8a-4c9d-b553-31efec6c75d9.jpg"
+    ]
+  },
+  {
+    "id": "crm-iwnzbt",
+    "createdAt": "2026-11-12T19:59:28.298Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "219350",
+    "name": "Nike Air Max Plus All Black 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 3,
+        "sku": "А5288-1524522"
+      },
+      {
+        "size": "42",
+        "price": 2200,
+        "stock": 2,
+        "sku": "А5288-1524523"
+      },
+      {
+        "size": "43",
+        "price": 2200,
+        "stock": 7,
+        "sku": "А5288-1524524"
+      },
+      {
+        "size": "44",
+        "price": 2200,
+        "stock": 8,
+        "sku": "А5288-1524525"
+      },
+      {
+        "size": "45",
+        "price": 2200,
+        "stock": 5,
+        "sku": "А5288-1524526"
+      },
+      {
+        "size": "46",
+        "price": 2200,
+        "stock": 1,
+        "sku": "А5288-1524527"
+      }
+    ],
+    "price": 2200,
+    "stock": 26,
+    "description": "Матеріал : шкіра , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/aedeec32-6591-49d2-838f-54ee81c7507a.jpg"
+    ]
+  },
+  {
+    "id": "crm-b6xlux",
+    "createdAt": "2026-11-12T19:59:28.483Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "218678",
+    "name": "Nike Air Force 1 Mocco 36",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2000,
+        "stock": 5,
+        "sku": "B5241-1519317"
+      },
+      {
+        "size": "37",
+        "price": 2000,
+        "stock": 3,
+        "sku": "B5241-1519318"
+      },
+      {
+        "size": "38",
+        "price": 2000,
+        "stock": 9,
+        "sku": "B5241-1519319"
+      },
+      {
+        "size": "39",
+        "price": 2000,
+        "stock": 6,
+        "sku": "B5241-1519320"
+      },
+      {
+        "size": "40",
+        "price": 2000,
+        "stock": 2,
+        "sku": "B5241-1519321"
+      },
+      {
+        "size": "41",
+        "price": 2000,
+        "stock": 6,
+        "sku": "B5241-1519322"
+      }
+    ],
+    "price": 2000,
+    "stock": 31,
+    "description": "Матеріал : шкіраВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/ea108312-9a51-4d98-b793-f8ac21de6b07.jpg"
+    ]
+  },
+  {
+    "id": "crm-pqc1rd",
+    "createdAt": "2026-11-12T19:59:28.657Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "154907",
+    "name": "Nike P-6000 W White Black 36",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2100,
+        "stock": 6,
+        "sku": "B3785-1060227"
+      },
+      {
+        "size": "37",
+        "price": 2100,
+        "stock": 10,
+        "sku": "B3785-1060228"
+      },
+      {
+        "size": "38",
+        "price": 2100,
+        "stock": 9,
+        "sku": "B3785-1060229"
+      },
+      {
+        "size": "39",
+        "price": 2100,
+        "stock": 2,
+        "sku": "B3785-1060230"
+      },
+      {
+        "size": "40",
+        "price": 2100,
+        "stock": 1,
+        "sku": "B3785-1060231"
+      },
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 2,
+        "sku": "B3785-1060232"
+      }
+    ],
+    "price": 2100,
+    "stock": 30,
+    "description": "Матеріал : шкіра , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/808a1664-179a-42dd-8d96-610d4d594daf.jpg"
+    ]
+  },
+  {
+    "id": "crm-1vcnipu",
+    "createdAt": "2026-11-12T19:59:28.908Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "170104",
+    "name": "Nike Air Huarache Black White 36",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2000,
+        "stock": 4,
+        "sku": "B4084-1158190"
+      },
+      {
+        "size": "37",
+        "price": 2000,
+        "stock": 2,
+        "sku": "B4084-1158191"
+      },
+      {
+        "size": "38",
+        "price": 2000,
+        "stock": 8,
+        "sku": "B4084-1158192"
+      },
+      {
+        "size": "39",
+        "price": 2000,
+        "stock": 8,
+        "sku": "B4084-1158193"
+      },
+      {
+        "size": "40",
+        "price": 2000,
+        "stock": 3,
+        "sku": "B4084-1158194"
+      },
+      {
+        "size": "41",
+        "price": 2000,
+        "stock": 3,
+        "sku": "B4084-1158195"
+      }
+    ],
+    "price": 2000,
+    "stock": 28,
+    "description": "Матеріал : натуральна замша , шкіра , текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/c8ba2860-eba1-4bf8-aed1-3a55fbf8a0df.jpg"
+    ]
+  },
+  {
+    "id": "crm-1topwk0",
+    "createdAt": "2026-11-12T19:59:29.106Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "170102",
+    "name": "Nike Air Huarache All Black 36",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2000,
+        "stock": 3,
+        "sku": "B4082-1158168"
+      },
+      {
+        "size": "37",
+        "price": 2000,
+        "stock": 4,
+        "sku": "B4082-1158169"
+      },
+      {
+        "size": "38",
+        "price": 2000,
+        "stock": 6,
+        "sku": "B4082-1158170"
+      },
+      {
+        "size": "39",
+        "price": 2000,
+        "stock": 5,
+        "sku": "B4082-1158171"
+      },
+      {
+        "size": "40",
+        "price": 2000,
+        "stock": 1,
+        "sku": "B4082-1158172"
+      },
+      {
+        "size": "41",
+        "price": 2000,
+        "stock": 2,
+        "sku": "B4082-1158173"
+      }
+    ],
+    "price": 2000,
+    "stock": 21,
+    "description": "Матеріал : натуральна замша , шкіра , текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/607ff15b-7b9b-4ca8-9c58-adbaf75e7825.jpg"
+    ]
+  },
+  {
+    "id": "crm-p6cudf",
+    "createdAt": "2026-11-12T19:59:29.267Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "154905",
+    "name": "Nike P-6000 W Grey Black Green 36",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2100,
+        "stock": 7,
+        "sku": "B3783-1060205"
+      },
+      {
+        "size": "37",
+        "price": 2100,
+        "stock": 15,
+        "sku": "B3783-1060206"
+      },
+      {
+        "size": "38",
+        "price": 2100,
+        "stock": 6,
+        "sku": "B3783-1060207"
+      },
+      {
+        "size": "40",
+        "price": 2100,
+        "stock": 3,
+        "sku": "B3783-1060209"
+      },
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 4,
+        "sku": "B3783-1060210"
+      }
+    ],
+    "price": 2100,
+    "stock": 35,
+    "description": "Матеріал : натуральна замша , шкіра , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/8133211b-a83d-4379-9657-a3855a874194.jpg"
+    ]
+  },
+  {
+    "id": "crm-td2ei3",
+    "createdAt": "2026-11-12T19:59:29.513Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "258939",
+    "name": "Nike Initiator M Dark Grey Black 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2500,
+        "stock": 3,
+        "sku": "A6262-1827586"
+      },
+      {
+        "size": "42",
+        "price": 2500,
+        "stock": 3,
+        "sku": "A6262-1827587"
+      },
+      {
+        "size": "43",
+        "price": 2500,
+        "stock": 6,
+        "sku": "A6262-1827588"
+      },
+      {
+        "size": "44",
+        "price": 2500,
+        "stock": 6,
+        "sku": "A6262-1827589"
+      },
+      {
+        "size": "45",
+        "price": 2500,
+        "stock": 3,
+        "sku": "A6262-1827590"
+      },
+      {
+        "size": "46",
+        "price": 2500,
+        "stock": 3,
+        "sku": "A6262-1827591"
+      }
+    ],
+    "price": 2500,
+    "stock": 24,
+    "description": "Матеріал : шкіра , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/10223382-e650-4dec-91e5-417df42ad288.jpg"
+    ]
+  },
+  {
+    "id": "crm-94n9fv",
+    "createdAt": "2026-11-12T19:59:29.701Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "211918",
+    "name": "Nike Rivah Black Grey 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 8,
+        "sku": "A5055-1466574"
+      },
+      {
+        "size": "42",
+        "price": 2100,
+        "stock": 4,
+        "sku": "A5055-1466575"
+      },
+      {
+        "size": "43",
+        "price": 2100,
+        "stock": 16,
+        "sku": "A5055-1466576"
+      },
+      {
+        "size": "44",
+        "price": 2100,
+        "stock": 27,
+        "sku": "A5055-1466577"
+      },
+      {
+        "size": "45",
+        "price": 2100,
+        "stock": 5,
+        "sku": "A5055-1466578"
+      },
+      {
+        "size": "46",
+        "price": 2100,
+        "stock": 4,
+        "sku": "A5055-1466579"
+      }
+    ],
+    "price": 2100,
+    "stock": 64,
+    "description": "Матеріал : текстиль , шкіраВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/5e02d1d0-be14-41f7-afc5-c58e09e9ecc5.jpg"
+    ]
+  },
+  {
+    "id": "crm-7gpna1",
+    "createdAt": "2026-11-12T19:59:29.886Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "211912",
+    "name": "Nike Rivah Grey Black 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 14,
+        "sku": "A5051-1466508"
+      },
+      {
+        "size": "42",
+        "price": 2100,
+        "stock": 7,
+        "sku": "A5051-1466509"
+      },
+      {
+        "size": "43",
+        "price": 2100,
+        "stock": 27,
+        "sku": "A5051-1466510"
+      },
+      {
+        "size": "44",
+        "price": 2100,
+        "stock": 27,
+        "sku": "A5051-1466511"
+      },
+      {
+        "size": "45",
+        "price": 2100,
+        "stock": 11,
+        "sku": "A5051-1466512"
+      },
+      {
+        "size": "46",
+        "price": 2100,
+        "stock": 14,
+        "sku": "A5051-1466513"
+      }
+    ],
+    "price": 2100,
+    "stock": 100,
+    "description": "Матеріал : текстиль , шкіраВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/06f85c20-0b27-41f6-b2ea-26bf6a0beb36.jpg"
+    ]
+  },
+  {
+    "id": "crm-rf56na",
+    "createdAt": "2026-11-12T19:59:30.033Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "258932",
+    "name": "Nike Initiator M All Black 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2500,
+        "stock": 3,
+        "sku": "A6260-1827529"
+      },
+      {
+        "size": "42",
+        "price": 2500,
+        "stock": 3,
+        "sku": "A6260-1827530"
+      },
+      {
+        "size": "43",
+        "price": 2500,
+        "stock": 6,
+        "sku": "A6260-1827531"
+      },
+      {
+        "size": "44",
+        "price": 2500,
+        "stock": 6,
+        "sku": "A6260-1827532"
+      },
+      {
+        "size": "45",
+        "price": 2500,
+        "stock": 3,
+        "sku": "A6260-1827533"
+      },
+      {
+        "size": "46",
+        "price": 2500,
+        "stock": 3,
+        "sku": "A6260-1827534"
+      }
+    ],
+    "price": 2500,
+    "stock": 24,
+    "description": "Матеріал : шкіра , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/c330938d-b423-4a13-81b4-dcf0af46faf0.jpg"
+    ]
+  },
+  {
+    "id": "crm-11wg30v",
+    "createdAt": "2026-11-12T19:59:30.222Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "242213",
+    "name": "Nike M2K Tekno W White Black Red 36",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2000,
+        "stock": 3,
+        "sku": "В5794-1695174"
+      },
+      {
+        "size": "37",
+        "price": 2000,
+        "stock": 3,
+        "sku": "В5794-1695175"
+      },
+      {
+        "size": "38",
+        "price": 2000,
+        "stock": 6,
+        "sku": "В5794-1695176"
+      },
+      {
+        "size": "39",
+        "price": 2000,
+        "stock": 3,
+        "sku": "В5794-1695177"
+      },
+      {
+        "size": "40",
+        "price": 2000,
+        "stock": 1,
+        "sku": "В5794-1695178"
+      },
+      {
+        "size": "41",
+        "price": 2000,
+        "stock": 2,
+        "sku": "В5794-1695179"
+      }
+    ],
+    "price": 2000,
+    "stock": 18,
+    "description": "Матеріал : шкіра , текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/e6f2285f-90de-4f3a-9143-322d327dbc30.jpg"
+    ]
+  },
+  {
+    "id": "crm-1xun3gk",
+    "createdAt": "2026-11-12T19:59:30.414Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "170119",
+    "name": "Nike Air Huarache Black White 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2000,
+        "stock": 5,
+        "sku": "А4088-1158344"
+      },
+      {
+        "size": "42",
+        "price": 2000,
+        "stock": 4,
+        "sku": "А4088-1158345"
+      },
+      {
+        "size": "43",
+        "price": 2000,
+        "stock": 3,
+        "sku": "А4088-1158346"
+      },
+      {
+        "size": "44",
+        "price": 2000,
+        "stock": 8,
+        "sku": "А4088-1158347"
+      },
+      {
+        "size": "45",
+        "price": 2000,
+        "stock": 4,
+        "sku": "А4088-1158348"
+      },
+      {
+        "size": "46",
+        "price": 2000,
+        "stock": 3,
+        "sku": "А4088-1158349"
+      }
+    ],
+    "price": 2000,
+    "stock": 27,
+    "description": "Матеріал : натуральна замша , шкіра , текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/f48c5878-f5bd-4985-bf39-eafe2dcb7276.jpg"
+    ]
+  },
+  {
+    "id": "crm-strh7q",
+    "createdAt": "2026-11-12T19:59:30.603Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "258947",
+    "name": "Nike Initiator M Grey White Black 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2500,
+        "stock": 2,
+        "sku": "A6265-1827644"
+      },
+      {
+        "size": "42",
+        "price": 2500,
+        "stock": 2,
+        "sku": "A6265-1827645"
+      },
+      {
+        "size": "43",
+        "price": 2500,
+        "stock": 4,
+        "sku": "A6265-1827646"
+      },
+      {
+        "size": "44",
+        "price": 2500,
+        "stock": 4,
+        "sku": "A6265-1827647"
+      },
+      {
+        "size": "45",
+        "price": 2500,
+        "stock": 2,
+        "sku": "A6265-1827648"
+      },
+      {
+        "size": "46",
+        "price": 2500,
+        "stock": 2,
+        "sku": "A6265-1827649"
+      }
+    ],
+    "price": 2500,
+    "stock": 16,
+    "description": "Матеріал : шкіра , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/c31903e1-3bd8-4669-bab7-78018cc865af.jpg"
+    ]
+  },
+  {
+    "id": "crm-1v2r2iu",
+    "createdAt": "2026-11-12T19:59:30.806Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "170117",
+    "name": "Nike Air Huarache All Black 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2000,
+        "stock": 3,
+        "sku": "А4086-1158322"
+      },
+      {
+        "size": "42",
+        "price": 2000,
+        "stock": 5,
+        "sku": "А4086-1158323"
+      },
+      {
+        "size": "43",
+        "price": 2000,
+        "stock": 8,
+        "sku": "А4086-1158324"
+      },
+      {
+        "size": "44",
+        "price": 2000,
+        "stock": 14,
+        "sku": "А4086-1158325"
+      },
+      {
+        "size": "45",
+        "price": 2000,
+        "stock": 6,
+        "sku": "А4086-1158326"
+      },
+      {
+        "size": "46",
+        "price": 2000,
+        "stock": 2,
+        "sku": "А4086-1158327"
+      }
+    ],
+    "price": 2000,
+    "stock": 38,
+    "description": "Матеріал : натуральна замша , шкіра , текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/5e6cdef4-70ef-4208-b1ce-5aa82826c2f4.jpg"
+    ]
+  },
+  {
+    "id": "crm-1sbrhek",
+    "createdAt": "2026-11-12T19:59:30.992Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "258927",
+    "name": "Nike Initiator M Black White Metallic 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2500,
+        "stock": 3,
+        "sku": "A6257-1827474"
+      },
+      {
+        "size": "42",
+        "price": 2500,
+        "stock": 3,
+        "sku": "A6257-1827475"
+      },
+      {
+        "size": "43",
+        "price": 2500,
+        "stock": 6,
+        "sku": "A6257-1827476"
+      },
+      {
+        "size": "44",
+        "price": 2500,
+        "stock": 6,
+        "sku": "A6257-1827477"
+      },
+      {
+        "size": "45",
+        "price": 2500,
+        "stock": 3,
+        "sku": "A6257-1827478"
+      },
+      {
+        "size": "46",
+        "price": 2500,
+        "stock": 3,
+        "sku": "A6257-1827479"
+      }
+    ],
+    "price": 2500,
+    "stock": 24,
+    "description": "Матеріал : шкіра , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/31d98856-d1b3-4806-93f1-f1e8def3aa77.jpg"
+    ]
+  },
+  {
+    "id": "crm-t3r2wp",
+    "createdAt": "2026-11-12T19:59:31.183Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "258946",
+    "name": "Nike Initiator M Dark Grey Beige 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2500,
+        "stock": 2,
+        "sku": "A6264-1827633"
+      },
+      {
+        "size": "42",
+        "price": 2500,
+        "stock": 2,
+        "sku": "A6264-1827634"
+      },
+      {
+        "size": "43",
+        "price": 2500,
+        "stock": 4,
+        "sku": "A6264-1827635"
+      },
+      {
+        "size": "44",
+        "price": 2500,
+        "stock": 5,
+        "sku": "A6264-1827636"
+      },
+      {
+        "size": "45",
+        "price": 2500,
+        "stock": 1,
+        "sku": "A6264-1827637"
+      },
+      {
+        "size": "46",
+        "price": 2500,
+        "stock": 2,
+        "sku": "A6264-1827638"
+      }
+    ],
+    "price": 2500,
+    "stock": 16,
+    "description": "Матеріал : шкіра , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/939d89a5-805d-4ec6-a2d5-87fc66098b53.jpg"
+    ]
+  },
+  {
+    "id": "crm-6mqu74",
+    "createdAt": "2026-11-12T19:59:31.332Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "211911",
+    "name": "Nike Rivah All Black 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 5,
+        "sku": "A5050-1466497"
+      },
+      {
+        "size": "42",
+        "price": 2100,
+        "stock": 8,
+        "sku": "A5050-1466498"
+      },
+      {
+        "size": "43",
+        "price": 2100,
+        "stock": 13,
+        "sku": "A5050-1466499"
+      },
+      {
+        "size": "44",
+        "price": 2100,
+        "stock": 26,
+        "sku": "A5050-1466500"
+      },
+      {
+        "size": "45",
+        "price": 2100,
+        "stock": 9,
+        "sku": "A5050-1466501"
+      },
+      {
+        "size": "46",
+        "price": 2100,
+        "stock": 10,
+        "sku": "A5050-1466502"
+      }
+    ],
+    "price": 2100,
+    "stock": 71,
+    "description": "Матеріал : текстиль , шкіраВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/adc5c034-ba74-4434-97d1-9d30f054bd79.jpg"
+    ]
+  },
+  {
+    "id": "crm-80ounz",
+    "createdAt": "2026-11-12T19:59:31.617Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "211914",
+    "name": "Nike Rivah Black 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 12,
+        "sku": "A5053-1466530"
+      },
+      {
+        "size": "42",
+        "price": 2100,
+        "stock": 9,
+        "sku": "A5053-1466531"
+      },
+      {
+        "size": "43",
+        "price": 2100,
+        "stock": 20,
+        "sku": "A5053-1466532"
+      },
+      {
+        "size": "44",
+        "price": 2100,
+        "stock": 23,
+        "sku": "A5053-1466533"
+      },
+      {
+        "size": "45",
+        "price": 2100,
+        "stock": 8,
+        "sku": "A5053-1466534"
+      },
+      {
+        "size": "46",
+        "price": 2100,
+        "stock": 8,
+        "sku": "A5053-1466535"
+      }
+    ],
+    "price": 2100,
+    "stock": 80,
+    "description": "Матеріал : текстиль , шкіраВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/6241950f-3986-4393-ac53-0362a52ae7b3.jpg"
+    ]
+  },
+  {
+    "id": "crm-qv5z9c",
+    "createdAt": "2026-11-12T19:59:31.815Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "258930",
+    "name": "Nike Initiator M White Beige Metallic 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2500,
+        "stock": 2,
+        "sku": "A6259-1827507"
+      },
+      {
+        "size": "42",
+        "price": 2500,
+        "stock": 2,
+        "sku": "A6259-1827508"
+      },
+      {
+        "size": "43",
+        "price": 2500,
+        "stock": 4,
+        "sku": "A6259-1827509"
+      },
+      {
+        "size": "44",
+        "price": 2500,
+        "stock": 4,
+        "sku": "A6259-1827510"
+      },
+      {
+        "size": "45",
+        "price": 2500,
+        "stock": 2,
+        "sku": "A6259-1827511"
+      },
+      {
+        "size": "46",
+        "price": 2500,
+        "stock": 1,
+        "sku": "A6259-1827512"
+      }
+    ],
+    "price": 2500,
+    "stock": 15,
+    "description": "Матеріал : шкіра , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/81fd680e-4df1-4e88-b639-f4db228aef2f.jpg"
+    ]
+  },
+  {
+    "id": "crm-1u9op9d",
+    "createdAt": "2026-11-12T19:59:31.955Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "258928",
+    "name": "Nike Initiator M Black 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2500,
+        "stock": 3,
+        "sku": "A6258-1827485"
+      },
+      {
+        "size": "42",
+        "price": 2500,
+        "stock": 3,
+        "sku": "A6258-1827486"
+      },
+      {
+        "size": "43",
+        "price": 2500,
+        "stock": 6,
+        "sku": "A6258-1827487"
+      },
+      {
+        "size": "44",
+        "price": 2500,
+        "stock": 6,
+        "sku": "A6258-1827488"
+      },
+      {
+        "size": "45",
+        "price": 2500,
+        "stock": 3,
+        "sku": "A6258-1827489"
+      },
+      {
+        "size": "46",
+        "price": 2500,
+        "stock": 3,
+        "sku": "A6258-1827490"
+      }
+    ],
+    "price": 2500,
+    "stock": 24,
+    "description": "Матеріал : шкіра , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/99736d88-c3f0-461e-a8e6-bfa84a6ab000.jpg"
+    ]
+  },
+  {
+    "id": "crm-s93zq7",
+    "createdAt": "2026-11-12T19:59:32.158Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "258935",
+    "name": "Nike Initiator M Grey Black 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2500,
+        "stock": 3,
+        "sku": "A6261-1827562"
+      },
+      {
+        "size": "42",
+        "price": 2500,
+        "stock": 3,
+        "sku": "A6261-1827563"
+      },
+      {
+        "size": "43",
+        "price": 2500,
+        "stock": 6,
+        "sku": "A6261-1827564"
+      },
+      {
+        "size": "44",
+        "price": 2500,
+        "stock": 6,
+        "sku": "A6261-1827565"
+      },
+      {
+        "size": "45",
+        "price": 2500,
+        "stock": 3,
+        "sku": "A6261-1827566"
+      },
+      {
+        "size": "46",
+        "price": 2500,
+        "stock": 3,
+        "sku": "A6261-1827567"
+      }
+    ],
+    "price": 2500,
+    "stock": 24,
+    "description": "Матеріал : шкіра , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/03368724-42f0-46f6-a073-b83db69f03b6.jpg"
+    ]
+  },
+  {
+    "id": "crm-1vmn4et",
+    "createdAt": "2026-11-12T19:59:32.388Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "170105",
+    "name": "Nike Air Huarache Beige 36",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2000,
+        "stock": 3,
+        "sku": "B4085-1158201"
+      },
+      {
+        "size": "37",
+        "price": 2000,
+        "stock": 3,
+        "sku": "B4085-1158202"
+      },
+      {
+        "size": "38",
+        "price": 2000,
+        "stock": 8,
+        "sku": "B4085-1158203"
+      },
+      {
+        "size": "39",
+        "price": 2000,
+        "stock": 6,
+        "sku": "B4085-1158204"
+      },
+      {
+        "size": "40",
+        "price": 2000,
+        "stock": 2,
+        "sku": "B4085-1158205"
+      },
+      {
+        "size": "41",
+        "price": 2000,
+        "stock": 3,
+        "sku": "B4085-1158206"
+      }
+    ],
+    "price": 2000,
+    "stock": 25,
+    "description": "Матеріал : натуральна замша , шкіра , текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/8de3476e-f684-454f-b677-7473b595dc9b.jpg"
+    ]
+  },
+  {
+    "id": "crm-15skvvo",
+    "createdAt": "2026-11-12T19:59:32.647Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "220612",
+    "name": "Nike Renew Khaki Black 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 2,
+        "sku": "A5387-1533321"
+      },
+      {
+        "size": "42",
+        "price": 2200,
+        "stock": 3,
+        "sku": "A5387-1533322"
+      },
+      {
+        "size": "43",
+        "price": 2200,
+        "stock": 5,
+        "sku": "A5387-1533323"
+      },
+      {
+        "size": "44",
+        "price": 2200,
+        "stock": 1,
+        "sku": "A5387-1533324"
+      },
+      {
+        "size": "45",
+        "price": 2200,
+        "stock": 3,
+        "sku": "A5387-1533325"
+      },
+      {
+        "size": "46",
+        "price": 2200,
+        "stock": 1,
+        "sku": "A5387-1533326"
+      }
+    ],
+    "price": 2200,
+    "stock": 15,
+    "description": "Матеріал : сітка , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/18e31db1-bcd8-4549-8bf2-354abae72fc9.jpg"
+    ]
+  },
+  {
+    "id": "crm-1odx649",
+    "createdAt": "2026-11-12T19:59:32.797Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "219466",
+    "name": "Nike Zoom Vomero Roam Beige White 36",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2200,
+        "stock": 2,
+        "sku": "B5294-1524987"
+      },
+      {
+        "size": "37",
+        "price": 2200,
+        "stock": 3,
+        "sku": "B5294-1524988"
+      },
+      {
+        "size": "38",
+        "price": 2200,
+        "stock": 4,
+        "sku": "B5294-1524989"
+      },
+      {
+        "size": "39",
+        "price": 2200,
+        "stock": 3,
+        "sku": "B5294-1524990"
+      },
+      {
+        "size": "40",
+        "price": 2200,
+        "stock": 2,
+        "sku": "B5294-1524991"
+      },
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 3,
+        "sku": "B5294-1524992"
+      }
+    ],
+    "price": 2200,
+    "stock": 17,
+    "description": "Матеріал : текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/1ef89ea4-ffaa-404c-965d-abf2290cbebb.jpg"
+    ]
+  },
+  {
+    "id": "crm-cnwa3c",
+    "createdAt": "2026-11-12T19:59:32.961Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "219155",
+    "name": "Nike Air Max Plus White Black 36",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2200,
+        "stock": 2,
+        "sku": "B5286-1523025"
+      },
+      {
+        "size": "37",
+        "price": 2200,
+        "stock": 2,
+        "sku": "B5286-1523026"
+      },
+      {
+        "size": "38",
+        "price": 2200,
+        "stock": 4,
+        "sku": "B5286-1523027"
+      },
+      {
+        "size": "39",
+        "price": 2200,
+        "stock": 3,
+        "sku": "B5286-1523028"
+      },
+      {
+        "size": "40",
+        "price": 2200,
+        "stock": 2,
+        "sku": "B5286-1523029"
+      },
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 2,
+        "sku": "B5286-1523030"
+      }
+    ],
+    "price": 2200,
+    "stock": 15,
+    "description": "Матеріал : шкіра , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/fe771c74-a8aa-49bc-b88b-8d044f3e6fe4.jpg"
+    ]
+  },
+  {
+    "id": "crm-d7sbzb",
+    "createdAt": "2026-11-12T19:59:33.176Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "219147",
+    "name": "Nike Air Max Plus White Metallic Pink 36",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2200,
+        "stock": 11,
+        "sku": "B5283-1522977"
+      },
+      {
+        "size": "37",
+        "price": 2200,
+        "stock": 10,
+        "sku": "B5283-1522978"
+      },
+      {
+        "size": "38",
+        "price": 2200,
+        "stock": 17,
+        "sku": "B5283-1522979"
+      },
+      {
+        "size": "39",
+        "price": 2200,
+        "stock": 17,
+        "sku": "B5283-1522980"
+      },
+      {
+        "size": "40",
+        "price": 2200,
+        "stock": 10,
+        "sku": "B5283-1522981"
+      },
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 5,
+        "sku": "B5283-1522982"
+      }
+    ],
+    "price": 2200,
+    "stock": 70,
+    "description": "Матеріал : шкіра , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/67c397d2-df0f-450d-b263-e10ebfe02573.jpg"
+    ]
+  },
+  {
+    "id": "crm-drrjd9",
+    "createdAt": "2026-11-12T19:59:33.361Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "219145",
+    "name": "Nike Air Max Plus White 36",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2200,
+        "stock": 2,
+        "sku": "B5282-1522955"
+      },
+      {
+        "size": "37",
+        "price": 2200,
+        "stock": 2,
+        "sku": "B5282-1522956"
+      },
+      {
+        "size": "38",
+        "price": 2200,
+        "stock": 4,
+        "sku": "B5282-1522957"
+      },
+      {
+        "size": "39",
+        "price": 2200,
+        "stock": 4,
+        "sku": "B5282-1522958"
+      },
+      {
+        "size": "40",
+        "price": 2200,
+        "stock": 1,
+        "sku": "B5282-1522959"
+      },
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 2,
+        "sku": "B5282-1522960"
+      }
+    ],
+    "price": 2200,
+    "stock": 15,
+    "description": "Матеріал : шкіра , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/8435f008-c29c-4a31-8376-f668ec39cab6.jpg"
+    ]
+  },
+  {
+    "id": "crm-1nvef5s",
+    "createdAt": "2026-11-12T19:59:33.586Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "217359",
+    "name": "Nike Initiator Light Grey Beige 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 3,
+        "sku": "А5177-1509416"
+      },
+      {
+        "size": "42",
+        "price": 2200,
+        "stock": 4,
+        "sku": "А5177-1509417"
+      },
+      {
+        "size": "43",
+        "price": 2200,
+        "stock": 5,
+        "sku": "А5177-1509418"
+      },
+      {
+        "size": "44",
+        "price": 2200,
+        "stock": 8,
+        "sku": "А5177-1509419"
+      },
+      {
+        "size": "45",
+        "price": 2200,
+        "stock": 3,
+        "sku": "А5177-1509420"
+      },
+      {
+        "size": "46",
+        "price": 2200,
+        "stock": 1,
+        "sku": "А5177-1509421"
+      }
+    ],
+    "price": 2200,
+    "stock": 24,
+    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/ba1c0aa3-d253-4834-ad7e-5355a9ef883c.jpg"
+    ]
+  },
+  {
+    "id": "crm-1myyrf",
+    "createdAt": "2026-11-12T19:59:33.781Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "232009",
+    "name": "Nike Pegasus Premium Light Grey Black 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 3,
+        "sku": "A5614-1623031"
+      },
+      {
+        "size": "42",
+        "price": 2300,
+        "stock": 2,
+        "sku": "A5614-1623032"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 5,
+        "sku": "A5614-1623033"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 3,
+        "sku": "A5614-1623034"
+      },
+      {
+        "size": "45",
+        "price": 2300,
+        "stock": 2,
+        "sku": "A5614-1623035"
+      }
+    ],
+    "price": 2300,
+    "stock": 15,
+    "description": "Матеріал : текстиль , наскрізна сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/95070a68-be39-4eef-9048-54c56780dfa9.jpg"
+    ]
+  },
+  {
+    "id": "crm-ywvby1",
+    "createdAt": "2026-11-12T19:59:33.992Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "251440",
+    "name": "Nike Air Trainer 1 SP Utility Grey Black Lime 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 1600,
+        "stock": 2,
+        "sku": "A6014-1769242"
+      },
+      {
+        "size": "42",
+        "price": 1600,
+        "stock": 4,
+        "sku": "A6014-1769243"
+      },
+      {
+        "size": "43",
+        "price": 1600,
+        "stock": 3,
+        "sku": "A6014-1769244"
+      },
+      {
+        "size": "44",
+        "price": 1600,
+        "stock": 4,
+        "sku": "A6014-1769245"
+      },
+      {
+        "size": "45",
+        "price": 1600,
+        "stock": 2,
+        "sku": "A6014-1769246"
+      }
+    ],
+    "price": 1600,
+    "stock": 15,
+    "description": "Матеріал : шкіра , нубук , рефлективні вставкиВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/b5c3a4b6-cfb8-4f85-9a01-0fc6d9692cb9.jpg"
+    ]
+  },
+  {
+    "id": "crm-4ijzp3",
+    "createdAt": "2026-11-12T19:59:34.184Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "186146",
+    "name": "Nike Air Force 1 W White Black 36",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2000,
+        "stock": 3,
+        "sku": "B4724-1274405"
+      },
+      {
+        "size": "37",
+        "price": 2000,
+        "stock": 4,
+        "sku": "B4724-1274406"
+      },
+      {
+        "size": "38",
+        "price": 2000,
+        "stock": 4,
+        "sku": "B4724-1274407"
+      },
+      {
+        "size": "39",
+        "price": 2000,
+        "stock": 8,
+        "sku": "B4724-1274408"
+      },
+      {
+        "size": "40",
+        "price": 2000,
+        "stock": 1,
+        "sku": "B4724-1274409"
+      }
+    ],
+    "price": 2000,
+    "stock": 20,
+    "description": "Матеріал : шкіраВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/858d6935-6a63-4d33-a27b-7ac9dc3fdaef.jpg"
+    ]
+  },
+  {
+    "id": "crm-1bkv132",
+    "createdAt": "2026-11-12T19:59:34.407Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "221688",
+    "name": "Nike Air Max IVO NEW Black White 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 1,
+        "sku": "A5409-1543698"
+      },
+      {
+        "size": "42",
+        "price": 2300,
+        "stock": 5,
+        "sku": "A5409-1543699"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 1,
+        "sku": "A5409-1543700"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 12,
+        "sku": "A5409-1543701"
+      },
+      {
+        "size": "45",
+        "price": 2300,
+        "stock": 1,
+        "sku": "A5409-1543702"
+      }
+    ],
+    "price": 2300,
+    "stock": 20,
+    "description": "Матеріал : шкіра , текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/a735bce1-8127-42ef-98ec-e3b32666eb0d.jpg"
+    ]
+  },
+  {
+    "id": "crm-14eh1x9",
+    "createdAt": "2026-11-12T19:59:34.615Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "233651",
+    "name": "Nike Mind 002 M Black 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2500,
+        "stock": 6,
+        "sku": "А5618-1634661"
+      },
+      {
+        "size": "42",
+        "price": 2500,
+        "stock": 1,
+        "sku": "А5618-1634662"
+      },
+      {
+        "size": "43",
+        "price": 2500,
+        "stock": 11,
+        "sku": "А5618-1634663"
+      },
+      {
+        "size": "44",
+        "price": 2500,
+        "stock": 10,
+        "sku": "А5618-1634664"
+      },
+      {
+        "size": "45",
+        "price": 2500,
+        "stock": 4,
+        "sku": "А5618-1634665"
+      }
+    ],
+    "price": 2500,
+    "stock": 32,
+    "description": "Матеріал : перфорований текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/14e9fda5-f629-43dd-bf4f-c5ee1ced09a2.jpg"
+    ]
+  },
+  {
+    "id": "crm-fsenlg",
+    "createdAt": "2026-11-12T19:59:34.734Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "254967",
+    "name": "Nike Air Max Correlate Black White 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 4,
+        "sku": "A6117-1796929"
+      },
+      {
+        "size": "42",
+        "price": 2300,
+        "stock": 8,
+        "sku": "A6117-1796930"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 3,
+        "sku": "A6117-1796931"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 6,
+        "sku": "A6117-1796932"
+      },
+      {
+        "size": "45",
+        "price": 2300,
+        "stock": 3,
+        "sku": "A6117-1796933"
+      }
+    ],
+    "price": 2300,
+    "stock": 24,
+    "description": "Матеріал : шкіра , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/378df693-2cca-4142-b65f-520ed2a5dbb0.jpg"
+    ]
+  },
+  {
+    "id": "crm-bb62gu",
+    "createdAt": "2026-11-12T19:59:35.097Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "249152",
+    "name": "Nike ACG Mountain Fly 2 Low GTX Black White 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 2,
+        "sku": "A5942-1751215"
+      },
+      {
+        "size": "42",
+        "price": 2200,
+        "stock": 7,
+        "sku": "A5942-1751216"
+      },
+      {
+        "size": "43",
+        "price": 2200,
+        "stock": 1,
+        "sku": "A5942-1751217"
+      },
+      {
+        "size": "44",
+        "price": 2200,
+        "stock": 11,
+        "sku": "A5942-1751218"
+      },
+      {
+        "size": "45",
+        "price": 2200,
+        "stock": 1,
+        "sku": "A5942-1751219"
+      }
+    ],
+    "price": 2200,
+    "stock": 22,
+    "description": "Матеріал : текстиль , нейлон , Gore-TexВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/8dc3d336-e259-4dea-8356-8bf17823ae9a.PNG"
+    ]
+  },
+  {
+    "id": "crm-tdkafn",
+    "createdAt": "2026-11-12T19:59:35.251Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "151223",
+    "name": "Nike Air Zoom Winflo 8 Shield Black Dark Grey Space 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 1,
+        "sku": "A3643-1036766"
+      },
+      {
+        "size": "42",
+        "price": 2100,
+        "stock": 3,
+        "sku": "A3643-1036767"
+      },
+      {
+        "size": "43",
+        "price": 2100,
+        "stock": 3,
+        "sku": "A3643-1036768"
+      },
+      {
+        "size": "44",
+        "price": 2100,
+        "stock": 8,
+        "sku": "A3643-1036769"
+      },
+      {
+        "size": "45",
+        "price": 2100,
+        "stock": 4,
+        "sku": "A3643-1036770"
+      }
+    ],
+    "price": 2100,
+    "stock": 19,
+    "description": "Матеріал : нейлон , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/1bf060a8-431f-4314-9abe-a4c79347e349.jpg"
+    ]
+  },
+  {
+    "id": "crm-5i7iio",
+    "createdAt": "2026-11-12T19:59:35.407Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "155921",
+    "name": "Nike Air Peg 2K5 All Black 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2000,
+        "stock": 2,
+        "sku": "A3818-1068584"
+      },
+      {
+        "size": "42",
+        "price": 2000,
+        "stock": 3,
+        "sku": "A3818-1068585"
+      },
+      {
+        "size": "43",
+        "price": 2000,
+        "stock": 8,
+        "sku": "A3818-1068586"
+      },
+      {
+        "size": "44",
+        "price": 2000,
+        "stock": 3,
+        "sku": "A3818-1068587"
+      },
+      {
+        "size": "45",
+        "price": 2000,
+        "stock": 2,
+        "sku": "A3818-1068588"
+      }
+    ],
+    "price": 2000,
+    "stock": 18,
+    "description": "Матеріал : шкіра , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/c94a7f90-f9ba-4e4d-b47a-11b44e9fda58.jpg"
+    ]
+  },
+  {
+    "id": "crm-z5rb94",
+    "createdAt": "2026-11-12T19:59:35.618Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "170124",
+    "name": "Nike Shield All Black 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 3,
+        "sku": "А4091-1158389"
+      },
+      {
+        "size": "42",
+        "price": 2100,
+        "stock": 6,
+        "sku": "А4091-1158390"
+      },
+      {
+        "size": "43",
+        "price": 2100,
+        "stock": 5,
+        "sku": "А4091-1158391"
+      },
+      {
+        "size": "44",
+        "price": 2100,
+        "stock": 2,
+        "sku": "А4091-1158392"
+      },
+      {
+        "size": "45",
+        "price": 2100,
+        "stock": 2,
+        "sku": "А4091-1158393"
+      }
+    ],
+    "price": 2100,
+    "stock": 18,
+    "description": "Матеріал : натуральна замша , шкіра , текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/4668178d-3ebc-42bd-954d-5c7347da023f.jpg"
+    ]
+  },
+  {
+    "id": "crm-fmx4sr",
+    "createdAt": "2026-11-12T19:59:35.771Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "178802",
+    "name": "Nike Cortez W Brown White 36",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2200,
+        "stock": 4,
+        "sku": "В4447-1222108"
+      },
+      {
+        "size": "37",
+        "price": 2200,
+        "stock": 9,
+        "sku": "В4447-1222109"
+      },
+      {
+        "size": "38",
+        "price": 2200,
+        "stock": 7,
+        "sku": "В4447-1222110"
+      },
+      {
+        "size": "39",
+        "price": 2200,
+        "stock": 8,
+        "sku": "В4447-1222111"
+      },
+      {
+        "size": "40",
+        "price": 2200,
+        "stock": 3,
+        "sku": "В4447-1222112"
+      }
+    ],
+    "price": 2200,
+    "stock": 31,
+    "description": "Матеріал : натуральна замша , шкіра , текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/ae14a44e-97f3-44f2-a5eb-8e7aa9be9e66.jpg"
+    ]
+  },
+  {
+    "id": "crm-hauqyl",
+    "createdAt": "2026-11-12T19:59:35.948Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "178804",
+    "name": "Nike Cortez W Brown Beige 36",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2200,
+        "stock": 2,
+        "sku": "В4449-1222130"
+      },
+      {
+        "size": "37",
+        "price": 2200,
+        "stock": 7,
+        "sku": "В4449-1222131"
+      },
+      {
+        "size": "38",
+        "price": 2200,
+        "stock": 6,
+        "sku": "В4449-1222132"
+      },
+      {
+        "size": "39",
+        "price": 2200,
+        "stock": 5,
+        "sku": "В4449-1222133"
+      },
+      {
+        "size": "40",
+        "price": 2200,
+        "stock": 1,
+        "sku": "В4449-1222134"
+      }
+    ],
+    "price": 2200,
+    "stock": 21,
+    "description": "Матеріал : натуральна замша , шкіра , текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/a0caa6b8-2798-454d-ac4e-37a74774d160.jpg"
+    ]
+  },
+  {
+    "id": "crm-1hhk1z0",
+    "createdAt": "2026-11-12T19:59:36.135Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "178911",
+    "name": "Nike Cortez M Brown Beige 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 3,
+        "sku": "А4453-1222914"
+      },
+      {
+        "size": "42",
+        "price": 2200,
+        "stock": 2,
+        "sku": "А4453-1222915"
+      },
+      {
+        "size": "43",
+        "price": 2200,
+        "stock": 6,
+        "sku": "А4453-1222916"
+      },
+      {
+        "size": "44",
+        "price": 2200,
+        "stock": 5,
+        "sku": "А4453-1222917"
+      },
+      {
+        "size": "45",
+        "price": 2200,
+        "stock": 2,
+        "sku": "А4453-1222918"
+      }
+    ],
+    "price": 2200,
+    "stock": 18,
+    "description": "Матеріал : натуральна замша , шкіра , текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/c72d85e4-6d39-4e56-886a-44c9e6273b3b.jpg"
+    ]
+  },
+  {
+    "id": "crm-16tupxz",
+    "createdAt": "2026-11-12T19:59:36.362Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "209810",
+    "name": "Nike P-6000 Light Grey 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 4,
+        "sku": "А4991-1450019"
+      },
+      {
+        "size": "42",
+        "price": 2300,
+        "stock": 6,
+        "sku": "А4991-1450020"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 5,
+        "sku": "А4991-1450021"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 6,
+        "sku": "А4991-1450022"
+      },
+      {
+        "size": "45",
+        "price": 2300,
+        "stock": 1,
+        "sku": "А4991-1450023"
+      }
+    ],
+    "price": 2300,
+    "stock": 22,
+    "description": "Матеріал : натуральна замша , шкіра , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/72e86f74-ed4a-456f-9c90-0c6ac2fb0362.jpg"
+    ]
+  },
+  {
+    "id": "crm-19ni82w",
+    "createdAt": "2026-11-12T19:59:36.522Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "211058",
+    "name": "Nike V2K Grey White 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2400,
+        "stock": 1,
+        "sku": "A5034-1460108"
+      },
+      {
+        "size": "42",
+        "price": 2400,
+        "stock": 4,
+        "sku": "A5034-1460109"
+      },
+      {
+        "size": "43",
+        "price": 2400,
+        "stock": 4,
+        "sku": "A5034-1460110"
+      },
+      {
+        "size": "44",
+        "price": 2400,
+        "stock": 6,
+        "sku": "A5034-1460111"
+      },
+      {
+        "size": "45",
+        "price": 2400,
+        "stock": 1,
+        "sku": "A5034-1460112"
+      }
+    ],
+    "price": 2400,
+    "stock": 16,
+    "description": "Матеріал : натуральна замша , текстиль , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/189a5e3a-52cb-4466-92db-bf76bcf2c3e8.jpg"
+    ]
+  },
+  {
+    "id": "crm-bccq4o",
+    "createdAt": "2026-11-12T19:59:36.758Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "216204",
+    "name": "Nike V2K Run White Holographic Pink 37",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "37",
+        "price": 2100,
+        "stock": 3,
+        "sku": "В5139-1502591"
+      },
+      {
+        "size": "38",
+        "price": 2100,
+        "stock": 5,
+        "sku": "В5139-1502592"
+      },
+      {
+        "size": "39",
+        "price": 2100,
+        "stock": 6,
+        "sku": "В5139-1502593"
+      },
+      {
+        "size": "40",
+        "price": 2100,
+        "stock": 3,
+        "sku": "В5139-1502594"
+      },
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 2,
+        "sku": "В5139-1502595"
+      }
+    ],
+    "price": 2100,
+    "stock": 19,
+    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/c2fe1d39-5a74-46e5-9c1e-fb3c3123e886.jpg"
+    ]
+  },
+  {
+    "id": "crm-1s18gkd",
+    "createdAt": "2026-11-12T19:59:36.944Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "217356",
+    "name": "Nike Initiator Black White 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 6,
+        "sku": "А5175-1509382"
+      },
+      {
+        "size": "42",
+        "price": 2200,
+        "stock": 2,
+        "sku": "А5175-1509383"
+      },
+      {
+        "size": "43",
+        "price": 2200,
+        "stock": 8,
+        "sku": "А5175-1509384"
+      },
+      {
+        "size": "44",
+        "price": 2200,
+        "stock": 10,
+        "sku": "А5175-1509385"
+      },
+      {
+        "size": "45",
+        "price": 2200,
+        "stock": 3,
+        "sku": "А5175-1509386"
+      }
+    ],
+    "price": 2200,
+    "stock": 29,
+    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/26973d3a-b6f7-411d-ad13-03d679a08217.jpg"
+    ]
+  },
+  {
+    "id": "crm-1ln8543",
+    "createdAt": "2026-11-12T19:59:37.149Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "217361",
+    "name": "Nike Initiator Beige Grey 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 5,
+        "sku": "А5178-1509428"
+      },
+      {
+        "size": "42",
+        "price": 2200,
+        "stock": 3,
+        "sku": "А5178-1509429"
+      },
+      {
+        "size": "43",
+        "price": 2200,
+        "stock": 4,
+        "sku": "А5178-1509430"
+      },
+      {
+        "size": "44",
+        "price": 2200,
+        "stock": 9,
+        "sku": "А5178-1509431"
+      },
+      {
+        "size": "45",
+        "price": 2200,
+        "stock": 4,
+        "sku": "А5178-1509432"
+      }
+    ],
+    "price": 2200,
+    "stock": 25,
+    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/8904cd68-21e5-4745-be27-49444517842f.jpg"
+    ]
+  },
+  {
+    "id": "crm-18n23ap",
+    "createdAt": "2026-11-12T19:59:37.345Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "219710",
+    "name": "Nike Air Running Grey Black 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 2,
+        "sku": "A5327-1526676"
+      },
+      {
+        "size": "42",
+        "price": 2200,
+        "stock": 6,
+        "sku": "A5327-1526677"
+      },
+      {
+        "size": "43",
+        "price": 2200,
+        "stock": 6,
+        "sku": "A5327-1526678"
+      },
+      {
+        "size": "44",
+        "price": 2200,
+        "stock": 5,
+        "sku": "A5327-1526679"
+      },
+      {
+        "size": "45",
+        "price": 2200,
+        "stock": 3,
+        "sku": "A5327-1526680"
+      }
+    ],
+    "price": 2200,
+    "stock": 22,
+    "description": "Матеріал : текстиль , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/95d44c2d-b959-481e-8550-41acd2460490.jpg"
+    ]
+  },
+  {
+    "id": "crm-bpqyrx",
+    "createdAt": "2026-11-12T19:59:37.546Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "178040",
+    "name": "Nike Air Max Dn8 Light Grey White 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 2,
+        "sku": "А4382-1216274"
+      },
+      {
+        "size": "42",
+        "price": 2100,
+        "stock": 6,
+        "sku": "А4382-1216275"
+      },
+      {
+        "size": "43",
+        "price": 2100,
+        "stock": 3,
+        "sku": "А4382-1216276"
+      },
+      {
+        "size": "44",
+        "price": 2100,
+        "stock": 5,
+        "sku": "А4382-1216277"
+      },
+      {
+        "size": "45",
+        "price": 2100,
+        "stock": 1,
+        "sku": "А4382-1216278"
+      }
+    ],
+    "price": 2100,
+    "stock": 17,
+    "description": "Матеріал : текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/241df32d-31eb-4549-96c2-87fc427697c9.jpg"
+    ]
+  },
+  {
+    "id": "crm-bfrd2y",
+    "createdAt": "2026-11-12T19:59:37.734Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "178041",
+    "name": "Nike Air Max Dn8 Grey White Red 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 3,
+        "sku": "А4383-1216285"
+      },
+      {
+        "size": "42",
+        "price": 2100,
+        "stock": 5,
+        "sku": "А4383-1216286"
+      },
+      {
+        "size": "43",
+        "price": 2100,
+        "stock": 5,
+        "sku": "А4383-1216287"
+      },
+      {
+        "size": "44",
+        "price": 2100,
+        "stock": 5,
+        "sku": "А4383-1216288"
+      },
+      {
+        "size": "45",
+        "price": 2100,
+        "stock": 3,
+        "sku": "А4383-1216289"
+      }
+    ],
+    "price": 2100,
+    "stock": 21,
+    "description": "Матеріал : текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/52a6240e-5768-4127-a90e-31b38060b640.jpg"
+    ]
+  },
+  {
+    "id": "crm-1im24pn",
+    "createdAt": "2026-11-12T19:59:37.903Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "223292",
+    "name": "Nike Waffle S Beige Grey Black 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2400,
+        "stock": 3,
+        "sku": "A5479-1557904"
+      },
+      {
+        "size": "42",
+        "price": 2400,
+        "stock": 5,
+        "sku": "A5479-1557905"
+      },
+      {
+        "size": "43",
+        "price": 2400,
+        "stock": 4,
+        "sku": "A5479-1557906"
+      },
+      {
+        "size": "44",
+        "price": 2400,
+        "stock": 5,
+        "sku": "A5479-1557907"
+      },
+      {
+        "size": "45",
+        "price": 2400,
+        "stock": 3,
+        "sku": "A5479-1557908"
+      }
+    ],
+    "price": 2400,
+    "stock": 20,
+    "description": "Матеріал : натуральна замша , шкіра , наскрізна сіткаВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/61651c1e-c68b-4ac2-a37a-70a6723457d2.jpg"
+    ]
+  },
+  {
+    "id": "crm-1sgh8c",
+    "createdAt": "2026-11-12T19:59:38.089Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "226782",
+    "name": "Nike Initiator Dark Grey Beige 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 5,
+        "sku": "А5556-1583723"
+      },
+      {
+        "size": "42",
+        "price": 2300,
+        "stock": 8,
+        "sku": "А5556-1583724"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 3,
+        "sku": "А5556-1583725"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 10,
+        "sku": "А5556-1583726"
+      },
+      {
+        "size": "45",
+        "price": 2300,
+        "stock": 2,
+        "sku": "А5556-1583727"
+      }
+    ],
+    "price": 2300,
+    "stock": 28,
+    "description": "Матеріал : натуральна замша , шкіра , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/5d867249-8b28-4bd5-99f1-e25b95235974.jpg"
+    ]
+  },
+  {
+    "id": "crm-13ki8uc",
+    "createdAt": "2026-11-12T19:59:38.272Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "233652",
+    "name": "Nike Mind 002 M Light Smoke Grey 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2500,
+        "stock": 2,
+        "sku": "А5619-1634672"
+      },
+      {
+        "size": "42",
+        "price": 2500,
+        "stock": 4,
+        "sku": "А5619-1634673"
+      },
+      {
+        "size": "43",
+        "price": 2500,
+        "stock": 5,
+        "sku": "А5619-1634674"
+      },
+      {
+        "size": "44",
+        "price": 2500,
+        "stock": 6,
+        "sku": "А5619-1634675"
+      },
+      {
+        "size": "45",
+        "price": 2500,
+        "stock": 4,
+        "sku": "А5619-1634676"
+      }
+    ],
+    "price": 2500,
+    "stock": 21,
+    "description": "Матеріал : перфорований текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/19d45a88-d0f2-48f5-b174-90a8c5f4bc00.jpg"
+    ]
+  },
+  {
+    "id": "crm-1qmjd97",
+    "createdAt": "2026-11-12T19:59:38.474Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "241986",
+    "name": "Nike Air Max TL 2.5 Black 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 3,
+        "sku": "A5755-1693241"
+      },
+      {
+        "size": "42",
+        "price": 2300,
+        "stock": 4,
+        "sku": "A5755-1693242"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 2,
+        "sku": "A5755-1693243"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 4,
+        "sku": "A5755-1693244"
+      },
+      {
+        "size": "45",
+        "price": 2300,
+        "stock": 3,
+        "sku": "A5755-1693245"
+      }
+    ],
+    "price": 2300,
+    "stock": 16,
+    "description": "Матеріал : шкіра , сіткаВиробник : В'єтна",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/f5156bd1-bfeb-4a83-a0e0-2c77e44afe3a.jpg"
+    ]
+  },
+  {
+    "id": "crm-8edc9",
+    "createdAt": "2026-11-12T19:59:38.653Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "251475",
+    "name": "Nike Air Trainer 1 SP Utility M White Black Metallic 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 1600,
+        "stock": 2,
+        "sku": "A6017-1769523"
+      },
+      {
+        "size": "42",
+        "price": 1600,
+        "stock": 4,
+        "sku": "A6017-1769524"
+      },
+      {
+        "size": "43",
+        "price": 1600,
+        "stock": 4,
+        "sku": "A6017-1769525"
+      },
+      {
+        "size": "44",
+        "price": 1600,
+        "stock": 4,
+        "sku": "A6017-1769526"
+      },
+      {
+        "size": "45",
+        "price": 1600,
+        "stock": 2,
+        "sku": "A6017-1769527"
+      }
+    ],
+    "price": 1600,
+    "stock": 16,
+    "description": "Матеріал : шкіра , нубук , рефлективні вставкиВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/bb429c26-02d0-4d81-8b87-818f5c13e916.jpg"
+    ]
+  },
+  {
+    "id": "crm-1k0056i",
+    "createdAt": "2026-11-12T19:59:38.839Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "223295",
+    "name": "Nike Waffle S Dark Grey Black 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2400,
+        "stock": 2,
+        "sku": "A5482-1557937"
+      },
+      {
+        "size": "42",
+        "price": 2400,
+        "stock": 5,
+        "sku": "A5482-1557938"
+      },
+      {
+        "size": "43",
+        "price": 2400,
+        "stock": 3,
+        "sku": "A5482-1557939"
+      },
+      {
+        "size": "44",
+        "price": 2400,
+        "stock": 5,
+        "sku": "A5482-1557940"
+      },
+      {
+        "size": "45",
+        "price": 2400,
+        "stock": 3,
+        "sku": "A5482-1557941"
+      }
+    ],
+    "price": 2400,
+    "stock": 18,
+    "description": "Матеріал : натуральна замша , шкіра , наскрізна сіткаВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/e7a08f5f-18a2-4e23-b2c2-e619b347a60d.jpg"
+    ]
+  },
+  {
+    "id": "crm-1do6hcm",
+    "createdAt": "2026-11-12T19:59:39.076Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "223574",
+    "name": "Nike P-6000 White Beige Black 37",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "37",
+        "price": 2300,
+        "stock": 3,
+        "sku": "B5489-1560494"
+      },
+      {
+        "size": "38",
+        "price": 2300,
+        "stock": 5,
+        "sku": "B5489-1560495"
+      },
+      {
+        "size": "39",
+        "price": 2300,
+        "stock": 9,
+        "sku": "B5489-1560496"
+      },
+      {
+        "size": "40",
+        "price": 2300,
+        "stock": 3,
+        "sku": "B5489-1560497"
+      },
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 3,
+        "sku": "B5489-1560498"
+      }
+    ],
+    "price": 2300,
+    "stock": 23,
+    "description": "Матеріал : шкіра , наскрізна сітка , рефлективні всавкиВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/dc639c57-8951-4bec-a8b7-a1c5a6e948b4.jpg"
+    ]
+  },
+  {
+    "id": "crm-1dy631l",
+    "createdAt": "2026-11-12T19:59:39.256Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "223575",
+    "name": "Nike P-6000 Olive Beige 37",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "37",
+        "price": 2300,
+        "stock": 2,
+        "sku": "B5490-1560505"
+      },
+      {
+        "size": "38",
+        "price": 2300,
+        "stock": 5,
+        "sku": "B5490-1560506"
+      },
+      {
+        "size": "39",
+        "price": 2300,
+        "stock": 9,
+        "sku": "B5490-1560507"
+      },
+      {
+        "size": "40",
+        "price": 2300,
+        "stock": 1,
+        "sku": "B5490-1560508"
+      },
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 2,
+        "sku": "B5490-1560509"
+      }
+    ],
+    "price": 2300,
+    "stock": 19,
+    "description": "Матеріал : натуральна замша , шкіра , наскрізна сіткаВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/3a25b970-3bef-4555-a44d-53819ef3da7d.jpg"
+    ]
+  },
+  {
+    "id": "crm-d78c7f",
+    "createdAt": "2026-11-12T19:59:39.444Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "165523",
+    "name": "Nike Air Max Plus TN Lace Toggle Dark Grey Black 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2000,
+        "stock": 6,
+        "sku": "A4049-1131855"
+      },
+      {
+        "size": "42",
+        "price": 2000,
+        "stock": 12,
+        "sku": "A4049-1131856"
+      },
+      {
+        "size": "43",
+        "price": 2000,
+        "stock": 10,
+        "sku": "A4049-1131857"
+      },
+      {
+        "size": "44",
+        "price": 2000,
+        "stock": 5,
+        "sku": "A4049-1131858"
+      },
+      {
+        "size": "45",
+        "price": 2000,
+        "stock": 4,
+        "sku": "A4049-1131859"
+      }
+    ],
+    "price": 2000,
+    "stock": 37,
+    "description": "Матеріал : шкіра , сітка , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/c224dcc5-9099-4d56-89fe-53b88eb8e868.jpg"
+    ]
+  },
+  {
+    "id": "crm-jriyjj",
+    "createdAt": "2026-11-12T19:59:39.676Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "218434",
+    "name": "Nike Air Force 1 '07 M Black 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2000,
+        "stock": 2,
+        "sku": "A5225-1517069"
+      },
+      {
+        "size": "42",
+        "price": 2000,
+        "stock": 7,
+        "sku": "A5225-1517070"
+      },
+      {
+        "size": "43",
+        "price": 2000,
+        "stock": 2,
+        "sku": "A5225-1517071"
+      },
+      {
+        "size": "44",
+        "price": 2000,
+        "stock": 1,
+        "sku": "A5225-1517072"
+      },
+      {
+        "size": "45",
+        "price": 2000,
+        "stock": 3,
+        "sku": "A5225-1517073"
+      }
+    ],
+    "price": 2000,
+    "stock": 15,
+    "description": "Матеріал : шкіраВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/24b7d8f0-c31e-4592-a1fa-79acafebccce.jpg"
+    ]
+  },
+  {
+    "id": "crm-9buqrq",
+    "createdAt": "2026-11-12T19:59:39.892Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "219175",
+    "name": "Nike Air Max Plus Grey Black White 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 2,
+        "sku": "А5290-1523135"
+      },
+      {
+        "size": "42",
+        "price": 2200,
+        "stock": 2,
+        "sku": "А5290-1523136"
+      },
+      {
+        "size": "44",
+        "price": 2200,
+        "stock": 8,
+        "sku": "А5290-1523138"
+      },
+      {
+        "size": "45",
+        "price": 2200,
+        "stock": 2,
+        "sku": "А5290-1523139"
+      },
+      {
+        "size": "46",
+        "price": 2200,
+        "stock": 1,
+        "sku": "А5290-1523140"
+      }
+    ],
+    "price": 2200,
+    "stock": 15,
+    "description": "Матеріал : шкіра , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/66f45ec6-7432-4f01-bc82-ec22b0f77b6f.jpg"
+    ]
+  },
+  {
+    "id": "crm-91v52r",
+    "createdAt": "2026-11-12T19:59:40.094Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "219176",
+    "name": "Nike Air Max Plus Black White 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 2,
+        "sku": "А5291-1523147"
+      },
+      {
+        "size": "43",
+        "price": 2200,
+        "stock": 3,
+        "sku": "А5291-1523149"
+      },
+      {
+        "size": "44",
+        "price": 2200,
+        "stock": 7,
+        "sku": "А5291-1523150"
+      },
+      {
+        "size": "45",
+        "price": 2200,
+        "stock": 5,
+        "sku": "А5291-1523151"
+      },
+      {
+        "size": "46",
+        "price": 2200,
+        "stock": 2,
+        "sku": "А5291-1523152"
+      }
+    ],
+    "price": 2200,
+    "stock": 19,
+    "description": "Матеріал : шкіра , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/758db4a3-08e7-4111-b724-f72a904721b1.jpg"
+    ]
+  },
+  {
+    "id": "crm-y2wiv4",
+    "createdAt": "2026-11-12T19:59:40.241Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "251443",
+    "name": "Nike Air Trainer 1 SP Utility Grey Black Coral 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 1600,
+        "stock": 2,
+        "sku": "A6015-1769265"
+      },
+      {
+        "size": "42",
+        "price": 1600,
+        "stock": 4,
+        "sku": "A6015-1769266"
+      },
+      {
+        "size": "43",
+        "price": 1600,
+        "stock": 4,
+        "sku": "A6015-1769267"
+      },
+      {
+        "size": "44",
+        "price": 1600,
+        "stock": 3,
+        "sku": "A6015-1769268"
+      },
+      {
+        "size": "45",
+        "price": 1600,
+        "stock": 2,
+        "sku": "A6015-1769269"
+      }
+    ],
+    "price": 1600,
+    "stock": 15,
+    "description": "Матеріал : шкіра , нубук , рефлективні вставкиВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/b88fd80d-3fa8-4c82-9f11-72ba18d8f273.jpg"
+    ]
+  },
+  {
+    "id": "crm-5q10t3",
+    "createdAt": "2026-11-12T19:59:40.455Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "215987",
+    "name": "Nike V5 RNR Black 37",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "37",
+        "price": 2200,
+        "stock": 3,
+        "sku": "В5131-1500781"
+      },
+      {
+        "size": "38",
+        "price": 2200,
+        "stock": 6,
+        "sku": "В5131-1500782"
+      },
+      {
+        "size": "39",
+        "price": 2200,
+        "stock": 6,
+        "sku": "В5131-1500783"
+      },
+      {
+        "size": "40",
+        "price": 2200,
+        "stock": 2,
+        "sku": "В5131-1500784"
+      },
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 3,
+        "sku": "В5131-1500785"
+      }
+    ],
+    "price": 2200,
+    "stock": 20,
+    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/820cbe82-e36d-4397-9e22-62cfd95229e7.jpg"
+    ]
+  },
+  {
+    "id": "crm-2y4zvd",
+    "createdAt": "2026-11-12T19:59:40.600Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "215989",
+    "name": "Nike V5 RNR White Black 37",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "37",
+        "price": 2200,
+        "stock": 3,
+        "sku": "В5132-1500803"
+      },
+      {
+        "size": "38",
+        "price": 2200,
+        "stock": 6,
+        "sku": "В5132-1500804"
+      },
+      {
+        "size": "39",
+        "price": 2200,
+        "stock": 6,
+        "sku": "В5132-1500805"
+      },
+      {
+        "size": "40",
+        "price": 2200,
+        "stock": 6,
+        "sku": "В5132-1500806"
+      },
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 3,
+        "sku": "В5132-1500807"
+      }
+    ],
+    "price": 2200,
+    "stock": 24,
+    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/1858638e-9b9d-4801-8e16-7b52f74c626c.jpg"
+    ]
+  },
+  {
+    "id": "crm-6k2zdz",
+    "createdAt": "2026-11-12T19:59:40.782Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "215990",
+    "name": "Nike V5 RNR White Metallic Beige 37",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "37",
+        "price": 2200,
+        "stock": 2,
+        "sku": "В5133-1500814"
+      },
+      {
+        "size": "38",
+        "price": 2200,
+        "stock": 5,
+        "sku": "В5133-1500815"
+      },
+      {
+        "size": "39",
+        "price": 2200,
+        "stock": 4,
+        "sku": "В5133-1500816"
+      },
+      {
+        "size": "40",
+        "price": 2200,
+        "stock": 3,
+        "sku": "В5133-1500817"
+      },
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 2,
+        "sku": "В5133-1500818"
+      }
+    ],
+    "price": 2200,
+    "stock": 16,
+    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/c50aba5d-e415-4311-b02a-3a5386a03e34.jpg"
+    ]
+  },
+  {
+    "id": "crm-d0acai",
+    "createdAt": "2026-11-12T19:59:41.044Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "216202",
+    "name": "Nike V2K Run Black 37",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "37",
+        "price": 2100,
+        "stock": 2,
+        "sku": "В5137-1502568"
+      },
+      {
+        "size": "38",
+        "price": 2100,
+        "stock": 5,
+        "sku": "В5137-1502569"
+      },
+      {
+        "size": "39",
+        "price": 2100,
+        "stock": 6,
+        "sku": "В5137-1502570"
+      },
+      {
+        "size": "40",
+        "price": 2100,
+        "stock": 5,
+        "sku": "В5137-1502571"
+      },
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 2,
+        "sku": "В5137-1502572"
+      }
+    ],
+    "price": 2100,
+    "stock": 20,
+    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/99bb1401-0b47-40b5-beae-a7a8b82fd52e.jpg"
+    ]
+  },
+  {
+    "id": "crm-da9xzh",
+    "createdAt": "2026-11-12T19:59:41.282Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "216203",
+    "name": "Nike V2K Run Black Metallic 37",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "37",
+        "price": 2100,
+        "stock": 3,
+        "sku": "В5138-1502579"
+      },
+      {
+        "size": "38",
+        "price": 2100,
+        "stock": 6,
+        "sku": "В5138-1502580"
+      },
+      {
+        "size": "39",
+        "price": 2100,
+        "stock": 3,
+        "sku": "В5138-1502581"
+      },
+      {
+        "size": "40",
+        "price": 2100,
+        "stock": 5,
+        "sku": "В5138-1502582"
+      },
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 1,
+        "sku": "В5138-1502583"
+      }
+    ],
+    "price": 2100,
+    "stock": 18,
+    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/bdd870b6-e3ad-40ae-b2af-b2d7ea8f14f4.jpg"
+    ]
+  },
+  {
+    "id": "crm-18wyjhp",
+    "createdAt": "2026-11-12T19:59:41.482Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "219707",
+    "name": "Nike Air Running All Black 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 7,
+        "sku": "A5324-1526643"
+      },
+      {
+        "size": "42",
+        "price": 2200,
+        "stock": 14,
+        "sku": "A5324-1526644"
+      },
+      {
+        "size": "43",
+        "price": 2200,
+        "stock": 9,
+        "sku": "A5324-1526645"
+      },
+      {
+        "size": "44",
+        "price": 2200,
+        "stock": 12,
+        "sku": "A5324-1526646"
+      },
+      {
+        "size": "45",
+        "price": 2200,
+        "stock": 3,
+        "sku": "A5324-1526647"
+      }
+    ],
+    "price": 2200,
+    "stock": 45,
+    "description": "Матеріал : текстиль , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/11bf7411-134e-4f88-a353-1d7411e3eee0.jpg"
+    ]
+  },
+  {
+    "id": "crm-az8d5o",
+    "createdAt": "2026-11-12T19:59:41.630Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "165513",
+    "name": "Nike Air Max Plus TN Lace Toggle Black 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2000,
+        "stock": 6,
+        "sku": "A4047-1131792"
+      },
+      {
+        "size": "42",
+        "price": 2000,
+        "stock": 9,
+        "sku": "A4047-1131793"
+      },
+      {
+        "size": "43",
+        "price": 2000,
+        "stock": 10,
+        "sku": "A4047-1131794"
+      },
+      {
+        "size": "44",
+        "price": 2000,
+        "stock": 9,
+        "sku": "A4047-1131795"
+      },
+      {
+        "size": "45",
+        "price": 2000,
+        "stock": 3,
+        "sku": "A4047-1131796"
+      }
+    ],
+    "price": 2000,
+    "stock": 37,
+    "description": "Матеріал : шкіра , сітка , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/5fbf3e4b-286b-49dc-91f5-32d07e06f996.jpg"
+    ]
+  },
+  {
+    "id": "crm-109pq10",
+    "createdAt": "2026-11-12T19:59:41.836Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "170120",
+    "name": "Nike Air Huarache Brown Khaki 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2000,
+        "stock": 5,
+        "sku": "А4089-1158355"
+      },
+      {
+        "size": "43",
+        "price": 2000,
+        "stock": 13,
+        "sku": "А4089-1158357"
+      },
+      {
+        "size": "44",
+        "price": 2000,
+        "stock": 11,
+        "sku": "А4089-1158358"
+      },
+      {
+        "size": "45",
+        "price": 2000,
+        "stock": 3,
+        "sku": "А4089-1158359"
+      },
+      {
+        "size": "46",
+        "price": 2000,
+        "stock": 2,
+        "sku": "А4089-1158360"
+      }
+    ],
+    "price": 2000,
+    "stock": 34,
+    "description": "Матеріал : натуральна замша , шкіра , текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/7245a86d-0f1c-448c-9c12-5fe725a89044.jpg"
+    ]
+  },
+  {
+    "id": "crm-1c5lr07",
+    "createdAt": "2026-11-12T19:59:42.026Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "165509",
+    "name": "Nike Air Max Plus TN Lace Toggle All Black 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2000,
+        "stock": 5,
+        "sku": "A4045-1131767"
+      },
+      {
+        "size": "42",
+        "price": 2000,
+        "stock": 12,
+        "sku": "A4045-1131768"
+      },
+      {
+        "size": "43",
+        "price": 2000,
+        "stock": 11,
+        "sku": "A4045-1131769"
+      },
+      {
+        "size": "44",
+        "price": 2000,
+        "stock": 8,
+        "sku": "A4045-1131770"
+      },
+      {
+        "size": "45",
+        "price": 2000,
+        "stock": 5,
+        "sku": "A4045-1131771"
+      }
+    ],
+    "price": 2000,
+    "stock": 41,
+    "description": "Матеріал : шкіра , сітка , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/9802741c-17c9-4b1c-8b5d-9d895221b1ca.jpg"
+    ]
+  },
+  {
+    "id": "crm-e13zsd",
+    "createdAt": "2026-11-12T19:59:42.266Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "165518",
+    "name": "Nike Air Max Plus TN Lace Toggle Black White 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2000,
+        "stock": 2,
+        "sku": "A4048-1131829"
+      },
+      {
+        "size": "42",
+        "price": 2000,
+        "stock": 6,
+        "sku": "A4048-1131830"
+      },
+      {
+        "size": "43",
+        "price": 2000,
+        "stock": 11,
+        "sku": "A4048-1131831"
+      },
+      {
+        "size": "44",
+        "price": 2000,
+        "stock": 6,
+        "sku": "A4048-1131832"
+      },
+      {
+        "size": "45",
+        "price": 2000,
+        "stock": 5,
+        "sku": "A4048-1131833"
+      }
+    ],
+    "price": 2000,
+    "stock": 30,
+    "description": "Матеріал : шкіра , сітка , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/9a3f38df-3204-4977-a436-3c648e63f30f.jpg"
+    ]
+  },
+  {
+    "id": "crm-wyokob",
+    "createdAt": "2026-11-12T19:59:42.423Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "212274",
+    "name": "Nike Initiator Black Red 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2000,
+        "stock": 3,
+        "sku": "А5062-1470021"
+      },
+      {
+        "size": "42",
+        "price": 2000,
+        "stock": 4,
+        "sku": "А5062-1470022"
+      },
+      {
+        "size": "43",
+        "price": 2000,
+        "stock": 4,
+        "sku": "А5062-1470023"
+      },
+      {
+        "size": "44",
+        "price": 2000,
+        "stock": 5,
+        "sku": "А5062-1470024"
+      },
+      {
+        "size": "45",
+        "price": 2000,
+        "stock": 1,
+        "sku": "А5062-1470025"
+      }
+    ],
+    "price": 2000,
+    "stock": 17,
+    "description": "Матеріал : шкіра , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/7705f3fb-2460-413b-bbb4-a7d44cbf6a11.jpg"
+    ]
+  },
+  {
+    "id": "crm-selx2k",
+    "createdAt": "2026-11-12T19:59:42.656Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "209796",
+    "name": "Nike P-6000 Beige Green 37",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "37",
+        "price": 2300,
+        "stock": 2,
+        "sku": "В4982-1449861"
+      },
+      {
+        "size": "38",
+        "price": 2300,
+        "stock": 4,
+        "sku": "В4982-1449862"
+      },
+      {
+        "size": "39",
+        "price": 2300,
+        "stock": 4,
+        "sku": "В4982-1449863"
+      },
+      {
+        "size": "40",
+        "price": 2300,
+        "stock": 3,
+        "sku": "В4982-1449864"
+      },
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 2,
+        "sku": "В4982-1449865"
+      }
+    ],
+    "price": 2300,
+    "stock": 15,
+    "description": "Матеріал : шкіра , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/7c7c28d3-9123-47ce-9128-ad25212d38e6.jpg"
+    ]
+  },
+  {
+    "id": "crm-1nrko96",
+    "createdAt": "2026-11-12T19:59:42.805Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "214626",
+    "name": "Nike Zoom Winflo Light Grey 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 3,
+        "sku": "A5089-1489806"
+      },
+      {
+        "size": "42",
+        "price": 2200,
+        "stock": 4,
+        "sku": "A5089-1489807"
+      },
+      {
+        "size": "43",
+        "price": 2200,
+        "stock": 5,
+        "sku": "A5089-1489808"
+      },
+      {
+        "size": "44",
+        "price": 2200,
+        "stock": 3,
+        "sku": "A5089-1489809"
+      },
+      {
+        "size": "45",
+        "price": 2200,
+        "stock": 1,
+        "sku": "A5089-1489810"
+      }
+    ],
+    "price": 2200,
+    "stock": 16,
+    "description": "Матеріал : шкіра , натуральна замша , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/068acbe3-7f25-4d5d-83f0-2f52de02c139.jpg"
+    ]
+  },
+  {
+    "id": "crm-1lx7qt2",
+    "createdAt": "2026-11-12T19:59:42.953Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "217362",
+    "name": "Nike Initiator  Light Grey 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 3,
+        "sku": "А5179-1509439"
+      },
+      {
+        "size": "42",
+        "price": 2200,
+        "stock": 3,
+        "sku": "А5179-1509440"
+      },
+      {
+        "size": "43",
+        "price": 2200,
+        "stock": 4,
+        "sku": "А5179-1509441"
+      },
+      {
+        "size": "44",
+        "price": 2200,
+        "stock": 4,
+        "sku": "А5179-1509442"
+      },
+      {
+        "size": "45",
+        "price": 2200,
+        "stock": 2,
+        "sku": "А5179-1509443"
+      }
+    ],
+    "price": 2200,
+    "stock": 16,
+    "description": "Матеріал : шкіра , натуральна замша , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/4101b3ed-a709-42ae-bcea-dbc775d7275d.jpg"
+    ]
+  },
+  {
+    "id": "crm-1m77ci1",
+    "createdAt": "2026-11-12T19:59:43.134Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "217363",
+    "name": "Nike Initiator Beige Brown 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 2,
+        "sku": "А5180-1509450"
+      },
+      {
+        "size": "42",
+        "price": 2200,
+        "stock": 3,
+        "sku": "А5180-1509451"
+      },
+      {
+        "size": "43",
+        "price": 2200,
+        "stock": 6,
+        "sku": "А5180-1509452"
+      },
+      {
+        "size": "44",
+        "price": 2200,
+        "stock": 8,
+        "sku": "А5180-1509453"
+      },
+      {
+        "size": "45",
+        "price": 2200,
+        "stock": 4,
+        "sku": "А5180-1509454"
+      }
+    ],
+    "price": 2200,
+    "stock": 23,
+    "description": "Матеріал : шкіра  , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/6d41a8ca-0aa3-442b-9242-f264caa3fe07.jpg"
+    ]
+  },
+  {
+    "id": "crm-1mh6y70",
+    "createdAt": "2026-11-12T19:59:43.699Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "217364",
+    "name": "Nike Initiator Grey White 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 5,
+        "sku": "А5181-1509461"
+      },
+      {
+        "size": "42",
+        "price": 2200,
+        "stock": 2,
+        "sku": "А5181-1509462"
+      },
+      {
+        "size": "43",
+        "price": 2200,
+        "stock": 6,
+        "sku": "А5181-1509463"
+      },
+      {
+        "size": "44",
+        "price": 2200,
+        "stock": 6,
+        "sku": "А5181-1509464"
+      },
+      {
+        "size": "45",
+        "price": 2200,
+        "stock": 4,
+        "sku": "А5181-1509465"
+      }
+    ],
+    "price": 2200,
+    "stock": 23,
+    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/6da08678-fbb3-450d-9869-e64b13110873.jpg"
+    ]
+  },
+  {
+    "id": "crm-14r4i34",
+    "createdAt": "2026-11-12T19:59:43.923Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "219708",
+    "name": "Nike Air Running Light Grey Black 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 4,
+        "sku": "A5325-1526654"
+      },
+      {
+        "size": "42",
+        "price": 2200,
+        "stock": 7,
+        "sku": "A5325-1526655"
+      },
+      {
+        "size": "43",
+        "price": 2200,
+        "stock": 3,
+        "sku": "A5325-1526656"
+      },
+      {
+        "size": "44",
+        "price": 2200,
+        "stock": 5,
+        "sku": "A5325-1526657"
+      },
+      {
+        "size": "45",
+        "price": 2200,
+        "stock": 2,
+        "sku": "A5325-1526658"
+      }
+    ],
+    "price": 2200,
+    "stock": 21,
+    "description": "Матеріал : текстиль , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/5be5ad1e-5d09-4a53-b88a-d0e5079979d4.jpg"
+    ]
+  },
+  {
+    "id": "crm-15143s3",
+    "createdAt": "2026-11-12T19:59:44.074Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "219709",
+    "name": "Nike Air Running Black White 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 2,
+        "sku": "A5326-1526665"
+      },
+      {
+        "size": "42",
+        "price": 2200,
+        "stock": 5,
+        "sku": "A5326-1526666"
+      },
+      {
+        "size": "43",
+        "price": 2200,
+        "stock": 5,
+        "sku": "A5326-1526667"
+      },
+      {
+        "size": "44",
+        "price": 2200,
+        "stock": 4,
+        "sku": "A5326-1526668"
+      },
+      {
+        "size": "45",
+        "price": 2200,
+        "stock": 1,
+        "sku": "A5326-1526669"
+      }
+    ],
+    "price": 2200,
+    "stock": 17,
+    "description": "Матеріал : текстиль , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/6a2712fc-b21e-4904-9337-878d0070bbb6.jpg"
+    ]
+  },
+  {
+    "id": "crm-19h0wdm",
+    "createdAt": "2026-11-12T19:59:44.255Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "219715",
+    "name": "Nike Air Running Black 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 5,
+        "sku": "A5329-1526732"
+      },
+      {
+        "size": "42",
+        "price": 2200,
+        "stock": 11,
+        "sku": "A5329-1526733"
+      },
+      {
+        "size": "43",
+        "price": 2200,
+        "stock": 13,
+        "sku": "A5329-1526734"
+      },
+      {
+        "size": "44",
+        "price": 2200,
+        "stock": 9,
+        "sku": "A5329-1526735"
+      },
+      {
+        "size": "45",
+        "price": 2200,
+        "stock": 5,
+        "sku": "A5329-1526736"
+      }
+    ],
+    "price": 2200,
+    "stock": 43,
+    "description": "Матеріал : текстиль , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/fad45d37-2653-4a1e-845a-c0e278720846.jpg"
+    ]
+  },
+  {
+    "id": "crm-bt768l",
+    "createdAt": "2026-11-12T19:59:44.404Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "165510",
+    "name": "Nike Air Max Plus TN Lace Toggle White Black 42",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "42",
+        "price": 2000,
+        "stock": 2,
+        "sku": "A4046-1131780"
+      },
+      {
+        "size": "43",
+        "price": 2000,
+        "stock": 4,
+        "sku": "A4046-1131781"
+      },
+      {
+        "size": "44",
+        "price": 2000,
+        "stock": 8,
+        "sku": "A4046-1131782"
+      },
+      {
+        "size": "45",
+        "price": 2000,
+        "stock": 3,
+        "sku": "A4046-1131783"
+      }
+    ],
+    "price": 2000,
+    "stock": 17,
+    "description": "Матеріал : шкіра , сітка , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/73ff6a2f-b740-4a1c-a91a-f5fffaf9a614.jpg"
+    ]
+  },
+  {
+    "id": "crm-3ol6m6",
+    "createdAt": "2026-11-12T19:59:44.608Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "186141",
+    "name": "Nike Air Force 1 M White 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2000,
+        "stock": 4,
+        "sku": "А4721-1274355"
+      },
+      {
+        "size": "43",
+        "price": 2000,
+        "stock": 1,
+        "sku": "А4721-1274357"
+      },
+      {
+        "size": "44",
+        "price": 2000,
+        "stock": 7,
+        "sku": "А4721-1274358"
+      },
+      {
+        "size": "45",
+        "price": 2000,
+        "stock": 3,
+        "sku": "А4721-1274359"
+      }
+    ],
+    "price": 2000,
+    "stock": 15,
+    "description": "Матеріал : шкіраВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/68d8b2dc-f197-425f-9585-24d4d0009362.jpg"
+    ]
+  },
+  {
+    "id": "crm-2nl8k3",
+    "createdAt": "2026-11-12T19:59:44.756Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "154215",
+    "name": "Nike Air Force 1 Low New Beige Brown 36",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "36",
+      "38",
+      "39",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 1900,
+        "stock": 8,
+        "sku": "B3747-1055006"
+      },
+      {
+        "size": "38",
+        "price": 1900,
+        "stock": 11,
+        "sku": "B3747-1055008"
+      },
+      {
+        "size": "39",
+        "price": 1900,
+        "stock": 4,
+        "sku": "B3747-1055009"
+      },
+      {
+        "size": "41",
+        "price": 1900,
+        "stock": 8,
+        "sku": "B3747-1055011"
+      }
+    ],
+    "price": 1900,
+    "stock": 31,
+    "description": "Матеріал : шкіраВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/db0059fa-32fa-4d98-8f92-b6042e66716c.jpg"
+    ]
+  },
+  {
+    "id": "crm-1d1r6b1",
+    "createdAt": "2026-11-12T19:59:44.942Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "249144",
+    "name": "Nike ACG Mountain Fly 2 Low White Black Orange 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 5,
+        "sku": "A5939-1751136"
+      },
+      {
+        "size": "42",
+        "price": 2200,
+        "stock": 7,
+        "sku": "A5939-1751137"
+      },
+      {
+        "size": "43",
+        "price": 2200,
+        "stock": 1,
+        "sku": "A5939-1751138"
+      },
+      {
+        "size": "44",
+        "price": 2200,
+        "stock": 3,
+        "sku": "A5939-1751139"
+      }
+    ],
+    "price": 2200,
+    "stock": 16,
+    "description": "Матеріал : текстиль , нейлон , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/60620902-a412-4570-94c7-02c7545db732.jpg"
+    ]
+  },
+  {
+    "id": "crm-m4a19t",
+    "createdAt": "2026-11-12T19:59:45.094Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "162991",
+    "name": "Nike Air Zoom Pegasus Olive Grey 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 3,
+        "sku": "A4019-1113942"
+      },
+      {
+        "size": "42",
+        "price": 2100,
+        "stock": 7,
+        "sku": "A4019-1113943"
+      },
+      {
+        "size": "43",
+        "price": 2100,
+        "stock": 5,
+        "sku": "A4019-1113944"
+      },
+      {
+        "size": "46",
+        "price": 2100,
+        "stock": 1,
+        "sku": "A4019-1113947"
+      }
+    ],
+    "price": 2100,
+    "stock": 16,
+    "description": "Матеріал : текстиль , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/ce2687eb-ce54-4e36-8dc9-d04b102d62d8.jpg"
+    ]
+  },
+  {
+    "id": "crm-1o3w2nw",
+    "createdAt": "2026-11-12T19:59:45.249Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "156542",
+    "name": "Nike ACG Mountain Fly Low Beige Black 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 1800,
+        "stock": 5,
+        "sku": "A3878-1073514"
+      },
+      {
+        "size": "42",
+        "price": 1800,
+        "stock": 4,
+        "sku": "A3878-1073515"
+      },
+      {
+        "size": "43",
+        "price": 1800,
+        "stock": 3,
+        "sku": "A3878-1073516"
+      },
+      {
+        "size": "44",
+        "price": 1800,
+        "stock": 7,
+        "sku": "A3878-1073517"
+      }
+    ],
+    "price": 1800,
+    "stock": 19,
+    "description": "Матеріал : текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/c31b0ae8-0c1d-4ea0-92cd-af6f5767729a.jpg"
+    ]
+  },
+  {
+    "id": "crm-ytp66y",
+    "createdAt": "2026-11-12T19:59:45.439Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "161685",
+    "name": "Nike Air Zoom Fire  Black White 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2000,
+        "stock": 1,
+        "sku": "A3986-1104529"
+      },
+      {
+        "size": "43",
+        "price": 2000,
+        "stock": 5,
+        "sku": "A3986-1104531"
+      },
+      {
+        "size": "44",
+        "price": 2000,
+        "stock": 6,
+        "sku": "A3986-1104532"
+      },
+      {
+        "size": "45",
+        "price": 2000,
+        "stock": 3,
+        "sku": "A3986-1104533"
+      }
+    ],
+    "price": 2000,
+    "stock": 15,
+    "description": "Матеріал : шкіра , текстиль , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/4b200ec5-2a8c-486b-b3a1-668228955beb.jpg"
+    ]
+  },
+  {
+    "id": "crm-18tlxll",
+    "createdAt": "2026-11-12T19:59:45.672Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "223333",
+    "name": "Nike Waffle S Grey 42",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "42",
+        "price": 2400,
+        "stock": 5,
+        "sku": "A5481-1558262"
+      },
+      {
+        "size": "43",
+        "price": 2400,
+        "stock": 3,
+        "sku": "A5481-1558263"
+      },
+      {
+        "size": "44",
+        "price": 2400,
+        "stock": 4,
+        "sku": "A5481-1558264"
+      },
+      {
+        "size": "45",
+        "price": 2400,
+        "stock": 3,
+        "sku": "A5481-1558265"
+      }
+    ],
+    "price": 2400,
+    "stock": 15,
+    "description": "Матеріал : натуральна замша , шкіра , наскрізна сіткаВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/d5068f2a-c221-4984-83f8-9eb066a6f372.jpg"
+    ]
+  },
+  {
+    "id": "crm-8ja1j4",
+    "createdAt": "2026-11-12T19:59:45.853Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "249158",
+    "name": "Nike ACG Mountain Fly 2 Low Navy 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 5,
+        "sku": "A5945-1751251"
+      },
+      {
+        "size": "42",
+        "price": 2200,
+        "stock": 15,
+        "sku": "A5945-1751252"
+      },
+      {
+        "size": "43",
+        "price": 2200,
+        "stock": 7,
+        "sku": "A5945-1751253"
+      },
+      {
+        "size": "44",
+        "price": 2200,
+        "stock": 12,
+        "sku": "A5945-1751254"
+      }
+    ],
+    "price": 2200,
+    "stock": 39,
+    "description": "Матеріал : текстиль , нейлон , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/38ee7320-651a-47d1-b61f-c7af5b3924b0.jpg"
+    ]
+  },
+  {
+    "id": "crm-s88h04",
+    "createdAt": "2026-11-12T19:59:46.033Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "154908",
+    "name": "Nike P-6000 W Beige 36",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2100,
+        "stock": 5,
+        "sku": "B3786-1060238"
+      },
+      {
+        "size": "37",
+        "price": 2100,
+        "stock": 12,
+        "sku": "B3786-1060239"
+      },
+      {
+        "size": "38",
+        "price": 2100,
+        "stock": 1,
+        "sku": "B3786-1060240"
+      },
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 1,
+        "sku": "B3786-1060243"
+      }
+    ],
+    "price": 2100,
+    "stock": 19,
+    "description": "Матеріал : шкіра , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/77a51282-296e-440d-ad98-7813351bb6ef.jpg"
+    ]
+  },
+  {
+    "id": "crm-1ibfpjy",
+    "createdAt": "2026-11-12T19:59:46.239Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "178908",
+    "name": "Nike Cortez M All Black 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 5,
+        "sku": "А4450-1222881"
+      },
+      {
+        "size": "42",
+        "price": 2200,
+        "stock": 5,
+        "sku": "А4450-1222882"
+      },
+      {
+        "size": "44",
+        "price": 2200,
+        "stock": 5,
+        "sku": "А4450-1222884"
+      },
+      {
+        "size": "45",
+        "price": 2200,
+        "stock": 2,
+        "sku": "А4450-1222885"
+      }
+    ],
+    "price": 2200,
+    "stock": 17,
+    "description": "Матеріал : натуральна замша , шкіра , текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/be3c48cc-27b4-46b2-801e-9b29b902de5f.jpg"
+    ]
+  },
+  {
+    "id": "crm-fcxj3s",
+    "createdAt": "2026-11-12T19:59:46.404Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "178803",
+    "name": "Nike Cortez W White Black 36",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2200,
+        "stock": 4,
+        "sku": "В4448-1222119"
+      },
+      {
+        "size": "37",
+        "price": 2200,
+        "stock": 6,
+        "sku": "В4448-1222120"
+      },
+      {
+        "size": "38",
+        "price": 2200,
+        "stock": 5,
+        "sku": "В4448-1222121"
+      },
+      {
+        "size": "39",
+        "price": 2200,
+        "stock": 3,
+        "sku": "В4448-1222122"
+      }
+    ],
+    "price": 2200,
+    "stock": 18,
+    "description": "Матеріал : шкіраВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/4078b945-e047-4297-b019-4e8753bce1e8.jpg"
+    ]
+  },
+  {
+    "id": "crm-1hz0tt8",
+    "createdAt": "2026-11-12T19:59:46.583Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "215744",
+    "name": "Nike V5 RNR Orca 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 3,
+        "sku": "А5126-1499390"
+      },
+      {
+        "size": "42",
+        "price": 2200,
+        "stock": 3,
+        "sku": "А5126-1499391"
+      },
+      {
+        "size": "43",
+        "price": 2200,
+        "stock": 5,
+        "sku": "А5126-1499392"
+      },
+      {
+        "size": "44",
+        "price": 2200,
+        "stock": 6,
+        "sku": "А5126-1499393"
+      }
+    ],
+    "price": 2200,
+    "stock": 17,
+    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/e4c609d5-6105-4900-b762-446ea19fd161.jpg"
+    ]
   }
 ]
