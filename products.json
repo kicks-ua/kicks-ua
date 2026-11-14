@@ -4798,7 +4798,7 @@
       },
       {
         "size": "39",
-        "stock": 2,
+        "stock": 1,
         "price": 2200,
         "sku": "B6192-1814664"
       },
@@ -4816,7 +4816,7 @@
       }
     ],
     "price": 2200,
-    "stock": 12,
+    "stock": 11,
     "description": "👕  Жіночі кросівки ASICS Gel-Pickax Triple Black\n\n\n🔘Артикул B6192\n▪️Виробництво : В'єтнам\n▪️Матеріал верху : нубук , текстиль\n▪️Колір : чорний\n▪️Підошва : піна , гумовий протектор\n▪️Розміри:  37-41\n▪️Сезон :  весна / літо / осінь      \n📦Коробка ASICS , фірмовий папір\n🔢Розмірна сітка :\n▫️37 = 23,5 см ;\n▫️38 = 24.5 см ;\n▫️39 = 25 см ;\n▫️40 = 25,5 см ;\n▫️41 = 26,5 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
       "images/telegram/crm-1lgkjxw/1794504648386-01-reply_330700_330645-jpg.jpg",
@@ -5153,7 +5153,7 @@
     "variants": [
       {
         "size": "37",
-        "stock": 2,
+        "stock": 1,
         "price": 2200,
         "sku": "B6193-1815030"
       },
@@ -5172,12 +5172,12 @@
       {
         "size": "40",
         "price": 2200,
-        "stock": 3,
+        "stock": 2,
         "sku": "B6193-1815033"
       }
     ],
     "price": 2200,
-    "stock": 13,
+    "stock": 11,
     "description": "👕  Жіночі кросівки ASICS Gel-Pickax W White Black \n\n\n🔘Артикул B6193\n▪️Виробництво : В'єтнам\n▪️Матеріал верху : нубук , текстиль\n▪️Колір : білий\n▪️Підошва : піна , гумовий протектор\n▪️Розміри:  37-41\n▪️Сезон :  весна / літо / осінь      \n📦Коробка ASICS , фірмовий папір\n🔢Розмірна сітка :\n▫️37 = 24 см ;\n▫️38 = 24.5 см ;\n▫️39 = 25 см ;\n▫️40 = 25,5 см ;\n▫️41 = 26,5 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
       "images/telegram/crm-1h1f6xx/1794505012553-01-reply_330816_330760-jpg.jpg",
@@ -6287,13 +6287,13 @@
       },
       {
         "size": "45",
-        "stock": 2,
+        "stock": 3,
         "price": 2000,
         "sku": "А5166-1508880"
       }
     ],
     "price": 2000,
-    "stock": 19,
+    "stock": 20,
     "description": "👕 Чоловічі кросівки New Balance ABZORB 2000 Black Grey\n\n\n🔘Артикул A5166\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : сітка , текстиль \n▪️Колір : чорний\n▪️Підошва : піна , гумовий протектор , технологія ABZORB\n▪️Розміри:  41-45\n▪️Сезон :  весна / літо / осінь  \n📦Коробка New Balance , пергамент \n🔢Розмірна сітка :\n▫️41 = 26 см ;\n▫️42 = 26,5 см ;\n▫️43 = 27 см ;\n▫️44 = 28 см ;\n▫️45 = 28,5 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
       "images/telegram/crm-1hphc5y/1794506204997-01-reply_293001_292936-jpg.jpg",
@@ -9761,7 +9761,7 @@
       {
         "size": "40",
         "price": 2200,
-        "stock": 2,
+        "stock": 3,
         "sku": "B5294-1524991"
       },
       {
@@ -9772,7 +9772,7 @@
       }
     ],
     "price": 2200,
-    "stock": 17,
+    "stock": 18,
     "description": "Матеріал : текстильВиробник : В'єтнам",
     "images": [
       "https://easydrop.one/media/uploads/images/base/1ef89ea4-ffaa-404c-965d-abf2290cbebb.jpg"
@@ -10373,7 +10373,7 @@
       {
         "size": "43",
         "price": 2300,
-        "stock": 3,
+        "stock": 4,
         "sku": "A6117-1796931"
       },
       {
@@ -10390,7 +10390,7 @@
       }
     ],
     "price": 2300,
-    "stock": 24,
+    "stock": 25,
     "description": "Матеріал : шкіра , текстильВиробник : В'єтнам",
     "images": [
       "https://easydrop.one/media/uploads/images/base/378df693-2cca-4142-b65f-520ed2a5dbb0.jpg"
@@ -13861,7 +13861,8 @@
       "41",
       "42",
       "43",
-      "44"
+      "44",
+      "45"
     ],
     "specs": {},
     "variants": [
@@ -13888,10 +13889,16 @@
         "price": 2000,
         "stock": 8,
         "sku": "A5220-1516982"
+      },
+      {
+        "size": "45",
+        "stock": 1,
+        "price": 2000.0,
+        "sku": "A5220-1516983"
       }
     ],
     "price": 2000,
-    "stock": 29,
+    "stock": 30,
     "description": "Матеріал : шкіраВиробник : Вʼєтнам",
     "images": [
       "https://easydrop.one/media/uploads/images/base/65979c2b-0124-46d4-bd49-a78ce55ce77f.jpg"
@@ -14723,7 +14730,7 @@
       {
         "size": "45",
         "price": 2300,
-        "stock": 4,
+        "stock": 5,
         "sku": "A6118-1796922"
       },
       {
@@ -14734,7 +14741,7 @@
       }
     ],
     "price": 2300,
-    "stock": 26,
+    "stock": 27,
     "description": "Матеріал : натуральна замша , текстиль CorduraВиробник : В'єтнам",
     "images": [
       "https://easydrop.one/media/uploads/images/base/e4d30787-708d-4cbd-88df-fc34cc7e7fbd.jpg"
@@ -14789,7 +14796,7 @@
       {
         "size": "45",
         "price": 2300,
-        "stock": 3,
+        "stock": 4,
         "sku": "A5231-1517295"
       },
       {
@@ -14800,7 +14807,7 @@
       }
     ],
     "price": 2300,
-    "stock": 30,
+    "stock": 31,
     "description": "Матеріал : шкіра , текстиль CorduraВиробник : В'єтнам",
     "images": [
       "https://easydrop.one/media/uploads/images/base/7e35e090-ddcc-47e4-99c9-00454aeaa2f5.jpg"
@@ -19413,7 +19420,7 @@
       {
         "size": "41",
         "price": 2000,
-        "stock": 2,
+        "stock": 3,
         "sku": "A5042-1197897"
       },
       {
@@ -19436,7 +19443,7 @@
       }
     ],
     "price": 2000,
-    "stock": 18,
+    "stock": 19,
     "description": "Матеріал : шкіра , нубук , текстиль , WaterproofВиробник : Вʼєтнам",
     "images": [
       "https://easydrop.one/media/uploads/images/base/3c60fe89-e008-4566-aae2-826b078d8b3a.jpg"
@@ -20215,12 +20222,12 @@
       {
         "size": "45",
         "price": 1900,
-        "stock": 2,
+        "stock": 1,
         "sku": "А5927-1751055"
       }
     ],
     "price": 1900,
-    "stock": 33,
+    "stock": 32,
     "description": "Матеріал : шкіра , нубук ,текстильВиробник : Вʼєтнам",
     "images": [
       "https://easydrop.one/media/uploads/images/base/081c586f-7c37-4045-9614-1a783c89c3b1.jpg"
@@ -20255,7 +20262,7 @@
       {
         "size": "42",
         "price": 1900,
-        "stock": 3,
+        "stock": 4,
         "sku": "А4438-1221551"
       },
       {
@@ -20278,7 +20285,7 @@
       }
     ],
     "price": 1900,
-    "stock": 8,
+    "stock": 9,
     "description": "Матеріал : шкіра , текстильВиробник : Вʼєтнам",
     "images": [
       "https://easydrop.one/media/uploads/images/base/28ff21ce-7b5a-4f60-93f9-20b4236a1c0e.jpg"
@@ -21353,15 +21360,21 @@
     "brand": "Reebok",
     "category": "Reebok",
     "sizes": [
-      "43"
+      "46"
     ],
     "specs": {},
     "variants": [
       {
         "size": "43",
         "price": 2000,
-        "stock": 1,
+        "stock": 0,
         "sku": "A4893-1398315"
+      },
+      {
+        "size": "46",
+        "stock": 1,
+        "price": 2000.0,
+        "sku": "A4893-1398318"
       }
     ],
     "price": 2000,
@@ -21556,7 +21569,7 @@
       {
         "size": "42",
         "price": 2300,
-        "stock": 2,
+        "stock": 3,
         "sku": "A5737-1692084"
       },
       {
@@ -21579,7 +21592,7 @@
       }
     ],
     "price": 2300,
-    "stock": 10,
+    "stock": 11,
     "description": "Матеріал : текстильВиробник : В'єтнам",
     "images": [
       "https://easydrop.one/media/uploads/images/base/8661ea8d-91dc-47c8-ac9b-c68d4c8dc0f3.jpg"
@@ -22362,6 +22375,7 @@
     "category": "Merrell",
     "sizes": [
       "41",
+      "42",
       "44"
     ],
     "specs": {},
@@ -22373,6 +22387,12 @@
         "sku": "A3977-1101249"
       },
       {
+        "size": "42",
+        "stock": 1,
+        "price": 2000.0,
+        "sku": "A3977-1101250"
+      },
+      {
         "size": "44",
         "price": 2000,
         "stock": 14,
@@ -22380,7 +22400,7 @@
       }
     ],
     "price": 2000,
-    "stock": 18,
+    "stock": 19,
     "description": "Матеріал : шкіра , текстиль , сіткаВиробник : В'єтнам",
     "images": [
       "https://easydrop.one/media/uploads/images/base/b2f02560-57e4-476d-8c4b-bde93adf424b.jpg"
@@ -23558,6 +23578,7 @@
     "sizes": [
       "41",
       "42",
+      "43",
       "44"
     ],
     "specs": {},
@@ -23577,7 +23598,7 @@
       {
         "size": "43",
         "price": 2400,
-        "stock": 0,
+        "stock": 1,
         "sku": "А6020-1769615"
       },
       {
@@ -23588,7 +23609,7 @@
       }
     ],
     "price": 2400,
-    "stock": 6,
+    "stock": 7,
     "description": "Матеріал : натуральна замша , нубукаВиробник : В'єтнам",
     "images": [
       "https://easydrop.one/media/uploads/images/base/79d6d204-ed93-48c3-b0a0-1204822c69ba.jpg"
