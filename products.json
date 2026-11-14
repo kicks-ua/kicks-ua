@@ -19799,5 +19799,4603 @@
     "images": [
       "https://easydrop.one/media/uploads/images/base/fab73170-a9f3-4bf7-8993-acf16fe0c46c.jpg"
     ]
+  },
+  {
+    "id": "crm-5ln3i7",
+    "createdAt": "2026-11-14T07:43:33.817Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "243904",
+    "name": "Reebok Classic Leather 2400 Dark Matter Grey 41",
+    "brand": "Reebok",
+    "category": "Reebok",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2400,
+        "stock": 4,
+        "sku": "A5819-1705694"
+      },
+      {
+        "size": "42",
+        "price": 2400,
+        "stock": 8,
+        "sku": "A5819-1705695"
+      },
+      {
+        "size": "43",
+        "price": 2400,
+        "stock": 9,
+        "sku": "A5819-1705696"
+      },
+      {
+        "size": "44",
+        "price": 2400,
+        "stock": 3,
+        "sku": "A5819-1705697"
+      },
+      {
+        "size": "45",
+        "price": 2400,
+        "stock": 4,
+        "sku": "A5819-1705698"
+      },
+      {
+        "size": "46",
+        "price": 2400,
+        "stock": 4,
+        "sku": "A5819-1705699"
+      }
+    ],
+    "price": 2400,
+    "stock": 32,
+    "description": "Матеріал : натуральна замша , шкіраВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/0013a297-cd7b-4c62-9337-555033e96fd6.jpg"
+    ]
+  },
+  {
+    "id": "crm-zgighr",
+    "createdAt": "2026-11-14T07:43:34.052Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "178727",
+    "name": "Reebok Zig Kinetica 2.5 Edge x Spyder Black White 41",
+    "brand": "Reebok",
+    "category": "Reebok",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 1900,
+        "stock": 2,
+        "sku": "А4435-1221517"
+      },
+      {
+        "size": "42",
+        "price": 1900,
+        "stock": 3,
+        "sku": "А4435-1221518"
+      },
+      {
+        "size": "43",
+        "price": 1900,
+        "stock": 4,
+        "sku": "А4435-1221519"
+      },
+      {
+        "size": "44",
+        "price": 1900,
+        "stock": 2,
+        "sku": "А4435-1221520"
+      },
+      {
+        "size": "45",
+        "price": 1900,
+        "stock": 1,
+        "sku": "А4435-1221521"
+      }
+    ],
+    "price": 1900,
+    "stock": 12,
+    "description": "Матеріал : шкіра , текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/c0f8223e-ca8d-4d85-aeda-df15300423d7.jpg"
+    ]
+  },
+  {
+    "id": "crm-10uggym",
+    "createdAt": "2026-11-14T07:43:34.219Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "178728",
+    "name": "Reebok Zig Kinetica 2.5 Edge x Spyder Khaki Black 41",
+    "brand": "Reebok",
+    "category": "Reebok",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 1900,
+        "stock": 1,
+        "sku": "А4436-1221528"
+      },
+      {
+        "size": "42",
+        "price": 1900,
+        "stock": 5,
+        "sku": "А4436-1221529"
+      },
+      {
+        "size": "43",
+        "price": 1900,
+        "stock": 2,
+        "sku": "А4436-1221530"
+      },
+      {
+        "size": "44",
+        "price": 1900,
+        "stock": 6,
+        "sku": "А4436-1221531"
+      },
+      {
+        "size": "45",
+        "price": 1900,
+        "stock": 2,
+        "sku": "А4436-1221532"
+      }
+    ],
+    "price": 1900,
+    "stock": 16,
+    "description": "Матеріал : шкіра , текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/6188bf0b-c0ad-47c2-9ba5-3229e64804ed.jpg"
+    ]
+  },
+  {
+    "id": "crm-114g2nl",
+    "createdAt": "2026-11-14T07:43:34.456Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "178729",
+    "name": "Reebok Zig Kinetica 2.5 Edge x Spyder Grey Black 41",
+    "brand": "Reebok",
+    "category": "Reebok",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 1900,
+        "stock": 6,
+        "sku": "А4437-1221539"
+      },
+      {
+        "size": "42",
+        "price": 1900,
+        "stock": 7,
+        "sku": "А4437-1221540"
+      },
+      {
+        "size": "43",
+        "price": 1900,
+        "stock": 10,
+        "sku": "А4437-1221541"
+      },
+      {
+        "size": "44",
+        "price": 1900,
+        "stock": 9,
+        "sku": "А4437-1221542"
+      },
+      {
+        "size": "45",
+        "price": 1900,
+        "stock": 2,
+        "sku": "А4437-1221543"
+      }
+    ],
+    "price": 1900,
+    "stock": 34,
+    "description": "Матеріал : шкіра , текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/d3f3a174-b76b-4506-b737-35f04a529c0a.jpg"
+    ]
+  },
+  {
+    "id": "crm-14omh3s",
+    "createdAt": "2026-11-14T07:43:34.620Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "220616",
+    "name": "Reebok Classic Leather Winterized Grey White Black 41",
+    "brand": "Reebok",
+    "category": "Reebok",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 2,
+        "sku": "A5388-1533365"
+      },
+      {
+        "size": "42",
+        "price": 2100,
+        "stock": 4,
+        "sku": "A5388-1533366"
+      },
+      {
+        "size": "43",
+        "price": 2100,
+        "stock": 3,
+        "sku": "A5388-1533367"
+      },
+      {
+        "size": "44",
+        "price": 2100,
+        "stock": 2,
+        "sku": "A5388-1533368"
+      },
+      {
+        "size": "45",
+        "price": 2100,
+        "stock": 2,
+        "sku": "A5388-1533369"
+      }
+    ],
+    "price": 2100,
+    "stock": 13,
+    "description": "Матеріал : натуральна замша , шкіра , сітка ,Виробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/d2f87a76-3976-4349-bd0e-edaec772111a.jpg"
+    ]
+  },
+  {
+    "id": "crm-1079pi4",
+    "createdAt": "2026-11-14T07:43:34.861Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "155161",
+    "name": "Reebok Premier Trinity KFS Khaki 41",
+    "brand": "Reebok",
+    "category": "Reebok",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 1800,
+        "stock": 1,
+        "sku": "A3793-1062278"
+      },
+      {
+        "size": "42",
+        "price": 1800,
+        "stock": 4,
+        "sku": "A3793-1062279"
+      },
+      {
+        "size": "43",
+        "price": 1800,
+        "stock": 3,
+        "sku": "A3793-1062280"
+      },
+      {
+        "size": "44",
+        "price": 1800,
+        "stock": 3,
+        "sku": "A3793-1062281"
+      },
+      {
+        "size": "45",
+        "price": 1800,
+        "stock": 3,
+        "sku": "A3793-1062282"
+      }
+    ],
+    "price": 1800,
+    "stock": 14,
+    "description": "Матеріал : шкіра , сіткаВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/e394278f-2d0e-4f02-aa5d-b85a54a73c59.jpg"
+    ]
+  },
+  {
+    "id": "crm-d9oex9",
+    "createdAt": "2026-11-14T07:43:35.049Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "249135",
+    "name": "Reebok Zig Kinetica 2.5 Edge x Spyder All Black 41",
+    "brand": "Reebok",
+    "category": "Reebok",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 1900,
+        "stock": 3,
+        "sku": "А5927-1751051"
+      },
+      {
+        "size": "42",
+        "price": 1900,
+        "stock": 12,
+        "sku": "А5927-1751052"
+      },
+      {
+        "size": "43",
+        "price": 1900,
+        "stock": 4,
+        "sku": "А5927-1751053"
+      },
+      {
+        "size": "44",
+        "price": 1900,
+        "stock": 12,
+        "sku": "А5927-1751054"
+      },
+      {
+        "size": "45",
+        "price": 1900,
+        "stock": 3,
+        "sku": "А5927-1751055"
+      }
+    ],
+    "price": 1900,
+    "stock": 34,
+    "description": "Матеріал : шкіра , нубук ,текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/081c586f-7c37-4045-9614-1a783c89c3b1.jpg"
+    ]
+  },
+  {
+    "id": "crm-10akf2n",
+    "createdAt": "2026-11-14T07:43:35.215Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "178730",
+    "name": "Reebok Zig Kinetica 2.5 Edge x Spyder Black 41",
+    "brand": "Reebok",
+    "category": "Reebok",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 1900,
+        "stock": 2,
+        "sku": "А4438-1221550"
+      },
+      {
+        "size": "42",
+        "price": 1900,
+        "stock": 3,
+        "sku": "А4438-1221551"
+      },
+      {
+        "size": "43",
+        "price": 1900,
+        "stock": 1,
+        "sku": "А4438-1221552"
+      },
+      {
+        "size": "44",
+        "price": 1900,
+        "stock": 2,
+        "sku": "А4438-1221553"
+      },
+      {
+        "size": "45",
+        "price": 1900,
+        "stock": 1,
+        "sku": "А4438-1221554"
+      }
+    ],
+    "price": 1900,
+    "stock": 9,
+    "description": "Матеріал : шкіра , текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/28ff21ce-7b5a-4f60-93f9-20b4236a1c0e.jpg"
+    ]
+  },
+  {
+    "id": "crm-100hnvp",
+    "createdAt": "2026-11-14T07:43:35.435Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "178725",
+    "name": "Reebok Zig Kinetica 2.5 Edge x Spyder Grey 41",
+    "brand": "Reebok",
+    "category": "Reebok",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 1900,
+        "stock": 4,
+        "sku": "А4434-1221505"
+      },
+      {
+        "size": "42",
+        "price": 1900,
+        "stock": 8,
+        "sku": "А4434-1221506"
+      },
+      {
+        "size": "43",
+        "price": 1900,
+        "stock": 5,
+        "sku": "А4434-1221507"
+      },
+      {
+        "size": "44",
+        "price": 1900,
+        "stock": 7,
+        "sku": "А4434-1221508"
+      },
+      {
+        "size": "45",
+        "price": 1900,
+        "stock": 2,
+        "sku": "А4434-1221509"
+      }
+    ],
+    "price": 1900,
+    "stock": 26,
+    "description": "Матеріал : шкіра , текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/9798b627-167d-473d-a2dd-b8c969a50647.jpg"
+    ]
+  },
+  {
+    "id": "crm-xi041c",
+    "createdAt": "2026-11-14T07:43:35.629Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "178740",
+    "name": "Reebok Zig Kinetica 2.5 Edge x Spyder Beige Black 41",
+    "brand": "Reebok",
+    "category": "Reebok",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 1900,
+        "stock": 2,
+        "sku": "А4439-1221637"
+      },
+      {
+        "size": "42",
+        "price": 1900,
+        "stock": 4,
+        "sku": "А4439-1221638"
+      },
+      {
+        "size": "43",
+        "price": 1900,
+        "stock": 2,
+        "sku": "А4439-1221639"
+      },
+      {
+        "size": "44",
+        "price": 1900,
+        "stock": 5,
+        "sku": "А4439-1221640"
+      }
+    ],
+    "price": 1900,
+    "stock": 13,
+    "description": "Матеріал : шкіра , текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/c93e251b-66ec-48a2-b120-68f6ae6a6079.jpg"
+    ]
+  },
+  {
+    "id": "crm-4a9y8e",
+    "createdAt": "2026-11-14T07:43:35.782Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "155156",
+    "name": "Reebok Premier Trinity KFS Black White 41",
+    "brand": "Reebok",
+    "category": "Reebok",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 1800,
+        "stock": 1,
+        "sku": "A3789-1062222"
+      },
+      {
+        "size": "42",
+        "price": 1800,
+        "stock": 4,
+        "sku": "A3789-1062223"
+      },
+      {
+        "size": "43",
+        "price": 1800,
+        "stock": 2,
+        "sku": "A3789-1062224"
+      },
+      {
+        "size": "44",
+        "price": 1800,
+        "stock": 3,
+        "sku": "A3789-1062225"
+      }
+    ],
+    "price": 1800,
+    "stock": 10,
+    "description": "Матеріал : шкіра , сіткаВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/cc7e5619-81d2-40cf-8cf4-d247d0e65488.jpg"
+    ]
+  },
+  {
+    "id": "crm-1wnpfhw",
+    "createdAt": "2026-11-14T07:43:35.969Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "203440",
+    "name": "Reebok Classic Leather Grey Brown 41",
+    "brand": "Reebok",
+    "category": "Reebok",
+    "sizes": [
+      "41",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2000,
+        "stock": 3,
+        "sku": "A4895-1398335"
+      },
+      {
+        "size": "43",
+        "price": 2000,
+        "stock": 3,
+        "sku": "A4895-1398337"
+      },
+      {
+        "size": "44",
+        "price": 2000,
+        "stock": 2,
+        "sku": "A4895-1398338"
+      },
+      {
+        "size": "45",
+        "price": 2000,
+        "stock": 3,
+        "sku": "A4895-1398339"
+      }
+    ],
+    "price": 2000,
+    "stock": 11,
+    "description": "Матеріал : натуральна шкіраВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/f237b57d-70f3-4490-8795-4d02b4c71438.jpg"
+    ]
+  },
+  {
+    "id": "crm-1sq2drd",
+    "createdAt": "2026-11-14T07:43:36.167Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "219552",
+    "name": "Reebok Club C Brown White 43",
+    "brand": "Reebok",
+    "category": "Reebok",
+    "sizes": [
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 1,
+        "sku": "А5318-1525762"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 2,
+        "sku": "А5318-1525763"
+      },
+      {
+        "size": "45",
+        "price": 2300,
+        "stock": 1,
+        "sku": "А5318-1525764"
+      },
+      {
+        "size": "46",
+        "price": 2300,
+        "stock": 1,
+        "sku": "А5318-1525765"
+      }
+    ],
+    "price": 2300,
+    "stock": 5,
+    "description": "Матеріал : натуральна замша , шкіраВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/d0e8b732-1e7d-4628-9d91-78fbf7acbf37.jpg"
+    ]
+  },
+  {
+    "id": "crm-sz73sw",
+    "createdAt": "2026-11-14T07:43:36.317Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "203439",
+    "name": "Reebok Classic Leather Dark Navy 41",
+    "brand": "Reebok",
+    "category": "Reebok",
+    "sizes": [
+      "41",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2000,
+        "stock": 3,
+        "sku": "A4894-1398324"
+      },
+      {
+        "size": "43",
+        "price": 2000,
+        "stock": 1,
+        "sku": "A4894-1398326"
+      },
+      {
+        "size": "44",
+        "price": 2000,
+        "stock": 5,
+        "sku": "A4894-1398327"
+      },
+      {
+        "size": "45",
+        "price": 2000,
+        "stock": 2,
+        "sku": "A4894-1398328"
+      }
+    ],
+    "price": 2000,
+    "stock": 11,
+    "description": "Матеріал : натуральна шкіраВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/8481f0f4-bc3d-416a-aa7c-a147401bdc8e.jpg"
+    ]
+  },
+  {
+    "id": "crm-st8rcg",
+    "createdAt": "2026-11-14T07:43:36.507Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "117123",
+    "name": "Reebok Classic M Army Green 44",
+    "brand": "Reebok",
+    "category": "Reebok",
+    "sizes": [
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "44",
+        "price": 1800,
+        "stock": 10,
+        "sku": "А1531-816749"
+      },
+      {
+        "size": "45",
+        "price": 1800,
+        "stock": 1,
+        "sku": "А1531-816750"
+      },
+      {
+        "size": "46",
+        "price": 1800,
+        "stock": 3,
+        "sku": "А1531-816751"
+      }
+    ],
+    "price": 1800,
+    "stock": 14,
+    "description": "Матеріал : натуральна замшаВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/ebaeeea6-1147-4ad0-a07a-859f29d19db9.jpg"
+    ]
+  },
+  {
+    "id": "crm-u5n6c3",
+    "createdAt": "2026-11-14T07:43:36.709Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "123169",
+    "name": "Reebok Classic New Black White 44",
+    "brand": "Reebok",
+    "category": "Reebok",
+    "sizes": [
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "44",
+        "price": 1800,
+        "stock": 12,
+        "sku": "А3141-864441"
+      },
+      {
+        "size": "45",
+        "price": 1800,
+        "stock": 4,
+        "sku": "А3141-864442"
+      },
+      {
+        "size": "46",
+        "price": 1800,
+        "stock": 4,
+        "sku": "А3141-864443"
+      }
+    ],
+    "price": 1800,
+    "stock": 20,
+    "description": "Матеріал : натуральна замша , текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/d3bd756d-ca89-43b6-9e6d-64b27150ff85.jpeg"
+    ]
+  },
+  {
+    "id": "crm-1sg2s2e",
+    "createdAt": "2026-11-14T07:43:36.897Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "219553",
+    "name": "Reebok Club C Brown 44",
+    "brand": "Reebok",
+    "category": "Reebok",
+    "sizes": [
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 2,
+        "sku": "А5319-1525774"
+      },
+      {
+        "size": "45",
+        "price": 2300,
+        "stock": 4,
+        "sku": "А5319-1525775"
+      },
+      {
+        "size": "46",
+        "price": 2300,
+        "stock": 1,
+        "sku": "А5319-1525776"
+      }
+    ],
+    "price": 2300,
+    "stock": 7,
+    "description": "Матеріал : натуральна замша , шкіраВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/965b95c9-a22d-4ef1-80ea-b50430b37d26.jpg"
+    ]
+  },
+  {
+    "id": "crm-4k9jxd",
+    "createdAt": "2026-11-14T07:43:37.083Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "155157",
+    "name": "Reebok Premier Trinity KFS White Grey 42",
+    "brand": "Reebok",
+    "category": "Reebok",
+    "sizes": [
+      "42",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "42",
+        "price": 1800,
+        "stock": 1,
+        "sku": "A3790-1062234"
+      },
+      {
+        "size": "44",
+        "price": 1800,
+        "stock": 4,
+        "sku": "A3790-1062236"
+      },
+      {
+        "size": "45",
+        "price": 1800,
+        "stock": 3,
+        "sku": "A3790-1062237"
+      }
+    ],
+    "price": 1800,
+    "stock": 8,
+    "description": "Матеріал : шкіра , сіткаВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/55feaad2-bee5-41d1-a2ac-adfa62fdd14f.jpg"
+    ]
+  },
+  {
+    "id": "crm-tnpjj0",
+    "createdAt": "2026-11-14T07:43:37.304Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "117156",
+    "name": "Reebok Zig Kinetica || Grey Black 42",
+    "brand": "Reebok",
+    "category": "Reebok",
+    "sizes": [
+      "42",
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "42",
+        "price": 1700,
+        "stock": 3,
+        "sku": "A1534-817042"
+      },
+      {
+        "size": "44",
+        "price": 1700,
+        "stock": 5,
+        "sku": "A1534-817044"
+      }
+    ],
+    "price": 1700,
+    "stock": 8,
+    "description": "Матеріал : текстиль , нейлонВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/e03d4d50-bb32-4f16-8ec4-44f62a803480.jpg"
+    ]
+  },
+  {
+    "id": "crm-ng321w",
+    "createdAt": "2026-11-14T07:43:37.499Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "175831",
+    "name": "Reebok Classic Light Grey White 43",
+    "brand": "Reebok",
+    "category": "Reebok",
+    "sizes": [
+      "43",
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "43",
+        "price": 1700,
+        "stock": 1,
+        "sku": "A4228-1201246"
+      },
+      {
+        "size": "44",
+        "price": 1700,
+        "stock": 1,
+        "sku": "A4228-1201247"
+      }
+    ],
+    "price": 1700,
+    "stock": 2,
+    "description": "Матеріал : натуральна замша , текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/6e44bd3f-d796-41b7-9b87-ba5a8f87e96a.jpg"
+    ]
+  },
+  {
+    "id": "crm-zsv5b1",
+    "createdAt": "2026-11-14T07:43:37.646Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "244132",
+    "name": "Reebok Classic Leather 2400 Grey Black White 42",
+    "brand": "Reebok",
+    "category": "Reebok",
+    "sizes": [
+      "42",
+      "43"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "42",
+        "price": 2400,
+        "stock": 2,
+        "sku": "A5836-1706880"
+      },
+      {
+        "size": "43",
+        "price": 2400,
+        "stock": 2,
+        "sku": "A5836-1706881"
+      }
+    ],
+    "price": 2400,
+    "stock": 4,
+    "description": "Матеріал : натуральна замша , шкіраВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/1826f5f9-4ab3-43ed-aeb4-12bffda7c87a.jpg"
+    ]
+  },
+  {
+    "id": "crm-65maw5",
+    "createdAt": "2026-11-14T07:43:37.874Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "243906",
+    "name": "Reebok Classic Leather 2400 Grey Black 42",
+    "brand": "Reebok",
+    "category": "Reebok",
+    "sizes": [
+      "42",
+      "43"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "42",
+        "price": 2400,
+        "stock": 2,
+        "sku": "A5821-1705717"
+      },
+      {
+        "size": "43",
+        "price": 2400,
+        "stock": 2,
+        "sku": "A5821-1705718"
+      }
+    ],
+    "price": 2400,
+    "stock": 4,
+    "description": "Матеріал : натуральна замша , шкіраВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/5bf78d40-e5da-4dbe-a676-2ef3663bf85e.jpg"
+    ]
+  },
+  {
+    "id": "crm-1ufft4e",
+    "createdAt": "2026-11-14T07:43:38.070Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "169465",
+    "name": "Reebok Classic New All  White 44",
+    "brand": "Reebok",
+    "category": "Reebok",
+    "sizes": [
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "44",
+        "price": 1800,
+        "stock": 5,
+        "sku": "А4078-1154673"
+      },
+      {
+        "size": "45",
+        "price": 1800,
+        "stock": 1,
+        "sku": "А4078-1154674"
+      }
+    ],
+    "price": 1800,
+    "stock": 6,
+    "description": "Матеріал : шкіра , текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/98bae297-71a0-4380-b300-930c1409fb15.jpg"
+    ]
+  },
+  {
+    "id": "crm-1ytqhis",
+    "createdAt": "2026-11-14T07:43:38.282Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "219542",
+    "name": "Reebok Club C Dark Grey 44",
+    "brand": "Reebok",
+    "category": "Reebok",
+    "sizes": [
+      "44",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 4,
+        "sku": "А5317-1525653"
+      },
+      {
+        "size": "46",
+        "price": 2300,
+        "stock": 3,
+        "sku": "А5317-1525655"
+      }
+    ],
+    "price": 2300,
+    "stock": 7,
+    "description": "Матеріал : натуральна замша , шкіраВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/4e88c135-b7b7-4557-a777-969cc6aec637.jpg"
+    ]
+  },
+  {
+    "id": "crm-kwb5bp",
+    "createdAt": "2026-11-14T07:43:38.497Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "114006",
+    "name": "Reebok Classic M Black White 44",
+    "brand": "Reebok",
+    "category": "Reebok",
+    "sizes": [
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "44",
+        "price": 1800,
+        "stock": 19,
+        "sku": "А1244-794806"
+      },
+      {
+        "size": "45",
+        "price": 1800,
+        "stock": 3,
+        "sku": "А1244-794807"
+      }
+    ],
+    "price": 1800,
+    "stock": 22,
+    "description": "Матеріал : натуральна замшаВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/02776244-2fb7-4b00-84e1-36f36ec6f293.jpeg"
+    ]
+  },
+  {
+    "id": "crm-2wbxrj",
+    "createdAt": "2026-11-14T07:43:38.692Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "155159",
+    "name": "Reebok Premier Trinity KFS Grey 42",
+    "brand": "Reebok",
+    "category": "Reebok",
+    "sizes": [
+      "42",
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "42",
+        "price": 1800,
+        "stock": 2,
+        "sku": "A3792-1062256"
+      },
+      {
+        "size": "44",
+        "price": 1800,
+        "stock": 2,
+        "sku": "A3792-1062258"
+      }
+    ],
+    "price": 1800,
+    "stock": 4,
+    "description": "Матеріал : шкіра , сіткаВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/a10f0038-16ec-4acb-af3f-e7a7e7010990.jpg"
+    ]
+  },
+  {
+    "id": "crm-1wxp16v",
+    "createdAt": "2026-11-14T07:43:38.869Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "203441",
+    "name": "Reebok Classic Leather Black Brown 43",
+    "brand": "Reebok",
+    "category": "Reebok",
+    "sizes": [
+      "43",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "43",
+        "price": 2000,
+        "stock": 1,
+        "sku": "A4896-1398348"
+      },
+      {
+        "size": "46",
+        "price": 2000,
+        "stock": 3,
+        "sku": "A4896-1398351"
+      }
+    ],
+    "price": 2000,
+    "stock": 4,
+    "description": "Матеріал : натуральна шкіраВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/6d4d4168-e277-4287-99eb-e0b73dc87dd1.jpg"
+    ]
+  },
+  {
+    "id": "crm-mw3uny",
+    "createdAt": "2026-11-14T07:43:39.139Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "175837",
+    "name": "Reebok Classic Black White",
+    "brand": "Reebok",
+    "category": "Reebok",
+    "sizes": [
+      "43"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "43",
+        "price": 1700,
+        "stock": 1,
+        "sku": "A4232-1201302"
+      }
+    ],
+    "price": 1700,
+    "stock": 1,
+    "description": "Матеріал : натуральна замша , текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/35b90459-15fc-4f12-8198-9affeb5c4ce7.jpg"
+    ]
+  },
+  {
+    "id": "crm-4roafa",
+    "createdAt": "2026-11-14T07:43:39.337Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "243903",
+    "name": "Reebok Classic Leather 2400 All Black",
+    "brand": "Reebok",
+    "category": "Reebok",
+    "sizes": [
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "46",
+        "price": 2400,
+        "stock": 1,
+        "sku": "A5818-1705688"
+      }
+    ],
+    "price": 2400,
+    "stock": 1,
+    "description": "Матеріал : шкіраВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/e3e06aea-532e-4833-98d8-46544dd7d71b.jpg"
+    ]
+  },
+  {
+    "id": "crm-mc4na0",
+    "createdAt": "2026-11-14T07:43:39.527Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "175835",
+    "name": "Reebok Classic Dark Grey White 45",
+    "brand": "Reebok",
+    "category": "Reebok",
+    "sizes": [
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "45",
+        "price": 1700,
+        "stock": 2,
+        "sku": "A4231-1201287"
+      }
+    ],
+    "price": 1700,
+    "stock": 2,
+    "description": "Матеріал : натуральна замша , текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/20d6bec5-7cd5-4d0a-bf16-34aa44f0bd44.jpg"
+    ]
+  },
+  {
+    "id": "crm-li5u73",
+    "createdAt": "2026-11-14T07:43:39.676Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "175838",
+    "name": "Reebok Classic Black Brown Grey",
+    "brand": "Reebok",
+    "category": "Reebok",
+    "sizes": [
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "44",
+        "price": 1700,
+        "stock": 1,
+        "sku": "A4233-1201314"
+      }
+    ],
+    "price": 1700,
+    "stock": 1,
+    "description": "Матеріал : натуральна замша , текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/a46c71de-5364-4adf-b727-48f13b38c996.jpg"
+    ]
+  },
+  {
+    "id": "crm-nq2nqv",
+    "createdAt": "2026-11-14T07:43:39.830Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "175830",
+    "name": "Reebok Classic Grey White",
+    "brand": "Reebok",
+    "category": "Reebok",
+    "sizes": [
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 1700,
+        "stock": 1,
+        "sku": "A4227-1201233"
+      }
+    ],
+    "price": 1700,
+    "stock": 1,
+    "description": "Матеріал : натуральна замша , текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/bab49a1b-8503-4dc3-87a4-9c698456b1ad.jpg"
+    ]
+  },
+  {
+    "id": "crm-o029fu",
+    "createdAt": "2026-11-14T07:43:39.987Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "175833",
+    "name": "Reebok Classic Grey White Yellow",
+    "brand": "Reebok",
+    "category": "Reebok",
+    "sizes": [
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "44",
+        "price": 1700,
+        "stock": 1,
+        "sku": "A4230-1201269"
+      }
+    ],
+    "price": 1700,
+    "stock": 1,
+    "description": "Матеріал : натуральна замша , текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/d48c4e71-8cd8-4cb6-a0c8-d9e90bb2508b.jpg"
+    ]
+  },
+  {
+    "id": "crm-oa1v4t",
+    "createdAt": "2026-11-14T07:43:40.192Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "175832",
+    "name": "Reebok Classic Black Brown",
+    "brand": "Reebok",
+    "category": "Reebok",
+    "sizes": [
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "45",
+        "price": 1700,
+        "stock": 1,
+        "sku": "A4229-1201259"
+      }
+    ],
+    "price": 1700,
+    "stock": 1,
+    "description": "Матеріал : натуральна замша , текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/b4267371-f870-4a7e-951b-45513c18689b.jpg"
+    ]
+  },
+  {
+    "id": "crm-t96phv",
+    "createdAt": "2026-11-14T07:43:40.380Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "203438",
+    "name": "Reebok Classic Leather All Black",
+    "brand": "Reebok",
+    "category": "Reebok",
+    "sizes": [
+      "43"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "43",
+        "price": 2000,
+        "stock": 1,
+        "sku": "A4893-1398315"
+      }
+    ],
+    "price": 2000,
+    "stock": 1,
+    "description": "Матеріал : натуральна шкіраВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/6f873e5a-3156-43f1-9971-57a9bf2e34d6.jpg"
+    ]
+  },
+  {
+    "id": "crm-513r4m",
+    "createdAt": "2026-11-14T07:43:40.648Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "110043",
+    "name": "Reebok Zig Kinetica Dark Gray 44",
+    "brand": "Reebok",
+    "category": "Reebok",
+    "sizes": [
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "44",
+        "price": 1700,
+        "stock": 6,
+        "sku": "A1039-767032"
+      }
+    ],
+    "price": 1700,
+    "stock": 6,
+    "description": "Матеріал : текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/9255a537-9167-4eff-8473-4af35c6897f0.jpg"
+    ]
+  },
+  {
+    "id": "crm-1wq7397",
+    "createdAt": "2026-11-14T07:43:40.838Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "123172",
+    "name": "Reebok Classic New Khaki White 44",
+    "brand": "Reebok",
+    "category": "Reebok",
+    "sizes": [
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "44",
+        "price": 1800,
+        "stock": 2,
+        "sku": "А3143-864474"
+      }
+    ],
+    "price": 1800,
+    "stock": 2,
+    "description": "Матеріал : натуральна замша , текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/0e04c274-f08e-4606-936c-04b5979ac371.jpeg"
+    ]
+  },
+  {
+    "id": "crm-xhienr",
+    "createdAt": "2026-11-14T07:43:41.007Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "123165",
+    "name": "Reebok Classic New Black 44",
+    "brand": "Reebok",
+    "category": "Reebok",
+    "sizes": [
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "44",
+        "price": 1800,
+        "stock": 10,
+        "sku": "А3140-864406"
+      }
+    ],
+    "price": 1800,
+    "stock": 10,
+    "description": "Матеріал : натуральна замша , текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/18100a59-ca28-4a27-8f56-99dc99e5f4c5.jpeg"
+    ]
+  },
+  {
+    "id": "crm-1clx3sv",
+    "createdAt": "2026-11-14T07:43:41.212Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "146775",
+    "name": "Reebok Classic Leather Hexalite White Grey Beige 44",
+    "brand": "Reebok",
+    "category": "Reebok",
+    "sizes": [
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "44",
+        "price": 1700,
+        "stock": 3,
+        "sku": "A3544-1007066"
+      }
+    ],
+    "price": 1700,
+    "stock": 3,
+    "description": "Матеріал : натуральна замша , шкіра , текстиль CorduraВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/be8e954b-5923-4703-93af-ac287988eaca.jpeg"
+    ]
+  },
+  {
+    "id": "crm-1etx2um",
+    "createdAt": "2026-11-14T07:43:41.366Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "146769",
+    "name": "Reebok Classic Leather Hexalite Black",
+    "brand": "Reebok",
+    "category": "Reebok",
+    "sizes": [
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "44",
+        "price": 1700,
+        "stock": 1,
+        "sku": "A3540-1007015"
+      }
+    ],
+    "price": 1700,
+    "stock": 1,
+    "description": "Матеріал : натуральна замша , шкіра , текстиль CorduraВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/abc1dce1-56dd-47ac-85db-f0c76c22d84a.jpeg"
+    ]
+  },
+  {
+    "id": "crm-vcolb5",
+    "createdAt": "2026-11-14T07:43:41.589Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "241841",
+    "name": "Columbia Vibram Mega Grip  All Black 41",
+    "brand": "Columbia",
+    "category": "Columbia",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 2,
+        "sku": "A5737-1692083"
+      },
+      {
+        "size": "42",
+        "price": 2300,
+        "stock": 2,
+        "sku": "A5737-1692084"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 3,
+        "sku": "A5737-1692085"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 3,
+        "sku": "A5737-1692086"
+      },
+      {
+        "size": "45",
+        "price": 2300,
+        "stock": 1,
+        "sku": "A5737-1692087"
+      }
+    ],
+    "price": 2300,
+    "stock": 11,
+    "description": "Матеріал : текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/8661ea8d-91dc-47c8-ac9b-c68d4c8dc0f3.jpg"
+    ]
+  },
+  {
+    "id": "crm-uips88",
+    "createdAt": "2026-11-14T07:43:41.741Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "241842",
+    "name": "Columbia Vibram Mega Grip Grey Black 41",
+    "brand": "Columbia",
+    "category": "Columbia",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 1,
+        "sku": "A5738-1692094"
+      },
+      {
+        "size": "42",
+        "price": 2300,
+        "stock": 4,
+        "sku": "A5738-1692095"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 4,
+        "sku": "A5738-1692096"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 4,
+        "sku": "A5738-1692097"
+      },
+      {
+        "size": "45",
+        "price": 2300,
+        "stock": 2,
+        "sku": "A5738-1692098"
+      }
+    ],
+    "price": 2300,
+    "stock": 15,
+    "description": "Матеріал : текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/b56bffdb-47ec-44cd-9e8a-4ab90441bd19.jpg"
+    ]
+  },
+  {
+    "id": "crm-wgn031",
+    "createdAt": "2026-11-14T07:43:41.945Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "241845",
+    "name": "Columbia Fuga EX 3 Black 41",
+    "brand": "Columbia",
+    "category": "Columbia",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 3,
+        "sku": "A5741-1692127"
+      },
+      {
+        "size": "42",
+        "price": 2300,
+        "stock": 6,
+        "sku": "A5741-1692128"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 5,
+        "sku": "A5741-1692129"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 6,
+        "sku": "A5741-1692130"
+      },
+      {
+        "size": "45",
+        "price": 2300,
+        "stock": 3,
+        "sku": "A5741-1692131"
+      }
+    ],
+    "price": 2300,
+    "stock": 23,
+    "description": "Матеріал : текстиль , Waterproof , Gore-TexВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/4ec1e747-f114-4a69-8b6b-6c88759d2737.jpg"
+    ]
+  },
+  {
+    "id": "crm-s8wlfx",
+    "createdAt": "2026-11-14T07:43:42.144Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "241922",
+    "name": "Columbia Trail Vibram Olive Black 41",
+    "brand": "Columbia",
+    "category": "Columbia",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 2,
+        "sku": "A5745-1692784"
+      },
+      {
+        "size": "42",
+        "price": 2300,
+        "stock": 4,
+        "sku": "A5745-1692785"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 4,
+        "sku": "A5745-1692786"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 4,
+        "sku": "A5745-1692787"
+      },
+      {
+        "size": "45",
+        "price": 2300,
+        "stock": 2,
+        "sku": "A5745-1692788"
+      }
+    ],
+    "price": 2300,
+    "stock": 16,
+    "description": "Матеріал : сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/cb452634-2252-4196-a262-9093de867e49.jpg"
+    ]
+  },
+  {
+    "id": "crm-qazdl4",
+    "createdAt": "2026-11-14T07:43:42.335Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "241925",
+    "name": "Columbia Trail Vibram Black 41",
+    "brand": "Columbia",
+    "category": "Columbia",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 3,
+        "sku": "A5748-1692817"
+      },
+      {
+        "size": "42",
+        "price": 2300,
+        "stock": 5,
+        "sku": "A5748-1692818"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 6,
+        "sku": "A5748-1692819"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 6,
+        "sku": "A5748-1692820"
+      },
+      {
+        "size": "45",
+        "price": 2300,
+        "stock": 2,
+        "sku": "A5748-1692821"
+      }
+    ],
+    "price": 2300,
+    "stock": 22,
+    "description": "Матеріал : текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/b4b5bb9d-1da0-4102-b07c-c809e5850cde.jpg"
+    ]
+  },
+  {
+    "id": "crm-qkyza3",
+    "createdAt": "2026-11-14T07:43:42.521Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "241924",
+    "name": "Columbia Trail Vibram Grey 41",
+    "brand": "Columbia",
+    "category": "Columbia",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 2,
+        "sku": "A5747-1692806"
+      },
+      {
+        "size": "42",
+        "price": 2300,
+        "stock": 4,
+        "sku": "A5747-1692807"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 4,
+        "sku": "A5747-1692808"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 3,
+        "sku": "A5747-1692809"
+      },
+      {
+        "size": "45",
+        "price": 2300,
+        "stock": 2,
+        "sku": "A5747-1692810"
+      }
+    ],
+    "price": 2300,
+    "stock": 15,
+    "description": "Матеріал : текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/ed8012d4-dd89-46b0-a6c3-65eb3e76bf9c.jpg"
+    ]
+  },
+  {
+    "id": "crm-rywzqy",
+    "createdAt": "2026-11-14T07:43:42.712Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "241923",
+    "name": "Columbia Trail Vibram Beige Black 41",
+    "brand": "Columbia",
+    "category": "Columbia",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 2,
+        "sku": "A5746-1692795"
+      },
+      {
+        "size": "42",
+        "price": 2300,
+        "stock": 4,
+        "sku": "A5746-1692796"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 4,
+        "sku": "A5746-1692797"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 4,
+        "sku": "A5746-1692798"
+      },
+      {
+        "size": "45",
+        "price": 2300,
+        "stock": 1,
+        "sku": "A5746-1692799"
+      }
+    ],
+    "price": 2300,
+    "stock": 15,
+    "description": "Матеріал : текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/8fb95cbe-0b1e-4feb-b6ac-e03985db19eb.jpg"
+    ]
+  },
+  {
+    "id": "crm-sus62e",
+    "createdAt": "2026-11-14T07:43:42.902Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "241848",
+    "name": "Columbia Fuga EX 3 Beige Black 41",
+    "brand": "Columbia",
+    "category": "Columbia",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 3,
+        "sku": "A5744-1692160"
+      },
+      {
+        "size": "42",
+        "price": 2300,
+        "stock": 6,
+        "sku": "A5744-1692161"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 4,
+        "sku": "A5744-1692162"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 6,
+        "sku": "A5744-1692163"
+      },
+      {
+        "size": "45",
+        "price": 2300,
+        "stock": 3,
+        "sku": "A5744-1692164"
+      }
+    ],
+    "price": 2300,
+    "stock": 22,
+    "description": "Матеріал : текстиль , Waterproof , Gore-TexВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/7feb91ea-cb55-4b92-816e-cee94297f5f1.jpg"
+    ]
+  },
+  {
+    "id": "crm-vmo704",
+    "createdAt": "2026-11-14T07:43:43.092Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "241846",
+    "name": "Columbia Fuga EX 3 Olive Black Beige 41",
+    "brand": "Columbia",
+    "category": "Columbia",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 2,
+        "sku": "A5742-1692138"
+      },
+      {
+        "size": "42",
+        "price": 2300,
+        "stock": 4,
+        "sku": "A5742-1692139"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 6,
+        "sku": "A5742-1692140"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 5,
+        "sku": "A5742-1692141"
+      },
+      {
+        "size": "45",
+        "price": 2300,
+        "stock": 3,
+        "sku": "A5742-1692142"
+      }
+    ],
+    "price": 2300,
+    "stock": 20,
+    "description": "Матеріал : текстиль , Waterproof , Gore-TexВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/64a039ec-5b39-4998-bf73-f3e8b92a762c.jpg"
+    ]
+  },
+  {
+    "id": "crm-uspdx7",
+    "createdAt": "2026-11-14T07:43:43.268Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "241843",
+    "name": "Columbia Vibram Mega Grip Beige Black 41",
+    "brand": "Columbia",
+    "category": "Columbia",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 2,
+        "sku": "A5739-1692105"
+      },
+      {
+        "size": "42",
+        "price": 2300,
+        "stock": 4,
+        "sku": "A5739-1692106"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 4,
+        "sku": "A5739-1692107"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 4,
+        "sku": "A5739-1692108"
+      },
+      {
+        "size": "45",
+        "price": 2300,
+        "stock": 1,
+        "sku": "A5739-1692109"
+      }
+    ],
+    "price": 2300,
+    "stock": 15,
+    "description": "Матеріал : текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/3fc2ce3c-9382-47b3-8735-2ee0c15e5f00.jpg"
+    ]
+  },
+  {
+    "id": "crm-vwnsp3",
+    "createdAt": "2026-11-14T07:43:43.539Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "241847",
+    "name": "Columbia Fuga EX 3 White Navy 41",
+    "brand": "Columbia",
+    "category": "Columbia",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 2,
+        "sku": "A5743-1692149"
+      },
+      {
+        "size": "42",
+        "price": 2300,
+        "stock": 2,
+        "sku": "A5743-1692150"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 3,
+        "sku": "A5743-1692151"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 4,
+        "sku": "A5743-1692152"
+      }
+    ],
+    "price": 2300,
+    "stock": 11,
+    "description": "Матеріал : текстиль , Waterproof , Gore-TexВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/0034182d-d268-440c-9d83-1578e3b228a2.jpg"
+    ]
+  },
+  {
+    "id": "crm-w6nee2",
+    "createdAt": "2026-11-14T07:43:43.734Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "241844",
+    "name": "Columbia Vibram Mega Grip Olive Black 42",
+    "brand": "Columbia",
+    "category": "Columbia",
+    "sizes": [
+      "42",
+      "43",
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "42",
+        "price": 2300,
+        "stock": 2,
+        "sku": "A5740-1692117"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 4,
+        "sku": "A5740-1692118"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 3,
+        "sku": "A5740-1692119"
+      }
+    ],
+    "price": 2300,
+    "stock": 9,
+    "description": "Матеріал : текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/d89fe0f8-c1f2-4b99-8530-fac0e134db07.jpg"
+    ]
+  },
+  {
+    "id": "crm-1nxeq6d",
+    "createdAt": "2026-11-14T07:43:43.915Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "161147",
+    "name": "Merrell Moab Speed 2 All Black 41",
+    "brand": "Merrell",
+    "category": "Merrell",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2000,
+        "stock": 4,
+        "sku": "A3975-1101204"
+      },
+      {
+        "size": "42",
+        "price": 2000,
+        "stock": 14,
+        "sku": "A3975-1101205"
+      },
+      {
+        "size": "43",
+        "price": 2000,
+        "stock": 1,
+        "sku": "A3975-1101206"
+      },
+      {
+        "size": "44",
+        "price": 2000,
+        "stock": 10,
+        "sku": "A3975-1101207"
+      }
+    ],
+    "price": 2000,
+    "stock": 29,
+    "description": "Матеріал : шкіра , текстиль , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/0bc24d1b-990a-41ab-b9f8-fe94ab0198de.jpg"
+    ]
+  },
+  {
+    "id": "crm-15n7y46",
+    "createdAt": "2026-11-14T07:43:44.062Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "165469",
+    "name": "Merrell Drainmaker XTR Dark Grey Beige 41",
+    "brand": "Merrell",
+    "category": "Merrell",
+    "sizes": [
+      "41",
+      "42",
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 1600,
+        "stock": 1,
+        "sku": "A4038-1131608"
+      },
+      {
+        "size": "42",
+        "price": 1600,
+        "stock": 6,
+        "sku": "A4038-1131609"
+      },
+      {
+        "size": "44",
+        "price": 1600,
+        "stock": 1,
+        "sku": "A4038-1131611"
+      }
+    ],
+    "price": 1600,
+    "stock": 8,
+    "description": "Матеріал : нейлон , текстиль , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/8c0b0d09-c8ce-4402-9511-fbd096adad74.jpg"
+    ]
+  },
+  {
+    "id": "crm-8cghdj",
+    "createdAt": "2026-11-14T07:43:44.245Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "165475",
+    "name": "Merrell Drainmaker XTR Light Grey 41",
+    "brand": "Merrell",
+    "category": "Merrell",
+    "sizes": [
+      "41",
+      "43"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 1600,
+        "stock": 2,
+        "sku": "A4040-1131634"
+      },
+      {
+        "size": "43",
+        "price": 1600,
+        "stock": 2,
+        "sku": "A4040-1131636"
+      }
+    ],
+    "price": 1600,
+    "stock": 4,
+    "description": "Матеріал : нейлон , текстиль , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/61a2c60c-1808-40dc-ad9c-ae8da7606d62.jpg"
+    ]
+  },
+  {
+    "id": "crm-nuzr3q",
+    "createdAt": "2026-11-14T07:43:44.467Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "161151",
+    "name": "Merrell Moab Speed 2 Dark Grey 41",
+    "brand": "Merrell",
+    "category": "Merrell",
+    "sizes": [
+      "41",
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2000,
+        "stock": 4,
+        "sku": "A3977-1101249"
+      },
+      {
+        "size": "44",
+        "price": 2000,
+        "stock": 14,
+        "sku": "A3977-1101252"
+      }
+    ],
+    "price": 2000,
+    "stock": 18,
+    "description": "Матеріал : шкіра , текстиль , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/b2f02560-57e4-476d-8c4b-bde93adf424b.jpg"
+    ]
+  },
+  {
+    "id": "crm-7ieisn",
+    "createdAt": "2026-11-14T07:43:44.688Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "165488",
+    "name": "Merrell Drainmaker XTR Coyote Beige",
+    "brand": "Merrell",
+    "category": "Merrell",
+    "sizes": [
+      "42"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "42",
+        "price": 1600,
+        "stock": 1,
+        "sku": "A4044-1131701"
+      }
+    ],
+    "price": 1600,
+    "stock": 1,
+    "description": "Матеріал : нейлон , текстиль , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/e02ec4cb-3a49-44af-bccf-a3bdf552a6be.jpg"
+    ]
+  },
+  {
+    "id": "crm-8wforh",
+    "createdAt": "2026-11-14T07:43:44.837Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "165477",
+    "name": "Merrell Drainmaker XTR Beige Olive",
+    "brand": "Merrell",
+    "category": "Merrell",
+    "sizes": [
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 1600,
+        "stock": 1,
+        "sku": "A4041-1131646"
+      }
+    ],
+    "price": 1600,
+    "stock": 1,
+    "description": "Матеріал : нейлон , текстиль , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/d23c0b42-47ec-4ca7-a445-7524dd83a23a.jpg"
+    ]
+  },
+  {
+    "id": "crm-qjg94",
+    "createdAt": "2026-11-14T07:43:45.040Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "162729",
+    "name": "Salomon Odyssey Elmt Advanced Khaki Black 41",
+    "brand": "Salomon",
+    "category": "Salomon",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2000,
+        "stock": 1,
+        "sku": "A4012-1111824"
+      },
+      {
+        "size": "42",
+        "price": 2000,
+        "stock": 6,
+        "sku": "A4012-1111825"
+      },
+      {
+        "size": "43",
+        "price": 2000,
+        "stock": 2,
+        "sku": "A4012-1111826"
+      },
+      {
+        "size": "44",
+        "price": 2000,
+        "stock": 3,
+        "sku": "A4012-1111827"
+      },
+      {
+        "size": "45",
+        "price": 2000,
+        "stock": 1,
+        "sku": "A4012-1111828"
+      }
+    ],
+    "price": 2000,
+    "stock": 13,
+    "description": "Матеріал : текстиль , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/1f86186a-483b-40b2-a43e-105318f7a6af.jpg"
+    ]
+  },
+  {
+    "id": "crm-1j602e5",
+    "createdAt": "2026-11-14T07:43:45.209Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "218555",
+    "name": "Salomon Odyssey Elmt Advanced Dark Grey 41",
+    "brand": "Salomon",
+    "category": "Salomon",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2000,
+        "stock": 4,
+        "sku": "A5238-1518293"
+      },
+      {
+        "size": "42",
+        "price": 2000,
+        "stock": 12,
+        "sku": "A5238-1518294"
+      },
+      {
+        "size": "43",
+        "price": 2000,
+        "stock": 6,
+        "sku": "A5238-1518295"
+      },
+      {
+        "size": "44",
+        "price": 2000,
+        "stock": 5,
+        "sku": "A5238-1518296"
+      },
+      {
+        "size": "45",
+        "price": 2000,
+        "stock": 2,
+        "sku": "A5238-1518297"
+      }
+    ],
+    "price": 2000,
+    "stock": 29,
+    "description": "Матеріал : сітка , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/9efeb43f-2d78-484b-ac6c-61e23a0434c9.jpg"
+    ]
+  },
+  {
+    "id": "crm-1fk58di",
+    "createdAt": "2026-11-14T07:43:45.441Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "218558",
+    "name": "Salomon Odyssey Elmt Advanced Black White 41",
+    "brand": "Salomon",
+    "category": "Salomon",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2000,
+        "stock": 3,
+        "sku": "A5239-1518316"
+      },
+      {
+        "size": "42",
+        "price": 2000,
+        "stock": 8,
+        "sku": "A5239-1518317"
+      },
+      {
+        "size": "43",
+        "price": 2000,
+        "stock": 10,
+        "sku": "A5239-1518318"
+      },
+      {
+        "size": "44",
+        "price": 2000,
+        "stock": 9,
+        "sku": "A5239-1518319"
+      },
+      {
+        "size": "45",
+        "price": 2000,
+        "stock": 1,
+        "sku": "A5239-1518320"
+      }
+    ],
+    "price": 2000,
+    "stock": 31,
+    "description": "Матеріал : сітка , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/26a94e37-49d3-470c-bad4-7d5fc1ca80f2.jpg"
+    ]
+  },
+  {
+    "id": "crm-gjuk5",
+    "createdAt": "2026-11-14T07:43:45.638Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "162726",
+    "name": "Salomon Odyssey Elmt Advanced Grey Beige 41",
+    "brand": "Salomon",
+    "category": "Salomon",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2000,
+        "stock": 2,
+        "sku": "A4011-1111800"
+      },
+      {
+        "size": "42",
+        "price": 2000,
+        "stock": 4,
+        "sku": "A4011-1111801"
+      },
+      {
+        "size": "43",
+        "price": 2000,
+        "stock": 5,
+        "sku": "A4011-1111802"
+      },
+      {
+        "size": "44",
+        "price": 2000,
+        "stock": 5,
+        "sku": "A4011-1111803"
+      },
+      {
+        "size": "45",
+        "price": 2000,
+        "stock": 1,
+        "sku": "A4011-1111804"
+      }
+    ],
+    "price": 2000,
+    "stock": 17,
+    "description": "Матеріал : текстиль , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/cf9b6c52-c890-4ab6-8c9e-ccb45430a568.jpg"
+    ]
+  },
+  {
+    "id": "crm-1iw0gp6",
+    "createdAt": "2026-11-14T07:43:45.798Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "218554",
+    "name": "Salomon Odyssey Elmt Advanced All Black 42",
+    "brand": "Salomon",
+    "category": "Salomon",
+    "sizes": [
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "42",
+        "price": 2000,
+        "stock": 5,
+        "sku": "A5237-1518283"
+      },
+      {
+        "size": "43",
+        "price": 2000,
+        "stock": 4,
+        "sku": "A5237-1518284"
+      },
+      {
+        "size": "44",
+        "price": 2000,
+        "stock": 4,
+        "sku": "A5237-1518285"
+      },
+      {
+        "size": "45",
+        "price": 2000,
+        "stock": 3,
+        "sku": "A5237-1518286"
+      }
+    ],
+    "price": 2000,
+    "stock": 16,
+    "description": "Матеріал : сітка , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/5fad1d9d-50d0-4acf-a020-26118c30ff40.jpg"
+    ]
+  },
+  {
+    "id": "crm-y3cyz4",
+    "createdAt": "2026-11-14T07:43:46.178Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "154474",
+    "name": "Salomon XT-4 Lab W Silver Green 37",
+    "brand": "Salomon",
+    "category": "Salomon",
+    "sizes": [
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "37",
+        "price": 1900,
+        "stock": 1,
+        "sku": "B3773-1056950"
+      },
+      {
+        "size": "38",
+        "price": 1900,
+        "stock": 4,
+        "sku": "B3773-1056951"
+      },
+      {
+        "size": "39",
+        "price": 1900,
+        "stock": 2,
+        "sku": "B3773-1056952"
+      },
+      {
+        "size": "40",
+        "price": 1900,
+        "stock": 2,
+        "sku": "B3773-1056953"
+      }
+    ],
+    "price": 1900,
+    "stock": 9,
+    "description": "Матеріал : текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/4cbfe5c4-54a3-4569-8638-e9118a816c14.jpg"
+    ]
+  },
+  {
+    "id": "crm-6a8cml",
+    "createdAt": "2026-11-14T07:43:46.336Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "162731",
+    "name": "Salomon Odyssey Elmt Advanced Sand Black 41",
+    "brand": "Salomon",
+    "category": "Salomon",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2000,
+        "stock": 2,
+        "sku": "A4013-1111837"
+      },
+      {
+        "size": "42",
+        "price": 2000,
+        "stock": 5,
+        "sku": "A4013-1111838"
+      },
+      {
+        "size": "43",
+        "price": 2000,
+        "stock": 2,
+        "sku": "A4013-1111839"
+      },
+      {
+        "size": "44",
+        "price": 2000,
+        "stock": 4,
+        "sku": "A4013-1111840"
+      }
+    ],
+    "price": 2000,
+    "stock": 13,
+    "description": "Матеріал : текстиль , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/6efa0ffc-9f94-4d06-8d38-3a9df3e76294.jpg"
+    ]
+  },
+  {
+    "id": "crm-1fu4u2h",
+    "createdAt": "2026-11-14T07:43:46.582Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "218559",
+    "name": "Salomon Odyssey Elmt Advanced Light Grey Black 42",
+    "brand": "Salomon",
+    "category": "Salomon",
+    "sizes": [
+      "42",
+      "43",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "42",
+        "price": 2000,
+        "stock": 3,
+        "sku": "A5240-1518328"
+      },
+      {
+        "size": "43",
+        "price": 2000,
+        "stock": 2,
+        "sku": "A5240-1518329"
+      },
+      {
+        "size": "45",
+        "price": 2000,
+        "stock": 1,
+        "sku": "A5240-1518331"
+      }
+    ],
+    "price": 2000,
+    "stock": 6,
+    "description": "Матеріал : сітка , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/38d04c6c-268f-4e84-8b61-476d9f980e0c.jpg"
+    ]
+  },
+  {
+    "id": "crm-1ocqmr2",
+    "createdAt": "2026-11-14T07:43:46.765Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "131529",
+    "name": "Salomon XT-SLATE Brown 41",
+    "brand": "Salomon",
+    "category": "Salomon",
+    "sizes": [
+      "41",
+      "42",
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 1800,
+        "stock": 2,
+        "sku": "A3286-923856"
+      },
+      {
+        "size": "42",
+        "price": 1800,
+        "stock": 3,
+        "sku": "A3286-923857"
+      },
+      {
+        "size": "44",
+        "price": 1800,
+        "stock": 3,
+        "sku": "A3286-923859"
+      }
+    ],
+    "price": 1800,
+    "stock": 8,
+    "description": "Матеріал : нейлон , водонепроникний  текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/ce4ef4eb-2f27-4f0f-96ec-19cd4f534385.jpeg"
+    ]
+  },
+  {
+    "id": "crm-nzebxn",
+    "createdAt": "2026-11-14T07:43:46.919Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "149958",
+    "name": "Salomon XT-4 Carbon Black Grey Silver 41",
+    "brand": "Salomon",
+    "category": "Salomon",
+    "sizes": [
+      "41",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 1900,
+        "stock": 1,
+        "sku": "A3633-1028535"
+      },
+      {
+        "size": "44",
+        "price": 1900,
+        "stock": 1,
+        "sku": "A3633-1028538"
+      },
+      {
+        "size": "45",
+        "price": 1900,
+        "stock": 2,
+        "sku": "A3633-1028539"
+      }
+    ],
+    "price": 1900,
+    "stock": 4,
+    "description": "Матеріал : нейлон , текстиль , карбонВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/c30fe437-4974-4c62-902b-8ae546877454.jpg"
+    ]
+  },
+  {
+    "id": "crm-12igby",
+    "createdAt": "2026-11-14T07:43:47.155Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "164866",
+    "name": "Salomon Techamphibian 5 Black White 42",
+    "brand": "Salomon",
+    "category": "Salomon",
+    "sizes": [
+      "42",
+      "43",
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "42",
+        "price": 1600,
+        "stock": 1,
+        "sku": "A4031-1127627"
+      },
+      {
+        "size": "43",
+        "price": 1600,
+        "stock": 2,
+        "sku": "A4031-1127628"
+      },
+      {
+        "size": "44",
+        "price": 1600,
+        "stock": 3,
+        "sku": "A4031-1127629"
+      }
+    ],
+    "price": 1600,
+    "stock": 6,
+    "description": "Матеріал : сітка , текстиль , шнуровка QUICKFITВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/fdf7c12e-31fb-4e90-a472-bdabe1fbf9ad.jpg"
+    ]
+  },
+  {
+    "id": "crm-snjwtq",
+    "createdAt": "2026-11-14T07:43:47.384Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "153309",
+    "name": "Salomon XT PU.RE Advanced Grey White 41",
+    "brand": "Salomon",
+    "category": "Salomon",
+    "sizes": [
+      "41",
+      "42",
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 1900,
+        "stock": 3,
+        "sku": "A3715-1050554"
+      },
+      {
+        "size": "42",
+        "price": 1900,
+        "stock": 1,
+        "sku": "A3715-1050555"
+      },
+      {
+        "size": "44",
+        "price": 1900,
+        "stock": 3,
+        "sku": "A3715-1050557"
+      }
+    ],
+    "price": 1900,
+    "stock": 7,
+    "description": "Матеріал : текстиль , нейлонВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/bc521cea-3c82-4c9a-a473-11ec07af4cf1.jpg"
+    ]
+  },
+  {
+    "id": "crm-1yfow58",
+    "createdAt": "2026-11-14T07:43:47.602Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "164868",
+    "name": "Salomon Techamphibian 5 Black Grey 41",
+    "brand": "Salomon",
+    "category": "Salomon",
+    "sizes": [
+      "41",
+      "42",
+      "43"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 1600,
+        "stock": 2,
+        "sku": "A4033-1127648"
+      },
+      {
+        "size": "42",
+        "price": 1600,
+        "stock": 5,
+        "sku": "A4033-1127649"
+      },
+      {
+        "size": "43",
+        "price": 1600,
+        "stock": 4,
+        "sku": "A4033-1127650"
+      }
+    ],
+    "price": 1600,
+    "stock": 11,
+    "description": "Матеріал : сітка ,  текстиль , шнуровка QUICKFITВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/b1dea074-5266-429a-8e5a-22d1b0b22128.jpg"
+    ]
+  },
+  {
+    "id": "crm-1p5les8",
+    "createdAt": "2026-11-14T07:43:47.793Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "149960",
+    "name": "Salomon XT-4 Carbon Silver Beige 41",
+    "brand": "Salomon",
+    "category": "Salomon",
+    "sizes": [
+      "41",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 1900,
+        "stock": 1,
+        "sku": "A3635-1028557"
+      },
+      {
+        "size": "44",
+        "price": 1900,
+        "stock": 1,
+        "sku": "A3635-1028560"
+      },
+      {
+        "size": "45",
+        "price": 1900,
+        "stock": 1,
+        "sku": "A3635-1028561"
+      }
+    ],
+    "price": 1900,
+    "stock": 3,
+    "description": "Матеріал : нейлон , текстиль , карбонВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/dbfc9720-f2dd-42ff-b033-f4e5562c98db.jpg"
+    ]
+  },
+  {
+    "id": "crm-aiijfr",
+    "createdAt": "2026-11-14T07:43:47.982Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "224727",
+    "name": "Salomon Techamphibian 5 Black Grey Orange 42",
+    "brand": "Salomon",
+    "category": "Salomon",
+    "sizes": [
+      "42",
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "42",
+        "price": 1600,
+        "stock": 6,
+        "sku": "A5541-1570177"
+      },
+      {
+        "size": "44",
+        "price": 1600,
+        "stock": 2,
+        "sku": "A5541-1570179"
+      }
+    ],
+    "price": 1600,
+    "stock": 8,
+    "description": "Матеріал : сітка , текстиль , шнуровка QUICKFITВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/323c4970-418f-4bde-bad6-20c91f871689.jpg"
+    ]
+  },
+  {
+    "id": "crm-zhe4xy",
+    "createdAt": "2026-11-14T07:43:48.147Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "154465",
+    "name": "Salomon XT-4 Lab W White Silver 37",
+    "brand": "Salomon",
+    "category": "Salomon",
+    "sizes": [
+      "37",
+      "40"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "37",
+        "price": 1900,
+        "stock": 2,
+        "sku": "B3771-1056901"
+      },
+      {
+        "size": "40",
+        "price": 1900,
+        "stock": 1,
+        "sku": "B3771-1056904"
+      }
+    ],
+    "price": 1900,
+    "stock": 3,
+    "description": "Матеріал : текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/fa736bae-bb80-469b-8517-f69e213167ae.jpg"
+    ]
+  },
+  {
+    "id": "crm-npeq8o",
+    "createdAt": "2026-11-14T07:43:48.335Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "149959",
+    "name": "Salomon XT-4 Carbon Black Green Silver 41",
+    "brand": "Salomon",
+    "category": "Salomon",
+    "sizes": [
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 1900,
+        "stock": 2,
+        "sku": "A3634-1028546"
+      }
+    ],
+    "price": 1900,
+    "stock": 2,
+    "description": "Матеріал : нейлон , текстиль , карбонВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/2af14042-9317-4ae7-aea6-7fe8e814a17d.jpg"
+    ]
+  },
+  {
+    "id": "crm-1pn0m8x",
+    "createdAt": "2026-11-14T07:43:48.507Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "217851",
+    "name": "Lacoste L003 Neo Shot Black White 41",
+    "brand": "Lacoste",
+    "category": "Lacoste",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 2,
+        "sku": "A5186-1512935"
+      },
+      {
+        "size": "42",
+        "price": 2300,
+        "stock": 4,
+        "sku": "A5186-1512936"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 4,
+        "sku": "A5186-1512937"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 6,
+        "sku": "A5186-1512938"
+      },
+      {
+        "size": "45",
+        "price": 2300,
+        "stock": 1,
+        "sku": "A5186-1512939"
+      }
+    ],
+    "price": 2300,
+    "stock": 17,
+    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/0661e4b2-e69f-4ccb-a421-80c7f3b29dd1.jpg"
+    ]
+  },
+  {
+    "id": "crm-slnm18",
+    "createdAt": "2026-11-14T07:43:48.711Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "247563",
+    "name": "Lacoste Elite Active Black White 41",
+    "brand": "Lacoste",
+    "category": "Lacoste",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2400,
+        "stock": 5,
+        "sku": "А5894-1736180"
+      },
+      {
+        "size": "42",
+        "price": 2400,
+        "stock": 10,
+        "sku": "А5894-1736181"
+      },
+      {
+        "size": "43",
+        "price": 2400,
+        "stock": 1,
+        "sku": "А5894-1736182"
+      },
+      {
+        "size": "44",
+        "price": 2400,
+        "stock": 7,
+        "sku": "А5894-1736183"
+      },
+      {
+        "size": "45",
+        "price": 2400,
+        "stock": 2,
+        "sku": "А5894-1736184"
+      }
+    ],
+    "price": 2400,
+    "stock": 25,
+    "description": "Матеріал : шкіра , натуральна замшаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/eaf3e085-b473-4f8d-b637-95da9248c995.jpg"
+    ]
+  },
+  {
+    "id": "crm-ek2gf1",
+    "createdAt": "2026-11-14T07:43:48.895Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "248921",
+    "name": "Lacoste Elite Active Royal Blue White 41",
+    "brand": "Lacoste",
+    "category": "Lacoste",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2400,
+        "stock": 1,
+        "sku": "А5929-1749074"
+      },
+      {
+        "size": "42",
+        "price": 2400,
+        "stock": 1,
+        "sku": "А5929-1749075"
+      },
+      {
+        "size": "43",
+        "price": 2400,
+        "stock": 2,
+        "sku": "А5929-1749076"
+      },
+      {
+        "size": "44",
+        "price": 2400,
+        "stock": 1,
+        "sku": "А5929-1749077"
+      },
+      {
+        "size": "45",
+        "price": 2400,
+        "stock": 1,
+        "sku": "А5929-1749078"
+      }
+    ],
+    "price": 2400,
+    "stock": 6,
+    "description": "Матеріал : шкіра , натуральна замшаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/f4bc9302-49ce-4cec-a5dd-0c36b358fc33.jpg"
+    ]
+  },
+  {
+    "id": "crm-1p31euz",
+    "createdAt": "2026-11-14T07:43:49.110Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "217853",
+    "name": "Lacoste L003 Neo Shot Grey Beige 41",
+    "brand": "Lacoste",
+    "category": "Lacoste",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 2,
+        "sku": "A5188-1512957"
+      },
+      {
+        "size": "42",
+        "price": 2300,
+        "stock": 5,
+        "sku": "A5188-1512958"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 1,
+        "sku": "A5188-1512959"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 2,
+        "sku": "A5188-1512960"
+      }
+    ],
+    "price": 2300,
+    "stock": 10,
+    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/4612ecce-4246-4e7f-a41d-ac5cf2941f02.jpg"
+    ]
+  },
+  {
+    "id": "crm-zhxn18",
+    "createdAt": "2026-11-14T07:43:49.271Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "251490",
+    "name": "Lacoste Elite Active W Pale Grey Coral 36",
+    "brand": "Lacoste",
+    "category": "Lacoste",
+    "sizes": [
+      "36",
+      "38",
+      "39",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2400,
+        "stock": 1,
+        "sku": "B6025-1769664"
+      },
+      {
+        "size": "38",
+        "price": 2400,
+        "stock": 2,
+        "sku": "B6025-1769666"
+      },
+      {
+        "size": "39",
+        "price": 2400,
+        "stock": 1,
+        "sku": "B6025-1769667"
+      },
+      {
+        "size": "41",
+        "price": 2400,
+        "stock": 1,
+        "sku": "B6025-1769669"
+      }
+    ],
+    "price": 2400,
+    "stock": 5,
+    "description": "Матеріал : натуральна замша , нубукаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/0fbf78a0-de59-4d6d-8e4e-36ec0537dfe3.jpg"
+    ]
+  },
+  {
+    "id": "crm-101zzx5",
+    "createdAt": "2026-11-14T07:43:49.434Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "251484",
+    "name": "Lacoste Elite Active M Black White 41",
+    "brand": "Lacoste",
+    "category": "Lacoste",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2400,
+        "stock": 1,
+        "sku": "А6020-1769613"
+      },
+      {
+        "size": "42",
+        "price": 2400,
+        "stock": 1,
+        "sku": "А6020-1769614"
+      },
+      {
+        "size": "43",
+        "price": 2400,
+        "stock": 1,
+        "sku": "А6020-1769615"
+      },
+      {
+        "size": "44",
+        "price": 2400,
+        "stock": 4,
+        "sku": "А6020-1769616"
+      }
+    ],
+    "price": 2400,
+    "stock": 7,
+    "description": "Матеріал : натуральна замша , нубукаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/79d6d204-ed93-48c3-b0a0-1204822c69ba.jpg"
+    ]
+  },
+  {
+    "id": "crm-cw4u97",
+    "createdAt": "2026-11-14T07:43:49.679Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "248927",
+    "name": "Lacoste Elite Active Pale Grey Black 41",
+    "brand": "Lacoste",
+    "category": "Lacoste",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2400,
+        "stock": 1,
+        "sku": "А5931-1749115"
+      },
+      {
+        "size": "42",
+        "price": 2400,
+        "stock": 4,
+        "sku": "А5931-1749116"
+      },
+      {
+        "size": "43",
+        "price": 2400,
+        "stock": 2,
+        "sku": "А5931-1749117"
+      },
+      {
+        "size": "44",
+        "price": 2400,
+        "stock": 2,
+        "sku": "А5931-1749118"
+      }
+    ],
+    "price": 2400,
+    "stock": 9,
+    "description": "Матеріал : шкіра , натуральна замшаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/18d3bbe5-a695-413f-a9e2-3e204186d7bf.jpg"
+    ]
+  },
+  {
+    "id": "crm-13dv88t",
+    "createdAt": "2026-11-14T07:43:49.879Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "251488",
+    "name": "Lacoste Elite Active W Pink Grey 37",
+    "brand": "Lacoste",
+    "category": "Lacoste",
+    "sizes": [
+      "37",
+      "38",
+      "39",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "37",
+        "price": 2400,
+        "stock": 1,
+        "sku": "B6023-1769643"
+      },
+      {
+        "size": "38",
+        "price": 2400,
+        "stock": 2,
+        "sku": "B6023-1769644"
+      },
+      {
+        "size": "39",
+        "price": 2400,
+        "stock": 2,
+        "sku": "B6023-1769645"
+      },
+      {
+        "size": "41",
+        "price": 2400,
+        "stock": 1,
+        "sku": "B6023-1769647"
+      }
+    ],
+    "price": 2400,
+    "stock": 6,
+    "description": "Матеріал : натуральна замша , шкіраВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/4516626e-cc3a-4b2b-b593-bd200715ccd9.jpg"
+    ]
+  },
+  {
+    "id": "crm-133vmju",
+    "createdAt": "2026-11-14T07:43:50.134Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "251489",
+    "name": "Lacoste Elite Active W Brown Green 36",
+    "brand": "Lacoste",
+    "category": "Lacoste",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2400,
+        "stock": 1,
+        "sku": "B6024-1769653"
+      },
+      {
+        "size": "37",
+        "price": 2400,
+        "stock": 3,
+        "sku": "B6024-1769654"
+      },
+      {
+        "size": "38",
+        "price": 2400,
+        "stock": 2,
+        "sku": "B6024-1769655"
+      },
+      {
+        "size": "39",
+        "price": 2400,
+        "stock": 2,
+        "sku": "B6024-1769656"
+      }
+    ],
+    "price": 2400,
+    "stock": 8,
+    "description": "Матеріал : натуральна замша , шкіраВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/132d594c-5377-4749-a6fc-bc705d1a0871.jpg"
+    ]
+  },
+  {
+    "id": "crm-a45nti",
+    "createdAt": "2026-11-14T07:43:50.408Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "248919",
+    "name": "Lacoste Elite Active Light Grey Black 41",
+    "brand": "Lacoste",
+    "category": "Lacoste",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2400,
+        "stock": 1,
+        "sku": "А5928-1749057"
+      },
+      {
+        "size": "42",
+        "price": 2400,
+        "stock": 2,
+        "sku": "А5928-1749058"
+      },
+      {
+        "size": "43",
+        "price": 2400,
+        "stock": 1,
+        "sku": "А5928-1749059"
+      },
+      {
+        "size": "44",
+        "price": 2400,
+        "stock": 1,
+        "sku": "А5928-1749060"
+      }
+    ],
+    "price": 2400,
+    "stock": 5,
+    "description": "Матеріал : шкіра , натуральна замшаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/1c9fd020-42dd-4601-b140-b605cab2fc0b.jpg"
+    ]
+  },
+  {
+    "id": "crm-1qgzfbu",
+    "createdAt": "2026-11-14T07:43:50.608Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "217854",
+    "name": "Lacoste L003 Neo Shot Khaki Brown 41",
+    "brand": "Lacoste",
+    "category": "Lacoste",
+    "sizes": [
+      "41",
+      "43",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 2,
+        "sku": "A5189-1512968"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 2,
+        "sku": "A5189-1512970"
+      },
+      {
+        "size": "45",
+        "price": 2300,
+        "stock": 2,
+        "sku": "A5189-1512972"
+      }
+    ],
+    "price": 2300,
+    "stock": 6,
+    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/09a8a536-9cb6-4851-afa0-42cc23de78e0.jpg"
+    ]
+  },
+  {
+    "id": "crm-1pd10jy",
+    "createdAt": "2026-11-14T07:43:50.767Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "217850",
+    "name": "Lacoste L003 Neo Shot Grey 42",
+    "brand": "Lacoste",
+    "category": "Lacoste",
+    "sizes": [
+      "42",
+      "43",
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "42",
+        "price": 2300,
+        "stock": 4,
+        "sku": "A5185-1512925"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 4,
+        "sku": "A5185-1512926"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 1,
+        "sku": "A5185-1512927"
+      }
+    ],
+    "price": 2300,
+    "stock": 9,
+    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/5139c4fd-dd24-4319-9f87-0e27b87578a7.jpg"
+    ]
+  },
+  {
+    "id": "crm-1sob3pl",
+    "createdAt": "2026-11-14T07:43:50.946Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "247559",
+    "name": "Lacoste Elite Active All Black 41",
+    "brand": "Lacoste",
+    "category": "Lacoste",
+    "sizes": [
+      "41",
+      "42",
+      "43"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2400,
+        "stock": 4,
+        "sku": "А5892-1736146"
+      },
+      {
+        "size": "42",
+        "price": 2400,
+        "stock": 5,
+        "sku": "А5892-1736147"
+      },
+      {
+        "size": "43",
+        "price": 2400,
+        "stock": 2,
+        "sku": "А5892-1736148"
+      }
+    ],
+    "price": 2400,
+    "stock": 11,
+    "description": "Матеріал : шкіра , натуральна замшаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/59af8749-c6de-4782-955c-ba3685dc3ca3.jpg"
+    ]
+  },
+  {
+    "id": "crm-dg41n5",
+    "createdAt": "2026-11-14T07:43:51.185Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "248925",
+    "name": "Lacoste Elite Active Triple Black 41",
+    "brand": "Lacoste",
+    "category": "Lacoste",
+    "sizes": [
+      "41",
+      "42",
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2400,
+        "stock": 2,
+        "sku": "А5930-1749103"
+      },
+      {
+        "size": "42",
+        "price": 2400,
+        "stock": 2,
+        "sku": "А5930-1749104"
+      },
+      {
+        "size": "44",
+        "price": 2400,
+        "stock": 4,
+        "sku": "А5930-1749106"
+      }
+    ],
+    "price": 2400,
+    "stock": 8,
+    "description": "Матеріал : шкіра , натуральна замшаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/716632ed-fd8a-4aad-b974-d7f07d0a3d53.jpg"
+    ]
+  },
+  {
+    "id": "crm-1ot1t60",
+    "createdAt": "2026-11-14T07:43:51.382Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "217852",
+    "name": "Lacoste L003 Neo Shot Grey Khaki 42",
+    "brand": "Lacoste",
+    "category": "Lacoste",
+    "sizes": [
+      "42",
+      "43",
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "42",
+        "price": 2300,
+        "stock": 4,
+        "sku": "A5187-1512947"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 3,
+        "sku": "A5187-1512948"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 3,
+        "sku": "A5187-1512949"
+      }
+    ],
+    "price": 2300,
+    "stock": 10,
+    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/379c96e1-7bb4-4939-aa82-b92f754aa7e6.jpg"
+    ]
+  },
+  {
+    "id": "crm-c2616a",
+    "createdAt": "2026-11-14T07:43:51.535Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "248928",
+    "name": "Lacoste Elite Active Black 43",
+    "brand": "Lacoste",
+    "category": "Lacoste",
+    "sizes": [
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "43",
+        "price": 2400,
+        "stock": 1,
+        "sku": "А5932-1749128"
+      },
+      {
+        "size": "44",
+        "price": 2400,
+        "stock": 2,
+        "sku": "А5932-1749129"
+      },
+      {
+        "size": "45",
+        "price": 2400,
+        "stock": 2,
+        "sku": "А5932-1749130"
+      }
+    ],
+    "price": 2400,
+    "stock": 5,
+    "description": "Матеріал : шкіра , натуральна замшаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/c62e5e41-3a67-44ec-9a1b-884e40059a38.jpg"
+    ]
+  },
+  {
+    "id": "crm-1qqz10t",
+    "createdAt": "2026-11-14T07:43:51.732Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "217855",
+    "name": "Lacoste L003 Neo Shot White 41",
+    "brand": "Lacoste",
+    "category": "Lacoste",
+    "sizes": [
+      "41",
+      "42",
+      "43"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 1,
+        "sku": "A5190-1512979"
+      },
+      {
+        "size": "42",
+        "price": 2300,
+        "stock": 1,
+        "sku": "A5190-1512980"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 1,
+        "sku": "A5190-1512981"
+      }
+    ],
+    "price": 2300,
+    "stock": 3,
+    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/f92bfae3-dc94-46ca-b780-af9d259b9ac3.jpg"
+    ]
+  },
+  {
+    "id": "crm-1oj5cz0",
+    "createdAt": "2026-11-14T07:43:51.936Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "217849",
+    "name": "Lacoste L003 Neo Shot All Black 43",
+    "brand": "Lacoste",
+    "category": "Lacoste",
+    "sizes": [
+      "43",
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 3,
+        "sku": "A5184-1512915"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 1,
+        "sku": "A5184-1512916"
+      }
+    ],
+    "price": 2300,
+    "stock": 4,
+    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/2c90265e-112d-4398-99c4-de00303bf423.jpg"
+    ]
+  },
+  {
+    "id": "crm-zi0sj7",
+    "createdAt": "2026-11-14T07:43:52.088Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "251486",
+    "name": "Lacoste Elite Active M All Black 42",
+    "brand": "Lacoste",
+    "category": "Lacoste",
+    "sizes": [
+      "42",
+      "43"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "42",
+        "price": 2400,
+        "stock": 1,
+        "sku": "А6021-1769626"
+      },
+      {
+        "size": "43",
+        "price": 2400,
+        "stock": 1,
+        "sku": "А6021-1769627"
+      }
+    ],
+    "price": 2400,
+    "stock": 2,
+    "description": "Матеріал : натуральна замша , нубукаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/f115fc05-3850-480c-9e6c-1bb93faa37bf.jpg"
+    ]
+  },
+  {
+    "id": "crm-t5mtf6",
+    "createdAt": "2026-11-14T07:43:52.284Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "247561",
+    "name": "Lacoste Elite Active Grey 41",
+    "brand": "Lacoste",
+    "category": "Lacoste",
+    "sizes": [
+      "41",
+      "42"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2400,
+        "stock": 1,
+        "sku": "А5893-1736163"
+      },
+      {
+        "size": "42",
+        "price": 2400,
+        "stock": 2,
+        "sku": "А5893-1736164"
+      }
+    ],
+    "price": 2400,
+    "stock": 3,
+    "description": "Матеріал : шкіра , натуральна замшаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/7f58694e-d531-415d-bb9b-f064efec57dc.jpg"
+    ]
+  },
+  {
+    "id": "crm-11cb3mf",
+    "createdAt": "2026-11-14T07:43:52.449Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "157715",
+    "name": "Lacoste L003 2K24 Grey Black Silver 44",
+    "brand": "Lacoste",
+    "category": "Lacoste",
+    "sizes": [
+      "44",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "44",
+        "price": 1800,
+        "stock": 11,
+        "sku": "A3923-1080660"
+      },
+      {
+        "size": "46",
+        "price": 1800,
+        "stock": 1,
+        "sku": "A3923-1080662"
+      }
+    ],
+    "price": 1800,
+    "stock": 12,
+    "description": "Матеріал : шкіра , текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/ead5e7a1-3fcd-4e24-b27a-034959aaa73c.jpg"
+    ]
+  },
+  {
+    "id": "crm-z816u8",
+    "createdAt": "2026-11-14T07:43:52.639Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "251487",
+    "name": "Lacoste Elite Active M Black 42",
+    "brand": "Lacoste",
+    "category": "Lacoste",
+    "sizes": [
+      "42",
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "42",
+        "price": 2400,
+        "stock": 2,
+        "sku": "А6022-1769637"
+      },
+      {
+        "size": "44",
+        "price": 2400,
+        "stock": 2,
+        "sku": "А6022-1769639"
+      }
+    ],
+    "price": 2400,
+    "stock": 4,
+    "description": "Матеріал : натуральна замша , нубукВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/2ef356ee-fce7-4e76-9d8b-bd18a1960cdb.jpg"
+    ]
+  },
+  {
+    "id": "crm-1px07xw",
+    "createdAt": "2026-11-14T07:43:52.807Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "217856",
+    "name": "Lacoste L003 Neo Shot Light Grey",
+    "brand": "Lacoste",
+    "category": "Lacoste",
+    "sizes": [
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 1,
+        "sku": "A5191-1512990"
+      }
+    ],
+    "price": 2300,
+    "stock": 1,
+    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/fa141b89-eb28-473a-bdc9-e5d8549fc099.jpg"
+    ]
+  },
+  {
+    "id": "crm-zeh19l",
+    "createdAt": "2026-11-14T07:43:53.004Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "157708",
+    "name": "Lacoste L003 2K24 All Black Silver 44",
+    "brand": "Lacoste",
+    "category": "Lacoste",
+    "sizes": [
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "44",
+        "price": 1800,
+        "stock": 11,
+        "sku": "A3921-1080603"
+      }
+    ],
+    "price": 1800,
+    "stock": 11,
+    "description": "Матеріал : шкіра , текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/ec31bc79-47b2-4530-8d7d-b0f5658a4e33.jpg"
+    ]
+  },
+  {
+    "id": "crm-96yhkm",
+    "createdAt": "2026-11-14T07:43:53.156Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "239469",
+    "name": "Lacoste Elite Active Beige Grey Pink 39",
+    "brand": "Lacoste",
+    "category": "Lacoste",
+    "sizes": [
+      "39"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "39",
+        "price": 2200,
+        "stock": 2,
+        "sku": "B5661-1673319"
+      }
+    ],
+    "price": 2200,
+    "stock": 2,
+    "description": "Матеріал : натуральна замша , шкіра , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/1a3deccd-5f01-4b03-a6de-757764e61344.jpg"
+    ]
   }
 ]
