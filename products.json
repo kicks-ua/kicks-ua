@@ -13948,5 +13948,5856 @@
     "images": [
       "https://easydrop.one/media/uploads/images/base/4807fb4c-c4ef-440a-b0ff-dc585c7f8ce8.jpg"
     ]
+  },
+  {
+    "id": "crm-2egzhb",
+    "createdAt": "2026-11-14T07:42:37.456Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "220662",
+    "name": "Adidas Bermuda Light Grey Black 36",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 1800,
+        "stock": 3,
+        "sku": "B5401-1533768"
+      },
+      {
+        "size": "37",
+        "price": 1800,
+        "stock": 2,
+        "sku": "B5401-1533769"
+      },
+      {
+        "size": "38",
+        "price": 1800,
+        "stock": 6,
+        "sku": "B5401-1533770"
+      },
+      {
+        "size": "39",
+        "price": 1800,
+        "stock": 5,
+        "sku": "B5401-1533771"
+      },
+      {
+        "size": "40",
+        "price": 1800,
+        "stock": 2,
+        "sku": "B5401-1533772"
+      },
+      {
+        "size": "41",
+        "price": 1800,
+        "stock": 3,
+        "sku": "B5401-1533773"
+      }
+    ],
+    "price": 1800,
+    "stock": 21,
+    "description": "Матеріал : натуральна замша , шкіраВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/f94c5108-2c54-444a-b446-a5198847cf5b.jpg"
+    ]
+  },
+  {
+    "id": "crm-fp76od",
+    "createdAt": "2026-11-14T07:42:37.812Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "222998",
+    "name": "Adidas Climacool Dark Grey Black 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 2,
+        "sku": "A5471-1555246"
+      },
+      {
+        "size": "42",
+        "price": 2100,
+        "stock": 2,
+        "sku": "A5471-1555247"
+      },
+      {
+        "size": "43",
+        "price": 2100,
+        "stock": 4,
+        "sku": "A5471-1555248"
+      },
+      {
+        "size": "44",
+        "price": 2100,
+        "stock": 4,
+        "sku": "A5471-1555249"
+      },
+      {
+        "size": "45",
+        "price": 2100,
+        "stock": 2,
+        "sku": "A5471-1555250"
+      },
+      {
+        "size": "46",
+        "price": 2100,
+        "stock": 3,
+        "sku": "A5471-1555251"
+      }
+    ],
+    "price": 2100,
+    "stock": 17,
+    "description": "Матеріал : сітка , натуральна замшаВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/0fb0e5ab-87aa-4d3b-865c-0a7e7c80090f.jpg"
+    ]
+  },
+  {
+    "id": "crm-bjd59s",
+    "createdAt": "2026-11-14T07:42:38.087Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "222997",
+    "name": "Adidas Climacool All Black 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 3,
+        "sku": "A5470-1555235"
+      },
+      {
+        "size": "42",
+        "price": 2100,
+        "stock": 2,
+        "sku": "A5470-1555236"
+      },
+      {
+        "size": "43",
+        "price": 2100,
+        "stock": 5,
+        "sku": "A5470-1555237"
+      },
+      {
+        "size": "44",
+        "price": 2100,
+        "stock": 4,
+        "sku": "A5470-1555238"
+      },
+      {
+        "size": "45",
+        "price": 2100,
+        "stock": 3,
+        "sku": "A5470-1555239"
+      },
+      {
+        "size": "46",
+        "price": 2100,
+        "stock": 2,
+        "sku": "A5470-1555240"
+      }
+    ],
+    "price": 2100,
+    "stock": 19,
+    "description": "Матеріал : сітка , натуральна замшаВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/1fa709ca-bc6f-4098-902e-26c6ad0e90ed.jpg"
+    ]
+  },
+  {
+    "id": "crm-oeepsv",
+    "createdAt": "2026-11-14T07:42:38.270Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "218261",
+    "name": "Adidas Spezial Light Grey White 36",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2100,
+        "stock": 2,
+        "sku": "B5211-1516101"
+      },
+      {
+        "size": "37",
+        "price": 2100,
+        "stock": 3,
+        "sku": "B5211-1516102"
+      },
+      {
+        "size": "38",
+        "price": 2100,
+        "stock": 4,
+        "sku": "B5211-1516103"
+      },
+      {
+        "size": "39",
+        "price": 2100,
+        "stock": 4,
+        "sku": "B5211-1516104"
+      },
+      {
+        "size": "40",
+        "price": 2100,
+        "stock": 2,
+        "sku": "B5211-1516105"
+      },
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 3,
+        "sku": "B5211-1516106"
+      }
+    ],
+    "price": 2100,
+    "stock": 18,
+    "description": "Матеріал : натуральна замша , шкіра , текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/6bc322d7-e0fb-4ddb-8af4-be69c0a3e34c.jpg"
+    ]
+  },
+  {
+    "id": "crm-fan5dq",
+    "createdAt": "2026-11-14T07:42:38.467Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "240627",
+    "name": "Adidas Spezial White Black Beige 36",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2100,
+        "stock": 3,
+        "sku": "В5701-1682926"
+      },
+      {
+        "size": "37",
+        "price": 2100,
+        "stock": 3,
+        "sku": "В5701-1682927"
+      },
+      {
+        "size": "38",
+        "price": 2100,
+        "stock": 6,
+        "sku": "В5701-1682928"
+      },
+      {
+        "size": "39",
+        "price": 2100,
+        "stock": 6,
+        "sku": "В5701-1682929"
+      },
+      {
+        "size": "40",
+        "price": 2100,
+        "stock": 3,
+        "sku": "В5701-1682930"
+      },
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 3,
+        "sku": "В5701-1682931"
+      }
+    ],
+    "price": 2100,
+    "stock": 24,
+    "description": "Матеріал : шкіра , натуральна замшВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/1933a57b-274b-4466-84ae-06139b377320.JPG"
+    ]
+  },
+  {
+    "id": "crm-ff7kze",
+    "createdAt": "2026-11-14T07:42:38.620Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "222999",
+    "name": "Adidas Climacool Grey Black 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 3,
+        "sku": "A5472-1555257"
+      },
+      {
+        "size": "42",
+        "price": 2100,
+        "stock": 2,
+        "sku": "A5472-1555258"
+      },
+      {
+        "size": "43",
+        "price": 2100,
+        "stock": 5,
+        "sku": "A5472-1555259"
+      },
+      {
+        "size": "44",
+        "price": 2100,
+        "stock": 5,
+        "sku": "A5472-1555260"
+      },
+      {
+        "size": "45",
+        "price": 2100,
+        "stock": 3,
+        "sku": "A5472-1555261"
+      },
+      {
+        "size": "46",
+        "price": 2100,
+        "stock": 3,
+        "sku": "A5472-1555262"
+      }
+    ],
+    "price": 2100,
+    "stock": 21,
+    "description": "Матеріал : сітка , натуральна замшаВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/1434e644-f2f5-41b5-95ad-f30509aeb40a.jpg"
+    ]
+  },
+  {
+    "id": "crm-2yg6v9",
+    "createdAt": "2026-11-14T07:42:38.849Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "220660",
+    "name": "Adidas Bermuda Purple White 36",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 1800,
+        "stock": 3,
+        "sku": "B5399-1533746"
+      },
+      {
+        "size": "37",
+        "price": 1800,
+        "stock": 3,
+        "sku": "B5399-1533747"
+      },
+      {
+        "size": "38",
+        "price": 1800,
+        "stock": 5,
+        "sku": "B5399-1533748"
+      },
+      {
+        "size": "39",
+        "price": 1800,
+        "stock": 4,
+        "sku": "B5399-1533749"
+      },
+      {
+        "size": "40",
+        "price": 1800,
+        "stock": 2,
+        "sku": "B5399-1533750"
+      },
+      {
+        "size": "41",
+        "price": 1800,
+        "stock": 4,
+        "sku": "B5399-1533751"
+      }
+    ],
+    "price": 1800,
+    "stock": 21,
+    "description": "Матеріал : натуральна замша , шкіраВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/38ac9e4e-a0fe-4ca3-ae48-5d872b2920f8.jpg"
+    ]
+  },
+  {
+    "id": "crm-xdi74e",
+    "createdAt": "2026-11-14T07:42:39.046Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "249581",
+    "name": "Adidas Terrex 23 Khaki Black 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 2,
+        "sku": "A5957-1754770"
+      },
+      {
+        "size": "42",
+        "price": 2100,
+        "stock": 1,
+        "sku": "A5957-1754771"
+      },
+      {
+        "size": "43",
+        "price": 2100,
+        "stock": 3,
+        "sku": "A5957-1754772"
+      },
+      {
+        "size": "44",
+        "price": 2100,
+        "stock": 4,
+        "sku": "A5957-1754773"
+      },
+      {
+        "size": "45",
+        "price": 2100,
+        "stock": 2,
+        "sku": "A5957-1754774"
+      },
+      {
+        "size": "46",
+        "price": 2100,
+        "stock": 1,
+        "sku": "A5957-1754775"
+      }
+    ],
+    "price": 2100,
+    "stock": 13,
+    "description": "Матеріал : водонепроникний текстиль , нубукВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/58dec8f8-da0e-4a4f-91ca-1d0f523e3559.jpg"
+    ]
+  },
+  {
+    "id": "crm-981o7o",
+    "createdAt": "2026-11-14T07:42:39.270Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "216882",
+    "name": "Adidas Adistar Cushion Brown Beige 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 1,
+        "sku": "А5158-1506688"
+      },
+      {
+        "size": "42",
+        "price": 2300,
+        "stock": 1,
+        "sku": "А5158-1506689"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 3,
+        "sku": "А5158-1506690"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 3,
+        "sku": "А5158-1506691"
+      },
+      {
+        "size": "45",
+        "price": 2300,
+        "stock": 1,
+        "sku": "А5158-1506692"
+      },
+      {
+        "size": "46",
+        "price": 2300,
+        "stock": 1,
+        "sku": "А5158-1506693"
+      }
+    ],
+    "price": 2300,
+    "stock": 10,
+    "description": "Матеріал : шкіра , сіткаВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/ab6576e9-3941-4147-9c6b-a5ac4393a9f0.jpg"
+    ]
+  },
+  {
+    "id": "crm-1904flg",
+    "createdAt": "2026-11-14T07:42:39.456Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "216873",
+    "name": "Adidas Adistar Cushion All Black 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 2,
+        "sku": "А5153-1506619"
+      },
+      {
+        "size": "42",
+        "price": 2300,
+        "stock": 1,
+        "sku": "А5153-1506620"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 1,
+        "sku": "А5153-1506621"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 7,
+        "sku": "А5153-1506622"
+      },
+      {
+        "size": "45",
+        "price": 2300,
+        "stock": 2,
+        "sku": "А5153-1506623"
+      },
+      {
+        "size": "46",
+        "price": 2300,
+        "stock": 2,
+        "sku": "А5153-1506624"
+      }
+    ],
+    "price": 2300,
+    "stock": 15,
+    "description": "Матеріал : шкіра , сіткаВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/aee259e7-2baa-4120-8d25-ea161176ca40.jpg"
+    ]
+  },
+  {
+    "id": "crm-vgqlza",
+    "createdAt": "2026-11-14T07:42:39.650Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "220597",
+    "name": "Adidas Duramo Speed Grey Beige 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 3,
+        "sku": "A5383-1533155"
+      },
+      {
+        "size": "42",
+        "price": 2100,
+        "stock": 6,
+        "sku": "A5383-1533156"
+      },
+      {
+        "size": "43",
+        "price": 2100,
+        "stock": 5,
+        "sku": "A5383-1533157"
+      },
+      {
+        "size": "44",
+        "price": 2100,
+        "stock": 3,
+        "sku": "A5383-1533158"
+      },
+      {
+        "size": "45",
+        "price": 2100,
+        "stock": 3,
+        "sku": "A5383-1533159"
+      },
+      {
+        "size": "46",
+        "price": 2100,
+        "stock": 2,
+        "sku": "A5383-1533160"
+      }
+    ],
+    "price": 2100,
+    "stock": 22,
+    "description": "Матеріал : сітка , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/9aaf24d8-4487-49a7-83e0-d7ef999b25c6.jpg"
+    ]
+  },
+  {
+    "id": "crm-g2e9af",
+    "createdAt": "2026-11-14T07:42:39.833Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "254966",
+    "name": "Adidas ZX 750 Black White Green 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 4,
+        "sku": "A6118-1796918"
+      },
+      {
+        "size": "42",
+        "price": 2300,
+        "stock": 1,
+        "sku": "A6118-1796919"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 6,
+        "sku": "A6118-1796920"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 9,
+        "sku": "A6118-1796921"
+      },
+      {
+        "size": "45",
+        "price": 2300,
+        "stock": 4,
+        "sku": "A6118-1796922"
+      },
+      {
+        "size": "46",
+        "price": 2300,
+        "stock": 3,
+        "sku": "A6118-1796923"
+      }
+    ],
+    "price": 2300,
+    "stock": 27,
+    "description": "Матеріал : натуральна замша , текстиль CorduraВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/e4d30787-708d-4cbd-88df-fc34cc7e7fbd.jpg"
+    ]
+  },
+  {
+    "id": "crm-1ju9lpv",
+    "createdAt": "2026-11-14T07:42:39.987Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "218456",
+    "name": "Adidas ZX 750 Black 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 1,
+        "sku": "A5231-1517291"
+      },
+      {
+        "size": "42",
+        "price": 2300,
+        "stock": 4,
+        "sku": "A5231-1517292"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 5,
+        "sku": "A5231-1517293"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 11,
+        "sku": "A5231-1517294"
+      },
+      {
+        "size": "45",
+        "price": 2300,
+        "stock": 2,
+        "sku": "A5231-1517295"
+      },
+      {
+        "size": "46",
+        "price": 2300,
+        "stock": 5,
+        "sku": "A5231-1517296"
+      }
+    ],
+    "price": 2300,
+    "stock": 28,
+    "description": "Матеріал : шкіра , текстиль CorduraВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/7e35e090-ddcc-47e4-99c9-00454aeaa2f5.jpg"
+    ]
+  },
+  {
+    "id": "crm-1k497eu",
+    "createdAt": "2026-11-14T07:42:40.204Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "218455",
+    "name": "Adidas ZX 750 Black White Red 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 3,
+        "sku": "A5230-1517280"
+      },
+      {
+        "size": "42",
+        "price": 2300,
+        "stock": 4,
+        "sku": "A5230-1517281"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 10,
+        "sku": "A5230-1517282"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 16,
+        "sku": "A5230-1517283"
+      },
+      {
+        "size": "45",
+        "price": 2300,
+        "stock": 6,
+        "sku": "A5230-1517284"
+      },
+      {
+        "size": "46",
+        "price": 2300,
+        "stock": 7,
+        "sku": "A5230-1517285"
+      }
+    ],
+    "price": 2300,
+    "stock": 46,
+    "description": "Матеріал : натуральна замша , шкіра , текстиль CorduraВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/b1cca25a-b190-45de-a28a-3e33fdaeb4b0.jpg"
+    ]
+  },
+  {
+    "id": "crm-17c6tfm",
+    "createdAt": "2026-11-14T07:42:40.404Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "216879",
+    "name": "Adidas Adistar Cushion Black White 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 4,
+        "sku": "А5156-1506660"
+      },
+      {
+        "size": "42",
+        "price": 2300,
+        "stock": 2,
+        "sku": "А5156-1506661"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 5,
+        "sku": "А5156-1506662"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 7,
+        "sku": "А5156-1506663"
+      },
+      {
+        "size": "45",
+        "price": 2300,
+        "stock": 4,
+        "sku": "А5156-1506664"
+      },
+      {
+        "size": "46",
+        "price": 2300,
+        "stock": 4,
+        "sku": "А5156-1506665"
+      }
+    ],
+    "price": 2300,
+    "stock": 26,
+    "description": "Матеріал : шкіра , сіткаВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/c9161506-3f54-49b7-a434-f2360ba9c3b3.jpg"
+    ]
+  },
+  {
+    "id": "crm-11x59rq",
+    "createdAt": "2026-11-14T07:42:40.590Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "220658",
+    "name": "Adidas Bermuda Pale Grey Black 36",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 1800,
+        "stock": 3,
+        "sku": "B5397-1533723"
+      },
+      {
+        "size": "37",
+        "price": 1800,
+        "stock": 3,
+        "sku": "B5397-1533724"
+      },
+      {
+        "size": "38",
+        "price": 1800,
+        "stock": 6,
+        "sku": "B5397-1533725"
+      },
+      {
+        "size": "39",
+        "price": 1800,
+        "stock": 4,
+        "sku": "B5397-1533726"
+      },
+      {
+        "size": "40",
+        "price": 1800,
+        "stock": 2,
+        "sku": "B5397-1533727"
+      },
+      {
+        "size": "41",
+        "price": 1800,
+        "stock": 1,
+        "sku": "B5397-1533728"
+      }
+    ],
+    "price": 1800,
+    "stock": 19,
+    "description": "Матеріал : натуральна замша , шкіраВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/22e49b7e-d55f-4e8a-a9d1-074a94a14d0e.jpg"
+    ]
+  },
+  {
+    "id": "crm-1bxvx14",
+    "createdAt": "2026-11-14T07:42:40.742Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "249176",
+    "name": "Adidas Handball Spezial W Grey White 36",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2100,
+        "stock": 1,
+        "sku": "В5949-1751383"
+      },
+      {
+        "size": "37",
+        "price": 2100,
+        "stock": 2,
+        "sku": "В5949-1751384"
+      },
+      {
+        "size": "38",
+        "price": 2100,
+        "stock": 4,
+        "sku": "В5949-1751385"
+      },
+      {
+        "size": "39",
+        "price": 2100,
+        "stock": 4,
+        "sku": "В5949-1751386"
+      },
+      {
+        "size": "40",
+        "price": 2100,
+        "stock": 1,
+        "sku": "В5949-1751387"
+      },
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 2,
+        "sku": "В5949-1751388"
+      }
+    ],
+    "price": 2100,
+    "stock": 14,
+    "description": "Матеріал : натуральна замша , шкіраВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/e6dc5ba4-9950-47b6-8f2a-0d174285853a.jpg"
+    ]
+  },
+  {
+    "id": "crm-1c7viq3",
+    "createdAt": "2026-11-14T07:42:40.931Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "249177",
+    "name": "Adidas Handball Spezial W Grey Black White 36",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2100,
+        "stock": 2,
+        "sku": "В5950-1751394"
+      },
+      {
+        "size": "37",
+        "price": 2100,
+        "stock": 2,
+        "sku": "В5950-1751395"
+      },
+      {
+        "size": "38",
+        "price": 2100,
+        "stock": 4,
+        "sku": "В5950-1751396"
+      },
+      {
+        "size": "39",
+        "price": 2100,
+        "stock": 4,
+        "sku": "В5950-1751397"
+      },
+      {
+        "size": "40",
+        "price": 2100,
+        "stock": 2,
+        "sku": "В5950-1751398"
+      },
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 2,
+        "sku": "В5950-1751399"
+      }
+    ],
+    "price": 2100,
+    "stock": 16,
+    "description": "Матеріал : натуральна замша , шкіраВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/2b04e4da-4f7f-46a7-b6ea-225b0cf1fe0d.jpg"
+    ]
+  },
+  {
+    "id": "crm-1ao64xf",
+    "createdAt": "2026-11-14T07:42:41.120Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "246536",
+    "name": "Adidas Ivy Park Savage V4 Black White 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 1900,
+        "stock": 1,
+        "sku": "A5890-1727186"
+      },
+      {
+        "size": "42",
+        "price": 1900,
+        "stock": 1,
+        "sku": "A5890-1727187"
+      },
+      {
+        "size": "43",
+        "price": 1900,
+        "stock": 2,
+        "sku": "A5890-1727188"
+      },
+      {
+        "size": "44",
+        "price": 1900,
+        "stock": 2,
+        "sku": "A5890-1727189"
+      },
+      {
+        "size": "45",
+        "price": 1900,
+        "stock": 1,
+        "sku": "A5890-1727190"
+      },
+      {
+        "size": "46",
+        "price": 1900,
+        "stock": 1,
+        "sku": "A5890-1727191"
+      }
+    ],
+    "price": 1900,
+    "stock": 8,
+    "description": "Матеріал : шкіра  , Waterproof, рефлективні вставкиВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/ce81d53d-1cbc-42c3-81ee-a85617ac88db.jpg"
+    ]
+  },
+  {
+    "id": "crm-e6ll3v",
+    "createdAt": "2026-11-14T07:42:41.313Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "240633",
+    "name": "Adidas Handball Spezial W Clear Pink Navy 36",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2100,
+        "stock": 3,
+        "sku": "В5710-1682972"
+      },
+      {
+        "size": "37",
+        "price": 2100,
+        "stock": 3,
+        "sku": "В5710-1682973"
+      },
+      {
+        "size": "38",
+        "price": 2100,
+        "stock": 4,
+        "sku": "В5710-1682974"
+      },
+      {
+        "size": "39",
+        "price": 2100,
+        "stock": 5,
+        "sku": "В5710-1682975"
+      },
+      {
+        "size": "40",
+        "price": 2100,
+        "stock": 1,
+        "sku": "В5710-1682976"
+      },
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 2,
+        "sku": "В5710-1682977"
+      }
+    ],
+    "price": 2100,
+    "stock": 18,
+    "description": "Матеріал : натуральна замша , шкіраВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/2e244343-4287-4748-bbbc-4e5b2cadbc79.JPG"
+    ]
+  },
+  {
+    "id": "crm-ze8pl8",
+    "createdAt": "2026-11-14T07:42:41.504Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "208441",
+    "name": "Adidas Handball Spezial White Black 36",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2100,
+        "stock": 3,
+        "sku": "B4942-1438339"
+      },
+      {
+        "size": "37",
+        "price": 2100,
+        "stock": 2,
+        "sku": "B4942-1438340"
+      },
+      {
+        "size": "38",
+        "price": 2100,
+        "stock": 3,
+        "sku": "B4942-1438341"
+      },
+      {
+        "size": "39",
+        "price": 2100,
+        "stock": 3,
+        "sku": "B4942-1438342"
+      },
+      {
+        "size": "40",
+        "price": 2100,
+        "stock": 4,
+        "sku": "B4942-1438343"
+      },
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 1,
+        "sku": "B4942-1438344"
+      }
+    ],
+    "price": 2100,
+    "stock": 16,
+    "description": "Матеріал : шкіра , натуральна замшаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/d648cfc0-db3b-4803-bddf-926cb33f187f.jpg"
+    ]
+  },
+  {
+    "id": "crm-1rqzr4q",
+    "createdAt": "2026-11-14T07:42:41.706Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "241970",
+    "name": "Adidas ZX 750 New Black White 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 5,
+        "sku": "A5750-1693164"
+      },
+      {
+        "size": "42",
+        "price": 2300,
+        "stock": 8,
+        "sku": "A5750-1693165"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 6,
+        "sku": "A5750-1693166"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 13,
+        "sku": "A5750-1693167"
+      },
+      {
+        "size": "45",
+        "price": 2300,
+        "stock": 2,
+        "sku": "A5750-1693168"
+      }
+    ],
+    "price": 2300,
+    "stock": 34,
+    "description": "Матеріал : натуральна замша , шкіра , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/29aebb0f-0e2b-4aa1-97ba-a42e913cff66.jpg"
+    ]
+  },
+  {
+    "id": "crm-15q6ncp",
+    "createdAt": "2026-11-14T07:42:41.925Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "222598",
+    "name": "Adidas Terrex Skychaser Black 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 3,
+        "sku": "A5423-1551994"
+      },
+      {
+        "size": "42",
+        "price": 2200,
+        "stock": 7,
+        "sku": "A5423-1551995"
+      },
+      {
+        "size": "43",
+        "price": 2200,
+        "stock": 6,
+        "sku": "A5423-1551996"
+      },
+      {
+        "size": "44",
+        "price": 2200,
+        "stock": 4,
+        "sku": "A5423-1551997"
+      },
+      {
+        "size": "45",
+        "price": 2200,
+        "stock": 3,
+        "sku": "A5423-1551998"
+      }
+    ],
+    "price": 2200,
+    "stock": 23,
+    "description": "Матеріал : шкіра , текстиль , наскрізна сіткаВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/98e4e804-9157-4e4b-99a1-428594ec1f38.jpg"
+    ]
+  },
+  {
+    "id": "crm-yu6cpb",
+    "createdAt": "2026-11-14T07:42:42.174Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "208457",
+    "name": "Adidas Handball Spezial Black 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 1,
+        "sku": "A4943-1438506"
+      },
+      {
+        "size": "42",
+        "price": 2100,
+        "stock": 4,
+        "sku": "A4943-1438507"
+      },
+      {
+        "size": "43",
+        "price": 2100,
+        "stock": 3,
+        "sku": "A4943-1438508"
+      },
+      {
+        "size": "44",
+        "price": 2100,
+        "stock": 8,
+        "sku": "A4943-1438509"
+      },
+      {
+        "size": "45",
+        "price": 2100,
+        "stock": 3,
+        "sku": "A4943-1438510"
+      }
+    ],
+    "price": 2100,
+    "stock": 19,
+    "description": "Матеріал : натуральна замша , шкіраВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/61f3897b-c3e7-48b7-b76b-c6664dddc296.jpg"
+    ]
+  },
+  {
+    "id": "crm-1r0775a",
+    "createdAt": "2026-11-14T07:42:42.411Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "222601",
+    "name": "Adidas Terrex Skychaser Grey 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 2,
+        "sku": "A5426-1552027"
+      },
+      {
+        "size": "42",
+        "price": 2200,
+        "stock": 6,
+        "sku": "A5426-1552028"
+      },
+      {
+        "size": "43",
+        "price": 2200,
+        "stock": 3,
+        "sku": "A5426-1552029"
+      },
+      {
+        "size": "44",
+        "price": 2200,
+        "stock": 6,
+        "sku": "A5426-1552030"
+      },
+      {
+        "size": "45",
+        "price": 2200,
+        "stock": 2,
+        "sku": "A5426-1552031"
+      }
+    ],
+    "price": 2200,
+    "stock": 19,
+    "description": "Матеріал : шкіра , текстиль , наскрізна сіткаВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/b2a79eea-167e-4283-9b18-1db5006db39f.jpg"
+    ]
+  },
+  {
+    "id": "crm-80vb71",
+    "createdAt": "2026-11-14T07:42:42.566Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "218739",
+    "name": "Adidas Marathon Peach Grey 37",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "37",
+        "price": 1900,
+        "stock": 3,
+        "sku": "B5251-1519883"
+      },
+      {
+        "size": "38",
+        "price": 1900,
+        "stock": 8,
+        "sku": "B5251-1519884"
+      },
+      {
+        "size": "39",
+        "price": 1900,
+        "stock": 11,
+        "sku": "B5251-1519885"
+      },
+      {
+        "size": "40",
+        "price": 1900,
+        "stock": 2,
+        "sku": "B5251-1519886"
+      },
+      {
+        "size": "41",
+        "price": 1900,
+        "stock": 3,
+        "sku": "B5251-1519887"
+      }
+    ],
+    "price": 1900,
+    "stock": 27,
+    "description": "Матеріал : сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/e4d1a27a-ecf6-4fa5-b48b-a55fdfb40a27.jpg"
+    ]
+  },
+  {
+    "id": "crm-18g587i",
+    "createdAt": "2026-11-14T07:42:42.757Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "216875",
+    "name": "Adidas Adistar Cushion Dark Grey 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 4,
+        "sku": "А5154-1506631"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 6,
+        "sku": "А5154-1506633"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 3,
+        "sku": "А5154-1506634"
+      },
+      {
+        "size": "45",
+        "price": 2300,
+        "stock": 2,
+        "sku": "А5154-1506635"
+      },
+      {
+        "size": "46",
+        "price": 2300,
+        "stock": 1,
+        "sku": "А5154-1506636"
+      }
+    ],
+    "price": 2300,
+    "stock": 16,
+    "description": "Матеріал : шкіра , сіткаВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/14ec885e-dc5b-4fd9-bf90-21db136f72f2.jpg"
+    ]
+  },
+  {
+    "id": "crm-17w60tk",
+    "createdAt": "2026-11-14T07:42:42.997Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "216877",
+    "name": "Adidas Adistar Cushion White Green Beige 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 3,
+        "sku": "А5155-1506648"
+      },
+      {
+        "size": "42",
+        "price": 2300,
+        "stock": 1,
+        "sku": "А5155-1506649"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 5,
+        "sku": "А5155-1506650"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 7,
+        "sku": "А5155-1506651"
+      },
+      {
+        "size": "45",
+        "price": 2300,
+        "stock": 2,
+        "sku": "А5155-1506652"
+      }
+    ],
+    "price": 2300,
+    "stock": 18,
+    "description": "Матеріал : шкіра , сіткаВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/9309e7cf-700d-495d-8e8a-2344e0d3b07e.jpg"
+    ]
+  },
+  {
+    "id": "crm-vqq7o9",
+    "createdAt": "2026-11-14T07:42:43.228Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "220596",
+    "name": "Adidas Duramo Speed Light Grey Black 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 2,
+        "sku": "A5382-1533144"
+      },
+      {
+        "size": "42",
+        "price": 2100,
+        "stock": 5,
+        "sku": "A5382-1533145"
+      },
+      {
+        "size": "43",
+        "price": 2100,
+        "stock": 5,
+        "sku": "A5382-1533146"
+      },
+      {
+        "size": "44",
+        "price": 2100,
+        "stock": 2,
+        "sku": "A5382-1533147"
+      },
+      {
+        "size": "45",
+        "price": 2100,
+        "stock": 1,
+        "sku": "A5382-1533148"
+      }
+    ],
+    "price": 2100,
+    "stock": 15,
+    "description": "Матеріал : сітка , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/3989bf64-2390-4686-8f97-9b3e27a8d04c.jpg"
+    ]
+  },
+  {
+    "id": "crm-1274vgp",
+    "createdAt": "2026-11-14T07:42:43.418Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "220659",
+    "name": "Adidas Bermuda Black Grey 36",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 1800,
+        "stock": 3,
+        "sku": "B5398-1533734"
+      },
+      {
+        "size": "37",
+        "price": 1800,
+        "stock": 3,
+        "sku": "B5398-1533735"
+      },
+      {
+        "size": "38",
+        "price": 1800,
+        "stock": 6,
+        "sku": "B5398-1533736"
+      },
+      {
+        "size": "39",
+        "price": 1800,
+        "stock": 5,
+        "sku": "B5398-1533737"
+      },
+      {
+        "size": "40",
+        "price": 1800,
+        "stock": 3,
+        "sku": "B5398-1533738"
+      }
+    ],
+    "price": 1800,
+    "stock": 20,
+    "description": "Матеріал : натуральна замша , шкіраВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/488b2d60-94c6-465a-988c-600ee36f8b99.jpg"
+    ]
+  },
+  {
+    "id": "crm-egl6su",
+    "createdAt": "2026-11-14T07:42:43.659Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "240630",
+    "name": "Adidas Handball Spezial W Black 36",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2100,
+        "stock": 3,
+        "sku": "В5708-1682939"
+      },
+      {
+        "size": "37",
+        "price": 2100,
+        "stock": 3,
+        "sku": "В5708-1682940"
+      },
+      {
+        "size": "38",
+        "price": 2100,
+        "stock": 5,
+        "sku": "В5708-1682941"
+      },
+      {
+        "size": "39",
+        "price": 2100,
+        "stock": 5,
+        "sku": "В5708-1682942"
+      },
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 3,
+        "sku": "В5708-1682944"
+      }
+    ],
+    "price": 2100,
+    "stock": 19,
+    "description": "Матеріал : натуральна замша , шкіраВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/9c6a7d9a-f3a1-432f-9480-a67bd5d9f4d2.JPG"
+    ]
+  },
+  {
+    "id": "crm-ytl83p",
+    "createdAt": "2026-11-14T07:42:43.821Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "208437",
+    "name": "Adidas Handball Spezial Black 36",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2100,
+        "stock": 1,
+        "sku": "B4938-1438295"
+      },
+      {
+        "size": "37",
+        "price": 2100,
+        "stock": 3,
+        "sku": "B4938-1438296"
+      },
+      {
+        "size": "38",
+        "price": 2100,
+        "stock": 2,
+        "sku": "B4938-1438297"
+      },
+      {
+        "size": "39",
+        "price": 2100,
+        "stock": 2,
+        "sku": "B4938-1438298"
+      },
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 1,
+        "sku": "B4938-1438300"
+      }
+    ],
+    "price": 2100,
+    "stock": 9,
+    "description": "Матеріал : натуральна замша , шкіраВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/d2cb5e76-b119-40df-9f55-e592668239ea.jpg"
+    ]
+  },
+  {
+    "id": "crm-a8fs8t",
+    "createdAt": "2026-11-14T07:42:44.027Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "224718",
+    "name": "Adidas Climacool Dark Grey 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 2,
+        "sku": "A5535-1570099"
+      },
+      {
+        "size": "43",
+        "price": 2100,
+        "stock": 5,
+        "sku": "A5535-1570101"
+      },
+      {
+        "size": "44",
+        "price": 2100,
+        "stock": 8,
+        "sku": "A5535-1570102"
+      },
+      {
+        "size": "45",
+        "price": 2100,
+        "stock": 5,
+        "sku": "A5535-1570103"
+      },
+      {
+        "size": "46",
+        "price": 2100,
+        "stock": 4,
+        "sku": "A5535-1570104"
+      }
+    ],
+    "price": 2100,
+    "stock": 24,
+    "description": "Матеріал : наскрізна сіткаВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/a6d23fb1-217e-4c15-96e7-17a020b5f50d.jpg"
+    ]
+  },
+  {
+    "id": "crm-1kkho83",
+    "createdAt": "2026-11-14T07:42:44.229Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "234911",
+    "name": "Adidas Adistar Cushion x Song for the Mute Mustard Brown 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 1,
+        "sku": "А5622-1644716"
+      },
+      {
+        "size": "42",
+        "price": 2300,
+        "stock": 2,
+        "sku": "А5622-1644717"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 2,
+        "sku": "А5622-1644718"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 1,
+        "sku": "А5622-1644719"
+      },
+      {
+        "size": "45",
+        "price": 2300,
+        "stock": 1,
+        "sku": "А5622-1644720"
+      }
+    ],
+    "price": 2300,
+    "stock": 7,
+    "description": "Матеріал : нубук , наскрізна сітка , натуральна замша , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/9210acad-46cf-4d6d-90e0-a678b48450cb.jpg"
+    ]
+  },
+  {
+    "id": "crm-62lqu8",
+    "createdAt": "2026-11-14T07:42:44.406Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "224717",
+    "name": "Adidas Climacool Triple Black 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 5,
+        "sku": "A5534-1570088"
+      },
+      {
+        "size": "43",
+        "price": 2100,
+        "stock": 5,
+        "sku": "A5534-1570090"
+      },
+      {
+        "size": "44",
+        "price": 2100,
+        "stock": 6,
+        "sku": "A5534-1570091"
+      },
+      {
+        "size": "45",
+        "price": 2100,
+        "stock": 3,
+        "sku": "A5534-1570092"
+      },
+      {
+        "size": "46",
+        "price": 2100,
+        "stock": 2,
+        "sku": "A5534-1570093"
+      }
+    ],
+    "price": 2100,
+    "stock": 21,
+    "description": "Матеріал : наскрізна сіткаВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/5ebc2b18-4387-4467-9e82-c347dd97c4ae.jpg"
+    ]
+  },
+  {
+    "id": "crm-1l4gvm1",
+    "createdAt": "2026-11-14T07:42:44.613Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "234913",
+    "name": "Adidas Adistar Cushion x Song for the Mute White Black 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 1,
+        "sku": "А5623-1644728"
+      },
+      {
+        "size": "42",
+        "price": 2300,
+        "stock": 2,
+        "sku": "А5623-1644729"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 1,
+        "sku": "А5623-1644730"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 1,
+        "sku": "А5623-1644731"
+      },
+      {
+        "size": "45",
+        "price": 2300,
+        "stock": 1,
+        "sku": "А5623-1644732"
+      }
+    ],
+    "price": 2300,
+    "stock": 6,
+    "description": "Матеріал : шкіра , наскрізна сітка , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/f652257e-c265-4dd0-988c-99cb5698664c.jpg"
+    ]
+  },
+  {
+    "id": "crm-uwrelc",
+    "createdAt": "2026-11-14T07:42:44.757Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "220595",
+    "name": "Adidas Duramo Speed White Green 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 1,
+        "sku": "A5381-1533133"
+      },
+      {
+        "size": "42",
+        "price": 2100,
+        "stock": 4,
+        "sku": "A5381-1533134"
+      },
+      {
+        "size": "43",
+        "price": 2100,
+        "stock": 3,
+        "sku": "A5381-1533135"
+      },
+      {
+        "size": "44",
+        "price": 2100,
+        "stock": 1,
+        "sku": "A5381-1533136"
+      },
+      {
+        "size": "45",
+        "price": 2100,
+        "stock": 1,
+        "sku": "A5381-1533137"
+      }
+    ],
+    "price": 2100,
+    "stock": 10,
+    "description": "Матеріал : сітка , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/787ca415-5f0d-4dd7-a3a2-4e02861fb73c.jpg"
+    ]
+  },
+  {
+    "id": "crm-9ojqcu",
+    "createdAt": "2026-11-14T07:42:44.947Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "224720",
+    "name": "Adidas Climacool Light Grey Black 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 2,
+        "sku": "A5537-1570121"
+      },
+      {
+        "size": "43",
+        "price": 2100,
+        "stock": 9,
+        "sku": "A5537-1570123"
+      },
+      {
+        "size": "44",
+        "price": 2100,
+        "stock": 9,
+        "sku": "A5537-1570124"
+      },
+      {
+        "size": "45",
+        "price": 2100,
+        "stock": 4,
+        "sku": "A5537-1570125"
+      },
+      {
+        "size": "46",
+        "price": 2100,
+        "stock": 5,
+        "sku": "A5537-1570126"
+      }
+    ],
+    "price": 2100,
+    "stock": 29,
+    "description": "Матеріал : наскрізна сіткаВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/ae3cd027-01af-4f4b-9892-1e78c740385a.jpg"
+    ]
+  },
+  {
+    "id": "crm-zdlngo",
+    "createdAt": "2026-11-14T07:42:45.153Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "159932",
+    "name": "Adidas Profoam Lite All Black 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 1800,
+        "stock": 1,
+        "sku": "A3966-1094462"
+      },
+      {
+        "size": "42",
+        "price": 1800,
+        "stock": 3,
+        "sku": "A3966-1094463"
+      },
+      {
+        "size": "43",
+        "price": 1800,
+        "stock": 1,
+        "sku": "A3966-1094464"
+      },
+      {
+        "size": "44",
+        "price": 1800,
+        "stock": 2,
+        "sku": "A3966-1094465"
+      },
+      {
+        "size": "45",
+        "price": 1800,
+        "stock": 3,
+        "sku": "A3966-1094466"
+      }
+    ],
+    "price": 1800,
+    "stock": 10,
+    "description": "Матеріал : текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/48af1680-b3fc-4f87-a9da-f751cfdb6f05.jpg"
+    ]
+  },
+  {
+    "id": "crm-1nb2uq9",
+    "createdAt": "2026-11-14T07:42:45.332Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "178440",
+    "name": "Adidas Spezial Sky Blue 37",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "37",
+        "price": 2100,
+        "stock": 1,
+        "sku": "В4422-1219549"
+      },
+      {
+        "size": "38",
+        "price": 2100,
+        "stock": 5,
+        "sku": "В4422-1219550"
+      },
+      {
+        "size": "39",
+        "price": 2100,
+        "stock": 2,
+        "sku": "В4422-1219551"
+      },
+      {
+        "size": "40",
+        "price": 2100,
+        "stock": 4,
+        "sku": "В4422-1219552"
+      },
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 3,
+        "sku": "В4422-1219553"
+      }
+    ],
+    "price": 2100,
+    "stock": 15,
+    "description": "Матеріал : натуральна замша , шкіра , текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/ade95064-a0ed-401d-9cf2-c0f8be172561.jpg"
+    ]
+  },
+  {
+    "id": "crm-9ek4nv",
+    "createdAt": "2026-11-14T07:42:45.470Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "224723",
+    "name": "Adidas Climacool Brown Black 42",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "42",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "42",
+        "price": 2100,
+        "stock": 1,
+        "sku": "A5540-1570155"
+      },
+      {
+        "size": "43",
+        "price": 2100,
+        "stock": 3,
+        "sku": "A5540-1570156"
+      },
+      {
+        "size": "44",
+        "price": 2100,
+        "stock": 6,
+        "sku": "A5540-1570157"
+      },
+      {
+        "size": "45",
+        "price": 2100,
+        "stock": 2,
+        "sku": "A5540-1570158"
+      },
+      {
+        "size": "46",
+        "price": 2100,
+        "stock": 2,
+        "sku": "A5540-1570159"
+      }
+    ],
+    "price": 2100,
+    "stock": 14,
+    "description": "Матеріал : наскрізна сіткаВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/d0109baf-e1d0-43c7-8151-5a64debb24bd.jpg"
+    ]
+  },
+  {
+    "id": "crm-1qq7lgb",
+    "createdAt": "2026-11-14T07:42:45.692Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "222602",
+    "name": "Adidas Terrex Skychaser Beige Grey 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 3,
+        "sku": "A5427-1552038"
+      },
+      {
+        "size": "42",
+        "price": 2200,
+        "stock": 6,
+        "sku": "A5427-1552039"
+      },
+      {
+        "size": "43",
+        "price": 2200,
+        "stock": 5,
+        "sku": "A5427-1552040"
+      },
+      {
+        "size": "44",
+        "price": 2200,
+        "stock": 6,
+        "sku": "A5427-1552041"
+      },
+      {
+        "size": "45",
+        "price": 2200,
+        "stock": 1,
+        "sku": "A5427-1552042"
+      }
+    ],
+    "price": 2200,
+    "stock": 21,
+    "description": "Матеріал : шкіра , текстиль , наскрізна сіткаВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/d07ae149-1d79-4e4d-b649-84fc54ab134f.jpg"
+    ]
+  },
+  {
+    "id": "crm-5hj2kt",
+    "createdAt": "2026-11-14T07:42:45.855Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "178703",
+    "name": "Adidas SL 72 Noah Black White 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 1900,
+        "stock": 1,
+        "sku": "А4431-1221317"
+      },
+      {
+        "size": "42",
+        "price": 1900,
+        "stock": 3,
+        "sku": "А4431-1221318"
+      },
+      {
+        "size": "43",
+        "price": 1900,
+        "stock": 4,
+        "sku": "А4431-1221319"
+      },
+      {
+        "size": "44",
+        "price": 1900,
+        "stock": 3,
+        "sku": "А4431-1221320"
+      },
+      {
+        "size": "45",
+        "price": 1900,
+        "stock": 2,
+        "sku": "А4431-1221321"
+      }
+    ],
+    "price": 1900,
+    "stock": 13,
+    "description": "Матеріал : натуральна замша , шкіраВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/a754a8c8-bf07-486b-84f4-b6405397ebfd.jpg"
+    ]
+  },
+  {
+    "id": "crm-18832lg",
+    "createdAt": "2026-11-14T07:42:45.995Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "222597",
+    "name": "Adidas Terrex Skychaser Grey Black 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 2,
+        "sku": "A5422-1551983"
+      },
+      {
+        "size": "42",
+        "price": 2200,
+        "stock": 4,
+        "sku": "A5422-1551984"
+      },
+      {
+        "size": "43",
+        "price": 2200,
+        "stock": 5,
+        "sku": "A5422-1551985"
+      },
+      {
+        "size": "44",
+        "price": 2200,
+        "stock": 6,
+        "sku": "A5422-1551986"
+      },
+      {
+        "size": "45",
+        "price": 2200,
+        "stock": 1,
+        "sku": "A5422-1551987"
+      }
+    ],
+    "price": 2200,
+    "stock": 18,
+    "description": "Матеріал : шкіра , текстиль , наскрізна сіткаВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/10e77809-3eab-401a-bbe9-6ba4f97a6a3f.jpg"
+    ]
+  },
+  {
+    "id": "crm-1ra6su9",
+    "createdAt": "2026-11-14T07:42:46.174Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "222600",
+    "name": "Adidas Terrex Skychaser Grey Beige 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 2,
+        "sku": "A5425-1552016"
+      },
+      {
+        "size": "42",
+        "price": 2200,
+        "stock": 6,
+        "sku": "A5425-1552017"
+      },
+      {
+        "size": "43",
+        "price": 2200,
+        "stock": 5,
+        "sku": "A5425-1552018"
+      },
+      {
+        "size": "44",
+        "price": 2200,
+        "stock": 4,
+        "sku": "A5425-1552019"
+      },
+      {
+        "size": "45",
+        "price": 2200,
+        "stock": 2,
+        "sku": "A5425-1552020"
+      }
+    ],
+    "price": 2200,
+    "stock": 19,
+    "description": "Матеріал : шкіра , текстиль , наскрізна сіткаВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/1d3d0eb6-6bc9-4651-bab1-ef174146814d.jpg"
+    ]
+  },
+  {
+    "id": "crm-1wp5mo1",
+    "createdAt": "2026-11-14T07:42:46.343Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "239077",
+    "name": "Adidas POD-S Cordura All Black 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 2,
+        "sku": "A5637-1671245"
+      },
+      {
+        "size": "42",
+        "price": 2300,
+        "stock": 1,
+        "sku": "A5637-1671246"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 4,
+        "sku": "A5637-1671247"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 2,
+        "sku": "A5637-1671248"
+      },
+      {
+        "size": "45",
+        "price": 2300,
+        "stock": 2,
+        "sku": "A5637-1671249"
+      }
+    ],
+    "price": 2300,
+    "stock": 11,
+    "description": "Матеріал : натуральна замша , текстиль CorduraВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/a9aa9307-7d7c-4c19-9468-60fbd9b7803e.jpg"
+    ]
+  },
+  {
+    "id": "crm-1qw2977",
+    "createdAt": "2026-11-14T07:42:46.572Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "239080",
+    "name": "Adidas POD-S Cordura Grey White 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 1,
+        "sku": "A5640-1671278"
+      },
+      {
+        "size": "42",
+        "price": 2300,
+        "stock": 4,
+        "sku": "A5640-1671279"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 4,
+        "sku": "A5640-1671280"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 2,
+        "sku": "A5640-1671281"
+      },
+      {
+        "size": "45",
+        "price": 2300,
+        "stock": 2,
+        "sku": "A5640-1671282"
+      }
+    ],
+    "price": 2300,
+    "stock": 13,
+    "description": "Матеріал : натуральна замша , текстиль CorduraВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/baad0d5a-231f-4e0b-9db9-ae3d46c95615.jpg"
+    ]
+  },
+  {
+    "id": "crm-fuj79p",
+    "createdAt": "2026-11-14T07:42:46.752Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "240635",
+    "name": "Adidas Handball Spezial M Navy White 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 1,
+        "sku": "А5711-1682999"
+      },
+      {
+        "size": "42",
+        "price": 2100,
+        "stock": 9,
+        "sku": "А5711-1683000"
+      },
+      {
+        "size": "43",
+        "price": 2100,
+        "stock": 6,
+        "sku": "А5711-1683001"
+      },
+      {
+        "size": "44",
+        "price": 2100,
+        "stock": 6,
+        "sku": "А5711-1683002"
+      },
+      {
+        "size": "45",
+        "price": 2100,
+        "stock": 5,
+        "sku": "А5711-1683003"
+      }
+    ],
+    "price": 2100,
+    "stock": 27,
+    "description": "Матеріал : натуральна замша , шкіраВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/dfbd3d40-7126-4c0e-ad59-694a705e7d85.JPG"
+    ]
+  },
+  {
+    "id": "crm-1yljacm",
+    "createdAt": "2026-11-14T07:42:46.898Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "244656",
+    "name": "Adidas Handball Spezial M Grey Black White 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 2,
+        "sku": "A5843-1710775"
+      },
+      {
+        "size": "42",
+        "price": 2100,
+        "stock": 5,
+        "sku": "A5843-1710776"
+      },
+      {
+        "size": "43",
+        "price": 2100,
+        "stock": 4,
+        "sku": "A5843-1710777"
+      },
+      {
+        "size": "44",
+        "price": 2100,
+        "stock": 3,
+        "sku": "A5843-1710778"
+      },
+      {
+        "size": "45",
+        "price": 2100,
+        "stock": 1,
+        "sku": "A5843-1710779"
+      }
+    ],
+    "price": 2100,
+    "stock": 15,
+    "description": "Матеріал : натуральна замша , шкіраВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/876922f1-9247-4e00-ae6f-2a844c05fafd.jpg"
+    ]
+  },
+  {
+    "id": "crm-1rg1gl5",
+    "createdAt": "2026-11-14T07:42:47.193Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "239082",
+    "name": "Adidas POD-S Cordura Grey Black 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 2,
+        "sku": "A5642-1671300"
+      },
+      {
+        "size": "42",
+        "price": 2300,
+        "stock": 2,
+        "sku": "A5642-1671301"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 4,
+        "sku": "A5642-1671302"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 4,
+        "sku": "A5642-1671303"
+      },
+      {
+        "size": "45",
+        "price": 2300,
+        "stock": 1,
+        "sku": "A5642-1671304"
+      }
+    ],
+    "price": 2300,
+    "stock": 13,
+    "description": "Матеріал : натуральна замша , текстиль CorduraВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/be931e92-5339-4113-85c1-f1b8020d3332.jpg"
+    ]
+  },
+  {
+    "id": "crm-1ur8et8",
+    "createdAt": "2026-11-14T07:42:47.378Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "239078",
+    "name": "Adidas POD-S Cordura Light Grey Black 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 2,
+        "sku": "A5638-1671256"
+      },
+      {
+        "size": "42",
+        "price": 2300,
+        "stock": 4,
+        "sku": "A5638-1671257"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 3,
+        "sku": "A5638-1671258"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 2,
+        "sku": "A5638-1671259"
+      },
+      {
+        "size": "45",
+        "price": 2300,
+        "stock": 2,
+        "sku": "A5638-1671260"
+      }
+    ],
+    "price": 2300,
+    "stock": 13,
+    "description": "Матеріал : натуральна замша , текстиль CorduraВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/cf513d06-7a46-416e-b726-7087be47e04e.jpg"
+    ]
+  },
+  {
+    "id": "crm-eqksht",
+    "createdAt": "2026-11-14T07:42:47.613Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "240631",
+    "name": "Adidas Handball Spezial W Black White 36",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2100,
+        "stock": 3,
+        "sku": "В5709-1682950"
+      },
+      {
+        "size": "37",
+        "price": 2100,
+        "stock": 2,
+        "sku": "В5709-1682951"
+      },
+      {
+        "size": "38",
+        "price": 2100,
+        "stock": 3,
+        "sku": "В5709-1682952"
+      },
+      {
+        "size": "39",
+        "price": 2100,
+        "stock": 4,
+        "sku": "В5709-1682953"
+      },
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 1,
+        "sku": "В5709-1682955"
+      }
+    ],
+    "price": 2100,
+    "stock": 13,
+    "description": "Матеріал : натуральна замша , шкіраВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/de13bcb9-ca8b-442b-a311-ef94a519eaa7.JPG"
+    ]
+  },
+  {
+    "id": "crm-1pujkwh",
+    "createdAt": "2026-11-14T07:42:47.809Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "234922",
+    "name": "Adidas Adistar Cushion x Song for the Mute Purple Grey 36",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2300,
+        "stock": 1,
+        "sku": "B5627-1644792"
+      },
+      {
+        "size": "37",
+        "price": 2300,
+        "stock": 1,
+        "sku": "B5627-1644793"
+      },
+      {
+        "size": "38",
+        "price": 2300,
+        "stock": 2,
+        "sku": "B5627-1644794"
+      },
+      {
+        "size": "39",
+        "price": 2300,
+        "stock": 1,
+        "sku": "B5627-1644795"
+      },
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 1,
+        "sku": "B5627-1644797"
+      }
+    ],
+    "price": 2300,
+    "stock": 6,
+    "description": "Матеріал : натуральна замша  , наскрізна сітка , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/7ba9094a-d378-43b9-a055-1b70346d6103.jpg"
+    ]
+  },
+  {
+    "id": "crm-jruu6h",
+    "createdAt": "2026-11-14T07:42:47.993Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "248705",
+    "name": "Adidas Forum Mod Low White Turquoise 37",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "37",
+        "price": 1500,
+        "stock": 1,
+        "sku": "B5919-1747175"
+      },
+      {
+        "size": "38",
+        "price": 1500,
+        "stock": 2,
+        "sku": "B5919-1747176"
+      },
+      {
+        "size": "39",
+        "price": 1500,
+        "stock": 2,
+        "sku": "B5919-1747177"
+      },
+      {
+        "size": "40",
+        "price": 1500,
+        "stock": 2,
+        "sku": "B5919-1747178"
+      },
+      {
+        "size": "41",
+        "price": 1500,
+        "stock": 1,
+        "sku": "B5919-1747179"
+      }
+    ],
+    "price": 1500,
+    "stock": 8,
+    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/b92dce04-c86a-4f24-bff1-6fe3f5dc1ec8.jpg"
+    ]
+  },
+  {
+    "id": "crm-15712x9",
+    "createdAt": "2026-11-14T07:42:48.146Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "244662",
+    "name": "Adidas Handball Spezial M Moos White 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 5,
+        "sku": "A5857-1710841"
+      },
+      {
+        "size": "42",
+        "price": 2100,
+        "stock": 4,
+        "sku": "A5857-1710842"
+      },
+      {
+        "size": "43",
+        "price": 2100,
+        "stock": 7,
+        "sku": "A5857-1710843"
+      },
+      {
+        "size": "44",
+        "price": 2100,
+        "stock": 8,
+        "sku": "A5857-1710844"
+      },
+      {
+        "size": "45",
+        "price": 2100,
+        "stock": 3,
+        "sku": "A5857-1710845"
+      }
+    ],
+    "price": 2100,
+    "stock": 27,
+    "description": "Матеріал : натуральна замша , шкіраВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/bd6fd5fa-9bd6-4913-8773-53f6a4cd08be.jpg"
+    ]
+  },
+  {
+    "id": "crm-2cb9b8",
+    "createdAt": "2026-11-14T07:42:48.350Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "244658",
+    "name": "Adidas Handball Spezial M Honey Mustard 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 3,
+        "sku": "A5844-1710797"
+      },
+      {
+        "size": "42",
+        "price": 2100,
+        "stock": 6,
+        "sku": "A5844-1710798"
+      },
+      {
+        "size": "43",
+        "price": 2100,
+        "stock": 5,
+        "sku": "A5844-1710799"
+      },
+      {
+        "size": "44",
+        "price": 2100,
+        "stock": 6,
+        "sku": "A5844-1710800"
+      },
+      {
+        "size": "45",
+        "price": 2100,
+        "stock": 3,
+        "sku": "A5844-1710801"
+      }
+    ],
+    "price": 2100,
+    "stock": 23,
+    "description": "Матеріал : натуральна замша , нубук , шкіраВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/2f676a43-ad79-472f-b33f-ca8849ba47dc.jpg"
+    ]
+  },
+  {
+    "id": "crm-1bi4y0c",
+    "createdAt": "2026-11-14T07:42:48.542Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "246533",
+    "name": "Adidas Shadowturf x SFTM Burgundy 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 3,
+        "sku": "A5887-1727152"
+      },
+      {
+        "size": "42",
+        "price": 2100,
+        "stock": 3,
+        "sku": "A5887-1727153"
+      },
+      {
+        "size": "43",
+        "price": 2100,
+        "stock": 5,
+        "sku": "A5887-1727154"
+      },
+      {
+        "size": "44",
+        "price": 2100,
+        "stock": 5,
+        "sku": "A5887-1727155"
+      },
+      {
+        "size": "45",
+        "price": 2100,
+        "stock": 2,
+        "sku": "A5887-1727156"
+      }
+    ],
+    "price": 2100,
+    "stock": 18,
+    "description": "Матеріал : шкіра  , натуральна замша , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/329fbdfa-9a67-44e8-a855-b205ca129385.jpg"
+    ]
+  },
+  {
+    "id": "crm-ixw13k",
+    "createdAt": "2026-11-14T07:42:48.783Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "248706",
+    "name": "Adidas Forum Mod Low Cream Lilac Lime 37",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "37",
+        "price": 1500,
+        "stock": 1,
+        "sku": "B5920-1747186"
+      },
+      {
+        "size": "38",
+        "price": 1500,
+        "stock": 2,
+        "sku": "B5920-1747187"
+      },
+      {
+        "size": "39",
+        "price": 1500,
+        "stock": 2,
+        "sku": "B5920-1747188"
+      },
+      {
+        "size": "40",
+        "price": 1500,
+        "stock": 2,
+        "sku": "B5920-1747189"
+      },
+      {
+        "size": "41",
+        "price": 1500,
+        "stock": 1,
+        "sku": "B5920-1747190"
+      }
+    ],
+    "price": 1500,
+    "stock": 8,
+    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/7f7cc1dc-274e-4af7-94e1-420324b49c09.jpg"
+    ]
+  },
+  {
+    "id": "crm-450vhf",
+    "createdAt": "2026-11-14T07:42:48.988Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "218737",
+    "name": "Adidas Marathon White 37",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "37",
+        "price": 1900,
+        "stock": 1,
+        "sku": "B5250-1519861"
+      },
+      {
+        "size": "38",
+        "price": 1900,
+        "stock": 6,
+        "sku": "B5250-1519862"
+      },
+      {
+        "size": "39",
+        "price": 1900,
+        "stock": 6,
+        "sku": "B5250-1519863"
+      },
+      {
+        "size": "40",
+        "price": 1900,
+        "stock": 2,
+        "sku": "B5250-1519864"
+      },
+      {
+        "size": "41",
+        "price": 1900,
+        "stock": 2,
+        "sku": "B5250-1519865"
+      }
+    ],
+    "price": 1900,
+    "stock": 17,
+    "description": "Матеріал : сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/3dc7b2b1-b9fe-4669-af77-d9cf7b402e86.jpg"
+    ]
+  },
+  {
+    "id": "crm-eo1ven",
+    "createdAt": "2026-11-14T07:42:49.164Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "249955",
+    "name": "Adidas Streetball 2.0 Black White 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 1600,
+        "stock": 2,
+        "sku": "A5978-1757766"
+      },
+      {
+        "size": "42",
+        "price": 1600,
+        "stock": 6,
+        "sku": "A5978-1757767"
+      },
+      {
+        "size": "43",
+        "price": 1600,
+        "stock": 6,
+        "sku": "A5978-1757768"
+      },
+      {
+        "size": "44",
+        "price": 1600,
+        "stock": 8,
+        "sku": "A5978-1757769"
+      },
+      {
+        "size": "45",
+        "price": 1600,
+        "stock": 2,
+        "sku": "A5978-1757770"
+      }
+    ],
+    "price": 1600,
+    "stock": 24,
+    "description": "Матеріал : шкіра , натуральна замша , водонепроникний  текстиль CorduraВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/f66ef3c4-0125-4b8a-b6ab-5016f85dee20.jpg"
+    ]
+  },
+  {
+    "id": "crm-ee29po",
+    "createdAt": "2026-11-14T07:42:49.348Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "249954",
+    "name": "Adidas Streetball 2.0 Black Violet 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 1600,
+        "stock": 1,
+        "sku": "A5977-1757755"
+      },
+      {
+        "size": "42",
+        "price": 1600,
+        "stock": 8,
+        "sku": "A5977-1757756"
+      },
+      {
+        "size": "43",
+        "price": 1600,
+        "stock": 7,
+        "sku": "A5977-1757757"
+      },
+      {
+        "size": "44",
+        "price": 1600,
+        "stock": 6,
+        "sku": "A5977-1757758"
+      },
+      {
+        "size": "45",
+        "price": 1600,
+        "stock": 4,
+        "sku": "A5977-1757759"
+      }
+    ],
+    "price": 1600,
+    "stock": 26,
+    "description": "Матеріал : шкіра , натуральна замша , водонепроникний  текстиль CorduraВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/d68dd06c-7998-4537-b386-17710b0b0671.jpg"
+    ]
+  },
+  {
+    "id": "crm-da3uxs",
+    "createdAt": "2026-11-14T07:42:49.635Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "249950",
+    "name": "Adidas Streetball 2.0 Grey Black Beige 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 1600,
+        "stock": 3,
+        "sku": "A5975-1757711"
+      },
+      {
+        "size": "42",
+        "price": 1600,
+        "stock": 7,
+        "sku": "A5975-1757712"
+      },
+      {
+        "size": "43",
+        "price": 1600,
+        "stock": 5,
+        "sku": "A5975-1757713"
+      },
+      {
+        "size": "44",
+        "price": 1600,
+        "stock": 8,
+        "sku": "A5975-1757714"
+      },
+      {
+        "size": "45",
+        "price": 1600,
+        "stock": 2,
+        "sku": "A5975-1757715"
+      }
+    ],
+    "price": 1600,
+    "stock": 25,
+    "description": "Матеріал : нубук , натуральна замша , водонепроникний  текстиль CorduraВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/f0a6d98a-cad0-4792-8560-5080235f377c.jpg"
+    ]
+  },
+  {
+    "id": "crm-gw1uge",
+    "createdAt": "2026-11-14T07:42:49.845Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "249949",
+    "name": "Adidas Streetball 2.0 Black Grey Orange 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 1600,
+        "stock": 3,
+        "sku": "A5974-1757700"
+      },
+      {
+        "size": "42",
+        "price": 1600,
+        "stock": 7,
+        "sku": "A5974-1757701"
+      },
+      {
+        "size": "43",
+        "price": 1600,
+        "stock": 5,
+        "sku": "A5974-1757702"
+      },
+      {
+        "size": "44",
+        "price": 1600,
+        "stock": 7,
+        "sku": "A5974-1757703"
+      },
+      {
+        "size": "45",
+        "price": 1600,
+        "stock": 3,
+        "sku": "A5974-1757704"
+      }
+    ],
+    "price": 1600,
+    "stock": 25,
+    "description": "Матеріал : нубук , натуральна замша , водонепроникний  текстиль CorduraВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/1aeed02c-e987-4340-b4bc-795d414cc269.jpg"
+    ]
+  },
+  {
+    "id": "crm-1b85cbd",
+    "createdAt": "2026-11-14T07:42:50.031Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "246534",
+    "name": "Adidas Ivy Park Savage V4 All Black 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 1900,
+        "stock": 1,
+        "sku": "A5888-1727164"
+      },
+      {
+        "size": "42",
+        "price": 1900,
+        "stock": 1,
+        "sku": "A5888-1727165"
+      },
+      {
+        "size": "43",
+        "price": 1900,
+        "stock": 1,
+        "sku": "A5888-1727166"
+      },
+      {
+        "size": "45",
+        "price": 1900,
+        "stock": 1,
+        "sku": "A5888-1727168"
+      },
+      {
+        "size": "46",
+        "price": 1900,
+        "stock": 1,
+        "sku": "A5888-1727169"
+      }
+    ],
+    "price": 1900,
+    "stock": 5,
+    "description": "Матеріал : шкіра  , Waterproof, рефлективні вставкиВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/9f3605aa-915b-4f16-99bf-109884e8a5d5.jpg"
+    ]
+  },
+  {
+    "id": "crm-jhv8hi",
+    "createdAt": "2026-11-14T07:42:50.254Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "248704",
+    "name": "Adidas Forum Mod Low White Black Lime 37",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "37",
+        "price": 1500,
+        "stock": 1,
+        "sku": "B5918-1747164"
+      },
+      {
+        "size": "38",
+        "price": 1500,
+        "stock": 1,
+        "sku": "B5918-1747165"
+      },
+      {
+        "size": "39",
+        "price": 1500,
+        "stock": 2,
+        "sku": "B5918-1747166"
+      },
+      {
+        "size": "40",
+        "price": 1500,
+        "stock": 2,
+        "sku": "B5918-1747167"
+      },
+      {
+        "size": "41",
+        "price": 1500,
+        "stock": 1,
+        "sku": "B5918-1747168"
+      }
+    ],
+    "price": 1500,
+    "stock": 7,
+    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/4866e166-c567-4cfb-ad52-c476daffb4fd.jpg"
+    ]
+  },
+  {
+    "id": "crm-9z1zjr",
+    "createdAt": "2026-11-14T07:42:50.447Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "218742",
+    "name": "Adidas Marathon Light Grey 37",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "37",
+        "price": 1900,
+        "stock": 5,
+        "sku": "B5254-1519916"
+      },
+      {
+        "size": "38",
+        "price": 1900,
+        "stock": 9,
+        "sku": "B5254-1519917"
+      },
+      {
+        "size": "39",
+        "price": 1900,
+        "stock": 13,
+        "sku": "B5254-1519918"
+      },
+      {
+        "size": "40",
+        "price": 1900,
+        "stock": 4,
+        "sku": "B5254-1519919"
+      },
+      {
+        "size": "41",
+        "price": 1900,
+        "stock": 5,
+        "sku": "B5254-1519920"
+      }
+    ],
+    "price": 1900,
+    "stock": 36,
+    "description": "Матеріал : сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/786a41a2-9a5e-47ba-b8b0-7ce7e3c768aa.jpg"
+    ]
+  },
+  {
+    "id": "crm-a91l8q",
+    "createdAt": "2026-11-14T07:42:50.651Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "218741",
+    "name": "Adidas Marathon Blash Beige 37",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "37",
+        "price": 1900,
+        "stock": 4,
+        "sku": "B5253-1519905"
+      },
+      {
+        "size": "38",
+        "price": 1900,
+        "stock": 8,
+        "sku": "B5253-1519906"
+      },
+      {
+        "size": "39",
+        "price": 1900,
+        "stock": 7,
+        "sku": "B5253-1519907"
+      },
+      {
+        "size": "40",
+        "price": 1900,
+        "stock": 2,
+        "sku": "B5253-1519908"
+      },
+      {
+        "size": "41",
+        "price": 1900,
+        "stock": 2,
+        "sku": "B5253-1519909"
+      }
+    ],
+    "price": 1900,
+    "stock": 23,
+    "description": "Матеріал : сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/5d872eb5-bce0-4cae-af4b-7c45ed037cd0.jpg"
+    ]
+  },
+  {
+    "id": "crm-57jgvu",
+    "createdAt": "2026-11-14T07:42:50.841Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "178702",
+    "name": "Adidas SL 72 Noah Light Grey Green 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 1900,
+        "stock": 1,
+        "sku": "А4430-1221306"
+      },
+      {
+        "size": "42",
+        "price": 1900,
+        "stock": 7,
+        "sku": "А4430-1221307"
+      },
+      {
+        "size": "43",
+        "price": 1900,
+        "stock": 5,
+        "sku": "А4430-1221308"
+      },
+      {
+        "size": "44",
+        "price": 1900,
+        "stock": 6,
+        "sku": "А4430-1221309"
+      },
+      {
+        "size": "45",
+        "price": 1900,
+        "stock": 1,
+        "sku": "А4430-1221310"
+      }
+    ],
+    "price": 1900,
+    "stock": 20,
+    "description": "Матеріал : натуральна замша , шкіраВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/9b8bda08-f5ab-41f6-a618-e2a0783a9615.jpg"
+    ]
+  },
+  {
+    "id": "crm-ycesna",
+    "createdAt": "2026-11-14T07:42:51.066Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "175419",
+    "name": "Adidas Climaproof All Black 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2000,
+        "stock": 1,
+        "sku": "А5039-1197885"
+      },
+      {
+        "size": "42",
+        "price": 2000,
+        "stock": 5,
+        "sku": "А5039-1197886"
+      },
+      {
+        "size": "43",
+        "price": 2000,
+        "stock": 1,
+        "sku": "А5039-1197887"
+      },
+      {
+        "size": "44",
+        "price": 2000,
+        "stock": 5,
+        "sku": "А5039-1197888"
+      },
+      {
+        "size": "45",
+        "price": 2000,
+        "stock": 2,
+        "sku": "А5039-1197889"
+      }
+    ],
+    "price": 2000,
+    "stock": 14,
+    "description": "Матеріал : шкіра , нубук , текстиль , WaterproofВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/991a7c20-6a38-4036-bbf3-da708bba9f6f.jpg"
+    ]
+  },
+  {
+    "id": "crm-14p1apg",
+    "createdAt": "2026-11-14T07:42:51.259Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "220656",
+    "name": "Adidas Bermuda Black 36",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 1800,
+        "stock": 3,
+        "sku": "B5395-1533701"
+      },
+      {
+        "size": "37",
+        "price": 1800,
+        "stock": 2,
+        "sku": "B5395-1533702"
+      },
+      {
+        "size": "38",
+        "price": 1800,
+        "stock": 5,
+        "sku": "B5395-1533703"
+      },
+      {
+        "size": "39",
+        "price": 1800,
+        "stock": 5,
+        "sku": "B5395-1533704"
+      },
+      {
+        "size": "41",
+        "price": 1800,
+        "stock": 1,
+        "sku": "B5395-1533706"
+      }
+    ],
+    "price": 1800,
+    "stock": 16,
+    "description": "Матеріал : натуральна замша , шкіраВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/ed839ccc-8b78-4e12-a969-39a4258834b6.jpg"
+    ]
+  },
+  {
+    "id": "crm-13q0q9y",
+    "createdAt": "2026-11-14T07:42:51.464Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "223000",
+    "name": "Adidas Climacool Black 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 1,
+        "sku": "A5473-1555268"
+      },
+      {
+        "size": "43",
+        "price": 2100,
+        "stock": 4,
+        "sku": "A5473-1555270"
+      },
+      {
+        "size": "44",
+        "price": 2100,
+        "stock": 4,
+        "sku": "A5473-1555271"
+      },
+      {
+        "size": "45",
+        "price": 2100,
+        "stock": 1,
+        "sku": "A5473-1555272"
+      },
+      {
+        "size": "46",
+        "price": 2100,
+        "stock": 2,
+        "sku": "A5473-1555273"
+      }
+    ],
+    "price": 2100,
+    "stock": 12,
+    "description": "Матеріал : сітка , натуральна замшаВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/180a81ff-71df-4545-9d3b-75d4e376265c.jpg"
+    ]
+  },
+  {
+    "id": "crm-10uede0",
+    "createdAt": "2026-11-14T07:42:51.656Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "175426",
+    "name": "Adidas Climaproof Black Orange 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2000,
+        "stock": 3,
+        "sku": "A4184-1197953"
+      },
+      {
+        "size": "42",
+        "price": 2000,
+        "stock": 3,
+        "sku": "A4184-1197954"
+      },
+      {
+        "size": "43",
+        "price": 2000,
+        "stock": 4,
+        "sku": "A4184-1197955"
+      },
+      {
+        "size": "44",
+        "price": 2000,
+        "stock": 3,
+        "sku": "A4184-1197956"
+      },
+      {
+        "size": "45",
+        "price": 2000,
+        "stock": 2,
+        "sku": "A4184-1197957"
+      }
+    ],
+    "price": 2000,
+    "stock": 15,
+    "description": "Матеріал : нубук  , текстиль , WaterproofВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/639b7edf-9f37-45c1-9c91-7102a42ef9ee.jpeg"
+    ]
+  },
+  {
+    "id": "crm-18i2oaf",
+    "createdAt": "2026-11-14T07:42:51.852Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "222596",
+    "name": "Adidas Terrex Skychaser All Black 42",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "42",
+        "price": 2200,
+        "stock": 3,
+        "sku": "A5421-1551973"
+      },
+      {
+        "size": "43",
+        "price": 2200,
+        "stock": 1,
+        "sku": "A5421-1551974"
+      },
+      {
+        "size": "44",
+        "price": 2200,
+        "stock": 2,
+        "sku": "A5421-1551975"
+      },
+      {
+        "size": "45",
+        "price": 2200,
+        "stock": 4,
+        "sku": "A5421-1551976"
+      }
+    ],
+    "price": 2200,
+    "stock": 10,
+    "description": "Матеріал : шкіра , текстиль , наскрізна сіткаВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/569facc6-bf83-4d86-8159-ed1bbf20c065.jpg"
+    ]
+  },
+  {
+    "id": "crm-1361iw0",
+    "createdAt": "2026-11-14T07:42:52.124Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "223002",
+    "name": "Adidas Climacool Lightstrike Pro All Black 43",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "43",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "43",
+        "price": 2100,
+        "stock": 2,
+        "sku": "A5475-1555292"
+      },
+      {
+        "size": "44",
+        "price": 2100,
+        "stock": 1,
+        "sku": "A5475-1555293"
+      },
+      {
+        "size": "45",
+        "price": 2100,
+        "stock": 1,
+        "sku": "A5475-1555294"
+      },
+      {
+        "size": "46",
+        "price": 2100,
+        "stock": 2,
+        "sku": "A5475-1555295"
+      }
+    ],
+    "price": 2100,
+    "stock": 6,
+    "description": "Матеріал : сіткаВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/81757105-faca-42d6-88ae-8fa43adffad5.jpg"
+    ]
+  },
+  {
+    "id": "crm-14tz51u",
+    "createdAt": "2026-11-14T07:42:52.417Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "223004",
+    "name": "Adidas Climacool Lightstrike Pro Pale Grey Black 42",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "42",
+      "44",
+      "45",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "42",
+        "price": 2100,
+        "stock": 1,
+        "sku": "A5477-1555313"
+      },
+      {
+        "size": "44",
+        "price": 2100,
+        "stock": 4,
+        "sku": "A5477-1555315"
+      },
+      {
+        "size": "45",
+        "price": 2100,
+        "stock": 3,
+        "sku": "A5477-1555316"
+      },
+      {
+        "size": "46",
+        "price": 2100,
+        "stock": 2,
+        "sku": "A5477-1555317"
+      }
+    ],
+    "price": 2100,
+    "stock": 10,
+    "description": "Матеріал : сіткаВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/b2b9c5b8-07b9-4910-9de1-15e2ae84f8fd.jpg"
+    ]
+  },
+  {
+    "id": "crm-z3ktso",
+    "createdAt": "2026-11-14T07:42:52.566Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "208438",
+    "name": "Adidas Handball Spezial Black White 36",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 2100,
+        "stock": 4,
+        "sku": "B4939-1438306"
+      },
+      {
+        "size": "38",
+        "price": 2100,
+        "stock": 3,
+        "sku": "B4939-1438308"
+      },
+      {
+        "size": "40",
+        "price": 2100,
+        "stock": 2,
+        "sku": "B4939-1438310"
+      },
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 2,
+        "sku": "B4939-1438311"
+      }
+    ],
+    "price": 2100,
+    "stock": 11,
+    "description": "Матеріал : натуральна замша , шкіраВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/f8fa6aa9-0a0f-493e-9de9-b0811228c5d0.jpg"
+    ]
+  },
+  {
+    "id": "crm-x3x5f9",
+    "createdAt": "2026-11-14T07:42:52.715Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "211440",
+    "name": "Adidas Climaproof Black White 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2000,
+        "stock": 2,
+        "sku": "A5043-1462933"
+      },
+      {
+        "size": "42",
+        "price": 2000,
+        "stock": 4,
+        "sku": "A5043-1462934"
+      },
+      {
+        "size": "43",
+        "price": 2000,
+        "stock": 6,
+        "sku": "A5043-1462935"
+      },
+      {
+        "size": "44",
+        "price": 2000,
+        "stock": 4,
+        "sku": "A5043-1462936"
+      }
+    ],
+    "price": 2000,
+    "stock": 16,
+    "description": "Матеріал : шкіра , нубук , текстиль , WaterproofВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/ef6c93d9-beaa-4114-b57b-b0fd2d3bd572.jpg"
+    ]
+  },
+  {
+    "id": "crm-9yg6ju",
+    "createdAt": "2026-11-14T07:42:52.904Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "224719",
+    "name": "Adidas Climacool Black White 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "43",
+      "44",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 1,
+        "sku": "A5536-1570110"
+      },
+      {
+        "size": "43",
+        "price": 2100,
+        "stock": 3,
+        "sku": "A5536-1570112"
+      },
+      {
+        "size": "44",
+        "price": 2100,
+        "stock": 5,
+        "sku": "A5536-1570113"
+      },
+      {
+        "size": "46",
+        "price": 2100,
+        "stock": 3,
+        "sku": "A5536-1570115"
+      }
+    ],
+    "price": 2100,
+    "stock": 12,
+    "description": "Матеріал : наскрізна сіткаВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/fc645b8e-0036-44e9-9d1c-16a8769c324c.jpg"
+    ]
+  },
+  {
+    "id": "crm-v6r0ab",
+    "createdAt": "2026-11-14T07:42:53.177Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "220594",
+    "name": "Adidas Duramo Speed Black Orange 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 2,
+        "sku": "A5380-1533121"
+      },
+      {
+        "size": "42",
+        "price": 2100,
+        "stock": 4,
+        "sku": "A5380-1533122"
+      },
+      {
+        "size": "43",
+        "price": 2100,
+        "stock": 2,
+        "sku": "A5380-1533123"
+      },
+      {
+        "size": "45",
+        "price": 2100,
+        "stock": 2,
+        "sku": "A5380-1533125"
+      }
+    ],
+    "price": 2100,
+    "stock": 10,
+    "description": "Матеріал : сітка , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/aa57b727-f59c-44ab-8f49-8beb51bdfa1e.jpg"
+    ]
+  },
+  {
+    "id": "crm-1cruq41",
+    "createdAt": "2026-11-14T07:42:53.417Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "249175",
+    "name": "Adidas Handball Spezial M Black White 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 2,
+        "sku": "A5948-1751377"
+      },
+      {
+        "size": "42",
+        "price": 2100,
+        "stock": 3,
+        "sku": "A5948-1751378"
+      },
+      {
+        "size": "44",
+        "price": 2100,
+        "stock": 3,
+        "sku": "A5948-1751380"
+      },
+      {
+        "size": "45",
+        "price": 2100,
+        "stock": 2,
+        "sku": "A5948-1751381"
+      }
+    ],
+    "price": 2100,
+    "stock": 10,
+    "description": "Матеріал : натуральна замша , шкіраВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/2bd268d2-e9ec-45d8-986b-d58bf0d74d4f.jpg"
+    ]
+  },
+  {
+    "id": "crm-1sq5j9c",
+    "createdAt": "2026-11-14T07:42:53.621Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "219524",
+    "name": "Adidas Spezial Plum 37",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "37",
+      "38",
+      "40",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "37",
+        "price": 2100,
+        "stock": 1,
+        "sku": "В5307-1525523"
+      },
+      {
+        "size": "38",
+        "price": 2100,
+        "stock": 2,
+        "sku": "В5307-1525524"
+      },
+      {
+        "size": "40",
+        "price": 2100,
+        "stock": 2,
+        "sku": "В5307-1525526"
+      },
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 1,
+        "sku": "В5307-1525527"
+      }
+    ],
+    "price": 2100,
+    "stock": 6,
+    "description": "Матеріал : натуральна замша , шкіра , текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/8df83a69-7721-45bd-a0ae-b512e5bf63d4.jpg"
+    ]
+  },
+  {
+    "id": "crm-14nuurr",
+    "createdAt": "2026-11-14T07:42:53.836Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "208462",
+    "name": "Adidas Handball Spezial Black White 42",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "42",
+        "price": 2100,
+        "stock": 2,
+        "sku": "A4944-1438542"
+      },
+      {
+        "size": "43",
+        "price": 2100,
+        "stock": 2,
+        "sku": "A4944-1438543"
+      },
+      {
+        "size": "44",
+        "price": 2100,
+        "stock": 4,
+        "sku": "A4944-1438544"
+      },
+      {
+        "size": "45",
+        "price": 2100,
+        "stock": 3,
+        "sku": "A4944-1438545"
+      }
+    ],
+    "price": 2100,
+    "stock": 11,
+    "description": "Матеріал : натуральна замша , шкіраВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/53c89afb-57d9-46cc-afb0-1e87ab4f45b4.jpg"
+    ]
+  },
+  {
+    "id": "crm-1ay5qme",
+    "createdAt": "2026-11-14T07:42:53.980Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "246535",
+    "name": "Adidas Ivy Park Savage V4 Navy Black White 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 1900,
+        "stock": 1,
+        "sku": "A5889-1727175"
+      },
+      {
+        "size": "43",
+        "price": 1900,
+        "stock": 2,
+        "sku": "A5889-1727177"
+      },
+      {
+        "size": "44",
+        "price": 1900,
+        "stock": 2,
+        "sku": "A5889-1727178"
+      },
+      {
+        "size": "45",
+        "price": 1900,
+        "stock": 1,
+        "sku": "A5889-1727179"
+      }
+    ],
+    "price": 1900,
+    "stock": 6,
+    "description": "Матеріал : шкіра  , Waterproof, рефлективні вставкиВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/3b2ca628-7b01-48a5-bfd5-f0638c152580.jpg"
+    ]
+  },
+  {
+    "id": "crm-3jluq0",
+    "createdAt": "2026-11-14T07:42:54.164Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "178704",
+    "name": "Adidas SL 72 Noah White Grey Black 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 1900,
+        "stock": 2,
+        "sku": "А4432-1221328"
+      },
+      {
+        "size": "42",
+        "price": 1900,
+        "stock": 5,
+        "sku": "А4432-1221329"
+      },
+      {
+        "size": "43",
+        "price": 1900,
+        "stock": 6,
+        "sku": "А4432-1221330"
+      },
+      {
+        "size": "44",
+        "price": 1900,
+        "stock": 7,
+        "sku": "А4432-1221331"
+      }
+    ],
+    "price": 1900,
+    "stock": 20,
+    "description": "Матеріал : натуральна замша , шкіраВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/cd014359-7391-49a2-a342-3a19a6de0768.jpg"
+    ]
+  },
+  {
+    "id": "crm-kbu1kf",
+    "createdAt": "2026-11-14T07:42:54.404Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "248703",
+    "name": "Adidas Forum Mod Low All Black 37",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "37",
+        "price": 1500,
+        "stock": 1,
+        "sku": "B5917-1747153"
+      },
+      {
+        "size": "38",
+        "price": 1500,
+        "stock": 2,
+        "sku": "B5917-1747154"
+      },
+      {
+        "size": "39",
+        "price": 1500,
+        "stock": 1,
+        "sku": "B5917-1747155"
+      },
+      {
+        "size": "40",
+        "price": 1500,
+        "stock": 2,
+        "sku": "B5917-1747156"
+      }
+    ],
+    "price": 1500,
+    "stock": 6,
+    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/04dc85a1-b22b-4778-af6e-dd5af08523de.jpg"
+    ]
+  },
+  {
+    "id": "crm-1r23723",
+    "createdAt": "2026-11-14T07:42:54.598Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "239394",
+    "name": "Adidas Adizero Evo SL ATR Taupe Beige Orange 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 2,
+        "sku": "А5656-1673189"
+      },
+      {
+        "size": "42",
+        "price": 2300,
+        "stock": 1,
+        "sku": "А5656-1673190"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 3,
+        "sku": "А5656-1673191"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 2,
+        "sku": "А5656-1673192"
+      }
+    ],
+    "price": 2300,
+    "stock": 8,
+    "description": "Матеріал : текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/3383be9d-89ba-4d47-810f-db9838ec7e03.jpg"
+    ]
+  },
+  {
+    "id": "crm-1ae6j8g",
+    "createdAt": "2026-11-14T07:42:54.893Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "246537",
+    "name": "Adidas Ivy Park Savage V4 Black Orange 42",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "42",
+      "43",
+      "44",
+      "46"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "42",
+        "price": 1900,
+        "stock": 1,
+        "sku": "A5891-1727198"
+      },
+      {
+        "size": "43",
+        "price": 1900,
+        "stock": 2,
+        "sku": "A5891-1727199"
+      },
+      {
+        "size": "44",
+        "price": 1900,
+        "stock": 2,
+        "sku": "A5891-1727200"
+      },
+      {
+        "size": "46",
+        "price": 1900,
+        "stock": 1,
+        "sku": "A5891-1727202"
+      }
+    ],
+    "price": 1900,
+    "stock": 6,
+    "description": "Матеріал : шкіра  , Waterproof, рефлективні вставкиВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/d61c81c0-a25b-475c-a300-3d3a867367c5.jpg"
+    ]
+  },
+  {
+    "id": "crm-7rjzln",
+    "createdAt": "2026-11-14T07:42:55.090Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "218782",
+    "name": "Adidas Marathon Brown Grey 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2000,
+        "stock": 3,
+        "sku": "A5263-1520209"
+      },
+      {
+        "size": "43",
+        "price": 2000,
+        "stock": 4,
+        "sku": "A5263-1520211"
+      },
+      {
+        "size": "44",
+        "price": 2000,
+        "stock": 4,
+        "sku": "A5263-1520212"
+      },
+      {
+        "size": "45",
+        "price": 2000,
+        "stock": 2,
+        "sku": "A5263-1520213"
+      }
+    ],
+    "price": 2000,
+    "stock": 13,
+    "description": "Матеріал : сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/7e8a0a01-7682-4897-8ca8-732b6f2e3bf9.jpg"
+    ]
+  },
+  {
+    "id": "crm-14z0wef",
+    "createdAt": "2026-11-14T07:42:55.279Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "220657",
+    "name": "Adidas Bermuda Dark Navy Caramel 36",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "36",
+      "38",
+      "39",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "36",
+        "price": 1800,
+        "stock": 3,
+        "sku": "B5396-1533712"
+      },
+      {
+        "size": "38",
+        "price": 1800,
+        "stock": 3,
+        "sku": "B5396-1533714"
+      },
+      {
+        "size": "39",
+        "price": 1800,
+        "stock": 2,
+        "sku": "B5396-1533715"
+      },
+      {
+        "size": "41",
+        "price": 1800,
+        "stock": 3,
+        "sku": "B5396-1533717"
+      }
+    ],
+    "price": 1800,
+    "stock": 11,
+    "description": "Матеріал : натуральна замша , шкіраВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/33d42d1a-9688-43a0-87d9-0400af8ae96c.jpg"
+    ]
+  },
+  {
+    "id": "crm-1lxbqj8",
+    "createdAt": "2026-11-14T07:42:55.472Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "239207",
+    "name": "Adidas Classic M Dark Grey 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 1,
+        "sku": "A5651-1672152"
+      },
+      {
+        "size": "42",
+        "price": 2100,
+        "stock": 1,
+        "sku": "A5651-1672153"
+      },
+      {
+        "size": "43",
+        "price": 2100,
+        "stock": 2,
+        "sku": "A5651-1672154"
+      },
+      {
+        "size": "44",
+        "price": 2100,
+        "stock": 1,
+        "sku": "A5651-1672155"
+      }
+    ],
+    "price": 2100,
+    "stock": 5,
+    "description": "Матеріал : натуральна замша , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/6f9d1261-dc07-426d-a2c4-7873aca7a5e0.jpg"
+    ]
+  },
+  {
+    "id": "crm-l802jg",
+    "createdAt": "2026-11-14T07:42:55.629Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "239805",
+    "name": "Adidas Retropy Brown 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 1,
+        "sku": "A5671-1676258"
+      },
+      {
+        "size": "42",
+        "price": 2300,
+        "stock": 2,
+        "sku": "A5671-1676259"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 2,
+        "sku": "A5671-1676260"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 1,
+        "sku": "A5671-1676261"
+      }
+    ],
+    "price": 2300,
+    "stock": 6,
+    "description": "Матеріал : шкіраВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/bfb6f052-f4ce-491a-8f0d-d84abb04f18a.jpg"
+    ]
+  },
+  {
+    "id": "crm-1rh05fr",
+    "createdAt": "2026-11-14T07:42:55.813Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "241973",
+    "name": "Adidas ZX 750 New Grey Navy 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2300,
+        "stock": 3,
+        "sku": "A5752-1693187"
+      },
+      {
+        "size": "42",
+        "price": 2300,
+        "stock": 5,
+        "sku": "A5752-1693188"
+      },
+      {
+        "size": "43",
+        "price": 2300,
+        "stock": 4,
+        "sku": "A5752-1693189"
+      },
+      {
+        "size": "44",
+        "price": 2300,
+        "stock": 3,
+        "sku": "A5752-1693190"
+      }
+    ],
+    "price": 2300,
+    "stock": 15,
+    "description": "Матеріал : натуральна замша , шкіра , текстильВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/b70a1ed6-90ab-47ba-ac96-316d0bf10096.jpg"
+    ]
+  },
+  {
+    "id": "crm-12sbl8t",
+    "createdAt": "2026-11-14T07:42:56.072Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "175421",
+    "name": "Adidas Climaproof Black 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2000,
+        "stock": 2,
+        "sku": "A5042-1197897"
+      },
+      {
+        "size": "42",
+        "price": 2000,
+        "stock": 5,
+        "sku": "A5042-1197898"
+      },
+      {
+        "size": "43",
+        "price": 2000,
+        "stock": 2,
+        "sku": "A5042-1197899"
+      },
+      {
+        "size": "44",
+        "price": 2000,
+        "stock": 9,
+        "sku": "A5042-1197900"
+      }
+    ],
+    "price": 2000,
+    "stock": 18,
+    "description": "Матеріал : шкіра , нубук , текстиль , WaterproofВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/3c60fe89-e008-4566-aae2-826b078d8b3a.jpg"
+    ]
+  },
+  {
+    "id": "crm-15g71nq",
+    "createdAt": "2026-11-14T07:42:56.225Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "222599",
+    "name": "Adidas Terrex Skychaser Light Grey Black 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 3,
+        "sku": "A5424-1552005"
+      },
+      {
+        "size": "42",
+        "price": 2200,
+        "stock": 6,
+        "sku": "A5424-1552006"
+      },
+      {
+        "size": "43",
+        "price": 2200,
+        "stock": 6,
+        "sku": "A5424-1552007"
+      },
+      {
+        "size": "44",
+        "price": 2200,
+        "stock": 3,
+        "sku": "A5424-1552008"
+      }
+    ],
+    "price": 2200,
+    "stock": 18,
+    "description": "Матеріал : шкіра , текстиль , наскрізна сіткаВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/8c8e05d7-87b1-47cc-baf1-d6a4ee8802d8.jpg"
+    ]
+  },
+  {
+    "id": "crm-aj16xp",
+    "createdAt": "2026-11-14T07:42:56.422Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "218740",
+    "name": "Adidas Marathon Beige 37",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "37",
+      "38",
+      "39",
+      "41"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "37",
+        "price": 1900,
+        "stock": 3,
+        "sku": "B5252-1519894"
+      },
+      {
+        "size": "38",
+        "price": 1900,
+        "stock": 1,
+        "sku": "B5252-1519895"
+      },
+      {
+        "size": "39",
+        "price": 1900,
+        "stock": 3,
+        "sku": "B5252-1519896"
+      },
+      {
+        "size": "41",
+        "price": 1900,
+        "stock": 2,
+        "sku": "B5252-1519898"
+      }
+    ],
+    "price": 1900,
+    "stock": 9,
+    "description": "Матеріал : сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/28ed1ffd-2ff8-4b53-bbb5-0efbf6428c6b.jpg"
+    ]
+  },
+  {
+    "id": "crm-1bs4jpb",
+    "createdAt": "2026-11-14T07:42:56.617Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "246532",
+    "name": "Adidas Shadowturf x SFTM Black Navy White 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 1,
+        "sku": "A5886-1727141"
+      },
+      {
+        "size": "42",
+        "price": 2100,
+        "stock": 1,
+        "sku": "A5886-1727142"
+      },
+      {
+        "size": "43",
+        "price": 2100,
+        "stock": 2,
+        "sku": "A5886-1727143"
+      },
+      {
+        "size": "44",
+        "price": 2100,
+        "stock": 2,
+        "sku": "A5886-1727144"
+      }
+    ],
+    "price": 2100,
+    "stock": 6,
+    "description": "Матеріал : шкіра  , натуральна замша , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/b88e2a34-f642-4ca6-8ffc-e841bf2b5ac7.jpg"
+    ]
+  },
+  {
+    "id": "crm-xpo1au",
+    "createdAt": "2026-11-14T07:42:56.767Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "159938",
+    "name": "Adidas Profoam Lite Gray Black 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 1800,
+        "stock": 2,
+        "sku": "A3969-1094508"
+      },
+      {
+        "size": "42",
+        "price": 1800,
+        "stock": 4,
+        "sku": "A3969-1094509"
+      },
+      {
+        "size": "43",
+        "price": 1800,
+        "stock": 1,
+        "sku": "A3969-1094510"
+      },
+      {
+        "size": "44",
+        "price": 1800,
+        "stock": 4,
+        "sku": "A3969-1094511"
+      }
+    ],
+    "price": 1800,
+    "stock": 11,
+    "description": "Матеріал : текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/cac9ebd3-1f00-4386-bd8e-3bce8929f8e1.jpg"
+    ]
+  },
+  {
+    "id": "crm-125jyv6",
+    "createdAt": "2026-11-14T07:42:56.970Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "218019",
+    "name": "Adidas Terrex Black 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 1,
+        "sku": "A5206-1514457"
+      },
+      {
+        "size": "42",
+        "price": 2200,
+        "stock": 2,
+        "sku": "A5206-1514458"
+      },
+      {
+        "size": "44",
+        "price": 2200,
+        "stock": 2,
+        "sku": "A5206-1514460"
+      },
+      {
+        "size": "45",
+        "price": 2200,
+        "stock": 1,
+        "sku": "A5206-1514461"
+      }
+    ],
+    "price": 2200,
+    "stock": 6,
+    "description": "Матеріал : текстильВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/91a6d5ed-b39a-4dc7-9f98-ad9fc08aad2f.jpg"
+    ]
+  },
+  {
+    "id": "crm-1d1ubt0",
+    "createdAt": "2026-11-14T07:42:57.187Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "249172",
+    "name": "Adidas Handball Spezial M Black 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 1,
+        "sku": "A5947-1751354"
+      },
+      {
+        "size": "42",
+        "price": 2100,
+        "stock": 2,
+        "sku": "A5947-1751355"
+      },
+      {
+        "size": "43",
+        "price": 2100,
+        "stock": 2,
+        "sku": "A5947-1751356"
+      },
+      {
+        "size": "44",
+        "price": 2100,
+        "stock": 1,
+        "sku": "A5947-1751357"
+      }
+    ],
+    "price": 2100,
+    "stock": 6,
+    "description": "Матеріал : натуральна замша , шкіраВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/1cc81513-6d83-4ab6-8194-9090f6dde61a.jpg"
+    ]
+  },
+  {
+    "id": "crm-14f4uig",
+    "createdAt": "2026-11-14T07:42:57.416Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "220645",
+    "name": "Adidas Terrex 23 Black White 41",
+    "brand": "Adidas",
+    "category": "Adidas",
+    "sizes": [
+      "41",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2100,
+        "stock": 2,
+        "sku": "A5392-1533603"
+      },
+      {
+        "size": "43",
+        "price": 2100,
+        "stock": 7,
+        "sku": "A5392-1533605"
+      },
+      {
+        "size": "44",
+        "price": 2100,
+        "stock": 10,
+        "sku": "A5392-1533606"
+      },
+      {
+        "size": "45",
+        "price": 2100,
+        "stock": 2,
+        "sku": "A5392-1533607"
+      }
+    ],
+    "price": 2100,
+    "stock": 21,
+    "description": "Матеріал : водонепроникний текстиль , нубукВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/fab73170-a9f3-4bf7-8993-acf16fe0c46c.jpg"
+    ]
   }
 ]
