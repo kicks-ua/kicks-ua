@@ -13844,5 +13844,109 @@
     "images": [
       "https://easydrop.one/media/uploads/images/base/e4c609d5-6105-4900-b762-446ea19fd161.jpg"
     ]
+  },
+  {
+    "id": "crm-nx6oy6",
+    "createdAt": "2026-11-14T07:33:19.434Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "218411",
+    "name": "Nike Air Force 1 Mocco 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2000,
+        "stock": 5,
+        "sku": "A5220-1516979"
+      },
+      {
+        "size": "42",
+        "price": 2000,
+        "stock": 8,
+        "sku": "A5220-1516980"
+      },
+      {
+        "size": "43",
+        "price": 2000,
+        "stock": 7,
+        "sku": "A5220-1516981"
+      },
+      {
+        "size": "44",
+        "price": 2000,
+        "stock": 9,
+        "sku": "A5220-1516982"
+      }
+    ],
+    "price": 2000,
+    "stock": 29,
+    "description": "Матеріал : шкіраВиробник : Вʼєтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/65979c2b-0124-46d4-bd49-a78ce55ce77f.jpg"
+    ]
+  },
+  {
+    "id": "crm-1qnag3i",
+    "createdAt": "2026-11-14T07:33:19.637Z",
+    "active": true,
+    "oldPrice": null,
+    "badge": null,
+    "sizeChart": "",
+    "source": "crm-xml",
+    "sourceGroupId": "217353",
+    "name": "Nike Initiator Ash Grey Beige 41",
+    "brand": "Nike",
+    "category": "Nike",
+    "sizes": [
+      "41",
+      "43",
+      "44",
+      "45"
+    ],
+    "specs": {},
+    "variants": [
+      {
+        "size": "41",
+        "price": 2200,
+        "stock": 4,
+        "sku": "А5174-1509364"
+      },
+      {
+        "size": "43",
+        "price": 2200,
+        "stock": 5,
+        "sku": "А5174-1509366"
+      },
+      {
+        "size": "44",
+        "price": 2200,
+        "stock": 6,
+        "sku": "А5174-1509367"
+      },
+      {
+        "size": "45",
+        "price": 2200,
+        "stock": 1,
+        "sku": "А5174-1509368"
+      }
+    ],
+    "price": 2200,
+    "stock": 16,
+    "description": "Матеріал : шкіра , натуральна замша , сіткаВиробник : В'єтнам",
+    "images": [
+      "https://easydrop.one/media/uploads/images/base/4807fb4c-c4ef-440a-b0ff-dc585c7f8ce8.jpg"
+    ]
   }
 ]
