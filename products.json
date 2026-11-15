@@ -10980,7 +10980,14 @@
       "44",
       "45"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "шкіра , текстиль",
+      "Колір": "чорний",
+      "Підошва": "піна , гумовий протектор , Air Sole",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -11015,10 +11022,19 @@
     ],
     "price": 2300,
     "stock": 25,
-    "description": "Матеріал : шкіра , текстильВиробник : В'єтнам",
+    "description": "✔️ Чоловічі кросівки Nike Air Max Correlate Black White   \n\n\n🔘Артикул А6117\n▪️Виробництво : В'єтнам\n▪️Матеріал верху : шкіра , текстиль  \n▪️Колір : чорний \n▪️Підошва : піна , гумовий протектор , Air Sole\n▪️Розміри:  41-45\n▪️Сезон :  весна / літо / осінь  \n📦Коробка Nike , фірмовий папір\n🔢Розмірна сітка :\n▫️41 = 26,0 см ;\n▫️42 = 26,5 см ;\n▫️43 = 27,5 см ;\n▫️44 = 28 см ;\n▫️45 = 29 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/378df693-2cca-4142-b65f-520ed2a5dbb0.jpg"
-    ]
+      "images/telegram/crm-fsenlg/1794764871517-01-reply_324147_324148-jpg.jpg",
+      "images/telegram/crm-fsenlg/1794764876851-02-reply_324147_324149-jpg.jpg",
+      "images/telegram/crm-fsenlg/1794764882180-03-reply_324147_324150-jpg.jpg",
+      "images/telegram/crm-fsenlg/1794764887320-04-reply_324147_324151-jpg.jpg",
+      "images/telegram/crm-fsenlg/1794764892937-05-reply_324147_324152-jpg.jpg",
+      "images/telegram/crm-fsenlg/1794764898308-06-reply_324147_324153-jpg.jpg",
+      "images/telegram/crm-fsenlg/1794764903939-07-reply_324147_324154-jpg.jpg",
+      "images/telegram/crm-fsenlg/1794764909869-08-reply_324147_324155-jpg.jpg",
+      "images/telegram/crm-fsenlg/1794764915318-09-reply_324147_324156-jpg.jpg"
+    ],
+    "telegram_article": "A6117"
   },
   {
     "id": "crm-bb62gu",
