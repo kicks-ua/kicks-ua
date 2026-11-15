@@ -8399,7 +8399,14 @@
       "40",
       "41"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "шкіра",
+      "Колір": "моко",
+      "Підошва": "гума , прошиті",
+      "Розміри": "36-41",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "36",
@@ -8440,10 +8447,19 @@
     ],
     "price": 2000,
     "stock": 31,
-    "description": "Матеріал : шкіраВиробник : В'єтнам",
+    "description": "✔️ Жіночі кросівки Nike Air Force 1 Mocco\n\n\n🔘Артикул B5241\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : шкіра \n▪️Колір : моко\n▪️Підошва : гума , прошиті\n▪️Розміри:  36-41\n▪️Сезон :  весна / літо / осінь  \n📦Коробка Nike , фірмовий папір  \n🔢Розмірна сітка :\n▫️36 = 23 см ; \n▫️37 = 23,5 см ;\n▫️38 = 24 см ;\n▫️39 = 24,5 см ;\n▫️40 = 25,5 см ;\n▫️41 = 26 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/ea108312-9a51-4d98-b793-f8ac21de6b07.jpg"
-    ]
+      "images/telegram/crm-b6xlux/1794762650615-01-reply_253111_253074-jpg.jpg",
+      "images/telegram/crm-b6xlux/1794762656014-02-reply_253111_253075-jpg.jpg",
+      "images/telegram/crm-b6xlux/1794762661113-03-reply_253111_253076-jpg.jpg",
+      "images/telegram/crm-b6xlux/1794762666310-04-reply_253111_253077-jpg.jpg",
+      "images/telegram/crm-b6xlux/1794762671903-05-reply_253111_253078-jpg.jpg",
+      "images/telegram/crm-b6xlux/1794762676999-06-reply_253111_253079-jpg.jpg",
+      "images/telegram/crm-b6xlux/1794762683012-07-reply_253111_253080-jpg.jpg",
+      "images/telegram/crm-b6xlux/1794762688434-08-reply_253111_253081-jpg.jpg",
+      "images/telegram/crm-b6xlux/1794762694153-09-reply_253111_253082-jpg.jpg"
+    ],
+    "telegram_article": "B5241"
   },
   {
     "id": "crm-pqc1rd",
