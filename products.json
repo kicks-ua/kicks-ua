@@ -10196,7 +10196,14 @@
       "40",
       "41"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "текстиль",
+      "Колір": "бежевий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "36-41",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "36",
@@ -10237,10 +10244,19 @@
     ],
     "price": 2200,
     "stock": 18,
-    "description": "Матеріал : текстильВиробник : В'єтнам",
+    "description": "✔️ Жіночі кросівки Nike Zoom Vomero Roam Beige White\n\n\n🔘Артикул B5294\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : текстиль\n▪️Колір : бежевий \n▪️Підошва : піна , гумовий протектор \n▪️Розміри:  36-41\n▪️Сезон :  весна / літо / осінь   \n📦Коробка Nike , пергамент \n🔢Розмірна сітка :\n▫️36 = 22,5 см ; \n▫️37 = 23 см ;\n▫️38 = 24 см ;\n▫️39 = 24,5 см ;\n▫️40 = 25 см ;\n▫️41 = 26 см . \n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/1ef89ea4-ffaa-404c-965d-abf2290cbebb.jpg"
-    ]
+      "images/telegram/crm-1odx649/1794764176418-01-reply_253227_253171-jpg.jpg",
+      "images/telegram/crm-1odx649/1794764181793-02-reply_253227_253172-jpg.jpg",
+      "images/telegram/crm-1odx649/1794764186887-03-reply_253227_253173-jpg.jpg",
+      "images/telegram/crm-1odx649/1794764192100-04-reply_253227_253174-jpg.jpg",
+      "images/telegram/crm-1odx649/1794764197033-05-reply_253227_253175-jpg.jpg",
+      "images/telegram/crm-1odx649/1794764201998-06-reply_253227_253176-jpg.jpg",
+      "images/telegram/crm-1odx649/1794764207376-07-reply_253227_253177-jpg.jpg",
+      "images/telegram/crm-1odx649/1794764212863-08-reply_253227_253178-jpg.jpg",
+      "images/telegram/crm-1odx649/1794764218083-09-reply_253227_253179-jpg.jpg"
+    ],
+    "telegram_article": "B5294"
   },
   {
     "id": "crm-cnwa3c",
