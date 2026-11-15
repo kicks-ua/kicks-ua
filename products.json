@@ -9786,7 +9786,14 @@
       "45",
       "46"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "шкіра , текстиль",
+      "Колір": "білий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-46",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -9827,10 +9834,19 @@
     ],
     "price": 2500,
     "stock": 15,
-    "description": "Матеріал : шкіра , текстильВиробник : В'єтнам",
+    "description": "✔️ Чоловічі кросівки Nike Initiator M White Beige Merallic\n\n🔝Топ якість ААА+\n\n🔘Артикул А6259\n▪️Виробництво : В'єтнам\n▪️Матеріал верху : шкіра , текстиль\n▪️Колір : білий           \n▪️Підошва : піна , гумовий протектор\n▪️Розміри : 41-46\n▪️Сезон : весна / літо / осінь\n📦Коробка Nike , фірмовий папір\n🔸Розмірна сітка :\n▫️41 = 26,5 см ;\n▫️42 = 27 см ;\n▫️43 = 27.5 см ;\n▫️44 = 28 см ;\n▫️45 = 28,5 см ;\n▫️46 = 29 см . \n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/81fd680e-4df1-4e88-b639-f4db228aef2f.jpg"
-    ]
+      "images/telegram/crm-qv5z9c/1794763825818-01-reply_337025_337026-jpg.jpg",
+      "images/telegram/crm-qv5z9c/1794763831102-02-reply_337025_337027-jpg.jpg",
+      "images/telegram/crm-qv5z9c/1794763836180-03-reply_337025_337028-jpg.jpg",
+      "images/telegram/crm-qv5z9c/1794763841192-04-reply_337025_337029-jpg.jpg",
+      "images/telegram/crm-qv5z9c/1794763846597-05-reply_337025_337030-jpg.jpg",
+      "images/telegram/crm-qv5z9c/1794763852030-06-reply_337025_337031-jpg.jpg",
+      "images/telegram/crm-qv5z9c/1794763858041-07-reply_337025_337032-jpg.jpg",
+      "images/telegram/crm-qv5z9c/1794763864468-08-reply_337025_337033-jpg.jpg",
+      "images/telegram/crm-qv5z9c/1794763870440-09-reply_337025_337034-jpg.jpg"
+    ],
+    "telegram_article": "A6259"
   },
   {
     "id": "crm-1u9op9d",
