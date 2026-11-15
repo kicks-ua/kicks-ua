@@ -8563,7 +8563,14 @@
       "40",
       "41"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "Вʼєтнам",
+      "Матеріал верху": "натуральна замша , шкіра , текстиль",
+      "Колір": "чорний",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "36-41",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "36",
@@ -8604,10 +8611,19 @@
     ],
     "price": 2000,
     "stock": 28,
-    "description": "Матеріал : натуральна замша , шкіра , текстильВиробник : Вʼєтнам",
+    "description": "✔️ Жіночі кросівки Nike Air Huarache Black White\n\n\n🔘Артикул B4084\n▪️Виробництво : Вʼєтнам \n▪️Матеріал верху : натуральна замша , шкіра , текстиль\n▪️Колір : чорний \n▪️Підошва : піна , гумовий протектор\n▪️Розміри : 36-41\n▪️Сезон : весна / літо / осінь \n📦Коробка Nike , фірмовий папір\n🔸Розмірна сітка :\n▪️36 = 22,5 см ;\n▪️37 = 23,5 см ;\n▪️38 = 24 см ;\n▪️39 = 24,5 см ;\n▪️40 = 25 см ;\n▪️41 = 25,5 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/c8ba2860-eba1-4bf8-aed1-3a55fbf8a0df.jpg"
-    ]
+      "images/telegram/crm-1vcnipu/1794762788448-01-reply_296413_296376-jpg.jpg",
+      "images/telegram/crm-1vcnipu/1794762793880-02-reply_296413_296377-jpg.jpg",
+      "images/telegram/crm-1vcnipu/1794762799084-03-reply_296413_296378-jpg.jpg",
+      "images/telegram/crm-1vcnipu/1794762804285-04-reply_296413_296379-jpg.jpg",
+      "images/telegram/crm-1vcnipu/1794762809582-05-reply_296413_296380-jpg.jpg",
+      "images/telegram/crm-1vcnipu/1794762814660-06-reply_296413_296381-jpg.jpg",
+      "images/telegram/crm-1vcnipu/1794762820056-07-reply_296413_296382-jpg.jpg",
+      "images/telegram/crm-1vcnipu/1794762825917-08-reply_296413_296383-jpg.jpg",
+      "images/telegram/crm-1vcnipu/1794762831438-09-reply_296413_296384-jpg.jpg"
+    ],
+    "telegram_article": "B4084"
   },
   {
     "id": "crm-1topwk0",
