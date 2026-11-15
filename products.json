@@ -8317,7 +8317,14 @@
       "45",
       "46"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "шкіра , текстиль",
+      "Колір": "чорний",
+      "Підошва": "гума , амортизація Tuned Air",
+      "Розміри": "41-46",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -8358,10 +8365,19 @@
     ],
     "price": 2200,
     "stock": 26,
-    "description": "Матеріал : шкіра , текстильВиробник : В'єтнам",
+    "description": "✔️ Чоловічі кросівки Nike Air Max Plus All Black \n\n\n🔘Артикул A5288\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : шкіра , текстиль \n▪️Колір : чорний \n▪️Підошва : гума , амортизація Tuned Air\n▪️Розміри:  41-46\n▪️Сезон :  весна / літо / осінь   \n📦Коробка Nike , фірмовий папір  \n🔢Розмірна сітка :\n▫️41 = 26,5 см ; \n▫️42 = 27 см ;\n▫️43 = 27,5 см ;\n▫️44 = 28 см ;\n▫️45 = 28,5 см ;\n▫️46 = 29 см . \n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/aedeec32-6591-49d2-838f-54ee81c7507a.jpg"
-    ]
+      "images/telegram/crm-iwnzbt/1794762583420-01-reply_217564_210091-jpg.jpg",
+      "images/telegram/crm-iwnzbt/1794762588628-02-reply_217564_210092-jpg.jpg",
+      "images/telegram/crm-iwnzbt/1794762593771-03-reply_217564_210093-jpg.jpg",
+      "images/telegram/crm-iwnzbt/1794762598913-04-reply_217564_210094-jpg.jpg",
+      "images/telegram/crm-iwnzbt/1794762604059-05-reply_217564_210095-jpg.jpg",
+      "images/telegram/crm-iwnzbt/1794762609044-06-reply_217564_210096-jpg.jpg",
+      "images/telegram/crm-iwnzbt/1794762614139-07-reply_217564_210097-jpg.jpg",
+      "images/telegram/crm-iwnzbt/1794762619639-08-reply_217564_210098-jpg.jpg",
+      "images/telegram/crm-iwnzbt/1794762625051-09-reply_217564_210099-jpg.jpg"
+    ],
+    "telegram_article": "A5288"
   },
   {
     "id": "crm-b6xlux",
