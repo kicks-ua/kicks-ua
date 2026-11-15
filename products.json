@@ -8153,7 +8153,14 @@
       "45",
       "46"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "сітка , текстиль",
+      "Колір": "сірий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-46",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -8194,10 +8201,19 @@
     ],
     "price": 2200,
     "stock": 16,
-    "description": "Матеріал : сітка , текстильВиробник : В'єтнам",
+    "description": "✔️ Чоловічі кросівки Nike Renew Light Grey Beige \n\n\n🔘Артикул A5385\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : сітка , текстиль \n▪️Колір : сірий\n▪️Підошва : піна , гумовий протектор \n▪️Розміри:  41-46\n▪️Сезон :  весна / літо / осінь   \n📦Коробка  Nike , фірмовий папір \n🔢Розмірна сітка :\n▫️41 = 26,5 см ; \n▫️42 = 27,5 см ;\n▫️43 = 28 см ;\n▫️44 = 28,5 см ;\n▫️45 = 29,5 см ;\n▫️46 = 30 см . \n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/b543d313-ec32-40a6-bde0-03aa030cfe94.jpg"
-    ]
+      "images/telegram/crm-1kbveg/1794762440792-01-reply_254155_254091-jpg.jpg",
+      "images/telegram/crm-1kbveg/1794762445928-02-reply_254155_254092-jpg.jpg",
+      "images/telegram/crm-1kbveg/1794762451301-03-reply_254155_254093-jpg.jpg",
+      "images/telegram/crm-1kbveg/1794762456417-04-reply_254155_254094-jpg.jpg",
+      "images/telegram/crm-1kbveg/1794762461904-05-reply_254155_254095-jpg.jpg",
+      "images/telegram/crm-1kbveg/1794762467840-06-reply_254155_254096-jpg.jpg",
+      "images/telegram/crm-1kbveg/1794762473703-07-reply_254155_254097-jpg.jpg",
+      "images/telegram/crm-1kbveg/1794762479182-08-reply_254155_254098-jpg.jpg",
+      "images/telegram/crm-1kbveg/1794762484682-09-reply_254155_254099-jpg.jpg"
+    ],
+    "telegram_article": "A5385"
   },
   {
     "id": "crm-up50xd",
