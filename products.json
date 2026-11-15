@@ -16009,7 +16009,13 @@
       "45",
       "46"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "Вʼєтнам",
+      "Колір": "сірий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-46",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -16050,10 +16056,19 @@
     ],
     "price": 2100,
     "stock": 21,
-    "description": "Матеріал : сітка , натуральна замшаВиробник : Вʼєтнам",
+    "description": "📊 Чоловічі кросівки Adidas Climacool Grey Black  \n\n\n🔘Артикул A5472\n▪️Виробництво : Вʼєтнам\n▪️Матеріал верху : \nсітка , натуральна замша \n▪️Колір : сірий\n▪️Підошва : піна , гумовий протектор\n▪️Розміри : 41-46\n▪️Сезон : весна / літо / осінь \n📦Коробка Adidas  , фірмовий папір\n🔸Розмірна сітка :\n▫️41 = 26 см ;\n▫️42 = 26,5 см ;\n▫️43 = 27 см ;\n▫️44 = 27,5 см ;\n▫️45 = 28 см ;\n▫️46 = 29 см . \n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/1434e644-f2f5-41b5-95ad-f30509aeb40a.jpg"
-    ]
+      "images/telegram/crm-ff7kze/1794769682571-01-reply_276841_276775-jpg.jpg",
+      "images/telegram/crm-ff7kze/1794769687337-02-reply_276841_276776-jpg.jpg",
+      "images/telegram/crm-ff7kze/1794769692791-03-reply_276841_276777-jpg.jpg",
+      "images/telegram/crm-ff7kze/1794769698679-04-reply_276841_276778-jpg.jpg",
+      "images/telegram/crm-ff7kze/1794769703554-05-reply_276841_276779-jpg.jpg",
+      "images/telegram/crm-ff7kze/1794769709023-06-reply_276841_276780-jpg.jpg",
+      "images/telegram/crm-ff7kze/1794769714395-07-reply_276841_276781-jpg.jpg",
+      "images/telegram/crm-ff7kze/1794769719551-08-reply_276841_276782-jpg.jpg",
+      "images/telegram/crm-ff7kze/1794769724577-09-reply_276841_276783-jpg.jpg"
+    ],
+    "telegram_article": "A5472"
   },
   {
     "id": "crm-2yg6v9",
