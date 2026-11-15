@@ -12850,7 +12850,14 @@
       "44",
       "45"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "шкіра",
+      "Колір": "чорний",
+      "Підошва": "гума , прошиті",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -12885,10 +12892,19 @@
     ],
     "price": 2000,
     "stock": 15,
-    "description": "Матеріал : шкіраВиробник : Вʼєтнам",
+    "description": "✔️ Чоловічі кросівки Nike Air Force 1 '07 M Black\n\n\n🔘Артикул A5225\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : шкіра \n▪️Колір : чорний\n▪️Підошва : гума , прошиті   \n▪️Розміри:  41-45\n▪️Сезон :  весна / літо / осінь  \n📦Коробка Nike , фірмовий папір  \n🔢Розмірна сітка :\n▫️41 = 26,5 см ;\n▫️42 = 27 см ;\n▫️43 = 27,5 см ;\n▫️44 = 28 см ;\n▫️45 = 28,5 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/24b7d8f0-c31e-4592-a1fa-79acafebccce.jpg"
-    ]
+      "images/telegram/crm-jriyjj/1794766655032-01-reply_252910_252845-jpg.jpg",
+      "images/telegram/crm-jriyjj/1794766660280-02-reply_252910_252846-jpg.jpg",
+      "images/telegram/crm-jriyjj/1794766665423-03-reply_252910_252847-jpg.jpg",
+      "images/telegram/crm-jriyjj/1794766670587-04-reply_252910_252848-jpg.jpg",
+      "images/telegram/crm-jriyjj/1794766675511-05-reply_252910_252849-jpg.jpg",
+      "images/telegram/crm-jriyjj/1794766680715-06-reply_252910_252850-jpg.jpg",
+      "images/telegram/crm-jriyjj/1794766685972-07-reply_252910_252851-jpg.jpg",
+      "images/telegram/crm-jriyjj/1794766690948-08-reply_252910_252852-jpg.jpg",
+      "images/telegram/crm-jriyjj/1794766696002-09-reply_252910_252853-jpg.jpg"
+    ],
+    "telegram_article": "A5225"
   },
   {
     "id": "crm-9buqrq",
