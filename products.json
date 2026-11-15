@@ -14914,7 +14914,14 @@
       "43",
       "44"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "Вʼєтнам",
+      "Матеріал верху": "текстиль",
+      "Колір": "бежевий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -14943,10 +14950,19 @@
     ],
     "price": 1800,
     "stock": 19,
-    "description": "Матеріал : текстильВиробник : Вʼєтнам",
+    "description": "👕 Чоловічі кросівки Nike ACG Mountain Fly Low Beige Black \n\n\n🔘Артикул A3878\n▪️Виробництво : Вʼєтнам\n▪️Матеріал верху : текстиль \n▪️Колір : бежевий \n▪️Підошва : піна , гумовий протектор\n▪️Розміри : 41-45\n▪️Сезон : весна / літо / осінь \n📦Коробка Nike , фірмовий папір\n🔸Розмірна сітка :\n▫️41 = 26,5 см ;\n▫️42 = 27 см ;\n▫️43 = 27.5 см ;\n▫️44 = 28 см ;\n▫️45 = 28.5 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/c31b0ae8-0c1d-4ea0-92cd-af6f5767729a.jpg"
-    ]
+      "images/telegram/crm-1o3w2nw/1794768625530-01-reply_224819_224791-jpg.jpg",
+      "images/telegram/crm-1o3w2nw/1794768630827-02-reply_224819_224792-jpg.jpg",
+      "images/telegram/crm-1o3w2nw/1794768636812-03-reply_224819_224793-jpg.jpg",
+      "images/telegram/crm-1o3w2nw/1794768642121-04-reply_224819_224794-jpg.jpg",
+      "images/telegram/crm-1o3w2nw/1794768647214-05-reply_224819_224795-jpg.jpg",
+      "images/telegram/crm-1o3w2nw/1794768652780-06-reply_224819_224796-jpg.jpg",
+      "images/telegram/crm-1o3w2nw/1794768658680-07-reply_224819_224797-jpg.jpg",
+      "images/telegram/crm-1o3w2nw/1794768664853-08-reply_224819_224798-jpg.jpg",
+      "images/telegram/crm-1o3w2nw/1794768670341-09-reply_224819_224799-jpg.jpg"
+    ],
+    "telegram_article": "A3878"
   },
   {
     "id": "crm-ytp66y",
