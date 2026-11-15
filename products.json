@@ -13525,7 +13525,14 @@
       "44",
       "45"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "текстиль , сітка",
+      "Колір": "чорний",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -13560,10 +13567,19 @@
     ],
     "price": 2200,
     "stock": 45,
-    "description": "Матеріал : текстиль , сіткаВиробник : В'єтнам",
+    "description": "✔️ Чоловічі кросівки\nNike Air Running All Black\n\n\n🔘Артикул A5324\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : текстиль , сітка\n▪️Колір : чорний\n▪️Підошва : піна , гумовий протектор \n▪️Розміри:  41-45\n▪️Сезон :  весна / літо / осінь   \n📦Коробка Nike , фірмовий папір \n🔢Розмірна сітка :\n▫️41 = 26 см ; \n▫️42 = 26,5 см ;\n▫️43 = 27 см ;\n▫️44 = 28 см ;\n▫️45 = 28,5 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/11bf7411-134e-4f88-a353-1d7411e3eee0.jpg"
-    ]
+      "images/telegram/crm-18wyjhp/1794767299979-01-reply_290006_253547-jpg.jpg",
+      "images/telegram/crm-18wyjhp/1794767305416-02-reply_290006_253548-jpg.jpg",
+      "images/telegram/crm-18wyjhp/1794767310823-03-reply_290006_253549-jpg.jpg",
+      "images/telegram/crm-18wyjhp/1794767316323-04-reply_290006_253550-jpg.jpg",
+      "images/telegram/crm-18wyjhp/1794767321386-05-reply_290006_253551-jpg.jpg",
+      "images/telegram/crm-18wyjhp/1794767326671-06-reply_290006_253552-jpg.jpg",
+      "images/telegram/crm-18wyjhp/1794767332186-07-reply_290006_253553-jpg.jpg",
+      "images/telegram/crm-18wyjhp/1794767337318-08-reply_290006_253554-jpg.jpg",
+      "images/telegram/crm-18wyjhp/1794767342615-09-reply_290006_253555-jpg.jpg"
+    ],
+    "telegram_article": "A5324"
   },
   {
     "id": "crm-az8d5o",
