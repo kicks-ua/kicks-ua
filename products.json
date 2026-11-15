@@ -15845,7 +15845,14 @@
       "40",
       "41"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "натуральна замша , шкіра , текстиль",
+      "Колір": "сірий",
+      "Підошва": "гума",
+      "Розміри": "36-41",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "36",
@@ -15886,10 +15893,19 @@
     ],
     "price": 2100,
     "stock": 18,
-    "description": "Матеріал : натуральна замша , шкіра , текстильВиробник : Вʼєтнам",
+    "description": "📊 Жіночі кросівки Adidas Spezial Light Grey White  \n\n\n🔘Артикул B5211\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : натуральна замша , шкіра , текстиль\n▪️Колір : сірий\n▪️Підошва : гума\n▪️Розміри:  36-41\n▪️Сезон :  весна / літо / осінь  \n📦Коробка Adidas , фірмовий папір \n🔢Розмірна сітка :\n▫️36 = 23,0 см ; \n▫️37 = 23,5 см ;\n▫️38 = 24,5 см ;\n▫️39 = 25 см ;\n▫️40 = 25,5 см ;\n▫️41 = 26 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/6bc322d7-e0fb-4ddb-8af4-be69c0a3e34c.jpg"
-    ]
+      "images/telegram/crm-oeepsv/1794769550244-01-reply_271297_271240-jpg.jpg",
+      "images/telegram/crm-oeepsv/1794769555476-02-reply_271297_271241-jpg.jpg",
+      "images/telegram/crm-oeepsv/1794769560414-03-reply_271297_271242-jpg.jpg",
+      "images/telegram/crm-oeepsv/1794769565858-04-reply_271297_271243-jpg.jpg",
+      "images/telegram/crm-oeepsv/1794769570984-05-reply_271297_271244-jpg.jpg",
+      "images/telegram/crm-oeepsv/1794769575802-06-reply_271297_271245-jpg.jpg",
+      "images/telegram/crm-oeepsv/1794769581083-07-reply_271297_271246-jpg.jpg",
+      "images/telegram/crm-oeepsv/1794769585895-08-reply_271297_271247-jpg.jpg",
+      "images/telegram/crm-oeepsv/1794769590755-09-reply_271297_271248-jpg.jpg"
+    ],
+    "telegram_article": "B5211"
   },
   {
     "id": "crm-fan5dq",
