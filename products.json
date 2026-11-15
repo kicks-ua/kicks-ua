@@ -13300,7 +13300,14 @@
       "40",
       "41"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "шкіра , сітка",
+      "Колір": "білий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "37-41",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "37",
@@ -13335,10 +13342,19 @@
     ],
     "price": 2200,
     "stock": 16,
-    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "description": "✔️ Жіночі кросівки Nike V5 RNR White Metallic Beige\n\n\n🔘Артикул B5133\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : шкіра , сітка \n▪️Колір : білий\n▪️Підошва : піна , гумовий протектор\n▪️Розміри:  37-41\n▪️Сезон :  весна / літо / осінь  \n📦Коробка Nike , фірмовий папір\n🔢Розмірна сітка :\n▫️37 = 23,5 см ;\n▫️38 = 24,5 см ;\n▫️39 = 25 см ;\n▫️40 = 25,5 см ;\n▫️41 = 26,5 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/c50aba5d-e415-4311-b02a-3a5386a03e34.jpg"
-    ]
+      "images/telegram/crm-6k2zdz/1794767076605-01-reply_251319_251262-jpg.jpg",
+      "images/telegram/crm-6k2zdz/1794767082738-02-reply_251319_251263-jpg.jpg",
+      "images/telegram/crm-6k2zdz/1794767088316-03-reply_251319_251264-jpg.jpg",
+      "images/telegram/crm-6k2zdz/1794767093853-04-reply_251319_251265-jpg.jpg",
+      "images/telegram/crm-6k2zdz/1794767099296-05-reply_251319_251266-jpg.jpg",
+      "images/telegram/crm-6k2zdz/1794767104803-06-reply_251319_251267-jpg.jpg",
+      "images/telegram/crm-6k2zdz/1794767110389-07-reply_251319_251268-jpg.jpg",
+      "images/telegram/crm-6k2zdz/1794767115855-08-reply_251319_251269-jpg.jpg",
+      "images/telegram/crm-6k2zdz/1794767121087-09-reply_251319_251270-jpg.jpg"
+    ],
+    "telegram_article": "B5133"
   },
   {
     "id": "crm-d0acai",
