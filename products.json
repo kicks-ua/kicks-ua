@@ -10524,7 +10524,14 @@
       "45",
       "46"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "шкіра , сітка",
+      "Колір": "сірий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-46",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -10565,10 +10572,19 @@
     ],
     "price": 2200,
     "stock": 24,
-    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "description": "✔️ Чоловічі кросівки Nike Initiator Light Grey Beige \n\n\n🔘Артикул A5177\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : шкіра , сітка \n▪️Колір : сірий\n▪️Підошва : піна , гумовий протектор\n▪️Розміри:  41-46\n▪️Сезон :  весна / літо / осінь  \n📦Коробка Nike , фірмовий папір\n🔢Розмірна сітка :\n▫️41 = 26 см ;\n▫️42 = 26,5 см ;\n▫️43 = 27 см ;\n▫️44 = 28 см ;\n▫️45 = 28,5 см ;\n▫️46 = 29 см . \n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/ba1c0aa3-d253-4834-ad7e-5355a9ef883c.jpg"
-    ]
+      "images/telegram/crm-1nvef5s/1794764453956-01-reply_251978_251912-jpg.jpg",
+      "images/telegram/crm-1nvef5s/1794764459199-02-reply_251978_251913-jpg.jpg",
+      "images/telegram/crm-1nvef5s/1794764464605-03-reply_251978_251914-jpg.jpg",
+      "images/telegram/crm-1nvef5s/1794764470110-04-reply_251978_251915-jpg.jpg",
+      "images/telegram/crm-1nvef5s/1794764475428-05-reply_251978_251916-jpg.jpg",
+      "images/telegram/crm-1nvef5s/1794764480745-06-reply_251978_251917-jpg.jpg",
+      "images/telegram/crm-1nvef5s/1794764486404-07-reply_251978_251918-jpg.jpg",
+      "images/telegram/crm-1nvef5s/1794764492360-08-reply_251978_251919-jpg.jpg",
+      "images/telegram/crm-1nvef5s/1794764497727-09-reply_251978_251920-jpg.jpg"
+    ],
+    "telegram_article": "A5177"
   },
   {
     "id": "crm-1myyrf",
