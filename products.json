@@ -8235,7 +8235,14 @@
       "40",
       "41"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "шкіра",
+      "Колір": "білий",
+      "Підошва": "піна , гумовий протектор , Air-Sole",
+      "Розміри": "36-41",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "36",
@@ -8276,10 +8283,19 @@
     ],
     "price": 1700,
     "stock": 21,
-    "description": "Матеріал : шкіраВиробник : В'єтнам",
+    "description": "✔️Жіночі кросівки Nike Air Jordan 4 Retro W White\n\n\n🔘Артикул B6033\n▪️Виробництво : В'єтнам\n▪️Матеріал верху : шкіра \n▪️Колір : білий \n▪️Підошва : піна , гумовий протектор , Air-Sole\n▪️Розміри:  36-41\n▪️Сезон :  весна / літо / осінь\n📦Коробка Nike , фірмовий папір \n🔢Розмірна сітка :\n▫️36 = 23 см ;\n▫️37 = 23,5 см ;\n▫️38 = 24,5 см ;\n▫️39 = 25 см ;\n▫️40 = 26 см ;\n▫️41 = 26,5 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/bd63f19b-8c8a-4c9d-b553-31efec6c75d9.jpg"
-    ]
+      "images/telegram/crm-up50xd/1794762508891-01-reply_321046_319615-jpg.jpg",
+      "images/telegram/crm-up50xd/1794762514095-02-reply_321046_319616-jpg.jpg",
+      "images/telegram/crm-up50xd/1794762519156-03-reply_321046_319617-jpg.jpg",
+      "images/telegram/crm-up50xd/1794762524436-04-reply_321046_319618-jpg.jpg",
+      "images/telegram/crm-up50xd/1794762529873-05-reply_321046_319619-jpg.jpg",
+      "images/telegram/crm-up50xd/1794762536333-06-reply_321046_319620-jpg.jpg",
+      "images/telegram/crm-up50xd/1794762542476-07-reply_321046_319621-jpg.jpg",
+      "images/telegram/crm-up50xd/1794762548365-08-reply_321046_319622-jpg.jpg",
+      "images/telegram/crm-up50xd/1794762553819-09-reply_321046_319623-jpg.jpg"
+    ],
+    "telegram_article": "B6033"
   },
   {
     "id": "crm-iwnzbt",
