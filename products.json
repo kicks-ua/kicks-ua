@@ -14710,7 +14710,14 @@
       "39",
       "41"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "шкіра",
+      "Колір": "бежевий",
+      "Підошва": "гума",
+      "Розміри": "36-41",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "36",
@@ -14739,10 +14746,19 @@
     ],
     "price": 1900,
     "stock": 31,
-    "description": "Матеріал : шкіраВиробник : В'єтнам",
+    "description": "✔️ Жіночі кросівки Nike Air Force 1 Low New Beige Brown\n\n\n🔘Артикул В3747\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : шкіра\n▪️Колір : бежевий \n▪️Підошва : гума\n▪️Розміри:  36-41\n▪️Сезон :  весна / літо / осінь \n📦Коробка Nike , фірмовий папір\n🔢Розмірна сітка :\n▫️36 = 22.5 см;\n▫️37 = 23.5 см ;\n▫️38 = 24 см;\n▫️39 = 25 см;\n▫️40 = 25.5 см;\n▫️41 = 26.5 см;\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/db0059fa-32fa-4d98-8f92-b6042e66716c.jpg"
-    ]
+      "images/telegram/crm-2nl8k3/1794768407804-01-reply_234809_234781-jpg.jpg",
+      "images/telegram/crm-2nl8k3/1794768413105-02-reply_234809_234782-jpg.jpg",
+      "images/telegram/crm-2nl8k3/1794768418610-03-reply_234809_234783-jpg.jpg",
+      "images/telegram/crm-2nl8k3/1794768423808-04-reply_234809_234784-jpg.jpg",
+      "images/telegram/crm-2nl8k3/1794768429090-05-reply_234809_234785-jpg.jpg",
+      "images/telegram/crm-2nl8k3/1794768434552-06-reply_234809_234786-jpg.jpg",
+      "images/telegram/crm-2nl8k3/1794768440397-07-reply_234809_234787-jpg.jpg",
+      "images/telegram/crm-2nl8k3/1794768446265-08-reply_234809_234788-jpg.jpg",
+      "images/telegram/crm-2nl8k3/1794768451535-09-reply_234809_234789-jpg.jpg"
+    ],
+    "telegram_article": "B3747"
   },
   {
     "id": "crm-1d1r6b1",
