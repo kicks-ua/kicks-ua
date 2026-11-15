@@ -15321,7 +15321,14 @@
       "38",
       "39"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "Вʼєтнам",
+      "Матеріал верху": "шкіра",
+      "Колір": "білий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "36-40",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "36",
@@ -15350,10 +15357,19 @@
     ],
     "price": 2200,
     "stock": 18,
-    "description": "Матеріал : шкіраВиробник : Вʼєтнам",
+    "description": "✔️ Жіночі кросівки Nike Cortez W White Black \n\n\n🔘Артикул В4448\n▪️Виробництво : Вʼєтнам \n▪️Матеріал верху : шкіра  \n▪️Колір : білий                                                                                                  \n▪️Підошва : піна , гумовий протектор \n▪️Розміри : 36-40\n▪️Сезон : весна / літо / осінь\n📦Коробка Nike , фірмовий папір , комплект шнурків\n🔸Розмірна сітка :\n▫️36 = 22,5 см ; \n▫️37 = 23 см ;\n▫️38 = 24 см ;\n▫️39 = 24,5 см ;\n▫️40 = 25 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/4078b945-e047-4297-b019-4e8753bce1e8.jpg"
-    ]
+      "images/telegram/crm-fcxj3s/1794769052461-01-reply_237861_237797-jpg.jpg",
+      "images/telegram/crm-fcxj3s/1794769057314-02-reply_237861_237798-jpg.jpg",
+      "images/telegram/crm-fcxj3s/1794769062429-03-reply_237861_237799-jpg.jpg",
+      "images/telegram/crm-fcxj3s/1794769067162-04-reply_237861_237800-jpg.jpg",
+      "images/telegram/crm-fcxj3s/1794769072521-05-reply_237861_237801-jpg.jpg",
+      "images/telegram/crm-fcxj3s/1794769077781-06-reply_237861_237802-jpg.jpg",
+      "images/telegram/crm-fcxj3s/1794769083281-07-reply_237861_237803-jpg.jpg",
+      "images/telegram/crm-fcxj3s/1794769089016-08-reply_237861_237804-jpg.jpg",
+      "images/telegram/crm-fcxj3s/1794769094323-09-reply_237861_237805-jpg.jpg"
+    ],
+    "telegram_article": "B4448"
   },
   {
     "id": "crm-1hz0tt8",
