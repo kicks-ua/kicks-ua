@@ -11054,7 +11054,14 @@
       "44",
       "45"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "текстиль , нейлон , Gore-Tex",
+      "Колір": "чорний",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -11089,10 +11096,19 @@
     ],
     "price": 2200,
     "stock": 19,
-    "description": "Матеріал : текстиль , нейлон , Gore-TexВиробник : В'єтнам",
+    "description": "✔️ 👕 👟 Чоловічі кросівки Nike ACG Mountain Fly 2 Low GTX Black White\n\n\n🔘Артикул A5942\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : текстиль , нейлон , Gore-Tex \n▪️Колір : чорний\n▪️Підошва : піна , гумовий протектор \n▪️Розміри:  41-45\n▪️Сезон :  весна / літо / осінь \n📦Коробка Nike , фірмовий папір\n🔢Розмірна сітка :\n▫️41 = 26 см ;\n▫️42 = 26,5 см ;\n▫️43 = 27,5 см ;\n▫️44 = 28 см ;\n▫️45 = 28,5 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/8dc3d336-e259-4dea-8356-8bf17823ae9a.PNG"
-    ]
+      "images/telegram/crm-bb62gu/1794764942229-01-reply_315430_314138-jpg.jpg",
+      "images/telegram/crm-bb62gu/1794764947417-02-reply_315430_314139-jpg.jpg",
+      "images/telegram/crm-bb62gu/1794764952636-03-reply_315430_314140-jpg.jpg",
+      "images/telegram/crm-bb62gu/1794764958112-04-reply_315430_314141-jpg.jpg",
+      "images/telegram/crm-bb62gu/1794764963550-05-reply_315430_314142-jpg.jpg",
+      "images/telegram/crm-bb62gu/1794764968784-06-reply_315430_314143-jpg.jpg",
+      "images/telegram/crm-bb62gu/1794764974553-07-reply_315430_314144-jpg.jpg",
+      "images/telegram/crm-bb62gu/1794764980340-08-reply_315430_314145-jpg.jpg",
+      "images/telegram/crm-bb62gu/1794764985910-09-reply_315430_314146-jpg.jpg"
+    ],
+    "telegram_article": "A5942"
   },
   {
     "id": "crm-tdkafn",
