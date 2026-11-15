@@ -15602,7 +15602,13 @@
       "40",
       "41"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Колір": "сірий",
+      "Підошва": "гума",
+      "Розміри": "36-41",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "36",
@@ -15643,10 +15649,19 @@
     ],
     "price": 1800,
     "stock": 21,
-    "description": "Матеріал : натуральна замша , шкіраВиробник : В'єтнам",
+    "description": "📊 Жіночі кросівки Adidas Bermuda Light Grey Black\n\n\n🔘Артикул B5401\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : \nнатуральна замша , шкіра \n▪️Колір : сірий \n▪️Підошва : гума\n▪️Розміри:  36-41\n▪️Сезон :  весна / літо / осінь  \n📦Коробка Adidas , фірмовий папір\n🔢Розмірна сітка :\n▫️36 = 22,5 см ;\n▫️37 = 23,5 см ;\n▫️38 = 24 см ;\n▫️39 = 24,5 см ;\n▫️40 = 25 см ;\n▫️41 = 26 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/f94c5108-2c54-444a-b446-a5198847cf5b.jpg"
-    ]
+      "images/telegram/crm-2egzhb/1794769341623-01-reply_275567_275510-jpg.jpg",
+      "images/telegram/crm-2egzhb/1794769346764-02-reply_275567_275511-jpg.jpg",
+      "images/telegram/crm-2egzhb/1794769352572-03-reply_275567_275512-jpg.jpg",
+      "images/telegram/crm-2egzhb/1794769357423-04-reply_275567_275513-jpg.jpg",
+      "images/telegram/crm-2egzhb/1794769362174-05-reply_275567_275514-jpg.jpg",
+      "images/telegram/crm-2egzhb/1794769367505-06-reply_275567_275515-jpg.jpg",
+      "images/telegram/crm-2egzhb/1794769373231-07-reply_275567_275516-jpg.jpg",
+      "images/telegram/crm-2egzhb/1794769378669-08-reply_275567_275517-jpg.jpg",
+      "images/telegram/crm-2egzhb/1794769384086-09-reply_275567_275518-jpg.jpg"
+    ],
+    "telegram_article": "B5401"
   },
   {
     "id": "crm-fp76od",
