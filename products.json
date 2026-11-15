@@ -13825,7 +13825,14 @@
       "44",
       "45"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "шкіра , сітка , текстиль",
+      "Колір": "чорний",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -13860,10 +13867,19 @@
     ],
     "price": 2000,
     "stock": 30,
-    "description": "Матеріал : шкіра , сітка , текстильВиробник : В'єтнам",
+    "description": "✔️ Чоловічі кросівки Nike Air Max Plus TN Lace Toggle Black White\n\n\n🔘Артикул A4048\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : шкіра , сітка , текстиль \n▪️Колір : чорний \n▪️Підошва : піна , гумовий протектор \n▪️Розміри:  41-45\n▪️Сезон :  весна / літо / осінь \n📦Коробка Nike , фірмовий папір\n🔢Розмірна сітка :\n▫️41 = 25,5 см ;\n▫️42 = 26.5 см ;\n▫️43 = 27 см ;\n▫️44 = 27.5 см ;\n▫️45 = 28.5 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/9a3f38df-3204-4977-a436-3c648e63f30f.jpg"
-    ]
+      "images/telegram/crm-e13zsd/1794767578056-01-reply_240738_240701-jpg.jpg",
+      "images/telegram/crm-e13zsd/1794767583009-02-reply_240738_240702-jpg.jpg",
+      "images/telegram/crm-e13zsd/1794767588220-03-reply_240738_240703-jpg.jpg",
+      "images/telegram/crm-e13zsd/1794767593767-04-reply_240738_240704-jpg.jpg",
+      "images/telegram/crm-e13zsd/1794767598853-05-reply_240738_240705-jpg.jpg",
+      "images/telegram/crm-e13zsd/1794767603739-06-reply_240738_240706-jpg.jpg",
+      "images/telegram/crm-e13zsd/1794767609199-07-reply_240738_240707-jpg.jpg",
+      "images/telegram/crm-e13zsd/1794767614371-08-reply_240738_240708-jpg.jpg",
+      "images/telegram/crm-e13zsd/1794767619662-09-reply_240738_240709-jpg.jpg"
+    ],
+    "telegram_article": "A4048"
   },
   {
     "id": "crm-wyokob",
