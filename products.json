@@ -10755,7 +10755,14 @@
       "39",
       "40"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "шкіра",
+      "Колір": "білий",
+      "Підошва": "гума",
+      "Розміри": "36-41",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "36",
@@ -10790,10 +10797,19 @@
     ],
     "price": 2000,
     "stock": 20,
-    "description": "Матеріал : шкіраВиробник : В'єтнам",
+    "description": "✔️ Жіночі кросівки Nike Air Force 1 W White Black\n\n\n🔘Артикул B4724\n▪️Виробництво : В'єтнам\n▪️Матеріал верху : шкіра\n▪️Колір : білий\n▪️Підошва : гума        \n▪️Розміри:  36-41\n▪️Сезон :  весна / літо / осінь       \n📦Коробка Nike , фірмовий папір \n🔢Розмірна сітка :\n▫️36 = 23 см ;\n▫️37 = 23,5 см ;\n▫️38 = 24 см ;\n▫️39 = 25 см ;\n▫️40 = 25,5 см ;\n▫️41 = 26 см . \n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/858d6935-6a63-4d33-a27b-7ac9dc3fdaef.jpg"
-    ]
+      "images/telegram/crm-4ijzp3/1794764665002-01-reply_242646_242591-jpg.jpg",
+      "images/telegram/crm-4ijzp3/1794764670193-02-reply_242646_242592-jpg.jpg",
+      "images/telegram/crm-4ijzp3/1794764675318-03-reply_242646_242593-jpg.jpg",
+      "images/telegram/crm-4ijzp3/1794764680489-04-reply_242646_242594-jpg.jpg",
+      "images/telegram/crm-4ijzp3/1794764685886-05-reply_242646_242595-jpg.jpg",
+      "images/telegram/crm-4ijzp3/1794764691136-06-reply_242646_242596-jpg.jpg",
+      "images/telegram/crm-4ijzp3/1794764696269-07-reply_242646_242597-jpg.jpg",
+      "images/telegram/crm-4ijzp3/1794764701616-08-reply_242646_242598-jpg.jpg",
+      "images/telegram/crm-4ijzp3/1794764706841-09-reply_242646_242599-jpg.jpg"
+    ],
+    "telegram_article": "B4724"
   },
   {
     "id": "crm-1bkv132",
