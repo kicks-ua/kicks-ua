@@ -10605,7 +10605,14 @@
       "44",
       "45"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "текстиль , наскрізна сітка",
+      "Колір": "сірий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-46",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -10640,10 +10647,19 @@
     ],
     "price": 2300,
     "stock": 15,
-    "description": "Матеріал : текстиль , наскрізна сіткаВиробник : В'єтнам",
+    "description": "✔️ Чоловічі кросівки Nike Pegasus Premium Light Grey Black \n\n\n🔘Артикул A5614\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : текстиль , наскрізна сітка\n▪️Колір : сірий \n▪️Підошва : піна , гумовий протектор \n▪️Розміри:  41-46\n▪️Сезон :  весна / літо / осінь  \n📦Коробка Nike , фірмовий папір\n🔢Розмірна сітка :\n▫️41 = 27 см ;\n▫️42 = 27,5 см ;\n▫️43 = 28 см ;\n▫️44 = 28,5 см ;\n▫️45 = 29,5 см ;\n▫️46 = 30 см . \n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/95070a68-be39-4eef-9048-54c56780dfa9.jpg"
-    ]
+      "images/telegram/crm-1myyrf/1794764528080-01-reply_269492_269419-jpg.jpg",
+      "images/telegram/crm-1myyrf/1794764533671-02-reply_269492_269420-jpg.jpg",
+      "images/telegram/crm-1myyrf/1794764538796-03-reply_269492_269421-jpg.jpg",
+      "images/telegram/crm-1myyrf/1794764544055-04-reply_269492_269422-jpg.jpg",
+      "images/telegram/crm-1myyrf/1794764549436-05-reply_269492_269423-jpg.jpg",
+      "images/telegram/crm-1myyrf/1794764554842-06-reply_269492_269424-jpg.jpg",
+      "images/telegram/crm-1myyrf/1794764560835-07-reply_269492_269425-jpg.jpg",
+      "images/telegram/crm-1myyrf/1794764566053-08-reply_269492_269426-jpg.jpg",
+      "images/telegram/crm-1myyrf/1794764571569-09-reply_269492_269427-jpg.jpg"
+    ],
+    "telegram_article": "A5614"
   },
   {
     "id": "crm-ywvby1",
