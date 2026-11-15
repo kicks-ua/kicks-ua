@@ -12029,7 +12029,14 @@
       "44",
       "45"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "Вʼєтнам",
+      "Матеріал верху": "текстиль",
+      "Колір": "сірий",
+      "Підошва": "піна , гумовий протектор , Dynamic Air",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -12064,10 +12071,19 @@
     ],
     "price": 2100,
     "stock": 17,
-    "description": "Матеріал : текстильВиробник : Вʼєтнам",
+    "description": "✔️ Чоловічі кросівки Nike Air Max Dn8 Light Grey White\n\n\n🔘Артикул А4382\n▪️Виробництво : Вʼєтнам \n▪️Матеріал верху : текстиль \n▪️Колір : сірий                                                                                                                           \n▪️Підошва : піна , гумовий протектор , Dynamic Air\n▪️Розміри : 41-45\n▪️Сезон : весна / літо / осінь  \n📦Коробка Nike , фірмовий папір\n🔸Розмірна сітка :\n▫️41 = 26,5 см ; \n▫️42 = 27 см ;\n▫️43 = 27,5 см ;\n▫️44 = 28 см ;\n▫️45 = 28,5 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/241df32d-31eb-4549-96c2-87fc427697c9.jpg"
-    ]
+      "images/telegram/crm-bpqyrx/1794765861345-01-reply_254588_254589-jpg.jpg",
+      "images/telegram/crm-bpqyrx/1794765866376-02-reply_254588_254590-jpg.jpg",
+      "images/telegram/crm-bpqyrx/1794765871535-03-reply_254588_254591-jpg.jpg",
+      "images/telegram/crm-bpqyrx/1794765876521-04-reply_254588_254592-jpg.jpg",
+      "images/telegram/crm-bpqyrx/1794765881793-05-reply_254588_254593-jpg.jpg",
+      "images/telegram/crm-bpqyrx/1794765886808-06-reply_254588_254594-jpg.jpg",
+      "images/telegram/crm-bpqyrx/1794765892356-07-reply_254588_254595-jpg.jpg",
+      "images/telegram/crm-bpqyrx/1794765897849-08-reply_254588_254596-jpg.jpg",
+      "images/telegram/crm-bpqyrx/1794765903193-09-reply_254588_254597-jpg.jpg"
+    ],
+    "telegram_article": "A4382"
   },
   {
     "id": "crm-bfrd2y",
