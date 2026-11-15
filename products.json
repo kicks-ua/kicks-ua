@@ -10360,7 +10360,14 @@
       "40",
       "41"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "шкіра , текстиль",
+      "Колір": "білий",
+      "Підошва": "гума , амортизація Tuned Air",
+      "Розміри": "36-41",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "36",
@@ -10401,10 +10408,19 @@
     ],
     "price": 2200,
     "stock": 70,
-    "description": "Матеріал : шкіра , текстильВиробник : В'єтнам",
+    "description": "✔️ Жіночі кросівки Nike Air Max Plus White Metallic Pink\n\n\n🔘Артикул B5283\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : шкіра , текстиль \n▪️Колір : білий \n▪️Підошва : гума , амортизація Tuned Air\n▪️Розміри:  36-41\n▪️Сезон :  весна / літо / осінь   \n📦Коробка Nike , фірмовий папір  \n🔢Розмірна сітка :\n▫️36 = 22 см ; \n▫️37 = 22,5 см ;\n▫️38 = 23,5 см ;\n▫️39 = 24,5 см ;\n▫️40 = 25 см ;\n▫️41 = 26 см . \n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/67c397d2-df0f-450d-b263-e10ebfe02573.jpg"
-    ]
+      "images/telegram/crm-d7sbzb/1794764314481-01-reply_217405_209649-jpg.jpg",
+      "images/telegram/crm-d7sbzb/1794764319706-02-reply_217405_209650-jpg.jpg",
+      "images/telegram/crm-d7sbzb/1794764324891-03-reply_217405_209651-jpg.jpg",
+      "images/telegram/crm-d7sbzb/1794764329714-04-reply_217405_209652-jpg.jpg",
+      "images/telegram/crm-d7sbzb/1794764334944-05-reply_217405_209653-jpg.jpg",
+      "images/telegram/crm-d7sbzb/1794764340259-06-reply_217405_209654-jpg.jpg",
+      "images/telegram/crm-d7sbzb/1794764345806-07-reply_217405_209655-jpg.jpg",
+      "images/telegram/crm-d7sbzb/1794764351262-08-reply_217405_209656-jpg.jpg",
+      "images/telegram/crm-d7sbzb/1794764356371-09-reply_217405_209657-jpg.jpg"
+    ],
+    "telegram_article": "B5283"
   },
   {
     "id": "crm-drrjd9",
