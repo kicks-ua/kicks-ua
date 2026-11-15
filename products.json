@@ -13450,7 +13450,14 @@
       "40",
       "41"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "шкіра , сітка",
+      "Колір": "чорний",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "37-41",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "37",
@@ -13485,10 +13492,19 @@
     ],
     "price": 2100,
     "stock": 18,
-    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "description": "✔️ Жіночі кросівки Nike V2K Run Black Metallic\n\n\n🔘Артикул B5138\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : шкіра , сітка \n▪️Колір : чорний\n▪️Підошва : піна , гумовий протектор\n▪️Розміри:  37-41\n▪️Сезон :  весна / літо / осінь  \n📦Коробка Nike , фірмовий папір\n🔢Розмірна сітка :\n▫️37 = 23,5 см ;\n▫️38 = 24 см ;\n▫️39 = 24,5 см ;\n▫️40 = 25 см ;\n▫️41 = 26 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/bdd870b6-e3ad-40ae-b2af-b2d7ea8f14f4.jpg"
-    ]
+      "images/telegram/crm-da9xzh/1794767226611-01-reply_251580_251524-jpg.jpg",
+      "images/telegram/crm-da9xzh/1794767231978-02-reply_251580_251525-jpg.jpg",
+      "images/telegram/crm-da9xzh/1794767237816-03-reply_251580_251526-jpg.jpg",
+      "images/telegram/crm-da9xzh/1794767244779-04-reply_251580_251527-jpg.jpg",
+      "images/telegram/crm-da9xzh/1794767250715-05-reply_251580_251528-jpg.jpg",
+      "images/telegram/crm-da9xzh/1794767256608-06-reply_251580_251529-jpg.jpg",
+      "images/telegram/crm-da9xzh/1794767262399-07-reply_251580_251530-jpg.jpg",
+      "images/telegram/crm-da9xzh/1794767268996-08-reply_251580_251531-jpg.jpg",
+      "images/telegram/crm-da9xzh/1794767274106-09-reply_251580_251532-jpg.jpg"
+    ],
+    "telegram_article": "B5138"
   },
   {
     "id": "crm-18wyjhp",
