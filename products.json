@@ -15927,7 +15927,14 @@
       "40",
       "41"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "шкіра , натуральна замша",
+      "Колір": "білий",
+      "Підошва": "гума",
+      "Розміри": "36-41",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "36",
@@ -15968,10 +15975,19 @@
     ],
     "price": 2100,
     "stock": 24,
-    "description": "Матеріал : шкіра , натуральна замшВиробник : В'єтнам",
+    "description": "📊 Жіночі кросівки Adidas Spezial White Black Beige\n\n\n🔘Артикул B5701\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : шкіра , натуральна замша \n▪️Колір : білий\n▪️Підошва : гума\n▪️Розміри:  36-41\n▪️Сезон :  весна / літо / осінь  \n📦Коробка Adidas , фірмовий папір \n🔢Розмірна сітка :\n▫️36 = 23,0 см ; \n▫️37 = 23,5 см ;\n▫️38 = 24,5 см ;\n▫️39 = 25 см ;\n▫️40 = 25,5 см ;\n▫️41 = 26 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/1933a57b-274b-4466-84ae-06139b377320.JPG"
-    ]
+      "images/telegram/crm-fan5dq/1794769614615-01-reply_297813_297757-jpg.jpg",
+      "images/telegram/crm-fan5dq/1794769619643-02-reply_297813_297758-jpg.jpg",
+      "images/telegram/crm-fan5dq/1794769624597-03-reply_297813_297759-jpg.jpg",
+      "images/telegram/crm-fan5dq/1794769629900-04-reply_297813_297760-jpg.jpg",
+      "images/telegram/crm-fan5dq/1794769635210-05-reply_297813_297761-jpg.jpg",
+      "images/telegram/crm-fan5dq/1794769640287-06-reply_297813_297762-jpg.jpg",
+      "images/telegram/crm-fan5dq/1794769645193-07-reply_297813_297763-jpg.jpg",
+      "images/telegram/crm-fan5dq/1794769650071-08-reply_297813_297764-jpg.jpg",
+      "images/telegram/crm-fan5dq/1794769655094-09-reply_297813_297765-jpg.jpg"
+    ],
+    "telegram_article": "B5701"
   },
   {
     "id": "crm-ff7kze",
