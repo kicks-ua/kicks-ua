@@ -13075,7 +13075,14 @@
       "44",
       "45"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "шкіра , нубук , рефлективні вставки",
+      "Колір": "сірий",
+      "Підошва": "гума",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -13110,10 +13117,19 @@
     ],
     "price": 1600,
     "stock": 15,
-    "description": "Матеріал : шкіра , нубук , рефлективні вставкиВиробник : В'єтнам",
+    "description": "✔️ Чоловічі кросівки Nike Air Trainer 1 SP Utility Grey Black Coral\n\n\n🔘Артикул A6015\n▪️Виробництво : В'єтнам\n▪️Матеріал верху : шкіра , нубук , рефлективні вставки  \n▪️Колір : сірий \n▪️Підошва : гума  \n▪️Розміри:  41-45\n▪️Сезон : весна / літо / осінь\n📦Коробка Nike , фірмовий папір \n🔢Розмірна сітка :\n▫️41 = 26,5 см ;\n▫️42 = 27 см ;\n▫️43 = 27,5 см ;\n▫️44 = 28 см ;\n▫️45 = 28,5 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/b88fd80d-3fa8-4c82-9f11-72ba18d8f273.jpg"
-    ]
+      "images/telegram/crm-y2wiv4/1794766865627-01-reply_320858_318915-jpg.jpg",
+      "images/telegram/crm-y2wiv4/1794766870893-02-reply_320858_318916-jpg.jpg",
+      "images/telegram/crm-y2wiv4/1794766876026-03-reply_320858_318917-jpg.jpg",
+      "images/telegram/crm-y2wiv4/1794766881588-04-reply_320858_318918-jpg.jpg",
+      "images/telegram/crm-y2wiv4/1794766886965-05-reply_320858_318919-jpg.jpg",
+      "images/telegram/crm-y2wiv4/1794766892406-06-reply_320858_318920-jpg.jpg",
+      "images/telegram/crm-y2wiv4/1794766897828-07-reply_320858_318921-jpg.jpg",
+      "images/telegram/crm-y2wiv4/1794766902960-08-reply_320858_318922-jpg.jpg",
+      "images/telegram/crm-y2wiv4/1794766908257-09-reply_320858_318923-jpg.jpg"
+    ],
+    "telegram_article": "A6015"
   },
   {
     "id": "crm-5q10t3",
