@@ -16498,7 +16498,14 @@
       "45",
       "46"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "шкіра , натуральна замша , текстиль Cordura",
+      "Колір": "чорний",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-46",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -16539,10 +16546,19 @@
     ],
     "price": 2300,
     "stock": 27,
-    "description": "Матеріал : натуральна замша , текстиль CorduraВиробник : В'єтнам",
+    "description": "📊 Чоловічі кросівки Adidas ZX 750 Black White Green \n\n\n🔘Артикул A6118\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : шкіра , натуральна замша , текстиль Cordura \n▪️Колір : чорний\n▪️Підошва : піна , гумовий протектор \n▪️Розміри:  41-46\n▪️Сезон :  весна / літо / осінь  \n📦Коробка Adidas , фірмовий папір \n🔢Розмірна сітка :\n▫️41 = 26,5 см ;\n▫️42 = 27 см ;\n▫️43 = 27,5 см ;\n▫️44 = 28 см ;\n▫️45 = 29 см ;\n▫️46 = 29,5 см . \n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/e4d30787-708d-4cbd-88df-fc34cc7e7fbd.jpg"
-    ]
+      "images/telegram/crm-g2e9af/1794770098430-01-reply_328245_324187-jpg.jpg",
+      "images/telegram/crm-g2e9af/1794770103431-02-reply_328245_324188-jpg.jpg",
+      "images/telegram/crm-g2e9af/1794770108912-03-reply_328245_324189-jpg.jpg",
+      "images/telegram/crm-g2e9af/1794770113975-04-reply_328245_324190-jpg.jpg",
+      "images/telegram/crm-g2e9af/1794770119012-05-reply_328245_324191-jpg.jpg",
+      "images/telegram/crm-g2e9af/1794770123824-06-reply_328245_324192-jpg.jpg",
+      "images/telegram/crm-g2e9af/1794770129356-07-reply_328245_324193-jpg.jpg",
+      "images/telegram/crm-g2e9af/1794770134309-08-reply_328245_324194-jpg.jpg",
+      "images/telegram/crm-g2e9af/1794770139387-09-reply_328245_324195-jpg.jpg"
+    ],
+    "telegram_article": "A6118"
   },
   {
     "id": "crm-1ju9lpv",
