@@ -9458,7 +9458,14 @@
       "45",
       "46"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "шкіра , текстиль",
+      "Колір": "чорний",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-46",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -9499,10 +9506,19 @@
     ],
     "price": 2500,
     "stock": 24,
-    "description": "Матеріал : шкіра , текстильВиробник : В'єтнам",
+    "description": "✔️ Чоловічі кросівки Nike Initiator M Nike Initiator M Black White Metallic \n\n🔝Топ якість ААА+\n\n🔘Артикул А6257\n\n▪️Виробництво : В'єтнам\n▪️Матеріал верху : шкіра , текстиль\n▪️Колір : чорний           \n▪️Підошва : піна , гумовий протектор\n▪️Розміри : 41-46\n▪️Сезон : весна / літо / осінь\n📦Коробка Nike , фірмовий папір\n🔸Розмірна сітка :\n▫️41 = 26,5 см ;\n▫️42 = 27 см ;\n▫️43 = 27.5 см ;\n▫️44 = 28 см ;\n▫️45 = 28,5 см ;\n▫️46 = 29 см . \n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/31d98856-d1b3-4806-93f1-f1e8def3aa77.jpg"
-    ]
+      "images/telegram/crm-1sbrhek/1794763544761-01-reply_336945_336946-jpg.jpg",
+      "images/telegram/crm-1sbrhek/1794763549780-02-reply_336945_336947-jpg.jpg",
+      "images/telegram/crm-1sbrhek/1794763554904-03-reply_336945_336948-jpg.jpg",
+      "images/telegram/crm-1sbrhek/1794763559951-04-reply_336945_336949-jpg.jpg",
+      "images/telegram/crm-1sbrhek/1794763565280-05-reply_336945_336950-jpg.jpg",
+      "images/telegram/crm-1sbrhek/1794763570470-06-reply_336945_336951-jpg.jpg",
+      "images/telegram/crm-1sbrhek/1794763575467-07-reply_336945_336952-jpg.jpg",
+      "images/telegram/crm-1sbrhek/1794763580623-08-reply_336945_336953-jpg.jpg",
+      "images/telegram/crm-1sbrhek/1794763586186-09-reply_336945_336954-jpg.jpg"
+    ],
+    "telegram_article": "A6257"
   },
   {
     "id": "crm-t3r2wp",
