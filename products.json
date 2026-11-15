@@ -11729,7 +11729,14 @@
       "40",
       "41"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "шкіра , сітка",
+      "Колір": "білий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "37-41",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "37",
@@ -11764,10 +11771,19 @@
     ],
     "price": 2100,
     "stock": 19,
-    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "description": "✔️ Жіночі кросівки Nike V2K Run White Holographic Pink\n\n\n🔘Артикул B5139\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : шкіра , сітка \n▪️Колір : білий\n▪️Підошва : піна , гумовий протектор\n▪️Розміри:  37-41\n▪️Сезон :  весна / літо / осінь  \n📦Коробка Nike , фірмовий папір\n🔢Розмірна сітка :\n▫️37 = 23,5 см ;\n▫️38 = 24 см ;\n▫️39 = 24,5 см ;\n▫️40 = 25 см ;\n▫️41 = 26 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/c2fe1d39-5a74-46e5-9c1e-fb3c3123e886.jpg"
-    ]
+      "images/telegram/crm-bccq4o/1794765576198-01-reply_251638_251582-jpg.jpg",
+      "images/telegram/crm-bccq4o/1794765581465-02-reply_251638_251583-jpg.jpg",
+      "images/telegram/crm-bccq4o/1794765586559-03-reply_251638_251584-jpg.jpg",
+      "images/telegram/crm-bccq4o/1794765592052-04-reply_251638_251585-jpg.jpg",
+      "images/telegram/crm-bccq4o/1794765596853-05-reply_251638_251586-jpg.jpg",
+      "images/telegram/crm-bccq4o/1794765601967-06-reply_251638_251587-jpg.jpg",
+      "images/telegram/crm-bccq4o/1794765607204-07-reply_251638_251588-jpg.jpg",
+      "images/telegram/crm-bccq4o/1794765612508-08-reply_251638_251589-jpg.jpg",
+      "images/telegram/crm-bccq4o/1794765618164-09-reply_251638_251590-jpg.jpg"
+    ],
+    "telegram_article": "B5139"
   },
   {
     "id": "crm-1s18gkd",
