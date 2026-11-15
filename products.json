@@ -11129,7 +11129,14 @@
       "44",
       "45"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "текстиль , нейлон",
+      "Колір": "чорний",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -11164,10 +11171,19 @@
     ],
     "price": 2100,
     "stock": 19,
-    "description": "Матеріал : нейлон , текстильВиробник : В'єтнам",
+    "description": "✔️ Чоловічі кросівки Nike Air Zoom Winflo 8 Shield Black Dark Grey Spase\n\n\n🔘Артикул A3643\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : текстиль , нейлон \n▪️Колір : чорний         \n▪️Підошва : піна , гумовий протектор   \n▪️Розміри:  41-45\n▪️Сезон :  весна / літо / осінь \n📦Коробка Nike , фірмовий папір\n🔢Розмірна сітка :\n▫️41 = 26 см ;\n▫️42 = 26,5 см ;\n▫️43 = 27,5 см ;\n▫️44 = 28 см ;\n▫️45 = 28,5 см ;\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/1bf060a8-431f-4314-9abe-a4c79347e349.jpg"
-    ]
+      "images/telegram/crm-tdkafn/1794765014220-01-reply_234659_234631-jpg.jpg",
+      "images/telegram/crm-tdkafn/1794765019735-02-reply_234659_234632-jpg.jpg",
+      "images/telegram/crm-tdkafn/1794765025116-03-reply_234659_234633-jpg.jpg",
+      "images/telegram/crm-tdkafn/1794765030014-04-reply_234659_234634-jpg.jpg",
+      "images/telegram/crm-tdkafn/1794765035185-05-reply_234659_234635-jpg.jpg",
+      "images/telegram/crm-tdkafn/1794765040371-06-reply_234659_234636-jpg.jpg",
+      "images/telegram/crm-tdkafn/1794765045992-07-reply_234659_234637-jpg.jpg",
+      "images/telegram/crm-tdkafn/1794765051183-08-reply_234659_234638-jpg.jpg",
+      "images/telegram/crm-tdkafn/1794765056242-09-reply_234659_234639-jpg.jpg"
+    ],
+    "telegram_article": "A3643"
   },
   {
     "id": "crm-5i7iio",
