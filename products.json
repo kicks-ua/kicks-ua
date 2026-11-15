@@ -3299,7 +3299,7 @@
       },
       {
         "size": "39",
-        "stock": 2,
+        "stock": 1,
         "price": 2200,
         "sku": "B6195-1815078"
       },
@@ -3311,13 +3311,13 @@
       },
       {
         "size": "41",
-        "stock": 2,
+        "stock": 1,
         "price": 2200,
         "sku": "B6195-1815080"
       }
     ],
     "price": 2200,
-    "stock": 13,
+    "stock": 11,
     "description": "👕  Жіночі кросівки ASICS Gel-Pickax W Triple Black \n\n\n🔘Артикул B6195\n▪️Виробництво : В'єтнам\n▪️Матеріал верху : нубук , текстиль\n▪️Колір : чорний\n▪️Підошва : піна , гумовий протектор\n▪️Розміри:  37-41\n▪️Сезон :  весна / літо / осінь      \n📦Коробка ASICS , фірмовий папір\n🔢Розмірна сітка :\n▫️37 = 24 см ;\n▫️38 = 24.5 см ;\n▫️39 = 25 см ;\n▫️40 = 25,5 см ;\n▫️41 = 26,5 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
       "images/telegram/crm-1bhwtrl/1794503223671-01-reply_330932_330876-jpg.jpg",
@@ -5092,7 +5092,7 @@
       {
         "size": "43",
         "price": 2000,
-        "stock": 8,
+        "stock": 7,
         "sku": "A3854-1071920"
       },
       {
@@ -5109,7 +5109,7 @@
       }
     ],
     "price": 2000,
-    "stock": 23,
+    "stock": 22,
     "description": "👕Чоловічі кросівки ASICS Gel-Kahana TR V4 Grey Beige\n\n\n🔘Артикул A3854\n▪️Виробництво : Вʼєтнам\n▪️Матеріал верху : натуральна замша , текстиль \n▪️Колір : сірий \n▪️Підошва : піна , гумовий протектор\n▪️Розміри : 41-46\n▪️Сезон : весна / літо / осінь \n📦Коробка ASICS , фірмовий папір\n🔸Розмірна сітка :\n▫️41 = 26 см ;\n▫️42 = 27 см ;\n▫️43 = 27.5 см ;\n▫️44 = 28 см ;\n▫️45 = 28.5 см ; \n▫️46 = 29 см ;\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
       "images/telegram/crm-i1xkg7/1794504939470-01-reply_278427_278399-jpg.jpg",
@@ -8633,7 +8633,7 @@
       {
         "size": "44",
         "price": 2500,
-        "stock": 6,
+        "stock": 5,
         "sku": "A6262-1827589"
       },
       {
@@ -8650,7 +8650,7 @@
       }
     ],
     "price": 2500,
-    "stock": 24,
+    "stock": 23,
     "description": "Матеріал : шкіра , текстильВиробник : В'єтнам",
     "images": [
       "https://easydrop.one/media/uploads/images/base/10223382-e650-4dec-91e5-417df42ad288.jpg"
@@ -10411,7 +10411,6 @@
     "sizes": [
       "41",
       "42",
-      "43",
       "44",
       "45"
     ],
@@ -10432,7 +10431,7 @@
       {
         "size": "43",
         "price": 2200,
-        "stock": 1,
+        "stock": 0,
         "sku": "A5942-1751217"
       },
       {
@@ -10449,7 +10448,7 @@
       }
     ],
     "price": 2200,
-    "stock": 20,
+    "stock": 19,
     "description": "Матеріал : текстиль , нейлон , Gore-TexВиробник : В'єтнам",
     "images": [
       "https://easydrop.one/media/uploads/images/base/8dc3d336-e259-4dea-8356-8bf17823ae9a.PNG"
@@ -13881,7 +13880,7 @@
       {
         "size": "43",
         "price": 2000,
-        "stock": 8,
+        "stock": 7,
         "sku": "A5220-1516981"
       },
       {
@@ -13898,7 +13897,7 @@
       }
     ],
     "price": 2000,
-    "stock": 30,
+    "stock": 29,
     "description": "Матеріал : шкіраВиробник : Вʼєтнам",
     "images": [
       "https://easydrop.one/media/uploads/images/base/65979c2b-0124-46d4-bd49-a78ce55ce77f.jpg"
@@ -14790,7 +14789,7 @@
       {
         "size": "44",
         "price": 2300,
-        "stock": 11,
+        "stock": 10,
         "sku": "A5231-1517294"
       },
       {
@@ -14807,7 +14806,7 @@
       }
     ],
     "price": 2300,
-    "stock": 31,
+    "stock": 30,
     "description": "Матеріал : шкіра , текстиль CorduraВиробник : В'єтнам",
     "images": [
       "https://easydrop.one/media/uploads/images/base/7e35e090-ddcc-47e4-99c9-00454aeaa2f5.jpg"
@@ -19693,8 +19692,7 @@
     "sizes": [
       "41",
       "42",
-      "44",
-      "45"
+      "44"
     ],
     "specs": {},
     "variants": [
@@ -19725,12 +19723,12 @@
       {
         "size": "45",
         "price": 1900,
-        "stock": 1,
+        "stock": 0,
         "sku": "А4438-1221554"
       }
     ],
     "price": 1900,
-    "stock": 9,
+    "stock": 8,
     "description": "Матеріал : шкіра , текстильВиробник : Вʼєтнам",
     "images": [
       "https://easydrop.one/media/uploads/images/base/28ff21ce-7b5a-4f60-93f9-20b4236a1c0e.jpg"
@@ -19940,12 +19938,12 @@
       {
         "size": "45",
         "price": 2000,
-        "stock": 3,
+        "stock": 1,
         "sku": "A4895-1398339"
       }
     ],
     "price": 2000,
-    "stock": 12,
+    "stock": 10,
     "description": "Матеріал : натуральна шкіраВиробник : В'єтнам",
     "images": [
       "https://easydrop.one/media/uploads/images/base/f237b57d-70f3-4490-8795-4d02b4c71438.jpg"
@@ -21988,12 +21986,12 @@
       {
         "size": "45",
         "price": 2400,
-        "stock": 2,
+        "stock": 1,
         "sku": "А5894-1736184"
       }
     ],
     "price": 2400,
-    "stock": 25,
+    "stock": 24,
     "description": "Матеріал : шкіра , натуральна замшаВиробник : В'єтнам",
     "images": [
       "https://easydrop.one/media/uploads/images/base/eaf3e085-b473-4f8d-b637-95da9248c995.jpg"
