@@ -10114,7 +10114,14 @@
       "45",
       "46"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "сітка , текстиль",
+      "Колір": "хакі",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-46",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -10155,10 +10162,19 @@
     ],
     "price": 2200,
     "stock": 15,
-    "description": "Матеріал : сітка , текстильВиробник : В'єтнам",
+    "description": "✔️ Чоловічі кросівки Nike Renew Khaki Black \n\n\n🔘Артикул A5387\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : сітка , текстиль \n▪️Колір : хакі\n▪️Підошва : піна , гумовий протектор \n▪️Розміри:  41-46\n▪️Сезон :  весна / літо / осінь   \n📦Коробка  Nike , фірмовий папір \n🔢Розмірна сітка :\n▫️41 = 26,5 см ; \n▫️42 = 27,5 см ;\n▫️43 = 28 см ;\n▫️44 = 28,5 см ;\n▫️45 = 29,5 см ;\n▫️46 = 30 см . \n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/18e31db1-bcd8-4549-8bf2-354abae72fc9.jpg"
-    ]
+      "images/telegram/crm-15skvvo/1794764108648-01-reply_254296_254232-jpg.jpg",
+      "images/telegram/crm-15skvvo/1794764114102-02-reply_254296_254233-jpg.jpg",
+      "images/telegram/crm-15skvvo/1794764119612-03-reply_254296_254234-jpg.jpg",
+      "images/telegram/crm-15skvvo/1794764125006-04-reply_254296_254235-jpg.jpg",
+      "images/telegram/crm-15skvvo/1794764130446-05-reply_254296_254236-jpg.jpg",
+      "images/telegram/crm-15skvvo/1794764135377-06-reply_254296_254237-jpg.jpg",
+      "images/telegram/crm-15skvvo/1794764140351-07-reply_254296_254238-jpg.jpg",
+      "images/telegram/crm-15skvvo/1794764145280-08-reply_254296_254239-jpg.jpg",
+      "images/telegram/crm-15skvvo/1794764150499-09-reply_254296_254240-jpg.jpg"
+    ],
+    "telegram_article": "A5387"
   },
   {
     "id": "crm-1odx649",
