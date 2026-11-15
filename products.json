@@ -12104,7 +12104,14 @@
       "44",
       "45"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "Вʼєтнам",
+      "Матеріал верху": "текстиль",
+      "Колір": "сірий",
+      "Підошва": "піна , гумовий протектор , Dynamic Air",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -12139,10 +12146,19 @@
     ],
     "price": 2100,
     "stock": 21,
-    "description": "Матеріал : текстильВиробник : Вʼєтнам",
+    "description": "✔️ Чоловічі кросівки Nike Air Max Dn8 Grey White Red\n\n\n🔘Артикул А4383\n▪️Виробництво : Вʼєтнам \n▪️Матеріал верху : текстиль \n▪️Колір : сірий                                                                                                                           \n▪️Підошва : піна , гумовий протектор , Dynamic Air\n▪️Розміри : 41-45\n▪️Сезон : весна / літо / осінь  \n📦Коробка Nike , фірмовий папір\n🔸Розмірна сітка :\n▫️41 = 26,5 см ; \n▫️42 = 27 см ;\n▫️43 = 27,5 см ;\n▫️44 = 28 см ;\n▫️45 = 28,5 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/52a6240e-5768-4127-a90e-31b38060b640.jpg"
-    ]
+      "images/telegram/crm-bfrd2y/1794765935319-01-reply_254654_254655-jpg.jpg",
+      "images/telegram/crm-bfrd2y/1794765940115-02-reply_254654_254656-jpg.jpg",
+      "images/telegram/crm-bfrd2y/1794765945587-03-reply_254654_254657-jpg.jpg",
+      "images/telegram/crm-bfrd2y/1794765950655-04-reply_254654_254658-jpg.jpg",
+      "images/telegram/crm-bfrd2y/1794765955936-05-reply_254654_254659-jpg.jpg",
+      "images/telegram/crm-bfrd2y/1794765961143-06-reply_254654_254660-jpg.jpg",
+      "images/telegram/crm-bfrd2y/1794765967247-07-reply_254654_254661-jpg.jpg",
+      "images/telegram/crm-bfrd2y/1794765972894-08-reply_254654_254662-jpg.jpg",
+      "images/telegram/crm-bfrd2y/1794765978831-09-reply_254654_254663-jpg.jpg"
+    ],
+    "telegram_article": "A4383"
   },
   {
     "id": "crm-1im24pn",
