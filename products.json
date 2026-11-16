@@ -24129,7 +24129,14 @@
       "44",
       "45"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "текстиль",
+      "Колір": "чорний",
+      "Підошва": "піна , гумовий протектор , технологія Vibram",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -24164,10 +24171,19 @@
     ],
     "price": 2300,
     "stock": 22,
-    "description": "Матеріал : текстильВиробник : В'єтнам",
+    "description": "👕  Чоловічі кросівки Columbia Trail Vibram Black\n\n\n🔘Артикул A5748\n▪️Виробництво : В'єтнам\n▪️Матеріал верху : текстиль \n▪️Колір : чорний\n▪️Підошва : піна , гумовий протектор , технологія Vibram    \n▪️Розміри:  41-45\n▪️Сезон :  весна / літо / осінь  \n📦Коробка Columbia , фірмовий папір \n🔢Розмірна сітка :\n▫️41 = 26,5 см ;\n▫️42 = 27 см ;\n▫️43 = 27,5 см ;\n▫️44 = 28 см ;\n▫️45 = 29 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/b4b5bb9d-1da0-4102-b07c-c809e5850cde.jpg"
-    ]
+      "images/telegram/crm-qazdl4/1794777590021-01-reply_303729_300737-jpg.jpg",
+      "images/telegram/crm-qazdl4/1794777595583-02-reply_303729_300738-jpg.jpg",
+      "images/telegram/crm-qazdl4/1794777601474-03-reply_303729_300739-jpg.jpg",
+      "images/telegram/crm-qazdl4/1794777607333-04-reply_303729_300740-jpg.jpg",
+      "images/telegram/crm-qazdl4/1794777615940-05-reply_303729_300741-jpg.jpg",
+      "images/telegram/crm-qazdl4/1794777622565-06-reply_303729_300742-jpg.jpg",
+      "images/telegram/crm-qazdl4/1794777629581-07-reply_303729_300743-jpg.jpg",
+      "images/telegram/crm-qazdl4/1794777636128-08-reply_303729_300744-jpg.jpg",
+      "images/telegram/crm-qazdl4/1794777642248-09-reply_303729_300745-jpg.jpg"
+    ],
+    "telegram_article": "A5748"
   },
   {
     "id": "crm-qkyza3",
