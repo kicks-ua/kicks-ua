@@ -23678,7 +23678,14 @@
       "44",
       "45"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "Вʼєтнам",
+      "Матеріал верху": "натуральна замша",
+      "Колір": "чорний",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-46",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "44",
@@ -23695,10 +23702,19 @@
     ],
     "price": 1800,
     "stock": 22,
-    "description": "Матеріал : натуральна замшаВиробник : Вʼєтнам",
+    "description": "👕Чоловічі кросівки Reebok Classic M Black White \n\n\n🔘Артикул А1244\n▪️Виробництво : Вʼєтнам \n▪️Матеріал верху : натуральна замша \n▪️Колір : чорний \n▪️Підошва : піна , гумовий протектор \n▪️Розміри : 41-46\n▪️Сезон : весна / літо / осінь  \n📦Коробка Reebok , фірмовий папір\n🔸Розмірна сітка :\n▫️41 = 26 см ;\n▫️42 = 26.5 см ;\n▫️43 = 27.5 см ;\n▫️44 = 28 см ;\n▫️45 = 28.5 см ;\n▫️46 = 29.5 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/02776244-2fb7-4b00-84e1-36f36ec6f293.jpeg"
-    ]
+      "images/telegram/crm-kwb5bp/1794777088123-01-reply_287028_286994-jpg.jpg",
+      "images/telegram/crm-kwb5bp/1794777094243-02-reply_287028_286995-jpg.jpg",
+      "images/telegram/crm-kwb5bp/1794777100558-03-reply_287028_286996-jpg.jpg",
+      "images/telegram/crm-kwb5bp/1794777107302-04-reply_287028_286997-jpg.jpg",
+      "images/telegram/crm-kwb5bp/1794777112740-05-reply_287028_286998-jpg.jpg",
+      "images/telegram/crm-kwb5bp/1794777119084-06-reply_287028_286999-jpg.jpg",
+      "images/telegram/crm-kwb5bp/1794777125569-07-reply_287028_287000-jpg.jpg",
+      "images/telegram/crm-kwb5bp/1794777131366-08-reply_287028_287001-jpg.jpg",
+      "images/telegram/crm-kwb5bp/1794777137279-09-reply_287028_287002-jpg.jpg"
+    ],
+    "telegram_article": "A1244"
   },
   {
     "id": "crm-513r4m",
