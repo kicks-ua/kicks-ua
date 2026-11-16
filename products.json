@@ -18363,7 +18363,14 @@
       "45",
       "46"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "Вʼєтнам",
+      "Матеріал верху": "наскрізна сітка",
+      "Колір": "сірий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-46",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -18398,10 +18405,19 @@
     ],
     "price": 2100,
     "stock": 29,
-    "description": "Матеріал : наскрізна сіткаВиробник : Вʼєтнам",
+    "description": "📊 Чоловічі кросівки\nAdidas Climacool Light Grey Black\n\n\n🔘Артикул A5537\n▪️Виробництво : Вʼєтнам\n▪️Матеріал верху : наскрізна сітка\n▪️Колір : сірий \n▪️Підошва : піна , гумовий протектор\n▪️Розміри : 41-46\n▪️Сезон : весна / літо / осінь \n📦Коробка Adidas , фірмовий папір\n🔸Розмірна сітка :\n▫️41 = 26 см ;\n▫️42 = 26,5 см ;\n▫️43 = 27 см ;\n▫️44 = 28 см ;\n▫️45 = 28,5 см ;\n▫️46 = 29 см . \n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/ae3cd027-01af-4f4b-9892-1e78c740385a.jpg"
-    ]
+      "images/telegram/crm-9ojqcu/1794771739077-01-reply_277725_277659-jpg.jpg",
+      "images/telegram/crm-9ojqcu/1794771744343-02-reply_277725_277660-jpg.jpg",
+      "images/telegram/crm-9ojqcu/1794771749530-03-reply_277725_277661-jpg.jpg",
+      "images/telegram/crm-9ojqcu/1794771754797-04-reply_277725_277662-jpg.jpg",
+      "images/telegram/crm-9ojqcu/1794771760000-05-reply_277725_277663-jpg.jpg",
+      "images/telegram/crm-9ojqcu/1794771765567-06-reply_277725_277664-jpg.jpg",
+      "images/telegram/crm-9ojqcu/1794771771378-07-reply_277725_277665-jpg.jpg",
+      "images/telegram/crm-9ojqcu/1794771776761-08-reply_277725_277666-jpg.jpg",
+      "images/telegram/crm-9ojqcu/1794771782011-09-reply_277725_277667-jpg.jpg"
+    ],
+    "telegram_article": "A5537"
   },
   {
     "id": "crm-zdlngo",
