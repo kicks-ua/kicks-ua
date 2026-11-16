@@ -23904,7 +23904,14 @@
       "44",
       "45"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "текстиль",
+      "Колір": "сірий",
+      "Підошва": "піна , гумовий протектор , технологія Vibram",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -23939,10 +23946,19 @@
     ],
     "price": 2300,
     "stock": 15,
-    "description": "Матеріал : текстильВиробник : В'єтнам",
+    "description": "👕 Чоловічі кросівки Columbia Vibram Mega Grip Grey Black \n\n\n🔘Артикул A5738\n▪️Виробництво : В'єтнам\n▪️Матеріал верху : текстиль\n▪️Колір : сірий \n▪️Підошва : піна , гумовий протектор , технологія Vibram    \n▪️Розміри:  41-45\n▪️Сезон :  весна / літо / осінь\n📦Коробка Columbia , фірмовий папір \n🔢Розмірна сітка :\n▫️41 = 26 см ;\n▫️42 = 26,5 см ;\n▫️43 = 27,5 см ;\n▫️44 = 28 см ;\n▫️45 = 28,5 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/b56bffdb-47ec-44cd-9e8a-4ab90441bd19.jpg"
-    ]
+      "images/telegram/crm-uips88/1794777374701-01-reply_311643_299964-jpg.jpg",
+      "images/telegram/crm-uips88/1794777380015-02-reply_311643_299965-jpg.jpg",
+      "images/telegram/crm-uips88/1794777385593-03-reply_311643_299966-jpg.jpg",
+      "images/telegram/crm-uips88/1794777390734-04-reply_311643_299967-jpg.jpg",
+      "images/telegram/crm-uips88/1794777395750-05-reply_311643_299968-jpg.jpg",
+      "images/telegram/crm-uips88/1794777400953-06-reply_311643_299969-jpg.jpg",
+      "images/telegram/crm-uips88/1794777406484-07-reply_311643_299970-jpg.jpg",
+      "images/telegram/crm-uips88/1794777411625-08-reply_311643_299971-jpg.jpg",
+      "images/telegram/crm-uips88/1794777417002-09-reply_311643_299972-jpg.jpg"
+    ],
+    "telegram_article": "A5738"
   },
   {
     "id": "crm-wgn031",
