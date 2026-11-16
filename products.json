@@ -22187,7 +22187,14 @@
       "43",
       "44"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "Вʼєтнам",
+      "Матеріал верху": "текстиль",
+      "Колір": "сірий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -22216,10 +22223,19 @@
     ],
     "price": 1800,
     "stock": 11,
-    "description": "Матеріал : текстильВиробник : Вʼєтнам",
+    "description": "📊 Чоловічі кросівки Adidas Profoam Lite Gray Black\n\n\n🔘Артикул A3969\n▪️Виробництво : Вʼєтнам \n▪️Матеріал верху : текстиль \n▪️Колір : сірий \n▪️Підошва : піна , гумовий протектор\n▪️Розміри : 41-45\n▪️Сезон : весна / літо / осінь \n📦Коробка Adidas , фірмовий папір\n🔸Розмірна сітка :\n▪️41 = 26 см ;\n▪️42 = 26,5 см ;\n▪️43 = 27,5 см ;\n▪️44 = 28 см ;\n▪️45 = 28,5 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/cac9ebd3-1f00-4386-bd8e-3bce8929f8e1.jpg"
-    ]
+      "images/telegram/crm-xpo1au/1794775409871-01-reply_270085_270057-jpg.jpg",
+      "images/telegram/crm-xpo1au/1794775415227-02-reply_270085_270058-jpg.jpg",
+      "images/telegram/crm-xpo1au/1794775420290-03-reply_270085_270059-jpg.jpg",
+      "images/telegram/crm-xpo1au/1794775425626-04-reply_270085_270060-jpg.jpg",
+      "images/telegram/crm-xpo1au/1794775430751-05-reply_270085_270061-jpg.jpg",
+      "images/telegram/crm-xpo1au/1794775435974-06-reply_270085_270062-jpg.jpg",
+      "images/telegram/crm-xpo1au/1794775441568-07-reply_270085_270063-jpg.jpg",
+      "images/telegram/crm-xpo1au/1794775447013-08-reply_270085_270064-jpg.jpg",
+      "images/telegram/crm-xpo1au/1794775452435-09-reply_270085_270065-jpg.jpg"
+    ],
+    "telegram_article": "A3969"
   },
   {
     "id": "crm-14f4uig",
