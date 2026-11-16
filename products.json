@@ -22119,7 +22119,14 @@
       "39",
       "41"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "сітка",
+      "Колір": "бежевий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "37-41",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "37",
@@ -22148,10 +22155,19 @@
     ],
     "price": 1900,
     "stock": 9,
-    "description": "Матеріал : сіткаВиробник : В'єтнам",
+    "description": "📊 Жіночі кросівки Adidas Marathon Beige\n\n\n🔘Артикул B5252\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : сітка\n▪️Колір : бежевий \n▪️Підошва : піна , гумовий протектор\n▪️Розміри:  37-41\n▪️Сезон :  весна / літо / осінь  \n📦Коробка Adidas , фірмовий папір  \n🔢Розмірна сітка :\n▫️37 = 23,5 см ;\n▫️38 = 24 см ;\n▫️39 = 24.5 см ;\n▫️40 = 25,5 см ;\n▫️41 = 26 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/28ed1ffd-2ff8-4b53-bbb5-0efbf6428c6b.jpg"
-    ]
+      "images/telegram/crm-aj16xp/1794775337495-01-reply_274151_274094-jpg.jpg",
+      "images/telegram/crm-aj16xp/1794775342462-02-reply_274151_274095-jpg.jpg",
+      "images/telegram/crm-aj16xp/1794775347958-03-reply_274151_274096-jpg.jpg",
+      "images/telegram/crm-aj16xp/1794775353469-04-reply_274151_274097-jpg.jpg",
+      "images/telegram/crm-aj16xp/1794775358854-05-reply_274151_274098-jpg.jpg",
+      "images/telegram/crm-aj16xp/1794775364247-06-reply_274151_274099-jpg.jpg",
+      "images/telegram/crm-aj16xp/1794775369653-07-reply_274151_274100-jpg.jpg",
+      "images/telegram/crm-aj16xp/1794775375298-08-reply_274151_274101-jpg.jpg",
+      "images/telegram/crm-aj16xp/1794775380945-09-reply_274151_274102-jpg.jpg"
+    ],
+    "telegram_article": "B5252"
   },
   {
     "id": "crm-xpo1au",
