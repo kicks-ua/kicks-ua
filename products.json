@@ -23624,7 +23624,14 @@
       "44",
       "46"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "натуральна замша , шкіра",
+      "Колір": "сірий",
+      "Підошва": "гума",
+      "Розміри": "41-46",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "44",
@@ -23641,10 +23648,19 @@
     ],
     "price": 2300,
     "stock": 7,
-    "description": "Матеріал : натуральна замша , шкіраВиробник : В'єтнам",
+    "description": "👕 Чоловічі кросівки\nReebok Club C Dark Grey\n\n\n🔘Артикул A5317\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : натуральна замша , шкіра  \n▪️Колір : сірий\n▪️Підошва : гума\n▪️Розміри:  41-46\n▪️Сезон :  весна / літо / осінь   \n📦Коробка Reebok, фірмовий папір \n🔢Розмірна сітка :\n▫️41 = 26,5 см ; \n▫️42 = 27 см ;\n▫️43 = 27,5 см ;\n▫️44 = 28 см ;\n▫️45 = 29 см ;\n▫️46 = 29,5 см . \n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/4e88c135-b7b7-4557-a777-969cc6aec637.jpg"
-    ]
+      "images/telegram/crm-1ytqhis/1794777005855-01-reply_288409_288344-jpg.jpg",
+      "images/telegram/crm-1ytqhis/1794777014339-02-reply_288409_288345-jpg.jpg",
+      "images/telegram/crm-1ytqhis/1794777022217-03-reply_288409_288346-jpg.jpg",
+      "images/telegram/crm-1ytqhis/1794777029036-04-reply_288409_288347-jpg.jpg",
+      "images/telegram/crm-1ytqhis/1794777035619-05-reply_288409_288348-jpg.jpg",
+      "images/telegram/crm-1ytqhis/1794777041478-06-reply_288409_288349-jpg.jpg",
+      "images/telegram/crm-1ytqhis/1794777047927-07-reply_288409_288350-jpg.jpg",
+      "images/telegram/crm-1ytqhis/1794777053942-08-reply_288409_288351-jpg.jpg",
+      "images/telegram/crm-1ytqhis/1794777060183-09-reply_288409_288352-jpg.jpg"
+    ],
+    "telegram_article": "A5317"
   },
   {
     "id": "crm-kwb5bp",
