@@ -20160,7 +20160,14 @@
       "40",
       "41"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "шкіра , сітка",
+      "Колір": "білий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "37-41",
+      "Сезон": "весна / літо /осінь"
+    },
     "variants": [
       {
         "size": "37",
@@ -20195,10 +20202,19 @@
     ],
     "price": 1500,
     "stock": 7,
-    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "description": "📊 Жіночі кросівки Adidas Forum Mod Low White Black Lime\n\n\n🔘Артикул B5918\n▪️Виробництво : В'єтнам \n▪️Матеріал верху : шкіра , сітка\n▪️Колір : білий \n▪️Підошва : піна , гумовий протектор\n▪️Розміри : 37-41\n▪️Сезон : весна / літо /осінь \n📦Коробка Adidas , фірмовий папір \n🔸Розмірна сітка :\n▫️37 = 23,5 см ;\n▫️38 = 24 см ;\n▫️39 = 24,5 см ;\n▫️40 = 25,5 см ;\n▫️41 = 26 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/4866e166-c567-4cfb-ad52-c476daffb4fd.jpg"
-    ]
+      "images/telegram/crm-jhv8hi/1794773398166-01-reply_312607_312552-jpg.jpg",
+      "images/telegram/crm-jhv8hi/1794773404244-02-reply_312607_312553-jpg.jpg",
+      "images/telegram/crm-jhv8hi/1794773409494-03-reply_312607_312554-jpg.jpg",
+      "images/telegram/crm-jhv8hi/1794773414821-04-reply_312607_312555-jpg.jpg",
+      "images/telegram/crm-jhv8hi/1794773420269-05-reply_312607_312556-jpg.jpg",
+      "images/telegram/crm-jhv8hi/1794773425628-06-reply_312607_312557-jpg.jpg",
+      "images/telegram/crm-jhv8hi/1794773431428-07-reply_312607_312558-jpg.jpg",
+      "images/telegram/crm-jhv8hi/1794773436922-08-reply_312607_312559-jpg.jpg",
+      "images/telegram/crm-jhv8hi/1794773442421-09-reply_312607_312560-jpg.jpg"
+    ],
+    "telegram_article": "B5918"
   },
   {
     "id": "crm-9z1zjr",
