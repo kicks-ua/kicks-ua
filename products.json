@@ -19260,7 +19260,14 @@
       "44",
       "45"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "натуральна замша , текстиль Cordura",
+      "Колір": "сірий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -19295,10 +19302,19 @@
     ],
     "price": 2300,
     "stock": 13,
-    "description": "Матеріал : натуральна замша , текстиль CorduraВиробник : В'єтнам",
+    "description": "📊 Чоловічі кросівки Adidas POD-S Cordura Grey Black\n\n\n🔘Артикул A5642\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : натуральна замша , текстиль Cordura\n▪️Колір : сірий \n▪️Підошва : піна , гумовий протектор \n▪️Розміри:  41-45\n▪️Сезон :  весна / літо / осінь  \n📦Коробка Adidas , фірмовий папір \n🔢Розмірна сітка :\n▫️41 = 25,5 см ;\n▫️42 = 26,5 см ;\n▫️43 = 27 см ;\n▫️44 = 27,5 см ;\n▫️45 = 28 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/be931e92-5339-4113-85c1-f1b8020d3332.jpg"
-    ]
+      "images/telegram/crm-1rg1gl5/1794772578890-01-reply_293389_292736-jpg.jpg",
+      "images/telegram/crm-1rg1gl5/1794772584086-02-reply_293389_292737-jpg.jpg",
+      "images/telegram/crm-1rg1gl5/1794772589443-03-reply_293389_292738-jpg.jpg",
+      "images/telegram/crm-1rg1gl5/1794772594397-04-reply_293389_292739-jpg.jpg",
+      "images/telegram/crm-1rg1gl5/1794772599304-05-reply_293389_292740-jpg.jpg",
+      "images/telegram/crm-1rg1gl5/1794772604791-06-reply_293389_292741-jpg.jpg",
+      "images/telegram/crm-1rg1gl5/1794772610713-07-reply_293389_292742-jpg.jpg",
+      "images/telegram/crm-1rg1gl5/1794772616079-08-reply_293389_292743-jpg.jpg",
+      "images/telegram/crm-1rg1gl5/1794772621583-09-reply_293389_292744-jpg.jpg"
+    ],
+    "telegram_article": "A5642"
   },
   {
     "id": "crm-1ur8et8",
