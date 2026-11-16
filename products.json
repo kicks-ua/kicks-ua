@@ -21713,7 +21713,14 @@
       "44",
       "46"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "шкіра  , Waterproof, рефлективні вставки",
+      "Колір": "чорний",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-46",
+      "Сезон": "весна / літо /осінь"
+    },
     "variants": [
       {
         "size": "42",
@@ -21742,10 +21749,19 @@
     ],
     "price": 1900,
     "stock": 6,
-    "description": "Матеріал : шкіра  , Waterproof, рефлективні вставкиВиробник : В'єтнам",
+    "description": "📊 Чоловічі кросівки Adidas Ivy Park Savage V4 Black Orange\n\n\n🔘Артикул A5891\n▪️Виробництво : В'єтнам \n▪️Матеріал верху : шкіра  , Waterproof, рефлективні вставки\n▪️Колір : чорний\n▪️Підошва : піна , гумовий протектор \n▪️Розміри : 41-46\n▪️Сезон : весна / літо /осінь\n📦Коробка Adidas , фірмовий папір\n🔸Розмірна сітка :\n▫️41 = 26 см ;\n▫️42 = 26,5 см ;\n▫️43 = 27 см ;\n▫️44 = 28 см ;\n▫️45 = 28,5 см ;\n▫️46 = 29,5 см . \n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/d61c81c0-a25b-475c-a300-3d3a867367c5.jpg"
-    ]
+      "images/telegram/crm-1ae6j8g/1794774919089-01-reply_310871_310297-jpg.jpg",
+      "images/telegram/crm-1ae6j8g/1794774924278-02-reply_310871_310298-jpg.jpg",
+      "images/telegram/crm-1ae6j8g/1794774929278-03-reply_310871_310299-jpg.jpg",
+      "images/telegram/crm-1ae6j8g/1794774934244-04-reply_310871_310300-jpg.jpg",
+      "images/telegram/crm-1ae6j8g/1794774939103-05-reply_310871_310301-jpg.jpg",
+      "images/telegram/crm-1ae6j8g/1794774944547-06-reply_310871_310302-jpg.jpg",
+      "images/telegram/crm-1ae6j8g/1794774949953-07-reply_310871_310303-jpg.jpg",
+      "images/telegram/crm-1ae6j8g/1794774955299-08-reply_310871_310304-jpg.jpg",
+      "images/telegram/crm-1ae6j8g/1794774960689-09-reply_310871_310305-jpg.jpg"
+    ],
+    "telegram_article": "A5891"
   },
   {
     "id": "crm-7rjzln",
