@@ -22406,7 +22406,14 @@
       "44",
       "45"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "Вʼєтнам",
+      "Матеріал верху": "шкіра , текстиль",
+      "Колір": "чорний",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -22441,10 +22448,19 @@
     ],
     "price": 1900,
     "stock": 12,
-    "description": "Матеріал : шкіра , текстильВиробник : Вʼєтнам",
+    "description": "👕 Чоловічі кросівки Reebok Zig Kinetica 2.5 Edge x Spyder Black White\n\n\n🔘Артикул А4435\n▪️Виробництво : Вʼєтнам \n▪️Матеріал верху : шкіра , текстиль \n▪️Колір : чорний                                                                                                      \n▪️Підошва : піна , гумовий протектор \n▪️Розміри : 41-45\n▪️Сезон : весна / літо / осінь  \n📦Коробка Reebok , фірмовий папір \n🔸Розмірна сітка :\n▫️41 = 26,5 см ; \n▫️42 = 27 см ;\n▫️43 = 27,5 см ;\n▫️44 = 28 см ;\n▫️45 = 28,5 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/c0f8223e-ca8d-4d85-aeda-df15300423d7.jpg"
-    ]
+      "images/telegram/crm-zgighr/1794775617706-01-reply_333391_333392-jpg.jpg",
+      "images/telegram/crm-zgighr/1794775623342-02-reply_333391_333393-jpg.jpg",
+      "images/telegram/crm-zgighr/1794775628613-03-reply_333391_333394-jpg.jpg",
+      "images/telegram/crm-zgighr/1794775634661-04-reply_333391_333395-jpg.jpg",
+      "images/telegram/crm-zgighr/1794775640787-05-reply_333391_333396-jpg.jpg",
+      "images/telegram/crm-zgighr/1794775647410-06-reply_333391_333397-jpg.jpg",
+      "images/telegram/crm-zgighr/1794775653765-07-reply_333391_333398-jpg.jpg",
+      "images/telegram/crm-zgighr/1794775659227-08-reply_333391_333399-jpg.jpg",
+      "images/telegram/crm-zgighr/1794775664576-09-reply_333391_333400-jpg.jpg"
+    ],
+    "telegram_article": "A4435"
   },
   {
     "id": "crm-10uggym",
