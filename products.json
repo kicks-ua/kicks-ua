@@ -24645,7 +24645,14 @@
       "43",
       "44"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "текстиль",
+      "Колір": "оливковий",
+      "Підошва": "піна , гумовий протектор , технологія Vibram",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "42",
@@ -24668,10 +24675,19 @@
     ],
     "price": 2300,
     "stock": 9,
-    "description": "Матеріал : текстильВиробник : В'єтнам",
+    "description": "👕   Чоловічі кросівки Columbia Vibram Mega Grip Olive Black \n\n\n🔘Артикул A5740\n▪️Виробництво : В'єтнам\n▪️Матеріал верху : текстиль\n▪️Колір : оливковий \n▪️Підошва : піна , гумовий протектор , технологія Vibram    \n▪️Розміри:  41-45\n▪️Сезон :  весна / літо / осінь\n📦Коробка Columbia , фірмовий папір \n🔢Розмірна сітка :\n▫️41 = 26 см ;\n▫️42 = 26,5 см ;\n▫️43 = 27,5 см ;\n▫️44 = 28 см ;\n▫️45 = 28,5 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/d89fe0f8-c1f2-4b99-8530-fac0e134db07.jpg"
-    ]
+      "images/telegram/crm-w6nee2/1794778121663-01-reply_311647_300042-jpg.jpg",
+      "images/telegram/crm-w6nee2/1794778128181-02-reply_311647_300043-jpg.jpg",
+      "images/telegram/crm-w6nee2/1794778134595-03-reply_311647_300044-jpg.jpg",
+      "images/telegram/crm-w6nee2/1794778140758-04-reply_311647_300045-jpg.jpg",
+      "images/telegram/crm-w6nee2/1794778146180-05-reply_311647_300046-jpg.jpg",
+      "images/telegram/crm-w6nee2/1794778151698-06-reply_311647_300047-jpg.jpg",
+      "images/telegram/crm-w6nee2/1794778157126-07-reply_311647_300048-jpg.jpg",
+      "images/telegram/crm-w6nee2/1794778163982-08-reply_311647_300049-jpg.jpg",
+      "images/telegram/crm-w6nee2/1794778170678-09-reply_311647_300050-jpg.jpg"
+    ],
+    "telegram_article": "A5740"
   },
   {
     "id": "crm-1nxeq6d",
