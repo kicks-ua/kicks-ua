@@ -25123,7 +25123,14 @@
       "44",
       "45"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "текстиль , сітка",
+      "Колір": "сірий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -25158,10 +25165,19 @@
     ],
     "price": 2000,
     "stock": 17,
-    "description": "Матеріал : текстиль , сіткаВиробник : В'єтнам",
+    "description": "👕 Чоловічі кросівки Salomon Odyssey Elmt Advanced Grey Beige\n\n\n🔘Артикул A4011\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : текстиль , сітка\n▪️Колір : сірий\n▪️Підошва : піна , гумовий протектор \n▪️Розміри:  41-45\n▪️Сезон :  весна / літо / осінь \n📦Коробка Salomon , пергамент\n🔢Розмірна сітка :\n▫️41 = 26 см ;\n▫️42 = 27 см ;\n▫️43 = 27.5 см ;\n▫️44 = 28 см ;\n▫️45 = 29 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/cf9b6c52-c890-4ab6-8c9e-ccb45430a568.jpg"
-    ]
+      "images/telegram/crm-gjuk5/1794778678683-01-reply_289076_289048-jpg.jpg",
+      "images/telegram/crm-gjuk5/1794778684154-02-reply_289076_289049-jpg.jpg",
+      "images/telegram/crm-gjuk5/1794778690591-03-reply_289076_289050-jpg.jpg",
+      "images/telegram/crm-gjuk5/1794778696000-04-reply_289076_289051-jpg.jpg",
+      "images/telegram/crm-gjuk5/1794778701870-05-reply_289076_289052-jpg.jpg",
+      "images/telegram/crm-gjuk5/1794778708278-06-reply_289076_289053-jpg.jpg",
+      "images/telegram/crm-gjuk5/1794778714153-07-reply_289076_289054-jpg.jpg",
+      "images/telegram/crm-gjuk5/1794778721512-08-reply_289076_289055-jpg.jpg",
+      "images/telegram/crm-gjuk5/1794778728333-09-reply_289076_289056-jpg.jpg"
+    ],
+    "telegram_article": "A4011"
   },
   {
     "id": "crm-1iw0gp6",
