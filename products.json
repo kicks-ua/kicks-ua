@@ -23778,7 +23778,14 @@
     "sizes": [
       "44"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "натуральна замша , сітка , текстиль",
+      "Колір": "чорний",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "40-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "44",
@@ -23789,10 +23796,19 @@
     ],
     "price": 1800,
     "stock": 10,
-    "description": "Матеріал : натуральна замша , текстильВиробник : Вʼєтнам",
+    "description": "👟 Чоловічі кросівки Armani Exchange Black White Navy\n\n\n🔘Артикул A4140\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  :  натуральна замша , сітка , текстиль  \n▪️Колір : чорний \n▪️Підошва : піна , гумовий протектор   \n▪️Розміри:  40-45\n▪️Сезон :  весна / літо / осінь \n📦Коробка Armani , пергамент \n🔢Розмірна сітка :\n▫️40=25,5 см;\n▫️41=26 см;\n▫️42=27 см;\n▫️43=27,5 см;\n▫️44=28 см;\n▫️45=28,5 см. \n\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/18100a59-ca28-4a27-8f56-99dc99e5f4c5.jpeg"
-    ]
+      "images/telegram/crm-xhienr/1794777236440-01-reply_112214_112215-jpg.jpg",
+      "images/telegram/crm-xhienr/1794777241752-02-reply_112214_112216-jpg.jpg",
+      "images/telegram/crm-xhienr/1794777246831-03-reply_112214_112217-jpg.jpg",
+      "images/telegram/crm-xhienr/1794777251799-04-reply_112214_112218-jpg.jpg",
+      "images/telegram/crm-xhienr/1794777256907-05-reply_112214_112219-jpg.jpg",
+      "images/telegram/crm-xhienr/1794777262388-06-reply_112214_112220-jpg.jpg",
+      "images/telegram/crm-xhienr/1794777268138-07-reply_112214_112221-jpg.jpg",
+      "images/telegram/crm-xhienr/1794777273475-08-reply_112214_112222-jpg.jpg",
+      "images/telegram/crm-xhienr/1794777279001-09-reply_112214_112223-jpg.jpg"
+    ],
+    "telegram_article": "A3140"
   },
   {
     "id": "crm-vcolb5",
