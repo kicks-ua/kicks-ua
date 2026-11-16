@@ -24279,7 +24279,14 @@
       "44",
       "45"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "текстиль",
+      "Колір": "бежевий",
+      "Підошва": "піна , гумовий протектор , технологія Vibram",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -24314,10 +24321,19 @@
     ],
     "price": 2300,
     "stock": 15,
-    "description": "Матеріал : текстильВиробник : В'єтнам",
+    "description": "👕  Чоловічі кросівки Columbia Trail Vibram Beige Black \n\n\n🔘Артикул A5746\n▪️Виробництво : В'єтнам\n▪️Матеріал верху : текстиль \n▪️Колір : бежевий\n▪️Підошва : піна , гумовий протектор , технологія Vibram    \n▪️Розміри:  41-45\n▪️Сезон :  весна / літо / осінь  \n📦Коробка Columbia , фірмовий папір \n🔢Розмірна сітка :\n▫️41 = 26,5 см ;\n▫️42 = 27 см ;\n▫️43 = 27,5 см ;\n▫️44 = 28 см ;\n▫️45 = 29 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/8fb95cbe-0b1e-4feb-b6ac-e03985db19eb.jpg"
-    ]
+      "images/telegram/crm-rywzqy/1794777742647-01-reply_303671_300659-jpg.jpg",
+      "images/telegram/crm-rywzqy/1794777748382-02-reply_303671_300660-jpg.jpg",
+      "images/telegram/crm-rywzqy/1794777753788-03-reply_303671_300661-jpg.jpg",
+      "images/telegram/crm-rywzqy/1794777763131-04-reply_303671_300662-jpg.jpg",
+      "images/telegram/crm-rywzqy/1794777770030-05-reply_303671_300663-jpg.jpg",
+      "images/telegram/crm-rywzqy/1794777776977-06-reply_303671_300664-jpg.jpg",
+      "images/telegram/crm-rywzqy/1794777783562-07-reply_303671_300665-jpg.jpg",
+      "images/telegram/crm-rywzqy/1794777789348-08-reply_303671_300666-jpg.jpg",
+      "images/telegram/crm-rywzqy/1794777795489-09-reply_303671_300667-jpg.jpg"
+    ],
+    "telegram_article": "A5746"
   },
   {
     "id": "crm-sus62e",
