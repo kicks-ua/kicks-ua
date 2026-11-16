@@ -23570,7 +23570,14 @@
       "44",
       "45"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "Вʼєтнам",
+      "Матеріал верху": "шкіра , текстиль",
+      "Колір": "білий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-46",
+      "Сезон": "весна / літо /осінь"
+    },
     "variants": [
       {
         "size": "44",
@@ -23587,10 +23594,19 @@
     ],
     "price": 1800,
     "stock": 6,
-    "description": "Матеріал : шкіра , текстильВиробник : Вʼєтнам",
+    "description": "👕 Чоловічі кросівки Reebok Classic New All White\n\n\n🔘Артикул А4078\n▪️Виробництво : Вʼєтнам\n▪️Матеріал верху : шкіра , текстиль\n▪️Колір : білий                                                                                       \n▪️Підошва : піна , гумовий протектор \n▪️Розміри : 41-46\n▪️Сезон : весна / літо /осінь \n📦Коробка Reebok , фірмовий папір\n🔸Розмірна сітка :\n▫️41 = 26 см ;\n▫️42 = 26.5 см ;\n▫️43 = 27.5 см ;\n▫️44 = 28 см ;\n▫️45 = 29 см ;\n▫️46 = 29.5 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/98bae297-71a0-4380-b300-930c1409fb15.jpg"
-    ]
+      "images/telegram/crm-1ufft4e/1794776929967-01-reply_287241_287204-jpg.jpg",
+      "images/telegram/crm-1ufft4e/1794776937302-02-reply_287241_287205-jpg.jpg",
+      "images/telegram/crm-1ufft4e/1794776943751-03-reply_287241_287206-jpg.jpg",
+      "images/telegram/crm-1ufft4e/1794776949530-04-reply_287241_287207-jpg.jpg",
+      "images/telegram/crm-1ufft4e/1794776954964-05-reply_287241_287208-jpg.jpg",
+      "images/telegram/crm-1ufft4e/1794776960768-06-reply_287241_287209-jpg.jpg",
+      "images/telegram/crm-1ufft4e/1794776966599-07-reply_287241_287210-jpg.jpg",
+      "images/telegram/crm-1ufft4e/1794776972374-08-reply_287241_287211-jpg.jpg",
+      "images/telegram/crm-1ufft4e/1794776977773-09-reply_287241_287212-jpg.jpg"
+    ],
+    "telegram_article": "A4078"
   },
   {
     "id": "crm-1ytqhis",
