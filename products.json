@@ -22481,7 +22481,14 @@
       "44",
       "45"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "Вʼєтнам",
+      "Матеріал верху": "шкіра , текстиль",
+      "Колір": "хакі",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -22516,10 +22523,19 @@
     ],
     "price": 1900,
     "stock": 16,
-    "description": "Матеріал : шкіра , текстильВиробник : Вʼєтнам",
+    "description": "👕 Чоловічі кросівки Reebok Zig Kinetica 2.5 Edge x Spyder Khaki Black\n\n\n🔘Артикул А4436\n▪️Виробництво : Вʼєтнам \n▪️Матеріал верху : шкіра , текстиль \n▪️Колір : хакі                                                                                                      \n▪️Підошва : піна , гумовий протектор \n▪️Розміри : 41-45\n▪️Сезон : весна / літо / осінь  \n📦Коробка Reebok , фірмовий папір \n🔸Розмірна сітка :\n▫️41 = 26,5 см ; \n▫️42 = 27 см ;\n▫️43 = 27,5 см ;\n▫️44 = 28 см ;\n▫️45 = 28,5 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/6188bf0b-c0ad-47c2-9ba5-3229e64804ed.jpg"
-    ]
+      "images/telegram/crm-10uggym/1794775694238-01-reply_333457_333458-jpg.jpg",
+      "images/telegram/crm-10uggym/1794775700237-02-reply_333457_333459-jpg.jpg",
+      "images/telegram/crm-10uggym/1794775706459-03-reply_333457_333460-jpg.jpg",
+      "images/telegram/crm-10uggym/1794775713020-04-reply_333457_333461-jpg.jpg",
+      "images/telegram/crm-10uggym/1794775719379-05-reply_333457_333462-jpg.jpg",
+      "images/telegram/crm-10uggym/1794775725552-06-reply_333457_333463-jpg.jpg",
+      "images/telegram/crm-10uggym/1794775731861-07-reply_333457_333464-jpg.jpg",
+      "images/telegram/crm-10uggym/1794775737797-08-reply_333457_333465-jpg.jpg",
+      "images/telegram/crm-10uggym/1794775743719-09-reply_333457_333466-jpg.jpg"
+    ],
+    "telegram_article": "A4436"
   },
   {
     "id": "crm-114g2nl",
