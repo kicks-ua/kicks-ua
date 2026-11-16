@@ -19110,7 +19110,14 @@
       "44",
       "45"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "шкіра , натуральна замша",
+      "Колір": "синій",
+      "Підошва": "гума",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -19145,10 +19152,19 @@
     ],
     "price": 2100,
     "stock": 27,
-    "description": "Матеріал : натуральна замша , шкіраВиробник : В'єтнам",
+    "description": "📊 Чоловічі кросівки Adidas Handball Spezial M Navy White\n\n\n🔘Артикул A5711\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : шкіра , натуральна замша \n▪️Колір : синій \n▪️Підошва : гума\n▪️Розміри:  41-45\n▪️Сезон :  весна / літо / осінь  \n📦Коробка Adidas , фірмовий папір \n🔢Розмірна сітка :\n▫️41 = 26 см ; \n▫️42 = 26,5 см ;\n▫️43 = 27 см ;\n▫️44 = 28 см ;\n▫️45 = 28,5 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/dfbd3d40-7126-4c0e-ad59-694a705e7d85.JPG"
-    ]
+      "images/telegram/crm-fuj79p/1794772444974-01-reply_298299_298235-jpg.jpg",
+      "images/telegram/crm-fuj79p/1794772450278-02-reply_298299_298236-jpg.jpg",
+      "images/telegram/crm-fuj79p/1794772455348-03-reply_298299_298237-jpg.jpg",
+      "images/telegram/crm-fuj79p/1794772460337-04-reply_298299_298238-jpg.jpg",
+      "images/telegram/crm-fuj79p/1794772465665-05-reply_298299_298239-jpg.jpg",
+      "images/telegram/crm-fuj79p/1794772470560-06-reply_298299_298240-jpg.jpg",
+      "images/telegram/crm-fuj79p/1794772475619-07-reply_298299_298241-jpg.jpg",
+      "images/telegram/crm-fuj79p/1794772480744-08-reply_298299_298242-jpg.jpg",
+      "images/telegram/crm-fuj79p/1794772486074-09-reply_298299_298243-jpg.jpg"
+    ],
+    "telegram_article": "A5711"
   },
   {
     "id": "crm-1yljacm",
