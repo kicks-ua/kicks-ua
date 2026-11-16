@@ -20310,7 +20310,14 @@
       "40",
       "41"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "сітка",
+      "Колір": "бежево-рожевий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "37-41",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "37",
@@ -20345,10 +20352,19 @@
     ],
     "price": 1900,
     "stock": 23,
-    "description": "Матеріал : сіткаВиробник : В'єтнам",
+    "description": "📊 Жіночі кросівки Adidas Marathon  Blash Beige\n\n\n🔘Артикул B5253\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : сітка\n▪️Колір : бежево-рожевий\n▪️Підошва : піна , гумовий протектор\n▪️Розміри:  37-41\n▪️Сезон :  весна / літо / осінь  \n📦Коробка Adidas , фірмовий папір  \n🔢Розмірна сітка :\n▫️37 = 23,5 см ;\n▫️38 = 24 см ;\n▫️39 = 24.5 см ;\n▫️40 = 25,5 см ;\n▫️41 = 26 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/5d872eb5-bce0-4cae-af4b-7c45ed037cd0.jpg"
-    ]
+      "images/telegram/crm-a91l8q/1794773544813-01-reply_274210_274153-jpg.jpg",
+      "images/telegram/crm-a91l8q/1794773550410-02-reply_274210_274154-jpg.jpg",
+      "images/telegram/crm-a91l8q/1794773555774-03-reply_274210_274155-jpg.jpg",
+      "images/telegram/crm-a91l8q/1794773561276-04-reply_274210_274156-jpg.jpg",
+      "images/telegram/crm-a91l8q/1794773566281-05-reply_274210_274157-jpg.jpg",
+      "images/telegram/crm-a91l8q/1794773571687-06-reply_274210_274158-jpg.jpg",
+      "images/telegram/crm-a91l8q/1794773577178-07-reply_274210_274159-jpg.jpg",
+      "images/telegram/crm-a91l8q/1794773582319-08-reply_274210_274160-jpg.jpg",
+      "images/telegram/crm-a91l8q/1794773588225-09-reply_274210_274161-jpg.jpg"
+    ],
+    "telegram_article": "B5253"
   },
   {
     "id": "crm-57jgvu",
