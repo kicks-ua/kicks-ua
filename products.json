@@ -19485,7 +19485,14 @@
       "40",
       "41"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "шкіра , сітка",
+      "Колір": "білий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "37-41",
+      "Сезон": "весна / літо /осінь"
+    },
     "variants": [
       {
         "size": "37",
@@ -19520,10 +19527,19 @@
     ],
     "price": 1500,
     "stock": 8,
-    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "description": "📊 Жіночі кросівки Adidas Forum Mod Low White Turquoise \n\n\n🔘Артикул B5919\n▪️Виробництво : В'єтнам \n▪️Матеріал верху : шкіра , сітка\n▪️Колір : білий \n▪️Підошва : піна , гумовий протектор\n▪️Розміри : 37-41\n▪️Сезон : весна / літо /осінь \n📦Коробка Adidas , фірмовий папір \n🔸Розмірна сітка :\n▫️37 = 23,5 см ;\n▫️38 = 24 см ;\n▫️39 = 24,5 см ;\n▫️40 = 25,5 см ;\n▫️41 = 26 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/b92dce04-c86a-4f24-bff1-6fe3f5dc1ec8.jpg"
-    ]
+      "images/telegram/crm-jruu6h/1794772782936-01-reply_312664_312609-jpg.jpg",
+      "images/telegram/crm-jruu6h/1794772787842-02-reply_312664_312610-jpg.jpg",
+      "images/telegram/crm-jruu6h/1794772793702-03-reply_312664_312611-jpg.jpg",
+      "images/telegram/crm-jruu6h/1794772798983-04-reply_312664_312612-jpg.jpg",
+      "images/telegram/crm-jruu6h/1794772804030-05-reply_312664_312613-jpg.jpg",
+      "images/telegram/crm-jruu6h/1794772809483-06-reply_312664_312614-jpg.jpg",
+      "images/telegram/crm-jruu6h/1794772815223-07-reply_312664_312615-jpg.jpg",
+      "images/telegram/crm-jruu6h/1794772820605-08-reply_312664_312616-jpg.jpg",
+      "images/telegram/crm-jruu6h/1794772826014-09-reply_312664_312617-jpg.jpg"
+    ],
+    "telegram_article": "B5919"
   },
   {
     "id": "crm-15712x9",
