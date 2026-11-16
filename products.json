@@ -22853,7 +22853,14 @@
       "42",
       "44"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "Вʼєтнам",
+      "Матеріал верху": "шкіра , текстиль",
+      "Колір": "чорний",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -22888,10 +22895,19 @@
     ],
     "price": 1900,
     "stock": 8,
-    "description": "Матеріал : шкіра , текстильВиробник : Вʼєтнам",
+    "description": "👕 Чоловічі кросівки Reebok Zig Kinetica 2.5 Edge x Spyder Black\n\n\n🔘Артикул А4438\n▪️Виробництво : Вʼєтнам \n▪️Матеріал верху : шкіра , текстиль \n▪️Колір : чорний                                                                                                     \n▪️Підошва : піна , гумовий протектор \n▪️Розміри : 41-45\n▪️Сезон : весна / літо / осінь  \n📦Коробка Reebok , фірмовий папір \n🔸Розмірна сітка :\n▫️41 = 26,5 см ; \n▫️42 = 27 см ;\n▫️43 = 27,5 см ;\n▫️44 = 28 см ;\n▫️45 = 28,5 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/28ff21ce-7b5a-4f60-93f9-20b4236a1c0e.jpg"
-    ]
+      "images/telegram/crm-10akf2n/1794776069346-01-reply_333589_333590-jpg.jpg",
+      "images/telegram/crm-10akf2n/1794776074548-02-reply_333589_333591-jpg.jpg",
+      "images/telegram/crm-10akf2n/1794776080087-03-reply_333589_333592-jpg.jpg",
+      "images/telegram/crm-10akf2n/1794776085750-04-reply_333589_333593-jpg.jpg",
+      "images/telegram/crm-10akf2n/1794776091136-05-reply_333589_333594-jpg.jpg",
+      "images/telegram/crm-10akf2n/1794776096511-06-reply_333589_333595-jpg.jpg",
+      "images/telegram/crm-10akf2n/1794776102252-07-reply_333589_333596-jpg.jpg",
+      "images/telegram/crm-10akf2n/1794776107387-08-reply_333589_333597-jpg.jpg",
+      "images/telegram/crm-10akf2n/1794776112736-09-reply_333589_333598-jpg.jpg"
+    ],
+    "telegram_article": "A4438"
   },
   {
     "id": "crm-100hnvp",
