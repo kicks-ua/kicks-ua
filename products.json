@@ -20235,7 +20235,14 @@
       "40",
       "41"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "сітка",
+      "Колір": "сірий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "37-41",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "37",
@@ -20270,10 +20277,19 @@
     ],
     "price": 1900,
     "stock": 36,
-    "description": "Матеріал : сіткаВиробник : В'єтнам",
+    "description": "📊 Жіночі кросівки Adidas Marathon Light Grey\n\n\n🔘Артикул B5254\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : сітка\n▪️Колір : сірий \n▪️Підошва : піна , гумовий протектор\n▪️Розміри:  37-41\n▪️Сезон :  весна / літо / осінь  \n📦Коробка Adidas , фірмовий папір  \n🔢Розмірна сітка :\n▫️37 = 23,5 см ;\n▫️38 = 24 см ;\n▫️39 = 24.5 см ;\n▫️40 = 25,5 см ;\n▫️41 = 26 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/786a41a2-9a5e-47ba-b8b0-7ce7e3c768aa.jpg"
-    ]
+      "images/telegram/crm-9z1zjr/1794773473206-01-reply_274269_274212-jpg.jpg",
+      "images/telegram/crm-9z1zjr/1794773478519-02-reply_274269_274213-jpg.jpg",
+      "images/telegram/crm-9z1zjr/1794773483555-03-reply_274269_274214-jpg.jpg",
+      "images/telegram/crm-9z1zjr/1794773489091-04-reply_274269_274215-jpg.jpg",
+      "images/telegram/crm-9z1zjr/1794773494044-05-reply_274269_274216-jpg.jpg",
+      "images/telegram/crm-9z1zjr/1794773499376-06-reply_274269_274217-jpg.jpg",
+      "images/telegram/crm-9z1zjr/1794773504874-07-reply_274269_274218-jpg.jpg",
+      "images/telegram/crm-9z1zjr/1794773510033-08-reply_274269_274219-jpg.jpg",
+      "images/telegram/crm-9z1zjr/1794773515439-09-reply_274269_274220-jpg.jpg"
+    ],
+    "telegram_article": "B5254"
   },
   {
     "id": "crm-a91l8q",
