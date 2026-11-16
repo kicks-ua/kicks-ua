@@ -18063,7 +18063,14 @@
       "39",
       "41"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "натуральна замша , шкіра",
+      "Колір": "чорний",
+      "Підошва": "гума",
+      "Розміри": "36-41",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "36",
@@ -18098,10 +18105,19 @@
     ],
     "price": 2100,
     "stock": 9,
-    "description": "Матеріал : натуральна замша , шкіраВиробник : В'єтнам",
+    "description": "📊 Жіночі кросівки Adidas Handball Spezial Black  \n\n\n🔘Артикул B4938\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : натуральна замша , шкіра\n▪️Колір : чорний\n▪️Підошва : гума\n▪️Розміри:  36-41\n▪️Сезон :  весна / літо / осінь  \n📦Коробка Adidas , фірмовий папір\n🔢Розмірна сітка :\n▫️36 = 23 см ;\n▫️37 = 23.5 см ;\n▫️38 = 24,5 см ;\n▫️39 = 25 см ;\n▫️40 = 25,5 см ;\n▫️41 = 26,5 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/d2cb5e76-b119-40df-9f55-e592668239ea.jpg"
-    ]
+      "images/telegram/crm-ytl83p/1794771462965-01-reply_271727_271661-jpg.jpg",
+      "images/telegram/crm-ytl83p/1794771467715-02-reply_271727_271662-jpg.jpg",
+      "images/telegram/crm-ytl83p/1794771473027-03-reply_271727_271663-jpg.jpg",
+      "images/telegram/crm-ytl83p/1794771478396-04-reply_271727_271664-jpg.jpg",
+      "images/telegram/crm-ytl83p/1794771483761-05-reply_271727_271665-jpg.jpg",
+      "images/telegram/crm-ytl83p/1794771488712-06-reply_271727_271666-jpg.jpg",
+      "images/telegram/crm-ytl83p/1794771494103-07-reply_271727_271667-jpg.jpg",
+      "images/telegram/crm-ytl83p/1794771499344-08-reply_271727_271668-jpg.jpg",
+      "images/telegram/crm-ytl83p/1794771504346-09-reply_271727_271669-jpg.jpg"
+    ],
+    "telegram_article": "B4938"
   },
   {
     "id": "crm-a8fs8t",
