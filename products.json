@@ -18588,7 +18588,14 @@
       "45",
       "46"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "Вʼєтнам",
+      "Матеріал верху": "наскрізна сітка",
+      "Колір": "коричневий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-46",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "42",
@@ -18623,10 +18630,19 @@
     ],
     "price": 2100,
     "stock": 14,
-    "description": "Матеріал : наскрізна сіткаВиробник : Вʼєтнам",
+    "description": "📊 Чоловічі кросівки\nAdidas Climacool Brown Black\n\n\n🔘Артикул A5540\n▪️Виробництво : Вʼєтнам\n▪️Матеріал верху : наскрізна сітка\n▪️Колір : коричневий\n▪️Підошва : піна , гумовий протектор\n▪️Розміри : 41-46\n▪️Сезон : весна / літо / осінь \n📦Коробка Adidas , фірмовий папір\n🔸Розмірна сітка :\n▫️41 = 26 см ;\n▫️42 = 26,5 см ;\n▫️43 = 27 см ;\n▫️44 = 28 см ;\n▫️45 = 28,5 см ;\n▫️46 = 29 см . \n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/d0109baf-e1d0-43c7-8151-5a64debb24bd.jpg"
-    ]
+      "images/telegram/crm-9ek4nv/1794771948832-01-reply_277929_277863-jpg.jpg",
+      "images/telegram/crm-9ek4nv/1794771953632-02-reply_277929_277864-jpg.jpg",
+      "images/telegram/crm-9ek4nv/1794771958962-03-reply_277929_277865-jpg.jpg",
+      "images/telegram/crm-9ek4nv/1794771963947-04-reply_277929_277866-jpg.jpg",
+      "images/telegram/crm-9ek4nv/1794771969438-05-reply_277929_277867-jpg.jpg",
+      "images/telegram/crm-9ek4nv/1794771974737-06-reply_277929_277868-jpg.jpg",
+      "images/telegram/crm-9ek4nv/1794771980377-07-reply_277929_277869-jpg.jpg",
+      "images/telegram/crm-9ek4nv/1794771985717-08-reply_277929_277870-jpg.jpg",
+      "images/telegram/crm-9ek4nv/1794771991015-09-reply_277929_277871-jpg.jpg"
+    ],
+    "telegram_article": "A5540"
   },
   {
     "id": "crm-1qq7lgb",
