@@ -19785,7 +19785,14 @@
       "40",
       "41"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "сітка",
+      "Колір": "білий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "37-41",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "37",
@@ -19820,10 +19827,19 @@
     ],
     "price": 1900,
     "stock": 17,
-    "description": "Матеріал : сіткаВиробник : В'єтнам",
+    "description": "📊 Жіночі кросівки Adidas Marathon White\n\n\n🔘Артикул B5250\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : сітка\n▪️Колір : білий \n▪️Підошва : піна , гумовий протектор\n▪️Розміри:  37-41\n▪️Сезон :  весна / літо / осінь  \n📦Коробка Adidas , фірмовий папір  \n🔢Розмірна сітка :\n▫️37 = 23,5 см ;\n▫️38 = 24 см ;\n▫️39 = 24.5 см ;\n▫️40 = 25,5 см ;\n▫️41 = 26 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/3dc7b2b1-b9fe-4669-af77-d9cf7b402e86.jpg"
-    ]
+      "images/telegram/crm-450vhf/1794773054141-01-reply_274033_273976-jpg.jpg",
+      "images/telegram/crm-450vhf/1794773059159-02-reply_274033_273977-jpg.jpg",
+      "images/telegram/crm-450vhf/1794773064017-03-reply_274033_273978-jpg.jpg",
+      "images/telegram/crm-450vhf/1794773069079-04-reply_274033_273979-jpg.jpg",
+      "images/telegram/crm-450vhf/1794773074474-05-reply_274033_273980-jpg.jpg",
+      "images/telegram/crm-450vhf/1794773080006-06-reply_274033_273981-jpg.jpg",
+      "images/telegram/crm-450vhf/1794773085594-07-reply_274033_273982-jpg.jpg",
+      "images/telegram/crm-450vhf/1794773090984-08-reply_274033_273983-jpg.jpg",
+      "images/telegram/crm-450vhf/1794773096780-09-reply_274033_273984-jpg.jpg"
+    ],
+    "telegram_article": "B5250"
   },
   {
     "id": "crm-eo1ven",
