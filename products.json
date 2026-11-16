@@ -21373,7 +21373,14 @@
       "44",
       "45"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "натуральна замша , шкіра",
+      "Колір": "чорний",
+      "Підошва": "гума",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "42",
@@ -21402,10 +21409,19 @@
     ],
     "price": 2100,
     "stock": 11,
-    "description": "Матеріал : натуральна замша , шкіраВиробник : В'єтнам",
+    "description": "📊 Чоловічі кросівки Adidas Handball Spezial Black White\n\n\n🔘Артикул A4944\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : натуральна замша , шкіра\n▪️Колір : чорний\n▪️Підошва : гума\n▪️Розміри:  41-45\n▪️Сезон :  весна / літо / осінь  \n📦Коробка Adidas , фірмовий папір\n🔢Розмірна сітка :\n▫️41 = 26,5 см ;\n▫️42 = 27 см ;\n▫️43 = 27,5 см ;\n▫️44 = 28,5 см ;\n▫️45 = 29 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/53c89afb-57d9-46cc-afb0-1e87ab4f45b4.jpg"
-    ]
+      "images/telegram/crm-14nuurr/1794774581672-01-reply_272086_272011-jpg.jpg",
+      "images/telegram/crm-14nuurr/1794774587133-02-reply_272086_272012-jpg.jpg",
+      "images/telegram/crm-14nuurr/1794774592467-03-reply_272086_272013-jpg.jpg",
+      "images/telegram/crm-14nuurr/1794774597264-04-reply_272086_272014-jpg.jpg",
+      "images/telegram/crm-14nuurr/1794774602061-05-reply_272086_272015-jpg.jpg",
+      "images/telegram/crm-14nuurr/1794774607033-06-reply_272086_272016-jpg.jpg",
+      "images/telegram/crm-14nuurr/1794774612121-07-reply_272086_272017-jpg.jpg",
+      "images/telegram/crm-14nuurr/1794774617327-08-reply_272086_272018-jpg.jpg",
+      "images/telegram/crm-14nuurr/1794774622624-09-reply_272086_272019-jpg.jpg"
+    ],
+    "telegram_article": "A4944"
   },
   {
     "id": "crm-1ay5qme",
