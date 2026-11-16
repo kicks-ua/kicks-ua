@@ -24578,7 +24578,14 @@
       "43",
       "44"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "текстиль , Waterproof , Gore-Tex",
+      "Колір": "білий",
+      "Підошва": "піна , гумовий протектор , технологія Vibram",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -24607,10 +24614,19 @@
     ],
     "price": 2300,
     "stock": 11,
-    "description": "Матеріал : текстиль , Waterproof , Gore-TexВиробник : В'єтнам",
+    "description": "👕 👟 Чоловічі кросівки \nColumbia Fuga EX 3 White Navy\n\n\n🔘Артикул A5743\n▪️Виробництво : В'єтнам\n▪️Матеріал верху : текстиль , Waterproof , Gore-Tex\n▪️Колір : білий \n▪️Підошва : піна , гумовий протектор , технологія Vibram    \n▪️Розміри:  41-45\n▪️Сезон :  весна / літо / осінь  \n📦Коробка Columbia , фірмовий папір \n🔢Розмірна сітка :\n▫️41 = 26,5 см ;\n▫️42 = 27 см ;\n▫️43 = 28 см ;\n▫️44 = 28,5 см ;\n▫️45 = 29,5  см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/0034182d-d268-440c-9d83-1578e3b228a2.jpg"
-    ]
+      "images/telegram/crm-vwnsp3/1794778044470-01-reply_303584_300204-jpg.jpg",
+      "images/telegram/crm-vwnsp3/1794778052375-02-reply_303584_300205-jpg.jpg",
+      "images/telegram/crm-vwnsp3/1794778058913-03-reply_303584_300206-jpg.jpg",
+      "images/telegram/crm-vwnsp3/1794778064952-04-reply_303584_300207-jpg.jpg",
+      "images/telegram/crm-vwnsp3/1794778070812-05-reply_303584_300208-jpg.jpg",
+      "images/telegram/crm-vwnsp3/1794778076287-06-reply_303584_300209-jpg.jpg",
+      "images/telegram/crm-vwnsp3/1794778081787-07-reply_303584_300210-jpg.jpg",
+      "images/telegram/crm-vwnsp3/1794778087666-08-reply_303584_300211-jpg.jpg",
+      "images/telegram/crm-vwnsp3/1794778093401-09-reply_303584_300212-jpg.jpg"
+    ],
+    "telegram_article": "A5743"
   },
   {
     "id": "crm-w6nee2",
