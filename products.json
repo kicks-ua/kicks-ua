@@ -20764,7 +20764,13 @@
       "44",
       "45"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "Вʼєтнам",
+      "Колір": "чорний",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "42",
@@ -20793,10 +20799,19 @@
     ],
     "price": 2200,
     "stock": 10,
-    "description": "Матеріал : шкіра , текстиль , наскрізна сіткаВиробник : Вʼєтнам",
+    "description": "📊 Чоловічі кросівки Adidas Terrex Skychaser All Black\n\n\n🔘Артикул A5421\n▪️Виробництво : Вʼєтнам\n▪️Матеріал верху : \nшкіра , текстиль , наскрізна сітка\n▪️Колір : чорний \n▪️Підошва : піна , гумовий протектор\n▪️Розміри : 41-45\n▪️Сезон : весна / літо / осінь \n📦Коробка Adidas  , фірмовий папір\n🔸Розмірна сітка :\n▫️41 = 26,5 см ;\n▫️42 = 27 см ;\n▫️43 = 27,5 см ;\n▫️44 = 28,5 см ;\n▫️45 = 29 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/569facc6-bf83-4d86-8159-ed1bbf20c065.jpg"
-    ]
+      "images/telegram/crm-18i2oaf/1794773960192-01-reply_276238_276172-jpg.jpg",
+      "images/telegram/crm-18i2oaf/1794773965289-02-reply_276238_276173-jpg.jpg",
+      "images/telegram/crm-18i2oaf/1794773970419-03-reply_276238_276174-jpg.jpg",
+      "images/telegram/crm-18i2oaf/1794773975858-04-reply_276238_276175-jpg.jpg",
+      "images/telegram/crm-18i2oaf/1794773981346-05-reply_276238_276176-jpg.jpg",
+      "images/telegram/crm-18i2oaf/1794773986966-06-reply_276238_276177-jpg.jpg",
+      "images/telegram/crm-18i2oaf/1794773992633-07-reply_276238_276178-jpg.jpg",
+      "images/telegram/crm-18i2oaf/1794773998352-08-reply_276238_276179-jpg.jpg",
+      "images/telegram/crm-18i2oaf/1794774003881-09-reply_276238_276180-jpg.jpg"
+    ],
+    "telegram_article": "A5421"
   },
   {
     "id": "crm-1361iw0",
