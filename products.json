@@ -23273,7 +23273,14 @@
       "45",
       "46"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "Вʼєтнам",
+      "Матеріал верху": "натуральна замша",
+      "Колір": "хакі",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-46",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "44",
@@ -23296,10 +23303,19 @@
     ],
     "price": 1800,
     "stock": 14,
-    "description": "Матеріал : натуральна замшаВиробник : Вʼєтнам",
+    "description": "👕Чоловічі кросівки Reebok Classic M Army Green\n\n\n🔘Артикул А1531\n▪️Виробництво : Вʼєтнам \n▪️Матеріал верху : натуральна замша \n▪️Колір : хакі \n▪️Підошва : піна , гумовий протектор \n▪️Розміри : 41-46\n▪️Сезон : весна / літо / осінь  \n📦Коробка Reebok , фірмовий папір\n🔸Розмірна сітка :\n▫️41 = 26 см ;\n▫️42 = 26.5 см ;\n▫️43 = 27.5 см ;\n▫️44 = 28 см ;\n▫️45 = 28.5 см ;\n▫️46 = 29.5 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/ebaeeea6-1147-4ad0-a07a-859f29d19db9.jpg"
-    ]
+      "images/telegram/crm-st8rcg/1794776527480-01-reply_287073_287030-jpg.jpg",
+      "images/telegram/crm-st8rcg/1794776535678-02-reply_287073_287031-jpg.jpg",
+      "images/telegram/crm-st8rcg/1794776542747-03-reply_287073_287032-jpg.jpg",
+      "images/telegram/crm-st8rcg/1794776550541-04-reply_287073_287033-jpg.jpg",
+      "images/telegram/crm-st8rcg/1794776556323-05-reply_287073_287034-jpg.jpg",
+      "images/telegram/crm-st8rcg/1794776562289-06-reply_287073_287035-jpg.jpg",
+      "images/telegram/crm-st8rcg/1794776567829-07-reply_287073_287036-jpg.jpg",
+      "images/telegram/crm-st8rcg/1794776574012-08-reply_287073_287037-jpg.jpg",
+      "images/telegram/crm-st8rcg/1794776581503-09-reply_287073_287038-jpg.jpg"
+    ],
+    "telegram_article": "A1531"
   },
   {
     "id": "crm-u5n6c3",
