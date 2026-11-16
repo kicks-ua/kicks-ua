@@ -24054,7 +24054,14 @@
       "44",
       "45"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "текстиль",
+      "Колір": "оливковий",
+      "Підошва": "піна , гумовий протектор , технологія Vibram",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -24089,10 +24096,19 @@
     ],
     "price": 2300,
     "stock": 16,
-    "description": "Матеріал : сіткаВиробник : В'єтнам",
+    "description": "👕  Чоловічі кросівки Columbia Trail Vibram Olive Black \n\n\n🔘Артикул A5745\n▪️Виробництво : В'єтнам\n▪️Матеріал верху : текстиль \n▪️Колір : оливковий\n▪️Підошва : піна , гумовий протектор , технологія Vibram    \n▪️Розміри:  41-45\n▪️Сезон :  весна / літо / осінь  \n📦Коробка Columbia , фірмовий папір \n🔢Розмірна сітка :\n▫️41 = 26,5 см ;\n▫️42 = 27 см ;\n▫️43 = 27,5 см ;\n▫️44 = 28 см ;\n▫️45 = 29 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/cb452634-2252-4196-a262-9093de867e49.jpg"
-    ]
+      "images/telegram/crm-s8wlfx/1794777509781-01-reply_303642_300620-jpg.jpg",
+      "images/telegram/crm-s8wlfx/1794777516000-02-reply_303642_300621-jpg.jpg",
+      "images/telegram/crm-s8wlfx/1794777522034-03-reply_303642_300622-jpg.jpg",
+      "images/telegram/crm-s8wlfx/1794777528007-04-reply_303642_300623-jpg.jpg",
+      "images/telegram/crm-s8wlfx/1794777535590-05-reply_303642_300624-jpg.jpg",
+      "images/telegram/crm-s8wlfx/1794777543141-06-reply_303642_300625-jpg.jpg",
+      "images/telegram/crm-s8wlfx/1794777550860-07-reply_303642_300626-jpg.jpg",
+      "images/telegram/crm-s8wlfx/1794777557212-08-reply_303642_300627-jpg.jpg",
+      "images/telegram/crm-s8wlfx/1794777563278-09-reply_303642_300628-jpg.jpg"
+    ],
+    "telegram_article": "A5745"
   },
   {
     "id": "crm-qazdl4",
