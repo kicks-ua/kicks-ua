@@ -23138,7 +23138,14 @@
       "44",
       "45"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "натуральна шкіра",
+      "Колір": "сірий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-46",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -23167,10 +23174,19 @@
     ],
     "price": 2000,
     "stock": 10,
-    "description": "Матеріал : натуральна шкіраВиробник : В'єтнам",
+    "description": "👕 Чоловічі кросівки Reebok Classic Leather Grey Brown\n\n\n🔘Артикул A4895\n▪️Виробництво : В'єтнам\n▪️Матеріал верху : натуральна шкіра     \n▪️Колір : сірий  \n▪️Підошва : піна , гумовий протектор\n▪️Розміри:  41-46\n▪️Сезон :  весна / літо / осінь     \n📦Коробка Reebok , фірмовий папір\n🔢Розмірна сітка :\n▫️41 = 26 см ;\n▫️42 = 27 см ;\n▫️43 = 27,5см ;\n▫️44 = 28 см ;\n▫️45 = 29 см ;\n▫️46 = 29,5 . \n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/f237b57d-70f3-4490-8795-4d02b4c71438.jpg"
-    ]
+      "images/telegram/crm-1wnpfhw/1794776371151-01-reply_288276_288212-jpg.jpg",
+      "images/telegram/crm-1wnpfhw/1794776377651-02-reply_288276_288213-jpg.jpg",
+      "images/telegram/crm-1wnpfhw/1794776383933-03-reply_288276_288214-jpg.jpg",
+      "images/telegram/crm-1wnpfhw/1794776389261-04-reply_288276_288215-jpg.jpg",
+      "images/telegram/crm-1wnpfhw/1794776394339-05-reply_288276_288216-jpg.jpg",
+      "images/telegram/crm-1wnpfhw/1794776400245-06-reply_288276_288217-jpg.jpg",
+      "images/telegram/crm-1wnpfhw/1794776406240-07-reply_288276_288218-jpg.jpg",
+      "images/telegram/crm-1wnpfhw/1794776411646-08-reply_288276_288219-jpg.jpg",
+      "images/telegram/crm-1wnpfhw/1794776416963-09-reply_288276_288220-jpg.jpg"
+    ],
+    "telegram_article": "A4895"
   },
   {
     "id": "crm-sz73sw",
