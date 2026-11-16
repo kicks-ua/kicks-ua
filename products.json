@@ -18288,7 +18288,14 @@
       "44",
       "45"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "сітка , текстиль",
+      "Колір": "білий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-46",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -18323,10 +18330,19 @@
     ],
     "price": 2100,
     "stock": 10,
-    "description": "Матеріал : сітка , текстильВиробник : В'єтнам",
+    "description": "📊 Чоловічі кросівки Adidas Duramo Speed White Green \n\n\n🔘Артикул A5381\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : сітка , текстиль \n▪️Колір : білий\n▪️Підошва : піна , гумовий протектор \n▪️Розміри:  41-46\n▪️Сезон :  весна / літо / осінь   \n📦Коробка Adidas , фірмовий папір \n🔢Розмірна сітка :\n▫️41 = 26,5 см ; \n▫️42 = 27 см ;\n▫️43 = 28 см ;\n▫️44 = 28,5 см ;\n▫️45 = 29,5 см ;\n▫️46 = 30,5 см . \n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/787ca415-5f0d-4dd7-a3a2-4e02861fb73c.jpg"
-    ]
+      "images/telegram/crm-uwrelc/1794771669371-01-reply_274950_274884-jpg.jpg",
+      "images/telegram/crm-uwrelc/1794771674259-02-reply_274950_274885-jpg.jpg",
+      "images/telegram/crm-uwrelc/1794771679598-03-reply_274950_274886-jpg.jpg",
+      "images/telegram/crm-uwrelc/1794771684716-04-reply_274950_274887-jpg.jpg",
+      "images/telegram/crm-uwrelc/1794771689607-05-reply_274950_274888-jpg.jpg",
+      "images/telegram/crm-uwrelc/1794771694701-06-reply_274950_274889-jpg.jpg",
+      "images/telegram/crm-uwrelc/1794771700029-07-reply_274950_274890-jpg.jpg",
+      "images/telegram/crm-uwrelc/1794771705323-08-reply_274950_274891-jpg.jpg",
+      "images/telegram/crm-uwrelc/1794771710630-09-reply_274950_274892-jpg.jpg"
+    ],
+    "telegram_article": "A5381"
   },
   {
     "id": "crm-9ojqcu",
