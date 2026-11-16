@@ -23456,7 +23456,14 @@
       "44",
       "45"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "Вʼєтнам",
+      "Матеріал верху": "шкіра , сітка",
+      "Колір": "білий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "42",
@@ -23479,10 +23486,19 @@
     ],
     "price": 1800,
     "stock": 8,
-    "description": "Матеріал : шкіра , сіткаВиробник : Вʼєтнам",
+    "description": "👕 Чоловічі кросівки Reebok Premier Trinity KFS White Grey\n\n\n🔘Артикул A3790\n▪️Виробництво : Вʼєтнам\n▪️Матеріал верху : шкіра , сітка  \n▪️Колір : білий                                                                            \n▪️Підошва : піна , гумовий протектор \n▪️Розміри : 41-45\n▪️Сезон : весна / літо / осінь\n📦Коробка Reebok , фірмовий папір\n🔸Розмірна сітка :\n▫️41 = 26 см ;\n▫️42 = 26.5 см ;\n▫️43 = 27.5 см ;\n▫️44 = 28 см ;\n▫️45 = 28.5 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/55feaad2-bee5-41d1-a2ac-adfa62fdd14f.jpg"
-    ]
+      "images/telegram/crm-4k9jxd/1794776773251-01-reply_287337_287309-jpg.jpg",
+      "images/telegram/crm-4k9jxd/1794776779624-02-reply_287337_287310-jpg.jpg",
+      "images/telegram/crm-4k9jxd/1794776787296-03-reply_287337_287311-jpg.jpg",
+      "images/telegram/crm-4k9jxd/1794776794459-04-reply_287337_287312-jpg.jpg",
+      "images/telegram/crm-4k9jxd/1794776801161-05-reply_287337_287313-jpg.jpg",
+      "images/telegram/crm-4k9jxd/1794776807508-06-reply_287337_287314-jpg.jpg",
+      "images/telegram/crm-4k9jxd/1794776812930-07-reply_287337_287315-jpg.jpg",
+      "images/telegram/crm-4k9jxd/1794776818484-08-reply_287337_287316-jpg.jpg",
+      "images/telegram/crm-4k9jxd/1794776823679-09-reply_287337_287317-jpg.jpg"
+    ],
+    "telegram_article": "A3790"
   },
   {
     "id": "crm-tnpjj0",
