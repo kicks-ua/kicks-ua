@@ -23516,7 +23516,14 @@
       "42",
       "44"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "Вʼєтнам",
+      "Матеріал верху": "текстиль , нейлон",
+      "Колір": "сірий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "42",
@@ -23533,10 +23540,19 @@
     ],
     "price": 1700,
     "stock": 8,
-    "description": "Матеріал : текстиль , нейлонВиробник : Вʼєтнам",
+    "description": "👕 Чоловічі кросівки Reebok Zig Kinetica || Grey Black \n\n\n🔘Артикул A1534\n▪️Виробництво : Вʼєтнам \n▪️Матеріал верху : текстиль , нейлон\n▪️Колір : сірий                        \n▪️Підошва : піна , гумовий протектор \n▪️Розміри : 41-45\n▪️Сезон : весна / літо / осінь \n📦Коробка Reebok, фірмовий папір\n🔸Розмірна сітка :\n▫️41 = 26 см ;\n▫️42 = 26.5см ;\n▫️43 = 27.5см ;\n▫️44 = 28см .\n▫️45 = 29см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/e03d4d50-bb32-4f16-8ec4-44f62a803480.jpg"
-    ]
+      "images/telegram/crm-tnpjj0/1794776852939-01-reply_287277_287243-jpg.jpg",
+      "images/telegram/crm-tnpjj0/1794776859455-02-reply_287277_287244-jpg.jpg",
+      "images/telegram/crm-tnpjj0/1794776865525-03-reply_287277_287245-jpg.jpg",
+      "images/telegram/crm-tnpjj0/1794776871971-04-reply_287277_287246-jpg.jpg",
+      "images/telegram/crm-tnpjj0/1794776877514-05-reply_287277_287247-jpg.jpg",
+      "images/telegram/crm-tnpjj0/1794776883391-06-reply_287277_287248-jpg.jpg",
+      "images/telegram/crm-tnpjj0/1794776890791-07-reply_287277_287249-jpg.jpg",
+      "images/telegram/crm-tnpjj0/1794776896735-08-reply_287277_287250-jpg.jpg",
+      "images/telegram/crm-tnpjj0/1794776902260-09-reply_287277_287251-jpg.jpg"
+    ],
+    "telegram_article": "A1534"
   },
   {
     "id": "crm-1ufft4e",
