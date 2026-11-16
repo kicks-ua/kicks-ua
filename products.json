@@ -21781,7 +21781,14 @@
       "44",
       "45"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "сітка",
+      "Колір": "коричневий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-46",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -21810,10 +21817,19 @@
     ],
     "price": 2000,
     "stock": 13,
-    "description": "Матеріал : сіткаВиробник : В'єтнам",
+    "description": "📊 Чоловічі кросівки Adidas Marathon Brown Grey\n\n\n🔘Артикул A5263\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : сітка\n▪️Колір : коричневий\n▪️Підошва : піна , гумовий протектор\n▪️Розміри:  41-46\n▪️Сезон :  весна / літо / осінь  \n📦Коробка Adidas , фірмовий папір  \n🔢Розмірна сітка :\n▫️41 = 26 см ;\n▫️42 = 26,5 см ;\n▫️43 = 27,5 см ;\n▫️44 = 28 см ;\n▫️45 = 28,5 см ;\n▫️46 = 29,5 см . \n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/7e8a0a01-7682-4897-8ca8-732b6f2e3bf9.jpg"
-    ]
+      "images/telegram/crm-7rjzln/1794774989306-01-reply_274550_274484-jpg.jpg",
+      "images/telegram/crm-7rjzln/1794774994095-02-reply_274550_274485-jpg.jpg",
+      "images/telegram/crm-7rjzln/1794774999471-03-reply_274550_274486-jpg.jpg",
+      "images/telegram/crm-7rjzln/1794775004399-04-reply_274550_274487-jpg.jpg",
+      "images/telegram/crm-7rjzln/1794775009415-05-reply_274550_274488-jpg.jpg",
+      "images/telegram/crm-7rjzln/1794775014748-06-reply_274550_274489-jpg.jpg",
+      "images/telegram/crm-7rjzln/1794775020020-07-reply_274550_274490-jpg.jpg",
+      "images/telegram/crm-7rjzln/1794775025282-08-reply_274550_274491-jpg.jpg",
+      "images/telegram/crm-7rjzln/1794775030551-09-reply_274550_274492-jpg.jpg"
+    ],
+    "telegram_article": "A5263"
   },
   {
     "id": "crm-14z0wef",
