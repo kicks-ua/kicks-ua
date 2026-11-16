@@ -20085,7 +20085,14 @@
       "44",
       "45"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "нубук , натуральна замша , водонепроникний  текстиль Cordura",
+      "Колір": "сірий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -20120,10 +20127,19 @@
     ],
     "price": 1600,
     "stock": 25,
-    "description": "Матеріал : нубук , натуральна замша , водонепроникний  текстиль CorduraВиробник : В'єтнам",
+    "description": "📊 Чоловічі кросівки Adidas Streetball 2.0 Black Grey Orange \n\n\n🔘Артикул A5974\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : нубук , натуральна замша , водонепроникний  текстиль Cordura \n▪️Колір : сірий\n▪️Підошва : піна , гумовий протектор \n▪️Розміри:  41-45\n▪️Сезон :  весна / літо / осінь  \n📦Коробка Adidas , фірмовий папір \n🔢Розмірна сітка :\n▫️41 = 26,5 см ;\n▫️42 = 27,5 см ;\n▫️43 = 28 см ;\n▫️44 = 28,5 см ;\n▫️45 = 29 см ; \n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/1aeed02c-e987-4340-b4bc-795d414cc269.jpg"
-    ]
+      "images/telegram/crm-gw1uge/1794773326204-01-reply_316898_316026-jpg.jpg",
+      "images/telegram/crm-gw1uge/1794773331612-02-reply_316898_316027-jpg.jpg",
+      "images/telegram/crm-gw1uge/1794773337282-03-reply_316898_316028-jpg.jpg",
+      "images/telegram/crm-gw1uge/1794773342814-04-reply_316898_316029-jpg.jpg",
+      "images/telegram/crm-gw1uge/1794773348484-05-reply_316898_316030-jpg.jpg",
+      "images/telegram/crm-gw1uge/1794773354204-06-reply_316898_316031-jpg.jpg",
+      "images/telegram/crm-gw1uge/1794773359868-07-reply_316898_316032-jpg.jpg",
+      "images/telegram/crm-gw1uge/1794773365660-08-reply_316898_316033-jpg.jpg",
+      "images/telegram/crm-gw1uge/1794773370973-09-reply_316898_316034-jpg.jpg"
+    ],
+    "telegram_article": "A5974"
   },
   {
     "id": "crm-jhv8hi",
