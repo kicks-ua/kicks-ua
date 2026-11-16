@@ -20831,7 +20831,13 @@
       "45",
       "46"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "Вʼєтнам",
+      "Колір": "чорний",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-46",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "43",
@@ -20860,10 +20866,19 @@
     ],
     "price": 2100,
     "stock": 6,
-    "description": "Матеріал : сіткаВиробник : Вʼєтнам",
+    "description": "📊 Чоловічі кросівки Adidas Climacool Lightstrike Pro All Black  \n\n\n🔘Артикул A5475\n▪️Виробництво : Вʼєтнам\n▪️Матеріал верху : \nсітка \n▪️Колір : чорний \n▪️Підошва : піна , гумовий протектор\n▪️Розміри : 41-46\n▪️Сезон : весна / літо / осінь \n📦Коробка Adidas  , фірмовий папір\n🔸Розмірна сітка :\n▫️41 = 26 см ;\n▫️42 = 26,5 см ;\n▫️43 = 27 см ;\n▫️44 = 28 см ;\n▫️45 = 28,5 см ;\n▫️46 = 29 см . \n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/81757105-faca-42d6-88ae-8fa43adffad5.jpg"
-    ]
+      "images/telegram/crm-1361iw0/1794774032295-01-reply_277044_276980-jpg.jpg",
+      "images/telegram/crm-1361iw0/1794774037570-02-reply_277044_276981-jpg.jpg",
+      "images/telegram/crm-1361iw0/1794774042648-03-reply_277044_276982-jpg.jpg",
+      "images/telegram/crm-1361iw0/1794774047422-04-reply_277044_276983-jpg.jpg",
+      "images/telegram/crm-1361iw0/1794774052766-05-reply_277044_276984-jpg.jpg",
+      "images/telegram/crm-1361iw0/1794774058557-06-reply_277044_276985-jpg.jpg",
+      "images/telegram/crm-1361iw0/1794774064059-07-reply_277044_276986-jpg.jpg",
+      "images/telegram/crm-1361iw0/1794774070050-08-reply_277044_276987-jpg.jpg",
+      "images/telegram/crm-1361iw0/1794774075316-09-reply_277044_276988-jpg.jpg"
+    ],
+    "telegram_article": "A5475"
   },
   {
     "id": "crm-14tz51u",
