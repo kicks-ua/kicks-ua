@@ -18438,7 +18438,14 @@
       "44",
       "45"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "Вʼєтнам",
+      "Матеріал верху": "текстиль",
+      "Колір": "чорний",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -18473,10 +18480,19 @@
     ],
     "price": 1800,
     "stock": 10,
-    "description": "Матеріал : текстильВиробник : Вʼєтнам",
+    "description": "📊 Чоловічі кросівки Adidas Profoam Lite All Black\n\n\n🔘Артикул A3966\n▪️Виробництво : Вʼєтнам \n▪️Матеріал верху : текстиль \n▪️Колір : чорний \n▪️Підошва : піна , гумовий протектор\n▪️Розміри : 41-45\n▪️Сезон : весна / літо / осінь \n📦Коробка Adidas , фірмовий папір\n🔸Розмірна сітка :\n▪️41 = 26 см ;\n▪️42 = 26,5 см ;\n▪️43 = 27,5 см ;\n▪️44 = 28 см ;\n▪️45 = 28,5 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/48af1680-b3fc-4f87-a9da-f751cfdb6f05.jpg"
-    ]
+      "images/telegram/crm-zdlngo/1794771809491-01-reply_269995_269967-jpg.jpg",
+      "images/telegram/crm-zdlngo/1794771814491-02-reply_269995_269968-jpg.jpg",
+      "images/telegram/crm-zdlngo/1794771819346-03-reply_269995_269969-jpg.jpg",
+      "images/telegram/crm-zdlngo/1794771824705-04-reply_269995_269970-jpg.jpg",
+      "images/telegram/crm-zdlngo/1794771829690-05-reply_269995_269971-jpg.jpg",
+      "images/telegram/crm-zdlngo/1794771834521-06-reply_269995_269972-jpg.jpg",
+      "images/telegram/crm-zdlngo/1794771839474-07-reply_269995_269973-jpg.jpg",
+      "images/telegram/crm-zdlngo/1794771844983-08-reply_269995_269974-jpg.jpg",
+      "images/telegram/crm-zdlngo/1794771850111-09-reply_269995_269975-jpg.jpg"
+    ],
+    "telegram_article": "A3966"
   },
   {
     "id": "crm-1nb2uq9",
