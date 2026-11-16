@@ -24707,7 +24707,14 @@
       "43",
       "44"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "шкіра , текстиль , сітка",
+      "Колір": "чорний",
+      "Підошва": "піна , гумовий протектор , Vibram",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -24736,10 +24743,19 @@
     ],
     "price": 2000,
     "stock": 29,
-    "description": "Матеріал : шкіра , текстиль , сіткаВиробник : В'єтнам",
+    "description": "👕 Чоловічі кросівки Merrell Moab Speed 2 All Black \n\n\n🔘Артикул A3975\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : шкіра , текстиль , сітка\n▪️Колір : чорний \n▪️Підошва : піна , гумовий протектор , Vibram\n▪️Розміри:  41-45\n▪️Сезон :  весна / літо / осінь \n📦Коробка Merrell , пергамент \n🔢Розмірна сітка :\n▫️41 = 26 см ;\n▫️42 = 26,5 см ;\n▫️43 = 27,5 см ;\n▫️44 = 28 см ;\n▫️45 = 29 см . \n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/0bc24d1b-990a-41ab-b9f8-fe94ab0198de.jpg"
-    ]
+      "images/telegram/crm-1nxeq6d/1794778202284-01-reply_291930_290295-jpg.jpg",
+      "images/telegram/crm-1nxeq6d/1794778212199-02-reply_291930_290296-jpg.jpg",
+      "images/telegram/crm-1nxeq6d/1794778218090-03-reply_291930_290297-jpg.jpg",
+      "images/telegram/crm-1nxeq6d/1794778223996-04-reply_291930_290298-jpg.jpg",
+      "images/telegram/crm-1nxeq6d/1794778230559-05-reply_291930_290299-jpg.jpg",
+      "images/telegram/crm-1nxeq6d/1794778238706-06-reply_291930_290300-jpg.jpg",
+      "images/telegram/crm-1nxeq6d/1794778245832-07-reply_291930_290301-jpg.jpg",
+      "images/telegram/crm-1nxeq6d/1794778253090-08-reply_291930_290302-jpg.jpg",
+      "images/telegram/crm-1nxeq6d/1794778259168-09-reply_291930_290303-jpg.jpg"
+    ],
+    "telegram_article": "A3975"
   },
   {
     "id": "crm-15n7y46",
