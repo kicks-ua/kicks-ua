@@ -20460,7 +20460,14 @@
       "44",
       "45"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "шкіра , нубук , текстиль , Waterproof",
+      "Колір": "чорний",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -20495,10 +20502,19 @@
     ],
     "price": 2000,
     "stock": 14,
-    "description": "Матеріал : шкіра , нубук , текстиль , WaterproofВиробник : Вʼєтнам",
+    "description": "📊 Чоловічі кросівки\nAdidas Climaproof All Black\n\n\n🔘Артикул A5039\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : шкіра , нубук , текстиль , Waterproof  \n▪️Колір : чорний \n▪️Підошва : піна , гумовий протектор \n▪️Розміри:  41-45\n▪️Сезон :  весна / літо / осінь  \n📦Коробка Adidas , фірмовий папір\n🔢Розмірна сітка :\n▫️41 = 26 см ;\n▫️42 = 26,5 см ;\n▫️43 = 27 см ;\n▫️44 = 28 см ;\n▫️45 = 28,5 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/991a7c20-6a38-4036-bbf3-da708bba9f6f.jpg"
-    ]
+      "images/telegram/crm-ycesna/1794773684688-01-reply_196905_194869-jpg.jpg",
+      "images/telegram/crm-ycesna/1794773689704-02-reply_196905_194870-jpg.jpg",
+      "images/telegram/crm-ycesna/1794773695103-03-reply_196905_194871-jpg.jpg",
+      "images/telegram/crm-ycesna/1794773700235-04-reply_196905_194872-jpg.jpg",
+      "images/telegram/crm-ycesna/1794773705829-05-reply_196905_194873-jpg.jpg",
+      "images/telegram/crm-ycesna/1794773710735-06-reply_196905_194874-jpg.jpg",
+      "images/telegram/crm-ycesna/1794773716078-07-reply_196905_194875-jpg.jpg",
+      "images/telegram/crm-ycesna/1794773721485-08-reply_196905_194876-jpg.jpg",
+      "images/telegram/crm-ycesna/1794773726373-09-reply_196905_194877-jpg.jpg"
+    ],
+    "telegram_article": "A5039"
   },
   {
     "id": "crm-14p1apg",
