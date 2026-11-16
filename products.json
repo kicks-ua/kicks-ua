@@ -24429,7 +24429,14 @@
       "44",
       "45"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "текстиль , Waterproof , Gore-Tex",
+      "Колір": "оливковий",
+      "Підошва": "піна , гумовий протектор , технологія Vibram",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -24464,10 +24471,19 @@
     ],
     "price": 2300,
     "stock": 20,
-    "description": "Матеріал : текстиль , Waterproof , Gore-TexВиробник : В'єтнам",
+    "description": "👕 👟 Чоловічі кросівки \nColumbia Fuga EX 3 Olive Black Beige\n\n\n🔘Артикул A5742\n▪️Виробництво : В'єтнам\n▪️Матеріал верху : текстиль , Waterproof , Gore-Tex\n▪️Колір : оливковий \n▪️Підошва : піна , гумовий протектор , технологія Vibram    \n▪️Розміри:  41-45\n▪️Сезон :  весна / літо / осінь\n📦Коробка Columbia , фірмовий папір \n🔢Розмірна сітка :\n▫️41 = 26,5 см ;\n▫️42 = 27 см ;\n▫️43 = 28 см ;\n▫️44 = 28,5 см ;\n▫️45 = 29,5  см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/64a039ec-5b39-4998-bf73-f3e8b92a762c.jpg"
-    ]
+      "images/telegram/crm-vmo704/1794777897685-01-reply_303555_300165-jpg.jpg",
+      "images/telegram/crm-vmo704/1794777903333-02-reply_303555_300166-jpg.jpg",
+      "images/telegram/crm-vmo704/1794777908224-03-reply_303555_300167-jpg.jpg",
+      "images/telegram/crm-vmo704/1794777913708-04-reply_303555_300168-jpg.jpg",
+      "images/telegram/crm-vmo704/1794777918647-05-reply_303555_300169-jpg.jpg",
+      "images/telegram/crm-vmo704/1794777924241-06-reply_303555_300170-jpg.jpg",
+      "images/telegram/crm-vmo704/1794777930081-07-reply_303555_300171-jpg.jpg",
+      "images/telegram/crm-vmo704/1794777936159-08-reply_303555_300172-jpg.jpg",
+      "images/telegram/crm-vmo704/1794777943490-09-reply_303555_300173-jpg.jpg"
+    ],
+    "telegram_article": "A5742"
   },
   {
     "id": "crm-uspdx7",
