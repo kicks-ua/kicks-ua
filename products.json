@@ -21033,7 +21033,14 @@
       "43",
       "44"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "шкіра , нубук , текстиль , Waterproof",
+      "Колір": "чорний",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -21062,10 +21069,19 @@
     ],
     "price": 2000,
     "stock": 16,
-    "description": "Матеріал : шкіра , нубук , текстиль , WaterproofВиробник : Вʼєтнам",
+    "description": "📊 Чоловічі кросівки\nAdidas Climaproof Black White\n\n\n🔘Артикул A5043\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : шкіра , нубук , текстиль , Waterproof  \n▪️Колір : чорний \n▪️Підошва : піна , гумовий протектор \n▪️Розміри:  41-45\n▪️Сезон :  весна / літо / осінь  \n📦Коробка Adidas , фірмовий папір\n🔢Розмірна сітка :\n▫️41 = 26 см ;\n▫️42 = 26,5 см ;\n▫️43 = 27 см ;\n▫️44 = 28 см ;\n▫️45 = 28,5 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/ef6c93d9-beaa-4114-b57b-b0fd2d3bd572.jpg"
-    ]
+      "images/telegram/crm-x3x5f9/1794774242859-01-reply_272734_272659-jpg.jpg",
+      "images/telegram/crm-x3x5f9/1794774248075-02-reply_272734_272660-jpg.jpg",
+      "images/telegram/crm-x3x5f9/1794774253443-03-reply_272734_272661-jpg.jpg",
+      "images/telegram/crm-x3x5f9/1794774258967-04-reply_272734_272662-jpg.jpg",
+      "images/telegram/crm-x3x5f9/1794774264301-05-reply_272734_272663-jpg.jpg",
+      "images/telegram/crm-x3x5f9/1794774269680-06-reply_272734_272664-jpg.jpg",
+      "images/telegram/crm-x3x5f9/1794774275220-07-reply_272734_272665-jpg.jpg",
+      "images/telegram/crm-x3x5f9/1794774280462-08-reply_272734_272666-jpg.jpg",
+      "images/telegram/crm-x3x5f9/1794774285801-09-reply_272734_272667-jpg.jpg"
+    ],
+    "telegram_article": "A5043"
   },
   {
     "id": "crm-9yg6ju",
