@@ -20690,7 +20690,14 @@
       "44",
       "45"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "Вʼєтнам",
+      "Матеріал верху": "нубук , текстиль , Waterproof",
+      "Колір": "чорний",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо /осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -20725,10 +20732,19 @@
     ],
     "price": 2000,
     "stock": 15,
-    "description": "Матеріал : нубук  , текстиль , WaterproofВиробник : Вʼєтнам",
+    "description": "📊 Чоловічі кросівки Adidas Climaproof Black Orange\n\n\n🔘Артикул A4184\n▪️Виробництво : Вʼєтнам \n▪️Матеріал верху : нубук , текстиль , Waterproof \n▪️Колір : чорний                                                                                                                    \n▪️Підошва : піна , гумовий протектор  \n▪️Розміри : 41-45\n▪️Сезон : весна / літо /осінь \n📦Коробка Adidas , фірмовий папір\n🔸Розмірна сітка :\n▫️41=26 см;\n▫️42=26,5 см;\n▫️43=27 см;\n▫️44=28 см;\n▫️45=28,5 см.\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/639b7edf-9f37-45c1-9c91-7102a42ef9ee.jpeg"
-    ]
+      "images/telegram/crm-10uede0/1794773891425-01-reply_272521_272475-jpg.jpg",
+      "images/telegram/crm-10uede0/1794773896677-02-reply_272521_272476-jpg.jpg",
+      "images/telegram/crm-10uede0/1794773901724-03-reply_272521_272477-jpg.jpg",
+      "images/telegram/crm-10uede0/1794773906616-04-reply_272521_272478-jpg.jpg",
+      "images/telegram/crm-10uede0/1794773911980-05-reply_272521_272479-jpg.jpg",
+      "images/telegram/crm-10uede0/1794773917340-06-reply_272521_272480-jpg.jpg",
+      "images/telegram/crm-10uede0/1794773923129-07-reply_272521_272481-jpg.jpg",
+      "images/telegram/crm-10uede0/1794773928489-08-reply_272521_272482-jpg.jpg",
+      "images/telegram/crm-10uede0/1794773933864-09-reply_272521_272483-jpg.jpg"
+    ],
+    "telegram_article": "A4184"
   },
   {
     "id": "crm-18i2oaf",
