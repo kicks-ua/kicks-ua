@@ -25475,7 +25475,14 @@
       "42",
       "44"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "Вʼєтнам",
+      "Матеріал верху": "нейлон ,",
+      "Колір": "коричневий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -25498,10 +25505,19 @@
     ],
     "price": 1800,
     "stock": 7,
-    "description": "Матеріал : нейлон , водонепроникний  текстильВиробник : Вʼєтнам",
+    "description": "👕 Чоловічі кросівки Salomon XT-SLATE Brown\n\n🔝Топ якість ААА+\n\n🔘Артикул A3286\n▪️Виробництво : Вʼєтнам\n▪️Матеріал верху : нейлон ,\n▪️Колір : коричневий\n▪️Підошва : піна , гумовий протектор \n▪️Розміри : 41-45\n▪️Сезон : весна / літо / осінь  \n📦Коробка Salomon , фірмовий папір\n🔸Розмірна сітка :\n▫️41 = 26 см ;\n▫️42 = 26.5 см ;\n▫️43 = 27.5 см ;\n▫️44 = 28 см ;\n▫️45 = 29 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/ce4ef4eb-2f27-4f0f-96ec-19cd4f534385.jpeg"
-    ]
+      "images/telegram/crm-1ocqmr2/1794983022294-01-reply_288668_288640-jpg.jpg",
+      "images/telegram/crm-1ocqmr2/1794983027154-02-reply_288668_288641-jpg.jpg",
+      "images/telegram/crm-1ocqmr2/1794983032145-03-reply_288668_288642-jpg.jpg",
+      "images/telegram/crm-1ocqmr2/1794983036969-04-reply_288668_288643-jpg.jpg",
+      "images/telegram/crm-1ocqmr2/1794983041740-05-reply_288668_288644-jpg.jpg",
+      "images/telegram/crm-1ocqmr2/1794983046750-06-reply_288668_288645-jpg.jpg",
+      "images/telegram/crm-1ocqmr2/1794983051861-07-reply_288668_288646-jpg.jpg",
+      "images/telegram/crm-1ocqmr2/1794983056939-08-reply_288668_288647-jpg.jpg",
+      "images/telegram/crm-1ocqmr2/1794983061937-09-reply_288668_288648-jpg.jpg"
+    ],
+    "telegram_article": "A3286"
   },
   {
     "id": "crm-12igby",
