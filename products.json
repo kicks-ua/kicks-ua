@@ -25658,7 +25658,14 @@
       "42",
       "43"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "Вʼєтнам",
+      "Матеріал верху": "сітка , текстиль , шнуровка QUICKFIT",
+      "Колір": "чорний",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -25681,10 +25688,19 @@
     ],
     "price": 1600,
     "stock": 11,
-    "description": "Матеріал : сітка ,  текстиль , шнуровка QUICKFITВиробник : Вʼєтнам",
+    "description": "👕 Чоловічі кросівки Salomon Techamphibian 5 Black Grey\n\n\n🔘Артикул A4033\n▪️Виробництво : Вʼєтнам\n▪️Матеріал верху : сітка , текстиль , шнуровка QUICKFIT\n▪️Колір : чорний                                                                             \n▪️Підошва : піна , гумовий протектор \n▪️Розміри : 41-45\n▪️Сезон : весна / літо / осінь \n📦Коробка Salomon , фірмовий папір\n🔸Розмірна сітка :\n▫️41 = 26 см ;\n▫️42 = 26.5 см ;\n▫️43 = 27.5 см ;\n▫️44 = 28 см ;\n▫️45 = 28.5 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/b1dea074-5266-429a-8e5a-22d1b0b22128.jpg"
-    ]
+      "images/telegram/crm-1yfow58/1794983215679-01-reply_288980_288916-jpg.jpg",
+      "images/telegram/crm-1yfow58/1794983220486-02-reply_288980_288917-jpg.jpg",
+      "images/telegram/crm-1yfow58/1794983225308-03-reply_288980_288918-jpg.jpg",
+      "images/telegram/crm-1yfow58/1794983229976-04-reply_288980_288919-jpg.jpg",
+      "images/telegram/crm-1yfow58/1794983234873-05-reply_288980_288920-jpg.jpg",
+      "images/telegram/crm-1yfow58/1794983239980-06-reply_288980_288921-jpg.jpg",
+      "images/telegram/crm-1yfow58/1794983244826-07-reply_288980_288922-jpg.jpg",
+      "images/telegram/crm-1yfow58/1794983249701-08-reply_288980_288923-jpg.jpg",
+      "images/telegram/crm-1yfow58/1794983254695-09-reply_288980_288924-jpg.jpg"
+    ],
+    "telegram_article": "A4033"
   },
   {
     "id": "crm-aiijfr",
