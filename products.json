@@ -25775,7 +25775,14 @@
       "44",
       "45"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "шкіра , сітка",
+      "Колір": "чорний",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -25810,10 +25817,19 @@
     ],
     "price": 2300,
     "stock": 17,
-    "description": "Матеріал : шкіра , сіткаВиробник : В'єтнам",
+    "description": "👕 Чоловічі кросівки Lacoste L003 Neo Shot Black White\n\n\n🔘Артикул A5186\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : шкіра , сітка \n▪️Колір : чорний\n▪️Підошва : піна , гумовий протектор\n▪️Розміри:  41-45\n▪️Сезон :  весна / літо / осінь  \n📦Коробка Lacoste , пергамент \n🔢Розмірна сітка :\n▫️41 = 26 см ;\n▫️42 = 26,5 см ;\n▫️43 = 27 см ;\n▫️44 = 27,5 см ;\n▫️45 = 28 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/0661e4b2-e69f-4ccb-a421-80c7f3b29dd1.jpg"
-    ]
+      "images/telegram/crm-1pn0m8x/1794983344218-01-reply_289663_289597-jpg.jpg",
+      "images/telegram/crm-1pn0m8x/1794983348907-02-reply_289663_289598-jpg.jpg",
+      "images/telegram/crm-1pn0m8x/1794983353725-03-reply_289663_289599-jpg.jpg",
+      "images/telegram/crm-1pn0m8x/1794983359691-04-reply_289663_289600-jpg.jpg",
+      "images/telegram/crm-1pn0m8x/1794983364525-05-reply_289663_289601-jpg.jpg",
+      "images/telegram/crm-1pn0m8x/1794983369552-06-reply_289663_289602-jpg.jpg",
+      "images/telegram/crm-1pn0m8x/1794983374895-07-reply_289663_289603-jpg.jpg",
+      "images/telegram/crm-1pn0m8x/1794983379791-08-reply_289663_289604-jpg.jpg",
+      "images/telegram/crm-1pn0m8x/1794983384791-09-reply_289663_289605-jpg.jpg"
+    ],
+    "telegram_article": "A5186"
   },
   {
     "id": "crm-slnm18",
