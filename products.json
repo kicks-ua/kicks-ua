@@ -25718,7 +25718,14 @@
       "42",
       "44"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "Вʼєтнам",
+      "Матеріал верху": "сітка , текстиль , шнуровка QUICKFIT",
+      "Колір": "чорний",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "42",
@@ -25735,10 +25742,19 @@
     ],
     "price": 1600,
     "stock": 8,
-    "description": "Матеріал : сітка , текстиль , шнуровка QUICKFITВиробник : Вʼєтнам",
+    "description": "👕 Чоловічі кросівки Salomon Techamphibian 5 Black Grey Orange\n\n\n🔘Артикул A5541\n▪️Виробництво : Вʼєтнам\n▪️Матеріал верху : сітка , текстиль , шнуровка QUICKFIT\n▪️Колір : чорний                                                                             \n▪️Підошва : піна , гумовий протектор \n▪️Розміри : 41-45\n▪️Сезон : весна / літо / осінь \n📦Коробка Salomon , фірмовий папір\n🔸Розмірна сітка :\n▫️41 = 26 см ;\n▫️42 = 26.5 см ;\n▫️43 = 27.5 см ;\n▫️44 = 28 см ;\n▫️45 = 28.5 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/323c4970-418f-4bde-bad6-20c91f871689.jpg"
-    ]
+      "images/telegram/crm-aiijfr/1794983279387-01-reply_289046_288982-jpg.jpg",
+      "images/telegram/crm-aiijfr/1794983284264-02-reply_289046_288983-jpg.jpg",
+      "images/telegram/crm-aiijfr/1794983289015-03-reply_289046_288984-jpg.jpg",
+      "images/telegram/crm-aiijfr/1794983293746-04-reply_289046_288985-jpg.jpg",
+      "images/telegram/crm-aiijfr/1794983298684-05-reply_289046_288986-jpg.jpg",
+      "images/telegram/crm-aiijfr/1794983303490-06-reply_289046_288987-jpg.jpg",
+      "images/telegram/crm-aiijfr/1794983308745-07-reply_289046_288988-jpg.jpg",
+      "images/telegram/crm-aiijfr/1794983313678-08-reply_289046_288989-jpg.jpg",
+      "images/telegram/crm-aiijfr/1794983318581-09-reply_289046_288990-jpg.jpg"
+    ],
+    "telegram_article": "A5541"
   },
   {
     "id": "crm-1pn0m8x",
