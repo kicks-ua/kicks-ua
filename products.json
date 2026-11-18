@@ -25279,7 +25279,14 @@
       "39",
       "40"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "текстиль",
+      "Колір": "срібний",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "37-41",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "37",
@@ -25308,10 +25315,19 @@
     ],
     "price": 1900,
     "stock": 9,
-    "description": "Матеріал : текстильВиробник : Вʼєтнам",
+    "description": "👕 Жіночі кросівки Salomon XT-4 Lab W Silver Green\n\n\n🔘Артикул B3773\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : текстиль\n▪️Колір : срібний\n▪️Підошва : піна , гумовий протектор\n▪️Розміри: 37-41\n▪️Сезон : весна / літо / осінь \n📦Коробка Salomon , пергамент\n🔢Розмірна сітка :\n▫️37 = 23 см;\n▫️38 = 23.5 см;\n▫️39 = 24.5 см;\n▫️40 = 25 см;\n▫️41 = 25.5 см.\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/4cbfe5c4-54a3-4569-8638-e9118a816c14.jpg"
-    ]
+      "images/telegram/crm-y3cyz4/1794982821414-01-reply_288818_288790-jpg.jpg",
+      "images/telegram/crm-y3cyz4/1794982826406-02-reply_288818_288791-jpg.jpg",
+      "images/telegram/crm-y3cyz4/1794982831156-03-reply_288818_288792-jpg.jpg",
+      "images/telegram/crm-y3cyz4/1794982836267-04-reply_288818_288793-jpg.jpg",
+      "images/telegram/crm-y3cyz4/1794982841418-05-reply_288818_288794-jpg.jpg",
+      "images/telegram/crm-y3cyz4/1794982846174-06-reply_288818_288795-jpg.jpg",
+      "images/telegram/crm-y3cyz4/1794982851495-07-reply_288818_288796-jpg.jpg",
+      "images/telegram/crm-y3cyz4/1794982856452-08-reply_288818_288797-jpg.jpg",
+      "images/telegram/crm-y3cyz4/1794982861165-09-reply_288818_288798-jpg.jpg"
+    ],
+    "telegram_article": "B3773"
   },
   {
     "id": "crm-6a8cml",
