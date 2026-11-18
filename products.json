@@ -25925,7 +25925,14 @@
       "44",
       "45"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "шкіра , натуральна замша",
+      "Колір": "синій",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо /осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -25960,10 +25967,19 @@
     ],
     "price": 2400,
     "stock": 6,
-    "description": "Матеріал : шкіра , натуральна замшаВиробник : В'єтнам",
+    "description": "👕 Чоловічі кросівки Lacoste Elite Active Royal Blue White\n\n\n🔘Артикул А5929\n▪️Виробництво : В'єтнам\n▪️Матеріал верху : шкіра , натуральна замша\n▪️Колір : синій \n▪️Підошва : піна , гумовий протектор \n▪️Розміри:  41-45\n▪️Сезон :  весна / літо /осінь    \n📦Коробка Lacoste , пергамент\n🔢Розмірна сітка :\n▫️41 = 26 см ;\n▫️42 = 26,5 см ;\n▫️43 = 27 см ;\n▫️44 = 28 см ;\n▫️45 = 28,5 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/f4bc9302-49ce-4cec-a5dd-0c36b358fc33.jpg"
-    ]
+      "images/telegram/crm-ek2gf1/1794983470100-01-reply_313669_313028-jpg.jpg",
+      "images/telegram/crm-ek2gf1/1794983475425-02-reply_313669_313029-jpg.jpg",
+      "images/telegram/crm-ek2gf1/1794983480337-03-reply_313669_313030-jpg.jpg",
+      "images/telegram/crm-ek2gf1/1794983485269-04-reply_313669_313031-jpg.jpg",
+      "images/telegram/crm-ek2gf1/1794983490069-05-reply_313669_313032-jpg.jpg",
+      "images/telegram/crm-ek2gf1/1794983494978-06-reply_313669_313033-jpg.jpg",
+      "images/telegram/crm-ek2gf1/1794983500040-07-reply_313669_313034-jpg.jpg",
+      "images/telegram/crm-ek2gf1/1794983505021-08-reply_313669_313035-jpg.jpg",
+      "images/telegram/crm-ek2gf1/1794983509809-09-reply_313669_313036-jpg.jpg"
+    ],
+    "telegram_article": "A5929"
   },
   {
     "id": "crm-1p31euz",
