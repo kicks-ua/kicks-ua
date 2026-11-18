@@ -25597,7 +25597,14 @@
       "42",
       "44"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "текстиль , нейлон",
+      "Колір": "сірий",
+      "Підошва": "піна InfiniFOAM , Contagrip",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -25620,10 +25627,19 @@
     ],
     "price": 1900,
     "stock": 7,
-    "description": "Матеріал : текстиль , нейлонВиробник : Вʼєтнам",
+    "description": "👕 Чоловічі кросівки Salomon XT Pu.Re Advanced Grey White  \n\n\n🔘Артикул A3715\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : текстиль , нейлон\n▪️Колір : сірий \n▪️Підошва : піна InfiniFOAM , Contagrip\n▪️Розміри:  41-45\n▪️Сезон :  весна / літо / осінь \n📦Коробка Salomon , фірмовий папір\n🔢Розмірна сітка :\n▫️41 = 26.5 см;\n▫️42 = 27.5 см;\n▫️43 = 28 см;\n▫️44 = 28.5 см;\n▫️45 = 29 см;\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/bc521cea-3c82-4c9a-a473-11ec07af4cf1.jpg"
-    ]
+      "images/telegram/crm-snjwtq/1794983151150-01-reply_288848_288820-jpg.jpg",
+      "images/telegram/crm-snjwtq/1794983155785-02-reply_288848_288821-jpg.jpg",
+      "images/telegram/crm-snjwtq/1794983160843-03-reply_288848_288822-jpg.jpg",
+      "images/telegram/crm-snjwtq/1794983166053-04-reply_288848_288823-jpg.jpg",
+      "images/telegram/crm-snjwtq/1794983170920-05-reply_288848_288824-jpg.jpg",
+      "images/telegram/crm-snjwtq/1794983176233-06-reply_288848_288825-jpg.jpg",
+      "images/telegram/crm-snjwtq/1794983181249-07-reply_288848_288826-jpg.jpg",
+      "images/telegram/crm-snjwtq/1794983186115-08-reply_288848_288827-jpg.jpg",
+      "images/telegram/crm-snjwtq/1794983190939-09-reply_288848_288828-jpg.jpg"
+    ],
+    "telegram_article": "A3715"
   },
   {
     "id": "crm-1yfow58",
