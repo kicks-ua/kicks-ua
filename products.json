@@ -26067,7 +26067,14 @@
       "39",
       "41"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "натуральна замша , нубук",
+      "Колір": "сірий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "36-41",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "36",
@@ -26096,10 +26103,19 @@
     ],
     "price": 2400,
     "stock": 5,
-    "description": "Матеріал : натуральна замша , нубукаВиробник : В'єтнам",
+    "description": "👕 Жіночі кросівки Lacoste Elite Active W Pale Grey Coral\n\n\n🔘Артикул B6025\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : натуральна замша , нубук \n▪️Колір : сірий \n▪️Підошва : піна , гумовий протектор \n▪️Розміри: 36-41\n▪️Сезон :  весна / літо / осінь  \n📦Коробка  Lacoste , пергамент \n🔢Розмірна сітка :\n▫️36 = 22,5 см ; \n▫️37 = 23 см ;\n▫️38 = 23,5 см ;\n▫️39 = 24,5 см ;\n▫️40 = 25 см ;\n▫️41 = 25,5 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/0fbf78a0-de59-4d6d-8e4e-36ec0537dfe3.jpg"
-    ]
+      "images/telegram/crm-zhxn18/1794983600082-01-reply_321208_319295-jpg.jpg",
+      "images/telegram/crm-zhxn18/1794983605035-02-reply_321208_319296-jpg.jpg",
+      "images/telegram/crm-zhxn18/1794983609839-03-reply_321208_319297-jpg.jpg",
+      "images/telegram/crm-zhxn18/1794983614781-04-reply_321208_319298-jpg.jpg",
+      "images/telegram/crm-zhxn18/1794983619421-05-reply_321208_319299-jpg.jpg",
+      "images/telegram/crm-zhxn18/1794983624208-06-reply_321208_319300-jpg.jpg",
+      "images/telegram/crm-zhxn18/1794983629197-07-reply_321208_319301-jpg.jpg",
+      "images/telegram/crm-zhxn18/1794983634048-08-reply_321208_319302-jpg.jpg",
+      "images/telegram/crm-zhxn18/1794983639029-09-reply_321208_319303-jpg.jpg"
+    ],
+    "telegram_article": "B6025"
   },
   {
     "id": "crm-101zzx5",
