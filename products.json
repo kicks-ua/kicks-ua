@@ -25414,7 +25414,14 @@
       "43",
       "45"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "текстиль , сітка",
+      "Колір": "сірий",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "42",
@@ -25437,10 +25444,19 @@
     ],
     "price": 2000,
     "stock": 6,
-    "description": "Матеріал : сітка , текстильВиробник : В'єтнам",
+    "description": "👕 Чоловічі кросівки Salomon Odyssey Elmt Advanced Light Grey Black\n\n\n🔘Артикул A5240\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : текстиль , сітка\n▪️Колір : сірий\n▪️Підошва : піна , гумовий протектор \n▪️Розміри:  41-45\n▪️Сезон :  весна / літо / осінь \n📦Коробка Salomon , пергамент\n🔢Розмірна сітка :\n▫️41 = 26 см ;\n▫️42 = 27 см ;\n▫️43 = 27.5 см ;\n▫️44 = 28 см ;\n▫️45 = 29 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/38d04c6c-268f-4e84-8b61-476d9f980e0c.jpg"
-    ]
+      "images/telegram/crm-1fu4u2h/1794982955289-01-reply_289399_289335-jpg.jpg",
+      "images/telegram/crm-1fu4u2h/1794982960191-02-reply_289399_289336-jpg.jpg",
+      "images/telegram/crm-1fu4u2h/1794982965054-03-reply_289399_289337-jpg.jpg",
+      "images/telegram/crm-1fu4u2h/1794982969991-04-reply_289399_289338-jpg.jpg",
+      "images/telegram/crm-1fu4u2h/1794982974991-05-reply_289399_289339-jpg.jpg",
+      "images/telegram/crm-1fu4u2h/1794982979986-06-reply_289399_289340-jpg.jpg",
+      "images/telegram/crm-1fu4u2h/1794982984970-07-reply_289399_289341-jpg.jpg",
+      "images/telegram/crm-1fu4u2h/1794982989970-08-reply_289399_289342-jpg.jpg",
+      "images/telegram/crm-1fu4u2h/1794982995111-09-reply_289399_289343-jpg.jpg"
+    ],
+    "telegram_article": "A5240"
   },
   {
     "id": "crm-1ocqmr2",
