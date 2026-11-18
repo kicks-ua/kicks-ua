@@ -26400,7 +26400,14 @@
       "43",
       "44"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "В'єтнам",
+      "Матеріал верху": "шкіра , натуральна замша",
+      "Колір": "чорний",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "41",
@@ -26429,10 +26436,19 @@
     ],
     "price": 2400,
     "stock": 12,
-    "description": "Матеріал : шкіра , натуральна замшаВиробник : В'єтнам",
+    "description": "👕 Чоловічі кросівки Lacoste Elite Active All Black\n\n\n🔘Артикул A5892\n▪️Виробництво : В'єтнам\n▪️Матеріал верху  : шкіра , натуральна замша \n▪️Колір : чорний\n▪️Підошва : піна , гумовий протектор\n▪️Розміри:  41-45\n▪️Сезон :  весна / літо / осінь  \n📦Коробка Lacoste , пергамент \n🔢Розмірна сітка :\n▫️41 = 25.5 см ;\n▫️42 = 26 см ;\n▫️43 = 27 см ;\n▫️44 = 27,5 см ;\n▫️45 = 28 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/59af8749-c6de-4782-955c-ba3685dc3ca3.jpg"
-    ]
+      "images/telegram/crm-1sob3pl/1794983923510-01-reply_310959_310895-jpg.jpg",
+      "images/telegram/crm-1sob3pl/1794983928610-02-reply_310959_310896-jpg.jpg",
+      "images/telegram/crm-1sob3pl/1794983933524-03-reply_310959_310897-jpg.jpg",
+      "images/telegram/crm-1sob3pl/1794983938609-04-reply_310959_310898-jpg.jpg",
+      "images/telegram/crm-1sob3pl/1794983943515-05-reply_310959_310899-jpg.jpg",
+      "images/telegram/crm-1sob3pl/1794983948375-06-reply_310959_310900-jpg.jpg",
+      "images/telegram/crm-1sob3pl/1794983953781-07-reply_310959_310901-jpg.jpg",
+      "images/telegram/crm-1sob3pl/1794983959121-08-reply_310959_310902-jpg.jpg",
+      "images/telegram/crm-1sob3pl/1794983964165-09-reply_310959_310903-jpg.jpg"
+    ],
+    "telegram_article": "A5892"
   },
   {
     "id": "crm-1ot1t60",
