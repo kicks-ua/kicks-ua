@@ -25536,7 +25536,14 @@
       "43",
       "44"
     ],
-    "specs": {},
+    "specs": {
+      "Виробництво": "Вʼєтнам",
+      "Матеріал верху": "сітка , текстиль , шнуровка QUICKFIT",
+      "Колір": "чорний",
+      "Підошва": "піна , гумовий протектор",
+      "Розміри": "41-45",
+      "Сезон": "весна / літо / осінь"
+    },
     "variants": [
       {
         "size": "42",
@@ -25559,10 +25566,19 @@
     ],
     "price": 1600,
     "stock": 6,
-    "description": "Матеріал : сітка , текстиль , шнуровка QUICKFITВиробник : Вʼєтнам",
+    "description": "👕 Чоловічі кросівки Salomon Techamphibian 5 Black White \n\n\n🔘Артикул A4031\n▪️Виробництво : Вʼєтнам\n▪️Матеріал верху : сітка , текстиль , шнуровка QUICKFIT\n▪️Колір : чорний                                                                             \n▪️Підошва : піна , гумовий протектор \n▪️Розміри : 41-45\n▪️Сезон : весна / літо / осінь \n📦Коробка Salomon , фірмовий папір\n🔸Розмірна сітка :\n▫️41 = 26 см ;\n▫️42 = 26.5 см ;\n▫️43 = 27.5 см ;\n▫️44 = 28 см ;\n▫️45 = 28.5 см .\n\n💸Оплата при отриманні (накладний платіж); \n🔸Доставка 1-2 дні (Нова Пошта);",
     "images": [
-      "https://easydrop.one/media/uploads/images/base/fdf7c12e-31fb-4e90-a472-bdabe1fbf9ad.jpg"
-    ]
+      "images/telegram/crm-12igby/1794983088084-01-reply_288914_288850-jpg.jpg",
+      "images/telegram/crm-12igby/1794983092904-02-reply_288914_288851-jpg.jpg",
+      "images/telegram/crm-12igby/1794983097599-03-reply_288914_288852-jpg.jpg",
+      "images/telegram/crm-12igby/1794983102395-04-reply_288914_288853-jpg.jpg",
+      "images/telegram/crm-12igby/1794983107179-05-reply_288914_288854-jpg.jpg",
+      "images/telegram/crm-12igby/1794983111809-06-reply_288914_288855-jpg.jpg",
+      "images/telegram/crm-12igby/1794983116856-07-reply_288914_288856-jpg.jpg",
+      "images/telegram/crm-12igby/1794983121720-08-reply_288914_288857-jpg.jpg",
+      "images/telegram/crm-12igby/1794983126579-09-reply_288914_288858-jpg.jpg"
+    ],
+    "telegram_article": "A4031"
   },
   {
     "id": "crm-snjwtq",
