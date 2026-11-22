@@ -229,7 +229,7 @@
   <div class="banner-dots" id="bannerDots"></div>
 </div>
 
-<section class="catalog-head">
+<section class="catalog-head kx-defer">
   <div class="hero-eyebrow">
     <span class="dot"></span>
     <span class="label" id="heroEyebrow">Оригінал · Nike · Adidas · New Balance</span>
@@ -283,7 +283,7 @@
 
 <div class="lace-divider"></div>
 
-<div class="trust-strip" id="trustStrip">
+<div class="trust-strip kx-defer" id="trustStrip">
   <div>Оплата при отриманні</div>
   <div>Доставка Новою поштою, Укрпоштою 1–3 дні</div>
   <div>Обмін розміру безкоштовно</div>
@@ -294,7 +294,7 @@
   <div class="loading-msg">Завантажуємо каталог...</div>
 </div>
 
-<section class="about" id="aboutSection">
+<section class="about kx-defer" id="aboutSection">
   <div class="section-head">
     <h2 id="aboutTitle">Чому беруть<br>саме у нас</h2>
   </div>
@@ -598,7 +598,10 @@
     }
   }
 
-  KicksSite.getContent().then(data => { siteData = data; applyHomepage(); renderShowcases(); }).catch(() => {});
+  KicksSite.getContent()
+    .then(data => { siteData = data; applyHomepage(); renderShowcases(); })
+    .catch(() => {})
+    .then(() => KicksSite.revealContent());
 
   function renderBrandTabs(products) {
     const brands = [...new Set(products.map(p => p.brand))].sort();

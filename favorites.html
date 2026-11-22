@@ -13,13 +13,15 @@
   body{background:var(--canvas);color:var(--asphalt);font-family:'Archivo',sans-serif;}
   a{color:inherit;}
   .label{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:0.12em;text-transform:uppercase;color:var(--sole);}
+
+  /* Шапка (наповнюється з site.js) */
   nav{
     display:flex;justify-content:space-between;align-items:center;padding:20px 6%;
     position:sticky;top:0;background:var(--canvas);z-index:50;border-bottom:2px solid var(--asphalt);
   }
   .logo{font-family:'Archivo Black',sans-serif;font-size:21px;text-decoration:none;color:var(--asphalt);}
   .logo span{color:var(--cone);}
-  .nav-links{display:flex;gap:16px;align-items:center;}
+  .nav-links{display:flex;gap:20px;align-items:center;}
   .nav-links a{font-family:'JetBrains Mono',monospace;font-size:13px;text-decoration:none;color:var(--asphalt);}
   .nav-cta{
     background:var(--cone);color:var(--chalk);padding:11px 20px;font-weight:700;
@@ -34,49 +36,118 @@
     width:18px;height:18px;font-size:10.5px;font-weight:700;
   }
 
-  .fav-page{padding:50px 6% 80px;}
+  /* Сторінка */
+  .fav-page{padding:50px 6% 90px;}
   .fav-page h1{
     font-family:'Archivo Black',sans-serif;font-size:clamp(30px,4.4vw,48px);
-    letter-spacing:-0.02em;margin-bottom:30px;line-height:1.02;
+    letter-spacing:-0.02em;margin-bottom:22px;line-height:1.02;
   }
+
+  .toolbar{
+    display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;
+    padding:14px 0 18px;
+  }
+  .select-all{display:inline-flex;align-items:center;gap:10px;cursor:pointer;font-family:'JetBrains Mono',monospace;font-size:13px;user-select:none;}
+  .toolbar .sel-info{font-family:'JetBrains Mono',monospace;font-size:12.5px;color:var(--sole);}
+
+  .btn-primary{
+    display:inline-flex;align-items:center;justify-content:center;gap:10px;
+    font-family:'JetBrains Mono',monospace;font-size:14.5px;font-weight:700;letter-spacing:0.03em;
+    background:var(--cone);color:var(--chalk);padding:16px 26px;text-decoration:none;
+    border:3px solid var(--asphalt);box-shadow:5px 5px 0 var(--asphalt);
+    transition:transform 0.15s, box-shadow 0.15s;cursor:pointer;
+  }
+  .btn-primary:hover{transform:translate(3px,3px);box-shadow:2px 2px 0 var(--asphalt);}
+  .btn-primary:disabled{opacity:0.45;cursor:not-allowed;transform:none;box-shadow:5px 5px 0 var(--asphalt);}
+  .btn-outline{
+    display:inline-block;font-family:'JetBrains Mono',monospace;font-size:13.5px;
+    background:transparent;color:var(--asphalt);padding:14px 24px;text-decoration:none;
+    border:2px solid var(--asphalt);text-align:center;
+  }
+  .btn-outline:hover{background:var(--asphalt);color:var(--chalk);}
+
+  /* Кастомна галочка */
+  input.kx-check{
+    -webkit-appearance:none;appearance:none;width:26px;height:26px;flex-shrink:0;
+    border:2.5px solid var(--asphalt);background:var(--chalk);cursor:pointer;position:relative;
+  }
+  input.kx-check:checked{background:var(--cone);}
+  input.kx-check:checked::after{
+    content:"";position:absolute;left:7px;top:2px;width:7px;height:13px;
+    border:solid var(--chalk);border-width:0 3px 3px 0;transform:rotate(45deg);
+  }
+  input.kx-check:disabled{opacity:0.35;cursor:not-allowed;}
+  input.kx-check:focus-visible{outline:2px solid var(--cone);outline-offset:2px;}
+
+  /* Сітка карток */
   .grid{
     display:grid;grid-template-columns:repeat(auto-fill, minmax(230px, 1fr));
     gap:2px;background:var(--stitch);
     border-top:2px solid var(--asphalt);border-bottom:2px solid var(--asphalt);
   }
   .card{
-    background:var(--chalk);padding:20px 18px 22px;text-decoration:none;color:var(--asphalt);
-    display:flex;flex-direction:column;transition:background 0.15s;position:relative;
+    background:var(--chalk);padding:20px 18px 22px;color:var(--asphalt);
+    display:flex;flex-direction:column;position:relative;transition:background 0.15s;
   }
-  .card:hover{background:#fff;}
+  .card.selected{background:#fff;box-shadow:inset 0 0 0 3px var(--cone);}
+  .card.soldout .thumb{opacity:0.5;}
+  .card .pick{
+    position:absolute;top:30px;left:28px;z-index:2;
+    background:var(--chalk);padding:4px;border:2px solid var(--asphalt);display:flex;
+  }
+  .card .pick input{margin:0;}
+  .card .remove{
+    position:absolute;top:30px;right:28px;z-index:2;width:30px;height:30px;border-radius:50%;
+    background:var(--asphalt);color:var(--chalk);border:none;cursor:pointer;font-size:15px;line-height:1;
+  }
+  .card .remove:hover{background:var(--cone);}
   .card .thumb{
-    width:100%;aspect-ratio:1/1;background:var(--canvas);
-    border:2px solid var(--asphalt);margin-bottom:14px;
-    display:flex;align-items:center;justify-content:center;overflow:hidden;padding:14px;
+    width:100%;aspect-ratio:1/1;background:var(--canvas);display:flex;align-items:center;justify-content:center;
+    border:2px solid var(--asphalt);margin-bottom:14px;overflow:hidden;padding:14px;text-decoration:none;
   }
+  .card .thumb img, .card .thumb svg{width:100%;height:100%;object-fit:contain;}
   .card .brand-tag{font-family:'JetBrains Mono',monospace;font-size:10.5px;color:var(--sole);letter-spacing:0.05em;text-transform:uppercase;margin-bottom:4px;}
   .card h3{font-size:15.5px;font-weight:700;margin-bottom:6px;}
-  .card .price{font-family:'JetBrains Mono',monospace;font-size:15.5px;color:var(--cone);margin-top:auto;padding-top:8px;font-weight:700;}
-  .remove-fav{
-    position:absolute;top:12px;right:12px;width:30px;height:30px;border-radius:50%;
-    background:var(--asphalt);color:var(--chalk);border:none;cursor:pointer;font-size:14px;z-index:2;
+  .card h3 a{text-decoration:none;}
+  .card h3 a:hover{color:var(--cone);}
+  .card .price{font-family:'JetBrains Mono',monospace;font-size:15.5px;color:var(--cone);padding:6px 0 12px;font-weight:700;}
+  .card .price .old{color:var(--sole);text-decoration:line-through;font-weight:500;font-size:13px;margin-right:8px;}
+  .card .size-row{margin-top:auto;display:flex;align-items:center;gap:10px;}
+  .card .size-row .label{font-size:11px;}
+  .card select{
+    flex:1;padding:10px 10px;border:1.5px solid var(--asphalt);background:var(--canvas);
+    font-family:'JetBrains Mono',monospace;font-size:13.5px;
   }
-  .remove-fav:hover{background:#B23A2E;}
+  .card .soldout-note{margin-top:auto;font-family:'JetBrains Mono',monospace;font-size:12.5px;color:var(--sole);padding:10px 0;}
 
-  .empty-state{
-    background:var(--chalk);border:2px dashed var(--stitch);padding:50px 30px;text-align:center;
-  }
-  .empty-state p{color:var(--sole);margin-bottom:20px;font-size:15px;}
-  .btn-outline{
-    display:inline-block;font-family:'JetBrains Mono',monospace;font-size:13.5px;
-    background:transparent;color:var(--asphalt);padding:14px 24px;text-decoration:none;
-    border:2px solid var(--asphalt);
-  }
-  .btn-outline:hover{background:var(--asphalt);color:var(--chalk);}
+  .empty-fav{background:var(--chalk);border:2px dashed var(--stitch);padding:50px 30px;text-align:center;}
+  .empty-fav p{color:var(--sole);margin-bottom:20px;font-size:15px;}
 
-  footer{padding:32px 6%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;border-top:2px solid var(--asphalt);}
-  footer .foot-links{display:flex;gap:20px;font-family:'JetBrains Mono',monospace;font-size:12px;}
-  footer .foot-links a{color:var(--asphalt);text-decoration:none;border-bottom:1px solid var(--stitch);}
+  /* Нижня панель з кнопкою (з'являється, коли щось обрано) */
+  .action-bar{
+    position:fixed;left:0;right:0;bottom:0;z-index:60;background:var(--asphalt);color:var(--chalk);
+    padding:14px 6%;display:none;align-items:center;justify-content:space-between;gap:14px;
+    padding-bottom:calc(14px + env(safe-area-inset-bottom, 0px));
+    border-top:3px solid var(--cone);
+  }
+  .action-bar.visible{display:flex;}
+  .action-bar .txt{font-family:'JetBrains Mono',monospace;font-size:13px;}
+  .action-bar .btn-primary{box-shadow:4px 4px 0 var(--cone);border-color:var(--chalk);padding:13px 20px;}
+  .action-bar .btn-primary:hover{box-shadow:1px 1px 0 var(--cone);}
+
+  .toast{
+    display:none;background:var(--asphalt);color:var(--chalk);padding:14px 18px;margin-bottom:18px;
+    font-family:'JetBrains Mono',monospace;font-size:13.5px;
+  }
+  .toast.visible{display:block;}
+  .toast a{color:var(--cone);text-decoration:underline;}
+
+  @media (max-width:600px){
+    .action-bar .txt{display:none;}
+    .action-bar .btn-primary{width:100%;}
+  }
+
+  /* Банери */
   .banner-carousel{position:relative;margin:0 6% 24px;overflow:hidden;border:2px solid var(--asphalt);}
   .banner-track{display:flex;transition:transform 0.5s ease;}
   .banner-slide{min-width:100%;aspect-ratio:16/5;position:relative;text-decoration:none;display:block;}
@@ -106,14 +177,25 @@
 
 <section class="fav-page">
   <h1>♥ Обране</h1>
-  <div id="favContent"><p class="label">Завантаження...</p></div>
+  <div class="toast" id="toast"></div>
+  <div id="favContent"><div class="label">Завантаження...</div></div>
 </section>
+
+<div class="action-bar" id="actionBar">
+  <span class="txt" id="actionText"></span>
+  <button type="button" class="btn-primary" id="addSelectedBtn">🛒 ДОДАТИ ВИБРАНЕ В КОШИК</button>
+</div>
 
 <div id="siteBlocks"></div>
 
 <footer id="siteFooter" class="kx-footer"></footer>
 
 <script>
+  /* ===== Допоміжне ===== */
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  }
+
   function shoeSvgHTML(body, accent) {
     const stroke = "#232320";
     return `<svg viewBox="0 0 500 320" xmlns="http://www.w3.org/2000/svg">
@@ -124,70 +206,204 @@
     </svg>`;
   }
   function productThumbHTML(p) {
-    if (p.images && p.images.length > 0) return `<img src="${p.images[0]}" style="width:100%;height:100%;object-fit:cover;" alt="${p.name}">`;
+    if (p.images && p.images.length > 0) return `<img src="${esc(p.images[0])}" alt="${esc(p.name)}">`;
     const c = p.placeholderColor || { body: "#EDE9E1", accent: "#8A8578" };
     return shoeSvgHTML(c.body, c.accent);
   }
 
-  (function(){
-    try {
-      var cart = JSON.parse(localStorage.getItem('kicksCart') || '[]');
-      var badge = document.getElementById('cartBadge');
-      if (cart.length > 0) { badge.textContent = cart.length; badge.style.display = 'inline-flex'; }
-    } catch(e) {}
-  })();
-
-  function getFavorites() {
-    try { return JSON.parse(localStorage.getItem('kicksFavorites') || '[]'); } catch(e) { return []; }
+  function readList(key) {
+    try { const v = JSON.parse(localStorage.getItem(key) || '[]'); return Array.isArray(v) ? v : []; } catch (e) { return []; }
   }
-  function removeFavorite(id) {
-    const favs = getFavorites().filter(f => f !== id);
-    localStorage.setItem('kicksFavorites', JSON.stringify(favs));
-    render();
+  function writeList(key, list) {
+    try { localStorage.setItem(key, JSON.stringify(list)); return true; } catch (e) { return false; }
   }
 
-  async function render() {
-    const container = document.getElementById('favContent');
-    const favIds = getFavorites();
+  function updateBadges() {
+    const cart = readList('kicksCart');
+    const favs = readList('kicksFavorites');
+    const cb = document.getElementById('cartBadge');
+    if (cb) { if (cart.length > 0) { cb.textContent = cart.length; cb.style.display = 'inline-flex'; } else { cb.style.display = 'none'; } }
+    const fb = document.getElementById('favBadge');
+    if (fb) { if (favs.length > 0) { fb.textContent = favs.length; fb.style.display = 'inline-flex'; } else { fb.style.display = 'none'; } }
+  }
 
-    if (favIds.length === 0) {
-      container.innerHTML = `
-        <div class="empty-state">
-          <p>Список обраного порожній — натисни ♥ на будь-якому товарі в каталозі.</p>
+  /* ===== Стан сторінки ===== */
+  let allProducts = [];
+  const selected = new Set();   // id обраних галочкою товарів
+  const chosenSize = {};        // id → вибраний розмір
+
+  const favContent = document.getElementById('favContent');
+  const actionBar = document.getElementById('actionBar');
+  const actionText = document.getElementById('actionText');
+  const addSelectedBtn = document.getElementById('addSelectedBtn');
+  const toast = document.getElementById('toast');
+
+  function getFavProducts() {
+    const ids = readList('kicksFavorites');
+    // зберігаємо порядок обраного; тільки товари, які ще є в каталозі
+    return ids.map(id => allProducts.find(p => p.id === id)).filter(p => p && p.active !== false);
+  }
+  const sizesOf = p => (Array.isArray(p.sizes) ? p.sizes : []).map(String);
+  const inStock = p => sizesOf(p).length > 0 && p.stock !== 0;
+
+  function render() {
+    const products = getFavProducts();
+
+    // прибираємо з вибору те, чого вже немає
+    [...selected].forEach(id => { if (!products.find(p => p.id === id && inStock(p))) selected.delete(id); });
+
+    if (products.length === 0) {
+      favContent.innerHTML = `
+        <div class="empty-fav">
+          <p>В обраному поки порожньо — познач ♡ на сторінці товару, і він з’явиться тут.</p>
           <a href="index.html" class="btn-outline">← До каталогу</a>
         </div>`;
+      updateActionBar();
       return;
     }
 
-    try {
-      const res = await fetch('products.json?_=' + Date.now());
-      const products = await res.json();
-      const favProducts = products.filter(p => favIds.includes(p.id));
+    const available = products.filter(inStock);
+    const allChecked = available.length > 0 && available.every(p => selected.has(p.id));
 
-      if (favProducts.length === 0) {
-        container.innerHTML = `<div class="empty-state"><p>Товари з обраного більше не доступні.</p><a href="index.html" class="btn-outline">← До каталогу</a></div>`;
-        return;
-      }
+    const cards = products.map(p => {
+      const sizes = sizesOf(p);
+      const ok = inStock(p);
+      if (ok && !sizes.includes(chosenSize[p.id])) chosenSize[p.id] = sizes[0];
+      const isSel = selected.has(p.id);
+      const oldHtml = p.oldPrice ? `<span class="old">${esc(p.oldPrice)} ₴</span>` : '';
+      const link = `product.html?id=${encodeURIComponent(p.id)}`;
+      return `
+        <div class="card${isSel ? ' selected' : ''}${ok ? '' : ' soldout'}" data-id="${esc(p.id)}">
+          <label class="pick" title="Обрати для кошика">
+            <input type="checkbox" class="kx-check pick-input" ${isSel ? 'checked' : ''} ${ok ? '' : 'disabled'} aria-label="Обрати ${esc(p.name)}">
+          </label>
+          <button type="button" class="remove" title="Прибрати з обраного" aria-label="Прибрати з обраного">×</button>
+          <a href="${link}" class="thumb">${productThumbHTML(p)}</a>
+          <div class="brand-tag">${esc(p.brand)}</div>
+          <h3><a href="${link}">${esc(p.name)}</a></h3>
+          <div class="price">${oldHtml}${esc(p.price)} ₴</div>
+          ${ok ? `
+          <div class="size-row">
+            <span class="label">Розмір</span>
+            <select class="size-select" aria-label="Розмір">
+              ${sizes.map(s => `<option value="${esc(s)}"${s === chosenSize[p.id] ? ' selected' : ''}>${esc(s)}</option>`).join('')}
+            </select>
+          </div>` : `<div class="soldout-note">Немає в наявності</div>`}
+        </div>`;
+    }).join('');
 
-      container.innerHTML = `<div class="grid">${favProducts.map(p => {
-        const oldHtml = p.oldPrice ? `<span style="text-decoration:line-through;color:var(--sole);font-size:12px;margin-right:6px;font-weight:400;">${p.oldPrice} ₴</span>` : '';
-        return `
-          <a href="product.html?id=${encodeURIComponent(p.id)}" class="card">
-            <button class="remove-fav" onclick="event.preventDefault(); removeFavorite('${p.id}');">×</button>
-            <div class="thumb">${productThumbHTML(p)}</div>
-            <div class="brand-tag">${p.brand}</div>
-            <h3>${p.name}</h3>
-            <div class="price">${oldHtml}${p.price} ₴</div>
-          </a>`;
-      }).join('')}</div>`;
-    } catch (err) {
-      container.innerHTML = '<p class="label">Помилка завантаження товарів.</p>';
-    }
+    favContent.innerHTML = `
+      <div class="toolbar">
+        <label class="select-all">
+          <input type="checkbox" class="kx-check" id="selectAll" ${allChecked ? 'checked' : ''} ${available.length === 0 ? 'disabled' : ''}>
+          Обрати все
+        </label>
+        <span class="sel-info" id="selInfo"></span>
+      </div>
+      <div class="grid">${cards}</div>
+      <div style="margin-top:22px;"><a href="index.html" class="btn-outline">← Продовжити покупки</a></div>
+    `;
+    updateActionBar();
   }
 
-  render();
+  function updateActionBar() {
+    const n = selected.size;
+    const info = document.getElementById('selInfo');
+    if (info) info.textContent = n > 0 ? `Обрано: ${n}` : 'Познач товари галочкою, щоб додати їх у кошик разом';
+    actionBar.classList.toggle('visible', n > 0);
+    actionText.textContent = n > 0 ? `Обрано товарів: ${n}` : '';
+    addSelectedBtn.textContent = `🛒 ДОДАТИ В КОШИК (${n})`;
+  }
 
-  // ===== Банери (якщо адмін додав для цієї сторінки) =====
+  /* ===== Події (делегування) ===== */
+  favContent.addEventListener('change', e => {
+    const t = e.target;
+    if (t.id === 'selectAll') {
+      const available = getFavProducts().filter(inStock);
+      selected.clear();
+      if (t.checked) available.forEach(p => selected.add(p.id));
+      render();
+      return;
+    }
+    const card = t.closest('.card');
+    if (!card) return;
+    const id = card.dataset.id;
+    if (t.classList.contains('pick-input')) {
+      if (t.checked) selected.add(id); else selected.delete(id);
+      card.classList.toggle('selected', t.checked);
+      const sa = document.getElementById('selectAll');
+      if (sa) {
+        const available = getFavProducts().filter(inStock);
+        sa.checked = available.length > 0 && available.every(p => selected.has(p.id));
+      }
+      updateActionBar();
+    } else if (t.classList.contains('size-select')) {
+      chosenSize[id] = t.value;
+    }
+  });
+
+  favContent.addEventListener('click', e => {
+    const btn = e.target.closest('.remove');
+    if (!btn) return;
+    const card = btn.closest('.card');
+    const id = card.dataset.id;
+    writeList('kicksFavorites', readList('kicksFavorites').filter(x => x !== id));
+    selected.delete(id);
+    updateBadges();
+    render();
+  });
+
+  addSelectedBtn.addEventListener('click', () => {
+    if (selected.size === 0) return;
+    const products = getFavProducts().filter(p => selected.has(p.id) && inStock(p));
+    if (products.length === 0) return;
+
+    const cart = readList('kicksCart');
+    products.forEach(p => {
+      cart.push({
+        productId: p.id,
+        size: chosenSize[p.id] || sizesOf(p)[0],
+        cartItemId: Date.now() + Math.random()
+      });
+    });
+
+    if (!writeList('kicksCart', cart)) {
+      alert('Не вдалося додати товари в кошик. Можливо, у браузері вимкнено localStorage (приватний режим?).');
+      return;
+    }
+
+    const n = products.length;
+    selected.clear();
+    updateBadges();
+    render();
+    toast.innerHTML = `✓ Додано в кошик: ${n} — <a href="cart.html">перейти до кошика</a>`;
+    toast.classList.add('visible');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    clearTimeout(window.__toastTimer);
+    window.__toastTimer = setTimeout(() => toast.classList.remove('visible'), 6000);
+  });
+
+  /* ===== Завантаження ===== */
+  async function init() {
+    try {
+      const res = await fetch('products.json?_=' + Date.now());
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      allProducts = await res.json();
+    } catch (e) {
+      favContent.innerHTML = '<div class="label">Не вдалося завантажити дані товарів.</div>';
+      return;
+    }
+    updateBadges();
+    render();
+  }
+  init();
+
+  // Якщо в іншій вкладці змінили обране/кошик — оновлюємо
+  window.addEventListener('storage', e => {
+    if (e.key === 'kicksFavorites' || e.key === 'kicksCart') { updateBadges(); if (allProducts.length) render(); }
+  });
+
+  /* ===== Банери (якщо адмін додав для цієї сторінки) ===== */
   let bannerIndex_favorites = 0;
   async function loadBanners_favorites() {
     try {
@@ -229,7 +445,6 @@
     }
   }
   loadBanners_favorites();
-
 </script>
 
 </body>

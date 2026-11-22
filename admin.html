@@ -425,6 +425,40 @@
     return res.json();
   }
 
+  // --- Читання файлів будь-якого розміру ---
+  // GitHub Contents API для файлів > 1 МБ повертає порожній "content" — тому в такому випадку
+  // повторно запитуємо вміст у форматі raw. sha береться з першої відповіді.
+  function decodeBase64Utf8(b64) {
+    const bin = atob(String(b64).replace(/\s/g, ''));
+    const bytes = new Uint8Array(bin.length);
+    for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+    return new TextDecoder('utf-8').decode(bytes);
+  }
+  function encodeBase64Utf8(str) {
+    const bytes = new TextEncoder().encode(str);
+    let bin = '';
+    const CHUNK = 0x8000;
+    for (let i = 0; i < bytes.length; i += CHUNK) {
+      bin += String.fromCharCode.apply(null, bytes.subarray(i, i + CHUNK));
+    }
+    return btoa(bin);
+  }
+  async function githubReadText(path) {
+    const meta = await githubRequest(path);
+    if (meta.content && meta.encoding === 'base64') {
+      return { sha: meta.sha, text: decodeBase64Utf8(meta.content) };
+    }
+    const res = await fetch(`https://api.github.com/repos/${session.owner}/${session.repo}/contents/${path}`, {
+      cache: 'no-store',
+      headers: {
+        'Authorization': `Bearer ${session.token}`,
+        'Accept': 'application/vnd.github.raw+json'
+      }
+    });
+    if (!res.ok) throw new Error(`GitHub API error: ${res.status}`);
+    return { sha: meta.sha, text: await res.text() };
+  }
+
   async function githubRepoInfo() {
     const res = await fetch(`https://api.github.com/repos/${session.owner}/${session.repo}`, {
       headers: { 'Authorization': `Bearer ${session.token}`, 'Accept': 'application/vnd.github+json' }
@@ -518,10 +552,9 @@
   async function loadProducts() {
     showStatus('Завантажуємо товари...', 'loading');
     try {
-      const fileData = await githubRequest('products.json');
+      const fileData = await githubReadText('products.json');
       productsSha = fileData.sha;
-      const content = decodeURIComponent(escape(atob(fileData.content)));
-      products = JSON.parse(content);
+      products = JSON.parse(fileData.text);
       selectedIds.clear();
       renderProductsList();
       updateBulkBar();
@@ -832,7 +865,7 @@
 
   async function saveProductsFile(message) {
     const content = JSON.stringify(products, null, 2);
-    const base64Content = btoa(unescape(encodeURIComponent(content)));
+    const base64Content = encodeBase64Utf8(content);
     const result = await githubRequest('products.json', {
       method: 'PUT',
       body: JSON.stringify({ message, content: base64Content, sha: productsSha })
@@ -850,10 +883,9 @@
   async function loadOrders() {
     showStatus('Завантажуємо замовлення...', 'loading', 'ordersStatusMsg');
     try {
-      const fileData = await githubRequest('orders.json');
+      const fileData = await githubReadText('orders.json');
       ordersSha = fileData.sha;
-      const decoded = decodeURIComponent(escape(atob(fileData.content)));
-      orders = JSON.parse(decoded);
+      orders = JSON.parse(fileData.text);
       renderOrdersList();
       hideStatus('ordersStatusMsg');
     } catch (err) {
@@ -972,10 +1004,9 @@
   // ===== CONTENT TAB =====
   async function loadSiteContent() {
     try {
-      const fileData = await githubRequest('site-content.json');
+      const fileData = await githubReadText('site-content.json');
       siteContentSha = fileData.sha;
-      const content = decodeURIComponent(escape(atob(fileData.content)));
-      siteContent = JSON.parse(content);
+      siteContent = JSON.parse(fileData.text);
       renderContentEditor();
     } catch (err) {
       document.getElementById('contentEditorArea').innerHTML = `<p class="label">Не вдалося завантажити site-content.json: ${err.message}</p>`;

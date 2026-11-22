@@ -35,7 +35,9 @@
     footer: DEFAULTS.footer,
     promo: DEFAULTS.promo,
     handle: '',
-    blocks: []
+    blocks: [],
+    fresh: false,      // true, коли прийшов свіжий site-content.json
+    fromCache: false   // true, коли є збережена копія з попереднього візиту
   };
 
   // ===== Утиліти =====
@@ -78,6 +80,7 @@
   }
   function applyCache(c) {
     if (!c) return;
+    state.fromCache = true;
     if (c.nav && Array.isArray(c.nav.items)) state.nav = c.nav;
     if (c.footer && Array.isArray(c.footer.links)) state.footer = c.footer;
     if (c.promo) state.promo = c.promo;
@@ -85,6 +88,7 @@
   }
   function applyData(data) {
     if (!data) return;
+    state.fresh = true;
     if (data.navigation && Array.isArray(data.navigation.items)) {
       state.nav = { items: data.navigation.items, cta: data.navigation.cta || DEFAULTS.navigation.cta };
     }
@@ -121,6 +125,7 @@
     ".kx-btn.active .kx-badge{background:var(--chalk,#FAF8F3);color:var(--asphalt,#232320);}",
     "@media (max-width:760px){nav.kx-nav{padding:12px 4%;gap:10px;}.kx-links{width:100%;flex-wrap:nowrap;overflow-x:auto;padding:2px 4px 8px 2px;-webkit-overflow-scrolling:touch;}.kx-btn{padding:8px 11px;font-size:12px;}.kx-btn.kx-cta{padding:9px 14px;font-size:13px;}}",
 
+    "html.kx-pending .kx-defer{visibility:hidden!important;}",
     "footer.kx-footer{padding:32px 6%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px;border-top:2px solid var(--asphalt,#232320);}",
     ".kx-foot-links{display:flex;gap:20px;flex-wrap:wrap;font-family:'JetBrains Mono',monospace;font-size:12px;}",
     ".kx-foot-links a{color:var(--asphalt,#232320);text-decoration:none;border-bottom:1px solid var(--stitch,#C9C2B2);}",
@@ -203,7 +208,7 @@
       : '';
 
     el.innerHTML = '<a href="index.html" class="kx-logo">KICKS<span>.UA</span></a>' +
-      '<div class="kx-links">' + links + ctaHtml + '</div>';
+      '<div class="kx-links' + (!state.fresh && !state.fromCache ? ' kx-defer' : '') + '">' + links + ctaHtml + '</div>';
     updateBadges();
   }
 
@@ -218,13 +223,14 @@
         var ext = isExternal(u);
         return '<a href="' + esc(u) + '"' + (ext ? ' target="_blank" rel="noopener"' : '') + '>' + esc(l.label) + '</a>';
       }).join('');
-    el.innerHTML = '<a href="index.html" class="kx-logo">KICKS<span>.UA</span></a><div class="kx-foot-links">' + links + '</div>';
+    el.innerHTML = '<a href="index.html" class="kx-logo">KICKS<span>.UA</span></a><div class="kx-foot-links' + (!state.fresh && !state.fromCache ? ' kx-defer' : '') + '">' + links + '</div>';
   }
 
   // ===== Промо-смуга =====
   function renderPromo() {
     var el = document.getElementById('sitePromo');
     if (!el) return;
+    el.classList.add('kx-defer');
     var p = state.promo || {};
     if (p.enabled === false || !(p.text || p.label)) { el.innerHTML = ''; return; }
     el.innerHTML = '🔥 ' + (p.label ? '<b>' + esc(p.label) + '</b>' : '') + (p.text ? ' — ' + esc(p.text) : '');
@@ -316,6 +322,12 @@
   }
 
   // ===== Ініціалізація =====
+  // Блоки з класом .kx-defer приховані (місце за ними лишається), поки не прийде свіжий site-content.json,
+  // щоб відвідувач ніколи не бачив стару/стандартну версію тексту.
+  function revealContent() {
+    if (hasDOM) document.documentElement.classList.remove('kx-pending');
+  }
+
   function renderAll() {
     renderNav();
     renderFooter();
@@ -331,11 +343,15 @@
     updateBadges: updateBadges,
     formatDescription: formatDescription,
     plainDescription: plainDescription,
-    renderNav: renderNav
+    renderNav: renderNav,
+    revealContent: revealContent
   };
 
   if (hasDOM) {
     injectCss();
+    document.documentElement.classList.add('kx-pending');
+    setTimeout(revealContent, 3000);          // страховка: якщо файл не завантажився — показуємо те, що є
+    getContent().catch(function () {});       // починаємо завантаження одразу, не чекаючи кінця сторінки
     applyCache(readCache());
     renderNav(); // скрипт підключено одразу після <nav id="siteNav">, тож шапка з'являється без затримки
 
@@ -346,9 +362,11 @@
         applyData(data);
         writeCache();
         renderAll();
+        revealContent();
       }).catch(function (err) {
         console.warn('site.js: не вдалося завантажити site-content.json', err);
         renderAll();
+        revealContent();
       });
     });
     window.addEventListener('storage', updateBadges);

@@ -588,8 +588,13 @@
       b.textContent = (t === 'branch' ? 'Відділення' : 'Поштомати') + (state.city && !state.loading ? ` (${counts[t]})` : '');
     });
 
+    // Пошук потрібен лише там, де точок багато (великі міста); у селах і малих містах він зайвий
+    const showSearch = !!state.city && !state.loading && state.points.length > 12;
+    branchSearch.style.display = showSearch ? 'block' : 'none';
+    if (!showSearch) { state.search = ''; branchSearch.value = ''; }
+
     branchList.innerHTML = '';
-    branchSearch.disabled = !state.city || state.loading;
+    branchSearch.disabled = !showSearch;
 
     if (!state.city) {
       addMessage(branchList, 'Спочатку обери місто зі списку підказок вище.');
