@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title id="pageTitle">Товар — KICKS.UA</title>
-<meta id="metaDescription" name="description" content="Оригінальне взуття з доставкою по Україні">
+<meta id="metaDescription" name="description" content="Взуття з доставкою по Україні">
 <meta id="ogTitle" property="og:title" content="KICKS.UA">
-<meta id="ogDescription" property="og:description" content="Оригінальне взуття з доставкою по Україні">
+<meta id="ogDescription" property="og:description" content="Взуття з доставкою по Україні">
 <meta id="ogImage" property="og:image" content="">
 <meta property="og:type" content="product">
 <script type="application/ld+json" id="productSchema"></script>
@@ -259,6 +259,13 @@
       const products = await res.json();
       const product = products.find(p => p.id === productId);
 
+      // Тексти сторінки товару керуються з адмінки (site-content.json → productPage)
+      let pageCfg = {};
+      try { const sc = await KicksSite.getContent(); pageCfg = (sc && sc.productPage) || {}; } catch (e) {}
+      const labelSuffix = String(pageCfg.labelSuffix || '').trim();
+      const trustItems = Array.isArray(pageCfg.trustItems) ? pageCfg.trustItems : ['Оплата при отриманні', 'Обмін розміру безкоштовно'];
+      const relatedTitle = String(pageCfg.relatedTitle || '').trim() || 'Схожі моделі';
+
       if (!product) {
         contentDiv.innerHTML = `
           <div class="not-found">
@@ -272,7 +279,7 @@
       document.getElementById('pageTitle').textContent = `${product.brand} ${product.name} — KICKS.UA`;
 
       // SEO: заповнюємо meta-теги та structured data для пошукових систем
-      const seoDescription = (KicksSite.plainDescription(product.description) || `${product.brand} ${product.name} — оригінальне взуття з доставкою по Україні.`).slice(0, 160);
+      const seoDescription = (KicksSite.plainDescription(product.description) || `${product.brand} ${product.name} — взуття з доставкою по Україні.`).slice(0, 160);
       document.getElementById('metaDescription').setAttribute('content', seoDescription);
       document.getElementById('ogTitle').setAttribute('content', `${product.brand} ${product.name} — KICKS.UA`);
       document.getElementById('ogDescription').setAttribute('content', seoDescription);
@@ -327,7 +334,7 @@
             ${thumbsHtml}
           </div>
           <div class="hero-copy">
-            <span class="label">${KicksSite.esc(product.brand)} · Оригінал</span>
+            <span class="label">${KicksSite.esc(product.brand)}${labelSuffix ? ' · ' + KicksSite.esc(labelSuffix) : ''}</span>
             <h1 class="product-title">${KicksSite.esc(product.name)}</h1>
             <div class="price-tag">${oldPriceHtml}<span class="new">${product.price} ₴</span></div>
             ${KicksSite.formatDescription(product.description)}
@@ -346,13 +353,9 @@
           </div>
         </section>
         <div class="lace-divider"></div>
-        <div class="trust-strip">
-          <div>Оригінал, документи від дистриб'ютора</div>
-          <div>Оплата при отриманні</div>
-          <div>Обмін розміру безкоштовно</div>
-        </div>
+        ${trustItems.length ? `<div class="trust-strip">${trustItems.map(t => `<div>${KicksSite.esc(t)}</div>`).join('')}</div>` : ''}
         <section class="related">
-          <h2>Схожі моделі</h2>
+          <h2>${KicksSite.esc(relatedTitle)}</h2>
           <div class="grid" id="relatedGrid"></div>
         </section>
       `;
