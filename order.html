@@ -92,7 +92,9 @@
   form.order-form button:hover{background:var(--cone);}
   form.order-form button:disabled{opacity:0.6;cursor:not-allowed;}
   form.order-form .note{font-size:11.5px;color:var(--sole);margin-top:14px;text-align:center;}
-  form.order-form .hint{font-size:11.5px;color:var(--sole);margin-top:-10px;margin-bottom:16px;display:block;}
+  form.order-form .hint{font-size:12.5px;line-height:1.45;color:#6f6c61;margin-top:-10px;margin-bottom:16px;display:block;}
+  form.order-form .hint:empty:not([data-default]){display:none;}
+  form.order-form #cityHint:empty::before{content:attr(data-default);}
   .conditional-field{display:none;}
   .conditional-field.visible{display:block;}
 
@@ -215,8 +217,10 @@
           <input type="text" name="lastName" placeholder="Прізвище" required>
         </div>
       </div>
+      <span class="hint" style="margin-top:0;">Вкажіть дані одержувача — саме на це ім'я видадуть посилку.</span>
       <span class="label">Телефон</span>
       <input type="tel" name="phone" placeholder="+380 __ ___ __ __" required>
+      <span class="hint">Номер одержувача: на нього служба доставки надішле повідомлення про посилку.</span>
     </fieldset>
 
     <fieldset>
@@ -228,6 +232,7 @@
         <option value="Нова пошта">Нова пошта</option>
         <option value="Укрпошта">Укрпошта</option>
       </select>
+      <span class="hint">Нова пошта — доставка 1–3 дні. Укрпошта — для невеликих населених пунктів, де немає відділень Нової пошти (3–5 днів).</span>
 
       <span class="label">Як зручніше уточнити деталі замовлення?</span>
       <select name="contactMethod" id="contactMethodSelect">
@@ -236,10 +241,12 @@
         <option value="Viber">Viber</option>
         <option value="Не потрібно уточнювати">Не потрібно уточнювати</option>
       </select>
+      <span class="hint" id="contactMethodHint">Оберіть, де вам зручніше отримати повідомлення від менеджера щодо замовлення.</span>
 
-      <div class="conditional-field" id="telegramField">
-        <span class="label">Нікнейм у Telegram (необов'язково, якщо вказали телефон)</span>
-        <input type="text" name="telegramUsername" placeholder="@nickname">
+      <div class="conditional-field visible" id="contactDetailsField">
+        <span class="label" id="contactDetailsLabel">Ваш нікнейм у Telegram</span>
+        <input type="text" name="contactDetails" id="contactDetailsInput" placeholder="@nickname" autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false">
+        <span class="hint" id="contactDetailsHint">Необов'язково. Якщо залишите порожнім, менеджер знайде вас у Telegram за номером телефону. Нікнейм починається з @ — його видно в налаштуваннях Telegram.</span>
       </div>
 
       <span class="label">Тип отримання</span>
@@ -249,6 +256,7 @@
         <option value="У поштомат">У поштомат</option>
         <option value="Кур'єром за адресою">Кур'єром за адресою</option>
       </select>
+      <span class="hint" id="deliveryTypeHint"></span>
 
       <div class="conditional-field" id="cityWrapper">
         <span class="label">Місто</span>
@@ -285,17 +293,19 @@
     <fieldset>
       <legend>Оплата</legend>
       <span class="label">Спосіб оплати</span>
-      <select name="payment" required>
+      <select name="payment" id="paymentSelect" required>
         <option value="">Оберіть спосіб оплати</option>
         <option value="Накладений платіж (оплата при отриманні)">Накладений платіж (оплата при отриманні)</option>
         <option value="Оплата на картку заздалегідь">Оплата на картку заздалегідь</option>
       </select>
+      <span class="hint" id="paymentHint"></span>
     </fieldset>
 
     <fieldset>
       <legend>Коментар</legend>
       <span class="label">Коментар до замовлення (необов'язково)</span>
       <textarea name="comment" placeholder="Наприклад: подзвонити після 18:00, або особливі побажання"></textarea>
+      <span class="hint">Можна нічого не писати — це поле не обов'язкове.</span>
     </fieldset>
 
     <button type="submit" id="submitBtn">ПІДТВЕРДИТИ ЗАМОВЛЕННЯ</button>
@@ -377,7 +387,7 @@
     }
 
     const badge = document.getElementById('cartBadge');
-    if (cart.length > 0) { badge.textContent = cart.length; badge.style.display = 'inline-flex'; }
+    if (badge && cart.length > 0) { badge.textContent = cart.length; badge.style.display = 'inline-flex'; }
 
     const validItems = cart.map(item => {
       const product = products.find(p => p.id === item.productId);
@@ -414,12 +424,72 @@
 
   initCartSummary();
 
-  // contact method conditional field
+  // ===== Спосіб зв'язку: поле з даними видно одразу, а підписи підлаштовуються під вибір =====
   const contactMethodSelect = document.getElementById('contactMethodSelect');
-  const telegramField = document.getElementById('telegramField');
-  contactMethodSelect.addEventListener('change', function(){
-    telegramField.classList.toggle('visible', this.value === 'Telegram');
+  const contactMethodHint = document.getElementById('contactMethodHint');
+  const contactDetailsField = document.getElementById('contactDetailsField');
+  const contactDetailsLabel = document.getElementById('contactDetailsLabel');
+  const contactDetailsInput = document.getElementById('contactDetailsInput');
+  const contactDetailsHint = document.getElementById('contactDetailsHint');
+
+  const CONTACT_UI = {
+    'Telegram': {
+      label: 'Ваш нікнейм у Telegram', placeholder: '@nickname', type: 'text',
+      hint: "Необов'язково. Якщо залишите порожнім, менеджер знайде вас у Telegram за номером телефону. Нікнейм починається з @ — його видно в налаштуваннях Telegram.",
+      methodHint: 'Оберіть, де вам зручніше отримати повідомлення від менеджера щодо замовлення.'
+    },
+    'WhatsApp': {
+      label: 'Ваш номер у WhatsApp', placeholder: '+380 __ ___ __ __', type: 'tel',
+      hint: "Необов'язково. Якщо WhatsApp зареєстровано на той самий номер, що й телефон вище, — залиште порожнім.",
+      methodHint: 'Оберіть, де вам зручніше отримати повідомлення від менеджера щодо замовлення.'
+    },
+    'Viber': {
+      label: 'Ваш номер у Viber', placeholder: '+380 __ ___ __ __', type: 'tel',
+      hint: "Необов'язково. Якщо Viber зареєстровано на той самий номер, що й телефон вище, — залиште порожнім.",
+      methodHint: 'Оберіть, де вам зручніше отримати повідомлення від менеджера щодо замовлення.'
+    },
+    'Не потрібно уточнювати': {
+      hidden: true,
+      methodHint: 'Ми не будемо писати вам у месенджер.'
+    }
+  };
+  let lastContactMethod = null;
+
+  function updateContactUI() {
+    const m = contactMethodSelect.value;
+    const ui = CONTACT_UI[m] || CONTACT_UI['Telegram'];
+    contactMethodHint.textContent = ui.methodHint;
+    contactDetailsField.classList.toggle('visible', !ui.hidden);
+    if (!ui.hidden) {
+      contactDetailsLabel.textContent = ui.label;
+      contactDetailsInput.placeholder = ui.placeholder;
+      contactDetailsInput.setAttribute('type', ui.type);
+      contactDetailsInput.setAttribute('inputmode', ui.type === 'tel' ? 'tel' : 'text');
+      contactDetailsHint.textContent = ui.hint;
+    }
+    // при зміні месенджера старе значення (нікнейм ≠ номер) не залишаємо
+    if (lastContactMethod !== null && lastContactMethod !== m) contactDetailsInput.value = '';
+    lastContactMethod = m;
+  }
+  contactMethodSelect.addEventListener('change', updateContactUI);
+  contactDetailsInput.addEventListener('change', function () {
+    if (contactMethodSelect.value !== 'Telegram') return;
+    let v = this.value.trim().replace(/\s+/g, '');
+    v = v.replace(/^https?:\/\/(www\.)?t\.me\//i, '').replace(/^t\.me\//i, '');
+    if (v && !v.startsWith('@')) v = '@' + v;
+    this.value = v;
   });
+  updateContactUI();
+
+  // ===== Підказки до інших полів =====
+  const deliveryTypeHint = document.getElementById('deliveryTypeHint');
+  const paymentSelect = document.getElementById('paymentSelect');
+  const paymentHint = document.getElementById('paymentHint');
+  const PAYMENT_HINTS = {
+    'Накладений платіж (оплата при отриманні)': 'Платите, коли отримаєте посилку, — після того як оглянете товар у відділенні.',
+    'Оплата на картку заздалегідь': 'Реквізити для оплати надасть менеджер при підтвердженні замовлення.'
+  };
+  paymentSelect.addEventListener('change', function () { paymentHint.textContent = PAYMENT_HINTS[this.value] || ''; });
 
   // ===== Доставка: служба → тип отримання → місто → відділення =====
   const carrierSelect = document.getElementById('carrierSelect');
@@ -441,6 +511,16 @@
 
   const proxyConfigured = !NOVA_POSHTA_PROXY.includes('твій-worker');
   const MAX_ITEMS = 150;
+
+  function updateDeliveryTypeHint() {
+    const v = deliveryTypeSelect.value;
+    const np = carrierSelect.value === 'Нова пошта' && proxyConfigured;
+    let text = '';
+    if (v === 'У відділення') text = np ? 'Заберете посилку у відділенні — оберіть його зі списку нижче.' : 'Заберете посилку у відділенні — нижче вкажете його номер або індекс.';
+    else if (v === 'У поштомат') text = np ? 'Заберете посилку у зручний час без черг — оберіть поштомат зі списку нижче.' : 'Заберете посилку в поштоматі — нижче вкажете його номер.';
+    else if (v) text = "Кур'єр привезе посилку за адресою, яку ви вкажете нижче.";
+    deliveryTypeHint.textContent = text;
+  }
 
   // Стан вибору Нової пошти
   const state = { city: null, points: [], loading: false, failed: false, message: '', search: '' };
@@ -520,6 +600,7 @@
       if (noNeedOption) {
         if (contactMethodSelect.value === 'Не потрібно уточнювати') {
           contactMethodSelect.value = 'Telegram';
+          updateContactUI();
         }
         noNeedOption.remove();
       }
@@ -540,6 +621,10 @@
   }
 
   function renderBranchUI() {
+    cityHint.dataset.default = npEnabled()
+      ? 'Почніть вводити назву й оберіть своє місто зі списку підказок.'
+      : 'Вкажіть назву міста або села.';
+    updateDeliveryTypeHint();
     const wants = wantsPoint();
     const manual = manualMode();
     const pointsMode = wants && npEnabled() && !state.failed;
@@ -839,6 +924,7 @@
   });
 
   carrierSelect.addEventListener('change', function () {
+    deliveryTypeSelect.options[0].textContent = this.value ? 'Оберіть тип отримання' : 'Спочатку оберіть службу вище';
     updateContactMethodOptions();
     clearTimeout(cityTimer);
     citySeq++;
@@ -898,7 +984,7 @@
       "Разом: " + cartTotalValue + " ₴\n\n" +
       "Ім'я: " + fd.get('firstName') + " " + fd.get('lastName') + "\n" +
       "Телефон: " + fd.get('phone') + "\n" +
-      "Зв'язок: " + fd.get('contactMethod') + (fd.get('telegramUsername') ? " (" + fd.get('telegramUsername') + ")" : "") + "\n" +
+      "Зв'язок: " + fd.get('contactMethod') + (fd.get('contactDetails') ? " (" + fd.get('contactDetails') + ")" : "") + "\n" +
       "Служба доставки: " + fd.get('carrier') + "\n" +
       "Тип отримання: " + fd.get('deliveryType') + "\n" +
       "Місто: " + fd.get('city') + "\n" +
@@ -925,7 +1011,7 @@
           `<div class="summary-item-row"><span>${it.name} (розмір ${it.size})</span><span>${it.price} ₴</span></div>`
         ).join('');
 
-        const contactMethodText = fd.get('contactMethod') + (fd.get('telegramUsername') ? ' — ' + fd.get('telegramUsername') : '');
+        const contactMethodText = fd.get('contactMethod') + (fd.get('contactDetails') ? ' — ' + fd.get('contactDetails') : '');
         const deliveryDetail = fd.get('branchNumber')
           ? `Відділення/поштомат: ${fd.get('branchNumber')}`
           : (fd.get('address') ? `Адреса: ${fd.get('address')}` : '');
@@ -962,7 +1048,7 @@
           const orderRecord = {
             customerName: fd.get('firstName') + ' ' + fd.get('lastName'),
             phone: fd.get('phone'),
-            contactMethod: fd.get('contactMethod') + (fd.get('telegramUsername') ? ' (' + fd.get('telegramUsername') + ')' : ''),
+            contactMethod: fd.get('contactMethod') + (fd.get('contactDetails') ? ' (' + fd.get('contactDetails') + ')' : ''),
             items: validItemsSnapshot,
             total: cartTotalValue,
             carrier: fd.get('carrier'),
