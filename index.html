@@ -123,6 +123,15 @@
     background:none;border:none;color:var(--sole);text-decoration:underline;cursor:pointer;padding:9px 0;
   }
   .reset-filters-btn:hover{color:var(--cone);}
+  .gender-tabs{display:flex;gap:12px;padding:0 6% 22px;flex-wrap:wrap;}
+  .gender-tabs button{
+    font-family:'JetBrains Mono',monospace;font-size:13.5px;font-weight:700;letter-spacing:0.03em;
+    border:2px solid var(--asphalt);padding:11px 24px;background:var(--chalk);color:var(--asphalt);cursor:pointer;
+    box-shadow:3px 3px 0 var(--asphalt);transition:transform .15s, box-shadow .15s, background .15s;
+  }
+  .gender-tabs button:hover{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--asphalt);background:var(--stitch);}
+  .gender-tabs button.active{background:var(--cone);color:var(--chalk);}
+  .gender-tabs button .cnt{font-weight:500;opacity:0.75;margin-left:6px;}
   .brand-tabs{display:flex;gap:10px;padding:0 6% 34px;flex-wrap:wrap;}
   .brand-tabs button{
     font-family:'JetBrains Mono',monospace;font-size:12.5px;
@@ -222,6 +231,7 @@
 
 <nav id="siteNav" class="kx-nav"></nav>
 <script src="site.js?v=1"></script>
+<script src="gender.js?v=1"></script>
 <div id="sitePromo" class="kx-promo"></div>
 
 <div class="banner-carousel" id="bannerCarousel" style="display:none;">
@@ -243,6 +253,12 @@
 <div class="catalog-title" id="catalog">
   <span class="label">Підбір</span>
   <h2>Весь каталог</h2>
+</div>
+
+<div class="gender-tabs" id="genderTabs">
+  <button type="button" class="active" data-gender="all">Усе взуття</button>
+  <button type="button" data-gender="women">Жіноче</button>
+  <button type="button" data-gender="men">Чоловіче</button>
 </div>
 
 <div class="search-sort-bar">
@@ -368,6 +384,7 @@
 
   let allProducts = [];
   let activeBrandFilter = 'all';
+  let activeGender = 'all';          // all | women | men
   let searchQuery = '';
   let sortMode = 'default';
   let priceMinVal = null;
@@ -385,10 +402,34 @@
     else { badge.style.display = 'none'; }
   }
 
+  // ===== Категорії: жіноче / чоловіче (унісекс показується в обох) =====
+  const genderOf = p => (window.KicksGender ? KicksGender.get(p) : 'unisex');
+  const genderMatch = p => activeGender === 'all' || genderOf(p) === activeGender || genderOf(p) === 'unisex';
+  const GENDER_NAMES = { all: 'Усе взуття', women: 'Жіноче', men: 'Чоловіче' };
+
+  function updateGenderTabs() {
+    const box = document.getElementById('genderTabs');
+    if (!box) return;
+    const counts = { all: allProducts.length, women: 0, men: 0 };
+    let onlyWomen = 0, onlyMen = 0;
+    allProducts.forEach(p => {
+      const g = genderOf(p);
+      if (g === 'women') { counts.women++; onlyWomen++; }
+      else if (g === 'men') { counts.men++; onlyMen++; }
+      else { counts.women++; counts.men++; }
+    });
+    box.querySelectorAll('button').forEach(b => {
+      const k = b.dataset.gender;
+      b.classList.toggle('active', k === activeGender);
+      b.innerHTML = GENDER_NAMES[k] + (allProducts.length ? `<span class="cnt">${counts[k]}</span>` : '');
+    });
+    // якщо в магазині є товари лише однієї статі — категорії зайві
+    box.style.display = (onlyWomen > 0 && onlyMen > 0) ? '' : 'none';
+  }
+
   function applyFiltersAndSort(products) {
-    let result = activeBrandFilter === 'all'
-      ? products
-      : products.filter(p => p.brand === activeBrandFilter);
+    let result = products.filter(genderMatch);
+    if (activeBrandFilter !== 'all') result = result.filter(p => p.brand === activeBrandFilter);
 
     if (searchQuery.trim()) {
       const q = searchQuery.trim().toLowerCase();
@@ -484,7 +525,7 @@
   }
 
   function filtersActive() {
-    return searchQuery.trim() !== '' || activeBrandFilter !== 'all' || sortMode !== 'default' ||
+    return searchQuery.trim() !== '' || activeBrandFilter !== 'all' || activeGender !== 'all' || sortMode !== 'default' ||
       priceMinVal !== null || priceMaxVal !== null || selectedSizes.size > 0 || discountOnlyVal;
   }
 
@@ -598,10 +639,12 @@
     .then(() => KicksSite.revealContent());
 
   function renderBrandTabs(products) {
-    const brands = [...new Set(products.map(p => p.brand))].sort();
+    // показуємо лише бренди, які є в обраній категорії (жіноче / чоловіче)
+    const brands = [...new Set(products.filter(genderMatch).map(p => p.brand))].sort();
+    if (activeBrandFilter !== 'all' && !brands.includes(activeBrandFilter)) activeBrandFilter = 'all';
     const tabsContainer = document.getElementById('brandTabs');
-    tabsContainer.innerHTML = `<button class="active" data-brand="all">Всі моделі</button>` +
-      brands.map(b => `<button data-brand="${KicksSite.esc(b)}">${KicksSite.esc(b)}</button>`).join('');
+    tabsContainer.innerHTML = `<button class="${activeBrandFilter === 'all' ? 'active' : ''}" data-brand="all">Всі моделі</button>` +
+      brands.map(b => `<button class="${b === activeBrandFilter ? 'active' : ''}" data-brand="${KicksSite.esc(b)}">${KicksSite.esc(b)}</button>`).join('');
 
     tabsContainer.querySelectorAll('button').forEach(btn => {
       btn.addEventListener('click', function() {
@@ -667,16 +710,31 @@
         return;
       }
 
+      // посилання виду index.html?gender=women одразу відкриває жіночу категорію
+      const gp = new URLSearchParams(location.search).get('gender');
+      if (gp === 'women' || gp === 'men') activeGender = gp;
+
       renderBrandTabs(allProducts);
       renderSizeFilterOptions(allProducts);
+      updateGenderTabs();
       renderCards(allProducts);
       productsReady = true;
       renderShowcases();
+      if (gp === 'women' || gp === 'men') document.getElementById('catalog').scrollIntoView();
     } catch (err) {
       console.error('Помилка завантаження каталогу:', err);
       grid.innerHTML = '<div class="loading-msg">Не вдалося завантажити каталог (' + err.message + '). Перевір, що файл products.json є в репозиторії, і онови сторінку.</div>';
     }
   }
+
+  document.getElementById('genderTabs').addEventListener('click', function (e) {
+    const btn = e.target.closest('button[data-gender]');
+    if (!btn) return;
+    activeGender = btn.dataset.gender;
+    updateGenderTabs();
+    renderBrandTabs(allProducts);
+    renderCards(allProducts);
+  });
 
   document.getElementById('searchInput').addEventListener('input', function() {
     searchQuery = this.value;

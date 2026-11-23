@@ -297,6 +297,15 @@
       <label>Назва моделі *</label>
       <input type="text" id="f_name" placeholder="Air Max 90">
 
+      <label>Стать (для категорій «Жіноче / Чоловіче» в каталозі)</label>
+      <select id="f_gender">
+        <option value="">Автоматично</option>
+        <option value="women">Жіноче</option>
+        <option value="men">Чоловіче</option>
+        <option value="unisex">Унісекс (показувати в обох категоріях)</option>
+      </select>
+      <p class="label" id="f_genderHint" style="text-transform:none;margin:-8px 0 14px;"></p>
+
       <div class="row3">
         <div>
           <label>Ціна (₴) *</label>
@@ -385,6 +394,7 @@
 
 </div>
 
+<script src="gender.js?v=1"></script>
 <script>
   const STORAGE_KEY = 'kicksAdminAuth';
   let session = null;
@@ -577,7 +587,7 @@
         <div class="thumb">${productThumbHTML(p)}</div>
         <div class="info">
           <h3>${p.brand} ${p.name} ${p.active === false ? '<span class="inactive-tag">(вимкнено)</span>' : ''}</h3>
-          <div class="meta">${p.price} ₴ · ${(p.images || []).length} фото · ${p.stock != null ? 'на складі: ' + p.stock : ''}</div>
+          <div class="meta">${p.price} ₴ · ${(p.images || []).length} фото · ${p.stock != null ? 'на складі: ' + p.stock : ''}${window.KicksGender ? ' · ' + KicksGender.label(KicksGender.get(p)) : ''}</div>
         </div>
         <div class="actions">
           <button onclick="editProduct('${p.id}')">Редагувати</button>
@@ -675,6 +685,7 @@
     document.getElementById('f_brand').value = '';
     document.getElementById('f_category').value = '';
     document.getElementById('f_name').value = '';
+    document.getElementById('f_gender').value = '';
     document.getElementById('f_price').value = '';
     document.getElementById('f_oldPrice').value = '';
     document.getElementById('f_badge').value = '';
@@ -690,6 +701,29 @@
 
   document.getElementById('cancelBtn').addEventListener('click', closeEditor);
 
+  // --- Стать товару: підказка, що визначилось автоматично ---
+  function updateGenderHint() {
+    const hint = document.getElementById('f_genderHint');
+    if (!hint) return;
+    if (!window.KicksGender) { hint.textContent = ''; return; }
+    const manual = document.getElementById('f_gender').value;
+    const existing = editingId ? products.find(x => x.id === editingId) : null;
+    const probe = {
+      name: document.getElementById('f_name').value,
+      description: document.getElementById('f_description').value,
+      sizes: document.getElementById('f_sizes').value.split(',').map(s => s.trim()).filter(Boolean),
+      variants: existing && existing.variants ? existing.variants : undefined
+    };
+    const auto = KicksGender.label(KicksGender.detect(probe));
+    hint.textContent = manual
+      ? 'Вказано вручну — автоматичне визначення не використовується.'
+      : 'Автоматично визначено: ' + auto + ' (за словами «Жіночі / Чоловічі» в назві чи описі, або за розмірами).';
+  }
+  ['f_name', 'f_description', 'f_sizes', 'f_gender'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) { el.addEventListener('input', updateGenderHint); el.addEventListener('change', updateGenderHint); }
+  });
+
   window.editProduct = function(id) {
     const p = products.find(x => x.id === id);
     if (!p) return;
@@ -700,6 +734,7 @@
     document.getElementById('f_brand').value = p.brand || '';
     document.getElementById('f_category').value = p.category || '';
     document.getElementById('f_name').value = p.name || '';
+    document.getElementById('f_gender').value = p.gender || '';
     document.getElementById('f_price').value = p.price || '';
     document.getElementById('f_oldPrice').value = p.oldPrice || '';
     document.getElementById('f_badge').value = p.badge || '';
@@ -710,6 +745,7 @@
     document.getElementById('f_active').checked = p.active !== false;
     renderSpecsList();
     renderImageList(p.images || []);
+    updateGenderHint();
     openEditor();
   };
 
@@ -813,6 +849,7 @@
     const stock = document.getElementById('f_stock').value ? parseInt(document.getElementById('f_stock').value) : null;
     const sizeChart = document.getElementById('f_sizeChart').value.trim();
     const active = document.getElementById('f_active').checked;
+    const gender = document.getElementById('f_gender').value;
 
     const cleanSpecs = {};
     Object.entries(currentSpecs).forEach(([k, v]) => { if (k.trim()) cleanSpecs[k.trim()] = v; });
@@ -840,14 +877,17 @@
 
       const productData = {
         id, brand, category, name, price, oldPrice, badge, description,
-        specs: cleanSpecs, sizeChart, sizes, stock, images: finalImages, active
+        specs: cleanSpecs, sizeChart, sizes, stock, images: finalImages, active,
+        gender: gender || undefined
       };
 
       if (editingId) {
         const idx = products.findIndex(p => p.id === editingId);
         if (products[idx].placeholderColor) productData.placeholderColor = products[idx].placeholderColor;
         productData.createdAt = products[idx].createdAt || new Date().toISOString();
-        products[idx] = productData;
+        // зберігаємо службові поля CRM (source, sourceGroupId, variants, telegram_article…),
+        // інакше після редагування товар перестає оновлюватись із XML
+        products[idx] = { ...products[idx], ...productData };
       } else {
         productData.createdAt = new Date().toISOString();
         products.push(productData);
