@@ -274,13 +274,14 @@
               <button type="button" data-type="branch">Відділення</button>
               <button type="button" data-type="postomat">Поштомати</button>
             </div>
-            <select id="branchSelect" aria-label="Відділення або поштомат">
-              <option value="">Спочатку оберіть місто вище</option>
-            </select>
+            <div class="np-combo">
+              <input type="text" id="branchInput" placeholder="Почніть вводити вулицю або номер" autocomplete="off" autocorrect="off" autocapitalize="sentences" spellcheck="false" disabled>
+              <div class="np-list" id="branchDrop" hidden></div>
+            </div>
           </div>
 
+          <input type="text" id="branchManualInput" placeholder="Наприклад: 49000" style="display:none;">
           <input type="hidden" name="branchNumber" id="branchValue">
-          <input type="text" id="branchManualInput" placeholder="Впиши номер відділення вручну" style="display:none;">
           <span class="hint" id="branchHint"></span>
         </div>
 
@@ -503,40 +504,68 @@
   const cityHint = document.getElementById('cityHint');
   const npPicker = document.getElementById('npPicker');
   const npTabs = document.getElementById('npTabs');
-  const branchSelect = document.getElementById('branchSelect');
-  const branchValue = document.getElementById('branchValue');          // тут завжди фінальне значення (поле branchNumber)
+  const branchInput = document.getElementById('branchInput');
+  const branchDrop = document.getElementById('branchDrop');
   const branchManualInput = document.getElementById('branchManualInput');
+  const branchValue = document.getElementById('branchValue');   // фінальне значення, яке йде в заказ
   const branchHint = document.getElementById('branchHint');
   const branchLabel = document.getElementById('branchLabel');
 
   const proxyConfigured = !NOVA_POSHTA_PROXY.includes('твій-worker');
 
-  function updateDeliveryTypeHint() {
-    const v = deliveryTypeSelect.value;
-    const np = carrierSelect.value === 'Нова пошта' && proxyConfigured;
-    let text = '';
-    if (v === 'У відділення') text = np ? 'Заберете посилку у відділенні — оберіть його зі списку нижче.' : 'Заберете посилку у відділенні — нижче вкажете його номер або індекс.';
-    else if (v === 'У поштомат') text = np ? 'Заберете посилку у зручний час без черг — оберіть поштомат зі списку нижче.' : 'Заберете посилку в поштоматі — нижче вкажете його номер.';
-    else if (v) text = "Кур'єр привезе посилку за адресою, яку ви вкажете нижче.";
-    deliveryTypeHint.textContent = text;
-  }
-
-  // Стан вибору Нової пошти
-  const state = { city: null, points: [], loading: false, failed: false, message: '', search: '' };
+  const state = { city: null, points: [], loading: false, failed: false, message: '' };
   let cityResults = [];
   let cityActive = -1;
   let cityTimer = null;
   let citySeq = 0;
+  let branchOpen = false;
+  let branchShown = [];
+  let branchActive = -1;
   const warehouseCache = new Map();
 
-  // ----- допоміжні функції -----
   const isCourier = () => deliveryTypeSelect.value === "Кур'єром за адресою";
   const wantsPoint = () => !!deliveryTypeSelect.value && !isCourier();
-  const npEnabled = () => carrierSelect.value === 'Нова пошта' && proxyConfigured;
-  const manualMode = () => wantsPoint() && (!npEnabled() || state.failed);
+  const isNP = () => carrierSelect.value === 'Нова пошта';
+  const npEnabled = () => isNP() && proxyConfigured;
+  const manualMode = () => wantsPoint() && carrierSelect.value === 'Укрпошта';   // індекс вводиться вручну
   const activeType = () => (deliveryTypeSelect.value === 'У поштомат' ? 'postomat' : 'branch');
-  const pointType = p => (p.cat === 'Postomat' ? 'postomat' : 'branch');   // Branch + Store = відділення
+  const pointType = p => (p.cat === 'Postomat' ? 'postomat' : 'branch');         // Branch + Store = відділення
   const setBranchValue = v => { branchValue.value = v || ''; };
+
+  function updateContactMethodOptions() {
+    const noNeedOption = contactMethodSelect.querySelector('option[value="Не потрібно уточнювати"]');
+    if (carrierSelect.value === 'Укрпошта') {
+      if (noNeedOption) {
+        if (contactMethodSelect.value === 'Не потрібно уточнювати') {
+          contactMethodSelect.value = 'Telegram';
+          updateContactUI();
+        }
+        noNeedOption.remove();
+      }
+    } else if (!noNeedOption) {
+      const opt = document.createElement('option');
+      opt.value = 'Не потрібно уточнювати';
+      opt.textContent = 'Не потрібно уточнювати';
+      contactMethodSelect.appendChild(opt);
+    }
+  }
+
+  function addMessage(container, text) {
+    const div = document.createElement('div');
+    div.className = 'np-empty';
+    div.textContent = text;
+    container.appendChild(div);
+  }
+
+  function updateDeliveryTypeHint() {
+    const v = deliveryTypeSelect.value;
+    const np = npEnabled();
+    let text = '';
+    if (v === 'У відділення') text = np ? 'Заберете посилку у відділенні — почніть вводити вулицю або номер і оберіть зі списку.' : 'Заберете посилку у відділенні — вкажіть його номер.';
+    else if (v === 'У поштомат') text = np ? 'Заберете посилку у зручний час без черг — почніть вводити вулицю або номер поштомата і оберіть зі списку.' : 'Заберете посилку в поштоматі — вкажіть його номер.';
+    else if (v) text = "Кур'єр привезе посилку за адресою, яку ви вкажете нижче.";
+    deliveryTypeHint.textContent = text;
+  }
 
   async function fetchJson(url, ms = 15000) {
     const ctrl = new AbortController();
@@ -550,7 +579,13 @@
     }
   }
 
-  // Працює і з новим воркером (v4), і зі старими (v1–v3)
+  // Назва населеного пункту без району/області: "с. Чаплинка, Юр'ївський район…" → "Чаплинка"
+  function cityNameOf(label) {
+    return String(label || '').split(/,| \(/)[0]
+      .replace(/^(м\.|с\.|смт\.?|с-ще|місто|село|селище)\s*/i, '').trim();
+  }
+
+  // Працює з новим воркером (v4/v5) і зі старими (v1–v3)
   function normCity(c) {
     const isV4 = !!c.label;
     let label = c.label || c.Present || c.Description || '';
@@ -559,6 +594,7 @@
     }
     return {
       label,
+      name: cityNameOf(label),
       settlementRef: isV4 ? (c.ref || '') : (c.DeliveryCity ? (c.Ref || '') : ''),
       cityRef: isV4 ? (c.cityRef || '') : (c.DeliveryCity || c.Ref || ''),
       count: typeof c.warehouses === 'number' ? c.warehouses : (c.Warehouses !== undefined ? Number(c.Warehouses) : null)
@@ -593,30 +629,79 @@
     return list;
   }
 
-  function updateContactMethodOptions() {
-    const noNeedOption = contactMethodSelect.querySelector('option[value="Не потрібно уточнювати"]');
-    if (carrierSelect.value === 'Укрпошта') {
-      if (noNeedOption) {
-        if (contactMethodSelect.value === 'Не потрібно уточнювати') {
-          contactMethodSelect.value = 'Telegram';
-          updateContactUI();
-        }
-        noNeedOption.remove();
-      }
-    } else if (!noNeedOption) {
-      const opt = document.createElement('option');
-      opt.value = 'Не потрібно уточнювати';
-      opt.textContent = 'Не потрібно уточнювати';
-      contactMethodSelect.appendChild(opt);
-    }
+
+  // ----- поле «Відділення / поштомат» (пошук зі списком) -----
+  function countsByType() {
+    const counts = { branch: 0, postomat: 0 };
+    state.points.forEach(p => { counts[pointType(p)]++; });
+    return counts;
   }
 
-  // ----- відмальовування блоку "відділення" -----
-  function addMessage(container, text) {
-    const div = document.createElement('div');
-    div.className = 'np-empty';
-    div.textContent = text;
-    container.appendChild(div);
+  function openBranch() {
+    if (branchInput.disabled) return;
+    branchOpen = true;
+    renderBranchUI();
+  }
+
+  function closeBranch() {
+    branchOpen = false;
+    branchDrop.hidden = true;
+    branchDrop.innerHTML = '';
+    branchActive = -1;
+  }
+
+  function resetBranchInput() {
+    setBranchValue('');
+    branchInput.value = '';
+    closeBranch();
+  }
+
+  function renderDrop() {
+    const type = activeType();
+    const counts = countsByType();
+    const ofType = state.points.filter(p => pointType(p) === type);
+    const raw = branchInput.value.trim();
+    const isPicked = !!branchValue.value && raw === branchValue.value;
+    const tokens = (!raw || isPicked) ? [] : raw.toLowerCase().split(/\s+/).filter(Boolean);
+    const items = tokens.length
+      ? ofType.filter(p => { const d = p.desc.toLowerCase(); return tokens.every(tk => d.includes(tk)); })
+      : ofType;
+
+    branchDrop.innerHTML = '';
+    branchShown = items;
+    branchActive = -1;
+
+    if (ofType.length === 0) {
+      addMessage(branchDrop, type === 'branch'
+        ? `Відділень у цьому місті немає. Поштоматів: ${counts.postomat}. Перемкніть вкладку вище.`
+        : `Поштоматів у цьому місті немає. Відділень: ${counts.branch}. Перемкніть вкладку вище.`);
+    } else if (items.length === 0) {
+      addMessage(branchDrop, 'Нічого не знайдено. Спробуйте інші слова: назву вулиці або номер.');
+    } else {
+      items.forEach((p, i) => {
+        const d = document.createElement('div');
+        d.className = 'np-item' + (p.desc === branchValue.value ? ' selected' : '');
+        d.dataset.i = String(i);
+        d.textContent = p.desc;
+        branchDrop.appendChild(d);
+      });
+    }
+    branchDrop.hidden = !branchOpen;
+  }
+
+  function selectBranch(i) {
+    const p = branchShown[i];
+    if (!p) return;
+    setBranchValue(p.desc);
+    branchInput.value = p.desc;
+    closeBranch();
+    renderBranchUI();
+  }
+
+  function highlightBranch(i) {
+    const items = branchDrop.querySelectorAll('.np-item');
+    items.forEach((el, idx) => el.classList.toggle('active', idx === i));
+    if (items[i]) items[i].scrollIntoView({ block: 'nearest' });
   }
 
   function renderBranchUI() {
@@ -624,98 +709,78 @@
       ? 'Почніть вводити назву й оберіть своє місто зі списку підказок.'
       : 'Вкажіть назву міста або села.';
     updateDeliveryTypeHint();
+
     const wants = wantsPoint();
-    const manual = manualMode();
-    const pointsMode = wants && npEnabled() && !state.failed;
-
+    const np = wants && npEnabled();
     cityWrapper.classList.toggle('visible', !!deliveryTypeSelect.value);
-    branchField.classList.toggle('visible', wants);
+    branchField.classList.toggle('visible', wants && !!carrierSelect.value);
     addressField.classList.toggle('visible', isCourier());
-    npPicker.style.display = pointsMode ? 'block' : 'none';
+    npPicker.style.display = np ? 'block' : 'none';
+
+    // Укрпошта: тільки поштовий індекс
+    const manual = manualMode();
     branchManualInput.style.display = manual ? 'block' : 'none';
-
-    if (isCourier()) setBranchValue('');
-
-    // Підписи для ручного режиму
-    if (carrierSelect.value === 'Укрпошта') {
+    if (manual) {
       branchLabel.textContent = 'Поштовий індекс';
       branchManualInput.placeholder = 'Наприклад: 49000';
       branchManualInput.setAttribute('maxlength', '5');
       branchManualInput.setAttribute('inputmode', 'numeric');
-    } else {
-      branchLabel.textContent = 'Відділення / поштомат';
-      branchManualInput.placeholder = 'Впиши номер відділення вручну';
-      branchManualInput.removeAttribute('maxlength');
-      branchManualInput.removeAttribute('inputmode');
-    }
-
-    if (manual) {
       setBranchValue(branchManualInput.value.trim());
-      if (carrierSelect.value === 'Укрпошта') {
-        branchHint.textContent = 'Вкажи 5-значний поштовий індекс відділення Укрпошти у своєму місті.';
-      } else {
-        branchHint.textContent = state.message || 'Впиши номер відділення або поштомата.';
-      }
+      branchHint.textContent = 'Вкажіть 5-значний поштовий індекс відділення Укрпошти у своєму місті.';
       return;
     }
+    branchManualInput.removeAttribute('maxlength');
+    branchManualInput.removeAttribute('inputmode');
+    branchLabel.textContent = 'Відділення / поштомат';
 
-    if (!pointsMode) { branchHint.textContent = ''; return; }
+    if (!np) { branchHint.textContent = ''; return; }
 
-    // --- режим вибору зі списку Нової пошти ---
+    // Вкладки з кількістю
     const type = activeType();
-    const counts = { branch: 0, postomat: 0 };
-    state.points.forEach(p => { counts[pointType(p)]++; });
-
+    const counts = countsByType();
     npTabs.querySelectorAll('button[data-type]').forEach(b => {
-      const t = b.dataset.type;
-      b.classList.toggle('active', t === type);
-      b.textContent = (t === 'branch' ? 'Відділення' : 'Поштомати') + (state.city && !state.loading ? ` (${counts[t]})` : '');
+      const k = b.dataset.type;
+      b.classList.toggle('active', k === type);
+      const cnt = state.city && !state.loading && !state.failed ? ` (${counts[k]})` : '';
+      b.textContent = (k === 'branch' ? 'Відділення' : 'Поштомати') + cnt;
     });
 
-    const ofType = state.points.filter(p => pointType(p) === type);
-    const fill = (text, disabled) => {
-      branchSelect.innerHTML = '';
-      const o = document.createElement('option');
-      o.value = ''; o.textContent = text;
-      branchSelect.appendChild(o);
-      branchSelect.disabled = disabled;
-      branchSelect.value = '';
-    };
+    // Вибране значення має відповідати обраному типу
+    if (branchValue.value) {
+      const sel = state.points.find(p => p.desc === branchValue.value);
+      if (!sel || pointType(sel) !== type) setBranchValue('');
+    }
 
     if (!state.city) {
-      fill('Спочатку оберіть місто вище', true);
+      branchInput.disabled = true;
+      branchInput.placeholder = 'Спочатку оберіть місто вище';
+      closeBranch();
       branchHint.textContent = '';
       return;
     }
     if (state.loading) {
-      fill('Завантажуємо відділення...', true);
+      branchInput.disabled = true;
+      branchInput.placeholder = 'Завантажуємо відділення...';
+      closeBranch();
       branchHint.textContent = '';
       return;
     }
-    if (ofType.length === 0) {
-      const other = type === 'branch' ? counts.postomat : counts.branch;
-      fill(type === 'branch'
-        ? `Відділень тут немає (є поштоматів: ${other})`
-        : `Поштоматів тут немає (є відділень: ${other})`, true);
-      branchHint.textContent = 'Перемкніть вкладку вище, щоб побачити доступні точки.';
+    if (state.failed) {
+      branchInput.disabled = true;
+      branchInput.placeholder = 'Відділень не знайдено';
+      closeBranch();
+      branchHint.textContent = state.message;
       return;
     }
 
-    // Повний список без обмежень: клієнт сам прокручує й обирає
-    branchSelect.innerHTML = '';
-    const ph = document.createElement('option');
-    ph.value = '';
-    ph.textContent = type === 'branch' ? 'Оберіть відділення' : 'Оберіть поштомат';
-    branchSelect.appendChild(ph);
-    ofType.forEach(p => {
-      const o = document.createElement('option');
-      o.value = p.desc;
-      o.textContent = p.desc;
-      branchSelect.appendChild(o);
-    });
-    branchSelect.disabled = false;
-    branchSelect.value = ofType.some(p => p.desc === branchValue.value) ? branchValue.value : '';
-    branchHint.textContent = branchValue.value ? `Обрано: ${branchValue.value}` : '';
+    branchInput.disabled = false;
+    branchInput.placeholder = type === 'branch'
+      ? 'Почніть вводити вулицю або номер відділення'
+      : 'Почніть вводити вулицю або номер поштомата';
+    branchHint.textContent = branchValue.value
+      ? `Обрано: ${branchValue.value}`
+      : 'Почніть вводити вулицю або номер і оберіть зі списку, що з’явиться.';
+    if (branchOpen) renderDrop();
   }
 
   // ----- завантаження відділень -----
@@ -724,18 +789,20 @@
     state.failed = false;
     state.message = '';
     state.loading = true;
-    setBranchValue('');
+    resetBranchInput();
     renderBranchUI();
 
-    let url = `${NOVA_POSHTA_PROXY}?method=warehouses`;
-    if (city.settlementRef) url += `&settlementRef=${encodeURIComponent(city.settlementRef)}`;
-    if (city.cityRef) url += `&cityRef=${encodeURIComponent(city.cityRef)}`;
-    const key = (city.settlementRef || '') + '|' + (city.cityRef || '');
+    // Пробуємо всі відомі ідентифікатори; воркер шукає за тим, що спрацює
+    const params = new URLSearchParams({ method: 'warehouses' });
+    if (city.cityRef) params.set('cityRef', city.cityRef);
+    if (city.settlementRef) params.set('settlementRef', city.settlementRef);
+    if (city.name) params.set('cityName', city.name);
+    const key = [city.cityRef, city.settlementRef, city.name].join('|');
 
     try {
       let points = warehouseCache.get(key);
       if (!points) {
-        const json = await fetchJson(url, 25000);
+        const json = await fetchJson(`${NOVA_POSHTA_PROXY}?${params.toString()}`, 25000);
         if (json && json.success === false) throw new Error('api');
         points = preparePoints(json && json.data);
         if (points.length) warehouseCache.set(key, points);
@@ -744,7 +811,7 @@
       state.points = points;
       if (points.length === 0) {
         state.failed = true;
-        state.message = 'Нова пошта не повернула жодної точки для цього населеного пункту — впиши відділення вручну.';
+        state.message = 'Нова пошта не повернула відділень для цього міста. Оберіть інший населений пункт або напишіть нам у месенджер.';
         cityHint.textContent = '';
       } else {
         cityHint.textContent = `Знайдено точок Нової пошти: ${points.length}`;
@@ -752,7 +819,7 @@
     } catch (err) {
       if (state.city !== city) return;
       state.failed = true;
-      state.message = 'Не вдалося завантажити відділення — впиши номер вручну або обери місто ще раз.';
+      state.message = 'Не вдалося завантажити відділення. Перевірте з’єднання і оберіть місто ще раз.';
       cityHint.textContent = '';
     } finally {
       if (state.city === city) {
@@ -799,9 +866,9 @@
     state.points = [];
     state.failed = false;
     state.message = '';
-    setBranchValue('');
     hideCityList();
     cityHint.textContent = '';
+    resetBranchInput();
     if (wantsPoint() && npEnabled()) loadWarehouses(c);
     else renderBranchUI();
   }
@@ -815,26 +882,12 @@
       if (json && json.success === false) throw new Error('api');
       cityResults = ((json && json.data) || []).map(normCity).filter(c => c.label && (c.settlementRef || c.cityRef));
       showCityList();
-      if (cityResults.length === 0) {
-        cityHint.textContent = 'Місто не знайдено — перевір написання.';
-        if (wantsPoint()) {
-          state.failed = true;
-          state.message = 'Нова пошта не знайшла такий населений пункт — впиши відділення вручну.';
-          renderBranchUI();
-        }
-      } else {
-        cityHint.textContent = '';
-      }
+      cityHint.textContent = cityResults.length === 0 ? 'Місто не знайдено — перевірте написання.' : '';
     } catch (err) {
       if (seq !== citySeq) return;
       cityResults = [];
       hideCityList();
-      cityHint.textContent = 'Не вдалося завантажити список міст — впиши місто вручну.';
-      if (wantsPoint()) {
-        state.failed = true;
-        state.message = 'Не вдалося зв’язатися з Новою поштою — впиши номер відділення вручну.';
-        renderBranchUI();
-      }
+      cityHint.textContent = 'Не вдалося зв’язатися з Новою поштою. Спробуйте ще раз за хвилину.';
     }
   }
 
@@ -846,14 +899,14 @@
   }
 
   cityInput.addEventListener('input', () => {
-    // Будь-яка правка тексту скасовує попередній вибір міста
+    // Будь-яка правка тексту міста скасовує попередній вибір
     state.city = null;
     state.points = [];
     state.loading = false;
     state.failed = false;
     state.message = '';
-    setBranchValue('');
     cityHint.textContent = '';
+    resetBranchInput();
     renderBranchUI();
     scheduleCitySearch();
   });
@@ -879,15 +932,34 @@
     if (item && item.dataset.i !== undefined) selectCity(parseInt(item.dataset.i, 10));
   });
 
-  document.addEventListener('click', e => {
-    if (!e.target.closest('.np-combo')) hideCityList();
-  });
-
-  // ----- вибір відділення -----
-
-  branchSelect.addEventListener('change', () => {
-    setBranchValue(branchSelect.value);
+  // ----- поле відділення: введення і вибір -----
+  branchInput.addEventListener('focus', openBranch);
+  branchInput.addEventListener('click', openBranch);
+  branchInput.addEventListener('input', () => {
+    // змінили текст — попереднє вибране значення більше не актуальне
+    if (branchValue.value && branchInput.value.trim() !== branchValue.value) setBranchValue('');
+    branchOpen = true;
     renderBranchUI();
+  });
+  branchInput.addEventListener('keydown', e => {
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      if (!branchOpen) { openBranch(); return; }
+      branchActive = Math.min(branchShown.length - 1, branchActive + 1); highlightBranch(branchActive);
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      branchActive = Math.max(0, branchActive - 1); highlightBranch(branchActive);
+    } else if (e.key === 'Enter') {
+      e.preventDefault();
+      if (branchOpen && branchShown.length) selectBranch(branchActive >= 0 ? branchActive : 0);
+    } else if (e.key === 'Escape') {
+      closeBranch();
+    }
+  });
+  branchDrop.addEventListener('mousedown', e => e.preventDefault());   // не втрачати фокус до кліку
+  branchDrop.addEventListener('click', e => {
+    const item = e.target.closest('.np-item');
+    if (item && item.dataset.i !== undefined) selectBranch(parseInt(item.dataset.i, 10));
   });
 
   branchManualInput.addEventListener('input', () => { setBranchValue(branchManualInput.value.trim()); });
@@ -898,16 +970,18 @@
     if (!b) return;
     deliveryTypeSelect.value = b.dataset.type === 'postomat' ? 'У поштомат' : 'У відділення';
     deliveryTypeSelect.dispatchEvent(new Event('change'));
+    // після перемикання одразу показуємо список відповідного типу
+    if (!branchInput.disabled) { branchOpen = true; renderBranchUI(); }
+  });
+
+  document.addEventListener('click', e => {
+    if (!e.target.closest('#cityWrapper')) hideCityList();
+    if (!e.target.closest('#branchField')) closeBranch();
   });
 
   // ----- службa доставки / тип отримання -----
   deliveryTypeSelect.addEventListener('change', function () {
-    // Якщо тип змінився — знімаємо вибір, що не відповідає новому типу
-    if (branchValue.value && wantsPoint() && !manualMode()) {
-      const sel = state.points.find(p => p.desc === branchValue.value);
-      if (!sel || pointType(sel) !== activeType()) setBranchValue('');
-    }
-    // Місто вже обране, а відділення ще не вантажились (наприклад, раніше був "Кур'єр")
+    resetBranchInput();
     if (wantsPoint() && npEnabled() && state.city && !state.loading && !state.failed && state.points.length === 0) {
       loadWarehouses(state.city);
       return;
@@ -926,8 +1000,9 @@
     state.loading = false;
     state.failed = false;
     state.message = '';
-    setBranchValue('');
     cityHint.textContent = '';
+    branchManualInput.value = '';
+    resetBranchInput();
     renderBranchUI();
     if (npEnabled() && cityInput.value.trim().length >= 2) scheduleCitySearch();
   });
@@ -937,10 +1012,11 @@
     const box = document.getElementById('errorBox');
     let msg = '';
     if (wantsPoint()) {
-      if (!cityInput.value.trim()) msg = 'Вкажіть місто.';
-      else if (manualMode()) { if (!branchValue.value) msg = carrierSelect.value === 'Укрпошта' ? 'Вкажіть поштовий індекс відділення.' : 'Вкажіть відділення або поштомат.'; }
+      if (!carrierSelect.value) msg = 'Оберіть службу доставки.';
+      else if (!cityInput.value.trim()) msg = 'Вкажіть місто.';
+      else if (manualMode()) { if (!branchValue.value) msg = 'Вкажіть поштовий індекс відділення Укрпошти.'; }
       else if (!state.city) msg = 'Оберіть місто зі списку підказок.';
-      else if (!branchValue.value) msg = 'Оберіть відділення або поштомат зі списку.';
+      else if (!branchValue.value) msg = activeType() === 'postomat' ? 'Оберіть поштомат зі списку.' : 'Оберіть відділення зі списку.';
     }
     if (msg) {
       e.preventDefault();
