@@ -993,6 +993,11 @@
   carrierSelect.addEventListener('change', function () {
     deliveryTypeSelect.options[0].textContent = this.value ? 'Оберіть тип отримання' : 'Спочатку оберіть службу вище';
     updateContactMethodOptions();
+    // Для Нової пошти за замовчуванням — «Не потрібно уточнювати» (для Укрпошти все як раніше)
+    if (this.value === 'Нова пошта' && contactMethodSelect.value !== 'Не потрібно уточнювати') {
+      contactMethodSelect.value = 'Не потрібно уточнювати';
+      updateContactUI();
+    }
     clearTimeout(cityTimer);
     citySeq++;
     hideCityList();
