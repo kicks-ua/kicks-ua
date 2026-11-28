@@ -239,11 +239,11 @@
         <option value="Telegram">Telegram</option>
         <option value="WhatsApp">WhatsApp</option>
         <option value="Viber">Viber</option>
-        <option value="Не потрібно уточнювати">Не потрібно уточнювати</option>
+        <option value="Не потрібно уточнювати" selected>Не потрібно уточнювати</option>
       </select>
       <span class="hint" id="contactMethodHint">Оберіть, де вам зручніше отримати повідомлення від менеджера щодо замовлення.</span>
 
-      <div class="conditional-field visible" id="contactDetailsField">
+      <div class="conditional-field" id="contactDetailsField">
         <span class="label" id="contactDetailsLabel">Ваш нікнейм у Telegram</span>
         <input type="text" name="contactDetails" id="contactDetailsInput" placeholder="@nickname" autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false">
         <span class="hint" id="contactDetailsHint">Необов'язково. Якщо залишите порожнім, менеджер знайде вас у Telegram за номером телефону. Нікнейм починається з @ — його видно в налаштуваннях Telegram.</span>
